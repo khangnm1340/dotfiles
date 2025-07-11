@@ -6,11 +6,11 @@ A collection of my personal configuration files for various applications. These 
 
 These dotfiles customize my development and desktop environment, which includes configurations for:
 
--   **Window Manager:** Hyprland
--   **Terminals:**  Ghostty
--   **Shells:** Bash, Fish, Nushell
--   **Editors:** Neovim, Zed, Neovide
--   **Status Bar:** Waybar
+-   **Window Manager:** [Hyprland](https://wiki.hypr.land/)
+-   **Terminals:**  [Ghostty](https://ghostty.org/)
+-   **Shells:** Bash, [Fish](https://fishshell.com/), [Nushell](https://www.nushell.sh/) with [starship](https://starship.rs/)
+-   **Editors:** Neovim, [Zed](https://zed.dev/), [Neovide](https://neovide.dev/)
+-   **Status Bar:** [Waybar](https://wiki.archlinux.org/title/Waybar)
 -   And many other tools.
 
 The configurations are managed using [GNU Stow](https://www.gnu.org/software/stow/), which creates symlinks from this repository to the correct locations in the home directory.
@@ -20,7 +20,6 @@ The configurations are managed using [GNU Stow](https://www.gnu.org/software/sto
 ### 1. Prerequisites
 
 -   You must have [GNU Stow](https://www.gnu.org/software/stow/) installed.
--   For the terminal and status bar to look best, it's recommended to install a [Nerd Font](https://www.nerdfonts.com/).
 
 ### 2. Setup Instructions
 
@@ -32,8 +31,6 @@ The configurations are managed using [GNU Stow](https://www.gnu.org/software/sto
     ```bash
     git clone https://github.com/khangnm1340/dotfiles.git
     ```
-
-    *(You can update this with the actual URL of your repository if you host it online.)*
 
 
 3.  **Run Stow to create the symlinks**:
