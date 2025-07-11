@@ -12832,3 +12832,16 @@ stow -R --dotfiles -d dotfiles -t . pamsdots
 y
 stow -R --dotfiles -d dotfiles/ -t . pamsdots
 y
+lazygit
+git push --force
+git remote add origin git@github.com:khangnm1340/dotfiles.git
+git push --force
+git push --set-upstream origin main
+git push --set-upstream origin main --force
+y
+tmux a
+cd dotfiles/
+y
+cd ~
+cd dotfiles/
+gemini
