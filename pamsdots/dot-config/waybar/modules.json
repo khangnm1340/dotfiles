@@ -1,0 +1,112 @@
+{
+  "custom/arch": {
+    "format": "󰣇 ",
+    "on-click": "ghostty",
+    "tooltip": true,
+    "tooltip-format": "btw"
+  },
+  "custom/poweroff": {
+    "format": "⏻",
+    "on-click": "poweroff",
+    "tooltip": true,
+    "tooltip-format": "Click to power off system"
+  },
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 60,
+    "rewrite": {
+      "": "ditto"
+    },
+    "separate-outputs": true
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十",
+      "active": ""
+    },
+    "sort-by-number": true
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": " ",
+      "deactivated": " "
+    }
+  },
+  "wireplumber": {
+    "format": "{icon}{volume}%",
+    "format-muted": "",
+    "format-icons": [
+      " ",
+      " ",
+      " "
+    ],
+    "on-click": "pwvucontrol"
+  },
+  "network": {
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected ⚠",
+    "on-click": "ghostty --font-size=14 --title=btop -e btop -p 4"
+  },
+  "cpu": {
+    "interval": 1,
+    "format": " {usage}%",
+    "on-click": "ghostty --font-size=14 --title=btop -e btop -p 2"
+  },
+  "memory": {
+    "format": "  {}%",
+    "on-click": "ghostty --font-size=14 --title=btop -e btop -p 3"
+  },
+  "temperature": {
+    "interval": 1,
+    "thermal-zone": 6,
+    "critical-threshold": 90,
+    "format-critical": "{temperatureC}°C",
+    "format": " {temperatureC}°C",
+    "on-click": "ghostty --font-size=14 --title=btop -e btop -p 2"
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}{capacity}%",
+    "format-full": "{icon}{capacity}%",
+    "format-alt": "{time}{icon}",
+    "format-plugged": " {capacity}%",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "clock": {
+    "format": "{:%H:%M |%e %B}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}{percent}% ",
+    "format-icons": [
+      " ",
+      " "
+    ]
+  }
+}

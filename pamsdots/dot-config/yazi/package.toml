@@ -1,0 +1,39 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "b12a9ab"
+hash = "1f3dad061209081a6b04dd6ff2cb06c7"
+
+[[plugin.deps]]
+use = "lpanebr/yazi-plugins:first-non-directory"
+rev = "ca18a2c"
+hash = "5c20ffa5171dab34042e03d273dddc5b"
+
+[[plugin.deps]]
+use = "MasouShizuka/projects"
+rev = "96af237"
+hash = "4ed75718525437a6fdff1c44109b4ad0"
+
+[[plugin.deps]]
+use = "TD-Sky/sudo"
+rev = "af70636"
+hash = "a94dcbe9266512806c677138e8591ddb"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-frappe"
+rev = "8458d25"
+hash = ""
+
+[[flavor.deps]]
+use = "gosxrgxx/flexoki-light"
+rev = "45eb0a0"
+hash = "1ee212b0799497b54c7e60bac8931e4e"
+
+[[flavor.deps]]
+use = "muratoffalex/kanagawa-lotus"
+rev = "d84d61a"
+hash = "eef7cfa41fe51c19628d28cf453e967d"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-latte"
+rev = "d3fd3a5"
+hash = "a4d508772dc7b20d739a2f9a1d2d396f"

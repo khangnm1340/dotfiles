@@ -1,0 +1,111 @@
+# Swayimg configuration file.
+# vim: filetype=dosini
+#
+
+################################################################################
+# General configuration
+################################################################################
+[general]
+# Mode at startup (viewer/gallery)
+mode = viewer
+
+################################################################################
+# Image list configuration
+################################################################################
+[list]
+# Default order (none/alpha/reverse/random/mtime)
+order = mtime
+# Looping list of images (yes/no)
+loop = yes
+# Read directories recursively (yes/no)
+recursive = no
+# Open all files in the directory of the specified file (yes/no)
+all = yes
+
+################################################################################
+# Viewer mode configuration
+################################################################################
+[viewer]
+# Window background color (RGBA)
+window = #00000000
+# Background for transparent images (grid/RGBA)
+transparency = grid
+# Default image scale (optimal/fit/width/height/fill/real)
+scale = optimal
+# Keep absolute zoom across images (yes/no)
+keep_zoom = no
+# Initial image position
+position = center
+# Fix position of the image on the window surface (yes/no)
+fixed = yes
+# Anti-aliasing mode (none/box/bilinear/bicubic/mks13)
+antialiasing = mks13
+# Run slideshow at startup (yes/no)
+slideshow = no
+# Slideshow image display time (seconds)
+slideshow_time = 3
+# Number of previously viewed images to store in cache
+history = 0
+# Number of preloaded images (read ahead)
+preload = 50
+
+################################################################################
+# Gallery mode configuration
+################################################################################
+[gallery]
+# Max size of the thumbnail (pixels)
+size = 200
+# Max number of thumbnails in cache, 0 to unlimit
+cache = 1
+# Fill the entire tile with thumbnail (yes/no)
+fill = yes
+# Use anti-aliasing for thumbnails (yes/no)
+antialiasing = no
+# Background color of the window (RGBA)
+window = #00000000
+# Background color of the tile (RGBA)
+background = #202020ff
+# Background color of the selected tile (RGBA)
+select = #404040ff
+# Border color of the selected tile (RGBA)
+border = #000000ff
+# Shadow color of the selected tile (RGBA)
+shadow = #000000ff
+
+################################################################################
+# Font configuration
+################################################################################
+[font]
+# Font name
+#name = monospace
+name = SF Pro Display
+# Font size (pt)
+size = 20
+# Font color (RGBA)
+#color = #ccccccff
+color = #ffffff 
+# Shadow color (RGBA)
+shadow = #00000080 
+# Background color (RGBA)
+background = #00000050
+
+################################################################################
+# Viewer mode key binding configuration: key = action [parameters]
+################################################################################
+[keys.viewer]
+k = prev_file 
+j = next_file
+Shift+l = step_left 15
+Shift+h = step_right 15
+Shift+k = step_up 15
+Shift+j = step_down 15
+g = first_file
+Shift+g = last_file
+
+[keys.gallery]
+g = first_file
+Shift+g = last_file
+h = step_left
+l = step_right
+k = step_up
+j = step_down

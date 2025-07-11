@@ -1,0 +1,25 @@
+[mgr]
+prepend_keymap = [
+      #	{ on = "<C-K>", run = "arrow -99999999", desc = "Move cursor to the top" },
+      #	{ on = "<C-J>", run = "arrow 99999999",  desc = "Move cursor to the bottom" },
+      { on = "<C-y>", run = [''' shell 'for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list' ''', "yank"], desc = "Yank to clipboard" },
+      { on = ["R", "r"], run = "plugin sudo --args='rename'", desc = "sudo rename" },
+      # { on = ["g", "j"], run = "cd ~/Documents/pam", desc = "Cd to pam notes" },
+      { on = ["g", "k"], run = "cd /home/Ext4Pam/Pictures/Arch_pics", desc = "Cd to Arch pics" },
+      { on = ["g", "j"], run = "cd ~/.config", desc = "Cd to config" },
+      { on = "Z", run = "plugin fzf", desc = "Jump to a file/directory via fzf" },
+      { on = "z", run = "plugin zoxide", desc = "Jump to a directory via zoxide" },
+      { on = ["f", "j"], run = "plugin first-non-directory", desc = "Jumps to the first file" },
+      { on = "<C-f>", run = "open --interactive", desc = "Open selected files interactively" },
+      { on = "<C-z>", run = "plugin hanni", desc = "fzf" },
+
+
+      { on = ["e", "q"], run = "plugin projects quit", desc = "Save last project and exit the process" },
+      { on = ["e", "s"], run = "plugin projects save", desc = "Save current project" },
+      { on = ["e", "j"], run = "plugin projects load", desc = "Load project" },
+      { on = ["e", "e"], run = "plugin projects load_last", desc = "Load last project" },
+      { on = ["e", "d"], run = "plugin projects delete", desc = "Delete project" },
+      { on = ["e", "D"], run = "plugin projects delete_all", desc = "Delete all projects" },
+      { on = ["e", "m"], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects" },
+      { on = ["e", "M"], run = "plugin projects 'merge all'", desc = "Merge current project to other projects" },
+]

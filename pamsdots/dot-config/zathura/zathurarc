@@ -1,0 +1,20 @@
+
+
+# set scrolling options
+set scroll-step 100
+
+set font "SF Pro 16"
+# mappings
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map - zoom out
+map = zoom in
+map h navigate previous
+map l navigate next
+
+set selection-clipboard clipboard
+
+include catppuccin-latte
+# include catppuccin-macchiato

@@ -1,0 +1,31 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  caps ralt , rctrl f h
+)
+
+(defvar
+  tap-time 0
+  hold-time 200
+)
+
+(defalias
+  f-mod (tap-hold-release $tap-time $hold-time f lsft )
+  h-mod (tap-hold-release $tap-time $hold-time h lsft )
+)
+
+(deflayer default 
+  esc
+  lctrl
+  bspc
+  ,
+  @f-mod @h-mod 
+)
+
+
+
+
+
+

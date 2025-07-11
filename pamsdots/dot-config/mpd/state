@@ -1,0 +1,215 @@
+sw_volume: 100
+audio_device_state:1:PipeWire Sound Server
+state: pause
+current: 183
+time: 41.665
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: but I'm a creep
+playlist_begin
+0:OMORI - OMORI OST/001 - Title.flac
+1:OMORI - OMORI OST/002 - WHITE SPACE.flac
+2:OMORI - OMORI OST/003 - Lost At A Sleepover.flac
+3:OMORI - OMORI OST/004 - Spaces In-between.flac
+4:OMORI - OMORI OST/005 - By Your Side..flac
+5:OMORI - OMORI OST/006 - Let's Get Together Now!.flac
+6:OMORI - OMORI OST/007 - 100 Sunny.flac
+7:OMORI - OMORI OST/008 - Trouble Brewing.flac
+8:OMORI - OMORI OST/009 - Push & Shove.flac
+9:OMORI - OMORI OST/010 - So, How'd We Do_.flac
+10:OMORI - OMORI OST/011 - It's Okay To Try Again....flac
+11:OMORI - OMORI OST/012 - Trees....flac
+12:OMORI - OMORI OST/013 - A Home For Flowers (Tulip).flac
+13:OMORI - OMORI OST/014 - Acrophobia.flac
+14:OMORI - OMORI OST/015 - Tussle Among Trees.flac
+15:OMORI - OMORI OST/016 - A Place By A Lake.flac
+16:OMORI - OMORI OST/017 - Forest Chillin'.flac
+17:OMORI - OMORI OST/018 - Poems In The Fog.flac
+18:OMORI - OMORI OST/019 - Space Road 1979.flac
+19:OMORI - OMORI OST/020 - See In Your Fantasy.flac
+20:OMORI - OMORI OST/021 - Sugar Star Planetarium.flac
+21:OMORI - OMORI OST/022 - Lost, Then Found!.flac
+22:OMORI - OMORI OST/023 - THE VENGEANCE OF THOSE FORGOTTEN IN DARKNESS.flac
+23:OMORI - OMORI OST/024 - Recycling Is A Concept!.flac
+24:OMORI - OMORI OST/025 - Lovesick - 80,000 Lightyears.flac
+25:OMORI - OMORI OST/026 - I Will Catch Up!.flac
+26:OMORI - OMORI OST/027 - Three Bar Logos.flac
+27:OMORI - OMORI OST/028 - YO DJ PUMP THIS PARTY.flac
+28:OMORI - OMORI OST/029 - Good For Health, Bad For Imagination.flac
+29:OMORI - OMORI OST/030 - Snow Forest - A Single Flower Blooms.flac
+30:OMORI - OMORI OST/031 - White Surf Style 6.flac
+31:OMORI - OMORI OST/032 - Stardust Diving.flac
+32:OMORI - OMORI OST/033 - Oh My God..flac
+33:OMORI - OMORI OST/034 - A Rose By Any Other Name....flac
+34:OMORI - OMORI OST/035 - Stardust Dusting.flac
+35:OMORI - OMORI OST/036 - CHAOS ASSEMBLY.flac
+36:OMORI - OMORI OST/037 - The Elegance of the Mysterious and Distant.flac
+37:OMORI - OMORI OST/038 - Space Boyfriend's Tape - I Want Nothing More.flac
+38:OMORI - OMORI OST/039 - Trouble - NEVER-ALWAYS.flac
+39:OMORI - OMORI OST/040 - You Were Wrong. Go Back..flac
+40:OMORI - OMORI OST/041 - Such A Time We Had Together.flac
+41:OMORI - OMORI OST/042 - Photograph.flac
+42:OMORI - OMORI OST/043 - Finding Shapes in the Clouds.flac
+43:OMORI - OMORI OST/044 - Where We Used To Play.flac
+44:OMORI - OMORI OST/045 - Bargain Bin Boys.flac
+45:OMORI - OMORI OST/046 - Woof.flac
+46:OMORI - OMORI OST/047 - Realistic Space Simulation.flac
+47:OMORI - OMORI OST/048 - Jash Bash.flac
+48:OMORI - OMORI OST/049 - Jash Bash 2_ New Age of Heroes.flac
+49:OMORI - OMORI OST/050 - Jash Bash 3_ Jashpocalypse Infinity.flac
+50:OMORI - OMORI OST/051 - Clash of Jash.flac
+51:OMORI - OMORI OST/052 - Take A Load Off.flac
+52:OMORI - OMORI OST/053 - I Prefer My Pizza 90% Grease.flac
+53:OMORI - OMORI OST/054 - Fresh...ish....flac
+54:OMORI - OMORI OST/055 - High Fructose Headache.flac
+55:OMORI - OMORI OST/056 - I Think My Dad Shops Here....flac
+56:OMORI - OMORI OST/057 - Just Leave Me Alone.flac
+57:OMORI - OMORI OST/058 - Cram It Wad.flac
+58:OMORI - OMORI OST/059 - Respite.flac
+59:OMORI - OMORI OST/060 - It Means Everything..flac
+60:OMORI - OMORI OST/061 - See You Tomorrow.flac
+61:OMORI - OMORI OST/062 - A Home For Flowers (Empty).flac
+62:OMORI - OMORI OST/063 - Help Me.flac
+63:OMORI - OMORI OST/064 - Arachnophobia.flac
+64:OMORI - OMORI OST/065 - Something, Alone.flac
+65:OMORI - OMORI OST/066 - Fade.flac
+66:OMORI - OMORI OST/067 - The Heart of the Desert.flac
+67:OMORI - OMORI OST/068 - Puddles.flac
+68:OMORI - OMORI OST/069 - PRANKED..flac
+69:OMORI - OMORI OST/070 - An Archaeic Resonance.flac
+70:OMORI - OMORI OST/071 - 'X' Marks The Spot!.flac
+71:OMORI - OMORI OST/072 - Those Who Forget History.flac
+72:OMORI - OMORI OST/073 - Tumbleweeds.flac
+73:OMORI - OMORI OST/074 - Pyrefly Forest - Cat's Cradle.flac
+74:OMORI - OMORI OST/075 - Forest Frenzy.flac
+75:OMORI - OMORI OST/076 - Sweet Paralysis.flac
+76:OMORI - OMORI OST/077 - Sweetheart's Quest For Hearts.flac
+77:OMORI - OMORI OST/078 - How...sad!.flac
+78:OMORI - OMORI OST/079 - How...tragic!.flac
+79:OMORI - OMORI OST/080 - Eternal Dungeon.flac
+80:OMORI - OMORI OST/081 - Splintered Sweets In The Castle.flac
+81:OMORI - OMORI OST/082 - Wandering Rose.flac
+82:OMORI - OMORI OST/083 - Stationary Rose.flac
+83:OMORI - OMORI OST/084 - Valour Against All Odds.flac
+84:OMORI - OMORI OST/085 - I Definitely Promised You A Rose Garden.flac
+85:OMORI - OMORI OST/086 - World's End Valentine.flac
+86:OMORI - OMORI OST/087 - I Just Love The 50s!!!.flac
+87:OMORI - OMORI OST/088 - Lost Library.flac
+88:OMORI - OMORI OST/089 - Bookcase.flac
+89:OMORI - OMORI OST/090 - Thrifted Tchotchkes.flac
+90:OMORI - OMORI OST/091 - Swirly 1000x.flac
+91:OMORI - OMORI OST/092 - Dear Little Brother....flac
+92:OMORI - OMORI OST/093 - Thalassophobia.flac
+93:OMORI - OMORI OST/094 - Water.flac
+94:OMORI - OMORI OST/095 - Hanging With The Boys.flac
+95:OMORI - OMORI OST/096 - WHITE SPACE.flac
+96:OMORI - OMORI OST/097 - Origin.flac
+97:OMORI - OMORI OST/098 - Long Way Down....flac
+98:OMORI - OMORI OST/099 - The Last Resort.flac
+99:OMORI - OMORI OST/100 - Not-So-Empty-House.flac
+100:OMORI - OMORI OST/101 - It's A Ghost Dance.flac
+101:OMORI - OMORI OST/102 - Room For 4.flac
+102:OMORI - OMORI OST/103 - Gator Gambol.flac
+103:OMORI - OMORI OST/104 - Clams Clams Clams.flac
+104:OMORI - OMORI OST/105 - Jawbreaker.flac
+105:OMORI - OMORI OST/106 - GOLDENVENGEANCE.flac
+106:OMORI - OMORI OST/107 - Underwater Highway.flac
+107:OMORI - OMORI OST/108 - Squall.flac
+108:OMORI - OMORI OST/109 - Aquifer.flac
+109:OMORI - OMORI OST/110 - Numbers.flac
+110:OMORI - OMORI OST/111 - Sinking.flac
+111:OMORI - OMORI OST/112 - H20_HCL.flac
+112:OMORI - OMORI OST/113 - Chemistry On And On.flac
+113:OMORI - OMORI OST/114 - But I Wanna See It All With You!.flac
+114:OMORI - OMORI OST/115 - Grimey.flac
+115:OMORI - OMORI OST/116 - Underwater Prom Queens.flac
+116:OMORI - OMORI OST/117 - Whale Whale Whale.flac
+117:OMORI - OMORI OST/118 - Swallow Hollow.flac
+118:OMORI - OMORI OST/119 - Gross....flac
+119:OMORI - OMORI OST/120 - That One Song But It's Some Mermaids.flac
+120:OMORI - OMORI OST/121 - Undertow.flac
+121:OMORI - OMORI OST/122 - WHITE SPACE.flac
+122:OMORI - OMORI OST/123 - Fermentation Disorientation.flac
+123:OMORI - OMORI OST/124 - Flouring With You.flac
+124:OMORI - OMORI OST/125 - BREADY STEADY GO.flac
+125:OMORI - OMORI OST/126 - Recyling Really Is A Concept.flac
+126:OMORI - OMORI OST/127 - Remember To Be Patient.flac
+127:OMORI - OMORI OST/128 - Cold!.flac
+128:OMORI - OMORI OST/129 - You Cannot Go Back.flac
+129:OMORI - OMORI OST/130 - Tee-hee Time.flac
+130:OMORI - OMORI OST/131 - Welcome Again..flac
+131:OMORI - OMORI OST/132 - Fleur.flac
+132:OMORI - OMORI OST/133 - Distance.flac
+133:OMORI - OMORI OST/134 - Drone.flac
+134:OMORI - OMORI OST/135 - Calm.flac
+135:OMORI - OMORI OST/136 - Glade.flac
+136:OMORI - OMORI OST/137 - 56-12-2.flac
+137:OMORI - OMORI OST/138 - Bloom.flac
+138:OMORI - OMORI OST/139 - August-Water.flac
+139:OMORI - OMORI OST/140 - 5ths.flac
+140:OMORI - OMORI OST/141 - Waiting For....flac
+141:OMORI - OMORI OST/142 - Nawa.flac
+142:OMORI - OMORI OST/143 - White Pillars.flac
+143:OMORI - OMORI OST/144 - Come and See.flac
+144:OMORI - OMORI OST/145 - Friends..flac
+145:OMORI - OMORI OST/146 - Friendsssssss..flac
+146:OMORI - OMORI OST/147 - Orchard.flac
+147:OMORI - OMORI OST/148 - Temple.flac
+148:OMORI - OMORI OST/149 - Look.flac
+149:OMORI - OMORI OST/150 - Bad Morning.flac
+150:OMORI - OMORI OST/151 - Listening.flac
+151:OMORI - OMORI OST/152 - A Red Shape.flac
+152:OMORI - OMORI OST/153 - Do You Remember_.flac
+153:OMORI - OMORI OST/154 - Playing Forever.flac
+154:OMORI - OMORI OST/155 - Treehouse - Here We Are, Together Again.flac
+155:OMORI - OMORI OST/156 - Save.flac
+156:OMORI - OMORI OST/157 - Something.flac
+157:OMORI - OMORI OST/158 - A Home For Flowers (Daisy).flac
+158:OMORI - OMORI OST/159 - Remina.flac
+159:OMORI - OMORI OST/160 - Normal..flac
+160:OMORI - OMORI OST/161 - Your Catastrophes.flac
+161:OMORI - OMORI OST/162 - Your Catastrophes - Procession.flac
+162:OMORI - OMORI OST/163 - Crossroads.flac
+163:OMORI - OMORI OST/164 - The Violin.flac
+164:OMORI - OMORI OST/165 - A Home For Flowers (Sunflower).flac
+165:OMORI - OMORI OST/166 - You Must Carry On..flac
+166:OMORI - OMORI OST/167 - Remembrance..flac
+167:OMORI - OMORI OST/168 - OMORI.flac
+168:OMORI - OMORI OST/169 - OMORI - ALTER.flac
+169:OMORI - OMORI OST/170 - Try Again Little Brother.flac
+170:OMORI - OMORI OST/171 - Persevere.flac
+171:OMORI - OMORI OST/172 - DUET.flac
+172:OMORI - OMORI OST/173 - Gone.flac
+173:OMORI - OMORI OST/174 - Wake Up.flac
+174:OMORI - OMORI OST/175 - Clean Slate.flac
+175:OMORI - OMORI OST/176 - The Truth.flac
+176:OMORI - OMORI OST/177 - Good Morning.flac
+177:OMORI - OMORI OST/178 - My Time.flac
+178:OMORI - OMORI OST/179 - Fin.flac
+179:Tyler, The Creator - CHROMAKOPIA/12. Like Him (feat. Lola Young).m4a
+180:Tyler, The Creator - CHROMAKOPIA/13. Balloon (feat. Doechii).m4a
+181:Tyler, The Creator - Flower Boy/02. Where This Flower Blooms (feat. Frank Ocean).m4a
+182:Tyler, The Creator - Flower Boy/04. See You Again (feat. Kali Uchis).m4a
+183:ye/06. Ghost Town.flac
+184:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/16 Color Your Night.flac
+185:30 It's Going Down Now.flac
+186:Elsewhere-KIKOU - Elswhere Kikou/01. Elswhere Kikou.m4a
+187:Elsewhere-KIKOU - Elswhere Kikou/09. My Strange Town.m4a
+188:Fancy That (2025) [WEB]/01 - Illegal.flac
+189:Lauryn Hill - The Miseducation of Lauryn Hill/04. To Zion (feat. Carlos Santana).m4a
+190:Lauryn Hill - The Miseducation of Lauryn Hill/03. Ex-Factor.m4a
+191:Hitsujibungaku - our hope/02. Hikaru toki.m4a
+192:ILLIT - bomb (ALAC) [16-Bit 44.1-kHz]/2. Billyeoon Goyangi (Do the Dance).m4a
+193:LE SSERAFIM - CRAZY - EP/02. CRAZY.m4a
+194:Machine Girl - Wlfgrl/01. Mg1.m4a
+195:Magdalena Bay - Imaginal Disk/02. Killing Time.m4a
+196:Mariya Takeuchi - Expressions (MOON Version)/31. Shiawasenomonosashi.m4a
+197:the peggies - MMY/06. Kiminosei (Remastered 2022).m4a
+198:the peggies - MMY/10. Centimeter (Remastered 2022).m4a
+199:Trung Tâm Băng Đĩa Lậu Hải Ngoại - Hiếu Thứ Tha - Single/01. Hiếu Thứ Tha.m4a
+playlist_end

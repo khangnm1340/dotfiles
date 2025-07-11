@@ -1,0 +1,11 @@
+~/.config
+~/.config/yazi
+~/.config/nushell
+~/.config/tmuxinator
+~/Documents/UTH/python/Django-library/Library-Management-System-Django
+/home/Ext4Pam/Pictures/Pictures/yt_downloads
+/home/Ext4Pam/Pictures/NewjeansPics
+/home/Ext4Pam/Pictures/mp3s-20240813T125945Z-001/aoi_sangousho
+/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)
+/home/pampam/.local/share/nvim/sessions
+/home/pampam/Documents/pam/1-Rough-Note

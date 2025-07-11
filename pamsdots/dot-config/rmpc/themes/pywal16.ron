@@ -1,0 +1,125 @@
+#![enable(implicit_some)]
+#![enable(unwrap_newtypes)]
+#![enable(unwrap_variant_newtypes)]
+(
+    default_album_art_path: None,
+    show_song_table_header: true,
+    draw_borders: true, // Keeping original 'draw_borders' value
+    browser_column_widths: [20, 38, 42],
+    background_color: "#24273a", // Base
+    text_color: "#cad3f5", // Text
+    header_background_color: "#1e2030", // Crust
+    modal_background_color: None, // Keep as None unless a specific modal color is desired
+    tab_bar: (
+        enabled: true, // Keeping original 'enabled' value
+        active_style: (fg: "black", bg: "#c6a0f6", modifiers: "Bold"), // Mauve for active tab
+        inactive_style: (),
+    ),
+    highlighted_item_style: (fg: "#c6a0f6", modifiers: "Bold"), // Mauve
+    current_item_style: (fg: "black", bg: "#b7bdf8", modifiers: "Bold"), // Lavender (from Frappe, closest to original "current_item_style" in Cappuchin.ron)
+    borders_style: (fg: "#6e738d"), // Overlay0
+    highlight_border_style: (fg: "#b7bdf8"), // Lavender (from Frappe)
+    symbols: (song: "🎵", dir: "📁", marker: "\u{e0b0}"), // Using symbols from Cappuchin.ron
+    progress_bar: (
+        symbols: ["", "⭘", " "], // Using symbols from Cappuchin.ron
+        track_style: (bg: "#1e2030"), // Crust
+        elapsed_style: (fg: "#c6a0f6", bg: "#1e2030"), // Mauve for elapsed, Crust for background
+        thumb_style: (fg: "#c6a0f6", bg: "#1e2030"), // Mauve for thumb, Crust for background
+    ),
+    scrollbar: (
+        symbols: ["│", "█", "▲", "▼"],
+        track_style: (),
+        ends_style: (),
+        thumb_style: (fg: "#b7bdf8"), // Lavender (from Frappe)
+    ),
+    song_table_format: [
+        (
+            prop: (kind: Property(Artist),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "20%", // Keeping original width
+        ),
+        (
+            prop: (kind: Property(Title),
+                default: (kind: Text("Unknown"))
+            ),
+            width: "35%", // Keeping original width
+        ),
+        (
+            prop: (kind: Property(Album), style: (fg: "#cad3f5"), // Text color for Album
+                default: (kind: Text("Unknown Album"), style: (fg: "#cad3f5")) // Text color for Album
+            ),
+            width: "30%", // Keeping original width
+        ),
+        (
+            prop: (kind: Property(Duration),
+                default: (kind: Text("-"))
+            ),
+            width: "15%", // Keeping original width
+            alignment: Right,
+        ),
+    ],
+    header: (
+        rows: [
+            (
+                left: [
+                    (kind: Text("["), style: (fg: "#b7bdf8", modifiers: "Bold")), // Lavender for brackets
+                    (kind: Property(Status(State)), style: (fg: "#b7bdf8", modifiers: "Bold")), // Lavender for status state
+                    (kind: Text("]"), style: (fg: "#b7bdf8", modifiers: "Bold")) // Lavender for brackets
+                ],
+                center: [
+                    (kind: Property(Song(Title)), style: (fg: "#7dc4e4", modifiers: "Bold"), // Sky for song title
+                        default: (kind: Text("No Song"), style: (fg: "#7dc4e4", modifiers: "Bold")) // Sky for song title
+                    )
+                ],
+                right: [
+                    (kind: Property(Widget(Volume)), style: (fg: "#b7bdf8")) // Lavender for volume
+                ]
+            ),
+            (
+                left: [
+                    (kind: Property(Status(Elapsed))),
+                    (kind: Text(" / ")),
+                    (kind: Property(Status(Duration))),
+                    (kind: Text(" (")),
+                    (kind: Property(Status(Bitrate))),
+                    (kind: Text(" kbps)"))
+                ],
+                center: [
+                    (kind: Property(Song(Artist)), style: (fg: "#eed49f", modifiers: "Bold"), // Yellow for artist
+                        default: (kind: Text("Unknown"), style: (fg: "#eed49f", modifiers: "Bold")) // Yellow for artist
+                    ),
+                    (kind: Text(" - ")),
+                    (kind: Property(Song(Album)), style: (fg: "#cad3f5"), // Text color for album
+                        default: (kind: Text("Unknown Album"), style: (fg: "#cad3f5")) // Text color for album
+                    )
+                ],
+                right: [
+                    (
+                        kind: Property(Widget(States(
+                            active_style: (fg: "#cad3f5", modifiers: "Bold"), // Text color for active states
+                            separator_style: (fg: "#cad3f5"))) // Text color for separator
+                        ),
+                        style: (fg: "#6c6f85") // Subtext0 for overall style
+                    ),
+                ]
+            ),
+        ],
+    ),
+    browser_song_format: [
+        (
+            kind: Group([
+                (kind: Property(Track)),
+                (kind: Text(" ")),
+            ])
+        ),
+        (
+            kind: Group([
+                (kind: Property(Artist)),
+                (kind: Text(" - ")),
+                (kind: Property(Title)),
+            ]),
+            default: (kind: Property(Filename))
+        ),
+    ],
+)

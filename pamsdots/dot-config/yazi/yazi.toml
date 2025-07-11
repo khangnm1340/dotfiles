@@ -1,0 +1,61 @@
+[opener]
+dragndrop = [{ run = 'ripdrag "$@"', desc = "drag and drop" }]
+open = [{ run = 'xdg-open "$@"', orphan = true, desc = "Open" }]
+open_image = [
+      { run = 'swayimg "$@"', orphan = true, desc = "Open with swayimg" },
+      { run = 'gimp "$@"', orphan = true, desc = "Open with GIMP" },
+      # { run = 'shotwell "$@"', orphan = true, desc = "Open with shotwell" },
+]
+open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
+reveal = [{ run = 'thunar "$@"', desc = "Reveal", for = "linux" }]
+edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
+extract = [
+      { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+]
+
+
+[open]
+rules = [
+      # Multiple openers for a single rule
+      { name = "*.html", use = ["edit", "open", "reveal"] },
+      { name = "*.cbz", use = ["open", "reveal"] },
+      { name = "*.cbz", use = ["open", "reveal"] },
+      { name = "*.pdf", use = ["open", "open_pdf", "reveal"] },
+      # Folder
+      { name = "*/", use = ["dragndrop", "reveal"] },
+      # Text
+      { mime = "text/*", use = ["edit", "reveal"] },
+      # Image
+      { mime = "image/*", use = ["open_image", "reveal"] },
+      # Media
+      { mime = "{audio,video}/*", use = ["play", "reveal"] },
+      # Archive
+      { name = "*.{zip,rar,7z*,tar,xz}", use = ["extract", "reveal"] },
+      # JSON
+      { mime = "application/{json,ndjson}", use = ["edit", "reveal"] },
+      { mime = "*/javascript", use = ["edit", "reveal"] },
+      # Empty file
+      { mime = "inode/empty", use = ["edit", "reveal"] },
+      # Fallback
+      { name = "*", use = ["open", "reveal", "dragndrop"] },
+]
+
+
+[mgr]
+show_hidden = true
+ratio = [1, 4, 3]
+sort_by = "mtime"
+sort_reverse = true
+
+[preview]
+wrap = "no"
+tab_size = 2
+max_width = 1080
+max_height = 900
+cache_dir = "/home/pampam/.cache/yazi"
+image_delay = 0
+image_filter = "lanczos3"
+image_quality = 90
+sixel_fraction = 15
+ueberzug_scale = 1
+ueberzug_offset = [0, 0, 0, 0]

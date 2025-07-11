@@ -1,0 +1,236 @@
+* {
+  border: none;
+  border-radius: 8;
+  font-family: "JetbrainsMono Nerd Font Propo";
+  font-size: 16px;
+  min-height: 20px;
+  font-weight: bold;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#window {
+  margin-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: transparent;
+  background: transparent;
+}
+
+#workspaces {
+  margin-top: 6px;
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  background: #fbf1c7;
+  /* default: background: #161320; */
+  transition: none;
+}
+
+#workspaces button {
+  transition: none;
+  color: #3c3836;
+  /* color: #fbf1c7; */
+  /* default: color: #b5e8e0; */
+  background: transparent;
+  border-radius: 2px;
+}
+
+#workspaces button.active {
+  color: #282828;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#workspaces button:hover {
+  transition: none;
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: #d65d0e;
+  border-color: #d65d0e;
+  /* border-color: #e8a2af; */
+  /* color: #e8a2af; */
+}
+
+#network {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fb4934;
+  /*default: background: #bd93f9;*/
+}
+
+#wireplumber {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #1a1826;
+  background: #fae3b0;
+}
+
+#battery {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #a3cebe;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #b5e8e0;
+  color: #161320;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  to {
+    background-color: #bf616a;
+    color: #b5e8e0;
+  }
+}
+
+#backlight {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #f8bd96;
+}
+
+#clock {
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fbf1c7;
+  /*default: background: #abe9b3; */
+}
+
+#memory {
+  margin-top: 6px;
+  margin-left: 8px;
+  /* padding-left: 2px; */
+  margin-bottom: 0px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fabd2f;
+  /*default: background: #ddb6f2; */
+}
+
+#cpu {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #d0d32b;
+  /*default: background: #96cdfb; */
+}
+
+#temperature {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fe8019;
+}
+
+#custom-launcher {
+  font-size: 24px;
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 10px;
+  transition: none;
+  color: #fe8019;
+  /*default: color: #89dceb; */
+  background: #161320;
+}
+
+#custom-media {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #f2cdcd;
+}
+
+#custom-arch {
+  margin-top: 6px;
+  margin-left: 8px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  /* padding-right: 10px; */
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fbf1c7;
+}
+#custom-arch:hover {
+    color: #1793d1;
+}
+
+#custom-poweroff {
+  margin-top: 6px;
+  margin-right: 6px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 0px;
+  /* padding-right: 10px; */
+  border-radius: 10px;
+  transition: none;
+  color: #161320;
+  background: #fbf1c7;
+}

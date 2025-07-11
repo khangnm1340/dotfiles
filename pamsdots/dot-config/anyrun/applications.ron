@@ -1,0 +1,15 @@
+// <Anyrun config dir>/applications.ron
+Config(
+    /// Limit amount of entries shown by the applications plugin (default: 5)
+    max_entries: 3, // or whatever you want your max to be
+    /// Whether to evaluate desktop actions as well as desktop applications (default: false)
+    desktop_actions: false,
+    /// Whether to use a specific terminal or just the first terminal available (default: None)
+    terminal: Some(Terminal(
+      // The main terminal command
+      command: "ghostty",
+      // What arguments should be passed to the terminal process to run the command correctly
+      // {} is replaced with the command in the desktop entry
+      args: "-e {}",
+  )),
+)

@@ -1,0 +1,30 @@
+frame = "none"
+
+[font]
+size = 15
+hinting = "full"
+edging = "antialias"
+
+[[font.normal]]
+family = "JetBrainsMono Nerd Font"
+style = "W400"
+
+[[font.bold]]
+family = "JetBrainsMono Nerd Font"
+style = "W600"
+
+# [[font.normal]]
+# family = "Liga SFMono Nerd Font"
+# style = "W400"
+#
+# [[font.bold]]
+# family = "Liga SFMono Nerd Font"
+# style = "W600"
+
+# [[font.normal]]
+# family = "Iosevka Nerd Font"
+# style = "W400"
+#
+# [[font.bold]]
+# family = "Iosevka Nerd Font"
+# style = "W600"

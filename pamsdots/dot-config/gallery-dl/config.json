@@ -1,0 +1,10 @@
+{
+  "extractor": {
+    "instagram": {
+      "cookies": "/home/Ext4Pam/Pictures/Arch_pics/womp_womp/cookies-instagram-com.txt"
+    },
+    "twitter": {
+      "cookies": "/home/Ext4Pam/Pictures/Arch_pics/womp_womp/cookies-x-com.txt"
+    }
+  }
+}

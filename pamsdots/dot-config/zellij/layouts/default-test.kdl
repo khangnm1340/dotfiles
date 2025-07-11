@@ -1,0 +1,46 @@
+layout {
+//    swap_tiled_layout name="h2v" {
+//        tab {
+//            pane
+//            pane
+//            pane
+//        }
+//    }
+//        tab {
+//            pane split_direction="vertical" {
+//                pane
+//                pane
+//                pane
+//            }
+//        }
+
+
+       tab_template name="bernie" {
+
+        pane borderless=true {
+         plugin location="zellij:strider" {
+             cwd "/"
+         }
+        }
+
+        pane split_direction="vertical" {
+            pane command="nvim"
+            children
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+
+    } 
+    bernie name="my first tab" split_direction="horizontal" {
+        pane
+        pane {
+                command "btop" 
+                focus true
+        }
+    }
+    bernie name="my second tab" split_direction="vertical" {
+        pane
+        pane
+    }
+}

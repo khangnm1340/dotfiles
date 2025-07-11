@@ -1,0 +1,50 @@
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lalt           spc            ralt rctl
+)
+
+(deflayer base
+  @grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  esc a    s    d    @f-mod    g     h    j    k    l    @;-mod    '    ret
+  lsft z    x    c    v    b    @1num    m    bspc    .    /    rsft
+  rctl lalt           spc            lctl  ,
+)
+
+
+(defvar
+  tap-time 0
+  hold-time 200
+)
+
+(deflayer num
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  end  7    8    9    0    5    6    4    3    2    1    [    ]    \
+  home  `    \    [     ]    g   h    j    k    l   @;-mod    '    ret
+  lsft z    x    c    v    b    n    sft   bspc    .    /    rsft
+  lctl lalt           spc            ralt rctl
+)
+
+
+(deflayer arrows
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    left    down   up    right    @;-mod    '    ret
+  lsft z    x    c    v    b    del       m    bspc    .    /    rsft
+  lctl lalt           spc            rctl ralt
+)
+
+(defalias
+  f-mod (tap-hold-release $tap-time $hold-time f lsft )
+  ;-mod (tap-hold-release $tap-time $hold-time ; lsft )
+  grv (tap-hold-release $tap-time $hold-time grv (layer-toggle arrows))
+  1num (tap-hold-release $tap-time $hold-time n (layer-toggle num))
+)
+
+
+
+
+

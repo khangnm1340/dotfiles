@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	name = pampam
+	email = khangnm1340@ut.edu.vn
+[core]
+	editor = nvim
+[color]
+	ui = auto

@@ -1,0 +1,20 @@
+{
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "vim_mode": true,
+  "ui_font_size": 20,
+  "buffer_font_size": 20,
+  "theme": {
+    "mode": "system",
+    "light": "Tokyo Night",
+    "dark": "Tokyo Night"
+  },
+  "jupyter": {
+    "kernel_selections": {
+      "python": "ipykernel"
+    }
+  }
+}
