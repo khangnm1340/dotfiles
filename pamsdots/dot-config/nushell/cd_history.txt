@@ -9,3 +9,6 @@
 /home/Ext4Pam/Pictures/君のせい(kimi_no_sei)
 /home/pampam/.local/share/nvim/sessions
 /home/pampam/Documents/pam/1-Rough-Note
+/home/Ext4Pam/Pictures/Arch_pics
+/home/Ext4Pam/Pictures/Arch_pics/Save_webP
+/home/pampam/Pictures/Screenshots/is-hyprland

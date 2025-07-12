@@ -50,7 +50,7 @@ windows:
         - yazi
   - rmpc: # <--- This uses the "Detailed window" structure
       panes:
-        - rmpc
+        -
   - monitor: # <--- This uses the "Simple single-pane window" structure
       panes:
         - btop

@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
 current: 183
-time: 41.665
+time: 157.355
 random: 0
 repeat: 1
 single: 0
@@ -212,4 +212,13 @@ playlist_begin
 197:the peggies - MMY/06. Kiminosei (Remastered 2022).m4a
 198:the peggies - MMY/10. Centimeter (Remastered 2022).m4a
 199:Trung Tâm Băng Đĩa Lậu Hải Ngoại - Hiếu Thứ Tha - Single/01. Hiếu Thứ Tha.m4a
+200:Elsewhere-KIKOU - Elswhere Kikou/01. Elswhere Kikou.m4a
+201:Elsewhere-KIKOU - Elswhere Kikou/02. Mondai No Nai Asa.m4a
+202:Elsewhere-KIKOU - Elswhere Kikou/03. Kirimi.m4a
+203:Elsewhere-KIKOU - Elswhere Kikou/04. beautiful day.m4a
+204:Elsewhere-KIKOU - Elswhere Kikou/05. Tantakatan Lock.m4a
+205:Elsewhere-KIKOU - Elswhere Kikou/06. Mahoutsukai Dato Omotteta Senaka.m4a
+206:Elsewhere-KIKOU - Elswhere Kikou/07. Hitotoki No Sayonara.m4a
+207:Elsewhere-KIKOU - Elswhere Kikou/08. Slow Away.m4a
+208:Elsewhere-KIKOU - Elswhere Kikou/09. My Strange Town.m4a
 playlist_end

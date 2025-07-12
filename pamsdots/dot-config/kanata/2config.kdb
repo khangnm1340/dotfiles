@@ -43,8 +43,3 @@
   grv (tap-hold-release $tap-time $hold-time grv (layer-toggle arrows))
   1num (tap-hold-release $tap-time $hold-time n (layer-toggle num))
 )
-
-
-
-
-

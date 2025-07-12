@@ -12845,3 +12845,36 @@ y
 cd ~
 cd dotfiles/
 gemini
+nmtui
+systemctl restart NetworkManager
+nmtui
+tmux a
+as
+cat 
+ajlsdk
+cat hiii
+echo hiiii
+rmpc
+tmuxinator start entertainment
+tmux a
+tmuxinator start entertainment
+rmpc
+yazi
+tmuxinator start entertainment
+tmux a
+tmux
+btop
+nordvpn c
+yazi
+y
+gl https://www.reddit.com/r/VietNamNation/comments/1lxyai3/ch%E1%BB%89_b%E1%BA%AFc_c%C3%A0y_m%E1%BB%9Bi_c%C3%B3_c%C3%A1i_%C4%91%E1%BA%B7c_s%E1%BA%A3n_n%C3%A0y/
+y
+overlay use .venv/bin/activate.nu
+gl https://www.reddit.com/r/wordington/comments/1lx5me0/where_did_this_image_originate/
+y
+fastfetch
+y
+yt-dlp https://www.youtube.com/@Acerola_t/videos
+y
+fastfetch
+jkh https://www.youtube.com/@Acerola_t/videos

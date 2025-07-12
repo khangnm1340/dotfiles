@@ -122,3 +122,5 @@
 2025/07/11 15:38:08 logger.go:19: ERROR: failed to kill process: exit status 1
 2025/07/11 15:39:10 logger.go:19: ERROR: failed to kill process: exit status 1
 2025/07/11 15:41:06 logger.go:19: ERROR: failed to kill process: exit status 1
+2025/07/12 09:50:08 logger.go:19: ERROR: failed to kill process: exit status 1
+2025/07/12 19:15:44 logger.go:19: ERROR: failed to kill process: exit status 1

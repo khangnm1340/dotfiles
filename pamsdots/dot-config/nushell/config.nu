@@ -411,6 +411,15 @@ $env.config = {
             event: { send: executehostcommand, cmd: $"source \'($nu.env-path)\';source \'($nu.config-path)\'" }
       }
       {
+            name: yazi
+            modifier: control
+            keycode: char_j
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "yazi" }
+      }
+      {
             name: quick_cd
             modifier: control
             keycode: char_k
@@ -452,25 +461,6 @@ $env.config = {
             keycode: f1
             mode: [emacs, vi_insert, vi_normal]
             event: { send: menu name: help_menu }
-        }
-        # {
-        #     name: next_page_menu
-        #     modifier: control
-        #     keycode: char_x
-        #     mode: emacs
-        #     event: { send: menupagenext }
-        # }
-        {
-            name: undo_or_previous_page_menu
-            modifier: control
-            keycode: char_z
-            mode: emacs
-            event: {
-                until: [
-                    { send: menupageprevious }
-                    { edit: undo }
-                ]
-            }
         }
         {
             name: escape
@@ -706,209 +696,6 @@ $env.config = {
             keycode: backspace
             mode: vi_normal
             event: { edit: moveleft }
-        }
-        {
-            name: newline_or_run_command
-            modifier: none
-            keycode: enter
-            mode: emacs
-            event: { send: enter }
-        }
-        {
-            name: move_left
-            modifier: control
-            keycode: char_b
-            mode: emacs
-            event: {
-                until: [
-                    { send: menuleft }
-                    { send: left }
-                ]
-            }
-        }
-        {
-            name: move_right_or_take_history_hint
-            modifier: control
-            keycode: char_f
-            mode: emacs
-            event: {
-                until: [
-                    { send: historyhintcomplete }
-                    { send: menuright }
-                    { send: right }
-                ]
-            }
-        }
-        {
-            name: redo_change
-            modifier: control
-            keycode: char_g
-            mode: emacs
-            event: { edit: redo }
-        }
-        {
-            name: undo_change
-            modifier: control
-            keycode: char_z
-            mode: emacs
-            event: { edit: undo }
-        }
-        {
-            name: paste_before
-            modifier: control
-            keycode: char_y
-            mode: emacs
-            event: { edit: pastecutbufferbefore }
-        }
-        {
-            name: cut_word_left
-            modifier: control
-            keycode: char_w
-            mode: emacs
-            event: { edit: cutwordleft }
-        }
-        # {
-        #     name: cut_line_to_end
-        #     modifier: control
-        #     keycode: char_k
-        #     mode: emacs
-        #     event: { edit: cuttolineend }
-        # }
-        {
-            name: cut_line_from_start
-            modifier: control
-            keycode: char_u
-            mode: emacs
-            event: { edit: cutfromstart }
-        }
-        {
-            name: swap_graphemes
-            modifier: control
-            keycode: char_t
-            mode: emacs
-            event: { edit: swapgraphemes }
-        }
-        {
-            name: move_one_word_left
-            modifier: alt
-            keycode: left
-            mode: emacs
-            event: { edit: movewordleft }
-        }
-        {
-            name: move_one_word_right_or_take_history_hint
-            modifier: alt
-            keycode: right
-            mode: emacs
-            event: {
-                until: [
-                    { send: historyhintwordcomplete }
-                    { edit: movewordright }
-                ]
-            }
-        }
-        {
-            name: move_one_word_left
-            modifier: alt
-            keycode: char_b
-            mode: emacs
-            event: { edit: movewordleft }
-        }
-        {
-            name: move_one_word_right_or_take_history_hint
-            modifier: alt
-            keycode: char_f
-            mode: emacs
-            event: {
-                until: [
-                    { send: historyhintwordcomplete }
-                    { edit: movewordright }
-                ]
-            }
-        }
-        {
-            name: delete_one_word_forward
-            modifier: alt
-            keycode: delete
-            mode: emacs
-            event: { edit: deleteword }
-        }
-        {
-            name: delete_one_word_backward
-            modifier: alt
-            keycode: backspace
-            mode: emacs
-            event: { edit: backspaceword }
-        }
-        {
-            name: delete_one_word_backward
-            modifier: alt
-            keycode: char_m
-            mode: emacs
-            event: { edit: backspaceword }
-        }
-        {
-            name: cut_word_to_right
-            modifier: alt
-            keycode: char_d
-            mode: emacs
-            event: { edit: cutwordright }
-        }
-        {
-            name: upper_case_word
-            modifier: alt
-            keycode: char_u
-            mode: emacs
-            event: { edit: uppercaseword }
-        }
-        {
-            name: lower_case_word
-            modifier: alt
-            keycode: char_l
-            mode: emacs
-            event: { edit: lowercaseword }
-        }
-        {
-            name: capitalize_char
-            modifier: alt
-            keycode: char_c
-            mode: emacs
-            event: { edit: capitalizechar }
-        }
-        # The following bindings with `*system` events require that Nushell has
-        # been compiled with the `system-clipboard` feature.
-        # If you want to use the system clipboard for visual selection or to
-        # paste directly, uncomment the respective lines and replace the version
-        # using the internal clipboard.
-        {
-            name: copy_selection
-            modifier: control_shift
-            keycode: char_c
-            mode: emacs
-            event: { edit: copyselection }
-            # event: { edit: copyselectionsystem }
-        }
-        {
-            name: cut_selection
-            modifier: control_shift
-            keycode: char_x
-            mode: emacs
-            event: { edit: cutselection }
-            # event: { edit: cutselectionsystem }
-        }
-        # {
-        #     name: paste_system
-        #     modifier: control_shift
-        #     keycode: char_v
-        #     mode: emacs
-        #     event: { edit: pastesystem }
-        # }
-        {
-            name: select_all
-            modifier: control_shift
-            keycode: char_a
-            mode: emacs
-            event: { edit: selectall }
         }
     ]
 }
