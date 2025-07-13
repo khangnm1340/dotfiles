@@ -498,3 +498,4 @@ yazi
 y
 yazi
 stow --dotfiles -d dotfiles/ -t . home
+reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lxye7q/truy%E1%BB%87n_c%C6%B0%E1%BB%9Di_v%E1%BB%81_qu%E1%BA%A3_bom_h%E1%BB%99t_nh%C3%A2n_c%E1%BB%A7a_t%C3%A0u_c%E1%BB%99ng_c%E1%BB%A7a/

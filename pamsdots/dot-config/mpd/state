@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 183
-time: 157.355
+current: 221
+time: 9.375
 random: 0
 repeat: 1
 single: 0
@@ -221,4 +221,17 @@ playlist_begin
 206:Elsewhere-KIKOU - Elswhere Kikou/07. Hitotoki No Sayonara.m4a
 207:Elsewhere-KIKOU - Elswhere Kikou/08. Slow Away.m4a
 208:Elsewhere-KIKOU - Elswhere Kikou/09. My Strange Town.m4a
+209:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/01 Full Moon Full Life.flac
+210:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/02 全ての人の魂の詩.flac
+211:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/23 Burn My Dread -Last Battle Reload-.flac
+212:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/28 Full Moon Full Life -Opening Movie version-.flac
+213:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/25 私が守るから -Reload-.flac
+214:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/24 絆.flac
+215:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/01 Changing Seasons -Reload-.flac
+216:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/02 Basement.flac
+217:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/03 Master of Tartarus -Reload-.flac
+218:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/04 これでいいんだ….flac
+219:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/05 Living With Determination.flac
+220:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/06 tartarus_0d04.flac
+221:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/07 京都.flac
 playlist_end

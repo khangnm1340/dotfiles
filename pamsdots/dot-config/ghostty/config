@@ -86,8 +86,8 @@ font-size = 15
 font-family = JetBrainsMono Nerd Font
 # font-synthetic-style = false 
 # font-variation = wght=700
-# adjust-cell-height = -10%
-# adjust-cell-width = 0
+# adjust-cell-height = -20%
+# adjust-cell-width = -40%
 # font-feature = -liga 
 # window-padding-color = extend
 

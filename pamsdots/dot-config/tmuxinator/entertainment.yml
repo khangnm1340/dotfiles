@@ -51,6 +51,3 @@ windows:
   - rmpc: # <--- This uses the "Detailed window" structure
       panes:
         -
-  - monitor: # <--- This uses the "Simple single-pane window" structure
-      panes:
-        - btop

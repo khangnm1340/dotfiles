@@ -12878,3 +12878,93 @@ yt-dlp https://www.youtube.com/@Acerola_t/videos
 y
 fastfetch
 jkh https://www.youtube.com/@Acerola_t/videos
+y
+gl https://x.com/i/status/1923257493767025096
+nmtui
+y
+yay -S neo-matrix
+neo-matrix
+yay -S nyancat
+nyancat
+nordvpn c
+zi
+y
+wg2 https://midshfdgna.blog.fc2.com/
+y
+gl https://x.com/yd_241481/status/1629537014294138881/photo/1
+y
+gl https://x.com/yd_241481/status/1629537014294138881/photo/1
+y
+echo $env.$tmp
+echo $env.tmp
+y
+man rm
+man rm | nvim
+y
+rm test.md
+y
+rm test_1.md
+rm -f test_1.md
+rm -fp test_1.md
+rm p test_1.md
+rm -p test_1.md
+rm -- -p test_1.md
+rm --p test_1.md
+y
+source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"<\n>
+which rm
+y
+which rm
+cd ..
+cd -
+cd --
+yay -S ascii-image-converter-git<\n>
+ascii-image-converter reze.png
+ascii-image-converter reze.png -C
+ascii-image-converter reze.png -b
+ascii-image-converter reze.png -b --threshold 255
+ascii-image-converter reze.png -b --threshold 100
+ascii-image-converter reze.png -b --threshold 150
+ascii-image-converter reze.png -b --threshold 200
+ascii-image-converter reze.png -b --threshold 200 -n
+ascii-image-converter reze.png -b --threshold 250 -n
+ascii-image-converter reze.png -b --threshold 220 -n
+ascii-image-converter reze.png -b --threshold 200 -n
+ascii-image-converter reze.png -b --threshold 200 -n -H 10
+ascii-image-converter reze.png -b --threshold 200 -n -H 40
+ascii-image-converter reze.png -b --threshold 200 -n -H 80
+ascii-image-converter reze.png -b --threshold 200 -n -H 80 | wl-copy
+ascii-image-converter reze.png -b --threshold 255 -n -H 80 | wl-copy
+ascii-image-converter reze.png -b --threshold 255 -n -H 80
+ascii-image-converter reze.png -b --threshold 250 -n -H 80
+ascii-image-converter reze.png -b --threshold 220 -n -H 80
+ascii-image-converter reze.png -b --threshold 210 -n -H 80
+y
+ascii-image-converter reze.png -b --threshold 210 -n -H 80 --save-txt /home/Ext4Pam/Pictures/Arch_pics/ascii_art
+y
+sys
+sys cpu
+sys disks
+sys
+sys temp
+sys net
+sys mem
+sys host
+sys users
+start `240819.TBS.ＣＤＴＶライブ！ライブ！夏ＳＰ★ポルノフェス★アクアタイムズ★ミセス3曲.NewJeans CUT.1080i.MPEG2.AAC-녹화병.ts`
+ps
+ps | where name = "fcixt5"
+ps | where name == "fcixt5"
+ps | where name == "fcitx5"
+ps | fzf
+tmux
+http get https://api.github.com/repos/nushell/nushell/contributors | select login contributions
+fastfetch
+y
+ps | fzf
+ls
+sl
+ls | sort-by size | reverse
+ls | sort-by modified | reverse
+yay -S qutebrowser
+mpv https://youtu.be/_x_BwsGfP5Y?si=dJ3dQSyzak7SgGhf

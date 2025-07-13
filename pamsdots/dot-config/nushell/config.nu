@@ -417,7 +417,16 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "yazi" }
+                  cmd: "y" }
+      }
+      {
+            name: tmux_attach
+            modifier: control
+            keycode: char_a
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "tmux a" }
       }
       {
             name: quick_cd
@@ -579,13 +588,13 @@ $env.config = {
             mode: [emacs, vi_normal, vi_insert]
             event: { edit: movetolinestart }
         }
-        {
-            name: move_to_line_start
-            modifier: control
-            keycode: char_a
-            mode: [emacs, vi_normal, vi_insert]
-            event: { edit: movetolinestart }
-        }
+        # {
+        #     name: move_to_line_start
+        #     modifier: control
+        #     keycode: char_a
+        #     mode: [emacs, vi_normal, vi_insert]
+        #     event: { edit: movetolinestart }
+        # }
         {
             name: move_to_line_end_or_take_history_hint
             modifier: none
@@ -712,6 +721,7 @@ def --env y [...args] {
 	}
 	rm -fp $tmp
 }
+
 # alias zd = zellij action new-pane -d down
 # alias cl = clear
 alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4
@@ -722,7 +732,7 @@ alias su = su-rs
 alias grep = rg
 alias sl = eza -l --icons --time-style=long-iso --group-directories-first
 alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
-# alias w2mpeknp = wget2 -m -p -E -k -np --no-robots
+alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 
 

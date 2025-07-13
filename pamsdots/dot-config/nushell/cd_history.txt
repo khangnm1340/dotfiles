@@ -12,3 +12,5 @@
 /home/Ext4Pam/Pictures/Arch_pics
 /home/Ext4Pam/Pictures/Arch_pics/Save_webP
 /home/pampam/Pictures/Screenshots/is-hyprland
+/home/pampam/Downloads/websites
+/home/Ext4Pam/Pictures/Pictures/yt_downloads/music
