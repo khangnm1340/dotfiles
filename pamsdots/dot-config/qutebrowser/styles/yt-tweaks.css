@@ -1,0 +1,24 @@
+/* hide recs */
+#secondary {
+  display: none !important;
+}
+
+/* make video fill the remaining space */
+#primary {
+    width: 100% !important;
+    flex: 1 !important;
+    max-width: none !important;
+}
+
+/* hide yt top bar */
+.ytd-masthead {
+  margin: 0 !important;
+  display: none !important;
+}
+
+/* remove extra padding and ensure content is full-width on channel page*/
+.ytd-app {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-left: 0 !important;
+}

@@ -1,0 +1,9 @@
+### $XDG_CONFIG_HOME/xdg-desktop-portal-termfilechooser/config ###
+
+[filechooser]
+# cmd=fzf-wrapper.sh
+# cmd=yazi-wrapper.sh
+cmd=yazi.sh
+default_dir=$HOME
+open_mode = suggested
+save_mode = last

@@ -14,3 +14,5 @@
 /home/pampam/Pictures/Screenshots/is-hyprland
 /home/pampam/Downloads/websites
 /home/Ext4Pam/Pictures/Pictures/yt_downloads/music
+/home/pampam/dotfiles/pamsdots/dot-config/qutebrowser
+/home/pampam/.local/share/nicotine/downloads

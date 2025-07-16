@@ -73,7 +73,7 @@ keybind = alt+t=new_tab
 keybind = alt+]=next_tab
 keybind = alt+[=previous_tab
 keybind = ctrl+shift+r=reload_config
-keybind = alt+a>k=open_config
+# keybind = alt+a>k=open_config
 
 # keybind = ctrl+shift+o=write_scrollback_file:open
 keybind = ctrl+shift+i=write_scrollback_file:paste

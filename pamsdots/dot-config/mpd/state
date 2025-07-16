@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 221
-time: 9.375
+current: 5
+time: 63.713
 random: 0
 repeat: 1
 single: 0
@@ -191,47 +191,68 @@ playlist_begin
 176:OMORI - OMORI OST/177 - Good Morning.flac
 177:OMORI - OMORI OST/178 - My Time.flac
 178:OMORI - OMORI OST/179 - Fin.flac
-179:Tyler, The Creator - CHROMAKOPIA/12. Like Him (feat. Lola Young).m4a
-180:Tyler, The Creator - CHROMAKOPIA/13. Balloon (feat. Doechii).m4a
-181:Tyler, The Creator - Flower Boy/02. Where This Flower Blooms (feat. Frank Ocean).m4a
-182:Tyler, The Creator - Flower Boy/04. See You Again (feat. Kali Uchis).m4a
-183:ye/06. Ghost Town.flac
-184:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/16 Color Your Night.flac
-185:30 It's Going Down Now.flac
-186:Elsewhere-KIKOU - Elswhere Kikou/01. Elswhere Kikou.m4a
-187:Elsewhere-KIKOU - Elswhere Kikou/09. My Strange Town.m4a
-188:Fancy That (2025) [WEB]/01 - Illegal.flac
-189:Lauryn Hill - The Miseducation of Lauryn Hill/04. To Zion (feat. Carlos Santana).m4a
-190:Lauryn Hill - The Miseducation of Lauryn Hill/03. Ex-Factor.m4a
-191:Hitsujibungaku - our hope/02. Hikaru toki.m4a
-192:ILLIT - bomb (ALAC) [16-Bit 44.1-kHz]/2. Billyeoon Goyangi (Do the Dance).m4a
-193:LE SSERAFIM - CRAZY - EP/02. CRAZY.m4a
-194:Machine Girl - Wlfgrl/01. Mg1.m4a
-195:Magdalena Bay - Imaginal Disk/02. Killing Time.m4a
-196:Mariya Takeuchi - Expressions (MOON Version)/31. Shiawasenomonosashi.m4a
-197:the peggies - MMY/06. Kiminosei (Remastered 2022).m4a
-198:the peggies - MMY/10. Centimeter (Remastered 2022).m4a
-199:Trung Tâm Băng Đĩa Lậu Hải Ngoại - Hiếu Thứ Tha - Single/01. Hiếu Thứ Tha.m4a
-200:Elsewhere-KIKOU - Elswhere Kikou/01. Elswhere Kikou.m4a
-201:Elsewhere-KIKOU - Elswhere Kikou/02. Mondai No Nai Asa.m4a
-202:Elsewhere-KIKOU - Elswhere Kikou/03. Kirimi.m4a
-203:Elsewhere-KIKOU - Elswhere Kikou/04. beautiful day.m4a
-204:Elsewhere-KIKOU - Elswhere Kikou/05. Tantakatan Lock.m4a
-205:Elsewhere-KIKOU - Elswhere Kikou/06. Mahoutsukai Dato Omotteta Senaka.m4a
-206:Elsewhere-KIKOU - Elswhere Kikou/07. Hitotoki No Sayonara.m4a
-207:Elsewhere-KIKOU - Elswhere Kikou/08. Slow Away.m4a
-208:Elsewhere-KIKOU - Elswhere Kikou/09. My Strange Town.m4a
-209:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/01 Full Moon Full Life.flac
-210:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD1/02 全ての人の魂の詩.flac
-211:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/23 Burn My Dread -Last Battle Reload-.flac
-212:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/28 Full Moon Full Life -Opening Movie version-.flac
-213:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/25 私が守るから -Reload-.flac
-214:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/24 絆.flac
-215:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/01 Changing Seasons -Reload-.flac
-216:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/02 Basement.flac
-217:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/03 Master of Tartarus -Reload-.flac
-218:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/04 これでいいんだ….flac
-219:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/05 Living With Determination.flac
-220:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/06 tartarus_0d04.flac
-221:[2024.04.24] ATLUS Sound Team - PERSONA3 RELOAD ORIGINAL SOUNDTRACK (AGM-001~2)/CD2/07 京都.flac
+179:Ngọt - 3 (tuyển tập nhạc Ngọt mới trẻ sôi động 2019)/12. LẦN CUỐI (đi bên em xót xa người ơi).m4a
+180:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/06 - PHILLY.flac
+181:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/05 - MOJO JOJO.flac
+182:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/12 - MUNYUN.flac
+183:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/09 - FINE SHIT.flac
+184:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/31 - DIFFERENT DAY.flac
+185:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/32 - 2024.flac
+186:Playboi Carti - MUSIC - SORRY 4 DA WAIT (2025) [FLAC] {AWGE ∕ Interscope Records, 602478165368}/34 - FOMDJ.flac
+187:[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
+188:[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
+189:[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
+190:NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
+191:ye/06. Ghost Town.flac
+192:NewJeans/Singles/2023 - NewJeans 'OMG'/01 - NewJeans - OMG.flac
+193:NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
+194:Kanye West - My Beautiful Dark Twisted Fantasy/03. Power.m4a
+195:Tyler, The Creator - Flower Boy/04. See You Again (feat. Kali Uchis).m4a
+196:IGOR (2019)/12 - Tyler, The Creator - ARE WE STILL FRIENDS- (Explicit).flac
+197:IGOR (2019)/10 - Tyler, The Creator - GONE, GONE - THANK YOU (Explicit).flac
+198:IGOR (2019)/12 - Tyler, The Creator - ARE WE STILL FRIENDS- (Explicit).flac
+199:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/02. Call Me.m4a
+200:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/04. Từng Quen.m4a
+201:52Hz, RIO & WEAN - ĐỢI (SPECIAL VERSION) - Single/01. ĐỢI (SPECIAL VERSION).m4a
+202:tlinh - ái/04. kho báu đánh rơi (feat. GREY D).m4a
+203:tlinh - ái/10. ghệ iu dấu của em ơi.m4a
+204:Obito & Shiki - Đánh Đổi/04. Đầu Đường Xó Chợ.m4a
+205:Obito & Shiki - Đánh Đổi/12. Đánh Đổi.m4a
+206:RIO & 52Hz - Suốt Đêm - Single/01. Suốt Đêm.m4a
+207:Trung Tâm Băng Đĩa Lậu Hải Ngoại - Hiếu Thứ Tha - Single/01. Hiếu Thứ Tha.m4a
+208:12 - Sade - Kiss of Life (Remastered).flac
+209:Operation Doomsday/02 - Doomsday.flac
+210:Ngọt - 3 (tuyển tập nhạc Ngọt mới trẻ sôi động 2019)/12. LẦN CUỐI (đi bên em xót xa người ơi).m4a
+211:LE SSERAFIM - CRAZY - EP/02. CRAZY.m4a
+212:Kanye West - The College Dropout/04. All Falls Down (feat. Syleena Johnson).m4a
+213:Kanye West - My Beautiful Dark Twisted Fantasy/09. Runaway (feat. Pusha T).m4a
+214:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/01 - NewJeans - New Jeans.flac
+215:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/02 - NewJeans - Super Shy.flac
+216:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
+217:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/04 - NewJeans - Cool With You.flac
+218:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/05 - NewJeans - Get Up.flac
+219:NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/06 - NewJeans - ASAP.flac
+220:0116 - Color Your Night.flac
+221:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/01. Phóng Đổ Tim Em.m4a
+222:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/02. Call Me.m4a
+223:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/03. Cầu Vĩnh Tuy.m4a
+224:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/04. Từng Quen.m4a
+225:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/05. bé ơi từ từ.m4a
+226:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/06. Lối Chơi (Interlude).m4a
+227:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/07. Tình Yêu Vĩ Mô.m4a
+228:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/08. Việt Kiều.m4a
+229:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/09. ĐĐĐ.m4a
+230:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/10. Quyền Anh.m4a
+231:Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/11. Tò Te Tí.m4a
+232:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/01. PonPon Shit.m4a
+233:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/02. Delicate Weapon.m4a
+234:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/03. Who's Ready for Tomorrow.m4a
+235:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/04. Major Crimes.m4a
+236:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/05. I Really Want to Stay At Your House.m4a
+237:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/06. Surprise Me, I’m Surprised Today.m4a
+238:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/07. Hole In the Sun (feat. COS & Conway).m4a
+239:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/08. History.m4a
+240:Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/09. On My Way to Hell.m4a
+241:Kanye West - Graduation/14. Good Night (feat. Mos Def & Al Be Back).m4a
+242:Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
 playlist_end

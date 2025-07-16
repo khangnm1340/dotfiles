@@ -12968,3 +12968,219 @@ ls | sort-by size | reverse
 ls | sort-by modified | reverse
 yay -S qutebrowser
 mpv https://youtu.be/_x_BwsGfP5Y?si=dJ3dQSyzak7SgGhf
+y
+stow -R --dotfiles -d dotfiles/ -t . pamsdots
+chmod +x tab-manager.py
+cat ~/dotfiles/pamsdots/dot-config/qutebrowser/sessions/hanni.html
+ls
+which cat
+mkdir xdg-desktop-portal-termfilechooser
+ps | fzf
+chmod +x yazi-wrapper.sh
+systemctl --user stop xdg-desktop-portal-termfilechooser.service
+systemctl --user enable --now xdg-desktop-portal-termfilechooser.service
+systemctl --user start xdg-desktop-portal-termfilechooser.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+btop
+ghostty -e --title='termfilechooser'
+systemctl --user restart xdg-desktop-portal.service
+ghostty -e "terminal filechooser"
+systemctl --user restart xdg-desktop-portal.service
+ghostty -e "terminal filechooser" yazi-wrapper.sh
+./yazi-wrapper.sh
+systemctl --user restart xdg-desktop-portal.service
+btop
+journalctl | nvim
+systemctl --user restart xdg-desktop-portal.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+yay -Qs | fzf
+stow -R --dotfiles -d dotfiles/ -t . pamsdots
+systemctl --user restart xdg-desktop-portal.service
+systemctl --user restart xdg-desktop-portal.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+btop
+man xdg-desktop-portal-termfilechooser
+ghostty --title=termfilechooser
+btop
+which yazi
+systemctl --user restart xdg-desktop-portal.service
+btop
+btop
+systemctl --user restart xdg-desktop-portal.service
+j
+btop
+systemctl --user restart xdg-desktop-portal.service
+btop
+systemctl --user restart xdg-desktop-portal.service
+journalctl --user -eu xdg-desktop-portal-termfilechooser
+systemctl --user restart xdg-desktop-portal.service
+journalctl --user -eu xdg-desktop-portal-termfilechooser
+chmod +x yazi.sh
+mpc pause
+mpc pause<\n>
+mpc toggle
+ls
+open train.csv | where Age < 20
+open train.cs | head
+open train.cs | select 10
+open train.cs | take 10
+open train.csv | take 10
+open train.csv | select PassengerID Pclass Survived Fare Age | where Age < 20
+open train.csv | select PassengerId Pclass Survived Fare Age | where Age < 20
+open train.csv | describe
+open train.csv | columns
+open train.csv | select PassengerId Pclass Survived Fare Age | where Age < 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age | mutate Age = (Age | into float) | where Age < 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age
+open train.csv | select PassengerId Pclass Survived Fare Age | where Survived == 0
+open train.csv | select PassengerId Pclass Survived Fare Age | where Survived == 0 | count
+open train.csv | select PassengerId Pclass Survived Fare Age | where Survived == 0 | length
+open train.csv | select PassengerId Pclass Survived Fare Age | where Age == 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age | mutate Age = (Age | into float) | where Age < 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age | mutate Age = { |it| $it.Age | into float } | where Age < 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age | update Age { |it| $it | into float } | where Age < 20.0
+open train.csv | select PassengerId Pclass Survived Fare Age | where Age < 20.0
+easyeffects --help
+easyeffects -p "normal stuff"
+easyeffects -l "normal stuff"
+nordvpn c
+nordvpn d
+nordvpn c
+mpv http://web.archive.org/web/20231223081724/https://www.youtube.com/watch?v=bMpYyqWCzZk
+open train.csv | select PassengerId Pclass Survived Fare Age | save train.json
+open train.csv | select PassengerId Pclass Survived Fare Age | save trainn.yaml
+nordvpn d
+cd ~/dotfiles/pamsdots/dot-config/qutebrowser
+gemini
+yay
+y
+sudo mv archlinux-2025.03.01-x86_64.iso /run/media/pampam/Ventoy
+yay -S gnome-multi-writer
+gnome-multi-writer
+yay -S rufus
+nmtui
+systemctl restart NetworkManager
+nordvpn d
+nmtui
+dd bs=4M if=cachyos-desktop-linux-250713.iso of=/dev/disk/by-id/usb-USB_SanDisk_3.2Gen1_03019806121524235542-0:0 conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=cachyos-desktop-linux-250713.iso of=/dev/disk/by-id/usb-USB_SanDisk_3.2Gen1_03019806121524235542-0:0 conv=fsync oflag=direct status=progress
+ls
+ls | sort-by size | reverse
+ls | where size > 10kb
+ps
+^ps
+which ^ps
+ps | where status == Running
+ps | describe
+help
+sys host | get hostname
+ps | where cpu > 10
+which cp
+ls | first
+ls | sort-by size | reverse | first | get name
+ls | sort-by size | reverse | first | get name | cp
+ls | sort-by size | reverse | first | get name | cp $in ~
+ls | sort-by size | reverse | first | get name
+ls | sort-by size | reverse | first | get name | cp $in ~
+ls
+ls 
+ls
+ls<\n>| where name =~ '^[0-9]'<\n>| get name
+ls
+ls<\n>| where name =~ '^P'<\n>| get name
+ls<\n>| where name =~ 'p'<\n>| get name
+ls<\n>| where name =~ 'pr'<\n>| get name
+nordvpn d
+nordvpn US
+nordvpn Us
+nordvpn us
+nordvpn --help
+nordvpn countries
+nordvpn countries | fzf
+nordvpn c United_States
+python3 -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+pip install --upgrade https://github.com/praw-dev/praw/archive/main.zip
+nvim
+pkill waybar
+nvim
+yay -Syu
+nvim ~/Documents/pam/1-Rough-Note/Daily_Notes/2025-07-16-Wednesday.md
+nvim
+yay -Qs | fzf
+cat
+nvim
+poweroff
+lsblk
+sudo pacman -S ifuse usbmuxd libplist libimobiledevice gvfs-afc
+sudo systemctl enable --now usbmuxd.service
+sudo systemctl status usbmuxd.service
+z
+idevicepair validate
+mkdir ~/iPhonePhotos<\n>ifuse ~/iPhonePhotos
+yay -Qs | fzf
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ 
+icloudpd
+z icloud/
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ 
+nordvpn d
+yay -Rns neovide
+yay -S neovide-git
+git fetch origin pull/3165/head:pr-3165
+git remote -v<\n>
+git remote add upstream https://github.com/neovide/neovide.git
+git remote -v
+git fetch upstream pull/3165/head:pr-3165
+git checkout pr-3165<\n>
+yay -S neovide-git
+yay -S neovide --cleanbuild<\n>
+git checkout pr-3165<\n># (Optional) Verify:<\n>git log -1 --pretty=oneline # Check the latest commit
+makepkg -si
+z
+yay -S neovide-git
+git remote add upstream https://github.com/neovide/neovide.git
+yay -S neovide-git
+z
+git clone https://github.com/neovide/neovide.git
+git fetch upstream pull/3165/head:pr-3165
+git remote -v
+git fetch origin pull/3165/head:pr-3165<\n>
+git checkout pr-3165<\n>
+fd
+ls
+sl
+cargo build
+./neovide
+cargo build --release
+nvim
+yt-dlp https://www.pornhub.com/view_video.php?viewkey=684ff230215d3
+yt-dlp https://www.reddit.com/r/CombatFootage/comments/1m2yaaf/russian_soldier_who_tried_to_surrender_shot_point/
+cd /run/media/pampam/277B4C5740516ECD
+mpv '[bonkai77].Neon.Genesis.Evangelion.Episode.19.[BD.1080p.Dual-Audio.x265.HEVC.10bit].mkv'
+fzf | mpv
+fzf | mpv $in
+yay -Syu
+nvim grub.cfg
+sudo nvim /etc/default/grub<\n>
+reboot
+sudo nvim /etc/default/grub<\n>
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo nvim /etc/default/grub<\n>
+stow -R --dotfiles -d dotfiles/ -t . pamsdots
+nordvpn d
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+nvim /tmp/iwzfjcFhfRAjeh2YfUy4Sg/history.txt
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+hostname --i
+arch
+hostnamectl
+hyprctl devices
