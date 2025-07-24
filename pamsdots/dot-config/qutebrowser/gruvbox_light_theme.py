@@ -7,10 +7,12 @@
 
 bg0_hard = "#f9f5d7"
 bg0_soft = '#f2e5bc'
-bg0_normal = '#fbf1c7'
+# bg0_normal = '#fbf1c7'
+bg0_normal = '#F7F2F2'
 
 bg0 = bg0_normal
-bg1 = "#ebdbb2"
+# bg1 = "#ebdbb2"
+bg1 = "#D4D4D4"
 bg2 = "#d5c4a1"
 bg3 = "#bdae93"
 bg4 = "#a89984"

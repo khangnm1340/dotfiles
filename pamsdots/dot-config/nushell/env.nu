@@ -96,7 +96,9 @@ path add /home/pampam/.cargo/bin/
 path add /home/pampam/.local/bin
 path add /home/pampam/.local/share/nvim/mason/bin
 path add /home/pampam/.dotnet/tools
+path add /home/pampam/dotfiles/pamsdots/dot-config/nushell/nupm/plugins/bin
 path add /usr/bin/vendor_perl
+# path add /home/pampam/.cache/yay/neovide/target/release
 # $env.PATH = ($env.PATH | split row (char esep))
 # path add /some/path
 # path add ($env.CARGO_HOME | path join "bin")
@@ -114,8 +116,8 @@ fastfetch
 $env.OWNER = 'pampam'
 $env.MYGOAT = 'hanni'
 $env.EDITOR = 'nvim'
-$env.LS_COLORS = (vivid generate gruvbox-light)
+$env.LS_COLORS = (vivid generate cyberdream-light)
 $env.ASPNETCORE_ENVIRONMENT = 'Development'
-$env.FZF_DEFAULT_COMMAND = 'fd --type f'
+$env.FZF_DEFAULT_COMMAND = 'fd --type f --no-ignore'
 $env.GEMINI_API_KEY = 'AIzaSyCpWHXAZTq6jfCoeBomI-PK1w3dthbFEU8'
 

@@ -16,3 +16,13 @@
 /home/Ext4Pam/Pictures/Pictures/yt_downloads/music
 /home/pampam/dotfiles/pamsdots/dot-config/qutebrowser
 /home/pampam/.local/share/nicotine/downloads
+/home/pampam/builds/RedditArchiver-standalone
+/home/pampam/Documents/UTH/DataMining/prawl_tests
+/home/Ext4Pam/Music
+/home/pampam/Documents/reddit
+/home/pampam/Documents/UTH/pdfs
+/home/pampam/Documents/reddit/submissions
+/home/pampam/Documents/UTH/DataMining/prawl_tests/nu_eta
+/bin
+/home/pampam/builds
+/home/pampam/Documents/UTH/DataMining/tests

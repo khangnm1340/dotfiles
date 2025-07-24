@@ -1,30 +1,3 @@
-y
-y
-y
-y
-y
-nu
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCpWHXAZTq6jfCoeBomI-PK1w3dthbFEU8"   -H 'Content-Type: application/json'   -X POST   -d '{
-    "contents": [
-      {
-        "parts": [
-          {
-            "text": "Explain how AI works in a few words"
-          }
-        ]
-      }
-    ]
-  }'
-nu
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCpWHXAZTq6jfCoeBomI-PK1w3dthbFEU8"   -H 'Content-Type: application/json'   -X POST   -d '{
-    "contents": [
-      {
-        "parts": [
-          {
-            "text": "Describe this image and tell me if the person is smiling."
-          },
-          {
-            "inlineData": {
               "mimeType": "image/webp",
               "data": "
 UklGRgA1AABXRUJQVlA4WAoAAAAgAAAA/wEAPQIASUNDUBgCAAAAAAIYAAAAAAIQAABtbnRyUkdC
@@ -499,3 +472,30 @@ y
 yazi
 stow --dotfiles -d dotfiles/ -t . home
 reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lxye7q/truy%E1%BB%87n_c%C6%B0%E1%BB%9Di_v%E1%BB%81_qu%E1%BA%A3_bom_h%E1%BB%99t_nh%C3%A2n_c%E1%BB%A7a_t%C3%A0u_c%E1%BB%99ng_c%E1%BB%A7a/
+reddit_archive https://www.reddit.com/r/VietNamNation/comments/1m324me/người_nhật_gọi_hồ_chí_minh_là_ông_hồ_bò_đỏ_kêu%2f
+ls
+cd prawl_tests/
+nu
+pushd
+fzf
+nu
+nvim
+nvim WhatsYourEta.nu
+gemini
+nvim headphone_scraper.py
+cd nu_eta && ipython
+fzf     --bind="j:down"     --bind="k:up"     --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"
+    --bind="load:unbind(j)+unbind(k)+unbind(i)"     --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)" \
+fzf     --bind="j:down"     --bind="k:up"     --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"
+    --bind="load:unbind(j)+unbind(k)+unbind(i)"     --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)" \
+nu
+btop
+reddit_archive https://www.reddit.com/r/Chainsawfolk/comments/1m6prsz/over_a_year_ago_i_said_the_concepts_might_come/
+btop
+y
+nu
+echo $PREFIX/share/ghostty/themes
+echo $PREFIX
+tmux
+tmux
+hostname -I

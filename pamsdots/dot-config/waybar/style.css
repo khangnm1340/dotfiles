@@ -26,8 +26,9 @@ window#waybar {
   margin-bottom: 0px;
   border-radius: 10px;
   transition: none;
-  color: #1a1826;
-  background: #fae3b0;
+  color: #000000;
+  /* background: #fae3b0; */
+  background: #ffffff;
 }
 
 #workspaces {
@@ -37,7 +38,8 @@ window#waybar {
   font-weight: 500;
   margin-bottom: 0px;
   border-radius: 10px;
-  background: #fbf1c7;
+  /* background: #fbf1c7; */
+  background: #ffffff;
   /* default: background: #161320; */
   transition: none;
 }
@@ -52,7 +54,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: #282828;
+  color: #000000;
 }
 
 #workspaces button.urgent {
@@ -63,8 +65,9 @@ window#waybar {
   transition: none;
   box-shadow: inherit;
   text-shadow: inherit;
-  color: #d65d0e;
-  border-color: #d65d0e;
+  color: #ffffff;
+  /* border-color: #FF0000; */
+  background-color: #000000;
   /* border-color: #e8a2af; */
   /* color: #e8a2af; */
 }
@@ -91,7 +94,8 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #1a1826;
-  background: #fae3b0;
+  /* background: #fae3b0; */
+  background: #FFE0CC;
 }
 
 #battery {
@@ -103,11 +107,16 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #a3cebe;
+  background: #D9FFDC;
+}
+
+#battery.charging,
+#battery.plugged {
+  background: #9CE1FF;
 }
 
 #battery.critical:not(.charging) {
-  background-color: #b5e8e0;
+  background-color: #FC0000;
   color: #161320;
   animation-name: blink;
   animation-duration: 1s;
@@ -145,7 +154,8 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #fbf1c7;
+  /* background: #fbf1c7; */
+  background: #ffffff;
   /*default: background: #abe9b3; */
 }
 
@@ -158,7 +168,8 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #fabd2f;
+  /* background: #fabd2f; */
+  background: #FFFED9;
   /*default: background: #ddb6f2; */
 }
 
@@ -171,7 +182,7 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #d0d32b;
+  background: #D9FFFB;
   /*default: background: #96cdfb; */
 }
 
@@ -184,7 +195,7 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #fe8019;
+  background: #FFEAD9;
 }
 
 #custom-launcher {
@@ -220,11 +231,41 @@ window#waybar {
   /* padding-right: 10px; */
   border-radius: 10px;
   transition: none;
-  color: #161320;
-  background: #fbf1c7;
+  color: #000000;
+  background: #fff;
 }
 #custom-arch:hover {
-    color: #1793d1;
+  color: #fff;
+  background: #000;
+}
+#temperature:hover {
+  color: #161320;
+  background: #FC6565;
+}
+#cpu:hover {
+  color: #161320;
+  background: #30FC45;
+}
+
+#memory:hover {
+  color: #161320;
+  background: #FFE51A;
+}
+
+#wireplumber:hover {
+  color: #161320;
+  background: #FFA770;
+}
+
+/* #battery:hover { */
+/*   color: #161320; */
+/*   background: #3BFF4A; */
+/* } */
+
+/* #battery.charging, */
+#battery:hover {
+  color: #161320;
+  background: #36C5FF;
 }
 
 #custom-poweroff {
@@ -237,5 +278,8 @@ window#waybar {
   border-radius: 10px;
   transition: none;
   color: #161320;
-  background: #fbf1c7;
+  background: #ffffff;
+}
+#custom-poweroff:hover {
+    color: #FC0000;
 }

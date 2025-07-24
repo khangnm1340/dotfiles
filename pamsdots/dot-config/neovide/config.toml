@@ -1,7 +1,7 @@
 frame = "none"
 
 [font]
-size = 15
+size = 14
 hinting = "full"
 edging = "antialias"
 

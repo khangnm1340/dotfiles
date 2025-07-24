@@ -13184,3 +13184,2125 @@ hostname --i
 arch
 hostnamectl
 hyprctl devices
+gl https://www.reddit.com/r/VietNamNation/comments/1m33xm4/trạm_biến_áp_của_vin_ở_huế_đã_phát_nổ_do_quá_tải%2f
+overlay use .venv/bin/activate.nu
+gl https://preview.redd.it/ng%C6%B0%E1%BB%9Di-nh%E1%BA%ADt-g%E1%BB%8Di-h%E1%BB%93-ch%C3%AD-minh-l%C3%A0-%C3%B4ng-h%E1%BB%93-b%C3%B2-%C4%91%E1%BB%8F-k%C3%AAu-%C4%91%E1%BB%ABng-g%E1%BB%8Di-l%C3%A0-v0-ne3ofhfxvmdf1.jpeg?width=1284&format=pjpg&auto=webp&s=924106f9dd651719ed9d29eec653bec3854b6e41
+wget2 https://preview.redd.it/ng%C6%B0%E1%BB%9Di-nh%E1%BA%ADt-g%E1%BB%8Di-h%E1%BB%93-ch%C3%AD-minh-l%C3%A0-%C3%B4ng-h%E1%BB%93-b%C3%B2-%C4%91%E1%BB%8F-k%C3%AAu-%C4%91%E1%BB%ABng-g%E1%BB%8Di-l%C3%A0-v0-ne3ofhfxvmdf1.jpeg?width=1284&format=pjpg&auto=webp&s=924106f9dd651719ed9d29eec653bec3854b6e41
+gl https://www.reddit.com/r/Frieren/comments/1m2w2t3/im_addicted_to_the_embarrassed_elf_face/
+gl https://www.reddit.com/r/boxingcirclejerk/comments/1m2aiim/ufc_heavyweight_champion_gets_easily_dispatched/
+gl https://www.reddit.com/r/VietNamNation/comments/1m30rqu/tao_h%E1%BB%8Fi_m%C3%A0y_l%E1%BA%A7n_n%E1%BB%AFa_vin_g%C3%AC/
+cd -
+gl https://www.reddit.com/r/LobotomyKaisen/comments/1m0glx6/there_will_never_be_anyone_making_waves_like_todo/
+ssh CachyOs@127.0.0.1
+ssh liveuser@192.168.1.105
+ssh-copy-id liveuser@192.168.1.105<\n>
+sudo ssh-copy-id liveuser@192.168.1.105<\n>
+sl
+nmtui
+ssh-copy-id liveuser@10.203.106.51<\n>
+ip
+ipconfig
+ip a
+sudo systemctl start sshd
+lazygit
+sudo nvim /etc/default/grub<\n>
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ping google.com
+nordvpn d
+which neovide
+neovide --version
+yay -Qs | fzf
+overlay use .venv/bin/activate.nu
+pip freeze
+nvim .
+overlay use .venv/bin/activate.nu
+python reddit.py
+fastfetch
+overlay use .venv/bin/activate.nu
+python reddit.py
+nordvpn d
+neovide .
+pip install ipython
+jkl https://www.youtube.com/watch?v=zYVP7GyPD4s&list=RDzYVP7GyPD4s&start_radio=1
+xdg-settings set default-web-browser qutebrowser.desktop
+xdg-settings get default-web-browser
+xdg-settings set default-web-browser qutebrowser.desktop
+xdg-settings get default-web-browser
+xdg-settings set default-web-browser org.qutebrowser.qutebrowser.desktop
+xdg-settings get default-web-browser
+pip install pyyaml
+open comments.yaml | from yaml
+open comments.yaml | into string | from yaml
+open comments.yaml | to yaml
+open comments.yaml
+open comments.yaml | get author
+open comments.yaml | get body
+open comments.yaml | get replies
+open comments.yaml | where score > 5
+open comments.yaml | where score > 5 | get author
+open comments.yaml | flatten
+open comments.yaml | where body =~ "kobeni"
+open comments.yaml | where body =~ "Kobeni"
+open comments.yaml | flatten | where body =~ "Kobeni"
+open comments.yaml | where body =~ "Kobeni"
+open comments.yaml | to csv
+open comments.yaml | flatten | to csv
+open comments.yaml | flatten | into string | to csv
+open comments.yaml | describe
+xev
+nordvpn d
+git clone https://github.com/folke/snacks.nvim.git
+tokei
+gemini
+yay -Syu
+yay -Qs | fzf
+gl https://www.reddit.com/r/VietNamNation/comments/1m3un2p/b%C3%A0_nguy%E1%BB%85n_th%E1%BB%8B_kim_ti%E1%BA%BFn_t%E1%BA%ADp_th%E1%BB%83_d%E1%BB%A5c/
+yay -Qs | fzf
+gl https://x.com/kitirna
+gl https://www.instagram.com/p/DMPkuqEy7B0/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMSQYPURq9c/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL-6ijOxLic/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMUSvHMRBRo/?utm_source=ig_web_copy_link
+jkl https://www.youtube.com/watch?v=rCrLluUyD4U
+gl https://www.instagram.com/reel/DMUecZAz6Cb/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLMFii-ynYg/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKVBPXdINWl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+overlay use .venv/bin/activate.nu
+python -m ipykernel install --user --name=your_venv_name --display-name "My Project Venv"
+jupyter lab
+pip freeze
+pip freeze | fzf
+overlay use .venv/bin/activate.nu
+python -m ipykernel install --user --name=.venv --display-name "new enviroment"
+pip install ipykernel
+python -m ipykernel install --user --name=.venv --display-name "new enviroment"
+~/Documents/pam/1-Rough-Note
+jupyter lab
+jupyter lab
+gl https://x.com/enhpyden/status/1946800079857398213
+gl https://x.com/tina2nHR/status/1946273898284331227
+gl https://x.com/drearybliss/status/1946583830984556569
+cd .
+gl https://x.com/haerinfeed/status/1946584885872746823
+cd .
+gl https://x.com/ObsessedLeek/status/1946256118805561787
+cd .
+cd -
+gl https://x.com/haerin1st/status/1946698940314706181
+wget2 https://x.com/autumnsokch/status/1946416658391630223/photo/1
+curl https://x.com/autumnsokch/status/1946416658391630223/photo/1
+wget2 https://x.com/autumnsokch/status/1946416658391630223/photo/1
+wget2 https://x.com/autumnsokch/status/1946416658391630223
+gl https://x.com/autumnsokch/status/1946416658391630223
+gl https://x.com/minji_lovable/status/1946786170030973217
+gl https://x.com/ghostenki/status/1946203623068770439/photo/1
+gl https://x.com/ghostonki/status/1946195346201120799
+gl https://x.com/ChiefofIsaac/status/1946763744010506390
+gl https://x.com/J_Son_NJZ/status/1946580547586973724
+gl https://x.com/DudespostingWs/status/1946665094005588358
+gl https://x.com/legz2s/status/1946629362658496890
+gl https://x.com/sgtrylee/status/1946187992353353928
+gl https://x.com/senaka_look/status/1946164450681364733
+gl https://x.com/haerin1st/status/1946325200229806240
+gl https://x.com/kairuyabai/status/1946564695663784211
+gl https://x.com/hyegums/status/1946475372154957840
+gl https://x.com/viiewspic/status/1946238399129497681
+gl https://x.com/srtikamlik/status/1946746156748517429
+gl https://x.com/insaneposes/status/1946492412702122141
+gl V
+gl https://x.com/touqqi/status/1946419161657127055
+pwd | wl-copy
+gl https://x.com/tokyotengu/status/1946689137119023277
+gl https://x.com/anime_twits/status/1946261367368900812
+gl https://x.com/NewJeans_Bar_CN/status/1946590313109483658
+gl https://x.com/rizalnjz/status/1946497368301735938
+gl https://x.com/_hannibunch/status/1946544877749375033
+gl https://x.com/ghostenki/status/1946172363734655123
+gl https://x.com/_hannibunch/status/1946544877749375033
+gl https://x.com/retrokki/status/1946206576127164723
+gl https://x.com/CakeDegg/status/1946174112961085852
+gl https://x.com/sakurashymk/status/1946726109652861101
+gl https://x.com/StormN_227/status/1946430728566391034
+gl https://x.com/shiryohost/status/1946648484955988172
+gl https://x.com/tokkidior/status/1946600680430694551
+gl https://x.com/d3erjune/status/1946213836811300871
+gl https://x.com/NJZBTS/status/1946594121944015149
+gl https://x.com/weirddalle/status/1946722062556369404
+gl https://x.com/hana_sooong/status/1946535285178994962
+gl https://x.com/baeglamz/status/1946623289461534967
+gl https://x.com/sgtrylee/status/1946554199929749749
+gl https://x.com/pouchwonki/status/1946811706023514378
+gl https://x.com/LocalBateman/status/1946344482540306872
+gl https://x.com/J_Son_NJZ/status/1946272200367231034
+gl https://x.com/njzbase/status/1946617225911361879
+gl https://x.com/seuljeanz/status/1946155962143821951
+gl https://x.com/newadpp/status/1946318370007081417
+gl https://x.com/GalleryHyein/status/1946470738707222915
+gl https://x.com/attentionakgae/status/1946195364228239532
+gl https://x.com/PoppyKPoppie/status/1946465406644109492
+gl https://x.com/iseauseamee/status/1946771543306170783
+gl https://x.com/awesomepandapig/status/1946698984455893354
+gl https://x.com/awesomepandapig/status/1946698984455893354
+gl https://x.com/haerinface_/status/1946566949225500734
+gl https://x.com/Kittykangy/status/1946827630927573389
+gl https://x.com/zarubrick/status/1946157883659366802
+gl https://x.com/astasiadream/status/1946513318296096791
+gl https://x.com/suzybwoo/status/1946488464867996151
+lsblk
+sudo mkdir /mnt/data1<\n>sudo mkdir /mnt/data2
+sudo mount /dev/nvme1n1p7 /mnt/data1<\n>sudo mount /dev/nvme1n1p8 /mnt/data2
+reboot
+sudo mount /dev/nvme1n1p7 /mnt/data1<\n>sudo mount /dev/nvme1n1p8 /mnt/data2
+cd /run/media/pampam/277B4C5740516ECD
+cd /run/media/pampam/8A54901E54900ED7
+z
+gl https://www.instagram.com/p/DMU1vlTy2lE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/p/DMVDyXuyv-n/
+gl https://www.instagram.com/reel/DLnt2IdhnSL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLr0vAdR8xH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLcgYNipmsz/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMJ-Sj2sows/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMMWsAkIRNt/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMNydDlo4Y8/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK-kitJBvdU/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLuzqjgRZ6t/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIphpYtzmXd/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMDO1eWzKkK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMIKDFVOcmU/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK-n5CFSQTi/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJ8DWe4hfKN/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMHpr0OO6PE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL2-1EyuG2F/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMPF1rlNXu6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DFiDDlPyKZM/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGg7XLcv3cQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLgH00wuZEk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL1ejm4JyY_/?utm_source=ig_web_copy_link
+jkl /home/Ext4Pam/Music/berry/can_j_noi_dau_e_oi<\n>
+jkl https://www.youtube.com/watch?v=UNj3om8DTJw
+lsblk -d -o name,rota,model
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ 
+nordvpn d
+rmpc
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ 
+gl https://www.instagram.com/reel/DJmV78kA8el/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLkGW1APKrE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLUspBCxS9y/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMVPv0XouEa/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLQZskbMpK4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLujH61yRox/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIOYNG5tm9T/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLjQItBNkGE/?utm_source=ig_web_copy_link
+yay -Qs | fzf
+lazygit
+yay -Qs | fzf
+yay -S neovide-git
+jkl https://www.youtube.com/watch?v=KuXlPyXDRus
+neovide --version
+lazygit
+which neovide
+neovide --version
+which neovide
+yay -S neovide-git
+jkl https://youtu.be/-jI4HS0oDhI?si=hx_W70uPJgI86Grs
+gl https://www.instagram.com/reel/DJsJ741BOlI/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMVPHk6o7VL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMB7yzIyE81/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJEcWHat0ZK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMIO9ObSKaQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLEH7zVuUb8/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLEH7zVuUb8/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLxsIvrTfko/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMA_K5np-Y3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLjbpfAyMKM/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLDh5L_JF8J/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL0DxvqNr1o/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL78gUrJ0fe/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLPeGiEg0R_/?utm_source=ig_web_copy_link
+pwd | wl-copy
+gl https://www.tiktok.com/@anhsangaza.official/photo/7495128508759428370
+neovide
+gl https://www.instagram.com/reel/DLeMDtXNQSW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLIha1-ybeF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJs5y_qSgMu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLHualTPiZr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DInL5A3yWke/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJMtJ2FTRqy/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJMtJ2FTRqy/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLyhkNjMdNA/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL_NmAjtwQ4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DI7eAQ9yqiV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLIYQqAoRat/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL_CtSNhALQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIJlJc_ilTS/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMH05DyuE43/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLextTbgl6k/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMXuXF9vh1o/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIURUKPtiSM/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL5BMkJMuP6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DI8wA86JvKP/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMFSLjQMClz/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMJItf8zEhp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIbOSS5SfSE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLl-mKwy6Sq/?utm_source=ig_web_copy_link
+nordvpn d
+tmux
+jkl https://www.youtube.com/watch?v=XJJy6VJvSCk
+gl https://www.instagram.com/p/DMQYr9syNFa/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMYPMzyRXPL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMX8Q9Ny74P/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMKYO6eywBh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMYIMDOSvEs/?utm_source=ig_web_copy_link
+jlk https://www.youtube.com/watch?v=9yDNBCee4bY
+jkl https://www.youtube.com/watch?v=9yDNBCee4bY
+yt-dlp https://soundcloud.com/wherearethepercs/lesserafim-sour-grapes-rxi-yunme-pluggnb-flip
+jkl https://www.youtube.com/watch?v=PI82fI5nS1Y
+overlay use .venv/bin/activate.nu
+pip install asyncpraw
+python async_thinkpad.py
+python 3_months_headphones.py
+open headphones_posts_last_3_months.json | to yaml o> headphones.yaml
+yay -S yq
+yq -P -i --indent 4 headphones.yaml
+yq --help
+yq --help | wl-copy
+yay -Rns yq
+yay -S go-yq
+yq -P -i --indent 4 headphones.yaml
+pwd | wl-copy
+cd -
+gl https://www.instagram.com/reel/DMZVdzBy2KT/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/kpopiumtv/
+gl https://www.instagram.com/p/DMU4Rv7RQf8/
+gl https://www.instagram.com/reel/DL6pLHQTIie/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMYdq-hJOy2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DK33WQgIcqm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMSeAzzR3E5/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMIq5Trt3ai/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMUfblvvam3/?utm_source=ig_web_copy_link
+pip install pmaw
+python pmaw.py
+pip freeze | fzf
+python pmaw.py
+cd ..
+python pmaw.py
+python test_pmaw.py
+open headphones_posts_last_3_months.json | length
+open data.json | flatten | where name == "id" | length<\n>
+open headphones_posts_last_3_months.json | flatten | where name == "id" | length<\n>
+open headphones_posts_last_3_months.json<\n>
+cd ..
+pwd | wl-copy
+dysk
+lsblk
+dysk
+z
+yay -Rns android-studio
+dysk
+yay -S gparted
+lsblk
+sudo blkid /dev/nvme1n1p7
+sudo nvim /etc/fstab
+sudo mount -a
+reboot
+lsblk
+dysk
+sl
+sudo chown pampam:pampam /home/Ext4Pam/I_AM_MUSIC
+eza
+eza o> ../name_of_files.txt
+eza o> /home/Ext4Pam/name_of_files.txt
+eza o>> ../name_of_files.txt
+eza o>> /home/Ext4Pam/name_of_files.txt
+btop
+sudo nvim /etc/fstab
+sl
+sudo systemctl restart mpd
+systemctl status mpd
+rmp
+rmpc
+btop
+systemctl status mpd
+systemctl start mpd
+journalctl -xeu mpd.service
+journalctl -xeu mpd.service | nvim
+ps
+ps | where name =~ "mpc"
+ps | where name =~ "mpd"
+ps | where name =~ "mpd" | pkill $in
+ps | where name =~ "mpd" | take pid
+ps | where name =~ "mpd" 
+pkill pid
+pkill mpd
+systemctl start mpd
+rmpc
+mpd --help
+reboot
+rmpc
+mpd --help
+mpd
+mpc update
+rmpc
+dysk
+zstd -d RS_2025-05.zst
+open RS_2025-05
+pwd | wl-copy
+/home/pampam/Documents/reddit/submissions
+open RS_2025-05
+btop
+nvim RS_2025-05
+tokei RS_2025-05
+which wc
+wc RS_2025-05
+stat -c %s your_large_file.json
+stat -c %s RS_2025-05
+jq RS_2025-05
+jq RS_2025-05.json
+jq
+open RS_2025-05.json
+open RS_2025-05
+open RS_2025-05.json
+open RS_2025-05.json
+wc niggers.json
+open niggers.json
+mv niggers.json niggers.ndjson
+open niggers.ndjson
+open shorter_file.ndjson
+open shorter_file.json
+open --raw shorter_file.json
+pwd | wl-copy
+/home/pampam/Documents/reddit/submissions<\n>
+/home/pampam/Documents/reddit/submissions
+open --raw shorter_file.json
+open --raw RS_2025-05.json | from json -o
+open --raw shorter_file.json | from json -o
+open shorter_file.ndjson | from json -o
+let reddit_data = (open shorter_file.ndjson | from json -o)<\n>
+$reddit_data | select id author subreddit title | take 10
+$reddit_data | where author == 'MaximumRocks' | select id title subreddit<\n>
+$reddit_data | group by subreddit | count
+$reddit_data | group-by subreddit | count
+$reddit_data | group-by subreddit | length
+$reddit_data | length
+dysk
+cat shorter_file.ndjson
+cat shorter_file.ndjson | test.ndjson
+cat shorter_file.ndjson o> test.ndjson
+cat RS_2025-05.json o> test.ndjson
+head -n 400000 RS_2025-05.json o> niggers.ndjson
+let reddit_data = (open hanni_pham.ndjson | from json -o)<\n>
+$reddit_data | where author == 'MaximumRocks' | select id title subreddit<\n>
+$reddit_data | length <\n>
+$reddit_data | head<\n>
+$reddit_data | take 10
+$reddit_data | describe
+$reddit_data | columns
+nvim /tmp/b1VxqF3Bqh5nuatjnmJx5Q/history.txt
+$reddit_data | select title author subreddit score | take 5
+config edit
+nvim $env.config
+nvim $nu.env
+nvim $nu.env-path
+$reddit_data | select title author subreddit score | take 5
+head -n 50000 RS_2025-05.json o> niggers.ndjson
+head -n 50000 RS_2025-05.ndjson o> hanni_pham.ndjson
+let reddit_data = (open hanni_pham.ndjson | from json -o)<\n>
+$reddit_data | nvim
+$reddit_data | describe
+$reddit_data | columns
+$reddit_data | columns | wl-copy
+$reddit_data | sort-by score | reverse | select title author subreddit score url | limit 10
+$reddit_data | sort-by score | reverse | select title author subreddit score url | head 10
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 o> test.txt
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | $in o> test.txt
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | echo $in o> test.txt
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | save test.txt
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | table --full
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | table --width 9999
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | table --width 9999 | save niggers.txt
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | table --width 9999
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | table | less -S
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | to nuon
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | to json --pretty
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | to json
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | to yaml
+$reddit_data | sort-by score | reverse | select author subreddit score url | take 10 
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | to yaml
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10
+def str-wrap [<\n>  --wrap-at: number = 20 # User can specify wrap width, defaults to 20<\n>] {<\n>  str replace -a "\r\n" "\n" # Normalize Windows newlines to Unix newlines<\n>    | str replace -a "\n" " SINGLENEWLINE " # Temporarily replace newlines to handle them separately<\n>    | str trim # Trim leading/trailing whitespace<\n>    | split row -r "\\s+" # Split the string into words (using regex for any whitespace)<\n>    | reduce -f { joined: '' count: 0 } { |word, state| # Iterate through words<\n>        if ($word == "SINGLENEWLINE") { # If we encounter our special newline marker<\n>          {<\n>            joined: ($state.joined + "\n") # Add a real newline<\n>            count: 0 # Reset character count for the new line<\n>          }<\n>        } else if ($state.count < $wrap_at) { # If current line length is within wrap limit<\n>          if ($state.joined | is-empty) { # If it's the first word on the line<\n>            {<\n>              joined: $word # Just add the word<\n>              count: ($word | str length) # Update count<\n>            }<\n>          } else { # If not the first word, add a space before the word<\n>            {<\n>              joined: ($state.joined + ' ' + $word)<\n>              count: ($state.count + 1 + ($word | str length)) # +1 for the space<\n>            }<\n>          }<\n>        } else { # If current line length exceeds wrap limit<\n>          {<\n>            joined: ($state.joined + "\n" + $word) # Start a new line with the current word<\n>            count: 0 # Reset count (should be length of current word, actually)<\n>          }<\n>        }<\n>      }<\n>    | get joined # Get the final wrapped string from the 'joined' field of the reduce output<\n>    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n" # Restore any original newlines that were missed (this part seems a bit redundant with the first replace and the SINGLENEWLINE handling in reduce)<\n>}
+let reddit_data = (open hanni_pham.ndjson | from json -o)<\n>
+def str-wrap [<\n>  --wrap-at: number = 20 # User can specify wrap width, defaults to 20<\n>] {<\n>  str replace -a "\r\n" "\n" # Normalize Windows newlines to Unix newlines<\n>    | str replace -a "\n" " SINGLENEWLINE " # Temporarily replace newlines to handle them separately<\n>    | str trim # Trim leading/trailing whitespace<\n>    | split row -r "\\s+" # Split the string into words (using regex for any whitespace)<\n>    | reduce -f { joined: '' count: 0 } { |word, state| # Iterate through words<\n>        if ($word == "SINGLENEWLINE") { # If we encounter our special newline marker<\n>          {<\n>            joined: ($state.joined + "\n") # Add a real newline<\n>            count: 0 # Reset character count for the new line<\n>          }<\n>        } else if ($state.count < $wrap_at) { # If current line length is within wrap limit<\n>          if ($state.joined | is-empty) { # If it's the first word on the line<\n>            {<\n>              joined: $word # Just add the word<\n>              count: ($word | str length) # Update count<\n>            }<\n>          } else { # If not the first word, add a space before the word<\n>            {<\n>              joined: ($state.joined + ' ' + $word)<\n>              count: ($state.count + 1 + ($word | str length)) # +1 for the space<\n>            }<\n>          }<\n>        } else { # If current line length exceeds wrap limit<\n>          {<\n>            joined: ($state.joined + "\n" + $word) # Start a new line with the current word<\n>            count: 0 # Reset count (should be length of current word, actually)<\n>          }<\n>        }<\n>      }<\n>    | get joined # Get the final wrapped string from the 'joined' field of the reduce output<\n>    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n" # Restore any original newlines that were missed (this part seems a bit redundant with the first replace and the SINGLENEWLINE handling in reduce)<\n>}
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update textcolumn { str-wrap } | table -ed 1
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update title { str-wrap } | table -ed 1
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update title { str-wrap } | table -ed 2
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update title { str-wrap } | table -ed 1
+$reddit_data | select title subreddit score | where subreddit =~ "bocchi"
+reboot
+tmu
+ping google.com
+nmtui
+overlay use .venv/bin/activate.nu
+let reddit_data = (open hanni_pham.ndjson | from json -o)<\n>
+$reddit_data | select title subreddit score
+$reddit_data | select title subreddit score | where subreddit =~ "bocchi"
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10
+def str-wrap [<\n>  --wrap-at: number = 20<\n>] {<\n>  str replace -a "\r\n" "\n"<\n>    | str replace -a "\n" " SINGLENEWLINE "<\n>    | str trim<\n>    | split row -r "\\s+"<\n>    | reduce -f { joined: '' count: 0 } { |word, state|<\n>        if ($word == "\n") {<\n>          {<\n>            joined: ($state.joined + "\n")<\n>            count: 0<\n>          }<\n>        } else if ($state.count < $wrap_at) {<\n>          if ($state.joined | is-empty) {<\n>            {<\n>              joined: $word<\n>              count: ($word | str length)<\n>            }<\n>          } else {<\n>            {<\n>              joined: ($state.joined + ' ' + $word)<\n>              count: ($state.count + 1 + ($word | str length))<\n>            }<\n>          }<\n>        } else {<\n>          {<\n>            joined: ($state.joined + "\n" + $word)<\n>            count: 0<\n>          }<\n>        }<\n>      }<\n>    | get joined<\n>    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n"<\n>}
+$reddit_data | update textcolumn { str-wrap } | table -ed 1
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update title { str-wrap } | table -ed 1
+$reddit_data | sort-by score | reverse | select title author subreddit score url | sort-by score | take 10 | update title { str-wrap } | table -ed 1
+$reddit_data | sort-by score | reverse | select title author subreddit score url | take 10 | update title { str-wrap } | table -ed 1
+wc hanni_pham.ndjson
+gemini
+cd ~/Documents/UTH/DataMining/prawl_tests/test_codes
+tmux a
+nmtui
+nordvpn d
+dysk
+z
+cat
+unfreeze
+job unfreeze
+tmux
+fzf
+fzf | cd $in
+fzf
+pushd
+dirs
+z
+cd ~/Documents/UTH/DataMining/prawl_tests/test_codes
+dirs
+dirs drop
+dirs
+dirs drop
+dirs
+dirs drop
+dirs
+dirs drop
+z
+zi
+~/Documents/reddit
+open r_BocchiTheRock_posts.jsonl | from ndjson
+open r_BocchiTheRock_posts.jsonl | into string |from ndjson
+open r_BocchiTheRock_posts.jsonl | from jsonl
+open --raw r_BocchiTheRock_posts.jsonl | from jsonl
+open r_BocchiTheRock_posts.jsonl
+wrap
+let bocchi = (open r_BocchiTheRock_posts.jsonl)
+$bocchi | wrap title
+$bocchi | where score > 100 | wrap title
+let bocchi = (open r_BocchiTheRock_posts.jsonl)
+$bocchi | column
+$bocchi | columns
+$bocchi | describe
+open r_BocchiTheRock_posts.jsonl | columns
+open r_BocchiTheRock_posts.jsonl | column
+ls | columns
+$bocchi | columns
+$bocchi | to json | columns
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+$bocchi | columns
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+$bocchi | columns
+$bocchi | columns | fzf
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+$bocchi | where score > 100 | select title author score url | wrap title
+$bocchi | where score > 100 | select title author score url | sort-by score | wrap title
+$bocchi | where score > 100 | select title author score url | sort-by score | wrap title | let temp = $in
+$bocchi | where score > 100 | select title author score url | sort-by score | wrap title | temp
+$bocchi | where score > 100 | select title author score url | sort-by score | let temp = ($in)
+let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)
+$temp
+$temp | wrap title
+$temp | head | wrap title
+$temp | take 10 | wrap title
+$temp | end 10 | wrap title
+$temp | last 10 | wrap title
+set -g @plugin 'schasse/tmux-jump'
+tmux capture-pane -p -S - | nvim -
+clear
+$temp | last 10 | wrap title
+tmux capture-pane -p -S - | nvim -
+tmux capture-pane -p - | nvim -
+tmux capture-pane -p -S -20 | nvim -<\n>
+tmux capture-pane -p -S -100 | nvim -<\n>
+tmux
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)
+$temp | last 10 | wrap title
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+zi
+pwd | wl-copy
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)
+$temp | last 10 | wrap title
+$temp | wrap title
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-hmqxtn8yfqre1.jpeg?width=359&format=pjpg&auto=webp&s=b311704a29ba8e147b99720a4fd58d963fa7c7c4
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-1l410ib2iqre1.jpeg?width=316&format=pjpg&auto=webp&s=2efb04f23af33e2bf145736bebb5ed4b9955e9c0
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-tlox8khl1rre1.jpeg?width=216&format=pjpg&auto=webp&s=7a67d6cadcba3ff3d4b5e8fabf45796b44bc3fe1
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-pw5z6yeq8qre1.jpeg?width=1170&format=pjpg&auto=webp&s=a80a7890af2fe15323f6213116de4bac6a67ba6c
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-xprv53495wre1.jpeg?width=1386&format=pjpg&auto=webp&s=5ef6ffbf0bb7a15e3373480700370ba930711393
+wget2 https://preview.redd.it/nijikas-pussy-by-machuuu68-v0-blx42zcr8qre1.jpeg?width=898&format=pjpg&auto=webp&s=b86f9875f8d49f58d1caec8a9546f1c4a1ae4ec5
+open r_BocchiTheRock_posts.jsonl
+open r_BocchiTheRock_posts.jsonl | from jsonl
+open r_BocchiTheRock_posts.jsonl | where score > 100 | sort-by score
+open r_BocchiTheRock_posts.jsonl | where score > 100 | sort-by score | take 10 | select title author score url | wrap title
+nvim rple.nu
+echo $env.TMUX
+tmux ls
+tmux display-message -p '#{session_name}:#{window_index}.#{pane_index}'
+nvim rple.nu
+1+1
+ls
+$bocchi 
+| where score > 100 
+| select title author score url 
+| sort-by score | take 10
+ls<\n>let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)<\n>let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)<\n>$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score | take 10
+ls
+let bocchi = (open r_BocchiTheRock_posts.jsonl | from json -o)
+let bocchi = (open r_BocchiTheRock_posts.jsonl)
+$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score | take 10
+$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score | take 10 | wrap title
+ls
+let bocchi = (open r_BocchiTheRock_posts.jsonl)
+$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score | take 10 | wrap title
+$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score |reverse | take 10 | wrap title
+ls
+sl
+ls -F /
+ls --help
+ls -l
+ls
+poweroff
+clear
+fzf
+y
+git clone https://github.com/KroneCorylus/ghostty-shader-playground.git
+~/dotfiles/pamsdots/dot-config/ghostty/shaders
+nvim
+~/dotfiles/pamsdots/dot-config/ghostty/shaders
+npm install
+npm start
+git clone https://github.com/ghostty-org/ghostty<\n>cd ghostty<\n>
+git branch
+git log
+lazygit
+git log
+git log -1
+zig build -Doptimize=ReleaseFast
+./ghostty
+nvim
+nvim
+clear
+nordvpn d
+nordvpn c
+nordvpn d
+gemini --version
+yay -S gemini-cli 
+yay -Qs | fzf
+yay -Syu
+yay -Rns google-gemini-cli
+yay -S gemini-cli 
+yay -S gemini-cli --cleanbuild
+yay -S gemini-cli
+nvim /tmp/tmux_buffer_tmp
+ls
+open r_BocchiTheRock_posts.jsonl | where score > 100 | sort-by score | take 10 | select title author score url | wrap title
+nvim /tmp/tmux_buffer_tmp
+gemini --version
+nordvpn status
+nordvpn c
+nordvpn d
+gemini
+git clone https://github.com/junegunn/fzf.git
+gemini
+sl
+ls
+$bocchi <\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score |reverse | take 10 | wrap title<\n>
+let bocchi = (open r_BocchiTheRock_posts.jsonl)<\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score |reverse | take 10 | wrap title<\n>
+$bocchi 
+let bocchi = (open r_BocchiTheRock_posts.jsonl)<\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score |reverse | take 10 | wrap title<\n>
+$bocchi 
+let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)
+$bocchi 
+let bocchi = (open r_BocchiTheRock_posts.jsonl)<\n>| where score > 100 <\n>| select title author score url <\n>| sort-by score |reverse | take 10 
+let temp = ($bocchi | where score > 100 | select title author score url | sort-by score)
+$bocchi <\n>| wrap title
+ls
+tmux
+gemini
+overlay use .venv/bin/activate.nu
+ls
+open comments.jsonl
+open comments.jsonl | wrap body
+open comments.jsonl | columns
+open comments.jsonl |select id parent_id author score created_utc | wrap body
+open comments.jsonl |select id parent_id author score created_utc
+open comments.jsonl |select id parent_id author score created_utc | sort-by score
+open comments.jsonl |select id parent_id author score created_utc created_vietnam | sort-by score
+open comments.jsonl |select id parent_id author score created_vietnam created_utc | sort-by created_utc
+open post.jsonl |select id parent_id author score created_vietnam created_utc | sort-by created_utc
+open posts.jsonl |select id parent_id author score created_vietnam created_utc | sort-by created_utc
+open posts.jsonl |select id author score created_vietnam created_utc | sort-by created_utc
+open posts.jsonl |select id author score created_vietnam created_utc | sort-by created_utc | reverse
+open posts.jsonl |select id author score created_vietnam created_utc | sort-by created_utc
+ls
+let bocchi = (open r_BocchiTheRock_posts.jsonl)
+$bocchi <\n>| where score > 100 
+let bocchi = (open r_BocchiTheRock_comments.jsonl)
+$bocchi $bocchi <\n>| where score > 200 <\n>| select replies<\n>| take 10
+$bocchi<\n>| where score > 200 <\n>| select replies<\n>| take 10
+$bocchi<\n>| where score > 200 <\n>| select replies<\n>| take 100
+$bocchi<\n>| where score > 200 <\n>| select replies<\n>| take 1000
+pwd | wl-copy
+tmux
+tmux list
+tmux ls
+pkill tmux
+chmod +x dm_shell.sh
+./dm_shell.sh
+nu dm_shell.nu
+tmux
+pkill tmux
+nu dm_shell.nu
+pkill tmux
+nu dm_shell.nu
+sl
+nu dm_shell.nu
+pkill tmux
+nu dm_shell.nu
+pkill tmux
+cd nu_eta && ipython
+tmux
+echo hi ; echo hanni
+git clone https://github.com/ibhagwan/fzf-lua.git
+rmpc
+pkill neovide
+yay -Qs | fzf
+nvim headphone_scraper.py
+yay -Qs | fzf
+yay -Rns ghostty
+yay -S ghostty-git
+nvim WhatsYourEta.nu
+gemini
+cd ..
+fzf |<\n>--bind="j:down" |<\n>--bind="k:up" |<\n>--bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"|<\n>--bind="load:unbind(j)+unbind(k)+unbind(i)" |<\n>--bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)"
+fzf --bind="j:down" --bind="k:up" --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)" --bind="load:unbind(j)+unbind(k)+unbind(i)" --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)"
+fzf <\n>--bind="j:down" <\n>--bind="k:up" <\n>--bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"<\n>--bind="load:unbind(j)+unbind(k)+unbind(i)" <\n>--bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)"
+fzf \<\n>    --bind="j:down" <\n>    --bind="k:up" <\n>    --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"<\n>    --bind="load:unbind(j)+unbind(k)+unbind(i)" <\n>    --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)"
+fzf <\n>--bind="j:down" <\n>--bind="k:up" <\n>--bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"<\n>--bind="load:unbind(j)+unbind(k)+unbind(i)" <\n>--bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)"
+gemini
+nvim WhatsYourEta.nu
+nvim headphone_scraper.py
+poweroff
+ghostty --font-size=14 --title=btop -e btop -p 3
+ghostty --font-size=14 --title=btop -e btop
+hyprctl
+hyprctl activewindow
+hyprctl
+hyprctl clients
+ghostty --app-id btop-floating-instance -e btop
+ghostty --title=btop
+hyprctl clients
+ghostty --title=btop -e btop
+hyprctl clients
+ghostty --title=btop
+ghostty btop
+ghostty -e btop
+kitty -e btop
+hyprctl clients
+ghostty --initialTitle="kitty" -e btop
+ghostty --title="kitty" -e btop
+ghostty --title="kitty"
+hyprctl clients
+deadbeef
+hyprctl clients
+deadbeef --title="btop"
+ghostty --title="DeaDBeeF"
+hyprctl clients
+ghostty title="btop"
+ghostty title= "btop"
+ghostty title=btop
+ghostty --title=btop
+ghostt --help
+ghostty --help
+man ghostty
+ghostty --class=kitty
+hyprctl clients
+kitty
+ghostty --title= "btop"
+ghostty --title="btop"
+ghostty --title="nigger"
+deadbeef --title="nigger"
+hyprctl clients
+windowrule = float, class:kitty, title:kitty
+kitty
+ghostty --class=aaa
+hyprctl clients
+ghostty
+z
+z
+hyprctl clients
+wezterm
+kitty
+ghostty
+hyprctl clients
+kitty
+kitty
+hyprctl clients
+ghostty
+yay -S ghostty-git
+yay -Rns ghostty-git
+yay -S ghostty
+ghostty --version
+./ghostty --version
+./ghostty --title=btop
+./ghostty --help
+ghostty --new-window
+./ghostty --help
+./ghostty --new-window
+./ghostty --help
+./ghostty --edit-config
+./ghostty edit-config
+./ghostty +edit-config
+./ghostty +title="btop"
+./ghostty +help
+./ghostty +new-window
+./ghostty +title=btop
+./ghostty +title
+./ghostty --title=btop
+ghostty --title="btop"
+./ghostty +help
+./ghostty +list-action
+./ghostty --list-action
+./ghostty list-action
+./ghostty help
+./ghostty --help
+./ghostty +list-actions
+./ghostty +show-face
+./ghostty +help
+./ghostty +new-window
+./ghostty +boo
+./ghostty
+./ghostty --help
+./ghostty --list-actions
+./ghostty +list-actions
+ghostty +list-actions
+ghostty +help
+ghostty +version --help
+hyprctl clients
+./ghostty --class=org._7_zip.Archiver
+ghostty --class=org._7_zip.Archiver
+pwd | wl-copy
+cd nu_eta ; ipython
+ipython
+overlay use .venv/bin/activate.nu
+ipython
+pip freeze | fzf
+def convert_utc_to_vietnam_time(utc_timestamp):<\n>    """Converts a UTC timestamp to a human-readable string in Vietnam time."""<\n>    utc_datetime = datetime.fromtimestamp(utc_timestamp, tz=ZoneInfo("UTC"))<\n>    vietnam_tz = ZoneInfo("Asia/Ho_Chi_Minh")<\n>    vietnam_datetime = utc_datetime.astimezone(vietnam_tz)<\n>    return vietnam_datetime.strftime("%Y-%m-%d %H:%M:%S %Z")<\n>
+ipython
+python async_headphone_scraper.py
+open comments_async.jsonl |select id parent_id author score created_vietnam created_utc | sort-by score
+git clone https://github.com/praw-dev/asyncpraw.git
+echo "# praw-data-mining" o>> README.md<\n>git init<\n>git add README.md<\n>git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:khangnm1340/praw-data-mining.git<\n>git push -u origin main
+nvim /home/pampam/Documents/UTH/DataMining/praw-data-mining/praw.ini
+overlay use .venv/bin/activate.nu
+pip install pandas matplotlib
+ipython
+gemini
+jkh https://www.youtube.com/watch?v=hQjzCCOAXws
+jkl https://www.youtube.com/watch?v=hQjzCCOAXws
+rmpc
+nordvpn d
+nvim
+nordvpn 
+nordvpn c
+zstd -d RS_2025-05.zst | head -c 200MB | select id parent_id author score created_vietnam created_utc | sort-by score | take 10
+zstd -d RS_2025-05.zst | head -n 50000 | select id parent_id author score created_vietnam created_utc | sort-by score | take 10
+head --help
+head -c 100 hanni_pham.jsonl 
+head -c 10MB hanni_pham.jsonl 
+zstd --help
+open comments_async.jsonl |select id parent_id author score created_vietnam created_utc | sort-by score
+open comments_async.jsonl
+pwd | wl-copy
+zstd -d RS_2025-05.zst | head -c 10MB 
+git clone https://github.com/nushell/nushell.github.io.git
+gemini
+yay -S gemini-cli
+zstd -d RS_2025-05.zst | from jsonl | head -c 2MB
+open RS_2025-05.zst | lines | first 1000
+gemini
+gemini
+man zstd
+man zstd|nvim
+kjzstd -d RS_2025-05.zst | head -c 10M | from jsonl | select id parent_id author score created_utc | sort-by score | take 10
+zstd -d RS_2025-05.zst | head -c 10M | from jsonl | select id parent_id author score created_utc | sort-by score | take 10
+open --raw RS_2025-05.zst
+open --raw RS_2025-05.zst | head -c 10M | zstd -d $in 
+open --raw RS_2025-05.zst | head -c 10M |into string| zstd -d $in 
+open --raw RS_2025-05.zst |into string | head -c 10M | zstd -d $in 
+open --raw RS_2025-05.zst | head -c 10M 
+open --raw RS_2025-05.zst | head -c 10M
+let june = (zstd -d RS_2025-05.zst | head -c 10MB)
+zstd --fast hanni_pham.jsonl -o hanni_pham.zst
+let june = (zstd -d hanni_pham.zst | head -c 10MB)
+let june = (zstd -d hanni_pham.zst | head -c 10MB)
+zstd -d hanni_pham.zst | head -c 10MB | select title
+open hanni_pham.zst
+clear
+fzf
+cargo install nu_plugin_compress<\n>plugin add ~/.cargo/bin/nu_plugin_compress<\n>plugin use compress
+cargo install nu_plugin_compress
+plugin add ~/.cargo/bin/nu_plugin_compress ; plugin use compress
+plugin use compress
+ls ~/.cargo/bin/nu_plugin_compress
+plugin
+plugin list
+plugin --help
+plugin add /home/pampam/.cargo/bin/nu_plugin_compress
+plugin list
+plugin use compress
+open hanni_pham.zst | from zst 
+open hanni_pham.zst | from zst | select title
+open hanni_pham.zst | decod
+open hanni_pham.zst | decode
+open hanni_pham.zst | decode | lines
+open hanni_pham.zst | decode | lines | head -n 100
+open hanni_pham.zst | decode | lines | take 100
+open hanni_pham.zst | decode | from jsonl | take 100
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl | take 100 <\n>| select title author score body | sort-by score | take 100)
+open hanni_pham.zst <\n>| decode | from jsonl | columns
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl)
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl<\n>| select author score body | sort-by score | take 100)
+open hanni_pham.zst <\n>| decode | from jsonl
+open hanni_pham.zst <\n>| decode
+nvim june.nu
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl)
+open hanni_pham.zst | decode
+open hanni_pham.zst | decode | lines | take 100
+pwd | wl-copy
+/home/pampam/Documents/reddit/submissions<\n>
+/home/pampam/Documents/reddit/submissions
+open hanni_pham.zst | decode | lines | take 100
+gemini
+open hanni_pham.zst <\n>| decode | from jsonl | columns
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl<\n>| select id author score body url | take 100)
+$bocchi | sort-by score
+open hanni_pham.zst <\n>| decode | from jsonl | columns
+open hanni_pham.zst 
+let bocchi = (open hanni_pham.zst <\n>| decode | from jsonl<\n>| select id author score url | take 100)
+$bocchi | sort-by score
+$bocchi
+$bocchi | sort-by score
+$bocchi | fzf
+nvim headphone_scraper.py
+./ghostty
+jkl https://www.youtube.com/watch?v=Ysn4tbBPv2Q
+jkl https://www.youtube.com/shorts/BM6Ry3TvUxc
+overlay use .venv/bin/activate.nu
+w https://preview.redd.it/over-a-year-ago-i-said-the-concepts-might-come-back-if-they-v0-hrapo9ec9kef1.png?width=1080&format=png&auto=webp&s=c8c46aa6fa5bebb8f6e8ff803eec011e775b6be5
+w https://preview.redd.it/over-a-year-ago-i-said-the-concepts-might-come-back-if-they-v0-cuy9cq82mkef1.png?width=640&format=png&auto=webp&s=87eea0da6569512d91856bc847c399a4d2e76d22
+cd nu_eta ; ipython
+overlay use .venv/bin/activate.nu
+"""<\n>This script downloads a specific Reddit post and its comments based on a URL.<\n>It uses asyncpraw to interact with the Reddit API asynchronously.<\n>The post and all its comments are saved into a single JSON file.<\n>"""<\n>import asyncpraw<\n>import json<\n>from datetime import datetime<\n>from zoneinfo import ZoneInfo<\n>import asyncio<\n>import aiofiles<\n>import logging<\n>import re<\n>import sys<\n># --- Configuration ---<\n># The user should change this URL to the post they want to download.<\n># You can also pass the URL as a command-line argument.<\n># POST_URL = "https://www.reddit.com/r/Chainsawfolk/comments/1d9x5n4/what_if_asa_and_denji_got_married_and_had_a_child/"<\n>POST_URL = "https://www.reddit.com/r/Chainsawfolk/comments/1m406uc/no_happy_endings/"<\n># --- Logging Setup ---<\n>log = logging.getLogger(__name__)<\n>handler = logging.StreamHandler()<\n>handler.setLevel(logging.INFO)<\n>log.setLevel(logging.INFO)<\n>log.addHandler(handler)<\n>def convert_utc_to_vietnam_time(utc_timestamp):<\n>    """Converts a UTC timestamp to a human-readable string in Vietnam time."""<\n>    utc_datetime = datetime.fromtimestamp(utc_timestamp, tz=ZoneInfo("UTC"))<\n>    vietnam_tz = ZoneInfo("Asia/Ho_Chi_Minh")<\n>    vietnam_datetime = utc_datetime.astimezone(vietnam_tz)<\n>    return vietnam_datetime.strftime("%Y-%m-%d %H:%M:%S %Z")<\n><\n>async def scrape_post_by_url(reddit, post_url):<\n>    """<\n>    Scrapes a single post and its comments from a given URL<\n>    and saves it to a JSON file.<\n>    """<\n>    post_id_match = re.search(r"/comments/(\w+)/", post_url)<\n>    if not post_id_match:<\n>        log.error(f"Could not extract post ID from URL: {post_url}")<\n>        return<\n>    post_id = post_id_match.group(1)<\n>    output_filename = f"post_{post_id}.json"<\n>    log.info(f"Connecting to post: {post_url}")<\n>    try:<\n>        submission = await reddit.submission(url=post_url)<\n>        log.info(f'Processing post: "{submission.title}" (ID: {submission.id})')<\n>        post_data = {<\n>            "id": submission.id,<\n>            "title": submission.title,<\n>            "score": submission.score,<\n>            "url": submission.url,<\n>            "author": str(submission.author),<\n>            "created_utc": submission.created_utc,<\n>            "created_vietnam": convert_utc_to_vietnam_time(submission.created_utc),<\n>            "selftext": submission.selftext,<\n>            "comments": [],<\n>        }<\n>        log.info(f"  Fetching comments for post {submission.id}...")<\n>        await submission.comments.replace_more(limit=None)<\n>        comments = submission.comments.list()<\n>        log.info(f"  Found {len(comments)} comments.")<\n>        for comment in comments:<\n>            if isinstance(comment, asyncpraw.models.reddit.comment.Comment):<\n>                comment_data = {<\n>                    "id": comment.id,<\n>                    "post_id": submission.id,<\n>                    "parent_id": comment.parent_id,<\n>                    "body": comment.body,<\n>                    "score": comment.score,<\n>                    "author": str(comment.author),<\n>                    "created_utc": comment.created_utc,<\n>                    "created_vietnam": convert_utc_to_vietnam_time(comment.created_utc),<\n>                }<\n>                post_data["comments"].append(comment_data)<\n>        async with aiofiles.open(output_filename, "w", encoding="utf-8") as post_file:<\n>            await post_file.write(json.dumps(post_data, indent=4, ensure_ascii=False))<\n>        log.info(f"\nSuccessfully saved post and comments to: {output_filename}")<\n>    except asyncpraw.exceptions.RedditAPIException as e:<\n>        log.error(f"Could not process post {post_id}: {e}")<\n>    except Exception as e:<\n>        log.error(f"An unexpected error occurred: {e}")<\n><\n>async def main():<\n>    """Initializes the reddit client and runs the scraper."""<\n>    if len(sys.argv) > 1:<\n>        url = sys.argv[1]<\n>    else:<\n>        url = POST_URL<\n>    reddit = asyncpraw.Reddit("bot1")<\n>    try:<\n>        await scrape_post_by_url(reddit, url)<\n>    finally:<\n>        await reddit.close()<\n>        log.info("\n--- Script Finished ---")<\n><\n>if __name__ == "__main__":<\n>    asyncio.run(main())<\n>
+w https://www.reddit.com/r/Chainsawfolk/comments/1m8udo7/on_a_date_wish_me_luck/
+w https://www.reddit.com/r/Chainsawfolk/?f=flair_name%3A%22Meme%2FShitpost%22
+gl https://www.reddit.com/r/Chainsawfolk/comments/1m8udo7/on_a_date_wish_me_luck/
+poweroff
+let bocchi = (open RS_2025-05.zst<\n>| decode | from jsonl<\n>| select id author score url | take 100)
+open RS_2025-05.zst | from zst 
+open RS_2025-05.zst
+open RS_2025-05.zst | decode
+decode --help
+open RS_2025-05.jsonl | take 100
+open RS_2025-05.zst | decode | take 100
+open RS_2025-05.zst | decode 
+decode --help
+open RS_2025-05.zst
+open RS_2025-05.zst | from zst
+open RS_2025-05.zst | from jsonl
+open RS_2025-05.zst | decode |from jsonl
+open RS_2025-05.zst | decode |from jsonl | take 100
+open hanni_pham.zst | decode
+open RS_2025-05.zst | decode |from jsonl | take 100
+open hanni_pham.zst | decode |from jsonl | take 100
+decode --help
+which zstd
+open hanni_pham.zst --raw | zstd --decompress --stdout | from jsonl | take 100
+open hanni_pham.zst --raw | zstd --decompress --stdout | from jsonl | take 100open RS_2025-05.jsonl --raw | zstd --decompress --stdout | from jsonl | take 100
+open RS_2025-05.jsonl --raw | zstd --decompress --stdout | from jsonl | take 100
+open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 100
+which cd
+cd help
+help cd
+-
+/home
+-
+cd -
+gohome
+help goto
+goto --help
+open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 10000
+open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 1 | columns
+open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 1 | columns | fzf
+let bocchi = (open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 10000 | id author score url created_utc)
+open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 1 | columns
+let bocchi = (open RS_2025-05.zst --raw | zstd --decompress --stdout | from jsonl | take 10000 | select id author score url created_utc)
+$bocchi | sort-by score | take 100
+$bocchi | sort-by score | take 100 | wrap url
+| from jsonl | take 10000 | select id author score created_utc)
+let bocchi = (open RS_2025-05.zst --raw <\n>| zstd --decompress --stdout <\n>| from jsonl | take 10000 | select id author score created_utc)
+$bocchi | sort-by score | take 100 
+$bocchi | sort-by score 
+$bocchi | sort-by score | last 100
+let bocchi = (open RS_2025-05.zst --raw <\n>| zstd --decompress --stdout <\n>| from jsonl | take 10000 | select subreddit id author score created_utc)
+$bocchi | sort-by score | last 100
+let bocchi = (open RS_2025-05.zst --raw <\n>| zstd --decompress --stdout <\n>| from jsonl | take 10000 | select subreddit id author score created_utc url)
+$bocchi | sort-by score | last 100
+# Define a custom command to process and count<\n>def "process-and-take-subreddit" [] {<\n>    mut subreddit_count = 0<\n>    each {|post|<\n>        if $post.subreddit == "Chainsawfolk" {<\n>            $subreddit_count = ($subreddit_count + 1)<\n>            # You can also print the post if you want to see them<\n>            # $post | print<\n>        }<\n><\n>        # Select the desired columns for all posts (or just the ones you want to keep)<\n>        # We need to output something, otherwise the stream will be empty<\n>        $post | select subreddit id author score created_utc url<\n><\n>        if $subreddit_count >= 10 {<\n>            # This is the key: `break` will stop the `each` loop<\n>            # and thus stop consuming from the upstream pipeline.<\n>            break<\n>        }<\n>    }<\n>}<\n><\n># The full pipeline<\n>open RS_2025-05.zst --raw \<\n>| ^zstd --decompress --stdout \<\n>| from jsonl \<\n>| process-and-take-subreddit
+# Define a custom command to process and count<\n>def "process-and-take-subreddit" [] {<\n>    mut subreddit_count = 0<\n>    each {|post|<\n>        if $post.subreddit == "Chainsawfolk" {<\n>            $subreddit_count = ($subreddit_count + 1)<\n>            # You can also print the post if you want to see them<\n>            # $post | print<\n>        }<\n><\n>        # Select the desired columns for all posts (or just the ones you want to keep)<\n>        # We need to output something, otherwise the stream will be empty<\n>        $post | select subreddit id author score created_utc url<\n><\n>        if $subreddit_count >= 10 {<\n>            # This is the key: `break` will stop the `each` loop<\n>            # and thus stop consuming from the upstream pipeline.<\n>            break<\n>        }<\n>    }<\n>}<\n><\n># The full pipeline<\n>open RS_2025-05.zst --raw<\n>| ^zstd --decompress --stdout<\n>| from jsonl<\n>| process-and-take-subreddit
+open RS_2025-05.zst --raw<\n>| ^zstd --decompress --stdout<\n>| from jsonl<\n>| where subreddit == "Chainsawfolk"<\n>| take 10<\n>| select subreddit id author score created_utc url
+def "count-lines" [] {<\n>    mut line_count = 0<\n>    each {|_|<\n>        $line_count = ($line_count + 1)<\n>    }<\n>    # After the stream ends, print the total count<\n>    $"Processed: ($line_count) lines."<\n>}<\n><\n># The full pipeline with counting<\n>open RS_2025-05.zst --raw<\n>| ^zstd --decompress --stdout<\n>| from jsonl<\n>| tee { count-lines }<\n>| where subreddit == "Chainsawfolk"<\n>| take 10<\n>| select subreddit id author score created_utc url
+help tee
+tee --help
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl
+mut lines_processed = 0
+$lines_processed + 1
+$lines_processed = $lines_processed + 1
+$lines_processed
+$lines_processed = $lines_processed + 1
+$lines_processed
+mut lines_processed = 0
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| each {||$lines_processed = ($lines_processed + 1)<\n>    $in<\n>}<\n>| where subreddit == "Chainsawfolk"<\n>| take 10<\n>| select subreddit id author score created_utc url
+def "meter-stream" [] {<\n>    mut count = 0<\n>    # Use 'each' to process each item, update the count, and pass the item through<\n>    each {|item|<\n>        $count = ($count + 1)<\n>        $item # Pass the item through to the next command in the pipeline<\n>    }<\n>    # After the stream ends (because `take` stopped it), print the final count<\n>    # This will be printed to stderr by default, keeping stdout clean for data.<\n>    (print $"Processed ($count) lines before stopping.")<\n>}
+help each
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 1_000_000
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 1_000_000<\n>| where subreddit == "Chainsawfolk"<\n>| take 10<\n>| select subreddit id author score created_utc url
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 1_000_000<\n>| where subreddit == "Chainsawfolk"<\n># | take 10<\n>| select subreddit id author score created_utc url
+let bocchi = (open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 1_000_000<\n>| where subreddit == "Chainsawfolk"<\n># | take 10<\n>| select subreddit id author score created_utc url)
+$bocchi
+$bocchi | sort-by score
+$bocchi | select id author score created_utc url | sort-by score
+w https://i.redd.it/eknrmkplu6ye1.jpeg
+w https://preview.redd.it/b7ikcfc9z6ye1.png?width=1316&format=png&auto=webp&s=af5d58b6dffcb9cef2a4aa293684cb2f2ced550b
+jkl https://www.youtube.com/shorts/XVFGEDs95MI
+open r_linuxquestions_posts.jsonl | select selftext
+open r_linuxquestions_posts.jsonl | select selftext | fzf
+open r_linuxquestions_posts.jsonl | select title selftext | fzf
+open r_linuxquestions_posts.jsonl | select title selftext | where title =~ "arch users do"
+open r_linuxquestions_posts.jsonl | select title selftext | where title =~ "arch users do" | wrap selftext
+nomacs NewjeansPics/
+open RS_2025-05.jsonl
+open RS_2025-05.jsonl<\n>
+open RS_2025-05.jsonl<\n>
+open RS_2025-05.jsonl<\n>
+open RS_2025-05.jsonl<\n>
+open history.sqlite
+open history.sqlite | select History
+sudo pacman -S sqlitebrowser
+sqlitebrowser history.sqlite
+poweroff
+emacs
+nordvpn c
+nordvpn d
+config nu --doc | nu-highlight
+config nu --doc | nu-highlight | nvim
+config nu --doc | nu-highlight o> config-template.nu
+config nu --doc | save config.nu
+config nu --doc | save config-template.nu
+keybindings default
+keybindings default | save default-keybind
+keybindings default | to csv | save default-keybind.csv
+open default-keybind.csv
+open default-keybind.csv | nvim
+ajslkasdasjasdl asjdkl asjd 
+yay -S emacs-wayland
+z
+emacs
+yay -Qs | fzf
+emacs --daemon 
+emacsclient -c
+ps | where name =~ "emacs" 
+nordvpn d
+nmtui
+poweroff
+open r_reddithelp_posts.jsonl
+open r_reddithelp_posts.jsonl <\n>| where title =~ "Is there a way to remove a permanent" <\n>| select title author url
+open r_reddithelp_posts.jsonl <\n>| where title =~ "Is there a way to remove a permanent" <\n>| select id title author url
+open r_reddithelp_comments.jsonl<\n>| columns
+open r_reddithelp_comments.jsonl<\n>| columns | fzf
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg
+open r_reddithelp_comments.jsonl<\n>| columns |fzf
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg<\n>| selct id created_utc body
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg<\n>| select id created_utc body
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg<\n>| select id created_utc body | vim
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg<\n>| select id created_utc body | wrap body| vim
+open r_reddithelp_comments.jsonl<\n>| where link_id =~ 1ked4dg<\n>| select id created_utc body | wrap body
+poweroff
+rmpc
+nordvpn d
+nvim --clean
+pkill neovide
+⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⣿⣿⣿⣿⣿⠣⢊⡴⠶⠮⢿⣿⣿⣿⣿⣿⠀⠀
+03:25 : I'm gonna go to sleep now, I really should maintain a habit of writing<\n>03:25 : I'm gonna go to sleep now, I really should maintain a habit of writing
+yt-dlp https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDFEQVZISUZ2RnVvQ2ZOdGxYRnBjek5wR2J1UXxBQ3Jtc0tsWHIzNDNLNURWUk9HLUpNQzAwd2g3WUV2dU1DRkJQSVFJcjZ5NWJLd0hGZXk2YWFDa1Zobkh6ZDQwQ2lHYWZLTk9hQjctbTB2bDExYkltaHdxZU41UWd2QnFGZGNPaEl2YkxXNGNnZlgxNEg2a1k5MA&q=https%3A%2F%2Fsoundcloud.com%2Ftanfa%2Fnewjeans-ditto-tanfa-flip&v=oADttbQocSU
+yt-dlp https://soundcloud.com/tanfa/newjeans-ditto-tanfa-flip?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+sl
+eza
+ls
+eza
+z
+sl
+eza
+ls
+sl
+ls
+sl
+which cat
+nordvpn d
+gl https://www.reddit.com/r/Chainsawfolk/comments/1mbdlya/how_pt_2_will_end_fuji_please/
+open posts_async.jsonl
+open posts_async.jsonl | wrap title
+open posts_async.jsonl | select title score url | save post_tsu.jsonl
+nvim headphone_scraper.py
+cd nu_eta ; ipython
+python async_headphone_scraper.py
+overlay use .venv/bin/activate.nu
+python async_headphone_scraper.py
+open r_Chainsawfolk_posts.jsonl | select title score | sort-by score
+open r_Chainsawfolk_posts.jsonl | select title score | sort-by score | wrap title
+open r_Chainsawfolk_posts.jsonl | select title score | sort-by score | take 100 | wrap title
+open r_Chainsawfolk_posts.jsonl | select title score | sort-by score | last 100 | wrap title
+nvim
+open r_Chainsawfolk_posts.jsonl | select title score url | sort-by score | last 100 | wrap title
+python async_headphone_scraper.py
+open comments_async.jsonl
+open comments_async.jsonl | where subreddit =~ "chainsaw"
+open comments_async.jsonl | where subreddits =~ "chainsaw"
+open comments_async.jsonl | columns
+let post_id = (open posts_async.jsonl | where subreddit =~ "chainsaw" | select id)
+$post_id
+open posts_async.jsonl | where subreddit =~ "chainsaw" | select id
+open posts_async.jsonl
+open posts_async.jsonl | where subreddit =~ "Chainsaw" | select id
+let post_id = (open posts_async.jsonl | where subreddit =~ "Chainsaw" | select id)
+$post_id
+open comments_async.jsonl | where post_id in $post_id
+open comments_async.jsonl | columns
+$post_id
+let post_id = (open posts_async.jsonl | where subreddit =~ "Chainsaw" | select id)
+open comments_async.jsonl | where post_id in $post_id
+open comments_async.jsonl | columns
+open comments_async.jsonl | where (post_id in $post_id)
+open comments_async.jsonl | where (post_id == $post_id)
+open comments_async.jsonl | where post_id == $post_id
+open comments_async.jsonl
+open comments_async.jsonl | where post_id == 1ma7mwm
+open comments_async.jsonl | select post_id
+open comments_async.jsonl | where post_id == $post_id
+open comments_async.jsonl | where post_id in $post_id
+open comments_async.jsonl
+let post_id = [1ma7mwm]
+open comments_async.jsonl | where post_id in $post_id
+open comments_async.jsonl | where post_id in $post_id |select post_id id
+let post_id = (open posts_async.jsonl | where subreddit =~ "Chainsaw" | select id |flatten | uniq)
+$post_id
+open comments_async.jsonl | where post_id in $post_id |select post_id id
+open posts_async.jsonl
+open posts_async.jsonl | select comment
+open posts_async.jsonl | select comments
+open posts_async.jsonl | select comments | length
+open posts_async.jsonl | select comments | select id
+open posts_async.jsonl | flatten comments
+open posts_async.jsonl | flatten comments | select id
+open comments_async.jsonl
+open comments_async.jsonl | length
+open posts_async.jsonl | select comments | select id
+open posts_async.jsonl | flatten comments | select id
+open comments_async.jsonl | length
+open posts_async.jsonl | flatten comments 
+open posts_async.jsonl | flatten comments | columns
+open comments_async.jsonl
+open posts_async.jsonl | flatten comments
+open posts_async.jsonl | get comments
+open posts_async.jsonl | select comments
+open posts_async.jsonl | get comments
+open posts_async.jsonl | get comments | select body
+open posts_async.jsonl | reject comments
+open posts_async.jsonl | reject comments | columns
+open posts_async.jsonl | columns
+open posts_async.jsonl | reject comments | columns
+open posts_async.jsonl | columns
+which print
+for i in 1..10000 {print $i}
+for i in 1..100000000 {print $i}
+for i in 1..1_000_000 {print $i}
+for i in 1..1_000_000_000 {print $i}
+python test.py
+gcc test.cpp -o test ; test
+gcc test.cpp -o test
+g++ test.cpp -o test ; test
+test
+g++ test.cpp -o test ; test
+test
+./test
+g++ test.cpp -o test ; ./test
+nvim
+nvim test.cpp
+g++ test.cpp -o test ; ./test
+nvim test.cpp
+g++ test.cpp -o test ; ./test
+nvim test.cpp
+g++ test.cpp -o test ; ./test
+tmux
+tmux -a
+tmux a
+for i in 1..10000 {echo $i}
+match $list {<\n>  [$one] => { print "one element list" }<\n>  [$one, $two] => { print "two element list" }<\n>  [$head, ..$tail] => { print $"the tail of the list is ($tail)" }<\n>}
+let data = [<\n>    [date                        temps                                   condition      ];<\n>    [2022-02-01T14:30:00+05:00,  [38.24, 38.50, 37.99, 37.98, 39.10],   'sunny'       ],<\n>    [2022-02-02T14:30:00+05:00,  [35.24, 35.94, 34.91, 35.24, 36.65],   'sunny'       ],<\n>    [2022-02-03T14:30:00+05:00,  [35.17, 36.67, 34.42, 35.76, 36.52],   'cloudy'      ],<\n>    [2022-02-04T14:30:00+05:00,  [39.24, 40.94, 39.21, 38.99, 38.80],   'rain'        ]<\n>]
+$data.condition.3
+$data.3
+$data.3.condition
+sudo pacman -S dmidecode
+sudo dmidecode --type 17
+sudo dmidecode --type 17 | wl-copy
+sudo dmidecode --type 17 | grep -E "Type|Speed"
+lsblk -o NAME,SIZE,TYPE,MODEL,ROTA
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+sudo smartctl -a /dev/nvme0n1
+lsblk -o NAME,SIZE,TYPE,MODEL,ROTA
+lsblk
+open posts_async.jsonl | get comments | group-by post_id
+open posts_async.jsonl | get comments | group-by post_id | length
+open posts_async.jsonl | get comments <\n>| group-by post_id | wrap body
+open posts_async.jsonl | get comments <\n>| group-by post_id
+open posts_async.jsonl | get comments 
+open posts_async.jsonl | get comments | select id
+open posts_async.jsonl | columns
+open posts_async.jsonl | get comments | select id
+$post_id
+open posts_async.jsonl
+kopen posts_async.jsonl | select comments
+open posts_async.jsonl | select comments
+open comments_async.jsonl
+open comments_async.jsonl | columns
+open comments_async.jsonl | where parent_id =~ ""
+open comments_async.jsonl | where parent_id == null
+open comments_async.jsonl | where parent_id == []
+open comments_async.jsonl | select parent_id
+open comments_async.jsonl | select parent_id | uniq 
+open comments_async.jsonl | select post_id | uniq
+open comments_async.jsonl | select post_id
+open comments_async.jsonl | select post_id | flatten | uniq
+open comments_async.jsonl | get post_id
+open comments_async.jsonl | get post_id | uniq
+open posts_async.jsonl | get comments | select id
+open posts_async.jsonl | get comments | get id 
+open posts_async.jsonl | get comments | select id 
+open posts_async.jsonl | get comments | flatten| select id 
+open posts_async.jsonl | get comments  | select id 
+open posts_async.jsonl | get comments | flatten | select id 
+open posts_async.jsonl | get comments | flatten | select id body
+open posts_async.jsonl | get comments | flatten | select id body | take 10 | wrap body
+open posts_async.jsonl | columns
+open posts_async.jsonl | get comments | flatten | take post_id | uniq
+open posts_async.jsonl | get comments | flatten | get post_id | uniq
+open posts_async.jsonl | get comments | flatten | get post_id | flatten | uniq
+open posts_async.jsonl | get comments | flatten | get post_id | uniq
+open posts_async.jsonl | get comments |  get post_id | uniq
+open posts_async.jsonl | get comments |  get post_id
+open posts_async.jsonl | get comments 
+open posts_async.jsonl | get comments |  get post_id | uniq
+open posts_async.jsonl | get comments |  flatten | get post_id | uniq
+open posts_async.jsonl | get comments |  flatten | get post_id
+open posts_async.jsonl | get comments |  flatten | select post_id
+open posts_async.jsonl | get comments |  flatten | select post_id | uniq
+open posts_async.jsonl | get comments |  flatten | get post_id
+open posts_async.jsonl | get comments |  flatten | get post_id | debug
+open posts_async.jsonl | get comments |  flatten | debug
+open posts_async.jsonl | get comments |  flatten 
+open posts_async.jsonl | get comments |  flatten  | parent_id
+open posts_async.jsonl | get comments |  flatten  | get parent_id
+open posts_async.jsonl | get comments |  flatten  | get parent_id | uniq
+open posts_async.jsonl | get comments |  flatten  | get parent_id
+open posts_async.jsonl | get comments | columns
+open posts_async.jsonl | get comments | flatten |columns
+open posts_async.jsonl | columns
+open posts_async.jsonl | get comments | flatten 
+open posts_async.jsonl | get comments | flatten | wrap body
+open comments_async.jsonl | get post_id | uniq
+open comments_async.jsonl | get parent_id
+open comments_async.jsonl | get parent_id | save parent.txt
+open comments_async.jsonl | get parent_id | save parent.txtopen parent.txt
+open parent.txt
+open parent.csv
+fzf
+eza | fzf | open $in
+eza | fzf | open $in | columns
+open r_Chainsawfolk_comments.jsonl | columns
+open r_Chainsawfolk_comments.jsonl | take 1 | columns
+open r_Chainsawfolk_comments.jsonl
+open r_Chainsawfolk_comments.jsonl | take 1
+open r_Chainsawfolk_comments.jsonl | take 1 | columns
+open r_Chainsawfolk_comments.jsonl | select score name | take 10
+open r_Chainsawfolk_comments.jsonl | select score name | sort-by score | take 10
+open r_Chainsawfolk_comments.jsonl | select score name | sort-by score
+open r_Chainsawfolk_comments.jsonl | select score name | sort-by score | last 100
+poweroff
+open r_Chainsawfolk_posts.jsonl | columns
+let 100_top = (open r_Chainsawfolk_posts.jsonl | sort-by score | select id score | last 100)
+$100_top
+$100_top | get id
+$100_top | get id | describe 
+open r_Chainsawfolk_comments.jsonl | columns
+let top = ($100_top | get id)
+open r_Chainsawfolk_comments.jsonl | select score body | sort-by score | where link_id in $top
+wc -c r_Chainsawfolk_comments.jsonl
+wc -l r_Chainsawfolk_comments.jsonl
+open r_Chainsawfolk_comments.jsonl | columns
+open r_Chainsawfolk_comments.jsonl | take 1 | columns
+$100_top | get id
+open r_Chainsawfolk_comments.jsonl | select score body | sort-by score | where link_id == "1kqejnz"
+open r_Chainsawfolk_comments.jsonl | take 1 | columns
+open r_Chainsawfolk_comments.jsonl | where link_id in $top | length
+let 100_top = (open r_Chainsawfolk_posts.jsonl | sort-by score | select id score | last 100)
+let top = ($100_top | get id)
+open r_Chainsawfolk_comments.jsonl | where link_id in $top | length
+print($top)
+print[$top]
+help print
+echo $top
+$top
+$top | describe 
+$100_top | describe 
+open r_Chainsawfolk_comments.jsonl |take 100_000| where link_id in $top 
+$top
+open r_Chainsawfolk_comments.jsonl |take 100_000| where link_id == 1kqejnz
+open r_Chainsawfolk_comments.jsonl |take 100_000| where parent_id == 1kqejnz
+open r_Chainsawfolk_comments.jsonl |take 100_000| where id == 1kqejnz
+help rg
+rg --help
+tldr rg
+rg 1kqejnz r_Chainsawfolk_comments.jsonl
+$top | each {|it| $"t3_($it)" }
+open r_Chainsawfolk_comments.jsonl |take 100_000| where id == 1kqejnz
+open r_Chainsawfolk_comments.jsonl |take 100_000| where link_id in $top
+$top
+open r_Chainsawfolk_comments.jsonl | where link_id in $top
+$top
+let $top = ($top | each {|it| $"t3_($it)" })
+$top
+open r_Chainsawfolk_comments.jsonl | where link_id == t3_1kqejnz
+clear
+open r_Chainsawfolk_comments.jsonl | where link_id in $top | length
+grep t1 r_Chainsawfolk_comments.jsonl
+grep t1 r_Chainsawfolk_comments.jsonl | length
+ls *.nu
+z
+fzf
+home/pampam/Documents/reddit/rple.nu
+home/pampam/Documents/reddit
+home/pampam/Documents/reddit/
+z
+fzf
+fzf | nvim
+fzf | nvim $in
+fzf | $in
+fzf | pwd $in | $in
+help path
+path help
+help path
+path dirname comments_async.jsonl
+path dirname
+ls | get name | path dirname
+ls | select name | path dirname
+ls
+ls | select name
+ls | select name | path dirname
+ls | get name
+ls | get name | path dirname
+ls | get name | each {|it| $it | path expand | path dirname }
+path expand
+ls comments_async.jsonl
+ls comments_async.jsonl | path expand
+ls comments_async.jsonl | get name | path expand | path dirname
+z
+ls r_BocchiTheRock_comments.jsonl | get name | path dirname
+ls r_BocchiTheRock_comments.jsonl | get name | path expand | path dirname
+fzf | ls $in | get name | path expand | path dirname | $in
+fzf | ls $in | get name | path expand | path dirname | cd $in
+fzf | ls $in | get name | path expand | path dirname | into string | cd $in
+fzf | cd $in
+(fzf)
+(fzf) | path dirname
+fzf | path dirname
+fzf | path dirname | cd $in
+cd -
+z
+fzf | path dirname | cd $in
+fzf
+fzf -a
+fzf tldr
+tldr fzf
+z -
+fzf
+fzf | path dirname | cd $in
+jkl https://www.youtube.com/watch?v=CsCgX0Cm44g
+jkl https://www.youtube.com/watch?v=AK8s3iqL99c
+jkl https://www.youtube.com/watch?v=l6406Wc4fdM
+jkl https://www.youtube.com/watch?v=_JIYj_UnaDs
+jkh https://www.youtube.com/watch?v=_JIYj_UnaDs
+jkl https://www.youtube.com/watch?v=D4tCR_0z1lk
+yay -Syu
+yay -Rns apple-fonts
+yay
+nvim WhatsYourEta.nu
+nvim --clean WhatsYourEta.nu
+nordvpn d
+cd nu_eta ; ipython
+overlay use .venv/bin/activate.nu
+ipython
+nordvpn d
+nordvpn c
+pwd | wl-copy
+poweroff
+gl https://preview.redd.it/series-dlv-anh-ch%E1%BB%89-lo-cho-%C4%91%E1%BA%BBng-anh-kh%C3%B4ng-lo-cho-em-v0-sg9uz7o5rrff1.png?width=1080&format=png&auto=webp&s=eeba537459acc92a689f0acb737b729c2fcf0995
+w https://preview.redd.it/series-dlv-anh-ch%E1%BB%89-lo-cho-%C4%91%E1%BA%BBng-anh-kh%C3%B4ng-lo-cho-em-v0-sg9uz7o5rrff1.png?width=1080&format=png&auto=webp&s=eeba537459acc92a689f0acb737b729c2fcf0995
+jkl https://www.youtube.com/watch?v=tIodSonp0fM
+cd nu_eta ; ipython
+tmux
+overlay use .venv/bin/activate.nu ; ipython
+nu --version
+nvim WhatsYourEta.nu
+tmux a
+nvim WhatsYourEta.nu
+overlay use .venv/bin/activate.nu ; ipython
+which venv
+tmux
+tmux a
+overlay use .venv/bin/activate.nu ; ipython
+overlay use .venv/bin/activate.nu
+nmtui
+nordvpn c
+nordvpn d
+nordvpn c
+ffmpeg -i "ken carson - ss (but it will change your life) (FULL VERSION) [NTWwLWD7TSE].mp4" -ss 00:00:05 -frames:v 1 sydney_sweeney.jpg
+gl https://www.reddit.com/r/kencarson/comments/1bkfc9h/made_a_cover_art_of_sydney_sweeney_what_yall_think/
+ps | sort-by mem
+ps | sort-by mem | select name mem
+ps | sort-by mem | select name mem | group-by name
+ps | sort-by mem | select name mem
+kps | sort-by mem | select name mem | group-by name {<\n>     total_mem:(mem|math sum) }
+ps | sort-by mem | select name mem | group-by name {<\n>     total_mem:(mem|math sum) }
+ps | sort-by mem | select name mem | group-by name 
+ps | sort-by mem | select name mem | group-by name | (mem | math sum)
+ps | sort-by mem | select name mem |<\n>| group-by name {<\n>    total_mem: (mem | math sum)<\n>    count: (size) # Optional: if you also want to see how many instances<\n>  }<\n>| rename process_name total_mem instances_count # Rename columns for clarity
+ps<\n>| sort-by mem<\n>| select name mem
+ps<\n>| sort-by mem<\n>| select name mem<\n>| group-by name {<\n>    total_mem: (mem | math sum) # Corrected: Use $it.mem<\n>    count: (size)<\n>  }<\n>| rename process_name total_mem instances_count
+ps<\n>| sort-by mem<\n>| select name mem<\n>| group-by name<\n>| math sum
+ps<\n>| sort-by mem<\n>| select name mem<\n>| group-by name<\n>| select mem<\n>| math sum
+ps<\n>| sort-by mem<\n>| select name mem<\n>| group-by name
+ps<\n>| sort-by mem<\n>| select mem<\n>| math sum
+ps<\n>| sort-by mem<\n>| select name mem<\n>| get mem<\n>| math sum
+ps<\n>| sort-by mem<\n>| select name mem<\n>| math sum
+w https://x.com/i/status/1950041978931957910
+gl https://x.com/i/status/1950041978931957910
+jkl https://www.youtube.com/shorts/8Xw0ZFY0prU
+<\n>ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.group, mem: ($it.items | get mem | math sum) } }
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by name | take 10
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by name | last 10
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | take 10
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | last 10
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | last 20
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | last 20 | get mem | math sum
+gemini
+git clone https://github.com/couchbaselabs/couchbase-shell.git
+cargo install --path
+cargo install --path .
+cd
+git clone https://github.com/couchbaselabs/couchbase-shell.git
+cargo install --path .
+cargo build --release
+lsblk -o NAME,SIZE,TYPE,MODEL,ROTA
+nordvpn d
+btop
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+poweroff
+jkl https://www.youtube.com/watch?v=kxuyoJZ5S4w
+gl https://www.instagram.com/reel/DMozEtooRPn/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/p/DLtEU5ZJki1/
+gl https://www.instagram.com/reel/DMqi60TyY2j/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reels/DG4UMgevIn4/
+gl https://www.instagram.com/reel/DG4UMgevIn4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMncsSzyJTN/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMSuZh2SBuh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DFmBunUthQ7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DH2HrQ3OmtC/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGk-uS3S_Gl/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMFnOMpxYOg/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMVNFSzO9GU/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMYBGkYSSq3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLmOAz5sbtv/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLyo6IRy6WD/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJaJRIxCjxO/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMR39RlI0-u/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DF7o3ydxZIr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHF32mYR3BE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMDk9tBzxIm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGUCl1ep7xb/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLskMLOJ4Bq/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGQic1EyUnq/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMqCcMHsfKC/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMcxLPIpAdK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DID0qT0ocCx/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZFbyauPW1/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHL19CJtxvZ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGfqYCkuakR/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DFfAfTPSu0W/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMRcfKOhsDp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMdM-qNs27L/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKgcNaeuNR_/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DF_LD45R5VV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMceZQKSjJG/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMXdLm2SXxu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMp_QAbIo0I/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMguIb9IjRF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMAugpuozKc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DKaCA7hIlGo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DL5wSMOsD7v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/trannamtueanh/reels/
+rg "its environment"
+rg "its environment" | fzf
+gemini
+fd
+clear
+fd | wl-copy
+git pull
+dysk
+nvim /tmp/tmux_buffer_tmp
+gemini
+npm run dev
+poweroff
+overlay use .venv/bin/activate.nu
+gemini
+overlay use .venv/bin/activate.nu
+z
+npm install
+gemini
+npm run build
+git reset --hard
+npm install
+npm run build
+ls | where type == file
+ls | where type == dir
+ls | where name =~ ".py"
+ls | where name =~ "vy"
+fd
+clear
+npx http-server .vuepress/dist
+poweroff
+npm run build
+tmux
+ls | get name | fzf
+ls | get name
+fd
+sl
+eza
+eza | fzf
+l
+eza | fzf
+[1 2 3 4 5] | where $in > 2
+[1 2 3 4 5] | where $it > 2
+[1 2 3 4 5] | where { |x| $x > 3}
+[1 2 3 4 5] | where { |x| $x >= 3}
+pwd | wl-copy
+ls
+touch test.nu
+ls | where type == file | sort-by name --natural | enumerate | where {|e| $e.item.name !~ $'^($e.index + 1)' } | get item
+ls | where type == file | sort-by name --natural 
+ls | where type == file | sort-by name --natural <\n>| enumerate 
+ls | where type == file | sort-by name --natural <\n>| enumerate | where {|e| $e.item.name !~ $'^($e.index + 1)' } | get item
+let bocchi = ls
+$bocchi.item
+$bocchi.item.name
+$bocchi.1
+$bocchi.1.item.name
+$bocchi.1.items.name
+$bocchi.items.name
+$bocchi.item.name
+$bocchi.1.item.name
+$bocchi.item.name
+let bocchi = ls | enumerate 
+$bocchi.item.name
+$bocchi.1.item.name
+ls | where type == file | sort-by name --natural <\n>| enumerate | where {|e| $e.item.name !~ $'^($e.index + 1)' } | get item
+ls | where ($in.name)
+ls | where ($it.name)
+ls | where ($it.name | str downcase)
+ls | where ($it.name | str downcase) ~= readme
+ls | where ($it.name | str downcase) =~ readme
+ls | where ($it.name | str downcase) !~ readme
+ls | where ($it.name | str downcase) =~ readme
+ls | where name =~ '(?i)readme'
+let cond = {|x| $x.a > 1}
+[{a:1} {a:2}]| where $cond
+[{a:1} {a:2}]
+| where $cond
+[{a:1} {a:2}] | where $cond
+let cond = {$in < 2}
+[{a:1} {a:2}] | where $cond
+[{a:1} {a:2}] | get a |  where $cond
+[1, 2, 3, 4, 5, 6, 7, 8, 9,  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+let a = {$in > 3}
+[1, 2, 3, 4, 5, 6, 7, 8, 9,  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] | where $a
+let a = {$in < 3}
+[1, 2, 3, 4, 5, 6, 7, 8, 9,  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32] | where $a
+$it
+$it help
+help $it
+ps | where pid == $nu.pid | get ppid
+ps | where status == running
+ps | where status == Running
+ps | describe
+$"what's your eta"
+def create-greeter [greeting: string]: closure {<\n>    {|name| $"($greeting), ($name)" }<\n>}
+ls | each
+ls | each {|file| $"($file.name) is ($file.size)" }
+ls | {|file| $"($file.name) is ($file.size)" }
+{}
+{||}
+ls | each {|file| $"($file.name) is ($file.size)" }
+ls<\n>| sort-by size<\n>| reverse<\n>| first<\n>| get name<\n>| cp $in ..
+which mv
+ls | get name | mv $in ..
+ls | get name | each {mv $in ..}
+ls | where (filetype == file and name !~ ".xlsx$")  |get name | each {mv $in tests}
+ls | where (filetype == file and name !~ ".xlsx$")  
+ls | where filetype == file
+ls | where (type == file and name !~ ".xlsx$")  
+ls | where type == file
+ls | where (type == file and name !~ ".xlsx$")  
+ls | where {type == file and name !~ ".xlsx$"}  
+ls | where (type == file and name !~ ".xlsx$")  
+ls | where ($it.type == file and $it.name !~ ".xlsx$")  
+ls | where ($it.type == file and $it.name !~ ".xlsx$")  |get name | each { mv $in tests}
+^ls
+ls
+ls | where ($it.type == file and $it.name !~ ".xlsx$") |get name | each { mv $in tests}
+fzf
+fd
+fd | where $in =~ "1"
+fd | grep 1
+which grep
+which glob
+ls | glob 1
+ls | glob "1"
+help glob
+glob 1
+glob "1"
+glob ^1
+help glob
+glob 1 .
+glob . 1
+glob 2_bocchi.txt
+help glob
+ls | glob 1
+ls | get name | glob 1
+ls | get name | glob "1"
+ls | get name | glob "*.txt"
+ls | grep 1
+ls | grep 1ls /usr/share/nvim/runtime/ | get name | ^grep tutor | ^ls -la $in
+ls /usr/share/nvim/runtime/ | get name | ^grep tutor | ^ls -la $in
+ls /usr/share/nvim/runtime/ 
+ls /usr/share/nvim/runtime/ | get name 
+ls /usr/share/nvim/runtime/ | get name | grep tutor 
+ls /usr/share/nvim/runtime/ | get name | ^grep tutor 
+ls /usr/share/nvim/runtime/ | get name | grep tutor 
+ls /usr/share/nvim/runtime/ | get name | grep tutor | to text | ^ls -la $in
+ls /usr/share/nvim/runtime/ | get name | grep tutor | to text 
+ls /usr/share/nvim/runtime/ | get name | to text | grep tutor | ^ls -la $in
+ls /usr/share/nvim/runtime/ | get name | to text | grep tutor | ls $in
+ls /usr/share/nvim/runtime/ | get name | to text | grep tutor | sl $in
+ls /usr/share/nvim/runtime/ | get name | to text 
+du
+start 1_bocchi.txt
+start alias.html
+fd 1
+let my_list = [a b c]
+echo $my_list
+open $my_list
+$my_list
+...$my_list
+echo ...$my_list
+fd what
+fd whatyoureta
+fd "whatsyour"
+fd "wats"
+rg cd
+rg cd rple.nu
+help fd
+fd --help
+tldr fd
+fd "what*.nu"
+fd "what* .nu$"
+fd "what .nu$"
+fd "nu$"
+fd "whatsyour" | path dirname | cd $in
+cd -
+tldr fd
+fd "whats" -e nu
+fd "whats" -e nu | path dirname | cd $in
+cd -
+z
+pwd | wl-copy
+ghostty +list-themes
+ls
+fd "whats" -e nu | path dirname | cd $in
+tmux
+pkill tmux
+tmux
+nvim WhatsYourEta.nu
+ghostty +list-themes
+tmux
+nvim WhatsYourEta.nu
+tmux a
+pkill tmux
+tmux
+pkill tmux
+tmux
+tmux a
+systemctl restart hyprpaper
+tmux
+$env.LS_COLORS
+ls
+yay -Qs | fzf
+stow -R --dotfiles -d dotfiles/ -t . pamsdots
+ls
+sl
+ls
+sl
+ls
+sl
+ls
+sl
+ls
+sl
+ls
+sl
+ls
+sl
+chmod +w flavor.toml
+tldr fd
+fd -h -n
+fd -HI | fzf
+tmux
+rg #a0111f
+rg a0111f
+rg 66707b
+chmod +w GitHub-Light-High-Contrast
+fzf | mv | ~/.config/ghostty/theme/
+fzf | mv $in ~/.config/ghostty/theme/
+fzf | mv $in ~/.config/ghostty/theme
+sudo fzf | mv $in ~/.config/ghostty/theme
+sudo cp GitHub-Light-High-Contrast ~/.config/ghostty/themes/
+sudo chown -R pampam:pampam GitHub-Light-High-Contrast
+ps | where name =~ "hyprpaper"
+ps | where name =~ "hyprpaper" | get name | pkill hyprpaper | hyprpaper ^
+pkill hyprpaper
+hyprpaer
+hyprpaper
+job unfreeze
+gimp /home/pampam/Downloads/wallpapers/NJ_BubbleGum_54.jpg
+gimp
+nvim
+hyprpaper
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+tmux
+fastfetch
+tmux
+btop
+tbop
+btop
+tbop
+btop
+tbop
+btop
+tmux a
+btop
+gl https://www.instagram.com/reel/DMWrt0mNfBH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKH3Qo_tHku/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKEjoKkOELq/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZ_Ozly3Cw/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMnXDn3TLi3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZN2v-xG8m/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMVxkRDJ8B4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DINA9AaMhY2/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLPO9sUO_0-/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMiwZ-FTuil/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIfswdEO-Vm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMPwGl9yjTt/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL2OAZ1oYJj/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMUPUfMNrVs/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK1BKnUPuqk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMjZoaPyIYe/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL5nTKTMOM6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL5VBOmsgoi/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMbRkqyOegK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJZn4P9zPnP/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIwWpptAgqE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKM9P_qsth9/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLQ3yvfzPUz/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLz852bOmM3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJv9D-ps_g0/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHvFFf6RTSU/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLOYhqvgB8H/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKxggk_JJMi/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMfTkCZJ_P3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLw5HCwSvXQ/?utm_source=ig_web_copy_link
+rmpc
+nordvpn d
+jkl https://www.youtube.com/watch?v=2IQy143A_vU
+btop
+gl https://x.com/blupixl__/status/1649708057113526273?t=uDVIu8SSrU7QzuD5h_w-wA&s=19
+gl https://www.reddit.com/r/4chan/comments/1mazqkm/kommando_gets_shot_doesnt_go_to_hospital/
+gl https://www.reddit.com/r/4chan/comments/1m408ay/billionaire_logic/
+gl https://www.reddit.com/r/4chan/comments/1m02wqp/krautanon_has_a_point/
+gl https://www.reddit.com/r/4chan/comments/1md1avw/owari_da/
+gl https://www.reddit.com/r/4chan/comments/1md7xnl/anon_should_try_this_now_and_see_for_himself/
+gl https://www.reddit.com/r/4chan/comments/1m3l59g/anon_discusses_china/
+jkl https://www.youtube.com/watch?v=15_-hgsX2V0
+gl https://www.youtube.com/watch?v=miTpJmMt7uo
+jkl https://www.youtube.com/watch?v=miTpJmMt7uo
+gl https://www.instagram.com/reel/DLtT8sTyehP/?utm_source=ig_web_copy_link
+jkl https://www.instagram.com/reel/DMvS8jvJfK8/?utm_source=ig_web_copy_link
+jkl https://www.instagram.com/reel/DLMTrjuTKX5/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZVGfExIcW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMg0g-WuCNw/?utm_source=ig_web_copy_link
+gl  https://www.instagram.com/reel/DMt0XBxJszF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMMumfbTWkd/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/p/DMAHo24t4l6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMuN3GQT9c0/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMm2sVXxSjV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKUXrLRuRS5/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DLh9MasxDQu/?utm_source=ig_web_copy_link
+dysk
+~/Documents/UTH/DataMining/prawl_tests/subreddits
+pwd | wl-copy
+echo $env.TERM
+nvim
+open r_homelab_posts.jsonl | first | describe
+open r_homelab_posts.jsonl | first | columns
+open r_homelab_posts.jsonl | first | columns | to text | fzf
+open r_homelab_posts.jsonl | sort-by score | select id subreddit score title
+open r_homelab_posts.jsonl | sort-by score | select id subreddit score title | last 100
+open r_homelab_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save homelab_post.csv
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_homelab_comments.jsonl | first
+open homelab_post.csv | take id
+open homelab_post.csv | get id
+let hlp = (open homelab_post.csv | get id )
+open r_homelab_comments.jsonl | where link_id in $hlp | length
+open r_homelab_comments.jsonl | lenghth
+open r_homelab_comments.jsonl | length
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_homelab_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save homelab_posts.csv
+let hlp = (open homelab_posts.csv | get id )
+open r_homelab_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save homelab_comments.csv
+open r_ErgoMechKeyboards_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save emk_posts.csv
+let hlp = (open emk_posts.csv | get id )
+open r_ErgoMechKeyboards_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save emk_comments.csv
+let hlp = (open emk_posts.csv | get id )
+open r_ErgoMechKeyboards_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save emk_comments.csv
+nvim WhatsYourEta.nu
+let hlp = (open emk_posts.csv | get id )
+open r_ErgoMechKeyboards_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save emk_comments.csv
+open homelab_comments.csv
+open r_headphones_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save headphones_posts.csv
+let hlp = (open headphones_posts.csv | get id )
+open r_headphones_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save headphones_comments.csv
+open headphones_comments.csv | length
+open r_BudgetAudiophile_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save BudgetAudiophile_posts.csv
+let hlp = (open BudgetAudiophile_posts.csv | get id )
+open r_BudgetAudiophile_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save BudgetAudiophile_comments.csv
+let hlp = (open BudgetAudiophile_posts.csv | get id )
+open r_BudgetAudiophile_comments.jsonl | where link_id in $hlp | select id link_id parent_id score body | save BudgetAudiophile_comments.csv
+let hlp = (open processed/homelab_posts.csv | get id )
+$hlp
+open r_homelab_comments.jsonl 
+gl https://www.facebook.com/reel/1069530547906821
+jkl https://www.facebook.com/reel/1069530547906821
+open test.csv
+open test.csv | update id {$"t3_$it"}
+open test.csv | update id {|i| $"t3_$i"}
+open test.csv | update id {|i| $"t3_($i)"}
+open test.csv | update id {|i| $"t3_($i.id)"}
+open test.csv | update id {$"t3_($it.id)"}
+open test.csv | update id {|i| $"t3_($i.id)"}
+let hlp = (open homelab_posts.csv |update id {|i| $"t3_($i.id)"} | get id  )
+open homelab_posts.csv
+let hlp = (open homelab_posts.csv |update id {|i| $"t3_($i.id)"} | get id  )
+$hlp
+process.nu
+nu process.nu
+open r_homelab_posts.jsonl | sort-by score | select id subreddit score title | last 100 | save homelab_posts.csv<\n>let hlp = (open homelab_posts.csv |update id {|i| $"t3_($i.id)"} | get id  )
+nu process.nu
+let r_homelab_posts = open r_homelab_posts.jsonl<\n>open $r_homelab_posts | sort-by score | select id subreddit score title | last 100 | save homelab_posts.csv
+let r_homelab_posts = open r_homelab_posts.jsonl
+nu process.nu
+let r_homelab_posts = open r_homelab_posts.jsonl<\n>$r_homelab_posts | sort-by score | select id subreddit score title | last 100 | save homelab_posts.csv
+nu process.nu
+let r_homelab_posts = (open r_homelab_posts.jsonl | from json)
+let r_homelab_posts = (open r_homelab_posts.jsonl | from jsonl)
+nu process.nu
+poweroff
+gl https://www.instagram.com/reel/DMxutUvMBd7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMQk1NlJeQp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMMoRSxOImL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMskWkLoein/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLm2zS5z8Pr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGZIMy0xx7g/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DFsY8UiPiKy/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMcU55jTlN7/?utm_source=ig_web_copy_link
+ffprobe -v quiet -print_format json -show_format -show_streams Snapinsta.app_video_6444D32B39CD0DD232945C60C27B688B_video_dashinit_tellme.mp4
+gl https://www.instagram.com/reel/CmqXoE_NYn6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DLop-3WyAzK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHY2tPRslrQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMF-lW_SQXu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DG4Hx08Smel/?utm_source=ig_web_copy_link
+cd -
+pwd | wl-copy
+cd -
+gl https://www.instagram.com/reel/DLClnItJ5Fh/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DHrJLFavD0s/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLVMAifT_Qs/?utm_source=ig_web_copy_link
+tmux
+overlay use .venv/bin/activate.nu
+pip install polars
+let r_homelab_posts = (open r_homelab_posts.jsonl | from json -o)
+open r_homelab_posts.jsonl
+clear
+open r_homelab_posts.jsonl | first | columns | to text | fzf
+nu process.nu
+ls *.csv
+ls *.csv | each {open $it.name}
+ls *.csv | each {|it| open $it.name |length }
+ls *.csv | each {|it| open $it.name |length | math sum}
+ls *.csv | each {|it| open $it.name |length }
+ls *.csv | each {|it| open $it.name |length } | math sum
+touch GEMINI.md
+overlay use .venv/bin/activate.nu
+gemini
+let df = polars open headphones_posts.csv
+nu eda.nu
+plugin list
+cargo install nu_plugin_polars
+plugin add nu_plugin_polars<\n>
+let df = polars open headphones_posts.csv
+$df 
+$df | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score)
+$df | polars group-by subreddit | polars agg (polars count | polars as post_count)
+nu eda.nu
+let df = polars open headphones_posts.csv
+$df | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect
+$df | polars group-by subreddit | polars agg [ (polars col score | polars count | polars as post_count) ] | polars collect
+$df | polars select (polars col score)
+$df | polars select (polars col score) | polars collect
+let dfc = polars open headphones_posts.csv
+$dfc | polars select (polars col score) | polars collect
+let dfc = polars open headphones_comments.csv
+$dfc | polars select (polars col score) | polars collect
+$dfc | polars select (polars col scoren | polars mean) | polars collect
+$dfc | polars select (polars col score | polars mean) | polars collect
+let dfp = polars open headphones_posts.csv
+$dfp | polars select (polars col score | polars mean) | polars collect
+$dfp | polars select (polars col score | polars median) | polars collect
+$dfp | polars select (polars col score | polars max) | polars collect
+$dfp | polars select (polars col score | polars min) | polars collect
+$dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect
+let columns = ($dfp | polars schema | columns)<\n>$dfp | polars select ($columns | each { |it| (polars col $it | polars is-null | polars sum | polars as $it) }) | polars collect
+$dfp | polars schema
+$dfp | polars schema | columns
+$dfp | describe 
+$dfp | columns
+$dfp | polars columns
+open top100_SmartThings_comments.csv
+open headphones_comments.csv | length
+help polars
+yay -Qs | fzf
+google-chrome
+chrome
+z
+google-chrome-stable
+yay -Qs | fzf
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+git clone https://github.com/FMotalleb/nu_plugin_desktop_notifications.git  <\n>nupm install --path nu_plugin_desktop_notifications -f  
+git clone https://github.com/nushell/nupm.git
+use nupm/nupm<\n>nupm install nupm --force --path
+gl https://www.instagram.com/reel/DMwRA2mTyTu/?utm_source=ig_web_copy_link
+git clone https://github.com/FMotalleb/nu_plugin_desktop_notifications.git  <\n>nupm install --path nu_plugin_desktop_notifications -f  
+gl https://www.instagram.com/reel/DMoLnkOKeDL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DI3Spjzz5XH/?utm_source=ig_web_copy_link
+notify -t "Test notification body" --summary "Test title"
+gl https://www.instagram.com/reel/DI3Spjzz5XH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMDZXx6OTw3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMfWABgTU0G/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMYxVUvTqOV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DINZ6z9As7Y/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMeG0rbufA2/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLdr0lmOcC1/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMJw5_nJrDO/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKOmA5_ONP1/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMxK7MJpc9L/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLQn9ZUNEjq/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMfLxRjhWsF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLwBzzvPNum/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJMlqYPCLxn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJmwklnvmov/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMPlR5mJQGg/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK430_xTGpx/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DItQ1o9R5B6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIZyS4VsxWa/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJArsAdCkKE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIP2_-WRKze/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMVTejixqvY/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMRWgewutll/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMkInRERB9m/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHwQRoGu7Yu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLs2BfsxOgJ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLfSiOPS8SJ/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DLFpLjsCyiY/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMDIQTQidLy/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL5BRAQRTRW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLRBVhtsTT5/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMe3Gd5xxtU/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMx3DS9oBa9/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLXQkNNSkwL/?utm_source=ig_web_copy_link
+pandoc IuseArchbtw.md swot.pdf
+pandoc -f markdown -t pdf -o swot.pdf IuseArchbtw.md
+sudo pacman -S texlive-most
+sudo pacman -S wkhtmltopdf
+pandoc -f markdown -t html -o swot.html IuseArchbtw.md
+pandoc -f html -t pdf -o swot.html swot.pdf
+pandoc -f html -t pdf -o swot.pdf swot.html
+yay -S pdfTex
+yay -S pdfTeX
+yay -S typst
+pandoc -f markdown -t typst IuseArchbtw.md -o SWOT.typ
+typst compile SWOT.typ
+gemini
+tmux
+help polars
+nvim --version
+open r_BudgetAudiophile_posts.jsonl | length
+open r_headphones_posts.jsonl
+open r_headphones_posts.jsonl | columns
+open r_headphones_posts.jsonl | columns | to text | fzf
+open r_BudgetAudiophile_posts.jsonl
+open r_BudgetAudiophile_posts.jsonl | author
+open r_BudgetAudiophile_posts.jsonl | select author
+open r_BudgetAudiophile_posts.jsonl | select id
+open r_BudgetAudiophile_posts.jsonl | select id author score title
+open r_BudgetAudiophile_posts.jsonl | select id author score title | sort-by score
+open r_BudgetAudiophile_posts.jsonl | select id author score title | sort-by score | last 100
+open r_BudgetAudiophile_posts.jsonl | select id author score title | sort-by score | last 100 | save test.csv
+open test.csv
+ls
+mkdir dir_test
+ls
+ls | where ($it.type == file and $it.name =~ ".csv$")D |get name | each { mv $in tests}
+ls | where ($it.type == file and $it.name =~ ".csv$")
+ls | where ($it.type == file and $it.name =~ ".csv$") |get name
+ls | where ($it.type == file and $it.name =~ ".csv$")D |get name | each { mv $in tests}
+ls | where ($it.type == file and $it.name =~ ".csv$") |get name | each { mv $in dir_test}
+ls
+nordvpn c
+gl https://www.instagram.com/reel/DMzFeU7TfZ-/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHYCLWvPIsR/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMx0EvDyJm-/?utm_source=ig_web_copy_link
+help polars
+open r_homelab_posts.jsonl
+open r_homelab_posts.jsonl | columns
+open r_homelab_posts.jsonl | select author
+open r_homelab_posts.jsonl | select id author score
+open r_homelab_posts.jsonl | select id author score title
+open r_homelab_posts.jsonl | select id author score title | sort-by score
+open r_homelab_posts.jsonl | select id author score title | sort-by score | last 100
+open r_homelab_posts.jsonl | select id author score title | sort-by score | last 100 | save test.csv
+open test.csv
+open r_homelab_comments.jsonl | first | columns 
+fzf
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_homelab_comments.jsonl | select id link_id score body
+open r_homelab_comments.jsonl | length
+open r_homelab_posts.jsonl | sort-by score | select id score title
+open r_homelab_posts.jsonl | sort-by score | select id score title | select id
+open r_homelab_posts.jsonl | sort-by score | select id score title | get id
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 10
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | get id
+let post_id = (open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | get id)
+$post_id
+open r_homelab_comments.jsonl | select link_id
+open r_homelab_comments.jsonl | select link_id | first 100
+open r_homelab_comments.jsonl | select parent_id | first 100
+open r_homelab_comments.jsonl | select link_id | first 100
+$post_id
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | get id
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | update id {|i| $"t3_($i.id)"}
+open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | update id {|i| $"t3_($i.id)"} | get id
+let post_id = (open r_homelab_posts.jsonl | sort-by score | select id score title |last 100 | update id {|i| $"t3_($i.id)"} | get id)
+$post_id
+open r_homelab_posts.jsonl | where score >100
+open r_homelab_posts.jsonl | where score > 100
+open r_homelab_comments.jsonl | where link_id in $post_id | select id link_id parent_id score body | length
+open r_homelab_comments.jsonl | where link_id in $post_id | select id link_id parent_id score body
+open r_homelab_comments.jsonl | where link_id in $post_id | select id link_id parent_id score body | save comments.csv
+open comments.csv
+open comments.csv | where score < 0
+open comments.csv | where score < 0 | sort-by score
+open comments.csv | where score < 0 | sort-by score | reverse
+open comments.csv | where score < 0 | sort-by score | reverse | last 100
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_homelab_comments.jsonl | first | select permalink
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_homelab_posts.jsonl | first | columns | to text | fzf
+open r_homelab_comments.jsonl | select removed_by
+open r_homelab_posts.jsonl | select removed_by
+open r_homelab_posts.jsonl | where removed_by !~ ""
+open r_homelab_posts.jsonl | where removed_by != null
+open r_homelab_posts.jsonl | where removed_by != ""
+open r_homelab_posts.jsonl | where removed_by != null
+open r_homelab_posts.jsonl | where removed_by == null
+open r_homelab_posts.jsonl | select author removed_by 
+open r_Chainsawfolk_posts.jsonl | select author removed_by 
+open r_Chainsawfolk_posts.jsonl | select author removed_by  | where removed_by == null
+open r_Chainsawfolk_posts.jsonl | select author removed_by  
+| where removed_by == null
+open r_Chainsawfolk_posts.jsonl | select author removed_by  <\n>| where removed_by == null
+open r_homelab_posts.jsonl | first | columns | to text | fzf
+open r_Chainsawfolk_posts.jsonl | select author banned_by
+open r_Chainsawfolk_posts.jsonl | select author banned_by | where banned_by  == null
+open r_Chainsawfolk_posts.jsonl | select author banned_by | where banned_by  != null
+open r_homelab_comments.jsonl | first | columns | to text | fzf
+open r_Chainsawfolk_comments.jsonl | select author banned_by | where banned_by != null
+hostname
+hostname -I
+bash -c "hostname -I"
+ip a
+nordvpn d
+ip a
+hostname
+npx http-server .vuepress/dist

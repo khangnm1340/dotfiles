@@ -1,0 +1,128 @@
+mode,modifier,code,event
+emacs,KeyModifiers(0x0),Backspace,Edit([Backspace])
+emacs,KeyModifiers(0x0),Delete,Edit([Delete])
+emacs,KeyModifiers(0x0),Down,"UntilFound([MenuDown, Down])"
+emacs,KeyModifiers(0x0),End,"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+emacs,KeyModifiers(0x0),Enter,Enter
+emacs,KeyModifiers(0x0),Esc,Esc
+emacs,KeyModifiers(0x0),Home,Edit([MoveToLineStart { select: false }])
+emacs,KeyModifiers(0x0),Left,"UntilFound([MenuLeft, Left])"
+emacs,KeyModifiers(0x0),Right,"UntilFound([HistoryHintComplete, MenuRight, Right])"
+emacs,KeyModifiers(0x0),Up,"UntilFound([MenuUp, Up])"
+emacs,KeyModifiers(ALT),Backspace,Edit([BackspaceWord])
+emacs,KeyModifiers(ALT),Char('b'),Edit([MoveWordLeft { select: false }])
+emacs,KeyModifiers(ALT),Char('c'),Edit([CapitalizeChar])
+emacs,KeyModifiers(ALT),Char('d'),Edit([CutWordRight])
+emacs,KeyModifiers(ALT),Char('f'),"UntilFound([HistoryHintWordComplete, Edit([MoveWordRight { select: false }])])"
+emacs,KeyModifiers(ALT),Char('l'),Edit([LowercaseWord])
+emacs,KeyModifiers(ALT),Char('m'),Edit([BackspaceWord])
+emacs,KeyModifiers(ALT),Char('u'),Edit([UppercaseWord])
+emacs,KeyModifiers(ALT),Delete,Edit([DeleteWord])
+emacs,KeyModifiers(ALT),Enter,Edit([InsertNewline])
+emacs,KeyModifiers(ALT),Left,Edit([MoveWordLeft { select: false }])
+emacs,KeyModifiers(ALT),Right,"UntilFound([HistoryHintWordComplete, Edit([MoveWordRight { select: false }])])"
+emacs,KeyModifiers(CONTROL),Backspace,Edit([BackspaceWord])
+emacs,KeyModifiers(CONTROL),Char('a'),Edit([MoveToLineStart { select: false }])
+emacs,KeyModifiers(CONTROL),Char('b'),"UntilFound([MenuLeft, Left])"
+emacs,KeyModifiers(CONTROL),Char('c'),CtrlC
+emacs,KeyModifiers(CONTROL),Char('d'),CtrlD
+emacs,KeyModifiers(CONTROL),Char('e'),"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+emacs,KeyModifiers(CONTROL),Char('f'),"UntilFound([HistoryHintComplete, MenuRight, Right])"
+emacs,KeyModifiers(CONTROL),Char('g'),Edit([Redo])
+emacs,KeyModifiers(CONTROL),Char('h'),Edit([Backspace])
+emacs,KeyModifiers(CONTROL),Char('j'),Enter
+emacs,KeyModifiers(CONTROL),Char('k'),Edit([KillLine])
+emacs,KeyModifiers(CONTROL),Char('l'),ClearScreen
+emacs,KeyModifiers(CONTROL),Char('n'),"UntilFound([MenuDown, Down])"
+emacs,KeyModifiers(CONTROL),Char('o'),OpenEditor
+emacs,KeyModifiers(CONTROL),Char('p'),"UntilFound([MenuUp, Up])"
+emacs,KeyModifiers(CONTROL),Char('r'),SearchHistory
+emacs,KeyModifiers(CONTROL),Char('t'),Edit([SwapGraphemes])
+emacs,KeyModifiers(CONTROL),Char('u'),Edit([CutFromStart])
+emacs,KeyModifiers(CONTROL),Char('w'),Edit([CutWordLeft])
+emacs,KeyModifiers(CONTROL),Char('y'),Edit([PasteCutBufferBefore])
+emacs,KeyModifiers(CONTROL),Char('z'),Edit([Undo])
+emacs,KeyModifiers(CONTROL),Delete,Edit([DeleteWord])
+emacs,KeyModifiers(CONTROL),End,Edit([MoveToEnd { select: false }])
+emacs,KeyModifiers(CONTROL),Home,Edit([MoveToStart { select: false }])
+emacs,KeyModifiers(CONTROL),Left,Edit([MoveWordLeft { select: false }])
+emacs,KeyModifiers(CONTROL),Right,"UntilFound([HistoryHintWordComplete, Edit([MoveWordRight { select: false }])])"
+emacs,KeyModifiers(SHIFT | CONTROL),Char('a'),Edit([SelectAll])
+emacs,KeyModifiers(SHIFT | CONTROL),End,Edit([MoveToEnd { select: true }])
+emacs,KeyModifiers(SHIFT | CONTROL),Home,Edit([MoveToStart { select: true }])
+emacs,KeyModifiers(SHIFT | CONTROL),Left,Edit([MoveWordLeft { select: true }])
+emacs,KeyModifiers(SHIFT | CONTROL),Right,Edit([MoveWordRight { select: true }])
+emacs,KeyModifiers(SHIFT),End,Edit([MoveToLineEnd { select: true }])
+emacs,KeyModifiers(SHIFT),Enter,Edit([InsertNewline])
+emacs,KeyModifiers(SHIFT),Home,Edit([MoveToLineStart { select: true }])
+emacs,KeyModifiers(SHIFT),Left,Edit([MoveLeft { select: true }])
+emacs,KeyModifiers(SHIFT),Right,Edit([MoveRight { select: true }])
+vi_normal,KeyModifiers(0x0),Backspace,Edit([MoveLeft { select: false }])
+vi_normal,KeyModifiers(0x0),Delete,Edit([Delete])
+vi_normal,KeyModifiers(0x0),Down,"UntilFound([MenuDown, Down])"
+vi_normal,KeyModifiers(0x0),End,"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+vi_normal,KeyModifiers(0x0),Esc,Esc
+vi_normal,KeyModifiers(0x0),Home,Edit([MoveToLineStart { select: false }])
+vi_normal,KeyModifiers(0x0),Left,"UntilFound([MenuLeft, Left])"
+vi_normal,KeyModifiers(0x0),Right,"UntilFound([HistoryHintComplete, MenuRight, Right])"
+vi_normal,KeyModifiers(0x0),Up,"UntilFound([MenuUp, Up])"
+vi_normal,KeyModifiers(CONTROL),Char('a'),Edit([MoveToLineStart { select: false }])
+vi_normal,KeyModifiers(CONTROL),Char('c'),CtrlC
+vi_normal,KeyModifiers(CONTROL),Char('d'),CtrlD
+vi_normal,KeyModifiers(CONTROL),Char('e'),"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+vi_normal,KeyModifiers(CONTROL),Char('l'),ClearScreen
+vi_normal,KeyModifiers(CONTROL),Char('n'),"UntilFound([MenuDown, Down])"
+vi_normal,KeyModifiers(CONTROL),Char('o'),OpenEditor
+vi_normal,KeyModifiers(CONTROL),Char('p'),"UntilFound([MenuUp, Up])"
+vi_normal,KeyModifiers(CONTROL),Char('r'),SearchHistory
+vi_normal,KeyModifiers(CONTROL),End,Edit([MoveToEnd { select: false }])
+vi_normal,KeyModifiers(CONTROL),Home,Edit([MoveToStart { select: false }])
+vi_normal,KeyModifiers(CONTROL),Left,Edit([MoveWordLeft { select: false }])
+vi_normal,KeyModifiers(CONTROL),Right,"UntilFound([HistoryHintWordComplete, Edit([MoveWordRight { select: false }])])"
+vi_normal,KeyModifiers(SHIFT | CONTROL),Char('a'),Edit([SelectAll])
+vi_normal,KeyModifiers(SHIFT | CONTROL),End,Edit([MoveToEnd { select: true }])
+vi_normal,KeyModifiers(SHIFT | CONTROL),Home,Edit([MoveToStart { select: true }])
+vi_normal,KeyModifiers(SHIFT | CONTROL),Left,Edit([MoveWordLeft { select: true }])
+vi_normal,KeyModifiers(SHIFT | CONTROL),Right,Edit([MoveWordRight { select: true }])
+vi_normal,KeyModifiers(SHIFT),End,Edit([MoveToLineEnd { select: true }])
+vi_normal,KeyModifiers(SHIFT),Home,Edit([MoveToLineStart { select: true }])
+vi_normal,KeyModifiers(SHIFT),Left,Edit([MoveLeft { select: true }])
+vi_normal,KeyModifiers(SHIFT),Right,Edit([MoveRight { select: true }])
+vi_insert,KeyModifiers(0x0),Backspace,Edit([Backspace])
+vi_insert,KeyModifiers(0x0),Delete,Edit([Delete])
+vi_insert,KeyModifiers(0x0),Down,"UntilFound([MenuDown, Down])"
+vi_insert,KeyModifiers(0x0),End,"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+vi_insert,KeyModifiers(0x0),Esc,Esc
+vi_insert,KeyModifiers(0x0),Home,Edit([MoveToLineStart { select: false }])
+vi_insert,KeyModifiers(0x0),Left,"UntilFound([MenuLeft, Left])"
+vi_insert,KeyModifiers(0x0),Right,"UntilFound([HistoryHintComplete, MenuRight, Right])"
+vi_insert,KeyModifiers(0x0),Up,"UntilFound([MenuUp, Up])"
+vi_insert,KeyModifiers(ALT),Enter,Edit([InsertNewline])
+vi_insert,KeyModifiers(CONTROL),Backspace,Edit([BackspaceWord])
+vi_insert,KeyModifiers(CONTROL),Char('a'),Edit([MoveToLineStart { select: false }])
+vi_insert,KeyModifiers(CONTROL),Char('c'),CtrlC
+vi_insert,KeyModifiers(CONTROL),Char('d'),CtrlD
+vi_insert,KeyModifiers(CONTROL),Char('e'),"UntilFound([HistoryHintComplete, Edit([MoveToLineEnd { select: false }])])"
+vi_insert,KeyModifiers(CONTROL),Char('h'),Edit([Backspace])
+vi_insert,KeyModifiers(CONTROL),Char('j'),Enter
+vi_insert,KeyModifiers(CONTROL),Char('l'),ClearScreen
+vi_insert,KeyModifiers(CONTROL),Char('n'),"UntilFound([MenuDown, Down])"
+vi_insert,KeyModifiers(CONTROL),Char('o'),OpenEditor
+vi_insert,KeyModifiers(CONTROL),Char('p'),"UntilFound([MenuUp, Up])"
+vi_insert,KeyModifiers(CONTROL),Char('r'),SearchHistory
+vi_insert,KeyModifiers(CONTROL),Char('w'),Edit([BackspaceWord])
+vi_insert,KeyModifiers(CONTROL),Delete,Edit([DeleteWord])
+vi_insert,KeyModifiers(CONTROL),End,Edit([MoveToEnd { select: false }])
+vi_insert,KeyModifiers(CONTROL),Home,Edit([MoveToStart { select: false }])
+vi_insert,KeyModifiers(CONTROL),Left,Edit([MoveWordLeft { select: false }])
+vi_insert,KeyModifiers(CONTROL),Right,"UntilFound([HistoryHintWordComplete, Edit([MoveWordRight { select: false }])])"
+vi_insert,KeyModifiers(SHIFT | CONTROL),Char('a'),Edit([SelectAll])
+vi_insert,KeyModifiers(SHIFT | CONTROL),End,Edit([MoveToEnd { select: true }])
+vi_insert,KeyModifiers(SHIFT | CONTROL),Home,Edit([MoveToStart { select: true }])
+vi_insert,KeyModifiers(SHIFT | CONTROL),Left,Edit([MoveWordLeft { select: true }])
+vi_insert,KeyModifiers(SHIFT | CONTROL),Right,Edit([MoveWordRight { select: true }])
+vi_insert,KeyModifiers(SHIFT),End,Edit([MoveToLineEnd { select: true }])
+vi_insert,KeyModifiers(SHIFT),Enter,Edit([InsertNewline])
+vi_insert,KeyModifiers(SHIFT),Home,Edit([MoveToLineStart { select: true }])
+vi_insert,KeyModifiers(SHIFT),Left,Edit([MoveLeft { select: true }])
+vi_insert,KeyModifiers(SHIFT),Right,Edit([MoveRight { select: true }])

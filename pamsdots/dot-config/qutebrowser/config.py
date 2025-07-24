@@ -18,7 +18,16 @@ c.url.searchengines = {
     'yt': 'https://www.youtube.com/results?search_query={}',
 }
 
-c.url.start_pages = ['~/dotfiles/pamsdots/dot-config/qutebrowser/sessions/hanni.html']
+c.content.autoplay = False
+
+
+c.session.default_name = "temp"
+c.auto_save.session = True
+# c.session.lazy_restore = True
+
+# c.url.start_pages = ['~/dotfiles/pamsdots/dot-config/qutebrowser/sessions/hanni.html']
+c.url.start_pages = ['qute://history/']
+
 
 c.content.user_stylesheets = ["~/dotfiles/pamsdots/dot-config/qutebrowser/styles/yt-tweaks.css"]
 c.hints.chars = 'qweruioasdfjklh'
@@ -33,15 +42,19 @@ c.content.javascript.log_message.excludes = {
     # Combine the patterns for "userscript:_qute_js" into a single list
     "userscript:_qute_js": [
         "*TrustedHTML*",
-        "*Uncaught TypeError: Cannot read properties of undefined (reading 'length')*"
+        "*Uncaught TypeError: Cannot read properties of undefined (reading 'length')*",
+        "*Uncaught TypeError: node.getDestinationInsertionPoints is not a function*"
     ]
 }
+
+c.colors.webpage.darkmode.enabled = False
 
 
 config.bind('<Ctrl-R>', ':config-source ;; message-info "Config reloaded!"')
 config.unbind('<Ctrl-V>', mode='normal') # Or other mode
 config.bind('a', 'hint')
 config.bind('t', 'cmd-set-text -s :open -t')
+config.bind('<Ctrl-Shift-P>', 'open -t')
 config.bind('x', 'tab-close')
 config.bind('X', 'undo')
 config.bind('d', 'scroll-page 0 0.5')
@@ -49,16 +62,21 @@ config.bind('u', 'scroll-page 0 -0.5')
 config.bind('h', 'back')
 config.bind('l', 'forward')
 
+config.bind('<Ctrl-Shift-V>', 'mode-enter passthrough')
 
 config.bind('p', 'open -t -- {clipboard}')
+config.bind('<Ctrl-Shift-p>', 'cmd-set-text -s :open -p')
 
 config.bind('<Ctrl-L>', 'cmd-set-text :open -t -r {url:pretty}')
+config.bind('cj', 'config-cycle statusbar.show always never')
 
 config.bind('yf', 'hint links yank')
 config.bind('p', 'open -t -- {clipboard}')
 
 config.bind('e', 'fake-key f')
 config.bind('E', 'fake-key t')
+
+config.bind('gl', 'tab-clone')
 
 config.bind('<Super-1>', 'tab-focus 1')
 config.bind('<Super-2>', 'tab-focus 2')
@@ -67,7 +85,13 @@ config.bind('<Super-4>', 'tab-focus 4')
 config.bind('<Super-5>', 'tab-focus 5')
 
 config.bind('<Ctrl-V>', 'cmd-set-text -s :tab-move')
-config.bind('ss', 'cmd-set-text -s :spawn --userscript tab-manager.py /home/pampam/dotfiles/pamsdots/dot-config/qutebrowser/sessions/' )
+config.bind('sl', 'cmd-set-text -s :spawn --userscript tab-manager.py /home/pampam/dotfiles/pamsdots/dot-config/qutebrowser/sessions/' )
+config.bind('ss', 'session-save temp' )
+config.bind('sd', 'session-load temp' )
+# config.bind('SS', 'cmd-set-text -s :session-save' )
+# config.bind('SD', 'cmd-set-text -s :session-load' )
+config.bind('<Ctrl-h>', 'history -t')
+
 config.bind('<Alt-J>', 'tab-move +')
 config.bind('<Alt-K>', 'tab-move -')
 

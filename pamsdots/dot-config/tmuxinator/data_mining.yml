@@ -1,0 +1,21 @@
+# ~/.config/tmuxinator/my_project.yml
+
+name: my_project
+root: ~/Documents/UTH/DataMining/prawl_tests/
+
+windows:
+  - nu_eta_dev:
+      root: ~/Documents/UTH/DataMining/prawl_tests
+      layout: tiled
+      panes:
+        # - overlay use .venv/bin/activate.nu
+        - help polars
+  - gemini:
+      # layout: tiled
+      panes:
+        - gemini
+  - main:
+      root: /home/pampam/builds/nushell.github.io
+      layout: tiled
+      panes:
+        - npx http-server .vuepress/dist

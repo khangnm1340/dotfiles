@@ -7,7 +7,10 @@ window-decoration = false
 gtk-titlebar = false
 # theme = "Tinacious Design (Dark)"
 # theme = "GruvboxDark"
-theme = GruvboxLight
+# theme = GruvboxLight
+theme = GitHub-Light-High-Contrast
+# theme = omori
+# theme = tokyonight
 # background-opacity = 0.2
 # background-opacity = 0.8
 confirm-close-surface = false
@@ -40,11 +43,17 @@ gtk-tabs-location =
 # custom-shader = shaders/starfield.glsl
 # custom-shader = shaders/tft.glsl
 # custom-shader = shaders/underwater.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze.glsl
 # custom-shader = shaders/water.glsl
-
-
-
-# keybind = super+ctrl+shift+e=equalize_splits
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze_no_trail.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze_tapered.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_frozen.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_smear.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_smear_fade.glsl
+# custom-shader = ghostty-shader-playground/shaders/debug_cursor_animated.glsl
+# custom-shader = ghostty-shader-playground/shaders/debug_cursor_static.glsl
+# custom-shader = ghostty-shader-playground/shaders/manga_slash.glsl
+# custom-shader = ghostty-shader-playground/shaders/WIP.glsl
 
 keybind = ctrl+shift+n=unbind
 keybind = ctrl+shift+j=unbind
@@ -90,6 +99,8 @@ font-family = JetBrainsMono Nerd Font
 # adjust-cell-width = -40%
 # font-feature = -liga 
 # window-padding-color = extend
+
+# cursor-invert-fg-bg
 
 
 keybind = alt+u=increase_font_size:1
