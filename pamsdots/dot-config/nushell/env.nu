@@ -97,6 +97,7 @@ path add /home/pampam/.local/bin
 path add /home/pampam/.local/share/nvim/mason/bin
 path add /home/pampam/.dotnet/tools
 path add /usr/bin/vendor_perl
+# path add /home/pampam/.cache/yay/neovide/target/release
 # $env.PATH = ($env.PATH | split row (char esep))
 # path add /some/path
 # path add ($env.CARGO_HOME | path join "bin")

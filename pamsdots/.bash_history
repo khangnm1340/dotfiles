@@ -1,9 +1,3 @@
-y
-y
-y
-y
-y
-nu
 curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCpWHXAZTq6jfCoeBomI-PK1w3dthbFEU8"   -H 'Content-Type: application/json'   -X POST   -d '{
     "contents": [
       {
@@ -499,3 +493,10 @@ y
 yazi
 stow --dotfiles -d dotfiles/ -t . home
 reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lxye7q/truy%E1%BB%87n_c%C6%B0%E1%BB%9Di_v%E1%BB%81_qu%E1%BA%A3_bom_h%E1%BB%99t_nh%C3%A2n_c%E1%BB%A7a_t%C3%A0u_c%E1%BB%99ng_c%E1%BB%A7a/
+reddit_archive https://www.reddit.com/r/VietNamNation/comments/1m324me/người_nhật_gọi_hồ_chí_minh_là_ông_hồ_bò_đỏ_kêu%2f
+ls
+cd prawl_tests/
+nu
+pushd
+fzf
+nu

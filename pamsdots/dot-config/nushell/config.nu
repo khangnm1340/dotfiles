@@ -159,7 +159,7 @@ $env.config = {
     }
 
     table: {
-        mode: rounded # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
+        mode: none # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
         index_mode: always # "always" show indexes, "never" show indexes, "auto" = show indexes when a table has "index" column
         show_empty: true # show 'empty list' and 'empty record' placeholders for command output
         padding: { left: 1, right: 1 } # a left right padding of each column in a table
@@ -404,11 +404,41 @@ $env.config = {
             }
         }
       {
+            name: freeze
+            modifier: control
+            keycode: char_f
+            mode: [emacs vi_normal vi_insert]
+            event: { send: executehostcommand, cmd: "job freeze" }
+      }
+      {
+            name: past_directory
+            modifier: shift
+            keycode: char_h
+            mode: [emacs vi_normal vi_insert]
+            event: { send: executehostcommand, cmd: "cd -" }
+      }
+      {
+            name: fzf_d
+            modifier: shift
+            keycode: char_z
+            mode: [emacs vi_normal vi_insert]
+            event: { send: executehostcommand, cmd: "fzf | xargs -r nvim" }
+      }
+      {
             name: reload_config
             modifier: control
             keycode: char_x
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: $"source \'($nu.env-path)\';source \'($nu.config-path)\'" }
+      }
+      {
+            name: tmux_capture_pane
+            modifier: control
+            keycode: char_s
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd : "tmux capture-pane -p -S -100 | sed '/^\\s*$/d' | nvim -"}
       }
       {
             name: yazi
@@ -711,6 +741,48 @@ $env.config = {
 
 use ~/.cache/starship/init.nu
 use std/dirs
+use std formats *
+
+def str-wrap [
+  --wrap-at: number = 20
+] {
+  str replace -a "\r\n" "\n"
+    | str replace -a "\n" " SINGLENEWLINE "
+    | str trim
+    | split row -r "\\s+"
+    | reduce -f { joined: '' count: 0 } { |word, state|
+        if ($word == "\n") {
+          {
+            joined: ($state.joined + "\n")
+            count: 0
+          }
+        } else if ($state.count < $wrap_at) {
+          if ($state.joined | is-empty) {
+            {
+              joined: $word
+              count: ($word | str length)
+            }
+          } else {
+            {
+              joined: ($state.joined + ' ' + $word)
+              count: ($state.count + 1 + ($word | str length))
+            }
+          }
+        } else {
+          {
+            joined: ($state.joined + "\n" + $word)
+            count: 0
+          }
+        }
+      }
+    | get joined
+    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n"
+}
+# Add this to your ~/.config/nushell/config.nu or environment.nu file
+
+def "wrap" [column_name: string] {
+    update $"($column_name)" { str-wrap } | table -ed 1
+}
 
 def --env y [...args] {
 	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
@@ -734,6 +806,7 @@ alias sl = eza -l --icons --time-style=long-iso --group-directories-first
 alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
+
 
 
 
