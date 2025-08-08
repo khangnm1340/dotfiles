@@ -1,31 +1,3 @@
-              "mimeType": "image/webp",
-              "data": "
-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
@@ -499,3 +471,37 @@ echo $PREFIX
 tmux
 tmux
 hostname -I
+ls
+nu
+echo key alt s | dotool
+ydotoold --socket-path="$HOME/.ydotool_socket" --socket-own="$(id -u):$(id -g)"
+nu
+echo $(id -u):$(id -g)
+ydotool key 56:1 38:1 38:0 56:0
+echo key alt tab |dotool
+echo key tab |dotool
+nu
+printf '%s\n' 'key alt+tab '| dotool
+echo 'key alt+tab '| dotool
+printf '%s\n' 'key alt+tab space alt+tab' | dotool
+printf '%s\n' 'key alt+tab space alt+tab' | dotool
+nu
+z
+cd /
+fd
+clear
+z
+zoxide
+nu
+nu -c "polars open r_SmartThings_posts.jsonl
+| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]
+| polars select archived archived_is_null
+| polars collect"
+nu
+nu -c "polars open r_SmartThings_posts.jsonl
+| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]
+| polars select archived archived_is_null
+| polars collect"
+nu
+n
+nu

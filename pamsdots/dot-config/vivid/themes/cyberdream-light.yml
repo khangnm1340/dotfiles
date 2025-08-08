@@ -1,140 +1,136 @@
 colors:
-  black: "ffffff"
-  green: "008b0c"
-  purple: "a018ff"
-  red: "d11500"
-  yellow: "997b00"
-  cyan: "008c99"
-  pink: "f40064"
-  orange: "d17c00"
-  white: "16181a"
-  base01: "363434"
+  # Original "catppuccin" theme
+  # https://github.com/catppuccin/catppuccin
+
+  rosewater: 'dc8a78'
+  flamingo: 'dd7878'
+  pink: 'ea76cb'
+  mauve: '8839ef'
+  red: 'd20f39'
+  maroon: 'e64553'
+  peach: 'fe640b'
+  yellow: 'df8e1d'
+  green: '40a02b'
+  teal: '179299'
+  sky: '04a5e5'
+  sapphire: '209fb5'
+  blue: '1e66f5'
+  lavender: '7287fd'
+
+  text: '4c4f69'
+  subtext1: '5c5f77'
+  subtext0: '6c6f85'
+  overlay2: '7c7f93'
+  overlay1: '8c8fa1'
+  overlay0: '9ca0b0'
+  surface2: 'acb0be'
+  surface1: 'bcc0cc'
+  surface0: 'ccd0da'
+  
+  crust: 'dce0e8'
+  mantle: 'e6e9ef'
+  base: 'eff1f5'
 
 core:
-  normal_text:
-    foreground: white
-
-  regular_file:
-    foreground: white
-
-  reset_to_normal:
-    foreground: orange
+  normal_text: {}
+  regular_file: {}
+  reset_to_normal: {}
 
   directory:
-    foreground: purple
+    foreground: blue
 
   symlink:
-    foreground: cyan
+    foreground: pink
 
   multi_hard_link: {}
 
   fifo:
-    foreground: yellow
-    background: black
+    foreground: crust
+    background: blue
 
   socket:
-    foreground: pink
-    background: black
-    font-style: bold
+    foreground: crust
+    background: pink
 
   door:
-    foreground: pink
-    background: black
-    font-style: bold
+    foreground: crust
+    background: pink
 
   block_device:
-    foreground: yellow
-    background: black
-    font-style: bold
+    foreground: sapphire
+    background: surface0
 
   character_device:
-    foreground: yellow
-    background: black
-    font-style: bold
+    foreground: pink
+    background: surface0
 
   broken_symlink:
-    foreground: red
-    background: black
-    font-style: bold
-
-  missing_symlink_target:
-    foreground: red
-    background: black
-
-  setuid:
-    foreground: white
+    foreground: crust
     background: red
 
-  setgid:
-    foreground: black
-    background: yellow
+  missing_symlink_target:
+    foreground: crust
+    background: red
+
+  setuid: {}
+
+  setgid: {}
 
   file_with_capability: {}
 
-  sticky_other_writable:
-    foreground: black
-    background: green
+  sticky_other_writable: {}
 
-  other_writable:
-    foreground: purple
-    background: green
+  other_writable: {}
 
-  sticky:
-    foreground: white
-    background: purple
+  sticky: {}
 
   executable_file:
-    foreground: green
+    foreground: red
+    font-style: bold
 
 text:
   special:
-    foreground: orange
+    foreground: base
+    background: yellow
 
   todo:
-    foreground: orange
     font-style: bold
 
   licenses:
-    foreground: orange
+    foreground: overlay2
 
   configuration:
-    foreground: orange
+    foreground: yellow
 
   other:
-    foreground: orange
+    foreground: yellow
 
 markup:
-  foreground: orange
+  foreground: yellow
 
 programming:
-  foreground: orange
+  source:
+    foreground: green
+
+  tooling:
+    foreground: teal
+
+    continuous-integration:
+      foreground: green
 
 media:
-  image:
-    foreground: pink
-
-  audio:
-    foreground: cyan
-
-  video:
-    foreground: orange
-    font-style: bold
-
-  fonts:
-    foreground: orange
-
-  3d:
-    foreground: pink
+  foreground: flamingo
 
 office:
-  foreground: orange
+  foreground: red
 
 archives:
+  foreground: sapphire
+  font-style: underline
+
+executable:
   foreground: red
   font-style: bold
 
-executable:
-  foreground: green
-
 unimportant:
-  foreground: base01
+  foreground: surface2

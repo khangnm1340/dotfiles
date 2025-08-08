@@ -15306,3 +15306,1142 @@ nordvpn d
 ip a
 hostname
 npx http-server .vuepress/dist
+cat ~/.config/nushell/cd_history.txt 
+cat ~/.config/nushell/cd_history.txt | fzf
+cd (cat ~/.config/nushell/cd_history.txt | fzf)
+y
+fd
+fd | fzf
+help polars | nvim
+help polars | to text
+help polars | to text | nvim
+help polars
+gemini
+polars open BudgetAudiophile_comments.csv
+let dfp = polars open headphones_posts.csv<\n>let dfc = polars open headphones_comments.csv
+$dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect
+$dfp | polars columns
+let temp = ($dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect)
+$temp
+$dfp | polars group-by subreddit | polars agg [ (polars col score | polars count | polars as post_count) ] | polars collect
+gemini
+poweroff
+gl https://www.youtube.com/watch?v=SRA4brHXBBQ
+jkl https://www.youtube.com/watch?v=SRA4brHXBBQ
+fd
+nordvpn c
+zi
+$env.CURRENT_FILE
+ls
+pwd
+pwd | path dirname
+btop
+ps
+/tmp/Q4Y4islg-4DwGsvGRGg5fQ/history.txt
+nvim /tmp/wknhzeSBM1TleAhk64Gq4A/history.txt
+/tmp/cdhwV_FKYc--BceU9BRyHA/history.txt
+nvim /tmp/EoKpbuxyomTOP-0UVlfVmw/history.txt
+clear
+fastfetch
+vim /tmp/tz31PTXJXum71JGR9ckNdw/history.txt
+fastfetch
+fd
+tmux
+open BudgetAudiophile_posts.csv | select url
+fd
+btop
+zi
+open digikam4.db
+open BudgetAudiophile_posts.csv
+cd /
+fd
+cd /
+fd
+al
+ls
+z
+y
+fd
+fd
+let dfp = polars open headphones_posts.csv
+let dfp = polars open headphones_posts.csv<\n>
+let temp = ($dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect)<\n>
+nordvpn d
+sudo pacman -S wtype
+chmod +x wtype.sh
+./wtype.sh
+sleep
+suspend
+let temp = ($dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect)
+$temp
+$dfp | polars group-by subreddit | polars agg [ (polars col score | polars count | polars as post_count) ] | polars collect
+yay -Qs | fzf
+hyprctl clients
+tldr dotool
+tldr --update
+tldr dotool
+dotool --help
+dotool type alt+l
+dotool "alt+l"
+dotool --help
+dotool key "l"
+"alt+l" | dotool
+echo "alt+l" | dotool
+echo key alt+tab | dotool
+echo type hello world | dotool
+echo type hi | dotool
+yay -S ydotool
+ydotool type "hi"
+ydotool
+ydotool --help
+ydotool key c
+systemctl start ydotool
+ydotool
+ydotool daemon &
+ydotool type "hi"
+sudo -b ydotoold --socket-path="$HOME/.ydotool_socket" --socket-own="$(id -u):$(id -g)"<\n>
+ydotool type "hi"
+ydotool --socket-own=1000:984
+sudo nvim ydotool.service
+echo $(id -u):$(id -g)
+sudo nvim ydotool.service
+systemctl --user start ydotool
+ydotool type "hi"
+ydotool key alt l
+ydotool key alt+l
+ydotool mousemove -x -100 -y 100
+ydotool key 56:1 62:1 62:0 56:0
+ydotool key 56:1 46:1 46:0 56:0
+ydotool key 56:1 38:1 38:0 56:0
+ydotool key 56:1 38:1 38:0 56:0
+# y<\n>ydotool type 'y'; \<\n>sleep 0.5; \<\n>\<\n># Alt+L<\n>ydotool key 56:1 38:1 38:0 56:0; \<\n>sleep 0.5; \<\n>\<\n># Ctrl+Shift+V<\n>ydotool key 29:1 42:1 47:1 47:0 42:0 29:0; \<\n>sleep 0.5; \<\n>\<\n># Enter<\n>ydotool key 28:1 28:0
+cat /usr/include/linux/input-event-codes.h | less
+cat /usr/include/linux/input-event-codes.h | nvim
+cccccccccccccccccccccc
+ydotool key 29:1 46:1
+# 42:1 47:1 47:0 42:0 29:0
+open BudgetAudiophile_posts.csv
+systemctl --user stop ydotool
+ps | where name =~ "ydotool"
+hyprctl clients
+dotool key "l"
+echo l
+echo l | dotool
+dotool
+hyprctl dispatch cyclenext prev
+hyprctl dispatch sendshortcut y,class:com.mitchellh.ghostty
+hyprctl dispatch sendshortcut , ,y,class:com.mitchellh.ghostty
+hyprctl dispatch sendshortcut , ,space, ^(mpv)$
+hyprctl dispatch sendshortcut , ,space, class:^(mpv)$
+hyprctl dispatch sendshortcut,,space, class:^(mpv)$
+hyprctl dispatch sendshortcut ,,space, class:^(mpv)$
+hyprctl windows
+hyprctl clients
+hyprctl dispatch sendshortcut ,,space, class:^(mpv)$
+hyprctl dispatch
+hyprctl dispatch sendshortcut space
+hyprctl dispatch sendshortcut ,,space
+hyprctl clients
+hyprctl dispatch sendshortcut ,,space,pid:158808
+hyprctl dispatch sendshortcut ,space,pid:158808
+hyprctl dispatch sendshortcut ,alt+],class:com.mitchellh.ghostty
+com.mitchellh.ghostty
+hyprctl dispatch sendshortcut ,alt+],class:com.mitchellh.ghostty
+hyprctl dispatch sendshortcut ,alt+l,class:com.mitchellh.ghostty
+hyprctl dispatch sendshortcut ,space,class:^(mpv)$<\n>
+hyprctl dispatch sendshortcut ,space,class:mpv
+hyprctl dispatch sendshortcut ,space,class:*ghostty
+hyprctl clients
+open BudgetAudiophile_posts.csv<\n>
+yay -Rns ydotool dotool
+open BudgetAudiophile_posts.csv<\n>
+hyprctl dispatch sendshortcut alt,l,class:com.mitchellh.ghostty<\n>
+open BudgetAudiophile_posts.csv<\n>
+let dfp = polars open headphones_posts.csv<\n>let dfc = polars open headphones_comments.csv<\n>
+let temp = ($dfp | polars select (polars col score | polars mean | polars as mean_score) (polars col score | polars median | polars as median_score) (polars col score | polars min | polars as min_score) (polars col score | polars max | polars as max_score) (polars col score | polars std | polars as std_dev_score) | polars collect)<\n>
+$temp<\n>
+help polars<\n>
+echo "<\n>--- Subreddit Post Counts ---"<\n>
+echo "fuck niggers"<\n>
+emxu
+exit
+tmux
+help polars<\n>
+fd
+echo "<\n>--- Missing Values per Column ---"<\n>
+help polars<\n>
+rmpc
+jkl https://www.youtube.com/watch?v=E5joqiTD0ws
+jkl https://www.youtube.com/watch?v=htXv7fpQlNc
+jkh https://www.youtube.com/watch?v=Nbw92qgezis&list=RDGMEMCMFH2exzjBeE_zAHHJOdxg&start_radio=1
+jkl https://youtu.be/DF3R2NNSqp4?si=oapCNiooKjC09bRI
+gl https://www.instagram.com/reel/DMwysxATW7Z/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM0DS0FvX5K/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKHpZK6PDbk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKxoNTeS9KI/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL-4S5tsZ6H/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMqUhzFC4Vv/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJmSaWFyZAF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJ0qFlOMZSs/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMzN-AFSlGA/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHEbX9Munbn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLrW3uFpEbk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJh_7NfyfmJ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMsaPgXtK3L/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJNqTvOMzsE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DH9s8M4tsDf/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL2MzpJg5rf/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMDvBoFhks3/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJewkYiOiFu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKCxrfRJHhr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLIwOdUoJCh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMnu-OICmV6/?utm_source=ig_web_copy_link
+jkl https://www.youtube.com/watch?v=kb89FnZVLx8
+gl https://www.instagram.com/reel/DMW3egMv51J/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJYZOiCJyUh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DGt9sP-zbGG/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJl9Pevyvip/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMe9Vf7zR5w/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLK4qtbxdDk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMooqD8MCcQ/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DIGm-dZTOmH/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DLzAmYWpega/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJMxiLJRIxp/?utm_source=ig_web_copy_link
+gl https://www.reddit.com/r/VietNamNation/comments/1mgbkgw/m%E1%BA%A5y_th%E1%BA%B1ng_%C4%91i_b%C3%A3o_chuy%E1%BA%BFn_n%C3%A0y_s%E1%BA%A1ch_t%C3%BAi_h%E1%BA%BFt/
+nordvpn d
+gl https://www.reddit.com/r/VietNamNation/comments/1mgbkgw/m%E1%BA%A5y_th%E1%BA%B1ng_%C4%91i_b%C3%A3o_chuy%E1%BA%BFn_n%C3%A0y_s%E1%BA%A1ch_t%C3%BAi_h%E1%BA%BFt/
+poweroff
+xdg-mime query default text/plain
+ps | where name =~ "neovide"
+hyprctl clients | grep neovide
+fd
+hyprctl clients | grep neovide
+hyprctl clients
+ghostty --title="btop" neovide
+ghostty --title="scrollback" neovide
+ghostty --title="btop" neovide
+neovide --title=btop
+deadbeef --title="nigger"
+neovide --title="btop"
+deadbeef --help | nvim
+google-chrome-stable --title="btop"
+neovide --title="hi"
+neovide --title-hidden
+hyprctl clients
+neovid
+neovide
+neovide --title-hidden
+neovide
+hyprctl clients
+pwd | wl-copy
+z
+tmux
+fd
+fd
+hyprctl clients
+neovide
+gl https://www.instagram.com/reel/DM2mpYrh6EB/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMptBcETVw-/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DH7GiwWsrxG/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKJc5l7sKge/?utm_source=ig_web_copy_link
+gl https://www.youtube.com/watch?v=fLXy9GkeP7M
+jkl  https://www.youtube.com/watch?v=fLXy9GkeP7M
+jkh https://www.youtube.com/watch?v=fLXy9GkeP7M
+jkh https://www.youtube.com/watch?v=qWk2iAhCElQ
+nvim
+nvim --clean
+tmux
+nvim sv.pdf
+poweroff
+help polars
+open BudgetAudiophile_posts.csv<\n>
+open BudgetAudiophile_posts.csv | select id score author<\n>
+open BudgetAudiophile_posts.csv | select id score<\n>
+help polars
+gemini
+typst watch --format html --features html project_workflow.typ
+yay -Qs | fzf
+python -m venv .venv
+overlay use .venv/bin/activate.nu
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+yay
+gemini --version
+yay
+yay -Rns gemini-cli
+gemini
+gemini
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+gemini
+gemini
+open processed_comments.parquet
+overlay use .venv/bin/activate.nu
+python main.py
+python eda_parquet.py
+ps | where name =~ "libre"
+ps | select name | to text | fzf
+btop
+let posts_df = polars open cleaned_headphones_posts.parquet<\n>let comments_df = polars open cleaned_headphones_comments.parquet<\n>
+print "--- EDA for Cleaned Posts Data ---"<\n>
+let posts_shape = $posts_df | polars shape<\n>
+print $"  Rows: ($posts_shape.rows)"<\n>print $"  Columns: ($posts_shape.columns)"<\n>
+let comments_shape = $comments_df | polars shape<\n>print "Shape of comments_df:"<\n>print $"  Rows: ($comments_shape.rows)"<\n>print $"  Columns: ($comments_shape.columns)"<\n>
+# 2. Get the schema of the dataframe<\n>print "Schema of posts_df:"<\n>print ($posts_df | polars schema)<\n>
+# 4. Text Length Distribution (for 'title' column)<\n>print "Text Length Distribution for 'title' in posts_df:"<\n>print ($posts_df | polars with-column [ (polars col title | polars str-lengths | polars as title_length) ] | polars get title_length | polars summary)<\n>
+# 5. Score Distribution<\n>print "Score Distribution for posts_df:"<\n>print ($posts_df | polars get score | polars summary)<\n>
+nu eda_parquet.nu
+# Load the cleaned Parquet files<\n>let posts_df = polars open cleaned_headphones_posts.parquet<\n>let comments_df = polars open cleaned_headphones_comments.parquet<\n><\n>print "--- EDA for Cleaned Posts Data ---"<\n><\n># 1. Get the shape of the dataframe<\n>print "--- EDA for Cleaned Posts Data ---"<\n><\n># 1. Get the shape of the dataframe<\n>let posts_shape = $posts_df | polars shape<\n>print "Shape of posts_df:"<\n>print $"  Rows: ($posts_shape.rows)"<\n>print $"  Columns: ($posts_shape.columns)"<\n><\n># 2. Get the schema of the dataframe<\n>print "Schema of posts_df:"<\n>print ($posts_df | polars schema)<\n><\n><\n># 4. Text Length Distribution (for 'title' column)<\n>print "Text Length Distribution for 'title' in posts_df:"<\n>print ($posts_df | polars with-column [ (polars col title | polars str-lengths | polars as title_length) ] | polars get title_length | polars summary)<\n>
+print "Score Distribution for posts_df:"<\n>print ($posts_df | polars get score | polars summary)<\n><\n>print "\n--- EDA for Cleaned Comments Data ---"<\n>
+let test = open headphones_posts.csv<\n>
+$test<\n>
+$test | sort-by score | first<\n>
+$test | sort-by score | last<\n>
+let test = open headphones_comments.csv<\n>
+$test | sort-by score | last<\n>
+$test | sort-by score | first<\n>
+let bocchi = polars open r_BocchiTheRock_posts.jsonl<\n>
+$bocchi | polars columns<\n>
+$bocchi | polars filter (polars col "score" > 1000)<\n>
+$bocchi | polars filter (polars col "score" > 1000) | polars collect<\n>
+$bocchi | polars first 5<\n>
+$bocchi | polars first 5 | polars collect<\n>
+$bocchi | polars first 5 | polars select id score title| polars collect<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito") | polars collect<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito")<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito") | polars collect<\n>
+$bocchi | polars columns<\n>
+$bocchi | polars schema<\n>
+polars open r_BocchiTheRock_posts.jsonl | polars schema
+let bocchi = polars open r_BocchiTheRock_posts.jsonl<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito") | polars collect<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito") | polars select title<\n>
+$bocchi | polars filter (polars col "title" | polars contains "dorito") | polars select title | polars collect<\n>
+open r_BocchiTheRock_posts.jsonl | where title =~ "dirito"<\n>
+open r_BocchiTheRock_posts.jsonl | where title =~ "dorito"<\n>
+open r_BocchiTheRock_posts.jsonl | where title =~ "dorito" | length<\n>
+open r_BocchiTheRock_posts.jsonl | where title =~ "dorito" | select title<\n>
+polars open r_BocchiTheRock_posts.jsonl | polars filter (polars col "title" | polars contains "dorito") | polars select title | polars collect<\n>
+let bocchi = polars open r_BocchiTheRock_posts.jsonl<\n>
+polars open r_BocchiTheRock_comments.jsonl | polars filter (polars col "body" | polars contains "dorito") | polars select id body | polars collect<\n>
+let bocchi = polars open r_BocchiTheRock_comments.jsonl<\n>
+$bocchi | polars filter (polars col "body" | polars contains "dorito") | polars select id body | polars collect<\n>
+open r_BocchiTheRock_comments.jsonl | where body =~ "dorito" | select id body<\n>
+polars open r_BocchiTheRock_comments.jsonl | polars filter (polars col "body" | polars contains "dorito") | polars select id body | polars collect<\n>
+time python count_comments_pandas.py
+help timeit
+timeit {python count_comments_pandas.py}
+timeit {polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "dorito") <\n>| polars select id body | polars collect}
+timeit {polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect}<\n>
+timeit {polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars collect}<\n>
+timeit {open r_BocchiTheRock_comments.jsonl | where body =~ "bocchi"}<\n>
+open r_BocchiTheRock_comments.jsonl | where body =~ "bocchi" | polars select id body<\n>
+open r_BocchiTheRock_comments.jsonl | where body =~ "bocchi" | select id body<\n>
+polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect<\n>
+polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "score" > 5 ) <\n>| polars select id body | polars collect
+polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "score" > 5 ) <\n>| polars select id body | polars collect<\n>
+polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter ((polars col "score") > (polars lit 5))<\n>| polars select id body | polars collect<\n>
+polars open "r_BocchiTheRock_comments.jsonl" | polars query "SELECT id, body FROM df WHERE score > 5" | polars collect<\n>
+polars open "r_BocchiTheRock_comments.jsonl" | polars len <\n>
+open "r_BocchiTheRock_comments.jsonl" | length<\n>
+polars open "r_BocchiTheRock_comments.jsonl" <\n>| polars select ( polars len) <\n>| polars collect<\n>
+rg "polars len"
+polars open homelab_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select body <\n>| polars collect<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select body <\n>| polars collect<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select body <\n>| polars collect<\n>| polars into-nu<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select score link_id body <\n>| polars collect<\n>| polars into-nu<\n>
+let temp = (!!)
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select score link_id body <\n>| polars collect<\n>| polars into-nu)<\n>
+$temp<\n>
+nordvpn d
+let bocchi = polars open r_BocchiTheRock_posts.jsonl<\n>
+timeit {polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect}<\n>
+python count_comments_pandas.py<\n>timeit {polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect }<\n>
+timeit { polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect }<\n>
+timeit {python count_comments_pandas.py}<\n>
+timeit { polars open r_BocchiTheRock_comments.jsonl <\n>| polars filter (polars col "body" | polars contains "bocchi") <\n>| polars select id body | polars collect }<\n>
+gl https://www.instagram.com/reel/DM660RzsazH/?utm_source=ig_web_copy_link
+nordvpn c
+gl https://www.instagram.com/reel/DM660RzsazH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7eLT8vkYE/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/p/DM7puZdydE0/?utm_source=ig_web_copy_link
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select score link_id body <\n>| polars collect)<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select score link_id body <\n>)<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select link_id<\n>| polars collect)<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars get link_id<\n>| polars collect)<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+let temp = (polars open headphones_comments.csv <\n>| polars filter (polars col "body" <\n>| polars lowercase<\n>| polars contains "hd600") <\n>| polars select link_id<\n>| polars collect<\n>| polars into-nu<\n>| get link_id)<\n>
+polars open headphones_comments.csv <\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+open r_Chainsawfolk_posts.jsonl | where title =~ "dorito" | select title<\n>
+open r_Chainsawfolk_posts.jsonl | where title =~ "denji" | select title
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select title | polars collect<\n>
+let csm = polars open r_Chainsawfolk_comments.jsonl<\n>
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select title | polars collect
+let csm = polars open r_Chainsawfolk_comments.jsonl<\n>
+let csm = polars open r_Chainsawfolk_posts.jsonl<\n>
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select title | polars collect<\n>
+let csm = polars open r_Chainsawfolk_comments.jsonl<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>
+$csm | polars filter (polars col "body" | polars contains "ass") | polars select score body | polars collect<\n>
+timeit {$csm | polars filter (polars col "body" | polars contains "ass") | polars select score body | polars collect}<\n>
+open r_Chainsawfolk_comments.jsonl | where body =~ "ass" | select score body<\n>
+$csm | polars filter (polars col "body" | polars contains "ass") | polars select score body | polars collect<\n>
+$csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select url <\n>| polars collect
+$csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select url <\n>| polars collect<\n>
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select url <\n>| polars collect<\n>
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select url | polars collect<\n>
+$csm | polars filter (polars col "title" | polars contains "ass") | polars select title | polars collect<\n>
+let csm = polars open r_Chainsawfolk_posts.jsonl<\n>
+$csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select url <\n>| polars collect
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select url <\n>| polars collect<\n>| polars into-nu<\n>| get link_id)<\n>
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select url <\n>| polars collect<\n>| polars into-nu<\n>| get id)<\n>
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass")<\n>| polars collect<\n>| polars into-nu<\n>| get id)<\n>
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select<\n>| polars collect<\n>| polars into-nu<\n>| get id)<\n>
+$temp | length<\n>
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select id<\n>| polars collect<\n>| polars into-nu<\n>| get id)<\n>
+$temp | length<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+$temp<\n>
+$temp | describe<\n>
+$temp | each {|i| $"t3_($i)"}<\n>
+$temp
+let temp = ($csm | polars filter (polars col "title" <\n>| polars contains "ass") | polars select id<\n>| polars collect<\n>| polars into-nu<\n>| get id<\n>| each {|i| $"t3_($i)"})<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars filter (polars col "link_id" | polars is-in $temp)<\n>| polars select id score body<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select id score body<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars sort-by score<\n>| polars select id score body<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars columns<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first | columns<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first | columns | to text | fzf<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first | get permalink<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first | get body<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars sort-by score<\n>| polars select id score body<\n>| polars last 100<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars collect<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| first | columns | to text | fzf<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score created_utc title <\n>| polars last 100<\n>| polars collect<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| first | columns | to text | fzf<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score upvote_ratio title <\n>| polars last 100<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score title <\n>| polars last 100<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score title url<\n>| polars last 100<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score title url permalink<\n>| polars last 100<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars sort-by score<\n>| polars select permalink<\n>| polars last 100<\n>| polars collect<\n>
+nordvpn c
+nordvpn d
+gemini
+poweroff
+open top100_mac_comments_lemmatized.csv | columns
+open top100_mac_comments_lemmatized.csv | select clean_body lemmatized_body
+open top100_mac_comments_lemmatized.csv | select clean_body lemmatized_body | first 100
+open top100_mac_comments_lemmatized.csv | select clean_body lemmatized_body | first 100 | wrap clean_body
+open top100_mac_comments_lemmatized.csv | select clean_body lemmatized_body | first | wrap clean_body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first | wrap clean_body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first 5 | wrap clean_body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first 5 | wrap body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first 5 | wrap body | wrap clean_body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first 5 | wrap body,clean_body
+open top100_mac_comments_lemmatized.csv | select body clean_body lemmatized_body | first 5 | wrap body
+open top100_mac_comments_lemmatized.csv | select body | first 5 | wrap body<\n>
+open top100_mac_comments_lemmatized.csv | select body | first 10 | wrap body<\n>
+gemini
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+open top100_mac_comments_lemmatized.csv | length<\n>
+nvim analysis.md
+gemini
+open top100_mac_comments_clean_lemmatized_improved.csv | columns
+open top100_mac_comments_clean_lemmatized_improved.csv | select clean_lemmatized_body
+overlay use .venv/bin/activate.nu
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars sort-by score<\n>| polars select id score body<\n>| polars last 100<\n>| polars collect<\n>
+timeit { polars open r_Chainsawfolk_comments.jsonl<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select id body | polars collect }<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select id body | polars collect <\n>
+open r_BocchiTheRock_comments.jsonl | first | columns | to text | wl-copy
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select id score body permalink parent_id link_id<\n>| polars save r_Chainsawfolk_comments.parquet<\n>
+polars open r_Chainsawfolk_comments.parquet<\n>| polars select id body | polars collect <\n>
+timeit { polars open r_Chainsawfolk_comments.parquet<\n>| polars select id body | polars collect }<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars save csm_test.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl | polars cast moderator Utf8 | polars save csm_test.parquet<\n>
+gemini
+gemini
+polars open r_Chainsawfolk_comments.jsonl --schema {'moderator':'str'} | polars save csm_test.parquet<\n>
+polars open csm_test.parquet | polars collect
+polars open r_Chainsawfolk_comments.jsonl | polars drop moderator | polars save csm_test.parquet<\n>
+polars open r_Chainsawfolk_comments.parquet<\n>| polars drop moderator<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars drop moderator<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars into-df<\n>| polars drop moderator<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars into-df<\n>| polars save csm_test.parquet<\n>
+#converting to parquet<\n>polars open r_Chainsawfolk_comments.jsonl<\n>| polars select id score body permalink parent_id link_id<\n>| polars save r_Chainsawfolk_comments.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select id score body permalink parent_id link_id<\n>| polars collect<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars drop id<\n>| polars save csm_test.parquet<\n>
+open r_Chainsawfolk_comments.jsonl | first<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars first<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars drop id<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars first<\n>| polars save hi.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars first 10<\n>| polars save hi.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars save hi.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars with-column (polars col moderator | polars cast str)<\n>| polars save hi.parquet<\n>
+open r_Chainsawfolk_comments.jsonl | first 5<\n>
+gemini
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars with-column (polars col moderator | polars cast str)<\n>| polars save hi.parquet<\n>
+open r_Chainsawfolk_comments.jsonl | first | fzf<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars save csm_test.parquet<\n>
+open r_Chainsawfolk_comments.jsonl | first | fzf<\n>
+open r_Chainsawfolk_comments.jsonl | first 100 | fzf<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars save hi.parquet<\n>
+nvim $env.config
+nvim $nu.config-path
+echo hi o>> bocchi.nu
+z
+echo hi\n o>> bocchi.nu
+echo hi o>> bocchi.nu
+touch morbid.nu
+polars open r_morbidquestions_posts.jsonl<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars collect
+open r_morbidquestions_posts.jsonl<\n>| sort-by score<\n>| last<\n>| columns | fzf
+open r_morbidquestions_posts.jsonl<\n>| sort-by score<\n>| last<\n>| select removal_reason
+open r_morbidquestions_posts.jsonl<\n>| sort-by score<\n>| last<\n>| columns | fzf
+open r_morbidquestions_posts.jsonl<\n>| sort-by score<\n>| last<\n>| select removed_by
+open r_morbidquestions_posts.jsonl<\n>| sort-by score<\n>| last
+gl https://www.instagram.com/reel/DK1wA0bxZyp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7mL5CxOC4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMrnpLIqbTn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMx1kpRvKlf/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMrVMvtK8IY/?utm_source=ig_web_copy_link
+open r_Chainsawfolk_comments.jsonl<\n>| first 100<\n>| columns | fzf<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first 1000<\n>| columns | fzf<\n>
+open r_Chainsawfolk_comments.jsonl<\n>| first 10000<\n>| columns | fzf<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars columns<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars columns<\n>
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars save posts.parquet<\n>
+polars open ../BudgetAudiophile_posts.csv<\n>| polars columns<\n>
+polars open ../BudgetAudiophile_posts.csv<\n>
+polars open ../BudgetAudiophile_posts.csv<\n>| polars select<\n>
+polars open BudgetAudiophile_posts.csv<\n>| polars select<\n>
+polars open BudgetAudiophile_posts.csv<\n>| polars columns<\n>
+polars open BudgetAudiophile_posts.csv<\n>| polars save temp.parquet<\n>
+open r_BocchiTheRock_comments.jsonl<\n>| columns<\n>
+polars open r_BocchiTheRock_comments.jsonl<\n>| save bocchi.parquet<\n>
+polars open r_BocchiTheRock_comments.jsonl<\n>| polars save bocchi.parquet<\n>
+polars open r_BocchiTheRock_comments.jsonl<\n>
+polars open r_BocchiTheRock_comments.jsonl<\n>| polars collect<\n>
+polars open r_BocchiTheRock_comments.jsonl<\n>| polars save bocchi.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars save bocchi.parquet<\n>
+polars open r_Chainsawfolk_comments.jsonl --schema {moderator: str}<\n>
+polars open r_Chainsawfolk_comments.jsonl --schema {moderator: str}<\n>| polars drop moderator<\n>
+polars open r_Chainsawfolk_comments.jsonl --schema {moderator: str}<\n>| polars drop moderator<\n>| polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl --schema {moderator: str}<\n>| polars collect<\n>
+btop
+ps | select name | where cpu > 5
+ps | where cpu > 5 | select name
+ps | where cpu > 5 | select name cpu
+btop
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars schema<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars schema<\n>| wl-copy<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars schema<\n>| wl-copy<\n>polars open r_Chainsawfolk_comments.jsonl<\n>| polars schema<\n>| fzf<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars schema<\n>
+let non_null_columns_comments = [<\n>  "author_patreon_flair",<\n>  "subreddit",<\n>  "is_submitter",<\n>  "author_fullname",<\n>  "author_is_blocked",<\n>  "link_id",<\n>  "id",<\n>  "name",<\n>  "permalink",<\n>  "can_gild",<\n>  "author",<\n>  "author_flair_background_color",<\n>  "body",<\n>  "controversiality",<\n>  "parent_id",<\n>  "author_flair_template_id",<\n>  "stickied",<\n>  "edited",<\n>  "author_flair_type",<\n>  "no_follow",<\n>  "subreddit_id",<\n>  "subreddit_type",<\n>  "ups",<\n>  "author_premium",<\n>  "gilded",<\n>  "archived",<\n>  "author_flair_text",<\n>  "all_awardings",<\n>  "author_created_utc",<\n>  "created_utc",<\n>  "retrieved_utc",<\n>  "author_flair_text_color",<\n>  "author_flair_richtext",<\n>  "score",<\n>  "locked",<\n>  "score_hidden",<\n>  "total_awards_received",<\n>  "send_replies",<\n>  "collapsed"<\n>]<\n>
+polars open r_Chainsawfolk_comments.jsonl --columns $non_null_columns_comments<\n>|polars collect<\n>
+polars open r_Chainsawfolk_comments.jsonl --columns $non_null_columns_comments<\n>| polars columns<\n>
+let non_null_columns_comments = [<\n>  "author_patreon_flair",<\n>  "subreddit",<\n>  "is_submitter",<\n>  "author_fullname",<\n>  "author_is_blocked",<\n>  "link_id",<\n>  "id",<\n>  "name",<\n>  "permalink",<\n>  "can_gild",<\n>  "author",<\n>  "author_flair_background_color",<\n>  "body",<\n>  "controversiality",<\n>  "parent_id",<\n>  "author_flair_template_id",<\n>  "stickied",<\n>  "edited",<\n>  "author_flair_type",<\n>  "no_follow",<\n>  "subreddit_id",<\n>  "subreddit_type",<\n>  "ups",<\n>  "author_premium",<\n>  "gilded",<\n>  "archived",<\n>  "author_flair_text",<\n>  "all_awardings",<\n>  "author_created_utc",<\n>  "created_utc",<\n>  "retrieved_utc",<\n>  "author_flair_text_color",<\n>  "author_flair_richtext",<\n>  "score",<\n>  "locked",<\n>  "score_hidden",<\n>  "total_awards_received",<\n>  "send_replies",<\n>  "collapsed"<\n>]<\n>
+$non_null_columns_comments<\n>
+let non_null_columns_comments = [<\n>  author_patreon_flair<\n>  subreddit<\n>  is_submitter<\n>  author_fullname<\n>  author_is_blocked<\n>  link_id<\n>  id<\n>  name<\n>  permalink<\n>  can_gild<\n>  author<\n>  author_flair_background_color<\n>  body<\n>  controversiality<\n>  parent_id<\n>  author_flair_template_id<\n>  stickied<\n>  edited<\n>  author_flair_type<\n>  no_follow<\n>  subreddit_id<\n>  subreddit_type<\n>  ups<\n>  author_premium<\n>  gilded<\n>  archived<\n>  author_flair_text<\n>  all_awardings<\n>  author_created_utc<\n>  created_utc<\n>  retrieved_utc<\n>  author_flair_text_color<\n>  author_flair_richtext<\n>  score<\n>  locked<\n>  score_hidden<\n>  total_awards_received<\n>  send_replies<\n>  collapsed<\n>]<\n>
+btop
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select author_patreon_flair subreddit is_submitter author_fullname author_is_blocked<\n>| polars columns<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select  author_patreon_flair subreddit is_submitter author_fullname author_is_blocked link_id id name permalink can_gild author author_flair_background_color body controversiality parent_id author_flair_template_id stickied edited author_flair_type no_follow subreddit_id subreddit_type ups author_premium gilded archived author_flair_text all_awardings author_created_utc created_utc retrieved_utc author_flair_text_color author_flair_richtext score locked score_hidden total_awards_received send_replies collapsed <\n>| polars columns<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select $nncc<\n>| polars columns<\n>
+let nncc = [ author_patreon_flair subreddit is_submitter author_fullname author_is_blocked link_id id name permalink can_gild author author_flair_background_color body controversiality parent_id author_flair_template_id stickied edited author_flair_type no_follow subreddit_id subreddit_type ups author_premium gilded archived author_flair_text all_awardings author_created_utc created_utc retrieved_utc author_flair_text_color author_flair_richtext score locked score_hidden total_awards_received send_replies collapsed ]<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select $nncc<\n>| polars columns<\n>
+polars open r_Chainsawfolk_comments.jsonl<\n>| polars select $nncc<\n>| polars save Chainsawfolk_comments.parquet<\n>
+polars open Chainsawfolk_comments.parquet<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select body | polars collect<\n>
+timeit {polars open Chainsawfolk_comments.parquet<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select body | polars collect}<\n>
+timeit {polars open r_Chainsawfolk_comments.jsonl<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select body | polars collect}<\n>
+open RS_2025-05.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+nordvpn d
+nordvpn c United_States
+nordvpn c
+nordvpn d
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 20_000_000<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000_000<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 20_000<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 20_000<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000_000<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000_000<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000<\n>| select id score title selftext<\n>| polars into-df<\n>| polars select id score title selftext<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000<\n>| select id score title<\n>| polars into-df<\n>| polars select id score title<\n>| polars collect<\n>
+open RS_2025-06.zst --raw<\n>| zstd --decompress --stdout<\n>| from jsonl<\n>| take 2_000_00<\n>| select id score title<\n>| polars into-df<\n>| polars select id score title<\n>| polars collect<\n>
+tldr zstd
+man zstd|nvim
+open RS_2025-06.zst --raw<\n>| zstd -d -c<\n>| from jsonl<\n>
+zstd -decompress --stdout RS_2025-06.zst
+zstd RS_2025-06.zst --decompress --stdout<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| take 2_000_00<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>
+zstd RS_2025-06.zst --decompress -T0 --stdout<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| take 2_000_000<\n>| select id score title selftext<\n>| polars into-df<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select id score title selftext<\n>| polars collect<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | columns | fzf<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | columns
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | schema
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | columns
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | fzf
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| first | columns | fzf<\n>| take 50_000_000<\n>| select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars into-df<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars save july.parquet<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| take 50_000_000<\n>| polars into-df<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars save july.parquet<\n>
+zstd RS_2025-06.zst --decompress --stdout<\n>| from jsonl<\n>| select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| take 50_000_000<\n>| polars into-df<\n>| polars save july.parquet<\n>
+zstd RS_2025-06.zst -o JUNE.jsonl
+zstd RS_2025-06.zst
+polars open JUNE.jsonl | select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint | polars save july.parquet
+polars open JUNE.jsonl | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint | polars save july.parquet
+btop
+ls
+ls | where size > 10GB
+open all_june_posts.jsonl | take 50_000_000 | select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint
+open all_june_posts.jsonl | take 50_000_000
+polars open all_june_posts.jsonl | polars take 100 | polars select id
+polars open all_june_posts.jsonl | polars first 100 | polars select id
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint | polars save bocchers.parquet
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint | polars save bocchers.parquet
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 | polars save bocchers.parquet
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts pinned post_hint | polars save bocchers.parquet
+polars open all_june_posts.jsonl | polars first 50_000_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments over_18 pinned post_hint | polars save bocchers.parquet
+polars open all_june_posts.jsonl | polars first 50_000 | polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments num_crossposts over_18 pinned post_hint | polars save bocchers.parquet
+polars open all_june_posts.jsonl <\n>| polars first 50_000 <\n>| polars select id name score author subreddit created_utc title selftext permalink  <\n>| polars save bocchers.parquet<\n>
+timeit {polars open Chainsawfolk_comments.parquet<\n>| polars filter (polars col "body" | polars contains "reze") <\n>| polars select body | polars collect}<\n>
+polars open all_june_posts.jsonl<\n>| polars first 50_000<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived<\n>| polars save bocchers.parquet<\n>
+polars open all_june_posts.jsonl<\n>| polars first 50_000<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited is_video is_self num_comments<\n>| polars save bocchers.parquet<\n>; rm bocchers.parquet<\n>
+polars open all_june_posts.jsonl<\n>| polars first 50_000<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived edited<\n>| polars save bocchers.parquet<\n>; rm bocchers.parquet<\n>
+polars open all_june_posts.jsonl<\n>| polars first 50_000<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived is_video is_self num_comments num_crossposts<\n>| polars save bocchers.parquet<\n>; rm bocchers.parquet
+polars open all_june_posts.jsonl<\n>| polars shape<\n>
+polars open all_june_posts.jsonl<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars shape<\n>
+btop
+wc -l all_june_posts.jsonl
+polars open all_june_posts.jsonl<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars first 10_000_000<\n>| polars save bocchers.parquet<\n>
+polars open all_june_posts.jsonl<\n>| polars select id name score author subreddit created_utc title selftext permalink upvote_ratio view_count archived is_video is_self num_comments num_crossposts over_18 pinned post_hint<\n>| polars first 40417849<\n>| polars save bocchers.parquet<\n>
+polars open bocchers.parquet<\n>| polars select id<\n>| polars collect<\n>
+polars open bocchers.parquet<\n>| polars select name score view_count title permalink<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open bocchers.parquet<\n>| polars select name score view_count title<\n>| polars sort-by score<\n>| polars collect<\n>
+ping google.com
+y
+polars open bocchers.parquet<\n>| polars select name score view_count title<\n>| polars sort-by score<\n>| polars collect<\n>
+ps | length
+help polars
+open r_homelab_posts.jsonl | from json -o
+open r_homelab_posts.jsonl
+open r_homelab_posts.jsonl | select id score title
+let r_homelab_posts = (open r_homelab_posts.jsonl | from json -o)
+let r_homelab_posts = open r_homelab_posts.jsonl
+$r_homelab_posts
+open r_homelab_posts.jsonl
+let r_homelab_posts = open r_homelab_posts.jsonl
+$r_homelab_posts
+let r_homelab_posts = open r_homelab_posts.jsonl<\n>$r_homelab_posts | sort-by score | select id subreddit score title selftext url | last 100 | save homelab_posts.csv
+z
+cd -
+z
+ping google.com
+nmtu
+nmtui
+dysk
+zstd RC_2025-06.zst
+lsblk -o NAME,SIZE,TYPE,MODEL,ROTA
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+dysk
+zstd RC_2025-06.zst --decompress -o all_comments.jsonl
+open all_comments.jsonl | first | fzf
+open all_comments.jsonl | first
+y
+open all_comments.jsonl | first
+open all_comments.jsonl | second
+open all_comments.jsonl | first 10
+ls | get 2
+ls | get 1
+open r_BudgetAudiophile_posts.jsonl | get 2
+open r_BudgetAudiophile_posts.jsonl | get 1000
+open r_BudgetAudiophile_posts.jsonl | first 10 | get 2
+open all_comments.jsonl | first 10 | get 2
+polars open all_comments.jsonl<\n>| polars first<\n>
+polars open all_comments.jsonl<\n>| polars first<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars select 1<\n>| polars collect<\n>
+open all_comments.jsonl | first 1 | get 2
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars get 2<\n>| polars collect<\n>
+gemini
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+open all_comments.jsonl | first 10 | get 2
+open all_comments.jsonl | first 10 | get 2 | fzf
+open all_comments.jsonl | first 10 | get 2 | fzf --read0
+open all_comments.jsonl | first 10 | get 2 | to text
+open all_comments.jsonl | first 10 | get 2 | to text | fzf --read0
+open all_comments.jsonl | first 10 | get 2 | to text | fzf
+find * -print0 | fzf --read0
+fd | fzf --read0
+fd -print0 | fzf --read0
+fd * -print0 | fzf --read0
+fzf
+open all_comments.jsonl | first 10 | get 2 | sed -z 's/\n\n/\x00/g'sed -z 's/\n\n/\x00/g'
+open all_comments.jsonl | first 10 | get 2 | sed -z 's/\n/\x00/g'sed
+open all_comments.jsonl | first 10 | get 2 | sed -z 's/\n/\x00/g'
+open all_comments.jsonl | first 10 | get 2 | sed -z 's/\n/\x00/g' | fzf --read0
+open all_comments.jsonl | first 10 | get 2 |to text | sed -z 's/\n/\x00/g' | fzf --read0
+open all_comments.jsonl | first 10 | get 2 |to text | fzf
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars select id link_id parent_id subreddit_id subreddit author body permalink created_utc retrieved_on subreddit_type<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars save bocchers_comments.parquet<\n>
+wc -l all_comments.jsonl
+open all_comments.jsonl
+cat all_comments.jsonl
+cat --help
+head --help
+man split
+polars open all_comments.jsonl<\n>| polars take 10<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars select id score link_id<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>| polars select id score body<\n>| polars collect<\n>
+head -n 10 all_comments.jsonl
+head -n 10 | from json -o<\n>
+head -n 10 all_comments.jsonl | from json -o<\n>
+head -n 10 all_comments.jsonl <\n>| polars into-df<\n>
+polars open --eager all_comments.jsonl<\n>
+polars open --eager all_comments.jsonl<\n>| polars select id score body<\n>
+polars open all_comments.jsonl<\n>| polars first 10<\n>
+polars open all_comments.jsonl<\n>| polars first 10_000_000<\n>
+polars open all_comments.jsonl<\n>| polars first 10_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 1_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 5_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 20_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+polars open all_comments.jsonl<\n>| polars first 50_000_000<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars save bocchers_comments_1.parquet<\n>
+tmux
+polars open all_comments.jsonl<\n>| polars first 30_000_000<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars save bocchers_comments_1.parquet
+sed '1,2d' all_comments.nu
+sed "1,30000000d" all_comments.jsonl<\n>
+ls
+ls
+dysk
+lsblk
+sed --help
+dysk
+lsblk
+lsblk -o NAME,SIZE,TYPE,MODEL,ROTA
+sed -i "1,30000000d" all_comments.jsonl<\n>
+open sedLq2F8D
+ex
+sed -i "10d" all_comments.nu<\n>
+sed -i "1,10d" all_comments.nu<\n>
+sed -i "1,10d" all_comments.jsonl<\n>
+sed -i 1,10d all_comments.jsonl<\n>
+polars open csm_slice.jsonl<\n>| polars slice 5 100_000_000<\n>
+polars open csm_slice.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars slice 5 100_000_000<\n>
+polars open csm_slice.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc retrieved_on subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars first<\n>| polars shape<\n>
+polars open csm_slice.jsonl<\n>| polars select id score<\n>| polars first<\n>| polars shape<\n>
+polars open csm_slice.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars first<\n>| polars shape<\n>
+polars open csm_slice.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars shape<\n>
+dysk
+sudo compsize all_comments.jsonl
+sed -i "1,30000000d" all_comments.jsonl<\n>
+let polars_shape = (polars open all_comments.jsonl | polars shape)<\n>
+help polars
+open bocchers.parquet
+git clone git clone https://github.com/LuminousToaster/ripwc<\n>cd ripwc
+git clone git clone https://github.com/LuminousToaster/ripwc
+git clone https://github.com/LuminousToaster/ripwc
+cargo build --release
+which wc
+/home/pampam/builds/ripwc/target/release/ripwc -l all_comments.jsonl
+git clone https://github.com/p-ranav/lc.git
+mkdir build<\n>cd build<\n>cmake ..<\n>make<\n>sudo make install
+wc -l
+wc -l all_comments.jsonl
+polars open bocchers.parquet | polars first | polars save niggers.csv
+polars open all_comments.jsonl<\n>| polars slice 30_000_001 321_538_000<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars save all_comments.jsonl <\n>
+dysk
+polars open all_comments.jsonl<\n>| polars select id score link_id parent_id subreddit_id subreddit name author author_fullname body permalink created_utc subreddit_type score_hidden is_submitter send_replies no_follow<\n>| polars slice 30_000_001 60_000_000<\n>| polars save bocchers_comments_2.parquet <\n>
+btop
+dfr open<\n>
+df open<\n>
+dfr open<\n>
+dfr open all_comments.jsonl<\n>
+polars open all_comments.jsonl --json-lines
+overlay use .venv/bin/activate.nu
+python convert_jsonl_to_parquet.py
+overlay use .venv/bin/activate.nu
+cd -
+exit
+overlay use .venv/bin/activate.nu
+polars open output.parquet | polars columns<\n>
+python jsonl_to_parquet_converter.py
+overlay use .venv/bin/activate.nu
+python jsonl_to_parquet_converter.py
+polars open output.parquet | polars columns
+polars open output.parquet <\n>| polars first 30_000_000<\n>| polars select id score body<\n>| polars collect
+polars open output.parquet <\n>| polars slice 30_000_000 60_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+dysk
+polars open output.parquet <\n>| polars first 40_000_000<\n>| polars select id score body<\n>| polars collect<\n>
+polars open output.parquet <\n>| polars first 50_000_000<\n>| polars select id score body<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars collect
+polars open output.parquet <\n>| polars first 60_000_000<\n>| polars select id score body<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars collect<\n>
+polars open output.parquet <\n>| polars shape<\n>
+polars open output.parquet <\n>| polars select id score body<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open output.parquet <\n>| polars select id score body subreddit<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars filter (polars col "subreddit" == "Chainsawfolk" )<\n>| polars sort-by score<\n>| polars collect<\n>
+Gpolars open output.parquet <\n>| polars select id score body subreddit<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk") )<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open output.parquet <\n>| polars select id score body subreddit<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk") )<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open output.parquet <\n>| polars select id score body subreddit<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk") )<\n>| polars drop subreddit<\n>| polars sort-by score<\n>| polars collect<\n>
+btop
+timeit {polars open output.parquet <\n>| polars select id score body subreddit<\n>| polars filter (polars col "body" | polars contains "reze" )<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk") )<\n>| polars drop subreddit<\n>| polars sort-by score<\n>| polars collect}<\n>
+polars open bocchers.parquet | polars shape
+dysk
+polars open june_posts.parquet | polars first | polars shape<\n>
+polars open output.parquet <\n>| polars first | polars shape<\n>
+polars open june_comments.parquet<\n>| polars first | polars shape<\n>
+btop
+lsblk
+sudo btrfs filesystem usage /home
+dysk
+sudo btrfs filesystem usage /home | wl-copy
+Overall:<\n>    Device size:		 941.37GiB<\n>    Device allocated:		 395.07GiB<\n>    Device unallocated:		 546.30GiB<\n>    Device missing:		     0.00B<\n>    Device slack:		     0.00B<\n>    Used:			 312.94GiB<\n>    Free (estimated):		 624.59GiB	(min: 351.44GiB)<\n>    Free (statfs, df):		 624.58GiB<\n>    Data ratio:			      1.00<\n>    Metadata ratio:		      2.00<\n>    Global reserve:		 512.00MiB	(used: 0.00B)<\n>    Multiple profiles:		        no<\n><\n>Data,single: Size:385.01GiB, Used:306.72GiB (79.67%)<\n>   /dev/nvme1n1p3	 385.01GiB<\n><\n>Metadata,DUP: Size:5.00GiB, Used:3.11GiB (62.18%)<\n>   /dev/nvme1n1p3	  10.00GiB<\n><\n>System,DUP: Size:32.00MiB, Used:64.00KiB (0.20%)<\n>   /dev/nvme1n1p3	  64.00MiB<\n><\n>Unallocated:<\n>   /dev/nvme1n1p3	 546.30GiB<\n>
+sudo btrfs filesystem usage /home | wl-copy
+sudo btrfs filesystem usage /home
+zstd RC_2025-06.zst --decompress -o hanni_my_beloved.jsonl
+dysk
+nvim all_comments.nu
+nordvpn d
+nvim
+gemini
+fd
+ls
+ls builds/
+nordvpn c
+poweroff
+nordvpn c
+yt-dlp https://sexcelebrity.net/cute-housemaid-with-small-tits-fucked-you-to-the-fullest-haerin-ai/
+gl https://sexcelebrity.net/she-looks-into-your-eyes-when-you-cum-haerin-face-swap/
+gl https://sexcelebrity.net/cute-housemaid-with-small-tits-fucked-you-to-the-fullest-haerin-ai/
+yt-dlp https://sexcelebrity.net/cute-housemaid-with-small-tits-fucked-you-to-the-fullest-haerin-ai/
+yt-dlp https://sexcelebrity.net/newjeans-hanni-has-sex-with-young-koreans/
+yt-dlp https://porndeepfake.net/passionate-sex-video-hanni-fucking-hot-newjeans/
+nordvpn d
+sudo smartctl -a /dev/nvme1n1
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+nordvpn d
+sudo smartctl -a /dev/nvme0n1
+poweroff
+pwd | wl-copy
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/processed/sample_bocchi<\n>
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/processed/sample_bocchi
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/processed/sample_bocchi<\n>
+nvim /etc/default/grub
+sudo nvim /etc/default/grub<\n>
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+nordvpn d
+ls
+polars open june_posts.parquet<\n>
+polars open june_posts.parquet<\n>| polars first<\n>
+polars open june_posts.parquet<\n>| polars first<\n>| polars collect<\n>
+gemini
+open r_Chainsawfolk_posts.jsonl<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| first<\n>| columns<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| first<\n>| columns<\n>| fzf<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score title<\n>
+ls<\n>
+ls | where size < 10MB<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score title<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score title<\n>| sort-by score<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score title<\n>| sort-by score<\n>| last 100<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| first<\n>| columns<\n>| fzf<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score title url<\n>| sort-by score<\n>| last 100<\n>
+open r_Chainsawfolk_posts.jsonl<\n>| select id score url<\n>| sort-by score<\n>| last 100<\n>
+open r_homelab_posts.jsonl | from json -o
+open r_homelab_posts.jsonl
+let hlp = (open homelab_posts.csv |update id {|i| $"t3_($i.id)"} | get id  )<\n>
+$r_homelab_comments | where link_id in $hlp | select id link_id parent_id score body | save homelab_comments.csv<\n>
+let r_homelab_comments = (open r_homelab_comments.jsonl | from json -o)<\n>
+let r_homelab_comments = (open r_homelab_comments.jsonl)<\n>$r_homelab_comments | where link_id in $hlp | select id link_id parent_id score body | save homelab_comments.csv<\n>
+polars open june_posts.parquet | polars first | polars shape<\n>
+polars open june_posts.parquet  | polars shape<\n>
+polars open june_posts.parquet<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>| polars filter ( polars col "body" | polars contains "reze")<\n>| polars select score body<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>| polars filter ( polars col "body" | polars contains "reze")<\n>| polars select score body<\n>
+polars open june_posts.parquet<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>| polars filter ( polars col "body" | polars contains "reze")<\n>
+polars open june_posts.parquet<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>
+polars open june_posts.parquet<\n>
+polars open june_posts.parquet<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>| polars filter ( polars col "title" | polars contains "reze")<\n>| polars select id score title url<\n>
+polars open june_posts.parquet<\n>| polars select id score title url<\n>| polars filter ( polars col "subreddit" | polars lit "Chainsawfolk")<\n>| polars filter ( polars col "title" | polars contains "reze")<\n>
+polars open june_posts.parquet<\n>| polars filter (polars col "subreddit" == polars lit "Chainsawfolk")<\n>| polars filter (polars col "title" | polars contains "reze")<\n>| polars select id score title url<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk"))<\n>| polars filter (polars col "title" | polars contains "reze")<\n>| polars select id score title url<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ((polars col "subreddit") == (polars lit "Chainsawfolk"))<\n>| polars filter (polars col "title" | polars contains "reze")<\n>| polars select id score title<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ( (polars col "subreddit") == (polars lit "Chainsawfolk"))<\n>| polars filter (polars col "title" | polars contains "reze")<\n>| polars select id score title url<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars first<\n>| polars columns<\n>| fzf<\n>
+polars open june_posts.parquet<\n>| polars filter ( (polars col "subreddit") == (polars lit "Chainsawfolk"))<\n>| polars filter (polars col "title" | polars contains "reze")<\n>| polars select id score title permalink<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ( (polars col "subreddit") == (polars lit "Chainsawfolk"))<\n>| polars filter (polars col "selftext" | polars contains "reze")<\n>| polars select id score title permalink<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ( (polars col "subreddit") == (polars lit "ChainsawMan"))<\n>| polars filter (polars col "selftext" | polars contains "reze")<\n>| polars select id score title permalink<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars filter ( (polars col "subreddit") == (polars lit "ChainsawMan"))<\n>| polars filter (polars col "selftext" | polars contains "death")<\n>| polars select id score title permalink<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars sort-by score<\n>
+polars open june_posts.parquet<\n>| polars sort-by score<\n>| polars filter ( (polars col "subreddit") == (polars lit "ChainsawMan"))<\n>| polars select id score title permalink<\n>| polars collect<\n>
+polars open june_posts.parquet<\n>| polars sort-by score<\n>| polars filter ( (polars col "subreddit") == (polars lit "ChainsawMan"))<\n>| polars select name score title permalink<\n>| polars collect<\n>
+polars open june_comments.parquet<\n>| polars filter ( (polars col "link_id") == (polars lit "t3_1lf63n9"))<\n>
+polars open june_comments.parquet<\n>| polars filter ( (polars col "link_id") == (polars lit "t3_1lf63n9"))<\n>| polars collect<\n>
+polars open june_comments.parquet<\n>| polars filter ( (polars col "link_id") == (polars lit "t3_1lf63n9"))<\n>| polars select id author score body<\n>| polars collect<\n>
+cat visualization.py
+cd (cat ~/.config/nushell/cd_history.txt | fzf)
+jkl https://www.youtube.com/watch?v=sVTy_wmn5SU&pp=ygUGbmV3amVh
+nordvpn d
+nordvpn c
+help polars
+ps | sort-by mem | select name mem |<\n>| group-by name {<\n>    total_mem: (mem | math sum)<\n>    count: (size) # Optional: if you also want to see how many instances<\n>  }<\n>| rename process_name total_mem instances_count # Rename columns for clarity
+ps | sort-by mem
+sudo nvim /etc/default/grub<\n>
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+polars open r_SmartThings_comments.jsonl<\n>| polars shape
+polars open r_SmartThings_comments.jsonl<\n>| polars drop edited<\n>| polars shape
+polars open r_SmartThings_comments.jsonl<\n>| polars select id<\n>| polars shape
+polars open r_SmartThings_comments.jsonl<\n>| polars select id created_utc permalink <\n>| polars sort-by created_utc<\n>| polars collect
+ls
+polars open r_SmartThings_comments.jsonl<\n>| polars select id created_utc permalink <\n>| polars sort-by created_utc<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars select id created_utc permalink <\n>| polars sort-by created_utc<\n>| polars collect
+open r_SmartThings_posts.jsonl | first
+polars open r_SmartThings_posts.jsonl<\n>| polars first 1000 | polars select id archived<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars filter (polars col "archived" != polars lit "")| polars select id archived<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars filter (polars col "archived" is_null)| polars select id archived<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars select archived<\n>| polars is-null
+polars open r_SmartThings_posts.jsonl<\n>| polars col archived<\n>| polars is-null
+p
+p open r_SmartThings_posts.jsonl<\n>| p with-column (p col archived | p is-null | p as archived_is_null)<\n>| p select archived archived_is_null<\n>| p collect
+p open r_SmartThings_posts.jsonl
+polars open r_SmartThings_posts.jsonl
+alias p = polars
+p open r_SmartThings_posts.jsonl
+p
+p open r_SmartThings_posts.jsonl
+alias p = polars
+p open r_SmartThings_posts.jsonl
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column (polars col archived | polars is-null | polars as archived_is_null)<\n>| polars select archived archived_is_null<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+ls
+z
+ls
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+ls
+polars open r_Chainsawfolk_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+ls
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+ls
+z
+ls
+z
+ls
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+ls
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+tmux
+ls
+polars open r_SmartThings_posts.jsonl<\n>| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]<\n>| polars select archived archived_is_null<\n>| polars collect
+open r_SmartThings_posts.jsonl<\n>| first<\n>
+ls
+git clone https://github.com/nushell/nu_scripts/tree/ec945380be3981522f9bb55e764a5254a908e652/themes
+git clone https://github.com/nushell/nu_scripts/tree/main/themes
+git clone https://github.com/nushell/nu_scripts.git
+source 3024-day.nu
+source 3024-night.nu
+source gruvbox-light-hard.nu
+open r_SmartThings_posts.jsonl<\n>| first<\n>
+open ~/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/r_AppleWatch_comments.jsonl<\n>| first
+nu github-light-default.nu
+open ~/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/r_AppleWatch_comments.jsonl<\n>| first
+ls
+open ~/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/r_AppleWatch_comments.jsonl<\n>| first
+ls
+source gruvbox-light-hard.nu
+open ~/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/r_AppleWatch_comments.jsonl<\n>| first
+nordvpn c
+gl https://www.instagram.com/reel/DMrOXo5z4c6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLPZbZIzDgm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM5NEYMP_M4/?utm_source=ig_web_copy_link
+open r_SmartThings_posts.jsonl<\n>| first<\n>| fzf
+let posts = { all_awardings, allow_live_comments, archived, author, author_fullname, banned_at_utc,banned_by, discussion_type,domain,downs,hide_score, created_utc, awarders, edited, gilded, gildings, id, is_created_from_ads_ui, is_crosspostable, is_meta, is_reddit_media_domain, is_robot_indexable, is_self,is_video, media_only, name, num_comments, num_crossposts, over_18,permalink,pinned,quarantine,removed_by,removed_reason,removed_by_category,retrieved_on,score,selftext, send_replies, spoiler, stickied, subreddit, subreddit_id,subreddit_name_prefixed,subreddit_subscribers,subreddit_type, thumbnail, title, total_awards_received, ups, upvote_ratio, url}
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = "all_awardings, allow_live_comments, archived, author, author_fullname, banned_at_utc,banned_by, discussion_type,domain,downs,hide_score, created_utc, awarders, edited, gilded, gildings, id, is_created_from_ads_ui, is_crosspostable, is_meta, is_reddit_media_domain, is_robot_indexable, is_self,is_video, media_only, name, num_comments, num_crossposts, over_18,permalink,pinned,quarantine,removed_by,removed_reason,removed_by_category,retrieved_on,score,selftext, send_replies, spoiler, stickied, subreddit, subreddit_id,subreddit_name_prefixed,subreddit_subscribers,subreddit_type, thumbnail, title, total_awards_received, ups, upvote_ratio, url"
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = "all_awardings allow_live_comments archived author author_fullname banned_at_utc banned_by discussion_type domain downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url"
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = [all_awardings allow_live_comments archived author author_fullname banned_at_utc banned_by discussion_type domain downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = [id score]
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = {id score}
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = "id score"
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = "id score"
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = [ id score ]
+open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = [ id score ]<\n><\n>open r_AppleWatch_comments.jsonl | first | select $posts
+let posts = [ id score ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings allow_live_comments archived author author_fullname banned_at_utc banned_by discussion_type domain downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+open r_AppleWatch_comments.jsonl | first | fzf
+open r_AppleWatch_comments.jsonl | first 
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by discussion_type domain downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+open r_SmartThings_posts.jsonl<\n>| first<\n>| fzf
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by domain downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+open r_AppleWatch_posts.jsonl | first
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received url]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self,is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable  is_self is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on score selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups upvote_ratio url ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [ all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [ all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score  created_utc edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+let posts = [ all_awardings archived author author_fullname banned_at_utc banned_by downs hide_score created_utc awarders edited gilded gildings ]
+open r_AppleWatch_comments.jsonl | first | select ...$posts
+open r_AppleWatch_comments.jsonl | first | select hide_score
+open r_AppleWatch_posts.jsonl | first | select ...$posts
+let posts = [ all_awardings archived allow_live_comments author author_fullname banned_at_utc banned_by downs domain hide_score contest_mode created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removed_reason removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received top_awarded_type ups score upvote_ratio url ]
+open r_AppleWatch_posts.jsonl | first | select ...$posts
+let posts = [ all_awardings archived allow_live_comments author author_fullname banned_at_utc banned_by downs domain hide_score contest_mode created_utc awarders edited gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow media_only name num_comments num_crossposts over_18 permalink pinned quarantine removed_by removal_reason removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received top_awarded_type ups score upvote_ratio url ]
+open r_AppleWatch_posts.jsonl | first | select ...$posts
+# posts : <\n>let posts = [ <\n>all_awardings archived allow_live_comments author author_fullname awarders <\n>banned_at_utc banned_by contest_mode created_utc downs domain hide_score edited gilded gildings <\n>id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content <\n>no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine <\n>removed_by removal_reason removed_by_category retrieved_on <\n>selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type <\n>thumbnail title total_awards_received top_awarded_type ups score upvote_ratio url ]
+open r_AppleWatch_posts.jsonl | first | select ...$posts
+open r_SmartThings_posts.jsonl | first | fzf
+tmux
+open r_SmartThings_comments.jsonl | first | fzf
+open r_SmartThings_posts.jsonl | first | fzf
+subreddit_type top_awarded_type total_awards_received ups user_reports unrepliable_reason]
+open r_AppleWatch_comments.jsonl | first | select r_AppleWatch_comments.jsonl
+open r_AppleWatch_comments.jsonl | first | select $comments
+score score_hidden send_replies stickied subreddit subreddit_id subreddit_name_prefixed 
+open r_AppleWatch_comments.jsonl | first | select $comments
+subreddit_type top_awarded_type total_awards_received ups user_reports unrepliable_reason]
+let comments = [ archived author author_fullname awarders banned_by banned_at_utc body created_utc downs<\n>gilded gildings id is_submitter link_id locked name no_follow parent_id permalink removal_reason replies retrieved_on <\n>score score_hidden send_replies stickied subreddit subreddit_id subreddit_name_prefixed <\n>subreddit_type top_awarded_type total_awards_received ups user_reports unrepliable_reason]
+open r_AppleWatch_comments.jsonl | first | select $comments
+open r_AppleWatch_comments.jsonl | first | select ...$comments
+open r_BudgetAudiophile_posts.jsonl | first
+open r_BudgetAudiophile_posts.jsonl | first | get name
+open r_BudgetAudiophile_comments.jsonl | where link_id == t3_1l0bmus
+open r_BudgetAudiophile_comments.jsonl | where link_id == "t3_1l0bmus"
+open r_BudgetAudiophile_posts.jsonl | first | get id
+open r_BudgetAudiophile_posts.jsonl | last | get name
+open r_BudgetAudiophile_comments.jsonl | where link_id == "t3_1me8sfs"
+fd polars_get polars_select
+fd polars_get
+fd polars_get.md
+gemini
+nu DO_NOT_EDIT.nu
+open r_AppleWatch_posts.jsonl | select $posts
+let r_homelab_posts = (open r_homelab_posts.jsonl | from json -o)<\n>$r_homelab_posts | sort-by score | select ...$posts | last 100 | save homelab_posts.csv<\n>let hlp = (open homelab_posts.csv | get id  )<\n>let r_homelab_comments = (open r_homelab_comments.jsonl | from json -o)<\n>$r_homelab_comments | where link_id in $hlp | select ...$comments | save homelab_comments.csv<\n>
+subreddit_type top_awarded_type total_awards_received ups user_reports unrepliable_reason]<\n>open r_AppleWatch_posts.jsonl | select $posts<\n>
+let posts = [ all_awardings archived allow_live_comments author author_fullname awarders <\n>banned_at_utc banned_by contest_mode created_utc downs domain hide_score edited gilded gildings <\n>id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video <\n>is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine <\n>removed_by removal_reason removed_by_category retrieved_on selftext send_replies <\n>spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type <\n>thumbnail title total_awards_received top_awarded_type ups score upvote_ratio url user_reports]<\n>
+open r_AppleWatch_posts.jsonl | select $posts<\n>
+open r_AppleWatch_posts.jsonl | select ...$posts<\n>
+open r_AppleWatch_posts.jsonl | first | select ...$posts<\n>
+nu DO_NOT_EDIT.nu
+open r_AppleWatch_posts.jsonl | select ...$posts<\n>
+let posts = [ all_awardings archived allow_live_comments author awarders <\n>banned_at_utc banned_by contest_mode created_utc downs domain hide_score edited gilded gildings <\n>id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video <\n>is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine <\n>removed_by removal_reason removed_by_category retrieved_on selftext send_replies <\n>spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type <\n>thumbnail title total_awards_received top_awarded_type ups score upvote_ratio url user_reports]<\n>
+open r_AppleWatch_posts.jsonl | select ...$posts<\n>
+nu debugging.nu
+nu DO_NOT_EDIT.nu
+nu debugging.nu
+open r_AppleWatch_comments.jsonl | first schema
+open r_AppleWatch_comments.jsonl | first | schema
+open r_AppleWatch_comments.jsonl -o | first | schema
+open r_AppleWatch_comments.jsonl | from json -o | first | schema
+polars open r_AppleWatch_comments.jsonl | polars schema
+polars open r_AppleWatch_posts.jsonl | polars schema
+nu DO_NOT_EDIT.nu
+polars open r_AppleWatch_comments.jsonl | polars schema
+nu DO_NOT_EDIT.nu
+polars open r_AppleWatch_comments.jsonl | polars schema | fzf
+let posts = [ archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+let test = polars open r_AppleWatch_posts.jsonl<\n>$test | polars select ...$posts | polars collect
+nu DO_NOT_EDIT.nu
+$test | polars sort-by score | polars select ...$posts | polars last | polars collect
+$test | polars sort-by score | polars select ...$posts | polars last | polars save test.parquet
+let posts = [ _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded gildings id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+$test | polars sort-by score | polars select ...$posts | polars last | polars save test.parquet
+let test = polars open r_AppleWatch_posts.jsonl
+$test | polars sort-by score | polars select ...$posts | polars last | polars save test.parquet
+$test | polars sort-by score | polars select ...$posts | polars last | polars collect
+let test = polars open r_AppleWatch_posts.jsonl<\n>$test | polars sort-by score | polars select ...$posts | polars schema
+let posts = [ _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+$test | polars sort-by score | polars select ...$posts | polars first | polars save test.parquet
+let posts = [ media_metadata _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url ]
+$test | polars sort-by score | polars select ...$posts | polars first | polars save test.parquet
+nu DO_NOT_EDIT.nu
+polars open r_mac_posts.jsonl | polars schema
+polars open r_mac_posts.jsonl | polars schema | fzf
+clear
+polars open r_mac_posts.jsonl | polars schema | fzf
+polars open r_mac_posts.jsonl | polars schema
+polars open r_mac_posts.jsonl | polars drop media secure_media
+polars open r_mac_posts.jsonl | polars select id | polars collect
+polars open r_mac_posts.jsonl | polars select id _meta| polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed  | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on   | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name   | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on   | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine  retrieved_on   | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars collect
+polars open r_AppleWatch_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars collect
+polars open r_AppleWatch_posts.jsonl | polars select removed_by_category | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars collect
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars save r_mac_posts.parquet
+polars open r_mac_comments.jsonl | polars select _meta archived author body created_utc downs gilded id is_submitter link_id locked name no_follow parent_id permalink retrieved_on score score_hidden send_replies stickied subreddit subreddit_id subreddit_name_prefixed subreddit_type total_awards_received ups  | polars save r_mac_comments.parquet
+nu DO_NOT_EDIT.nu
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars select id<\n>| polars collect
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars schema
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars select archived<\n>| polars collect
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars collect
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars drop meta<\n>| polars collect
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars drop _meta<\n>| polars collect
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars sort-by score<\n>| polars last 100<\n>| polars into-nu
+polars open ErgoMechKeyboards_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu
+timeit {polars open ErgoMechKeyboards_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu}
+timeit {polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu}
+timeit {open ../r_PcBuild_posts.jsonl | sort-by score | select id score title | last 100}
+timeit {polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>}
+polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100
+timeit {<\n>polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars collect<\n>}
+timeit {<\n>polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu<\n>}
+timeit {python ../top_posts.py}
+timeit {python top_posts.py}
+timeit {open ../r_PcBuild_posts.jsonl | sort-by score | select id score title | last 100}
+timeit {open r_PcBuild_posts.jsonl | sort-by score | select id score title | last 100}
+timeit {open r_PcBuild_posts.jsonl | last 100 | select id score title | sort-by score }
+timeit {open r_PcBuild_posts.jsonl | select id score title | sort-by score | last 100}
+timeit {python top_posts.py}
+timeit {<\n>polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu<\n>}
+polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars last 100<\n>| polars into-nu
+polars open PcBuild_posts.parquet<\n>| polars sort-by score<\n>| polars select id score title<\n>| polars into-nu
+gemini
+polars open all_data_cleaned.parquet<\n>| polars schema
+polars open all_data_cleaned.parquet<\n>| polars collect
+polars open all_data_cleaned.parquet<\n>| polars schema
+python sentiment_cli.py "fiio"
+bash -c "source .venv/bin/activate"
+python sentiment_cli.py "fiio"
+python sentiment_cli.py "macbook pro m4"

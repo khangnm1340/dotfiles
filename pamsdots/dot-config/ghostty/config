@@ -64,6 +64,18 @@ keybind = ctrl+shift+k=unbind
 # keybind = alt+k=goto_split:right
 # keybind = alt+j=goto_split:left
 
+keybind = alt+;>k=new_split:right
+keybind = alt+;>j=new_split:down
+keybind = alt+;>z=toggle_split_zoom
+keybind = alt+l=goto_split:next
+keybind = alt+shift+l=goto_split:previous
+keybind = alt+;>q=close_surface
+keybind = alt+;>shift+q=close_tab
+keybind = alt+;>t=new_tab
+# keybind = ctrl+shift+q=close_surface
+keybind = alt+;>a=write_scrollback_file:open
+
+# keybind = alt+j=goto_split:left
 
 
 keybind = ctrl+k=unbind
@@ -77,15 +89,20 @@ keybind = ctrl+tab=unbind
 keybind = ctrl+shift+o=unbind
 #keybind = ctrl+shift+tab=unbind
 
-keybind = ctrl+shift+w=close_surface
+# keybind = ctrl+shift+w=close_surface
 keybind = alt+t=new_tab
 keybind = alt+]=next_tab
 keybind = alt+[=previous_tab
 keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+l=clear_screen
 # keybind = alt+a>k=open_config
+keybind = shift+down=scroll_page_fractional:0.7
+keybind = shift+up=scroll_page_fractional:-0.7
+keybind = ctrl+]=scroll_page_lines:-1
+keybind = ctrl+[=scroll_page_lines:1
+# keybind = shift+up=adjust_selection:up
 
 # keybind = ctrl+shift+o=write_scrollback_file:open
-keybind = ctrl+shift+i=write_scrollback_file:paste
 
 # Empty values reset the configuration to the default value
 font-size = 15

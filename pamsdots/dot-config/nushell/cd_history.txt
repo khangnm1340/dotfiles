@@ -21,8 +21,10 @@
 /home/Ext4Pam/Music
 /home/pampam/Documents/reddit
 /home/pampam/Documents/UTH/pdfs
-/home/pampam/Documents/reddit/submissions
 /home/pampam/Documents/UTH/DataMining/prawl_tests/nu_eta
 /bin
 /home/pampam/builds
 /home/pampam/Documents/UTH/DataMining/tests
+/home/pampam/Documents/reddit/submissions
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/processed
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test

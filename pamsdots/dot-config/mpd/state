@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 4
-time: 93.802
+current: 45
+time: 2.965
 random: 0
 repeat: 1
 single: 1
@@ -51,4 +51,11 @@ playlist_begin
 36:can_j_noi_dau_e_oi/006. 佐々木恵梨 - GATE OF STEINER.flac
 37:can_j_noi_dau_e_oi/02. KICK BACK.flac
 38:can_j_noi_dau_e_oi/005. 佐々木恵梨 - GATE OF STEINER - acoustic ver..flac
+39:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/13. Superficial Me.m4a
+40:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/12. MIRROR TUNE.m4a
+41:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/11. Blush.m4a
+42:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/10. Stay Foolish.m4a
+43:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/01. Hanaichi Monnme.m4a
+44:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/02. Time Left.m4a
+45:can_j_noi_dau_e_oi/52Hz - ĐỢI (Prod. RIO) - Single/01. ĐỢI (Prod. RIO).m4a
 playlist_end

@@ -116,8 +116,8 @@ fastfetch
 $env.OWNER = 'pampam'
 $env.MYGOAT = 'hanni'
 $env.EDITOR = 'nvim'
-$env.LS_COLORS = (vivid generate cyberdream-light)
+# $env.LS_COLORS = (vivid generate cyberdream-light)
 $env.ASPNETCORE_ENVIRONMENT = 'Development'
-$env.FZF_DEFAULT_COMMAND = 'fd --type f --no-ignore'
+$env.FZF_DEFAULT_COMMAND = 'fd --type f'
 $env.GEMINI_API_KEY = 'AIzaSyCpWHXAZTq6jfCoeBomI-PK1w3dthbFEU8'
 
