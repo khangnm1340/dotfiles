@@ -16445,3 +16445,615 @@ python sentiment_cli.py "fiio"
 bash -c "source .venv/bin/activate"
 python sentiment_cli.py "fiio"
 python sentiment_cli.py "macbook pro m4"
+jkh https://www.youtube.com/watch?v=zFJPBVOLr8s
+dysk
+sudo pacman -Syu kdiskmark
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+sudo smartctl -a /dev/nvme0n1
+sudo smartctl -a /dev/nvme1n1
+sudo pacman -S nvme-cli
+sudo nvme smart-log /dev/nvme1n1
+sudo smartctl -a /dev/nvme1n1
+sudo smartctl -a /dev/nvme0n1
+sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme1n1 | grep 'Temperature'
+sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
+sudo nvme smart-log /dev/nvme1n1 | grep 'temperature'
+nordvpn c
+sudo nvme smart-log /dev/nvme1n1 | grep 'temperature'
+sudo smartctl -a /dev/nvme1n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+lsblk
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme1n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme1n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+open r_BudgetAudiophile_comments.jsonl | schema
+open r_BudgetAudiophile_comments.jsonl | first | schema
+open r_BudgetAudiophile_comments.jsonl | from json -o | first | schema
+open r_BudgetAudiophile_comments.jsonl | first
+open r_BudgetAudiophile_posts.jsonl | first
+open r_BudgetAudiophile_posts.jsonl | first | fzf
+polars open r_mac_posts.parquet | schema
+polars open r_mac_posts.parquet | schema<\n>
+polars open r_mac_posts.parquet | polars schema<\n>
+polars open r_AppleWatch_posts.parquet | polars schema<\n>
+polars open r_mac_posts.parquet | polars first<\n>
+polars open r_mac_posts.parquet | polars schema
+polars open r_mac_posts.parquet | polars schema<\n>
+polars open r_mac_posts.parquet | polars first<\n>
+nu DO_NOT_EDIT.nu
+polars open r_mac_posts.parquet | polars schema<\n>
+which diff
+yay -S diff-so-fancy
+polars open r_mac_posts.parquet | polars schema<\n>
+polars open r_AppleWatch_posts.parquet | polars schema<\n>
+polars open ErgoMechKeyboards_posts.parquet | polars schema<\n>
+polars open AppleWatch_posts.parquet | polars schema<\n>
+polars open r_mac_posts.parquet | polars schema<\n>
+diff < (polars open r_mac_posts.parquet | polars schema) < (polars open AppleWatch_posts.parquet | polars schema)<\n>
+polars open r_mac_posts.parquet | polars schema  o> test1.txt<\n>
+(polars open r_mac_posts.parquet | polars schema)  o> test1.txt<\n>
+polars open r_mac_posts.parquet | polars schema
+polars open r_mac_posts.parquet | polars schema | wl-copy<\n>
+polars open AppleWatch_posts.parquet | polars schema | wl-copy<\n>
+diff output1.txt output2.txt
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | save wompwomp.parquet
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | save wompwomp.parquet
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine removed_by_category retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars save wompwomp.parquet
+polars open r_mac_posts.jsonl | polars select _meta archived allow_live_comments author contest_mode created_utc downs domain hide_score gilded id is_created_from_ads_ui is_crosspostable is_meta is_reddit_media_domain is_robot_indexable is_self is_video is_original_content no_follow name num_comments num_crossposts media_only over_18 permalink pinned quarantine retrieved_on selftext send_replies spoiler stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers subreddit_type thumbnail title total_awards_received ups score upvote_ratio url | polars save wompwomp.parquet
+[ (polars open all_parquet/homelab.parquet) (polars open all_parquet/AppleWatch_posts.parquet) ] <\n>| polars concat<\n>| polars save concatenated.parquet<\n>
+let hl = polars open --eager all_parquet/homelab.parquet<\n>
+let hl = polars open --eager all_parquet/homelab_posts.parquet<\n>
+$hl<\n>
+polars concat $hl $aw<\n>
+let hl = polars open --eager all_parquet/homelab_posts.parquet<\n>let aw = polars open --eager all_parquet/AppleWatch_posts.parquet<\n>
+polars concat $hl $aw<\n>
+nu DO_NOT_EDIT.nu
+let hl = polars open --eager all_parquet/homelab_posts.parquet<\n>let aw = polars open --eager all_parquet/AppleWatch_posts.parquet<\n>
+polars concat $hl $aw<\n>
+polars concat $hl $aw<\n>| polars save all_parquet/concatenated.parquet<\n>
+$hl | polars shape<\n>
+$aw | polars shape<\n>
+$cc | polars shape<\n>
+let cc = polars open --eager all_parquet/concatenated.parquet<\n>
+$cc | polars shape
+$cc | polars shape<\n>
+$hl | polars shape
+$hl | polars shape<\n>
+let hl = polars open all_parquet/homelab_posts.parquet<\n>let aw = polars open all_parquet/AppleWatch_posts.parquet<\n>let cc = polars open all_parquet/concatenated.parquet<\n>
+$hl | polars shape<\n>$aw | polars shape<\n>$cc | polars shape<\n>
+polars open all_parquet/r_mac_posts.parquet | polars with-column (polars lit "" | polars as "removed_by_category")<\n>| polars save all_parquet/mac_posts.parquet<\n>
+polars open all_parquet/mac_posts.parquet | polars schema<\n>
+polars open mac_comments.parquet | polars schema<\n>
+nu DO_NOT_EDIT.nu
+polars open mac_comments.parquet | polars schema<\n>
+polars open BudgetAudiophile_comments.parquet | polars schema<\n>
+polars open BudgetAudiophile_posts.parquet | polars schema<\n>
+polars open mac_posts.parquet | polars schema<\n>
+polars open r_mac_posts.parquet | polars schema<\n>
+polars open mac_posts.parquet | polars schema<\n>
+ls *_posts.parquet | get name | path expand<\n>
+polars open all_parquet/mac_posts.parquet | polars with-column (polars lit "" | polars as "removed_by_category")<\n>| polars save all_parquet/mac_posts.parquet<\n>
+polars open all_parquet/r_mac_posts.parquet | polars with-column (polars lit "" | polars as "removed_by_category")<\n>| polars save all_parquet/mac_posts.parquet<\n>
+ls *_posts.parquet | get name | path expand<\n>
+ls all_parquet/*_comments.parquet | get name | path expand
+ls *_comments.parquet | get name | path expand
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+sudo smartctl -a /dev/nvme1n1 | grep 'Temperature'
+$posts_files<\n>
+let posts_files = (ls *_posts.parquet | get name | path expand);<\n>let comments_files = (ls *_comments.parquet | get name | path expand);<\n>
+$posts_files<\n>
+ls *_comments.parquet | get name | path expand
+ls *_posts.parquet | get name | path expand
+let posts_files = (ls *_posts.parquet | get name | path expand);<\n>let comments_files = (ls *_comments.parquet | get name | path expand);<\n>
+$posts_files | describe<\n>
+ls *_comments.parquet | get name
+nu DO_NOT_EDIT.nu
+polars open all_parquet/r_mac_posts.parquet | polars with-column (polars lit "" | polars as "removed_by_category")<\n>| polars save all_parquet/mac_posts.parquet<\n>
+polars open all_parquet/mac_posts.parquet | polars schema<\n>
+polars open all_parquet/PcBuild_posts.parquet | polars schema<\n>
+gemini
+kcd /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/all_parquet<\n>
+cd /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/all_parquet<\n>
+polars open *_posts.parquet | polars concat ...$in | polars save Pniggers.parquet<\n>
+polars open *_posts.parquet | polars concat | polars save Pniggers.parquet<\n>
+cd ..
+polars open all_posts.parquet | polars shape<\n>
+polars open all_comments.parquet | polars shape<\n>
+polars open all_posts.parquet | polars shape<\n>polars open all_comments.parquet | polars shape<\n>
+cd /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test<\n>polars open all_posts.parquet | polars shape<\n>polars open all_comments.parquet | polars shape<\n>
+cd /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test<\n>polars open all_posts_hanni.parquet | polars shape<\n>polars open all_comments_hanni.parquet | polars shape<\n>
+polars open all_posts_hanni.parquet | polars shape<\n>
+polars open all_comments_hanni.parquet | polars shape<\n>
+let p = polars open all_posts_hanni.parquet<\n>let c = polars open all_comments_hanni.parquet<\n>
+$p <\n>
+$p | polars columns<\n>
+$c | polars columns<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "Chainsawfolk") )<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "Chainsawfolk") ) <\n>| polars select subreddit score title <\n>| polars collect<\n>
+$p | polars select subreddit | polars unique | fzf<\n>
+$p | polars select subreddit | polars unique | polars collect | fzf<\n>
+$p | polars select subreddit |  polars collect | fzf<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select subreddit score title <\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score title <\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score title (polars col selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars select score title<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score title (polars col selftext | polars lowercase)<\n>| polars select score title<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score title (polars col selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score title (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col title selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars filter ((polars col title) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n># | polars filter ((polars col selftext) | polars contains "hd600")<\n>| polars filter ((polars col title) | polars contains "hd600")<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase)<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n># | polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars collect<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars get url<\n>
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars get url<\n>| polars into-nu
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select score title url<\n>| polars get url<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n>| polars filter ( (polars col url) | polars contains "i.redd.it")<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n>| polars filter ( (polars col url) | (polars contains "i.redd.it") or (polars contains "v.reddit.i"))<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n>| polars filter (((polars col url) | polars contains "i.redd.it") or ((polars col url) | polars contains "v.reddit.i"))<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n># | polars filter (((polars col url) | polars contains "i.redd.it") or ((polars col url) | polars contains "v.reddit.i"))<\n>| polars filter ( (polars col url) | (polars contains "i.redd.it") or (polars contains "v.reddit.i"))<\n>| polars into-nu<\n>| get url
+$p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n># | polars filter (((polars col url) | polars contains "i.redd.it") or ((polars col url) | polars contains "v.reddit.i"))<\n>| polars filter ( (polars col url) | polars contains "i.redd.it")<\n>| polars into-nu<\n>| get url
+tldr gallery-dl
+mkdir temp_media/
+man gallery-dl
+gallery-dl --help
+gallery-dl --help | nivm
+let images = ($p | polars filter ((polars col subreddit) == (polars lit "headphones") ) <\n>| polars select score (polars col title selftext | polars lowercase) url<\n>| polars filter (((polars col selftext) | polars contains "hd600") or ((polars col title) | polars contains "hd600"))<\n>| polars select url<\n>| polars filter ( (polars col url) | polars contains "i.redd.it")<\n># | polars filter (((polars col url) | polars contains "i.redd.it") or ((polars col url) | polars contains "v.reddit.i"))<\n>| polars into-nu<\n>| get url)<\n>
+$images | each { |url| gl $url -d temp_media }<\n>
+$images | each { |url|<\n>    try {<\n>        gl $url -d temp_media<\n>    } catch { |err|<\n>        print $"Failed to download ($url): ($err.msg)"<\n>    }<\n>}<\n>
+$images | each { |url|<\n>    try {<\n>        gl $url -d temp_media --sleep 1<\n>    } catch { |err|<\n>        print $"Failed to download ($url): ($err.msg)"<\n>    }<\n>}<\n>
+gl https://www.reddit.com/r/VietNamNation/comments/1mlmlwa/bồn_kì_nắc_đi_nghĩa_vụ_về_cưới_vk_vừa_đỗ_vào%2f
+gl https://www.reddit.com/r/VietNamNation/comments/1mlt2zn/backy_edit_cho_zui/
+nordvpn c
+gl https://www.reddit.com/r/VietNamNation/comments/1mlmlwa/bồn_kì_nắc_đi_nghĩa_vụ_về_cưới_vk_vừa_đỗ_vào%2f
+nordvpn d
+gl https://www.reddit.com/r/VietNamNation/comments/1mlmlwa/bồn_kì_nắc_đi_nghĩa_vụ_về_cưới_vk_vừa_đỗ_vào%2f
+gl https://www.reddit.com/r/VietNamNation/comments/1mlt2zn/backy_edit_cho_zui/
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1mlt2zn/backy_edit_cho_zui/
+w https://www.reddit.com/r/VietNamNation/comments/1mlt2zn/backy_edit_cho_zui/
+w https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fb%25C3%25B2-%25C4%2591%25E1%25BB%258F-s%25E1%25BB%25A5c-c-%25E1%25BA%25B7c-v0-lwepur01e0if1.png%3Fwidth%3D423%26auto%3Dwebp%26s%3D08960a4e686de64a3d72859c8de5ee49c0c34566
+gallery-dl media?url=https%3A%2F%2Fpreview.redd.it%2Fb%25C3%25B2-%25C4%2591%25E1%25BB%258F-s%25E1%25BB%25A5c-c-%25E1%25BA%25B7c-v0-lwepur01e0if1.png%3Fwidth%3D423%26auto%3Dwebp%26s%3D08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 media?url=https%3A%2F%2Fpreview.redd.it%2Fb%25C3%25B2-%25C4%2591%25E1%25BB%258F-s%25E1%25BB%25A5c-c-%25E1%25BA%25B7c-v0-lwepur01e0if1.png%3Fwidth%3D423%26auto%3Dwebp%26s%3D08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fb%25C3%25B2-%25C4%2591%25E1%25BB%258F-s%25E1%25BB%25A5c-c-%25E1%25BA%25B7c-v0-lwepur01e0if1.png%3Fwidth%3D423%26auto%3Dwebp%26s%3D08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 -O khoi_y_kien_a.png https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fb%25C3%25B2-%25C4%2591%25E1%25BB%258F-s%25E1%25BB%25A5c-c-%25E1%25BA%25B7c-v0-lwepur01e0if1.png%3Fwidth%3D423%26auto%3Dwebp%26s%3D08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 -O khoi_y_kien_a.png https://preview.redd.it/b%C3%B2-%C4%91%E1%BB%8F-s%E1%BB%A5c-c-%E1%BA%B7c-v0-lwepur01e0if1.png?width=423&auto=webp&s=08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 -O khoi_y_kien_a.png https://i.redd.it/3x70bg7ozzhf1.jpeg
+wget2 -O khoi_y_kien_a.png https://preview.redd.it/b%C3%B2-%C4%91%E1%BB%8F-s%E1%BB%A5c-c-%E1%BA%B7c-v0-lwepur01e0if1.png?width=423&auto=webp&s=08960a4e686de64a3d72859c8de5ee49c0c34566
+wget2 -O nguyen_sy_cuong_son.png https://i.redd.it/3x70bg7ozzhf1.jpeg
+wget2 -O nsc_victim.png https://preview.redd.it/30-5-2025-ng%C3%A0y-gi%E1%BB%95-c%E1%BB%A7a-c%C3%B4-g%C3%A1i-18-tu%E1%BB%95i-%C4%91%E1%BB%ABng-bao-gi%E1%BB%9D-%C4%91%E1%BB%83-v%E1%BB%A5-v0-rv50597j30if1.jpeg?width=1080&auto=webp&s=150dd93b1e864700e68d1459f4fb37d009a04dc4
+wget2 -O tron_tria_lam.png https://preview.redd.it/30-5-2025-ng%C3%A0y-gi%E1%BB%95-c%E1%BB%A7a-c%C3%B4-g%C3%A1i-18-tu%E1%BB%95i-%C4%91%E1%BB%ABng-bao-gi%E1%BB%9D-%C4%91%E1%BB%83-v%E1%BB%A5-v0-ggh1ai4de0if1.jpeg?width=720&auto=webp&s=48fd4439a0889e58213ffc5fc68deec657a8cae8
+jlh https://www.youtube.com/watch?v=44n2bKvCt84
+jkh https://www.youtube.com/watch?v=44n2bKvCt84
+wget2 -O temu.png https://preview.redd.it/the-premiere-of-shen-yun-in-china-v0-ur1vyeso4zhf1.jpeg?width=1416&auto=webp&s=f3faca54c9c58fb5757021738caa47392967572d
+wget2 -O nankin.png https://www.reddit.com/r/VietNamNation/comments/1mlmfh9/ko_ch%E1%BB%89_v%E1%BB%8Bt_m%C3%A0_trung_cx_r%E1%BA%A5t_th%C3%ADch_sang_t%C6%B0_b%E1%BA%A3n_r%C3%A3y/
+yt-dlp https://x.com/KojiKawagu18292/status/1952340825821552908?t=IEdKC22i945GcAYpJGJ68A&s=19
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1mlm17f/h%E1%BB%93_ki%E1%BB%81u_b%E1%BB%8B_%C4%91%E1%BB%A9c_c%E1%BA%A5m_lu%C3%B4n_r%E1%BB%93i/
+wget2 -O kiep_sau.png https://preview.redd.it/mv-b%C6%B0ng-b%C3%B4-ph%E1%BA%A3n-t%C3%A1c-d%E1%BB%A5ng-v0-2hwm4om9wyhf1.png?width=1124&auto=webp&s=04b8638d84c05c467b0599398ab0655fe7d3ad2f
+wget2 -O vuong_behead.png https://preview.redd.it/ch%E1%BA%BF-%C4%91%E1%BB%99-t%C6%B0-b%E1%BA%A3n-b%E1%BB%91c-l%E1%BB%99t-ng%C6%B0%E1%BB%9Di-lao-%C4%91%E1%BB%99ng-v0-49ucwn3gkyhf1.png?width=320&crop=smart&auto=webp&s=58eba6fc0af14420706a845a1578cc6500b371a8
+overlay use .venv/bin/activate.nu
+exit
+overlay use .venv/bin/activate.nu
+which reddit_archive
+bash -c "reddit-archive.sh https://www.reddit.com/r/VietNamNation/comments/1mlkmoj/ch%E1%BA%BF_%C4%91%E1%BB%99_t%C6%B0_b%E1%BA%A3n_b%E1%BB%91c_l%E1%BB%99t_ng%C6%B0%E1%BB%9Di_lao_%C4%91%E1%BB%99ng/"
+bash -c "/home/pampam/builds/RedditArchiver-standalone/reddit-archive.sh https://www.reddit.com/r/VietNamNation/comments/1mlkmoj/ch%E1%BA%BF_%C4%91%E1%BB%99_t%C6%B0_b%E1%BA%A3n_b%E1%BB%91c_l%E1%BB%99t_ng%C6%B0%E1%BB%9Di_lao_%C4%91%E1%BB%99ng/"
+wget2 -O cao_pho.png https://preview.redd.it/l%C3%A2m-ve-ch%C3%B3-ai-n%C3%B3i-xe-vinfast-ph%C3%A1t-n%E1%BB%95-pin-%C4%91i%E1%BB%87n-l%C3%A0-ngu-v0-r8v6tgd7cyhf1.png?width=1080&crop=smart&auto=webp&s=37584954c5f286b5935cd9baeb72d77bc7e1a0be
+wget2 -O tac_phong.png https://preview.redd.it/b%C3%B2-%C4%91%E1%BB%8F-tuy%C3%AAn-truy%E1%BB%81n-ngu-qu%C3%A1-r%E1%BB%93i-ph%E1%BA%A3n-t%C3%A1c-d%E1%BB%A5ng-v0-yu9euegawxhf1.png?width=320&crop=smart&auto=webp&s=bc03372788f890b9a7892b8237ce7d0701ef700d
+wget2 -O stomp.png https://preview.redd.it/b%C3%B2-%C4%91%E1%BB%8F-tuy%C3%AAn-truy%E1%BB%81n-ngu-qu%C3%A1-r%E1%BB%93i-ph%E1%BA%A3n-t%C3%A1c-d%E1%BB%A5ng-v0-bie0r0y34yhf1.jpeg?width=262&auto=webp&s=f61c6f986ed5cc83553f6c6b84724f3a6c1a7181
+yay -S tofi
+yay -Rns tofi
+yay -S bemenu
+bemenu
+echo -e "firefox\nalacritty\nnautilus\nneofetch" | bemenu
+bemenu
+bemenu-run --fn 'pango:Sans 16'
+bemenu-run --fn 'pango:JetBrains Mono 14'
+bemenu-run --fn 'pango:JetBrains Mono 18'
+bemenu-run --fn 'pango:SF Pro 18'
+man bemenu
+man bemenu | nvim
+bemenu-run --fn 'pango:JetBrainsMono 18'
+bemenu-run --fn 'pango: 18'
+bemenu-run --fb "#eff1f5" --ff "#4c4f69" --nb "#eff1f5" --nf "#4c4f69" --tb "#eff1f5" --hb "#eff1f5" --tf "#d20f39" --hf "#df8e1d" --af "#4c4f69" --ab "#eff1f5"<\n>
+polars open june_comments.parquet | polars schema
+$env.GOMAXPROCS
+yay -S walker
+yay -S walker-bin
+wyay -S walker-bin<\n>
+walker
+walker --gapplication-service
+ps | grep walker
+btop
+walker
+yay -Qs | fzf
+yay -Rns airshipper airshipper-debug
+yay -Qs | fzf
+yay -Rns angrysearch
+z
+walker --help
+walker -c
+walker -s
+walker --help-gapplication
+walker --help-all
+walker -H
+walker
+walker -m clipboard
+jkl https://www.youtube.com/shorts/O_xZXecKDu8
+jlk https://www.youtube.com/shorts/0dD-9v6yChY
+jkl https://www.youtube.com/shorts/0dD-9v6yChY
+nordvpn d
+nordvpn c
+chvt 3
+chvt 1
+chvt
+btop
+ls
+walker --gapplication-service
+yay -Rns walker
+yay -Rns walker-bin
+over
+overlay use .venv/bin/activate.nu
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+pip install -q transformers<\n>
+from transformers import pipeline<\n>sentiment_pipeline = pipeline("sentiment-analysis")<\n>data = ["I love you", "I hate you"]<\n>sentiment_pipeline(data)<\n>
+pip install --upgrade pip
+pip install -q transformers<\n>
+from transformers import pipeline<\n>
+ipython
+pip install ipykernel
+dysk
+ipython
+exit
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+pip install ipykernel
+pip install --upgrade pip
+pip install -q transformer
+pip install -q transformers
+from transformers import pipeline<\n>
+ipython
+python -c "import torch; print(torch.cuda.is_available())"
+ipython
+pip freeze
+pip freeze | fzf
+pip3 install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cpu
+pip install intel-extension-for-pytorch
+import torch<\n>import intel_extension_for_pytorch as ipex<\n>from transformers import pipeline<\n><\n># Check if an XPU device is available and set it<\n>if torch.xpu.is_available():<\n>    device = "xpu"<\n>    print("Using Intel GPU (XPU) device.")<\n>else:<\n>    device = "cpu"<\n>    print("Intel GPU (XPU) not found. Using CPU.")<\n><\n># Pass the device to the pipeline<\n>sentiment_pipeline = pipeline("sentiment-analysis", device=device)<\n>data = ["I love you", "I hate you"]<\n>results = sentiment_pipeline(data)<\n><\n>print(results)<\n>
+ipython
+pip uninstall torch
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ipython
+rm .venv/
+rm -r .venv/
+exit
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+pip install ipykernel
+fastfetch
+ipython
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu<\n>
+from transformers import pipeline<\n><\n>sentiment_pipeline = pipeline("sentiment-analysis")<\n>data = ["I love you", "I hate you"]<\n>sentiment_pipeline(data)<\n>
+lspci -k | grep -i vga
+ipython
+pip install torch==2.7.0 torchvision==0.16.0 torchaudio==2.7.0 intel-extension-for-pytorch==2.7.0 --index-url https://download.pytorch.org/whl/xpu
+pip install torch==2.7.0 torchvision==0.23.0+xpu torchaudio==2.7.0 intel-extension-for-pytorch==2.7.0 --index-url https://download.pytorch.org/whl/xpu
+pip install torch==2.7.0 torchvision==0.23.0+xpu torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/xpu
+nordvpn d
+pip install torch==2.8.0 torchvision==0.23.0+xpu torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu
+pip install torch==2.8.0 torchvision==0.23.0+xpu torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu --resume-retries
+pip install --resume-retries  torch==2.8.0 torchvision==0.23.0+xpu torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu
+pip install torch==2.8.0 torchvision==0.23.0+xpu torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu
+pip install intel-extension-for-pytorch
+import torch<\n>print(torch.xpu.is_available())<\n>
+sudo pacman -S intel-compute-runtime intel-opencl-icd oneapi-level-zero
+sudo pacman -S intel-compute-runtime intel-opencl
+yay -S intel-opencl intel-compute-runtime
+yay -S intel-oneapi-dpcpp-cpp intel-opencl-icd
+yay -S intel-oneapi-mkl intel-oneapi-basekit
+ipython
+overlay use .venv/bin/activate.nu
+yay -Rns intel-oneapi-basekit
+nordvpn c
+pacman -Qe | fzf
+yay -Qe | fzf
+fastfetch
+z
+nordvpn d
+fastfetch
+yay -Qe | fzf
+yay -S dotoolc
+yay -S dotool
+echo wheel -3 | dotoolc
+echo wheel 3 | dotoolc
+nordvpn d
+jkl https://www.youtube.com/watch?v=b3sF6NLmIkY
+polars open all_posts_hanni.parquet | polars select title selftext
+polars open all_posts_hanni.parquet | polars select title selftext | polars collect
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 10_000
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 10_000 | polars collect
+term size
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 10_000 | polars collect | table --width 120
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 10_000 | polars collect | polars into-nu | wrap title
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 1000 | polars collect | polars into-nu | wrap title
+polars open all_posts_hanni.parquet | polars select title selftext | polars first 1000 | polars save T4_test.parquet
+polars open T4_test.parquet | polars shape
+polars open all_posts_hanni.parquet | polar shape
+polars open all_posts_hanni.parquet | polars shape
+gl https://www.instagram.com/reel/DNLK_-nvguF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNJQSLmpfZ2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl  https://www.instagram.com/reel/DNMvHysvHdu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNNG8eVTXSv/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DME_MWdvG9Q/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMvyPj0h93r/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNINJL8I22x/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM3dri0g8Eu/?utm_source=ig_web_copy_link<\n>
+gl https://www.instagram.com/reel/DNDphq5SDSo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM5kZrdCUIm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLxui09Rann/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM0Fal9RiGX/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM2Bh_YMqvz/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK5-HWNPF9G/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMYtmPRR6j5/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL5rWWjvDLW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMBvG9DRIki/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJPK-xOzwI9/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNFbYCkMt7y/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLzd4NhysG6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLKXfgmy-1B/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLM_XWCxroV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLuiyT7oER_/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNDjL6CJmmE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMjlx74OygV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNAEW-ZI-8a/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIq5XZip_Dj/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMSuVzqIMua/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM1huCnSU1V/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMyLZ3GpsUL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMEmPZETvH7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7ma_mSrvJ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM3HavcIDNp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMibbN7Si1k/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMietPcTytW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJzhgd5ycKb/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLeGWDUyyOq/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLY9B4DSaUY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMCf-5tSwg1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DNJCU-Fp2PJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DMhapWtS3rZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DLoTLELSFoe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DLWbGkjyYSj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DL7AKSCJFog/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMtG2ELBB-8/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKmBrwTJcD6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJW7otzywQb/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMxAfljBMiR/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM-EyxsyfyX/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJfGjnzI-no/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL3bHntyOmo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DK7vRi7ST-I/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNF7sfsSuSO/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DH8I2D6Cgkw/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNG7eK8Bepo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM74IART8bV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMsUmdmxhGk/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLq6GrzIRgQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMQaV9Uz5Uz/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM3IY09sHg5/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJrBMUVTlMI/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7CAq6uy1M/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJFRqHFSiiN/?utm_source=ig_web_copy_link
+yay -S localsend-bin<\n>
+btop
+ps | sort-by cpu
+nordvpn d
+overlay use .venv/bin/activate.nu
+pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cpu
+python playground.py
+pip install polars
+python playground.py
+pip install scipy
+python playground.py
+dysk
+yay -Qe | fzf
+yay -S docker
+docker info
+gemini
+nordvpn d
+docker run -it --rm archlinux bash -c "echo hello world"
+docker run --help
+docker ps
+sudo systemctl status docker
+sudo systemctl enable docker --now
+docker ps
+sudo usermod -aG docker $USER
+docker ps
+docker run -it --rm archlinux bash -c "echo hello world"
+docker ps
+docker ps -a<\n>
+docker images
+cat /etc/group
+cat /etc/group | grep docker
+yay -S docker-buildx
+yay -S docker-compose
+yay -S ducker
+ducker
+images
+ducker --help
+docker -l
+ducker -e
+ducker images
+ducker
+tmux
+ducker
+ducker
+tmu
+ducker
+docker images
+yay -S intel-compute-runtime
+yay -Rns intel-compute-runtime
+intel-oneapi-basekit
+yay -S intel-oneapi-basekit
+yay -S opencl-icd-loader
+pip install openvino-tensorflow
+overlay use .venv/bin/activate.nu
+pip install openvino-tensorflow
+overlay use .venv/bin/activate.nu
+python playground_tensorflow.py
+python -m pip install tensorflow
+pip install --upgrade intel-extension-for-tensorflow[xpu]<\n><\n>
+python -m pip install tensorflow
+python playground_tensorflow.py
+exit
+tmux
+overlay use .venv/bin/activate.nu
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+let p = polars open all_posts_hanni.parquet<\n>let c = polars open all_comments_hanni.parquet
+$c | polars columns
+$p | polars select id score title selftext
+$p | polars select id score title selftext | polars sort-by score
+$p | polars select id score title selftext | polars sort-by score | polars collect
+$p | polars select id score title selftext | polars sort-by score | polars last 100| polars collect
+$p | polars select id score title selftext | polars sort-by score | polars first 100| polars collect
+$p | polars select id score title selftext | polars sort-by downs | polars last 100| polars collect
+$p | polars select id score title selftext | polars sort-by down | polars last 100| polars collect
+$p | polars select id downs score title selftext | polars sort-by downs | polars last 100| polars collect
+$p | polars select id downs score | polars sort-by downs |  polars collect
+$p | polars select id downs score url | polars sort-by score |  polars collect
+$p | polars schema
+$p | polars select id score num_comments url<\n>| polars filter ((polars col score) == (polars lit 0))<\n>| polars sort-by num_comments |  polars collect
+$c | polars schema
+$c | polars select id score downs | polars collect
+$c | polars select id score downs | polars sort-by downs | polars reverse | polars collect 
+$c | polars select id score downs | polars sort-by ups | polars reverse | polars collect 
+$c | polars select id score downs ups | polars sort-by ups | polars reverse | polars collect 
+$p | polars schema
+$p | polars select id score ups | sort-by ups | polars collect
+$p | polars select id score ups | polars sort-by ups | polars collect
+$c | polars select id score downs | polars sort-by score | polars reverse | polars collect 
+$c | polars select id score url | polars sort-by score | polars reverse | polars collect 
+$c | polars schema
+$c | polars select id score permalink | polars sort-by score | polars reverse | polars collect 
+$p | polars select id score numb_comments url title selftext | polars sort-by score | polars last 100 | polars save DUONG_ds.parquet
+$p | polars select id score num_comments url title selftext | polars sort-by score | polars last 100 | polars save DUONG_ds.parquet
+nordvpn d
+ssh caoduong22102004gmail.com@192.168.1.166
+ping 192.168.1.166
+polars open DUONG_ds.parquet | polars shape
+$p | polars select id score num_comments url title selftext | polars sort-by score | polars last 10000 | polars save DUONG_ds.parquet
+sudo systemctl status sshd
+sudo systemctl enable sshd --now
+sudo systemctl status sshd
+sudo nvim /etc/ssh/sshd_config
+sudo systemctl restart sshd
+gemini
+polars open r_AppleWatch_comments.jsonl | polars schema
+let p = polars open all_posts_hanni.parquet<\n>let c = polars open all_comments_hanni.parquet
+$p
+polars open BudgetAudiophile_comments.parquet
+$p
+let p = polars open all_posts_hanni.parquet<\n>let c = polars open all_comments_hanni.parquet
+$p
+$p | collect
+$p | polars schema
+$p | polars schema | fzf
+$p | polars select created_utc | polars first | polars collect
+open AppleWatch_comments.parquet
+exit
+let p = polars open all_posts_hanni.parquet<\n>let c = polars open all_comments_hanni.parquet
+$c | polars select subreddit score body | polars filter ((polars col body) | (polars contains "break")) <\n>| polars collect
+$c | polars select subreddit score body <\n>| polars filter ((polars col subreddit) == (polars lit "headphones")) <\n>| polars filter ((polars col body) | (polars contains "break")) <\n>| polars collect
+$c | polars select subreddit score body <\n>| polars filter ((polars col subreddit) == (polars lit "headphones")) <\n>| polars filter ((polars col body) | (polars contains "break")) <\n>| polars filter ((polars col body) | (polars contains "iem")) <\n>| polars collect
+poweroff
+nordvpn d
+nordvpn
+ssh -p 32047 root@ssh4.vast.ai -L 8080:localhost:8080
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080 -t xterm-256color
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080 -t xterm
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+tmux
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+ghostty +list-themes
+tmux
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+fastfetch
+nordvpn -s
+nordvpn --status
+nordvpn -status
+nordvpn status
+pacman -S mosh
+sudo pacman -S mosh
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+mos
+mosh --version
+mosh -p 52202 root@1.208.108.242
+mosh -v -p 52202 root@1.208.108.242
+mosh -p 52202 root@1.208.108.242
+mosh -v -p 52202 root@1.208.108.242
+mosh -p 52202 root@1.208.108.242
+man mosh
+mosh-client 1.208.108.242 60001 A7GCn1j9Pq0L2CeFwCSoWA
+mosh -p 52202 root@1.208.108.242
+MOSH CONNECT 60001 A7GCn1j9Pq0L2CeFwCSoWA<\n>
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+mosh -p 52202 root@1.208.108.242
+mosh root@1.208.108.242
+mosh root@1.208.108.242 --ssh="ssh -p 52202"
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+mosh root@1.208.108.242 --ssh="ssh -p 52202"
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+tmux
+tmux
+ssh -p 33479 root@ssh4.vast.ai -L 8080:localhost:8080
+mosh root@122.96.185.110 --ssh"ssh -p 39302"
+mosh root@122.96.185.110 --ssh="ssh -p 39302"
+ssh -p 33479 root@ssh4.vast.ai -L 8080:localhost:8080
+open r_homelab_posts.jsonl | first | columns<\n>
+open r_homelab_posts.jsonl | first | schema<\n>
+polars open r_homelab_posts.jsonl | polars first | polars schema<\n>
+| polars drop media_metadata |<\n>polars open r_homelab_comments.jsonl | polars first | polars schema <\n>
+polars open r_homelab_comments.jsonl | polars first | polars schema <\n>
+first
+firstpolars open r_homelab_posts.jsonl | polars last | polars schema <\n>
+polars open r_homelab_posts.jsonl | polars last | polars schema <\n>
+open r_homelab_posts.jsonl | first <\n>
+open r_homelab_posts.jsonl | first 10<\n>
+open r_homelab_posts.jsonl | first<\n>
+open r_homelab_posts.jsonl | first | fzf<\n>
+open r_homelab_comments.jsonl | first 10 | select id parent_id link_id body<\n>
+open r_homelab_comments.jsonl | first
+2open r_homelab_comments.jsonl | first 100
+open r_homelab_comments.jsonl | first 100
+open r_homelab_comments.jsonl | first <\n>
+open r_homelab_comments.jsonl | first 100 <\n>
+open r_homelab_comments.jsonl | first 100 | save test.csv<\n>
+polars open r_homelab_comments.jsonl | polars first 100 | polars save test.csv<\n>
+polars open r_homelab_comments.jsonl | polars first 100 | polars select id parent_id link_id body | polars save test.csv<\n>
+open r_homelab_posts.jsonl | first <\n>
+polars open AppleWatch_posts.parquet | polars first
+polars open AppleWatch_posts.parquet | polars first | polars collect
+polars open AppleWatch_posts.parquet | polars first | polars schema
+polars open AppleWatch_posts.parquet | polars first | polars save test.json
+polars open AppleWatch_posts.parquet | polars first | polars save test.csv
+nmtui
+lsblk
+lsblk | wl-copy
+sudo umount /dev/sda
+lsblk
+/home/pampam/Documents/distro
+sudo dd if=cachyos-desktop-linux-250713.iso of=/dev/sda bs=4M status=progress
+btop

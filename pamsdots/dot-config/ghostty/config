@@ -9,6 +9,7 @@ gtk-titlebar = false
 # theme = "GruvboxDark"
 # theme = GruvboxLight
 theme = GitHub-Light-High-Contrast
+# theme = GitHub-Dark-Default
 # theme = omori
 # theme = tokyonight
 # background-opacity = 0.2

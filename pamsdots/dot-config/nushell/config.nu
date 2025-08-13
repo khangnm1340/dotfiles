@@ -682,6 +682,7 @@ alias w = wget2
 
 
 
+source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-dark-default.nu
 source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
 source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"
 source ~/.zoxide.nu

@@ -1,33 +1,3 @@
-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
@@ -505,3 +475,26 @@ nu -c "polars open r_SmartThings_posts.jsonl
 nu
 n
 nu
+watch -n 1 sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
+watch -n 1 sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
+sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
+nu
+nu
+reddit_archive /home/pampam/builds/RedditArchiver-standalone/reddit-archive.sh
+reddit_archive https://www.reddit.com/r/VietNamNation/comments/1mlkmoj/ch%E1%BA%BF_%C4%91%E1%BB%99_t%C6%B0_b%E1%BA%A3n_b%E1%BB%91c_l%E1%BB%99t_ng%C6%B0%E1%BB%9Di_lao_%C4%91%E1%BB%99ng/
+nu
+go env 
+go env | grep GOMAXPROCS
+go env | grep GOMAXPROCs
+go env | wl-copy
+nu
+docker ps
+nu
+sudo usermod -aG docker $USER
+newgrp docker
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+nu
+infocmp -x xterm-ghostty | ssh YOUR-SERVER -- tic -x -
+infocmp -x xterm-ghostty | ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080 -- tic -x -
+nu
+ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
