@@ -17057,3 +17057,157 @@ lsblk
 /home/pampam/Documents/distro
 sudo dd if=cachyos-desktop-linux-250713.iso of=/dev/sda bs=4M status=progress
 btop
+yay -Qe | fzf
+fastfetch --help
+yay -Qe | fzf
+config --default
+config help
+config --help
+config reset
+y
+yazi
+nordvpn status
+nordvpn d
+mosh root@100.34.4.6 ssh="ssh -p 49920"
+mosh root@100.34.4.6 --ssh="ssh -p 49920"
+mosh root@100.34.4.6
+mosh root@100.34.4.6 --ssh="ssh -p 61000"
+mosh root@100.34.4.6 --ssh="ssh -p 49920"
+mosh root@70.27.210.50 --ssh="ssh -p 40374"
+mosh root@100.34.4.6 --ssh="ssh -p 49882"
+mosh root@100.34.4.6 --ssh="ssh -p 49843"
+sudo ufw disable
+sudo firewall-cmd --state
+sudo iptables -L
+sudo iptables -L | wl-copy
+nmtui
+ping 192.168.1.166
+ping google.com
+nmtui
+ping google.com
+nmtui
+mosh root@100.34.4.6 --ssh="ssh -p 49843"
+ip addr show
+ip addr show | wl-copy
+mosh root@100.34.4.6 --ssh="ssh -p 49843"
+ssh -p 49843 root@100.34.4.6 -L 8080:localhost:8080
+nvim $nu.config-path
+y
+gemini
+polars open all_comments_hanni.parquet | polars shape<\n>
+polars open all_comments_hanni.parquet | polars first 100000 | polars save first100kC.parquet
+gemini
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+source $nu.config-path
+y
+zi
+y
+scp -P 49843 /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/first100kC.parquet root@100.34.4.6:/root
+zi
+scp -P 49843 /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/sentiment_analysis_roberta.py root@100.34.4.6:/root
+ssh -p 49843 root@100.34.4.6 -L 8080:localhost:8080
+config nu
+nu config
+vi
+nu config
+config nu
+env
+yay -Qe | fzf
+which python
+z
+overlay use .venv/bin/activate.nu
+which python
+yay -Qe | fzf
+jupyter kernelspec list
+/home/pampam/.local/share/jupyter/kernels/your_venv_name
+z
+which pip
+python -m ipykernel install --user --name=.venv --display-name "hanni_venv"
+pip install ipykernel
+yay -Rns python-ipykernel
+yay -Qe | fzf
+python -m ipykernel install --user --name=.venv --display-name "hanni_venv"
+jupyter-lab
+overlay use .venv/bin/activate.nu
+pip freeze | fzf
+pip install pandas
+yay -Qe | fzf
+google-chrome-stable
+curl https://segs.lol/RTrfDL
+w https://segs.lol/RTrfDL
+wget2 -O clock.jpg https://segs.lol/YPBD9Y
+wget2 https://www.instagram.com/p/DNXI_S7Ogtw/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/p/DNXI_S7Ogtw/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMnOtLaxj2k/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNTzouOBwof/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DNOQet9oMlI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DNFpT7ix-DT/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNNqMFRy-0T/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNTT029iAob/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNHv5bWTX_6/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLAmtIeOFyh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNFsmMmzmqQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNOAm9jx-xI/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNLrff3vUJp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMsWf-BOYvu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNAfv78RJbT/?utm_source=ig_web_copy_link
+gl https://x.com/i/status/1955973656800120834
+gl https://x.com/i/status/1955973676441981227
+gl https://x.com/i/status/1955973693873475719
+gl https://x.com/i/status/1955973895929962649
+gl https://x.com/i/status/1955974059843268778
+gl https://x.com/i/status/1955973963135201772
+gl https://x.com/i/status/1955973895929962649
+gl https://x.com/i/status/1955974141317632010
+gl https://x.com/i/status/1955974209403859454
+gl https://x.com/i/status/1955974305281347914
+gl https://x.com/i/status/1955974386877366669
+gl https://pbs.twimg.com/media/GyT0IYUWkAQAVYF?format=jpg&name=large
+gl https://x.com/i/status/1956053778865467776
+gl https://x.com/pawsbny/status/1955682226240376932
+gl https://x.com/itsaninha__/status/1955664747002806622
+gl https://x.com/tokyotengu/status/1955761699778424898
+gl https://x.com/_jaznam/status/1956024813270786206
+gl https://x.com/NJZBAM/status/1955742055206150320
+gl https://x.com/senaka_look/status/1956145753858171159
+gl https://x.com/hannigums/status/1955763899438899633
+gl https://x.com/sweeneydailyx/status/1955718868359401896
+gl https://x.com/IUarchiving/status/1928393952429822030
+gl https://x.com/Phamkuromi/status/1955793178126377307
+gl https://x.com/kismetfiless/status/1955631959578718585
+gl https://x.com/kimjibeam/status/1955793370703663151
+gl https://x.com/ReT0ky0/status/1956187049188581494
+gl https://www.tiktok.com/@vannynjz/video/7495202848343461122
+gl https://www.tiktok.com/@vannynjz/video/7527391665867214102
+gl https://x.com/_jaznam/status/1955859285440913420
+gl https://x.com/jeanzforme/status/1956172140652253691
+gl https://x.com/tina2nHR/status/1955860092097847473
+gl 
+gl https://x.com/TheCumpound/status/1955996532794142771
+gl https://x.com/ExtremeBlitz__/status/1955722567068586128
+gl https://x.com/hostokyo/status/1956083391688007820
+gl https://x.com/akirevion/status/1955797273029275662
+gl https://x.com/pouchwonki/status/1956196181518000162
+gl https://x.com/12jan008/status/1955992843635355867
+gl https://x.com/newjified/status/1956054787759243581
+gl https://x.com/AMAZlNGNATURE/status/1955673510153511121
+gl https://x.com/bborbnz/status/1955630911686684735
+gl https://x.com/_hannibunch/status/1955943251896361389
+gl https://x.com/haerinsources/status/1955985498406887831
+gl https://x.com/NJZBTS/status/1956288202450272396
+gl https://x.com/_jaznam/status/1955909178998079570
+gl https://x.com/Injun_king/status/1955812278370230558
+gl https://x.com/mintcarebear/status/1955961546234101971
+gl https://x.com/hyeiccino/status/1956141057793520012
+gl https://x.com/AJgeorgeP/status/1956336175297257831
+gl https://x.com/Vogue_Vante/status/1956261928424366190
+gl https://x.com/bravegi57739501/status/1956160034854810044
+gl https://x.com/chuu_Ivr/status/1955643529834975425
+gl https://x.com/mhdhhtruther/status/1955987655294116075
+jkl https://www.youtube.com/watch?v=EsHQB9gT96k
+jkl https://www.youtube.com/watch?v=EsHQB9gT96k
+yt-dlp https://www.youtube.com/watch?v=EsHQB9gT96k
+jkl https://www.youtube.com/shorts/N9Xy-yXP6F0
+yt-dlp https://www.youtube.com/shorts/N9Xy-yXP6F0
+yt-dlp https://www.youtube.com/shorts/o7JPtt01Cis
