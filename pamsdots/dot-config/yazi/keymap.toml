@@ -13,14 +13,15 @@ prepend_keymap = [
   { on = ["f", "j"], run = "plugin first-non-directory", desc = "Jumps to the first file" },
   { on = "<C-f>", run = "open --interactive", desc = "Open selected files interactively" },
   { on = "<A-k>", run = "plugin hanni", desc = "fzf" },
+	{ on = [ "c", "j" ], run = "copy dirname",          desc = "Copy the directory path" },
 
 
-  { on = ["e", "q"], run = "plugin projects quit", desc = "Save last project and exit the process" },
-  { on = ["e", "s"], run = "plugin projects save", desc = "Save current project" },
-  { on = ["e", "j"], run = "plugin projects load", desc = "Load project" },
-  { on = ["e", "e"], run = "plugin projects load_last", desc = "Load last project" },
-  { on = ["e", "d"], run = "plugin projects delete", desc = "Delete project" },
-  { on = ["e", "D"], run = "plugin projects delete_all", desc = "Delete all projects" },
-  { on = ["e", "m"], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects" },
-  { on = ["e", "M"], run = "plugin projects 'merge all'", desc = "Merge current project to other projects" },
+  # { on = ["e", "q"], run = "plugin projects quit", desc = "Save last project and exit the process" },
+  # { on = ["e", "s"], run = "plugin projects save", desc = "Save current project" },
+  # { on = ["e", "j"], run = "plugin projects load", desc = "Load project" },
+  # { on = ["e", "e"], run = "plugin projects load_last", desc = "Load last project" },
+  # { on = ["e", "d"], run = "plugin projects delete", desc = "Delete project" },
+  # { on = ["e", "D"], run = "plugin projects delete_all", desc = "Delete all projects" },
+  # { on = ["e", "m"], run = "plugin projects 'merge current'", desc = "Merge current tab to other projects" },
+  # { on = ["e", "M"], run = "plugin projects 'merge all'", desc = "Merge current project to other projects" },
 ]

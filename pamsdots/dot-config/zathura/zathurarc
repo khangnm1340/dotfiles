@@ -16,5 +16,5 @@ map l navigate next
 
 set selection-clipboard clipboard
 
-include catppuccin-latte
+# include catppuccin-latte
 # include catppuccin-macchiato

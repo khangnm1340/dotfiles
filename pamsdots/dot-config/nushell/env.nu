@@ -29,6 +29,18 @@ path add /home/pampam/.local/share/nvim/mason/bin
 path add /home/pampam/.dotnet/tools
 path add /home/pampam/dotfiles/pamsdots/dot-config/nushell/nupm/plugins/bin
 path add /usr/bin/vendor_perl
+$env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu
 $env.FZF_DEFAULT_COMMAND = 'fd --type f'
 $env.EDITOR = 'nvim'
+$env.JUPYTERLAB_DIR = ($env.HOME)/.local/share/jupyter/lab
+$env.LS_COLORS = (vivid generate tokyonight-night)
+$env.NVIM_APPNAME = "nvim-hanni"
+$env.EMMYLUALS_CONFIG = ($env.HOME)/.config/nvim-hanni/.emmyrc.json
+
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+mkdir ~/.cache/carapace
+carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+
+#~/.config/nushell/config.nu
+source ~/.cache/carapace/init.nu

@@ -1,0 +1,10 @@
+~/Documents/pam/1-Rough-Note/Todo-list.md
+~/.config/nushell/pams_history.txt
+~/.config/nushell/cd_history.txt
+~/.config/nvim-hanni/init.lua
+~/.config/qutebrowser/config.py
+~/.config/hypr/modules/Keybinds.conf
+~/Documents/UTH/DataMining/tests/tutorials.typ
+~/.config/ghostty/config
+~/dotfiles/pamsdots/dot-config/nvim/lua/config/keymaps.lua
+/home/pampam/.config/nushell/env.nu

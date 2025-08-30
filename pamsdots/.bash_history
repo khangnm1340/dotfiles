@@ -1,10 +1,3 @@
-D2jJtlHT26ZrPOSPyK3wQB1DcnFGtBGk6XmGQv2d5MAoBmjpmfKsp8WUrzjsaujwo4xdryUSXzzi
-p/sbyo0k618UnEz2K5ElLFwNWnE1hqYNXBjXqYpdBcFAQBqaLd0gO7PCwDYqsaz5uooPmg5oaCbo
-5ntzzGOE9TsKYK1vpFIW0XM2q4pDj9peNbu9scjhme3yakXQIo0dmX+neRyNbjM7YKUzWcV0qlRa
-6bpNOte3SV6OVh9EXS17o/fK1PT2Nz3bN5H2gk3eR8gQKQsz2Slr2IRMdlv9h74bpmezWkCBSFmc
-9+XycET2ipdmXhBy+8qCKrCgudDm9sly9eaGh3kN2DRNUXq7Qt9fbpmexXH7BZIyBfAs7HuJsocp
-ss//huQA/rpNAD3JwBYFkv9ufGNmlT1jKdTlQUv3fCdcppOl0eJ/k4rbhcWU7rrXKav7sS4CnZGs
-cYtZC18xsXbEQ2Zl5a4R87WgV0LDyTnloXrMt5/gPegYtU0C+kz8qS1RVO5niOFTaf0v+F93tS9m
 +UZmwte0WTNYmeJfglYWS2C6RazrYejdsMfmJ5YHtYuMAKxV78FwjzVJjFn+qG/+dB1N7/d2F/KT
 kkBRoeId7EqdmltGqmSREE8Fa4ZC3ES2qicD9zrKp7x6Yuvlz7w3c3i1VTtORrgJltU+UoSFN8ZN
 uftqF2d9/0TbTEVtIQIuEIV2mC0e9gDze23oHxxh/S/u9vR0hMSEuRUxdeqgThpbuPBvGP/mCFJ6
@@ -372,7 +365,6 @@ source .bashrc
 zi
 zi
 set -o vi
-asdhhasjdlkjasd asjdlajsd hey ajsdlk ajskld
 nu
 y
 tmux
@@ -498,3 +490,31 @@ infocmp -x xterm-ghostty | ssh YOUR-SERVER -- tic -x -
 infocmp -x xterm-ghostty | ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080 -- tic -x -
 nu
 ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
+ls $HOME/.config
+nu
+yay -Qe | fzf
+yay
+which cd
+echo $SHELL
+nu
+bash
+fish
+sudo sh -c 'echo "#hi" >> /etc/hosts'
+cat /etc/hosts
+nu
+echo #hi >> /etc/host
+cat /etc/host
+echo #hi >> /etc/hosts
+cat /etc/hosts
+sudo echo >> /etc/hosts
+sudo echo "hi" >> /etc/hosts
+sudo echo "#hi" >> /etc/hosts
+nu
+sudo dd if=/dev/sda bs=4M count=$((5819484160 / 4194304)) status=progress | sha256sum
+size=$(stat -c%s Win11_24H2_English_x64.iso)
+sudo cmp -n "$size" -s Win11_24H2_English_x64.iso /dev/sda && echo "Match ✅" || echo "Mismatch ❌"
+poweroff
+nvim
+nu
+printf 'NVIM_APPNAME=nvim-hanni\nEDITOR=nvim\n' > ~/.config/environment.d/10-user.conf
+nu

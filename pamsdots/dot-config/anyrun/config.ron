@@ -41,6 +41,7 @@ Config(
   plugins: [
     "libapplications.so",
     "libdictionary.so",
-    "libwebsearch.so"
+    "libwebsearch.so",
+    "libsymbols.so"
   ],
 )

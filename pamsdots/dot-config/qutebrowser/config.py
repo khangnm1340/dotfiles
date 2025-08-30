@@ -1,7 +1,11 @@
 config.load_autoconfig(False)
 
-import gruvbox_light_theme
-gruvbox_light_theme.apply_gruvbox_light_theme(c)
+import catppuccin
+
+catppuccin.setup(c, 'mocha', True)
+
+# import gruvbox_light_theme
+# gruvbox_light_theme.apply_gruvbox_light_theme(c)
 
 c.bindings.key_mappings = {'<Alt-j>': '<Return>'}
 
@@ -47,7 +51,13 @@ c.content.javascript.log_message.excludes = {
     ]
 }
 
-c.colors.webpage.darkmode.enabled = False
+c.colors.webpage.darkmode.enabled = True
+config.set('colors.webpage.darkmode.enabled', False, '*://127.0.0.1/*')
+
+
+config.bind('ck','config-cycle colors.webpage.darkmode.enabled true false ;; reload')
+# config.set("colors.webpage.preferred_color_scheme", "light", "127.0.0.1")
+
 
 
 config.bind('<Ctrl-R>', ':config-source ;; message-info "Config reloaded!"')

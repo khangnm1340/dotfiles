@@ -17,5 +17,11 @@
     "bindings": {
       // "j k": ["workspace::SendKeystrokes", "escape"]
     }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "shift-l": "pane::AlternateFile"
+    }
   }
 ]

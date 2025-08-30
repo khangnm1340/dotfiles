@@ -18,6 +18,7 @@ export MANPAGER="nvim +Man!"
 
 export EDITOR='ghostty -e nvim'
 export VISUAL='ghostty -e nvim'
+export NVIM_APPNAME='nvim-hanni'
 
 function y() {
       local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd

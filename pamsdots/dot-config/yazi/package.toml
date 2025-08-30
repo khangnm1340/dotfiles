@@ -37,3 +37,8 @@ hash = "eef7cfa41fe51c19628d28cf453e967d"
 use = "yazi-rs/flavors:catppuccin-latte"
 rev = "d3fd3a5"
 hash = "a4d508772dc7b20d739a2f9a1d2d396f"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "5f56364"
+hash = "c0bf69ad2c44005892d586e9693993c6"

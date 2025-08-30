@@ -17211,3 +17211,1760 @@ yt-dlp https://www.youtube.com/watch?v=EsHQB9gT96k
 jkl https://www.youtube.com/shorts/N9Xy-yXP6F0
 yt-dlp https://www.youtube.com/shorts/N9Xy-yXP6F0
 yt-dlp https://www.youtube.com/shorts/o7JPtt01Cis
+gl https://x.com/_jaznam/status/1955831944148869324
+gl https://x.com/pouchwonki/status/1955954276418904268
+gl https://x.com/hyekittyz/status/1955885245598679192
+gl https://x.com/http7salma/status/1955735552176881802
+gl https://x.com/newjified/status/1955649607511478358
+gl https://x.com/Nai_KiwiNWJNS/status/1956097968441794608
+gl https://x.com/isainstars/status/1955307689317384209
+gl https://x.com/GifsAnime_/status/1955972214638964796
+gl https://x.com/Splias/status/1956345467056402683
+gl https://x.com/hourlykrn/status/1955934019117265141
+gl https://x.com/tina2nHR/status/1955639467102117934
+gl https://x.com/hannihourly/status/1956200517681504314
+gl https://x.com/CakeDegg/status/1956335113731453272
+gl https://x.com/AvarageSerbian/status/1955732153024544938
+gl https://x.com/hannihourly/status/1955818952967512173
+gl https://x.com/terrariuh/status/1956057635783934318
+gl https://x.com/newjeans_loop/status/1955853274914963821
+gl https://x.com/idaelso/status/1955888752280396187
+gl https://x.com/n0tlyna/status/1955914659212534245
+cd -
+gl https://x.com/sweeneydailyx/status/1956136528566214723
+gl https://x.com/newjified/status/1956051907610292353
+cd -
+gl https://x.com/ekkophi/status/1955965906573779183
+gl https://x.com/adrasticte67134/status/1956157121437032797
+gl https://x.com/billiesdyke/status/1955811039309914471
+gl https://x.com/hyeiccino/status/1955636347672408387
+gl https://x.com/AMAZlNGNATURE/status/1956028163386941465
+gl https://x.com/danielleloop/status/1956349547359490251
+gl https://x.com/newjified/status/1955691066708951356
+gl https://x.com/zyosmimo/status/1955732580516683919
+gl https://x.com/newjified/status/1955678691654353326
+gl https://x.com/sweeneydailyx/status/1956392843028602961
+gl https://x.com/seuljeanz/status/1955878611975856389
+gl https://x.com/mitanghaerin/status/1956307664931017068
+btop
+wget https://raw.githubusercontent.com/vast-ai/vast-python/master/vast.py -O vast; chmod +x vast;
+vast
+vast | wl-copy
+vast --help | wl-copy
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install jupyterthemes<\n>
+jt -l<\n>
+jt -t solarizedl
+pip install catppuccin-jupyterlab
+jupyter-lab
+yay -Qe | fzf
+jt -t solarizedl
+jupyter-lab
+yay -Rns jupyter-notebook
+yay -Qe | fzf
+which jupyter-lab
+exit
+tmux
+jupyter-lab
+which jupyter-lab
+yay -Qe | fzf
+yay -Rns python-jupyterlab-vim
+jupyter-lab
+yay -S jupyterlab
+jupyter lab
+ps | where name =~ "jupyter"
+pkill jupyter-*
+ps | where name =~ "jupyter"
+jupyter lab
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+jupyter nbextension jupyterthemes
+jupyter nbextension install jupyterthemes
+nu config
+$env.HOME
+jupyter lab paths
+nu config
+$env.HOME
+$env.HOME/
+$env.HOME/.config/
+cd $env.HOME/.config/
+cd "$env.HOME/.config/"
+cd "$env.HOME/.config"
+ls -a $env.HOME
+jupyter lab paths
+z
+ls $env.HOME/.config
+ls $env.HOME
+ls "$env.HOME/.config"
+ls (path "$env.HOME/.config")
+ls ~
+$env.XDG_CONFIG_HOME<\n>
+ls $env.XDG_CONFIG_HOME
+help path
+jupyter lab paths
+path expand $env.HOME 
+jupyter lab --no-browser
+jupyter lab paths
+jupyter labextension list<\n>
+yay -Rns jupyterlab
+jupyter lab
+yay -Qs | fzf
+yay -Qe | fzf
+yay -Rns jupytext
+yay -Qe | fzf
+yay -Rns python-jupytext
+jupyter
+which jupyter
+yay -Qs | fzf
+jupyter
+jupyter lab
+jupyter -h
+jupyter --config-dir
+jupyter --data-dir
+jupyter --runtime-dir
+jupyter --paths
+jupyter --json
+jupyter --paths --json
+jupyter --debug
+jupyter --paths --debug
+which jupyter
+pacman -Qo jupyter
+pactree
+yay -Qs | fzf
+sudo pacman -S pacman-contrib
+pactree
+pacman -Qo jupyter
+pactree -r python-jupyter-core
+yay -Qe | fzf
+pactree -r python-ipykernel
+yay -Rns python-ipykernel
+jupyter
+yay -S jupyterlab
+jupyter
+jupyter lab paths
+jupyter labextension list<\n>
+jupyter --user labextension list
+jupyter labextension list jupyter labextension list<\n>
+jupyter labextension list --user
+jupyter labextension list
+jupyter lab --no-browser
+jupyter lab build
+jupyter labextension list
+z
+jupyter lab --generate-config
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip freeze | fzf
+which "jupyter lab"
+jupyter labextension install catppuccin-jupyterlab
+pkill jupyter-*
+jupyter lab
+jupyter lab
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install jupyterlab-vim
+jupyter lab
+pip install jupyterlab-fonts
+jupyter lab
+fd
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+jl
+fc-list | grep -i "JetBrains Mono"
+fc-list
+fc-list | fzf
+fc-list
+fc-list | fzf
+jupyter lab --version
+ls
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install praw
+git clone https://github.com/praw-dev/praw.git
+tokei
+fd
+fd --type f
+fd --type f | wc -w $in
+fd --type f -print0 | xargs -0 wc -w
+tokei --help
+clear
+tokei
+gemini
+gl https://www.instagram.com/reel/DNYOKSUx0rS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DK1wjSfTXS_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DNMBYJvzLnQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMvas_QOyTR/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMJL3V0SCEn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKB6KpkxKSZ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNCXt6ISGoR/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNTn_wVzvwx/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKs7vtTxm_E/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/p/DNSN6Z4tyqs/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNSxSkAO69G/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNMFIEHAEFL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM4PCZZPQrq/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DJNszvDOMnN/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNaqHMvSwBM/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL7iXUwuJ00/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNNzM2MPlcp/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DNOqXDuxWIi/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLyYlTdz8Qo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLgFcyvhHoC/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJz2lQCobC7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNYCbKUzJPu/?utm_source=ig_web_copy_link
+poweroff
+polars open all_comments_hanni.parquet
+polars open all_comments_hanni.parquet | polars first | polars collect
+polars open all_comments_hanni.parquet | polars select id link_id parent_id body |  polars first | polars collect
+polars open all_comments_hanni.parquet | polars select id link_id parent_id body |  polars first 1000 | polars collect
+gmeini
+polars open all_comments_hanni.parquet | polars select id link_id parent_id body |  polars filter ( (polars col "link_id") == (polars lit "t3_1l0ya3f"))
+polars open all_comments_hanni.parquet <\n>| polars select id link_id parent_id body <\n>| polars filter ( (polars col link_id) == (polars lit "t3_1l0ya3f"))<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select id link_id parent_id body <\n>| polars filter ( (polars col link_id) == (polars lit "t3_1l0ya3f"))<\n>| polars save comment_tree.csv
+open comment_tree.json
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| fzf
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars first
+open all_comments_hanni.parquet <\n>| first
+open all_comments_hanni.parquet 
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| polars into-nu<\n>| fzf
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| polars into-nu
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| polars into-nu<\n>| first
+polars open all_comments_hanni.parquet <\n>| polars first<\n>| polars into-nu<\n>| first<\n>| fzf
+polars open all_comments_hanni.parquet <\n>| polars select name link_id parent_id body <\n>| polars filter ( (polars col link_id) == (polars lit "t3_1l0ya3f"))<\n>| polars save comment_tree.csv
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+open contextualized_comments.json
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install jupyterlab-vimrc<\n>
+which "jupyter lab"
+jupyter lab --version
+pip freeze | fzf
+which jupyter
+jupyter --version
+pip install --upgrade jupyter
+jupyter --version
+yay -Qe | fzf
+which jupyter
+jupyter --version
+pip install --upgrade jupyterlab
+jupyter --version
+pip uninstall jupyterlab-vimrc
+open contextualized_comments_full.json
+open contextualized_comments_full.json | columns
+open contextualized_comments_full.json | reject body
+open contextualized_comments_full.json | reject body | group-by parent_id
+open contextualized_comments_full.json | reject body
+open contextualized_comments_full.json | reject body | where contextualized_text =~ "It cannot be"
+open r_BudgetAudiophile_comments.jsonl | columns
+open r_BudgetAudiophile_comments.jsonl | first | columns
+open r_BudgetAudiophile_comments.jsonl | first | columns | fzf
+open r_BudgetAudiophile_comments.jsonl | first | columns | into-text | fzf
+open r_BudgetAudiophile_comments.jsonl | first | columns | to-text | fzf
+open r_BudgetAudiophile_comments.jsonl | first | columns | to-text
+open r_BudgetAudiophile_comments.jsonl | first | columns | to text | fzf
+open r_BudgetAudiophile_comments.jsonl | first | columns | to text | wl-copy
+pip install transformers
+pip install torch
+jkl https://www.youtube.com/watch?v=Ef5MyWEkM4c
+jkh https://www.youtube.com/watch?v=Ef5MyWEkM4c
+gl https://www.instagram.com/stories/lf.tlinh/3700440079995997551/
+jkl https://www.youtube.com/watch?v=phuiiNCxRMg&pp=ygUIc3VwYW5vdmE%3D
+w https://i.redd.it/cuzkhj1ujijf1.jpeg
+w anh trai say hi vegas ticket number
+w 
+w https://preview.redd.it/t%E1%BB%9B-ch%E1%BA%A1-h%C4%A9u-c%C3%A1c-c%E1%BA%ADu-n%C3%B3i-g%C3%AC-v0-1zz3js3vbjjf1.jpeg?width=709&auto=webp&s=95c81abe7bceb78c3807797e6f027f20502522dc
+polars open all_comments_hanni.parquet | polars select id link_id parent_id body |  polars first 1000 | polars collect<\n>
+btop
+z
+zi
+z alo/
+z
+z alo
+zi
+z test
+zi test
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+which pip
+./pip freeze
+ssh thuroot@14.186.42.115
+sudo ufw allow 22
+open contextualized_comments_full.json
+open contextualized_comments_full.json | reject body | where contextualized_text =~ "It cannot be"
+open contextualized_comments_full.json | reject body | where contextualized_text =~ "fault"
+jl
+jkl https://www.youtube.com/shorts/_SaJzVIfhf0
+yt-dlp https://www.youtube.com/shorts/_SaJzVIfhf0
+yt-dlp https://www.youtube.com/shorts/SurXV_5MqZg
+poweroff
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+polars open all_comments_hanni.parquet | polars save all_comments.csv<\n>
+polars open all_posts.parquet | polars save all_posts.csv
+polars open all_posts_hanni.parquet | polars save all_posts_hanni.csv
+nmtui
+nordvpn d
+ping google.com
+curl -v --upload-file all_comments_hanni.csv https://transfer.sh/all_comments_hanni.csv
+polars open all_posts_hanni.parquet | polars shape
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars shape
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polar select id title
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id title | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by socre | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars first 50 | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars last 50 | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars first 50 | polars collect
+polars open all_posts_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars first 25 | polars collect
+fastfetch
+fastfetch --help
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip freeze | fzf
+pip install polars
+pip install itables
+nordvpn d
+polars open all_comments_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select id score title | polars sort-by score | polars collect
+polars open all_comments_hanni.parquet | polars filter ((polars col "subreddit") == (polars lit "headphones")) | polars select name score body | polars sort-by score | polars collect
+polars open all_posts_hanni.parquet <\n>| polars filter ((polars col "subreddit") == (polars lit "headphones")) <\n>| polars select name score title | polars sort-by score | polars collect
+gemini
+yay -S go-chromecast-git
+go-chromecast ls
+nmtui
+go-chromecast ls
+jkl https://www.youtube.com/watch?v=jUNz-uTF--E
+jkl https://www.youtube.com/watch?v=jUNz-uTF--E --list-format
+jkl https://www.youtube.com/watch?v=jUNz-uTF--E --list-formats
+yt-dlp https://www.youtube.com/watch?v=jUNz-uTF--E
+jkl https://youtu.be/jUNz-uTF--E?si=ZU2Op9nPKhm45YsB
+jkl https://www.youtube.com/watch?v=Rj7N4ThLGQY
+yt-dlp https://www.youtube.com/shorts/md9e-Ys-zTw
+btop
+ps | sort-by mem
+ps | sort-by mem | reverse
+ps | sort-by mem
+ps | sort-by mem | select name mem |<\n>| group-by name {<\n>    total_mem: (mem | math sum)<\n>    count: (size) # Optional: if you also want to see how many instances<\n>  }<\n>| rename process_name total_mem instances_count # Rename columns for clarity
+ps | sort-by mem | select name mem |<\n>| group-by name {<\n>    total_mem: (mem | math sum)<\n>    count: (size)<\n>  }<\n>| rename process_name total_mem instances_count
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | last 20<\n>
+yt-dlp https://www.youtube.com/shorts/K9-ZhZ3D-cU
+yt-dlp https://www.youtube.com/shorts/Zmu7P0TYCns
+gl https://www.instagram.com/reel/DNeGLxlS_kP/?utm_source=ig_web_copy_link
+nordvpn d
+nordvpn c
+gemini
+npm install -g @google/gemini-cli
+sudo npm install -g @google/gemini-cli
+btop
+gmeini
+polars open all_posts_hanni.parquet <\n>| polars filter ((polars col "subreddit") == (polars lit "headphones")) <\n>| polars select name score | polars sort-by score | polars first | polars collect
+polars open all_posts_hanni.parquet <\n>| polars filter ((polars col "subreddit") == (polars lit "headphones")) <\n>| polars select name score | polars sort-by score | polars last | polars collect
+polars open all_comments_hanni.parquet <\n>| polars filter ((polars col "link_id") == (polars lit "t3_1m5i5lg")) <\n>| polars select name score body | polars sort-by score | polars collect
+polars open all_comments_hanni.parquet <\n>| polars filter ((polars col "link_id") == (polars lit "t3_1m5i5lg")) <\n>| polars select name score body | polars sort-by score | polars save test_comments.parquet
+polars open all_comments_hanni.parquet <\n>| polars filter ((polars col "link_id") == (polars lit "t3_1m5i5lg")) <\n>| polars select name link_id parent_id score body | polars sort-by score | polars save test_comments.parquet
+gemini
+polars open all_posts_hanni.parquet <\n>| polars select name score title selftext | polars sort-by score | polars last 100 | polars collect
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | describe
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | to text
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | to text
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | to nuon
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | to nuon
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name | to text
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name | to text | describe
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | describe
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | each {|row| echo $row}
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name | each {|row| echo $row}
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name | describe
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name | describe<\n>| each {|row| echo $"hi_$row"}
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name<\n>| each {|row| echo $"hi_$row"}
+polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name<\n>| each {|row| echo $"hi_($row)"}
+let top_100p = (polars open all_posts_hanni.parquet <\n>| polars select name score subreddit title selftext | polars sort-by score <\n>| polars last 100 | polars get name | polars into-nu | get name)
+$top_100p<\n>| each {|item| echo $"hi_($item)"}
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) == (pol lit "$top_100p"))<\n>| polars collect
+$top_100p
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) == (polars lit "$top_100p"))<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is_in "$top_100p"))<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in "$top_100p"))<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars collect
+polars open all_posts_hanni.parquet <\n>| polars select name score title selftext| polars sort-by score <\n>| polars last 100 | polars save top_100_posts_for_combination.parquet
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars save top_100_comments_for_combination.parquet
+polars open all_posts_hanni.parquet <\n>| polars select name subreddit score title selftext| polars sort-by score <\n>| polars last 100 | polars save top_100_posts_for_combination.parquet
+$top_100p
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars save top_100_comments_for_combination.parquet
+polars open all_posts_hanni.parquet <\n>| polars select name subreddit score title selftext| polars sort-by score <\n>| polars last 100 | polars save top_100_posts_for_combination.parquet
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars save top_100_comments_for_combination.parquet
+polars open top_100_posts_for_combination.parquet<\n>| polars select (polars col title | polars str-join -d '\n' selftext ) 
+polars open top_100_posts_for_combination.parquet<\n>| polars select (polars col title | polars str-join -d '\n' selftext ) <\n>| polars collect
+let other = ( polars open top_100_posts_for_combination.parquet | polars select selftext)
+polars open top_100_posts_for_combination.parquet<\n>| polars select (polars col title | polars str-join -d '\n' $other ) <\n>| polars collect
+$other | describe
+let other = ( polars open top_100_posts_for_combination.parquet | polars select selftext | polars collect)
+$other | describe
+polars open top_100_posts_for_combination.parquet<\n>| polars select (polars col title | polars str-join -d '\n' $other ) <\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join -d '\n' $other<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join -d '\n' $other
+$other
+let other = ( polars open top_100_posts_for_combination.parquet | polars select selftext | polars collect)
+$other
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join -d '\n' $other<\n>| polars collect
+$other
+polars open top_100_posts_for_combination.parquet <\n>| polars collect
+polars open top_100_posts_for_combination.parquet <\n>| polars collect<\n>| polars select selftext | polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join -d '\n' $other<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join -d 'NIGGERS' $other<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join $other -d 'NIGGERS'<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars select title | polars str-join $other -d ','<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars select combined<\n>| polars collect
+| polars select combined
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars drop title selftext<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars drop title selftext<\n>| polars filter ((polars col combined) | (polars contains "http"))<\n>| polars collect
+polars open all_posts_hanni.parquet | polars first | polars collect
+polars open all_posts_hanni.parquet | polars first | polars schema
+polars open all_posts_hanni.parquet |<\n>| polars select selftext<\n>| polars filter ((polars col combined) | (polars contains "http"))<\n>| polars collect
+polars open all_posts_hanni.parquet |<\n>| polars select selftext<\n>| polars filter ((polars col selftext) | (polars contains "http"))<\n>| polars collect
+polars open all_posts_hanni.parquet<\n>| polars select selftext<\n>| polars filter ((polars col selftext) | (polars contains "http"))<\n>| polars collect
+polars open all_posts_hanni.parquet | polars first | polars schema
+polars open all_posts_hanni.parquet | polars first | polars schema | to text
+polars open all_posts_hanni.parquet | polars first | polars schema | to text | wl-copy
+polars open top_100_posts_for_combination.parquet | polars schema<\n>polars open top_100_comments_for_combination.parquet | polars schema
+polars open top_100_posts_for_combination.parquet | polars schema
+polars open top_100_comments_for_combination.parquet | polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post)]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit null | polars as link_id), (polars lit null | polars as parent_id) ]<\n>| polars schema
+polars open --egaer top_100_posts_for_combination.parquet
+polars open --eager top_100_posts_for_combination.parquet
+polars open --eager top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit null | polars as link_id), (polars lit null | polars as parent_id) ]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit null | polars as link_id), (polars lit null | polars as parent_id) ]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit null | polars cast str | polars as link_id), (polars lit null | polars cast str | polars as parent_id) ]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body)<\n>| polars drop title selftext<\n>| polars filter ((polars col body) | (polars contains "http"))<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars drop title selftext<\n>| polars schema<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars drop title selftext<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column ((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined)<\n>| polars with-column [ (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars schema<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [(polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined<\n>, (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [(polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined<\n>, (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as combined),<\n> (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars schema
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n> (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars schema
+polars open top_100_comments_for_combination.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)]<\n>| polars schema
+let other_file = (polars open top_100_comments_for_combination.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)])
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n> (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars concat other_file<\n>| polars last 100<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n> (polars lit true | polars as is_post), (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id) ]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars last 100<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),(polars lit true | polars as is_post),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars last 100<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars last 100<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars first 100<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars first 101<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars schema
+let top_100p = (polars open all_posts_hanni.parquet <\n>| polars select name score| polars sort-by score <\n>| polars last 10 | polars get name | polars into-nu | get name)
+polars open all_posts_hanni.parquet <\n>| polars select name subreddit score title selftext| polars sort-by score <\n>| polars last 10 | polars save top_100_posts_for_combination.parquet
+$top_10p
+$top_100p
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars save top_100_comments_for_combination.parquet<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars save top_100_comments_for_combination.parquet
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars sample --n 2000<\n>| polars shape
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars sample -n 2000<\n>| polars shape
+polars open all_posts_hanni.parquet <\n>| polars select name subreddit score title selftext| polars sort-by score <\n>| polars last 200 | polars save top_100_posts_for_combination.parquet
+let top_100p = (polars open all_posts_hanni.parquet <\n>| polars select name score| polars sort-by score <\n>| polars last 200 | polars get name | polars into-nu | get name)
+polars open all_comments_hanni.parquet <\n>| polars select name subreddit score link_id parent_id body<\n>| polars filter ((polars col link_id) | (polars is-in $top_100p))<\n>| polars sample -n 2000<\n>| polars save top_100_comments_for_combination.parquet
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars shape
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars save file_chung_post_va_comment.parquet
+let other_file = (polars open top_100_comments_for_combination.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)])
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars shape
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars save file_chung_post_va_comment.parquet
+polars open file_chung_post_va_comment.parquet | polars collect
+polars open top_100_posts_for_combination.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars drop title selftext<\n>| polars concat $other_file<\n>| polars save file_chung_post_va_comment.csv
+open --raw file_chung_post_va_comment.csv
+clear
+fd /
+cd /
+fd
+cd /
+cd /
+fd
+fd
+fd | wc -l
+cd -
+jl
+w 
+w https://preview.redd.it/what-the-fuckkkkk-v0-5hun5qrm10kf1.jpeg?width=320&crop=smart&auto=webp&s=128926a0a86ebaa4f6bbe28f65189921cdf1a491
+polars open top_post_s_comments.parquet | polars schema
+python download_posts.py
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+python download_posts.py
+polars open all_comments.parquet | polars first 1000 | polars save all_comments.csv
+polars open all_posts.parquet | polars first 1000 | polars save all_posts.csv
+jkl https://www.youtube.com/watch?v=mrgApjHbRLw
+yt-dlp https://www.youtube.com/watch?v=mrgApjHbRLw
+yt-dlp -f "bestvideo[height<=?720]+bestaudio" https://www.youtube.com/watch?v=yes8eMahMCE
+yt-dlp --list-format https://www.youtube.com/watch?v=yes8eMahMCE
+yt-dlp --list-formats https://www.youtube.com/watch?v=yes8eMahMCE
+yt-dlp -f 232+234 https://www.youtube.com/watch?v=yes8eMahMCE
+yay
+yt-dlp -f 232+234 https://www.youtube.com/watch?v=yes8eMahMCE
+yt-dlp -f 232+234 https://youtu.be/yes8eMahMCE?si=QvtnWMkNlrESUfsb
+jkh https://youtu.be/yes8eMahMCE?si=QvtnWMkNlrESUfsb
+pwd | wl-copy
+http get https://www.reddit.com/r/linux/comments/1agwklx/what_is_currently_the_best_video_editor_on_linux/
+http get https://www.nushell.sh/lang-guide/chapters/types/basic_types/nothing.html#additional-language-notes
+w https://pbs.twimg.com/media/GypaoTZbgAAKjGd?format=jpg&name=large
+w https://pbs.twimg.com/media/GyueEUAacAENGqk?format=jpg&name=large
+w https://x.com/kang20220722/status/1957838905958695078
+w https://pbs.twimg.com/media/GyukG_jacAAlO0V?format=jpg&name=small
+w https://pbs.twimg.com/media/GyukG_jacAAlO0V?format=jpg&name=large
+w https://pbs.twimg.com/media/GyuG5dcagAA087k?format=jpg&name=small
+gl https://x.com/Petta_059/status/1957806789619249541/photo/1
+fd
+fd --type f
+fd --type f | describe
+fd --type f | echo $in
+fd --type f | mv $in .
+fd
+fd --type f
+fd --type f | each { |it| echo $it.name}
+fd --type f | each { |it| mv $it.name}
+fd --type f --json
+man --help
+man fd
+man fd | nvim
+fd --type f -x mv {} .
+exiftool 3606926805450518355.mp4
+fd .
+fd --type d
+fd --type d -x echo
+ls
+ls -d */
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name | each {|file|<\n>        let filename = ($file | path parse).name<\n>        let new_name = $dir.name + $filename<\n>        mv $file $new_name<\n>    }<\n>}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name}
+ls -d */ | each {|dir|<\n>    fd --type f  $dir.name}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name} | each {|file| open $file}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name -x start}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name -x "nu -c start"}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name -x echo}
+ls -d */ | each {|dir|<\n>    fd --type f --full-path '' $dir.name | each {|file|<\n>        let filename = ($file | path parse).name<\n>        let new_name = $dir.name + $filename<\n>        mv $file $new_name<\n>    }<\n>}
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    let dir_name = ($it.name | path basename)<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        let new_path = $"($dir_path)/($dir_name)-($filename)"<\n>        echo $"mv '($old_path)' '($new_path)'"<\n>    }<\n>}
+z
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    let dir_name = ($it.name | path basename)<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        let new_path = $"($dir_path)/($dir_name)-($filename)"<\n>        echo $"mv '($old_path)' '($new_path)'"<\n>    }<\n>}<\n>
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    let dir_name = ($it.name | path basename)<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        let new_path = $"($dir_path)/($dir_name)-($filename)"<\n>        mv '($old_path)' '($new_path)'<\n>    }<\n>}
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    let dir_name = ($it.name | path basename)<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        let new_path = $"($dir_path)/($dir_name)-($filename)"<\n>        echo $"mv '($old_path)' '($new_path)'"<\n>    }<\n>}<\n>
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    let dir_name = ($it.name | path basename)<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        let new_path = $"($dir_path)/($dir_name)-($filename)"<\n>        mv $old_path $new_path<\n>    }<\n>}<\n>
+fd
+fd
+ghostty +list-keybinds | nvim
+clear
+fd
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        echo $"mv '($old_path)' '($filename)'"<\n>    }<\n>}<\n>
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        mv '($old_path)' '($filename)'<\n>    }<\n>}
+ls -d */ | each { |it|<\n>    let dir_path = $it.name<\n>    ls $dir_path | each { |file|<\n>        let old_path = $file.name<\n>        let filename = ($file.name | path basename)<\n>        mv $old_path $filename<\n>    }<\n>}
+jkl https://www.youtube.com/watch?v=LQ1KjQJ07FM
+nordvpn c
+yay -Qe | fzf
+nordvpn c
+jkl https://www.youtube.com/watch?v=LQ1KjQJ07FM
+jkl https://youtu.be/LQ1KjQJ07FM?si=bihN90yiiXYm-woi
+yt-dlp https://youtu.be/LQ1KjQJ07FM?si=bihN90yiiXYm-woi
+jkl https://youtu.be/m9QYF3CZcf4?si=nQ4qu_HHESNuqQwv
+yt-dlp -f bestvideo+bestaudio https://youtu.be/m9QYF3CZcf4?si=nQ4qu_HHESNuqQwv
+yt-dlp https://youtu.be/m9QYF3CZcf4?si=nQ4qu_HHESNuqQwv
+jkl https://www.youtube.com/watch?v=rDllrOqHsRI
+yt-dlp https://www.youtube.com/watch?v=rDllrOqHsRI
+w https://pbs.twimg.com/media/Gyuze8JXIAAUJJn?format=jpg&name=medium
+w --content-disposition https://pbs.twimg.com/media/Gyuze8JXIAAUJJn?format=jpg&name=medium
+wget2 --content-disposition https://pbs.twimg.com/media/Gyuze8JXIAAUJJn?format=jpg&name=medium
+man wget2 | nvim
+gallery-dl -D . https://x.com/missinmybluemin/status/1957855864972329111/photo/1
+wk
+wk https://x.com/qaHEqxyzUF99214/status/1958409838540845339
+polars open all_comments.parquet | polars schema
+polars open all_comments.parquet
+polars open all_comments_hanni.parquet | polars schema
+tmux
+polars open all_comments_hanni.parquet | polars select subreddit_type | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select subreddit_type | polars filter ((polars col subreddit_type) | (polars contains "private")) | polars collect<\n>
+gemini
+cd
+wk https://x.com/kang20220722/status/1958220444840186198
+wk https://x.com/amanechan08/status/1958148792425107962
+yay -S opendrop
+opendrop
+git clone https://github.com/seemoo-lab/opendrop.git
+pip3 install ./opendrop
+python -m virtualenv .venv
+overlay use /home/pampam/builds/opendrop/.venv/bin/activate.nu
+pip3 install ./opendrop
+opendrop find
+pip3 install opendrop
+pip uninstall opendrop
+pip3 install opendrop
+opendrop
+/home/pampam/builds/opendrop/.venv/bin/activate.nu
+overlay use /home/pampam/builds/opendrop/.venv/bin/activate.nu
+opendrop
+pip install --force-reinstall opendrop
+opendrop
+yay -S localsend-bin<\n>
+nordvpn d
+wk https://x.com/_hannibunch/status/1958488834011984023
+wk https://x.com/ree_kkr/status/1957813641404645874
+wk https://x.com/bunntohru/status/1958130919161905416
+wk https://x.com/82llllllllll/status/1958165518533415309
+/run/media/pampam/277B4C5740516ECD
+nvim Zalo.lnk
+/run/media/pampam/8A54901E54900ED7
+fd zalo
+wk https://x.com/emnimmok16729/status/1958308667616616940
+yay -S zalo-macos
+wk https://x.com/bellibly/status/1958244850605973639
+wk https://x.com/artnielle/status/1958499348855095587
+wk https://x.com/emnimmok16729/status/1958342571559936348
+polars open all_comments_hanni.parquet | polars select subreddit_type <\n>| polars filter ((polars col subreddit_type) | (polars contains "private")) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select subreddit_type <\n>| polars filter ((polars col subreddit_type) | (polars contains "public")) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select total_awards_received <\n>| polars filter ((polars col total_awards_received) > (polars lit 0)) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select total_awards_received <\n>| polars filter ((polars col total_awards_received) = (polars lit 0)) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select total_awards_received <\n>| polars filter ((polars col total_awards_received) == (polars lit 0)) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars select subreddit_name_prefixed <\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit_name_prefixed <\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit_name_prefixed subreddit<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select created_utc retrieved_on<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select locked<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select locked<\n>| polars filter ((polars col locked) == (polars lit true)) | polars collect<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select gilded<\n>| polars filter ((polars col gilded) > (polars lit 0)) | polars collect<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select gilded<\n>| polars filter ((polars col gilded) == (polars lit 0)) | polars collect<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select is_submitter<\n>| polars filter ((polars col is_submitter) == (polars lit true)) | polars collect<\n>| polars collect
+polars open all_comments_hanni.parquet <\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select is_submitter<\n>| polars filter ((polars col is_submitter) == (polars lit true)) | polars collect<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select is_submitter subreddit<\n>| polars filter ((polars col is_submitter) == (polars lit true))<\n>| polars filter ((polars col "subreddit") == (polars lit PCMasterRace)) | polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select is_submitter subreddit<\n>| polars filter ((polars col is_submitter) == (polars lit true))<\n>| polars filter ((polars col "subreddit") == (polars lit pc)) | polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select is_submitter subreddit<\n>| polars filter ((polars col "subreddit") == (polars lit pc)) | polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit<\n>| polars unique<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit<\n>| polars unique<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit is_submitter<\n>| polars filter ((polars col subreddit) == (polars lit PcBuild))<\n>| polars filter ((polars col is_submitter) == (polars lit true)) | polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars group-by subreddit<\n>| polars select subreddit name score<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit name score<\n>| polars group-by subreddit<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars group-by subreddit<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet <\n>| polars select subreddit name score<\n>| polars group-by subreddit<\n>| polars agg (polars col subreddit | polars count)<\n>| polars collect<\n>
+polars open all_comments_hanni.parquet | polars select subreddit name score | polars group-by subreddit | polars agg (polars col<\n>     subreddit | polars count | polars as "count") | polars collect
+[[a b]; [1 2] [1 4] [2 6] [2 4]]
+polars open all_comments_hanni.parquet |<\n>    polars select subreddit name score |<\n>    polars group-by subreddit |<\n>    polars agg [<\n>        (polars col name | polars count | polars as "comment_count"),<\n>        (polars col score | polars sum | polars as "total_score")<\n>    ] |<\n>    polars collect<\n>
+all_comments_hanni.parquet
+polars open all_comments_hanni.parquet | polars select (polars count)<\n>
+polars open all_comments_hanni.parquet | length<\n>
+polars scan all_comments_hanni.parquet | polars select (polars count) | polars collect<\n>
+polars open all_comments_hanni.parquet | polars agg (polars col subreddit | polars count)<\n>
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     (polars col subreddit | polars count) | polars collect | get count
+open all_comments_hanni.parquet
+open all_comments_hanni.parquet | polars shape
+polars open all_comments_hanni.parquet | polars shape
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     (polars col score | polars sum) | polars collect
+clear
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     (polars col score | polars sum) | polars collect
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ] | polars collect
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ]
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ] | get score_sum
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ] | get score
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ] | get score_sum
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ]
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum) ] | get score_sum
+polars open all_comments_hanni.parquet | polars with-column (polars lit 1 | polars as "dummy") | polars group-by dummy | polars agg<\n>     [ (polars col score | polars sum | polars as "score_sum") ] | get score_sum
+gemini
+polars open all_comments_hanni.parquet | polars select score | polars sum
+polars open all_comments_hanni.parquet | polars select score | polars sum | polars collect
+polars open all_comments_hanni.parquet | polars select id score | polars sum | polars collect
+polars open all_comments_hanni.parquet | polars select id (score | polars sum | polars as sum) | polars collect
+polars open all_comments_hanni.parquet | polars select id (polars col score | polars sum | polars as sum) | polars collect
+wk https://www.instagram.com/reel/DNVxnFpSN2Y/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNga2M1hXYE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMvRNCpMUE6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNEWs2XxrQG/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7_z64txk4/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNmv4Zrulu7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNJIT53yEC1/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNYHXBxMV95/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMzN-AFSlGA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/reel/DHo_quRiC4q/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL_XbBFM1en/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJtn_xcJGCs/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMAYAStx5vb/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNbUDC6OAvC/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMrD2CzpeI_/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DI5HW0ipNsd/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNPwI5Ihg4j/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNAae1Chxkj/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNfysI4pRQj/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DIDzi96T2Fp/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reels/DIQ1leLpH1g/
+pwd | wl-copy
+gl https://www.instagram.com/reel/DMwrbjtOZTo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNQChTstQQC/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZ_n-vsTUe/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DJdhz_4OE2k/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNjPDEjs7Yh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNPfHe5sLIV/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMbSqsLo53r/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLkd2dMg3bu/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLyE-7zyHif/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNGrtDIut0O/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNb-YaOITgK/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM9FbQqRuCn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNGZ5FzMKAW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMRz2SfyhJL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMiO9PIssEm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMKdYpouAPo/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLTA-VgzK2f/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNToFxXspzh/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKjawboxzw9/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLaDYfeRlfQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMoJ9oWvtc-/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMft8T6zkSH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMZRe-cpf1C/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMvEBNuytbr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLb9Y7HSwux/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNP8JF9uaGw/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMdozFyT54N/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNSQSIuxoU_/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMwo1tMRivm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNVM2a8z5mj/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMmK-_dTu5C/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNQEjtFTtaa/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL4dSrwT5lK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMr8wdMvEEV/?utm_source=ig_web_copy_link
+yay
+config nu
+$nu.history-path
+open ($nu.history-path)<\n>
+open ($nu.history-path) | lines | grep "asdh"
+which cd
+yay -Syu
+nordvpn c
+yay -Syu
+ping aur.archlinux.org
+sudo pacman -Syu
+sudo pacman -S --needed git base-devel<\n>git clone https://aur.archlinux.org/yay-bin.git<\n>cd yay-bin<\n>makepkg -si
+yay
+yay -Qe | fzf
+yay
+yay -Rns freetube
+yay -Rns python-frida-bin quarto-cli-bin
+yay -Rns python-frida quarto-cli-bin
+yay -Rns python-frida-tools quarto-cli-bin
+yay
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+gl
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars select domain
+polars open all_posts_hanni.parquet | polars select domain | polars collect
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars select is_original_content | polars collect
+polars open all_posts_hanni.parquet | polars select is_original_content <\n>| polars filter ((polars col is_original_content) == (polars lit true))| polars collect
+polars open all_posts_hanni.parquet | polars select is_original_content <\n>| polars filter ((polars col is_original_content) == (polars lit false))| polars collect
+polars open all_posts_hanni.parquet | polars schema
+| polars filter ((polars col send_replies) == (polars lit false))| polars collect
+polars open all_posts_hanni.parquet | polars select send_replies<\n>| polars filter ((polars col send_replies) == (polars lit false))| polars collect
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars select sticked<\n>| polars filter ((polars col sticked) == (polars lit false))| polars collect
+polars open all_posts_hanni.parquet | polars select stickied<\n>| polars filter ((polars col stickied) == (polars lit false))| polars collect
+polars open all_posts_hanni.parquet | polars select stickied<\n>| polars filter ((polars col stickied) == (polars lit true))| polars collect
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars select thumbnail | polars collect
+polars open all_posts_hanni.parquet | polars select total_awards_received<\n>| polars filter ((polars col total_awards_receive) > (polars lit 0))| polars collect
+polars open all_posts_hanni.parquet | polars select total_awards_received<\n>| polars filter ((polars col total_awards_received) > (polars lit 0))| polars collect
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars select upvote_ratio<\n>| polars filter ((polars col upvote_ratio) > (polars lit 99))| polars collect
+polars open all_posts_hanni.parquet | polars select upvote_ratio
+polars open all_posts_hanni.parquet | polars select upvote_ratio | polars collect
+polars open all_posts_hanni.parquet | polars select upvote_ratio<\n>| polars filter ((polars col upvote_ratio) < (polars lit 1))| polars collect
+polars open all_posts_hanni.parquet | polars select upvote_ratio permalink<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))| polars collect
+polars open all_posts_hanni.parquet | polars select upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars group-by subreddit | polars agg [(polar col upvote_ratio | polars count | polars as "count")]<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars group-by subreddit | polars agg [(polars col upvote_ratio | polars count | polars as "count")]<\n>| polars collect
+polars open all_comments_hanni.parquet |<\n>    polars select subreddit name score |<\n>    polars group-by subreddit |<\n>    polars agg [<\n>        (polars col name | polars count | polars as "comment_count"),<\n>        (polars col score | polars sum | polars as "total_score")<\n>    ] |<\n>    polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars group-by subreddit | polars agg [(polars col upvote_ratio | polars count | polars as "count")]<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n>| polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open r_AppleWatch_comments.jsonl | polars schema
+polars open r_AppleWatch_comments.jsonl | polars schema | fzf
+polars open all_posts_hanni.parquet | polars select subreddit upvote_ratio url<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit comment_count upvote_ratio url body<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit comment_counts upvote_ratio url body<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars schema
+polars open all_posts_hanni.parquet | polars schema | fzf
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url body<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url title<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect<\n>| polars group-by subreddit | polars agg [(polars col upvote_ratio | polars count | polars as "count")]
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url title<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars last 100<\n>| polars sort-by num_comments<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url title selftext<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars last 100<\n>| polars sort-by num_comments<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body)]<\n>| polars drop tilte selftext<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url title selftext<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars last 100<\n>| polars sort-by num_comments<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body)]<\n>| polars drop title selftext<\n>| polars collect
+polars open all_posts_hanni.parquet | polars select subreddit num_comments upvote_ratio url title selftext<\n># | polars filter ((polars col upvote_ratio) < (polars lit 0.5))<\n># | polars filter ((polars col subreddit) == (polars lit iphone))<\n>| polars sort-by upvote_ratio<\n>| polars reverse<\n>| polars last 100<\n>| polars sort-by num_comments<\n>| polars with-column [((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body)]<\n>| polars drop title selftext<\n>| polars save top_100_negative_comments.parquet
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install pyarrow fastparquet
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install datasets
+yay -S nmgui-bin
+yay -Rns nmgui-bin
+sudo pacman -S networkmanager network-manager-applet gnome-control-center
+nm-applet
+yay -Rns gnome-control-center
+nm-applet --indicator<\n>
+wk https://www.instagram.com/reel/DMvyGi-R77X/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNnDDVmuUbE/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMn_C_rTW7L/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNWH2UWMW9e/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLfqk19oBdm/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DHMz7Q-TvXW/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM3RXTIz4cJ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DHrk9TfPfLL/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNjy4xNvptH/?utm_source=ig_web_copy_link
+wk https://www.tiktok.com/@pouchwonki/video/7541347230821797128
+wk https://www.tiktok.com/@jeanzforfree5/video/7538633960453131538
+wk https://www.tiktok.com/@tokyjeans/video/7541180542000090376
+wk https://www.tiktok.com/@iloveloonaverse/video/7540153589126221087
+wk https://www.tiktok.com/@njdaniz/video/7509404965178297617
+gl https://www.tiktok.com/@njnvd6/video/7531702536189889808
+wk https://www.tiktok.com/@pouchwonki/video/7521563304913833234
+wk https://www.tiktok.com/@kim0hrn/video/7540784375542091015
+nordvpn c
+nordvpn d
+gl https://www.tiktok.com/@qn.67n__/video/7508762139750976786
+wk https://www.tiktok.com/@kim0hrn/video/7540976280179625234
+wk https://www.tiktok.com/@kangcat_0515/video/7539405424542436616
+wk https://www.tiktok.com/@cqt.cc/video/7534105248030346509
+pwd | wl-copy
+w https://p19-comment-sign-sg.tiktokcdn.com/tos-alisg-i-zt8igodiya-sg/7d66a4956521417890d304150ddc26f8~tplv-jj85edgx6n-image-medium.jpeg?dr=8569&refresh_token=7b985f6d&x-expires=1787407200&x-signature=IMeRlawq25LO3hR9v31TrQLZhe0%3D&t=67a6c45e&ps=a0626fcd&shp=ff37627b&shcp=ff37627b&idc=my
+wk https://www.tiktok.com/@mohniqueeee/video/7519527602126589202
+wk https://www.tiktok.com/@bbaaangsaz/video/7536862889144044807
+wk https://www.tiktok.com/@daisiesforyu/video/7534762430262512903
+wk https://www.tiktok.com/@chanh.n77/video/7533996989285928210
+wk https://www.tiktok.com/@user2a2j18gqlt/video/7535445695780769031
+wk https://www.tiktok.com/@chanh.n77/video/7533643392987811080
+gl https://www.tiktok.com/
+gl https://www.tiktok.com/@fullwarp/video/7528285925915348246
+wk https://www.tiktok.com/@chanh.n77/video/7540300362272541959
+w https://p16-comment-sign-va.tiktokcdn.com/tos-maliva-i-jj85edgx6n-us/bcf0290bfc7d45e880fd1cc66d70ac65~tplv-jj85edgx6n-image-medium.jpeg?dr=8569&refresh_token=6ab66e90&x-expires=1787410800&x-signature=YK65MMA3IB7xCWgBtqXTuT3cJzU%3D&t=67a6c45e&ps=a0626fcd&shp=ff37627b&shcp=ff37627b&idc=my
+wk https://www.tiktok.com/@biixinkiuu24/video/7537672504245062930
+gl https://www.tiktok.com/@illovuzii/video/7515041037694291222
+wk https://www.tiktok.com/@myky.in.zapann/video/7516038108924660999
+wk https://www.instagram.com/reels/DManXxcvRnk/
+wk https://www.instagram.com/reel/DManXxcvRnk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reels/DMUszn3ymNi/
+wk https://www.instagram.com/reel/DMUszn3ymNi/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DLNFhQmSuoh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNcBaqtPeNf/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMkJe0GN_B3/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLfZMCiidi0/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKaTb_Hzuzj/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKtwQMNzkMf/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMesaFayqNO/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM_Qk44zxkH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKL57tVyEcH/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DI2Hlh-se4P/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNRqzUtv7HT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DIMVNs2IsRL/?utm_source=ig_web_copy_link
+sudo nvim /etc/hosts
+sudo echo "#hi" o>> /etc/hosts
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+nmtui
+polars open all_posts_hanni.parquet | polars select url name<\n>| polars filter ((polars col name) == (polars lit "t3_1lykrz2"))<\n>| polars collect
+yazi
+cd soundcloud/
+cd
+cd -
+z soundcloud/
+cd
+z sound
+z
+z pic sound
+zi soun
+zi
+cat ~/.config/nushell/cd_history.txt | fzf
+cat ~/.config/nushell/cd_history.txt
+cat ~/.config/nushell/cd_history.txt | fzf
+man cd
+man zoxide | nvim
+man yazi | nvim
+man wget2 | nvim
+yay -Qe | fzf
+yay -Qe
+yay -Qe | fzf
+git log
+git
+git log
+git log | fzf
+fd | wc -l
+rg "polars lit 0.5"
+man rg | nvim
+rg --help
+rg --help | wl -l
+rg --help | wc -l
+man rg | wc -l
+man rg
+man rg | wc -l
+man rg | nvim
+y
+zellij
+tokei
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+touch testing_polars.py
+python a.py
+timeit {python a.py}
+polars open r_Chainsawfolk_comments.parquet | polars shape
+timeit {polars open r_Chainsawfolk_comments.parquet | polars shape}
+python a.py
+timeit {python a.py}
+timeit {polars open r_Chainsawfolk_comments.parquet | polars filter ((polars col "body") | (polars contains "chainsaw")) | polars shape}
+polars open r_Chainsawfolk_comments.parquet | polars filter ((polars col "body") | (polars contains "chainsaw")) | polars shape
+python a.py
+python b.py
+nu speed_test.nu
+which echo
+tmux
+which echo
+nu speed_test.nu
+let b = (timeit {python b.py})<\n>
+$b
+nu speed_test.nu
+./speed_test.nu
+timeit help
+nu speed_test.nu
+echo 3
+echo hi
+print hi
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+jl
+mkdir -p docs/assets/data/
+mkdir docs/assets/data/
+nordvpn d
+polars open r_Chainsawfolk_comments.parquet | polars filter ((polars col "body") | (polars contains "chainsaw")) | polars shape
+sudo nvim /etc/hosts
+nordvpn c
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+cat /etc/hosts | wl-copy
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+yay -Qs | fzf
+yay -S gufw
+yay -Qs | fzf
+systemctl statusiptables.service
+systemctl status iptables.service
+ufw enable
+sudo ufw enable
+dig x.com +short
+yay -S dig
+dig
+sudo pacman -S bind
+dig -v
+dig x.com +short
+sudo ufw status verbose<\n>
+gufw
+sudo -E gufw
+pwd | wl-copy
+wk https://x.com/rinneKO_art/status/1958938147808752127/photo/1
+wk https://www.reddit.com/r/VietNamNation/comments/1my14gz/h%C3%ACnh_%E1%BA%A3nh_ng%C6%B0%E1%BB%9Di_l%C3%ADnh_vnch_b%C4%83ng_b%C3%B3_cho_%C4%91%E1%BB%A9a_tr%E1%BA%BB_b%E1%BB%8B_v/
+w https://www.reddit.com/r/VietNamNation/comments/1my14gz/h%C3%ACnh_%E1%BA%A3nh_ng%C6%B0%E1%BB%9Di_l%C3%ADnh_vnch_b%C4%83ng_b%C3%B3_cho_%C4%91%E1%BB%A9a_tr%E1%BA%BB_b%E1%BB%8B_v/
+wk https://www.reddit.com/r/VietNamNation/comments/1my14gz/h%C3%ACnh_%E1%BA%A3nh_ng%C6%B0%E1%BB%9Di_l%C3%ADnh_vnch_b%C4%83ng_b%C3%B3_cho_%C4%91%E1%BB%A9a_tr%E1%BA%BB_b%E1%BB%8B_v/
+gl https://www.reddit.com/r/VietNamNation/comments/1my14gz/hình_ảnh_người_lính_vnch_băng_bó_cho_đứa_trẻ_bị_v/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1my14gz/h%C3%ACnh_%E1%BA%A3nh_ng%C6%B0%E1%BB%9Di_l%C3%ADnh_vnch_b%C4%83ng_b%C3%B3_cho_%C4%91%E1%BB%A9a_tr%E1%BA%BB_b%E1%BB%8B_v/
+/home/pampam/.local/share/qutebrowser
+nordvpn d
+rg "31082007"
+rg "password"
+rg "31082007"
+rg "password"
+rg --glob '!*.jsonl' 'password'
+rg --glob '!*.jsonl' --glob "!*.js" 'password'
+rg --glob '!*.jsonl' --glob "!*.csv" --glob "!*.js" 'password'
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --glob "!*.js" 'password'
+which rg
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --glob "!*.js" 'password'
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --glob "!*.js" '3108'
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --glob "!*.js" 'electronic'
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --glob "!*.js" 'Electronic_Leek'
+rg -uuu 'Electronic_Leek_1117'
+rg 'Electronic_Leek_1117'
+rg '31081974'
+rg '3108'
+rg '31082007'
+fd old_code | cd $in
+rg 'Electronic_Leek_1117'
+nvim DataMining/prawl_tests/praw.ini
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1my14gz/h%C3%ACnh_%E1%BA%A3nh_ng%C6%B0%E1%BB%9Di_l%C3%ADnh_vnch_b%C4%83ng_b%C3%B3_cho_%C4%91%E1%BB%A9a_tr%E1%BA%BB_b%E1%BB%8B_v/
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+fzf
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+z
+fd --help | fzf
+ls
+ls | to text
+ls | to text | fzf
+eza | fzf
+eza | fzf | open $in
+eza | fzf | start $in
+cat *.csv | wc -l
+cat *.jsonl | wc -l
+polars open *.parquet | polars shape
+polars open *.parquet | polars height
+help polars
+help polars | wc -l
+polars open *.parquet | polars len
+polars open *.parquet
+polars open *.parquet | polars collect
+z
+zi docs
+zi
+man zoxide
+man zoxide | nvim
+zoxide --help | nvim
+z --help
+zoxide --help
+zoxide -h
+zi
+z aoi
+z
+z aoi
+z
+z aoi
+ls
+zi
+ls
+yay -Qe | fzf
+ls
+z
+ls
+z
+ls
+z
+ls
+z
+ls
+cd -
+ls
+z
+ls
+help
+help commands
+help commands | where name =~ "polars"
+echo 'notify-send "Cancel ChatGPT Plus before renewal!"'
+notify
+notify on done {yay}
+z
+cd /
+notify on done {fd}
+notify -t "Test notification body" --summary "Test title"
+echo hi | at 00:38
+sudo pacman -S at<\n>
+sudo systemctl enable --now atd<\n>
+echo hi | at 00:40
+atq<\n>
+notify-send "Reminder" "Cancel ChatGPT Plus before it renews!"
+notify-send "Reminder" "Cancel ChatGPT Plus before it renews!" | at 00:42
+atq
+man at
+man at | nvim
+ghostty | at 00:45
+ghostty | at 00:47
+ghostty > at 00:47
+at 00:47 "ghostty"
+ghostty | at 25 August
+ghostty | at 9:00 AM Nov 24 2025
+atq
+wc -l
+wc -l conversations.json
+wc -l chat.html 
+sleep | at 1:37 AM
+suspend | at 1:37 AM
+suspend
+sleep
+notify -t "Test notification body" --summary "Test title" | at 1:37 AM
+notify -t "Test notification body" --summary "Test title" | at 1:39 AM
+atq
+atrm 7
+atrm 8
+atrm 9
+atq
+help echo
+which echo
+echo 'notify-send "Test title" "Test notification body"' | at 1:43 AM
+notify-send "Test title" "Test notification body" --timeout 10
+notify -t "Test notification body" --summary "Test title" --timeout 10
+notify -t "Test notification body" --summary "Test title" --timeout 1min
+pkill swaync
+run-external
+help run-external
+swaync &
+rmpc
+notify -t "Test notification body" --summary "Test title" --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/1d9bc3170ac74d09a4543f09210f3189~tplv-jj85edgx6n-image-medium.jpeg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/bcf0290bfc7d45e880fd1cc66d70ac65.jpeg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/gallery-dl/twitter/1955763899438899633_1.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/gallery-dl/twitter/1955763899438899633_2.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/548-GhD-ijvXUAAFDlU.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/568-Gh2hU1mXEAAb-rr.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/573-GitaE6EXYAAkvTW.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i 587-GjBSbvWbsAEA9sd.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/587-GjBSbvWbsAEA9sd.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/602-GjEphI4bIAMhMGc.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/647-Gj4yBTfW8AAbe6A.jpg --timeout 1min
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/670-Gj4ofwlX0AAaSR7.jpg --timeout 1min
+loop {notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/670-Gj4ofwlX0AAaSR7.jpg --timeout 1min}
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/670-Gj4ofwlX0AAaSR7.jpg --timeout 1min<\n>
+notify -t "Test notification body" --summary "Test title" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min<\n>
+notify -t "CANCEL THE CHATGPT PLUS BRO!!!! IT'S 20 DOLLARS, 500k VND, AND YOU'RE UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+swaync
+notify -t "CANCEL THE CHATGPT PLUS BRO!!!! IT'S 20 DOLLARS, 500k VND, AND YOU'RE UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+swaync
+pkill swaync
+swal
+notify -t "CANCEL THE CHATGPT PLUS BRO!!!! IT'S 20 DOLLARS, 500k VND, AND YOU'RE UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+swaync
+ghostty +list-fonts | fzf
+swaync
+notify -t "CANCEL THE CHATGPT PLUS BRO!!!! IT'S 20 DOLLARS, 500k VND, AND YOU'RE UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+notify -t "CANCEL THE CHATGPT PLUS BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+atq
+at 2:34 AM
+echo "notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min" | at 2:35 AM
+echo "nu -c "notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"" | at 2:35 AM
+echo "nu -c "notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"" | at 2:36 AM
+atq
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT\'s 20 DOLLARS WHICH IS 500K VND, AND YOU\'RE STILL UNEMPLOYED\" --summary \"CANCEL THE CHATGPT PLUS BRO!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at 2:38 AM
+atrm 13
+atq
+notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT'S 20 DOLLARS WHICH IS 500K VND, AND YOU'RE STILL UNEMPLOYED" --summary "CANCEL THE CHATGPT PLUS BRO!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT\'s 20 DOLLARS WHICH IS 500K VND, AND YOU\'RE STILL UNEMPLOYED\" --summary \"CANCEL THE CHATGPT PLUS BRO!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+atq
+echo 'nu -c "notify -t \"Test\" --summary \"Hello\" --timeout 5sec"' | at now
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! IT is 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED\" --summary \"CANCEL THE CHATGPT PLUS BRO!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL THE CHATGPT PLUS RIGHT NOW!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+swaync
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL THE CHATGPT PLUS RIGHT NOW!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+swaync-client --reload-config<\n>
+swaync
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL THE CHATGPT PLUS RIGHT NOW!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+swaync-client --reload-config<\n>
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL THE CHATGPT PLUS RIGHT NOW!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL CHATGPT PLUS RN!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"' | at now
+echo 'nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL CHATGPT PLUS RN!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"'
+nu -c "notify -t \"CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE\" --summary \"CANCEL CHATGPT PLUS RN!!\" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min"
+crontab -e
+sudo pacman -S cronie<\n>sudo systemctl enable --now cronie<\n>
+yay -Rns cronie<\n>sudo systemctl disable --now cronie
+cat ~/.config/systemd/user/notify.service
+touch ~/.config/systemd/user/notify.service
+nvim ~/.config/systemd/user/notify.service
+which nu
+touch ~/.config/systemd/user/notify.timer
+nvim ~/.config/systemd/user/notify.timer
+systemctl --user daemon-reload<\n>systemctl --user enable --now notify.timer<\n>
+systemctl --user list-timers<\n>
+systemctl --user start notify.service
+journalctl --user -u notify.service --since "5 minutes ago"<\n>
+yay
+yt-dlp https://www.tiktok.com/@.miffyuvu/video/7530837496242982149
+yt-dlp https://www.tiktok.com/@aerohyeinjz/video/7531296166835784978
+yt-dlp https://www.tiktok.com/@pouchwonki/video/7418773736205159687?q=aza%20%C3%A1nh%20s%C3%A1ng%20newjeans&t=1756009697354
+jkl https://www.youtube.com/watch?v=qazpZdJr-4A
+sudo nvim /etc/hosts
+sudo systemctl restart network-manager
+sudo systemctl restart Network-Manager
+systemctl restart NetworkManager
+wk https://www.reddit.com/r/VietNamNation/comments/1mys6ho/ch%C3%BAng_n%C3%B3_n%C3%B3i_y%C3%AAu_n%C6%B0%E1%BB%9Bc_%C4%91i_theo_ti%E1%BA%BFng_g%E1%BB%8Di_c%C3%A1ch_m%E1%BA%A1ng/
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1mys6ho/ch%C3%BAng_n%C3%B3_n%C3%B3i_y%C3%AAu_n%C6%B0%E1%BB%9Bc_%C4%91i_theo_ti%E1%BA%BFng_g%E1%BB%8Di_c%C3%A1ch_m%E1%BA%A1ng/
+sudo npm install -g @openai/codex
+npm install -g @openai/codex
+yay -S npm
+npm install -g @openai/codex
+sudo npm install -g @openai/codex
+nordvpn c United_States
+codex
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' "data mining"
+nordvpn d
+jkl https://www.youtube.com/watch?v=WXS-o57VJ5w
+jkh https://www.youtube.com/watch?v=gSm-eTRl9JE
+jkl https://www.youtube.com/watch?v=CHp0Kaidr14
+nordvpn d
+yay -S kodi
+yay -S plex-desktop
+job unfreeze
+yay -S plex-media-server
+sudo systemctl enable plexmediaserver.service<\n>sudo systemctl start plexmediaserver.service<\n>
+nordvpn d
+sudo systemctl status plexmediaserver
+curl -I http://127.0.0.1:32400
+btop
+sudo pacman -S jellyfin jellyfin-ffmpeg<\n>sudo systemctl enable --now jellyfin<\n>sudo systemctl status jellyfin<\n>
+sudo pacman -S jellyfin-server jellyfin-web jellyfin-ffmpeg<\n>sudo systemctl enable --now jellyfin<\n>
+sudo setfacl -R -m u:jellyfin:rx /home/Ext4Pam/Music/
+sudo usermod -aG video,render jellyfin
+sudo systemctl restart jellyfin
+systemctl status jellyfin
+sudo systemctl restart jellyfin<\n>
+btop
+sudo sudo systemctl disable plexmediaserver.service
+sudo systemctl disable jellyfin<\n>
+typst watch Reddit_Data_Collection_Slides.typ 
+typst watch -f html Reddit_Data_Collection_Slides.typ
+typst compile -f html Reddit_Data_Collection_Slides.typ output.html
+typst compile Reddit_Data_Collection_Slides.typ output.pdf
+polars open all_comments_hanni.parquet | polars shape
+polars open all_posts_hanni.parquet | polars shape
+sudo nvim /etc/hosts
+codex
+git clone https://github.com/openai/codex.git<\n>cd codex
+git checkout main
+git pull origin main
+git fetch origin pull/2082/head:pr-2082
+git checkout pr-2082
+git rebase main        # or: git merge main
+git checkout --ours codex-rs/tui/src/lib.rs<\n>git add codex-rs/tui/src/lib.rs<\n>git rebase --continue
+git rebase --abort<\n>git rebase main -s recursive -X ours<\n>
+git rebase --abort
+fd
+fd -d 1
+fd -d 1 | wl-copy
+eza 
+eza -l
+eza -a
+eza -a | wl-copy
+sudo pacman -S --needed rustup nodejs pnpm pkgconf openssl<\n>rustup default stable<\n>
+cargo build --release --workspace
+cd codex-rs<\n>cargo build --release --workspace<\n>cd ..<\n>
+cargo run --bin codex -- "explain this codebase to me"
+cd codex-rs<\n>cargo build<\n>cargo run --bin codex -- "explain this codebase to me"<\n>
+cd codex-rs<\n>cargo run --bin codex -- "explain this codebase to me"
+cargo run --bin codex -- "explain this codebase to me"
+z
+cargo codex
+cargo run --bin codex -- --theme light
+which codex
+codex --theme light
+just fmt
+cargo build --workspace --all-features
+z
+which codex
+codex
+git clone https://github.com/openai/codex.git<\n>cd codex
+codex --theme light "I'm currently on a pull request branch different from main, Can you merge the 2 branch together?, and resolve any merge conflicts, I only need the light theme in this pull request, So make any changes that you might."
+which codex
+cd codex-rs
+cargo fmt
+cargo clippy -p codex-tui --fix --allow-dirty --allow-staged
+codex
+cargo test -p codex-tui
+job unfreeze
+cargo run -p codex-cli --
+codex
+z
+gemini
+npm uninstall -g @google/gemini-cli
+sudo npm uninstall -g @google/gemini-cli
+npm install -g @google/gemini-cli@nightly
+sudo npm install -g @google/gemini-cli@nightly
+gemini
+which gemini
+sudo npm uninstall -g @google/gemini-cli
+npm cache verify
+nordvpn c
+nordvpn c United_States
+gemini
+yay -S gemini-cli
+gemini
+gemini --help
+gemini --version
+pacman -Qi gemini-cli<\n>
+nordvpn d
+git log
+git reset --hard
+sudo nvim /etc/hosts
+systemctl restart NetworkManager
+sudo nvim /etc/hosts
+systemctl restart NetworkManager
+wk https://www.instagram.com/reel/DNbrmXQNMK-/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMTQai0TVmb/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNN-N7uylL5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM-BCY8TUMA/?utm_source=ig_web_copy_link
+cd -
+gl https://www.instagram.com/reel/DNpYRCFyw-W/?utm_source=ig_web_copy_link
+cd -
+wk https://www.instagram.com/reel/DMC7jv9sKId/?utm_source=ig_web_copy_link
+cd -
+wk https://www.instagram.com/reel/DNgF7dqOFzC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNyKyRbXNd_/?utm_source=ig_web_copy_link<\n>
+typst watch Reddit_Data_Collection_Slides.typ
+typst watch Reddit_Data_Collection_Slides.typ 
+sudo nvim /etc/hosts
+systemctl restart NetworkManager
+yay -Rns neovim
+yay -Rns neovide-git neovim<\n>
+yay -S neovim-git
+yay -S neovide-git neovim
+cd -
+yay -S neovide-git neovim-git
+makepkg -si
+git clone --branch neovim-git --single-branch https://github.com/archlinux/aur.git neovim-git
+which nvim
+makepkg -si
+which nvim
+nvim --version
+nvim
+ping chatgpt.com
+btop
+sudo sudo systemctl disable plexmediaserver.service
+sudo sudo systemctl stop plexmediaserver.service
+git clone git@github.com:khangnm1340/pams-product-sentiment.git
+tpst 
+ls
+typst report.typ
+typst compile report.typ 
+codex
+gemini
+gemini
+tmux
+typst compile presentation.typ 
+typst watch presentation.typ 
+lazygit
+polars open all_posts_hanni.parquet | polars shape
+polars open all_comments_hanni.parquet | polars shape
+git checkout -b "EDA-Thu"
+git push -u origin "EDA-Thu"
+polars open all_comments_hanni.parquet | polars first | polars collect
+polars open all_comments_hanni.parquet | polars first 
+polars open all_comments_hanni.parquet | polars first | polars into-nu
+polars open all_comments_hanni.parquet | polars first | polars into-nu | first
+polars open all_posts_hanni.parquet | polars first | polars into-nu | first
+open r_AppleWatch_comments.jsonl | first | schema
+open r_AppleWatch_comments.jsonl -o | first | schema
+open r_AppleWatch_comments.jsonlopen r_AppleWatch_comments.jsonl -o | first | schema
+open r_BudgetAudiophile_comments.jsonl | from json -o | first | schema
+open r_BudgetAudiophile_comments.jsonl  from json -o | first | schema
+open r_BudgetAudiophile_comments.jsonl | from json -o | first | schema
+open r_BudgetAudiophile_comments.jsonl | from json  | first | schema
+open r_SmartThings_posts.jsonl | from json -o  | first | schema
+open r_SmartThings_posts.jsonl | from json -o  | first 
+open r_SmartThings_posts.jsonl   | first
+open r_SmartThings_posts.jsonl  | first | shape
+open r_SmartThings_posts.jsonl  | first | columns
+polars open all_posts_hanni.parquet | polars first | polars into-nu | first
+polars open all_posts_hanni.parquet | polars first | polars into-nu | first | shape
+polars open all_posts_hanni.parquet | polars first | polars into-nu | first
+polars open all_posts_hanni.parquet | polars first | polars into-nu | first | columns
+rg --glob '!*.jsonl' --glob "!*.csv" "all_comments_hanni.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" "all_comments.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" "all_comments"
+let comments = [ archived author body created_utc name id is_submitter link_id locked parent_id permalink retrieved_on score score_hidden subreddit subreddit_id subreddit_name_prefixed ]<\n>let posts = [archived author created_utc domain hide_score id is_crosspostable is_self is_video name num_comments num_crossposts media_only over_18 permalink pinned retrieved_on selftext  send_replies stickied subreddit subreddit_id subreddit_name_prefixed subreddit_subscribers thumbnail title score upvote_ratio]
+polars open all_posts_hanni.parquet | polars select ...$posts <\n>| polars save all_posts_hanni.parquet<\n>polars open all_comments_hanni.parquet | polars select ...$comments<\n>| polars save all_comments_hanni.parquet
+polars open all_posts_hanni.parquet | polars select ...$posts <\n>| polars save all_posts.parquet<\n>polars open all_comments_hanni.parquet | polars select ...$comments<\n>| polars save all_comments.parquet
+lazygit
+open r_SmartThings_comments.jsonl  | first | columns
+polars open all_comments_after.parquet  | polars shape
+polars open all_posts_after.parquet  | polars shape
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+pip install polars pyarrow fasttext
+wget -O lid.176.ftz https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.ftz
+python fastText.py 
+pip uninstall fasttext
+python -m virtualenv .venv
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+pip install polars pyarrow fasttext
+python fastText.py 
+pip install "numpy<2"
+btop
+python fastText.py 
+history
+history | to text | fzf
+history 
+history | select command | to text | fzf
+fzf
+btop
+python fastText.py 
+polars open comments_non_english.parquet | polars collect
+lazygit
+git log
+git branch
+git checkout -b "main"
+git checkout "main"
+lazygit
+git checkout -b "quang-vi"
+git push -u origin "quang-vi"
+git checkout "Thu-EDA"
+git branch
+git checkout "EDA-Thu"
+lazygit
+nu select_posts_and_comments.nu all_posts_after.parquet all_comments_after.parquet /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/
+nu select_posts_and_comments.nu all_posts_after.parquet result
+nu select_posts_and_comments.nu 
+polars open all_posts_after.parquet | polars sort-by subreddit
+polars open all_posts_after.parquet | polars sort-by subreddit | polars collect
+nu select_posts_and_comments.nu 
+python select_posts_and_comments.py 
+polars open posts_and_comments.parquet | polars columns
+polars open posts_and_comments.parquet | polars collect
+typst watch productpulse-vision.typ 
+codex
+lazygit
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "iphone"))<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "iphone"))<\n>| polars select name score<\n>| polars collect
+rg --glob '!*.jsonl' --glob "!*.csv" "bạn có bị ngu"
+rg --glob '!*.jsonl' --glob "!*.csv" "ngu"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' "ngu"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' "mình"
+nvim prawl_tests/subreddits/report/preprocess_plan.txt<\n>
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' "mình"
+lazygit
+polars open posts_and_comments.parquet | polars save posts_and_comments.csv
+yay -S modern-csv-bin
+jl
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+codex
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+python thu_eda.py 
+python after_parquet_eda.py 
+pip install seaborn
+python after_parquet_eda.py 
+pip install wordcloud matplotlib
+python after_parquet_eda.py 
+lazygit
+python after_parquet_eda.py 
+lazygit
+typst watch presentation.typ 
+typst watch presentation_vi.typ .typ 
+lazygit
+gemini
+codex
+polars open comments_non_english.parquet | polars collect
+yay -S teams-for-linux-bin
+gemini
+yay -Qe | fzf
+yay -S gemini-cli
+which gemi3
+which gemini
+sudo npm install -g @google/gemini-cli
+yay -Rns gemini-cli
+which gemini
+gemini
+sudo npm install -g @google/gemini-cli
+gemi3
+gemini
+which gemini
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+wk https://www.instagram.com/reel/DK4n2JrigRn/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNwIfQY3A-7/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMve6mAyGIZ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNteL_o5HwI/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL6nGjGsNyV/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNr8rrZv5_5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNZ0LrSOGjI/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNras-5XqSP/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNBhULcohMx/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNWgzbuyn3t/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM7qv4JRAUY/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMv5RslTiHP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLuGWJiySps/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMsri2qTur8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNaymTVp1VH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNlJXFBTV34/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNynrdg5Ll6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMZtEmRPgNF/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNSPqTlBs5m/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNTRdXWyyL_/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DNfh3roPjXS/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKMGCPDIG-n/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DKMGCPDIG-n/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DMJdonlv89W/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DLANVypTBUK/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DLCb-Dexqx-/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DLU6bozNDjc/?utm_source=ig_web_copy_link
+cd -
+yt-dlp https://www.instagram.com/reel/DL-mclhOIjt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKvsdIEucS6/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DL-mclhOIjt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKvsdIEucS6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL-mclhOIjt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKvsdIEucS6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNSMt-oRnMr/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DL547sBOGDl/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKid3gKvpst/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DMo-QJxSgBD/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DM4cNkioXrj/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNZAzyjvnku/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMUsrnTJjWz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMs6s7jsRwx/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMGIdwwOH0F/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNlV6Sypfol/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DG5wc_LgOzh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLRfBKbTmEI/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMfpXVfNtv2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM8JMnEupcg/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DK2LlDSMaGF/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DMzufSOspTh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMzufSOspTh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMtC3lZKO8f/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMjkjSqtFtc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DNGSEEyRbrY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DMGIdwwOH0F/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DNWO9YVx4cz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJfAzPIO0YI/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLh-tCbvfPM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMuuljbT_zK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJ-VoZFyzHM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNhUOMio9xu/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNuxw580i0O/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/reel/DKxAV0NTXev/?utm_source=ig_web_copy_link
+nordvpn d
+lsblk<\n>
+lsblk | wl-copy
+sudo umount /dev/sda1
+sudo dd if=~/Downloads/Win11_24H2_English_x64.iso of=/dev/sda bs=4M status=progress oflag=sync<\n>
+sudo dd if=Win11_24H2_English_x64.iso of=/dev/sda bs=4M status=progress oflag=sync
+sha256sum Win11_24H2_English_x64.iso
+sudo dd if=/dev/sda bs=4M count=$((5819484160 / 4194304)) status=progress | sha256sum<\n>
+nvim --version
+nvim
+yay
+git clone https://github.com/LazyVim/LazyVim.git
+zen-browser
+ps | select name
+ps | where name =~ "type"
+ps | where name =~ "typ"
+btop
+tinymist
+job unfreeze
+nvim
+btop
+wk https://www.instagram.com/reel/DJs1QFxyK66/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM0BiuDz8G-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKXyQjsRddr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNzhnyQ4rv2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMxK5D8TfPE/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNGxSJuy3Jv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNoXlbBy9kp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNq7RT_3m-w/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLYhBL2MZuo/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL90_nLTCGt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLj__J9yra4/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMS8WEUutDk/?utm_source=ig_web_copy_link
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+ping chatgpt.com
+nordvpn d
+yay
+nmtui
+sudo nvim /etc/hosts
+sudo systemctl restart NetworkManager
+wk https://www.instagram.com/reel/DN1L4XY0H4h/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN03dZRUpqB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DH8Ma3so4kL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNDWQFfpCph/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DK0g9IYC3KC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLd8xRJRgs0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMfyeWsJ8vp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJ-IuKCzONW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMiTRvqBcex/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN0sVz-2LCm/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMrByzivu92/?utm_source=ig_web_copy_link
+wk  https://www.instagram.com/reel/DNKtTVlP7eX/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN2d4-sZjUv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNGTR0gMQ8b/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNShYewT32C/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNz7PYbUuZe/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN1E3pfZF23/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/p/DNmsK_JO4g-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN0d_zW4j1-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/p/DNnoqJls9dZ/?utm_source=ig_web_copy_link
+yt-dlp https://www.tiktok.com/@jeanzforfree5/video/7538633960453131538?q=jeansforfree5&t=1756375481550
+nvim
+sudo nvim /etc/hosts
+ls
+ls
+ya pkg add BennyOe/tokyo-night
+ls
+nvim --clean package.toml
+$ git clone https://github.com/catppuccin/qutebrowser.git ~/.config/qutebrowser/catppuccin<\n>
+git clone https://github.com/catppuccin/qutebrowser.git ~/.config/qutebrowser/catppuccin
+ghostty +list-themes 
+pwd | wl-copy
+ps
+btop
+vague
+nvim
+neovide
+ls
+bas
+pkill hyprpaper
+w https://img-mdpr.freetls.fastly.net/common/web/common/img_protect.png?quality=40&auto=webp
+hyprpaper
+sudo nvim /etc/hosts
+codex
+yay -Qe | fzf
+yay -Rns qalculate-gtk ; yay -S qalculate-qt
+typst compile test.typ 
+sudo nvim neovide.desktop
+mkdir ~/.local/share/applications
+cp /usr/share/applications/neovide.desktop \<\n>   ~/.local/share/applications/neovide-ghostty.desktop
+cp /usr/share/applications/neovide.desktop ~/.local/share/applications/neovide-ghostty.desktop
+~/.local/share/applications/neovide-ghostty.desktop
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+update-desktop-database ~/.local/share/applications
+xdg-mime default neovide-ghostty.desktop text/plain
+xdg-mime query default text/plain
+hyprctl clients
+neovide
+hyprctl clients
+neovide --title-hidden
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+update-desktop-database ~/.local/share/applications
+hyprctl clients
+xdg-mime default neovide.desktop text/plain
+hyprctl clients
+cp /usr/share/applications/neovide.desktop ~/.local/share/applications/neovide-ghostty.desktop
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+update-desktop-database ~/.local/share/applications
+xdg-mime default neovide.desktop text/plain
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop
+update-desktop-database ~/.local/share/applications
+xdg-mime query default text/plain
+xdg-mime default neovide-ghostty.desktop text/plain
+pamivide
+neovide
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+desktop-file-validate ~/.local/share/applications/neovide-ghostty.desktop<\n>update-desktop-database ~/.local/share/applications<\n>xdg-mime default neovide-ghostty.desktop text/plain<\n>xdg-mime query default text/plain
+neovide-ghostty
+nvim ~/.local/share/applications/neovide-ghostty.desktop
+xdg-mime default pamivide.desktop text/plain
+xdg-mime query default text/plain
+pamivide
+desktop-file-validate ~/.local/share/applications/pamivide.desktop<\n>update-desktop-database ~/.local/share/applications<\n>xdg-mime default pamivide.desktop text/plain<\n>xdg-mime query default text/plain<\n>
+gtk-launch pamivide
+which nvim
+nvim-hanni
+chmod +x nvim-hanni.sh 
+nvim-hanni
+./nvim-hanni.sh
+xdg-mime query default text/plain
+./nvim-hanni.sh
+neovide
+cd /home/pampam/dotfiles/pamsdots && neovide
+hyprctl clients
+nvim
+pamivide
+xdg-mime default neovide.desktop text/plain
+xdg-mime default pamivide.desktop text/plain
+nvim
+gtk-launch pamivide
+xdg-mime default neovide.desktop text/plain
+bash -c "nvim"
+mkdir ~/.config/environment.d
+logout
+reboote
+reboot
+neovide
+hyprctl clients
+neovide
+hyprctl clients
+history | select command | to text | fzf
+history | get command | to text | fzf
+systemctl status jellyfin<\n>
+systemctl start jellyfin
+history | get command | to text | fzf
+sudo pacman -S jellyfin-server jellyfin-web jellyfin-ffmpeg<\n>
+history | get command | to text | fzf
+systemctl status jellyfin
+sudo systemctl restart jellyfin
+sudo ufw allow 8096/tcp   # Web UI (HTTP)<\n>sudo ufw allow 8920/tcp   # (only if you enabled HTTPS)<\n>sudo ufw allow 1900/udp   # SSDP / DLNA discovery<\n>sudo ufw allow 7359/udp   # Jellyfin client discovery<\n>
+ufw status
+sudo ufw status
+journalctl -u jellyfin -b | grep -i dlna
+journalctl -u jellyfin -b | grep -i dlna | wl-copy
+ufw enable
+sudo ufw enable
+sudo ufw allow 8096/tcp   # Web UI (HTTP)<\n>sudo ufw allow 8920/tcp   # (only if you enabled HTTPS)<\n>sudo ufw allow 1900/udp   # SSDP / DLNA discovery<\n>sudo ufw allow 7359/udp   # Jellyfin client discovery<\n>
+sudo ss -ulpn | grep -E ':(1900|7359)'
+curl -s http://192.168.1.11:8096/dlna/3ee55edc-d99e-4ac8-a020-fab6deaebe3d/description.xml | head<\n>
+nordvpn d
+nmtui
+systemctl status jellyfin
+systemctl restart jellyfin
+sudo ufw disable
+sudo pacman -S jellyfin-ffmpeg libva-utils
+sudo pacman -S intel-media-driver
+sudo usermod -aG video,render jellyfin<\n>sudo systemctl restart jellyfin
+btop
+systemctl restart jellyfin
+jkh https://www.youtube.com/watch?v=phuiiNCxRMg
+systemctl restart jellyfin
+head presentation.typ
+head -n 10 presentation.typ
+tail -n 10 presentation.typ
+typst watch test.typ 
+nvim
+pkill neovide
+git clone --depth=1 https://github.com/ii14/emmylua-nvim
+ls
+fd
+fd | wl-copy
+nvim
+btop
+ps
+ps | sort-by cpu
+pkill nvim
+nvim
+btop
+fd
+ls
+ls | to text | fzf
+eza -a | wl-copy
+git log
+git pull origin main
+btop
+pkill nvim
+kill nvim
+pkill -9 nvim
+jkl https://www.youtube.com/watch?v=mldcDidGJCg
+wk https://www.reddit.com/r/VietNamNation/comments/1n2tayr/h%E1%BA%A1t_gi%E1%BB%91ng_%C4%91%E1%BB%8F_c%E1%BB%A7a_ch%E1%BA%BF_%C4%91%E1%BB%99_c%E1%BB%99ng_s%E1%BA%A3n_vi%E1%BB%87t_nam_gi%C3%A0u_c%C3%B3/
+wk https://preview.redd.it/h%E1%BA%A1t-gi%E1%BB%91ng-%C4%91%E1%BB%8F-c%E1%BB%A7a-ch%E1%BA%BF-%C4%91%E1%BB%99-c%E1%BB%99ng-s%E1%BA%A3n-vi%E1%BB%87t-nam-gi%C3%A0u-c%C3%B3-l%C3%A0-chuy%E1%BB%87n-v0-bten7rm5rvlf1.jpeg?width=640&auto=webp&s=37b8971d2cf00d3096c14e6998f039b60948302a
+w https://preview.redd.it/h%E1%BA%A1t-gi%E1%BB%91ng-%C4%91%E1%BB%8F-c%E1%BB%A7a-ch%E1%BA%BF-%C4%91%E1%BB%99-c%E1%BB%99ng-s%E1%BA%A3n-vi%E1%BB%87t-nam-gi%C3%A0u-c%C3%B3-l%C3%A0-chuy%E1%BB%87n-v0-bten7rm5rvlf1.jpeg?width=640&auto=webp&s=37b8971d2cf00d3096c14e6998f039b60948302a
+gemini
+sudo npm install -g @google/gemini-cli
+gemini
+gemini
+codex
+locate
+jkl https://www.youtube.com/watch?v=9c8nt4aMMPI
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1n3t1gs/tu_l%C3%A0_theo_ph%E1%BA%ADt_ch%E1%BB%A9_%C4%91%E1%BB%ABng_tu_theo_%C4%91%E1%BA%A3ng_m%E1%BA%A5y_ch%C3%B9a/
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-84apwti83ylf1.jpeg?width=640&auto=webp&s=82a15a611f7f38e377f1c62d68bbc512743efa01
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-onb9tej73ylf1.jpeg?width=1920&auto=webp&s=45452128da7c2911c487b0345de74e1d5b613837
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-n0opiedr5ylf1.png?width=1080&auto=webp&s=47a15bed02ca2ecc427f319cf217bcf07c440786
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-fmjd3cxvzylf1.jpeg?width=640&auto=webp&s=000a9ed620d09d6ba763431fbdd28c7ca528cb99
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-69v1jtie9ylf1.jpeg?width=580&auto=webp&s=e0529f5fe0455ada25fd2c76ea9bc580232b7d1e
+w https://preview.redd.it/t%C3%AAn-qu%E1%BB%91c-gia-v%C3%A0-%C3%BD-ngh%C4%A9a-v0-vu2czaqwb2mf1.jpeg?width=526&auto=webp&s=a0589f4e0e58d03b78796dafe62ed618430fe59c
+w https://preview.redd.it/b%C3%B2-%C4%91%E1%BB%8F-b%E1%BA%A3o-c%E1%BB%99ng-s%E1%BA%A3n-ngh%C3%A8o-do-b%E1%BB%8B-t%C6%B0-b%E1%BA%A3n-qu%C3%A2y-c%C3%B2n-trung-qu%E1%BB%91c-v0-h1itumap0zlf1.jpg?width=640&crop=smart&auto=webp&s=5d4d72ba4fb99e3641b6e2e5c8341329cf3443f3
+cd ..
+ls
+cd -

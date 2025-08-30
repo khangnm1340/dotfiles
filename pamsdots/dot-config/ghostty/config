@@ -8,7 +8,8 @@ gtk-titlebar = false
 # theme = "Tinacious Design (Dark)"
 # theme = "GruvboxDark"
 # theme = GruvboxLight
-theme = GitHub-Light-High-Contrast
+# theme = GitHub-Dark-High-Contrast
+theme = tokyonight-storm
 # theme = GitHub-Dark-Default
 # theme = omori
 # theme = tokyonight
@@ -74,7 +75,7 @@ keybind = alt+;>q=close_surface
 keybind = alt+;>shift+q=close_tab
 keybind = alt+;>t=new_tab
 # keybind = ctrl+shift+q=close_surface
-keybind = alt+;>a=write_scrollback_file:open
+keybind = alt+;>a=write_screen_file:open
 
 # keybind = alt+j=goto_split:left
 

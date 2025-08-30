@@ -1,0 +1,16 @@
+
+{
+  "runtime": {
+    "version": "LuaJIT",
+    "requirePattern": ["lua/?.lua","lua/?/init.lua","?/lua/?.lua","?/lua/?/init.lua"]
+  },
+  "workspace": {
+    "library": [
+      "$VIMRUNTIME",
+      "$HOME/.local/share/nvim-hanni/site/pack/core/opt"
+    ]
+  },
+  "diagnostics": {
+    "disable": ["undefined-global"]
+  }
+}

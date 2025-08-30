@@ -18,7 +18,11 @@
 #     config nu --doc | nu-highlight | less -R
 
 $env.config = {
+
     edit_mode: vi # emacs, vi
+    table: {
+        mode: basic # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
+    }
 
     keybindings: [
       {
@@ -116,6 +120,19 @@ def --env y [...args] {
 	rm -fp $tmp
 }
 
+def "notify on done" [
+    task: closure
+] {
+    let start = date now
+    let result = do $task
+    let end = date now
+    let total = $end - $start | format duration sec
+    let body = $"Task completed in ($total)"
+    notify -s "Task Finished" -t $body
+    return $result
+}
+
+
 const NU_PLUGIN_DIRS = [
   ($nu.current-exe | path dirname)
   ...$NU_PLUGIN_DIRS
@@ -126,6 +143,7 @@ const NU_PLUGIN_DIRS = [
 alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4
 alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4
 alias gl = gallery-dl
+alias wk = gallery-dl -D .
 alias sudo = sudo-rs
 alias su = su-rs
 alias grep = rg
@@ -136,9 +154,11 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 alias vim = nvim
 alias w = wget2
 
+alias jl = jupyter lab
 
 
 # source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-dark-default.nu
-source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
+source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/tokyo-night.nu
+# source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
 source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"
 source ~/.zoxide.nu
