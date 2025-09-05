@@ -518,3 +518,14 @@ nvim
 nu
 printf 'NVIM_APPNAME=nvim-hanni\nEDITOR=nvim\n' > ~/.config/environment.d/10-user.conf
 nu
+nu
+exit
+tmux
+tmux
+ls
+fd
+cls
+clear
+clear
+nu
+cat

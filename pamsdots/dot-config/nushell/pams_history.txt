@@ -7,4 +7,5 @@
 ~/Documents/UTH/DataMining/tests/tutorials.typ
 ~/.config/ghostty/config
 ~/dotfiles/pamsdots/dot-config/nvim/lua/config/keymaps.lua
-/home/pampam/.config/nushell/env.nu
+~/.config/nushell/env.nu
+~/.config/nushell/config.nu

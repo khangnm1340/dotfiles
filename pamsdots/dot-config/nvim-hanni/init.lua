@@ -10,8 +10,8 @@ vim.o.smartcase = true
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.wrap = false
-vim.o.tabstop = 2
-vim.o.shiftwidth = 2
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
 vim.o.signcolumn = "yes"
 vim.o.swapfile = false
 vim.g.mapleader = " "
@@ -21,7 +21,6 @@ vim.o.termguicolors = true
 -- vim.o.hlsearch = false
 vim.o.undofile = true
 vim.o.undodir  = vim.fn.stdpath("state") .. "/undo"
-vim.fn.mkdir(vim.o.undodir, "p")
 vim.o.clipboard = "unnamedplus"
 -- }}}
 
@@ -30,14 +29,22 @@ vim.keymap.set("n", "<leader><Tab>k", ":tabnext<CR>", { noremap = true, silent =
 vim.keymap.set("n", "<leader><Tab>j", ":tabprevious<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader><Tab>l", ":tabclose<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader><Tab>h", ":tabnew<CR>", { noremap = true, silent = true })
+vim.keymap.set("t", "<S-Esc>", [[<C-\><C-n>]])
 vim.keymap.set('n', '<leader>n',
 	"<cmd>new | setlocal buftype=nofile bufhidden=wipe noswapfile | 0put =execute('silent messages')<CR>",
 	{ silent = true, desc = 'Open :messages in scratch buffer' }
 )
+
+-- Normal mode keymap: <leader>cp to copy parent directory
+vim.keymap.set("n", "<C-z>", function()
+  local parent_dir = vim.fn.expand("%:p:h")
+  vim.fn.setreg("+", parent_dir)   -- copy to system clipboard (+ register)
+  vim.notify("Copied: " .. parent_dir)
+end, { desc = "Copy parent directory of current file" })
 local map = vim.keymap.set
 map({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
 map("n", "<leader>o", ":update<CR> :source<CR>", { desc = "Write + Source init.lua" })
-map("n", "gl", ":TypstPreviewSyncCursor<CR>", { desc = "Typst: sync cursor" })
+-- map("n", "gl", ":TypstPreviewSyncCursor<CR>", { desc = "Typst: sync cursor" })
 map("n", "<leader>;", vim.lsp.buf.format, { desc = "LSP: Format buffer" })
 map("n", "<M-j>", ":Yazi<CR>", { desc = "Open Yazi" })
 map("n", "L", ":b#<CR>", { desc = "Alternate buffer", noremap = true, silent = true })
@@ -55,6 +62,7 @@ map('n', 'gs', ':se spell!<CR>', { silent = true })
 map("n", "<leader>t", ":lua require('toggle-checkbox').toggle()<CR>", { silent = true, desc = "Toggle CheckBox" })
 map("n", "<leader>l", ":LazyGit<CR>", { silent = true })
 
+
 --- }}}
 
 -- 3) Packages {{{
@@ -71,7 +79,7 @@ vim.pack.add({
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
 	{ src = "https://github.com/nvim-lua/plenary.nvim" },
 
-	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+	-- { src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/folke/tokyonight.nvim" },
 	{ src = "https://github.com/mikavilpas/yazi.nvim" },
@@ -91,6 +99,18 @@ vim.g.undotree_WindowLayout       = 2   -- layout style (1..4)
 require("mason").setup()
 require("mini.pick").setup()
 require("mini.ai").setup()
+require("mini.surround").setup({
+  mappings = {
+    add = 'ma',      -- Add surrounding
+    delete = 'md',   -- Delete surrounding
+    replace = 'mr',  -- Replace surrounding
+    find = 'mf',     -- Find surrounding
+    find_left = 'mF',        -- your custom find (left)
+    highlight = 'mh', -- Highlight surrounding
+    update_n_lines = '',     -- disable updating lines by key
+  }
+})
+require("mini.pairs").setup()
 ---@diagnostic disable-next-line: assign-type-mismatch, need-check-nil
 require('mini.extra').setup()
 require('mini.deps').setup()
@@ -156,15 +176,14 @@ require('blink.cmp').setup({
 	fuzzy = { implementation = 'prefer_rust_with_warning' },
 
 })
-require("typst-preview").setup({
-	open_cmd = "qutebrowser --target window %s",
-	follow_cursor = false, -- no auto scroll on every motion
-})
+-- require("typst-preview").setup({
+-- 	open_cmd = "qutebrowser --target window %s",
+-- 	follow_cursor = false, -- no auto scroll on every motion
+-- })
 
 -- require("simple-zoom").setup({
 -- 	hide_tabline = true,
 -- })
--- }}}
 
 local flash = require("flash")
 flash.setup({
@@ -192,6 +211,9 @@ end, { desc = "Flash" })
 map({ "n", "x", "o" }, "S", function()
 	flash.treesitter({ labels = "jkluiohprewtfsgvmcbq" })
 end, { desc = "Flash Treesitter" })
+
+-- }}}
+
 -- 5) LSP & Diagnostics {{{
 
 MiniDeps.add({

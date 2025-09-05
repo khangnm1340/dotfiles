@@ -72,6 +72,12 @@ config.bind('u', 'scroll-page 0 -0.5')
 config.bind('h', 'back')
 config.bind('l', 'forward')
 
+config.bind('b', 'cmd-set-text -s :bookmark-load -t')
+config.bind('B', 'bookmark-add')
+
+config.bind('m', 'mode-enter set_mark')
+# config.bind('m', 'cmd-set-text -s :set-mark')
+
 config.bind('<Ctrl-Shift-V>', 'mode-enter passthrough')
 
 config.bind('p', 'open -t -- {clipboard}')

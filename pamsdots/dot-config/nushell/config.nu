@@ -25,13 +25,13 @@ $env.config = {
     }
 
     keybindings: [
-      {
-            name: delete_to_the_end
-            modifier: control
-            keycode: char_k
-            mode: [vi_normal vi_insert]
-            event: { edit: CutToEnd }
-      }
+      # {
+      #       name: delete_to_the_end
+      #       modifier: control
+      #       keycode: char_k
+      #       mode: [vi_normal vi_insert]
+      #       event: { edit: CutToEnd }
+      # }
       {
             name: quick_cd
             modifier: alt
@@ -40,6 +40,13 @@ $env.config = {
             event: { 
                   send: executehostcommand,
                   cmd: "cd (cat ~/.config/nushell/cd_history.txt | fzf)" }
+      }
+			{
+            name: last_cd
+            modifier: shift
+            keycode: char_l
+            mode: [emacs vi_normal vi_insert]
+            event: { send: executehostcommand, cmd: "cd -" }
       }
       {
             name: fzf_d

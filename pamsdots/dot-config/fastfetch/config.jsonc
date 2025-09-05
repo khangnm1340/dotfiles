@@ -7,8 +7,7 @@
                   "right": 2
             },
             "color": {
-                  // "1": "black",
-                  "1": "black"
+                  "1": "white",
             }
       },
       "display": {

@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 45
-time: 12.158
+current: 4
+time: 46.17
 random: 0
 repeat: 1
 single: 1
@@ -58,4 +58,12 @@ playlist_begin
 43:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/02. Time Left.m4a
 44:can_j_noi_dau_e_oi/52Hz - ĐỢI (Prod. RIO) - Single/01. ĐỢI (Prod. RIO).m4a
 45:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/02. Aoi Sangosho.m4a
+46:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
+47:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
+48:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
+49:vids/newjeans_ditto_(ban_heesoo_videos)-20240902T120256Z-001/19981224.mp4
+50:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
+51:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
+52:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
+53:can_j_noi_dau_e_oi/AMEE - MỘNGMEE - EP/01. MỘNG YU.m4a
 playlist_end

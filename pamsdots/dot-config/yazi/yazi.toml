@@ -6,7 +6,7 @@ open_image = [
       { run = 'gimp "$@"', orphan = true, desc = "Open with GIMP" },
       # { run = 'shotwell "$@"', orphan = true, desc = "Open with shotwell" },
 ]
-open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
+# open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
 reveal = [{ run = 'thunar "$@"', desc = "Reveal", for = "linux" }]
 edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
 extract = [
