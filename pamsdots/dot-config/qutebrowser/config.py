@@ -23,6 +23,8 @@ c.url.searchengines = {
 }
 
 c.content.autoplay = False
+c.tabs.new_position.related = 'next'
+c.tabs.new_position.unrelated = 'next'
 
 
 c.session.default_name = "temp"
@@ -62,6 +64,7 @@ config.bind('ck','config-cycle colors.webpage.darkmode.enabled true false ;; rel
 
 config.bind('<Ctrl-R>', ':config-source ;; message-info "Config reloaded!"')
 config.unbind('<Ctrl-V>', mode='normal') # Or other mode
+config.unbind('co')
 config.bind('a', 'hint')
 config.bind('t', 'cmd-set-text -s :open -t')
 config.bind('<Ctrl-Shift-P>', 'open -t')
@@ -84,7 +87,7 @@ config.bind('p', 'open -t -- {clipboard}')
 config.bind('<Ctrl-Shift-p>', 'cmd-set-text -s :open -p')
 
 config.bind('<Ctrl-L>', 'cmd-set-text :open -t -r {url:pretty}')
-config.bind('cj', 'config-cycle statusbar.show always never')
+config.bind('cj', 'config-cycle statusbar.show never always')
 
 config.bind('yf', 'hint links yank')
 config.bind('p', 'open -t -- {clipboard}')

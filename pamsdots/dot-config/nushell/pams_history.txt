@@ -4,7 +4,6 @@
 ~/.config/nvim-hanni/init.lua
 ~/.config/qutebrowser/config.py
 ~/.config/hypr/modules/Keybinds.conf
-~/Documents/UTH/DataMining/tests/tutorials.typ
 ~/.config/ghostty/config
 ~/dotfiles/pamsdots/dot-config/nvim/lua/config/keymaps.lua
 ~/.config/nushell/env.nu

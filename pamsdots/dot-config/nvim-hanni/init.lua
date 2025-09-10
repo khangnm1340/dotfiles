@@ -2,33 +2,32 @@
 -- init.lua — structured single-file config
 
 -- 1) Core Options {{{
-vim.o.title = true
-vim.o.titlestring = vim.fs.basename(vim.fn.getcwd())
-vim.o.mouse = 'a'
-vim.o.ignorecase = true
-vim.o.smartcase = true
-vim.o.number = true
+vim.o.title          = true
+vim.o.titlestring    = vim.fs.basename(vim.fn.getcwd())
+vim.o.mouse          = 'a'
+vim.o.ignorecase     = true
+vim.o.smartcase      = true
+vim.o.number         = true
 vim.o.relativenumber = true
-vim.o.wrap = false
-vim.o.tabstop = 4
-vim.o.shiftwidth = 4
-vim.o.signcolumn = "yes"
-vim.o.swapfile = false
-vim.g.mapleader = " "
-vim.o.winborder = "double"
-vim.o.smartindent = true
-vim.o.termguicolors = true
+vim.o.wrap           = false
+vim.o.tabstop        = 4
+vim.o.shiftwidth     = 4
+vim.o.signcolumn     = "yes"
+vim.o.swapfile       = false
+vim.g.mapleader      = " "
+vim.o.winborder      = "double"
+vim.o.smartindent    = true
+vim.o.termguicolors  = true
 -- vim.o.hlsearch = false
-vim.o.undofile = true
-vim.o.undodir  = vim.fn.stdpath("state") .. "/undo"
-vim.o.clipboard = "unnamedplus"
+vim.o.undofile       = true
+vim.o.undodir        = vim.fn.stdpath("state") .. "/undo"
+vim.o.clipboard      = "unnamedplus"
 -- }}}
 
 -- 2) Keymaps (Core) {{{
-vim.keymap.set("n", "<leader><Tab>k", ":tabnext<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader><Tab>j", ":tabprevious<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader><Tab>l", ":tabclose<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader><Tab>h", ":tabnew<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-]>", ":tabnext<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-[>", ":tabprevious<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-t>", ":tabnew<CR>", { noremap = true, silent = true })
 vim.keymap.set("t", "<S-Esc>", [[<C-\><C-n>]])
 vim.keymap.set('n', '<leader>n',
 	"<cmd>new | setlocal buftype=nofile bufhidden=wipe noswapfile | 0put =execute('silent messages')<CR>",
@@ -37,9 +36,9 @@ vim.keymap.set('n', '<leader>n',
 
 -- Normal mode keymap: <leader>cp to copy parent directory
 vim.keymap.set("n", "<C-z>", function()
-  local parent_dir = vim.fn.expand("%:p:h")
-  vim.fn.setreg("+", parent_dir)   -- copy to system clipboard (+ register)
-  vim.notify("Copied: " .. parent_dir)
+	local parent_dir = vim.fn.expand("%:p:h")
+	vim.fn.setreg("+", parent_dir) -- copy to system clipboard (+ register)
+	vim.notify("Copied: " .. parent_dir)
 end, { desc = "Copy parent directory of current file" })
 local map = vim.keymap.set
 map({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
@@ -49,7 +48,7 @@ map("n", "<leader>;", vim.lsp.buf.format, { desc = "LSP: Format buffer" })
 map("n", "<M-j>", ":Yazi<CR>", { desc = "Open Yazi" })
 map("n", "L", ":b#<CR>", { desc = "Alternate buffer", noremap = true, silent = true })
 map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { desc = "Down", expr = true, silent = true })
-map({ "n", "x" }, "k", "v:count == 0 ? 'gk' : 'k'", { desc = "Up",   expr = true, silent = true })
+map({ "n", "x" }, "k", "v:count == 0 ? 'gk' : 'k'", { desc = "Up", expr = true, silent = true })
 map("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "Undo tree" })
 
 map('n', '<Esc>', '<cmd>nohlsearch<CR>', { silent = true, desc = 'Clear search highlight' })
@@ -61,6 +60,10 @@ map('n', 'gs', ':se spell!<CR>', { silent = true })
 
 map("n", "<leader>t", ":lua require('toggle-checkbox').toggle()<CR>", { silent = true, desc = "Toggle CheckBox" })
 map("n", "<leader>l", ":LazyGit<CR>", { silent = true })
+map("n", "<C-e>", function()
+	local session = vim.fn.expand("~/.local/share/nvim-hanni/session.vim")
+	vim.cmd("source " .. session)
+end, { desc = "Restore last session" })
 
 
 --- }}}
@@ -70,70 +73,70 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.nvim" },
 	{ src = "https://github.com/folke/flash.nvim" },
 	{ src = "https://github.com/mbbill/undotree" },
-	-- { src = "https://github.com/fasterius/simple-zoom.nvim" },
-	-- { src = "https://github.com/stevearc/oil.nvim" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
-	-- { src = "https://github.com/Saghen/blink.cmp" },
-	-- { src = "https://github.com/rafamadriz/friendly-snippets" },
-
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
 	{ src = "https://github.com/nvim-lua/plenary.nvim" },
-
-	-- { src = "https://github.com/chomosuke/typst-preview.nvim" },
 	{ src = "https://github.com/mason-org/mason.nvim" },
 	{ src = "https://github.com/folke/tokyonight.nvim" },
 	{ src = "https://github.com/mikavilpas/yazi.nvim" },
 	{ src = "https://github.com/opdavies/toggle-checkbox.nvim" },
 	{ src = "https://github.com/jake-stewart/multicursor.nvim" },
-	-- { src = "https://github.com/NvChad/showkeys",              opt = true },
 })
 -- }}}
 
 -- 4) Plugin Setup {{{
 
-vim.g.undotree_DiffAutoOpen = 1
-vim.g.undotree_SetFocusWhenToggle = 1    -- jump focus to tree
-vim.g.undotree_DiffCommand = 'diff -u'   -- unified format
-vim.g.undotree_WindowLayout       = 2   -- layout style (1..4)
+vim.g.undotree_DiffAutoOpen       = 1
+vim.g.undotree_SetFocusWhenToggle = 1         -- jump focus to tree
+vim.g.undotree_DiffCommand        = 'diff -u' -- unified format
+vim.g.undotree_WindowLayout       = 2         -- layout style (1..4)
 
 require("mason").setup()
 require("mini.pick").setup()
 require("mini.ai").setup()
 require("mini.surround").setup({
-  mappings = {
-    add = 'ma',      -- Add surrounding
-    delete = 'md',   -- Delete surrounding
-    replace = 'mr',  -- Replace surrounding
-    find = 'mf',     -- Find surrounding
-    find_left = 'mF',        -- your custom find (left)
-    highlight = 'mh', -- Highlight surrounding
-    update_n_lines = '',     -- disable updating lines by key
-  }
+	mappings = {
+		add = 'gsa',   -- Add surrounding
+		delete = 'gsd', -- Delete surrounding
+		replace = 'gsr', -- Replace surrounding
+		find = 'gsf',  -- Find surrounding
+		find_left = 'gsF', -- your custom find (left)
+		highlight = 'gsh', -- Highlight surrounding
+		update_n_lines = '', -- disable updating lines by key
+	}
 })
 require("mini.pairs").setup()
 ---@diagnostic disable-next-line: assign-type-mismatch, need-check-nil
 require('mini.extra').setup()
 require('mini.deps').setup()
--- require("showkeys").setup({ position = "top-right" })
-local mc = require("multicursor-nvim")
-mc.setup()
--- require("oil").setup()
+-- --- Multicursor (safe require + idempotent setup) ---
+local ok_mc, mc = pcall(require, "multicursor-nvim") -- <- define in outer scope
+if ok_mc then
+	if not vim.g.__mc_loaded then
+		mc.setup()
+		mc.addKeymapLayer(function(layerSet)
+			layerSet({ "n", "x" }, "<left>", mc.prevCursor)
+			layerSet({ "n", "x" }, "<right>", mc.nextCursor)
+			layerSet("n", "<M-esc>", function()
+				if not mc.cursorsEnabled() then mc.enableCursors() else mc.clearCursors() end
+			end)
+		end)
+		vim.g.__mc_loaded = true
+	end
+
+	-- keymaps that reference mc.* must live where mc is in scope
+	map('x', 'I', mc.insertVisual, { silent = true, desc = 'MC: Insert at starts' })
+	map('x', 'A', mc.appendVisual, { silent = true, desc = 'MC: Append at ends' })
+	map({ 'n', 'x' }, '<leader>m', function() mc.matchAddCursor(1) end, { silent = true, desc = 'MC: Match add' })
+	map({ 'n', 'x' }, '<Up>', function() mc.lineAddCursor(-1) end, { silent = true, desc = 'MC: Add above' })
+	map({ 'n', 'x' }, '<Down>', function() mc.lineAddCursor(1) end, { silent = true, desc = 'MC: Add below' })
+	map({ 'n', 'x' }, 'g<C-a>', mc.sequenceIncrement, { silent = true, desc = 'MC: Seq ++' })
+	map({ 'n', 'x' }, 'g<C-x>', mc.sequenceDecrement, { silent = true, desc = 'MC: Seq --' })
+	map({ 'n', 'x' }, '<c-q>', mc.toggleCursor, { desc = 'Multicursor: Toggle Cursors' })
+	map({ 'n', 'x' }, 'gl', mc.restoreCursors, { desc = 'Multicursor: Restore Cursors' })
+end
 
 
--- -- your simple keymaps
-map('x', 'I', mc.insertVisual, { silent = true, desc = 'MC: Insert at starts' })
-map('x', 'A', mc.appendVisual, { silent = true, desc = 'MC: Append at ends' })
-map({ 'n', 'x' }, '<leader>m', function() mc.matchAddCursor(1) end, { silent = true, desc = 'MC: Match add' })
-map({ 'n', 'x' }, '<Up>', function() mc.lineAddCursor(-1) end, { silent = true, desc = 'MC: Add above' })
-map({ 'n', 'x' }, '<Down>', function() mc.lineAddCursor(1) end, { silent = true, desc = 'MC: Add below' })
-map({ 'n', 'x' }, 'g<C-a>', mc.sequenceIncrement, { silent = true, desc = 'MC: Seq ++' })
-map({ 'n', 'x' }, 'g<C-x>', mc.sequenceDecrement, { silent = true, desc = 'MC: Seq --' })
-map({ "n", "x" }, "<c-q>", function() require("multicursor-nvim").toggleCursor() end,
-	{ desc = "Multicursor: Toggle Cursors" })
-
-map('n', '<leader>:', function()
-	MiniExtra.pickers.history({ scope = ':' })
-end, { desc = 'Command history (MiniPick)' })
 
 mc.addKeymapLayer(function(layerSet)
 	-- Select a different cursor as the main one.
@@ -141,7 +144,7 @@ mc.addKeymapLayer(function(layerSet)
 	layerSet({ "n", "x" }, "<right>", mc.nextCursor)
 
 	-- Delete the main cursor.
-	-- layerSet({ "n", "x" }, "<leader>x", mc.deleteCursor)
+	layerSet({ "n", "x" }, "<leader>x", mc.deleteCursor)
 
 	-- Enable and clear cursors using escape.
 	layerSet("n", "<M-esc>", function()
@@ -163,17 +166,17 @@ MiniDeps.add({
 require('blink.cmp').setup({
 	-- mappings: 'default' ~ built-in-ish; try 'super-tab' or 'enter' if you prefer
 	keymap = { preset = 'default' },
-
 	appearance = { nerd_font_variant = 'mono' },
-
 	-- docs popup only when you ask (C-Space toggles docs if menu is open)
 	completion = { documentation = { auto_show = false } },
-
 	-- sources enabled by default; keep them explicit so you can extend later
 	sources = { default = { 'lsp', 'path', 'snippets', 'buffer' } },
-
 	-- just fuzzy matcher is fastest; fall back to Lua if the binary isn’t available
 	fuzzy = { implementation = 'prefer_rust_with_warning' },
+
+	enabled = function()
+		return not (ok_mc and mc.cursorsEnabled and mc.cursorsEnabled())
+	end,
 
 })
 -- require("typst-preview").setup({
@@ -238,7 +241,7 @@ require("nvim-treesitter.configs").setup({
 		enable = true,
 		additional_vim_regex_highlighting = false, -- keep it purely TS
 	},
-	indent = { enable = true },                -- Treesitter-based indent (some langs opt-out)
+	indent = { enable = true },              -- Treesitter-based indent (some langs opt-out)
 	incremental_selection = {
 		enable = true,
 		keymaps = {
@@ -258,22 +261,12 @@ vim.lsp.enable({ "emmylua_ls", "tinymist" })
 -- vim.diagnostic.enable(false)
 
 vim.lsp.config("tinymist", {
-	cmd = { "tinymist" },   -- keep it simple; lspconfig/Mason can still override PATH
+	cmd = { "tinymist" }, -- keep it simple; lspconfig/Mason can still override PATH
 	filetypes = { "typst" }, -- optional, but nice to be explicit
 	settings = {
 		formatterMode = "typstyle"
 	},
 })
--- vim.lsp.config("lua_ls",
--- 	{
--- 		settings = {
--- 			Lua = {
--- 				workspace = {
--- 					library = vim.api.nvim_get_runtime_file("", true),
--- 				}
--- 			}
--- 		}
--- 	})
 
 -- }}}
 
@@ -330,4 +323,26 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 		vim.highlight.on_yank({ higroup = "IncSearch", timeout = 150 })
 	end,
 })
+
+vim.api.nvim_create_autocmd("BufReadPost", {
+	pattern = "/tmp/*",
+	callback = function()
+		vim.cmd("normal! G")
+	end,
+})
+vim.api.nvim_create_autocmd("VimLeavePre", {
+	callback = function()
+		vim.cmd("mksession! ~/.local/share/nvim-hanni/session.vim")
+	end,
+})
+vim.api.nvim_create_autocmd("SessionLoadPost", {
+  callback = function()
+    for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do
+      if vim.api.nvim_buf_is_loaded(bufnr) then
+        pcall(vim.lsp.document_color.enable, false, bufnr)
+      end
+    end
+  end,
+})
+
 -- }}}

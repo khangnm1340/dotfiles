@@ -19362,3 +19362,531 @@ nvim
 lazygit
 btop
 lazygit
+/home/pampam/Documents/pam/1-Rough-Note/Daily_Notes
+<\n>              typst init @preview/brilliant-cv:2.0.6<\n>            
+yay -S ttf-roboto
+yay -S adobe-source-sans-fonts
+typst watch cv.typ 
+typst font
+typst fonts
+typst fonts | fzf
+yay -S otf-font-awesome
+typst watch cv.typ 
+typst fonts | fzf
+fd | wl-copy
+fd
+typst watch cv.typ 
+fd @preview/fontawesome
+typst watch cv.typ 
+yay -Qe | fzf
+typst watch cv.typ 
+chmod --help
+chmod o-r Save_webP/
+chmod o-rwx Save_webP/
+sudo chmod 600 Save_webP/
+sudo chmod +777 Save_webP/
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars collect
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars select subreddit pos neu neg | polars collect
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars select id subreddit pos neu neg | polars collect
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars select name subreddit pos neu neg | polars collect
+gemini
+sudo npm install -g @google/gemini-cli
+gemini
+polars open seeded_posts_and_comments.parquet | polars select name subreddit pos neu neg | polars collect
+polars open seeded_posts_and_comments.parquet | polars save seeded_ready_for_label.csv
+gemini --model gemini-2.5-flash
+from transformers import pipeline<\n><\n>distilled_student_sentiment_classifier = pipeline(<\n>    model="lxyuan/distilbert-base-multilingual-cased-sentiments-student", <\n>    return_all_scores=True<\n>)<\n>
+/home/pampam/Documents/UTH/DataMining/pams-product-sentiment
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+from transformers import pipeline<\n><\n>distilled_student_sentiment_classifier = pipeline(<\n>    model="lxyuan/distilbert-base-multilingual-cased-sentiments-student", <\n>    return_all_scores=True<\n>)<\n>
+ipython
+pip install ipython
+curl -fsSL -o distillbert-training-process.ipynb https://github.com/LxYuan0420/nlp/blob/main/notebooks/Distilling_Zero_Shot_multilingual_distilbert_sentiments_student.ipynb
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+jl
+deactivate
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test/.venv/bin/activate.nu
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+pip install jupyterlab-vim
+jl
+gemini --model gemini-2.5-flash
+polars open seeded_posts_and_comments.parquet | polars select name body | polars save seeded_ready_for_label.csv
+polars open seeded_posts_and_comments.parquet <\n>| polars select name body <\n>| polars sample -n 200<\n>| polars save seeded_ready_for_label.csv
+gemini --model gemini-2.5-flash
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars collect
+history | get command | to text | fzf
+history
+history | select command | where command =~ "seeded_posts_and_comments.parquet"
+polars open seeded_posts_and_comments.parquet | polars collect
+polars open posts_and_comments.parquet | polars schema
+history | select command | where command =~ "posts_and_comments.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' "posts_and_comments.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "posts_and_comments.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "post_and_comment.parquet"
+fd posts_and_comments.parquet
+fd --help | fzf
+fd -I posts_and_comments.parquet
+history | select command | where command =~ "posts_and_comments.parquet"
+history | select command | where command =~ "save posts_and_comments.parquet"
+history | select command | where command =~ "seeded_posts_and_comments.parquet"
+polars open all_posts_after.parquet
+polars open all_posts_after.parquet | polars schema
+history | select command | where command =~ "all_posts_after.parquet"
+lazygit
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "is_posts"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "is_post"
+nordvpn d
+nmtui
+codex
+sudo npm uninstall -g @openai/codex
+yay -S openai-codex
+rustc --explain E0658
+rustc --version<\n>
+sudo npm install -g @openai/codex
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python topic_modeling_lda.py 
+fd | wl-copy
+codex
+yay -Qe | fzf
+discord
+echo "hi"
+polars open seeded_posts_and_comments.parquet | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col is_post) == (polars lit true)) | polars colelct
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col is_post) == (polars lit true)) | polars collect
+history | select command | where command =~ "sample -n"
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "headphones")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "mac")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "pcbuild")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "iphone")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "ErgoMechKeyboards")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "homelab")) | polars collect
+polars open seeded_posts_and_comments.parquet | polars filter ( (polars col subreddit) == (polars lit "GamingLaptops")) | polars collect
+polars open all_posts_after.parquet | polars sample -n 10000 | polars collect
+polars open all_posts_after.parquet | polars sample -n 10000 | polars filter ( (polars col subreddit) == (polars lit "headphones")) | polars collect
+polars open all_posts_after.parquet | polars sample -n 10000 | polars filter ( (polars col subreddit) == (polars lit "iphone")) | polars collect
+polars open all_posts_after.parquet | polars sample -n 10000 | polars filter ( (polars col subreddit) == (polars lit "ErgoMechKeyboards")) | polars collect
+polars open all_posts_after.parquet | polars sample -n 10000 | polars filter ( (polars col subreddit) == (polars lit "SmartThings")) | polars collect
+polars open all_posts_after.parquet <\n>| polars group-by subreddit <\n>| polars agg { polars sample --n-rows 800 } <\n>| polars collect
+python polars_test.py 
+polars open sampled_posts.parquet | polars filter ( (polars col subreddit) == (polars lit "SmartThings")) | polars collect
+polars open sampled_posts.parquet | polars filter ( (polars col subreddit) == (polars lit "headphones")) | polars collect
+polars open sampled_posts.parquet | polars filter ( (polars col subreddit) == (polars lit "ErgoMechKeyboards")) | polars collect
+polars open sampled_posts.parquet | polars filter ( (polars col subreddit) == (polars lit "homelab")) | polars collect
+betterdiscord-installer 
+btop
+pkill -9 discord
+btop
+polars open all_posts_after.parquet | polars schema
+polars open all_comments_after.parquet | polars schema
+polars open seeded_posts_and_comments.parquet | polars schema
+polars open all_posts_after.parquet | sort-by subreddit | polars collect<\n>
+polars open all_posts_after.parquet | polars sort-by subreddit | polars collect<\n>
+polars open all_posts_after.parquet | polars sort-by subreddit | polars select subreddit | polars collect<\n>
+polars open posts_and_comments.parquet | polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "false"))<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars schema
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "polars save posts_and_comments.parquet"
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "is_post"
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars select score<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "headphones"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "ErgoMechKeyboards"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars get 15<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take 5<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([4] | polars into-df)   # 5th row (index 4)<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([25] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([20] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([15] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([16] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([17] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open posts_and_comments.parquet <\n>| polars filter ((polars col is_post) == (polars lit "true"))<\n>| polars filter ((polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars take ([18] | polars into-df)   # 5th row (index 4)<\n>| polars collect
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars filter ( (polars col score) > (polars lit 5))<\n>| polars collect<\n>
+polars open all_posts_after.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars filter ( (polars col score) > (polars lit 10))<\n>| polars collect<\n>
+polars open posts_and_comments.parquet <\n>| polars filter ( (polars col is_post) == (polars lit "true"))<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars select score<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars schema<\n>
+polars open top800_comments_per_subreddit.parquet<\n>| polars schema<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars collect<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars select score<\n>| polars collect<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "homelab"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "headphones"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open top800_comments_per_subreddit.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "headphones"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+let other_file = (polars open top800_comments_per_subreddit.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body)<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body)<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_13600_MAU.parquet<\n>
+polars open top50_posts_per_subreddit.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_13600_MAU.parquet<\n>
+polars open FILE_CHUNG_13600_MAU.parquet | polars collect<\n>
+polars open balanced_merged_13600.parquet | polars collect<\n>
+polars open balanced_merged_13600.parquet <\n>| polars filter ( (polars col subreddit) == (polars lit "headphones"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col subreddit) == (polars lit "headphones"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "hd600"))<\n>| polars sort-by score<\n>| polars select score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "hd600"))<\n>| polars sort-by score<\n>| polars select body score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "HD600"))<\n>| polars sort-by score<\n>| polars select body score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "Hd600"))<\n>| polars sort-by score<\n>| polars select body score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "$Hd600"))<\n>| polars sort-by score<\n>| polars select body score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars sort-by score<\n>| polars select body score<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars select  score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars select created_utc score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column ( (polars col created_utc).cast(int64).dt.from_timestamp("s") | as created_at ) |<\n>| polars select created_utc score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column ( (polars col created_utc).cast "i64" | polars dt from-timestamp "s" | polars as "created_at" )<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>    | polars cast "i64"<\n>    | polars dt from-timestamp "s"<\n>    | polars as "created_at"<\n>  )<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>    | polars cast "i64"<\n>    | polars as-datetime "s"            # interpret as seconds since epoch<\n>    | polars strftime "%Y-%m-%d %H:%M:%S"<\n>    | polars as "created_at"<\n>  )<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>    | polars cast "i64"<\n>    | polars as-datetime "s"<\n>    | polars strftime "%Y-%m-%d %H:%M:%S"<\n>    | polars as "created_at"<\n>  )<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>    | polars cast "i64"<\n>    | polars as-datetime "s"<\n>    | polars strftime "%Y-%m-%d %H:%M:%S"<\n>    | polars as "created_at"<\n>  )<\n>| polars drop created_utc<\n>| polars select created_at score body<\n>| polars collect<\n>
+1750574430 | into datetime -f '%s' -z 'u'
+polars open all_comments_after.parquet<\n>| polars with-column (<\n>    (polars col created_utc <\n>      | polars cast i64 <\n>      | polars as-datetime s<\n>      | polars strftime "%Y-%m-%d %H:%M:%S")<\n>    | polars as created_at<\n>)<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>	| polars as-datetime "%Y-%m-%d %H:%M:%S %z"<\n>    | polars as "created_at"<\n>  )<\n>| polars drop created_utc<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (<\n>    polars col created_utc<\n>	| polars as-datetime "%Y-%m-%d %H:%M:%S %z"<\n>    | polars as "created_at"<\n>  )<\n># | polars drop created_utc<\n>| polars select created_at score body<\n>| polars collect<\n>
+gemini --model gemini-2.5-flash
+sudo npm install -g @google/gemini-cli
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars cast str | polars as-datetime "%y-%m-%d %H:%M:%S" | polars as readable_time) \<\n>| polars select created_utc score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars cast str | polars as-datetime "%y-%m-%d %H:%M:%S" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars as-datetime "%y-%m-%d %H:%M:%S" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars cast str | polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)element IV"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars sort-by score<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n># | polars sort-by score<\n>| polars sort-by created_utc<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_posts_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n># | polars sort-by score<\n>| polars sort-by created_utc<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n># | polars sort-by score<\n>| polars sort-by created_utc<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+# converted utc<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars sort-by score<\n># | polars sort-by created_utc<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+/home/pampam/Documents/UTH/DataMining/tests
+git clone https://github.com/typst/typst.git
+curl -fsSL -o docs https://github.com/typst/typst/tree/main/docs
+curl -fsSL -o docs/ https://github.com/typst/typst/tree/main/docs
+pwd | wl-copy
+typst watch playground.typ 
+typst watch making_a_template.typ 
+typst --help
+/home/pampam/Documents/UTH/DataMining/tests/diatypst
+git clone /home/pampam/Documents/UTH/DataMining/tests/diatypst
+git clone https://github.com/skriptum/diatypst.git
+typst w main.typ
+typst w example.typ 
+gemini --model gemini-2.5-flash
+nvim
+codex
+code test.ipynb 
+ouch eda/ eda.zip
+ouch eda eda.zip
+ouch compress eda eda.zip
+fd | wl-copy
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet | polars collect
+polars open seeded_posts_and_comments_with_pos_neg_neu.parquet <\n>| polars select name pos neu neg body<\n>| polars collect
+python distillbert-base-test.py 
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python distillbert-base-test.py 
+polars open all_comments_after.parquet | polars columns
+polars open all_posts_after.parquet | polars columns
+polars open comments_non_english.parquet | polars columns
+polars open comments_non_english.parquet | polars collect
+polars open all_posts_after.parquet <\n>| polars select subreddit_subscribers<\n>| polars collect
+polars open all_posts_after.parquet <\n>| polars group-by subreddit<\n>| polars select subreddit_subscribers<\n>| polars collect
+rg --glob '!*.jsonl' --glob "!*.csv" --glob '!nushell.github.io/' --no-ignore "polars agg"
+polars open all_posts_after.parquet <\n>| polars select subreddit_subscribers<\n>| polars unique<\n>| polars collect
+polars open reddit_posts.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars collect
+polars open reddit_posts.parquet<\n>| polars group-by subreddit<\n>| polars agg (<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>)<\n>| polars select subreddit max_subscribers<\n>| polars unique<\n>| polars collect
+polars open reddit_posts.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars select subreddit max_subscribers<\n>| polars collect<\n>
+polars open reddit_posts.parquet<\n>| polars group-by subreddit<\n># | polars agg [<\n>#     (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n># ]<\n>| polars select subreddit max_subscribers<\n>| polars collect
+polars open reddit_posts.parquet<\n>| polars group-by subreddit<\n># | polars agg [<\n>#     (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n># ]<\n># | polars select subreddit max_subscribers<\n>| polars collect
+polars open all_posts_after.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars select subreddit max_subscribers<\n>| polars collect
+polars open all_posts_after.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars select subreddit max_subscribers<\n>| polars sort-by subreddit<\n>| polars collect
+polars open all_posts_after.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars sort-by score<\n>| polars select subreddit max_subscribers<\n>| polars collect
+polars open all_posts_after.parquet<\n>| polars group-by subreddit<\n>| polars agg [<\n>    (polars col subreddit_subscribers | polars max | polars as max_subscribers)<\n>]<\n>| polars select subreddit max_subscribers<\n>| polars sort-by max_subscribers<\n>| polars collect
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+ls -la
+lsblk
+sudo umount /dev/sda
+sudo mkfs.exfat /dev/sda
+sudo pacman -S exfatprogs
+lsblk
+sudo mkfs.exfat -n MYUSB /dev/sda1<\n>
+sudo mkfs.exfat -n MYUSB /dev/sda
+nordvpn d
+nmtui
+ouch compress topic_modelling/ topic_modelling.zip
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python topic_modeling_lda.py 
+ouch compress topic_modelling/ topic_modelling.zip
+python topic_modeling_lda.py 
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python topic_modeling_lda.py 
+polars open FILE_CHUNG_13600_MAU.parquet | polars schema
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+pip freeze | fzf
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python topic_modeling_lda.py 
+python topic_modeling_lda.py --data FILE_CHUNG_13600_MAU.parquet --out artifacts --topics 12
+python topic_modeling_lda.py --data FILE_CHUNG_13600_MAU.parquet --out artifacts --topics 20
+git init
+git add .
+lazygit
+polars open FILE_CHUNG_13600_MAU.parquet<\n>| polars filter ((polars col body) | (polars contains "(i?)hd600"))<\n>| polars collect
+polars open FILE_CHUNG_13600_MAU.parquet<\n>| polars filter ((polars col body) | (polars contains "hd600"))<\n>| polars collect
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_13600_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_13600_MAU.parquet<\n>
+polars open FILE_CHUNG_13600_MAU.parquet<\n>| polars filter ((polars col body) | (polars contains "(i?)hd600"))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ((polars col body) | (polars contains "(i?)hd600"))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ((polars col body) | (polars contains "hd600"))<\n>| polars collect
+# converted utc<\n>polars open all_comments_after.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n># | polars sort-by score<\n>| polars sort-by created_utc<\n>| polars with-column (polars col created_utc | polars cast str <\n>	| polars as-datetime "%s" | polars strftime "%Y-%m-%d %H:%M" | polars as created_at)<\n>| polars select created_at score body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) == (polars contains "(?i)hd600"))<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) == (polars lit "hd600"))<\n>| polars collect<\n><\n>
+polars open FILE_CHUNG_13600_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ((polars col is_post) == (polars lit true))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ((polars col is_post) == (polars lit !true))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ((polars col is_post) == (polars lit false))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars hd600_posts_and_comments.parquet<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars save hd600_posts_and_comments.parquet<\n>
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python hd600_insights.py 
+polars open hd600_posts_and_comments.parquet<\n>| polars filter ((polars col body) | (polars contains "(i?)The SMSL"))<\n>| polars collect
+polars open hd600_posts_and_comments.parquet<\n>| polar select body<\n>| polars filter ((polars col body) | (polars contains "(i?)The SMSL"))<\n>| polars collect
+polars open hd600_posts_and_comments.parquet<\n>| polars select body<\n>| polars filter ((polars col body) | (polars contains "(i?)The SMSL"))<\n>| polars collect
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit false | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars schema
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars save hd600_posts_and_comments.parquet<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet <\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select name<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lfzjnk"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lfzjnk"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars select body<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lfzjnk"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1m59wc9"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select score name body<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1l7cxo6"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1l7cxo6"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lowmgp"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lowmgp"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col name) == (polars lit "t3_1lowmgp"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col link_id) == (polars lit "t3_1lowmgp"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select score name body<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col link_id) == (polars lit "t3_1l7cxo6"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col link_id) == (polars lit "t3_1l7cxo6"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select score body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars schema<\n>| fzf<\n>
+polars open all_posts_after.parquet<\n>| polars schema<\n>| fzf<\n>
+polars open all_comments_after.parquet<\n>| polars schema<\n>| fzf<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit "" | polars as upvote_ratio),(polars lit "" | polars as num_comments),(polars lit "" | polars as num_crossposts),(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+polars open all_posts_after.parquet<\n>| polars schema<\n>| fzf<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ (polars lit "" | polars as upvote_ratio)<\n>		,(polars lit "" | polars as num_comments)<\n>		,(polars lit "" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		# (polars lit "" | polars as upvote_ratio)<\n>		# ,(polars lit "" | polars as num_comments)<\n>		# ,(polars lit "" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		# (polars lit "" | polars as upvote_ratio)<\n>		,(polars lit "" | polars as num_comments)<\n>		# ,(polars lit "" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc num_comments is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc num_comments is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		# (polars lit "" | polars as upvote_ratio)<\n>		,(polars lit "" | polars as num_comments)<\n>		# ,(polars lit "" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score link_id parent_id author subreddit created_utc num_comments is_post body)<\n>
+$other_file
+$other_file | collect
+$other_file | polars collect
+polars open all_comments_after.parquet<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.1 ))<\n>| polars collect<\n>
+polars open all_posts_after.parquet<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.1 ))<\n>| polars collect<\n>
+polars open all_posts_after.parquet<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.05 ))<\n>| polars collect<\n>
+polars open all_posts_after.parquet<\n>| polars filter ((polars col upvote_ratio) < (polars lit 0.01 ))<\n>| polars collect<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		(polars lit -1 | polars as upvote_ratio)<\n>		,(polars lit -1 | polars as num_comments)<\n>		,(polars lit -1 | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		(polars lit "-1" | polars as upvote_ratio)<\n>		,(polars lit "-1" | polars as num_comments)<\n>		,(polars lit "-1" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		(polars lit "-1.0" | polars as upvote_ratio)<\n>		,(polars lit "-1" | polars as num_comments)<\n>		,(polars lit "-1" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		(polars lit "" | polars as upvote_ratio)<\n>		,(polars lit "" | polars as num_comments)<\n>		,(polars lit "" | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>		(polars lit 0.01 | polars as upvote_ratio)<\n>		,(polars lit 0 | polars as num_comments)<\n>		,(polars lit 0 | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>      (polars lit null | polars cast f64 | polars as upvote_ratio)<\n>      (polars lit null | polars cast i64 | polars as num_comments)<\n>      (polars lit null | polars cast i64 | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>      (polars lit -1 | polars cast f64 | polars as upvote_ratio)<\n>      (polars lit -1 | polars cast i64 | polars as num_comments)<\n>      (polars lit -1 | polars cast i64 | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+let other_file = (polars open all_comments_after.parquet<\n>| polars with-column [ <\n>      (polars lit "-1" | polars cast f64 | polars as upvote_ratio)<\n>      (polars lit "-1" | polars cast i64 | polars as num_comments)<\n>      (polars lit "-1" | polars cast i64 | polars as num_crossposts)<\n>		,(polars lit false | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body)<\n><\n># COMBINE the "title" AND "selftext" column into "body" and make the schema of 2 files the same<\n>polars open all_posts_after.parquet<\n>| polars with-column [ (polars lit "" | polars as link_id), (polars lit "" | polars as parent_id),<\n>((polars concat-str "\n" [(polars col title) (polars col selftext)]) | polars as body),<\n>(polars lit true | polars as is_post)]<\n>| polars select name score upvote_ratio num_comments num_crossposts link_id parent_id author subreddit created_utc is_post body<\n>| polars concat $other_file<\n>| polars save FILE_CHUNG_1TRIEU_MAU.parquet<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit true))<\n>| polars select score name body<\n>| polars sort-by score<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col link_id) == (polars lit "t3_1lowmgp"))<\n>| polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select score body<\n>| polars collect<\n>
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col link_id) == (polars lit "t3_1lowmgp"))<\n># | polars filter ( (polars col body) | (polars contains "(?i)hd600"))<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select score body<\n>| polars collect<\n>
+wk https://x.com/catversusfrog/status/1965278967851876828?s=19
+codex
+lazygit
+codex
+npm install -g @openai/codex
+sudo npm install -g @openai/codex
+nvim
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+pip install vaderSentiment
+pip install matplotlib
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "HD600" --aliases "hd600,hd 600,hd6xx,sennheiser hd600" --out artifacts_hd600 --subs "r/headphones,r/BudgetAudiophile" --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "4090"  --out artifacts_4090 --subs "r/GamingLaptops,r/PcBuild,r/homelab" --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "4090"  --aliases "rtx 4090" --out artifacts_4090 --subs "r/GamingLaptops,r/PcBuild,r/homelab" --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4"  --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --subs "r/mac,r/macbookpro" --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+lazygit
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4"  --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+deactivate
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4"  --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4"  --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category auto --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+lazygit
+codex
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4"  --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category laptops_mac --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4" --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df 2 --max-df 0.95 --max-feat 8000 --svd 120 --svd-n- iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category laptops_mac --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4" --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df 2 --max-df 0.95 --max-feat 8000 --svd 120 --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category laptops_mac --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+lazygit
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "M4" --aliases "macbook m4, macbook m4 pro, macbook m4 max, macbook m4 ultra, apple macbook m4, apple m4 macbook" --out artifacts_m4 --ngram-min 1 --ngram-max 2 --min-df 2 --max-df 0.95 --max-feat 8000 --svd 120 --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 6 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category laptops_mac --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+ya pkg add ndtoan96/ouch
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "4090"  --aliases "rtx 4090" --out artifacts_4090 --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category pc_homelab_keyboards --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "FT1" --aliases "Fiio Ft1, ft1" --out artifacts_ft1  --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category headphones --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots<\n>
+wk https://x.com/ghostenki/status/1965320015810371739
+wk https://x.com/Sancochogurl/status/1964437822208901409
+wk https://x.com/newjeansmoment/status/1965385295018578130
+wk https://x.com/stardustminji/status/1965304907772379163
+wk https://x.com/newjeansacervo/status/1965099338566410331
+wk https://x.com/J_Son_NJZ/status/1965129520572518785
+wk https://x.com/newbreedoyousee/status/1964809088271081602
+wk https://x.com/hostokyo/status/1964814135570661590
+wk https://x.com/newz25287/status/1964874232153932046
+wk https://x.com/katebbow/status/1965138987158479041
+wk https://x.com/burgerself/status/1964578488972955763
+wk https://x.com/comfy_ai/status/1965296250305348001
+wk https://x.com/nightstar80941/status/1965124362115400120
+wk https://x.com/NUMBER12GIRL_GG/status/1965109926503874955
+wk https://x.com/insaneposes/status/1965128828168368260
+wk https://x.com/MangaContexts/status/1965149147767468412
+job unfreeze
+codex
+python scripts/run_pipeline.py <\n>--data FILE_CHUNG_1TRIEU_MAU.parquet <\n>--product "Fiio FT1" --aliases "Fiio Ft1, ft1" -<\n>-out artifacts_ft1  --ngram-min 1 --ngram-max 2 <\n>--min-df auto --max-df 0.95 --max-feat auto <\n>--svd auto --svd-n-iter 7 --svd-random-state 42 <\n>--method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 <\n>--kmeans-n-init 10 --aspect-category headphones <\n>--expand-seeds --expand-top-k 50 <\n>--min-aspect-freq auto --save-plots
+nordvpn d
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+python scripts/run_pipeline.py --data FILE_CHUNG_1TRIEU_MAU.parquet --product "FT1" --aliases "Fiio Ft1, ft1" --out artifacts_ft1  --ngram-min 1 --ngram-max 2 --min-df auto --max-df 0.95 --max-feat auto --svd auto --svd-n-iter 7 --svd-random-state 42 --method kmeans --k-min 3 --k-max 8 --kmeans-random-state 42 --kmeans-n-init 10 --aspect-category headphones --expand-seeds --expand-top-k 50 --min-aspect-freq auto --save-plots<\n>
+ovel
+overlay use /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv/bin/activate.nu
+nordvpn d
+nordvpn c
+nordvpn d
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select score body<\n>| polars sort-by score<\n>| polars last 100<\n>| polars into-nu
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars select score body<\n>| polars sort-by score<\n>| polars last 100<\n>| polars save temp1.jsonl
+open temp1.jsonl | save temp1.json
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars sort-by score<\n>| polars last 100<\n>| polars save temp1.jsonl
+open temp1.jsonl | save temp1.json
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n>| polars filter ( (polars col is_post) == (polars lit false))<\n>| polars sort-by score<\n>| polars last 100<\n>| polars save temp1.jsonl
+open temp1.jsonl | save temp1.json
+polars open FILE_CHUNG_1TRIEU_MAU.parquet<\n># | polars filter ( (polars col is_post) == (polars lit false))<\n>| polars sort-by score<\n>| polars sample -n 1000<\n>| polars save temp1.jsonl
+open temp1.jsonl | save temp1.json
+open r_BudgetAudiophile_comments.jsonl | save temp.json
+open r_BudgetAudiophile_posts.jsonl | head 10 | save temp.json
+open r_BudgetAudiophile_posts.jsonl | head | save temp.json
+open r_BudgetAudiophile_posts.jsonl | save temp.json
+nordvpn c
+wk https://x.com/_yuminha/status/1965557759078006902
+wk https://x.com/phamface_/status/1965428553161564245
+wk https://x.com/sweeneydailyx/status/1965397822972571946
+wk https://x.com/chinatownmule/status/1965607533604934096
+wk https://x.com/kismetfiless/status/1965483915013226734
+wk https://x.com/IchikaNel/status/1965067951733911561
+wk https://x.com/hyekittyz/status/1965043763203780963
+wk https://x.com/BunnieMong0722/status/1965246684604366902
+wk https://x.com/CakeDegg/status/1965633491993067927
+wk https://x.com/cxlxmba/status/1965252468549533936
+wk https://x.com/juantokki/status/1965243325461774506
+wk https://x.com/bongftah/status/1965046993811804338
+wk https://x.com/kpopiumm/status/1965527748291821943
+wk https://x.com/njzfaerie/status/1965191883862458636
+wk https://x.com/kpopiumm/status/1965063408048652596
+wk https://x.com/njzforever/status/1964957454099484854
+wk https://x.com/hannihourly/status/1965139122621943897
+wk https://x.com/ichiichizero2/status/1965542138571305276
+wk https://x.com/NJZBTS/status/1965119120447598623
+wk https://x.com/baeglamz/status/1965371759471067246
+wk https://x.com/haerinface_/status/1965328463612837939
+wk https://x.com/KyeZzzz/status/1965070530295497151
+wk https://x.com/NJZBTS/status/1964359758732788110
+wk https://x.com/boss_tseng/status/1965377585527075071/photo/1
+pacman -Sy bash bc coreutils git jq playerctl<\n>
+sudo pacman -Sy bash bc coreutils git jq playerctl<\n>
+tmux
+which ghostty
+ghostty --version
+git clone https://github.com/ghostty-org/ghostty.git
+gemini --model gemini-2.5-flash
+yay -Qe | fzf
+sudo npm install -g @google/gemini-cli
+ghostty --version
+yay -Rns ghostty ; yay -S ghostty-git
+btop
+yay -S ghostty-git
+yay -S ghostty
+gemini --model gemini-2.5-flash
+ls
+code
+codex
+ls
+tmux
+gemini --model gemini-2.5-flash
+pkill tmux
+kill tmux
+ls
+tmux
+ls
+btop
+ls
+which cat
+cat README.md 
+bat README.md 
+ls
+j /tmp/9Kojk_I9N_nTQJTFoDXVGw/screen.txt
+nvim /tmp/9Kojk_I9N_nTQJTFoDXVGw/screen.txt
+ls
+btop
+ls
+z
+ls
+nvim
+tmux
+lazygit
+git status
+git branch --show-current
+git stash list
+git status
+git stash show -p stash@{0}
+mpv https://private-user-images.githubusercontent.com/9512444/478812899-3cc83544-2690-49b5-8be6-51e671db52ef.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc1MDg1ODcsIm5iZiI6MTc1NzUwODI4NywicGF0aCI6Ii85NTEyNDQ0LzQ3ODgxMjg5OS0zY2M4MzU0NC0yNjkwLTQ5YjUtOGJlNi01MWU2NzFkYjUyZWYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDkxMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA5MTBUMTI0NDQ3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MDEwNDQ1OTgyMWJkMTkyMmMxNzI1ZjUyNGMyMmRjYWJlMTdhMzhlMjcwY2JmZmQ0YTc3YTE0OTA5OTc3OGY4MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.gpojELhnZBpcqNQB-lYmZD0SVMJJDWf8fWgvzeD78Aw
+btop
+git stash show -p stash@{1}
+lazygit
+nvim /home/pampam/.config/hypr/modules/Keybinds.conf
+jkl https://www.youtube.com/watch?v=V_02FQmV1dA
+sudo pacman -S wl-mirror
+wl-mirror --fullscreen --fullscreen-output HDMI-A-1 --scaling exact eDP-1
+hyprctl monitors
+hyprctl monitors all
+sudo pacman -S wayland-utils<\n>wayland-info | grep -A2 'wl_output.*name\|description'
+wayland-info | grep -A2 'wl_output.*name\|description'
+wl-mirror eDP-1 -F --fullscreen-output HDMI-A-2 --scaling exact
+wl-mirror mirro eDP-1 --fullscreen-output HDMI-A-1 --scaling exact eDP-1
+wl-mirror eDP-1 --fullscreen-output HDMI-A-1 --scaling exact eDP-1
+wl-mirror --fullscreen-output HDMI-A-1 --scaling exact eDP-1
+wl-mirror -F
+wl-mirror
+man wl-mirror
+hyprctl monitors all
+yay -Rns wl-mirror
+pkill hyprpaper
+hyprpaper
+pkill hyprpaper
+wk https://x.com/rei_masane_0422/status/1962125121629602086
+./pixes
+z
+pkill hyprpaper
+hyprpaper
+pkill hyprpaper
+hyprpaper
+pkill hyprpaper ; hyprpaper
+pkill hyprpaper && hyprpaper
+pkill hyprpaper ;; hyprpaper
+pkill hyprpaper and hyprpaper
+pkill hyprpaper && hyprpaper
+pkill hyprpaper hyprpaper
+pkill hyprpaper <\n>hyprpaper
+hyprctl monitors
+hyprctl hyprpaper wallpaper "HDMI-1-A,path/to/wallpaper"
+hyprctl hyprpaper wallpaper "HDMI-1-A,/home/pampam/Downloads/wallpapers/shiej007-126004401.png"
+pkill hyprpaper <\n>hyprpaper
+hyprpaper
+pkill hyprpaper <\n>hyprpaper
+pkill hyprpaper 
+hyprpaper
+pkill hyprpaper 
+hyprpaper
+hyprctl dispatch focusworkspace back_and_forth
+hyprctl dispatch workspace back_and_forth
+hyprctl --help
+hyprctl --help | nvim
+hyprpaper

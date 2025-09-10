@@ -18,6 +18,11 @@ use = "TD-Sky/sudo"
 rev = "af70636"
 hash = "a94dcbe9266512806c677138e8591ddb"
 
+[[plugin.deps]]
+use = "ndtoan96/ouch"
+rev = "0742fff"
+hash = "2bd799b42b8e42b8ef100310be71f8d1"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
 rev = "8458d25"

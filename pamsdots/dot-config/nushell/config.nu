@@ -71,6 +71,7 @@ $env.config = {
                   send: executehostcommand,
                   cmd: "y" }
       }
+	  
     ]
 }
 use ~/.cache/starship/init.nu
