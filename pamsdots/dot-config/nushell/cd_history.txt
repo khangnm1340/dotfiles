@@ -19,3 +19,4 @@
 /home/pampam/Documents/UTH/DataMining/tests
 /home/pampam/dotfiles/pamsdots/dot-config
 /home/pampam/builds
+/home/pampam/Downloads/wallpapers

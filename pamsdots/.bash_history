@@ -1,21 +1,3 @@
-Z2SJBxaxYJ84pwUNTZ5JnpqeT3jARJ7D1YjRRICiccRtWSjWBKtJfrigZvT0sTiFO7rbzDcoOLez
-TZQk1XFdTdQI+71vWSb96ceHX6GvJAl+hry9ahUvxJr5yB2o1Xss3buhXFFsnPmGbmdHkJndL1Oo
-Ucf8Uz0cTb85UE2epZtVwpQIhvLRREdApnTxMNGh980NfIceRxr/aHexA+hwTpQvQoiFaVbe+36M
-YN5KtiJ6zGHNh8zmS7eG4IMbakhQo76oTTR5yQ1GVKvMoffNZZtXewSIzei5Lb42rxQQYpaw0udv
-ThdHNaB1xc1PKdpZDek0cAlbkGreJddsq8BbfErl2Xn1Pb57otTV21Iacg7bgRJGMJgJyzwpGJWz
-SIj+q1SgWeQFJoTjwy00chYfYGkCdu/zzYpZYoSpBBg8z5SRAfDfNahkD+mmpsF2lUY6RjndXIM3
-2IZeJmroe5T1HEKQcRDtRfB22fGvugsT+BEsvB3fPpaAgmHzY4irbHThGWcgipG4JjA545deAL4a
-tBVOYFOTdwyC+2tYnM6SpZKVtq2iEbMX+eH2M9npEFXpN9x1tbUNoZf4VgT8FCT6VsNlRI8wtyjn
-sSBysrfmU8bx74YbV7c0pSejgSQtT+ys0/D/F5B+0MTULWXqFNXXDnps1akd1PeSG3ymIYUP9Abp
-EB45pqc1y/QHHfqtcx1nxUgshLon0o8gfqKg6L+3NlbGL/g1UkiX7EEOnJAiIr2POgc9SadDmL0j
-KvllOwGXS8dFqoy4aEnf3fGEXgeMzMPWTo6ZqmeY/nOyHVR8GxmktXQ1+b12v2SK39YOitz05mzP
-xSl/233f6BSXyfFplwhXBgk8VcdYRXxFEq0v/xAXUDVF4w5RPzdtMaMj6Y19JQsMR5c+XlBxpDOn
-jyz7yZXuTpUJijZO9hZnMlw9vBJZwkKwHfKBsnL1YDlJ5idp82elVGbJoTnKQNr70JPXh0+pcX+D
-pZIkuK2hS0Np8LiKm5h3V7IYTkLB3tiCKd1zaBJf6FTxLsELhaNySUiRp9Om7usjuUpJPJvxWJm1
-YbHYNR8t157cogvDErDkQZFVqDKaOF2YHYDhR1EgOnAy+/7zTpO5156JwoGFUWK4oGyRBVBxpXL1
-VtAlWMfWPOQ8nGzumVIkvbXbc4r5S80oheEk94c/if8UK6MZEyw59LyWkHR1LWIqCZEdxZBQ68KH
-EPA3lIXxOszLUeTBuBchOeTAWZ9bujYVSGZt7wCfXLjCoqN0WpQHdAKmTlCPkwT0TCPLD+FgIoIW
-FLHheJaL0P/YZbIYVfFCbny8AbVvN1d92qu0gm6TZpfGig97CjIEAoiKuu+0rO+dLxdR4WPq07Gm
 YFqrSK5qOVRzs8JBIB2D2BLDPkZ8tpuWN3Cc2nD0ohZRp/evLfOT/nGPfa4yG0Irew7VyzBcZ+LJ
 zsTCKwouSnoQuqRV6QaAApA3bDdIm9CGZIA7NaOdMhm2ze8xRrDRwBhrJ0sbsGn1/lAtna4N1Dzx
 h4pDIbYC3uQkyZQepByqebs+2s5fWGofTJvzSd2la2oxk46fCjxb7LG9yOwlaW+XdfwHmluBpHJN
@@ -498,3 +480,21 @@ ls -s .venv/
 ls -l .venv/
 ls -l .venv
 ls -l /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv
+IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
+hyprctl hyprpaper preload "$IMG"
+pkill hyrpaper
+hyprpaper & disown
+hyprpaper & disown
+pkill hyprpaper
+hyprpaper & disown
+IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
+hyprctl hyprpaper preload "$IMG"
+hyprctl hyprpaper wallpaper eDP-1 "$IMG"
+hyprctl hyprpaper wallpaper HDMI-A-1 "$IMG"
+IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
+hyprctl hyprpaper preload "$IMG"
+hyprctl hyprpaper wallpaper "eDP-1,$IMG"
+hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
+hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
+nu
+tmux

@@ -19890,3 +19890,85 @@ hyprctl dispatch workspace back_and_forth
 hyprctl --help
 hyprctl --help | nvim
 hyprpaper
+nordvpn d
+jkh https://www.youtube.com/watch?v=IyxSqeFrlp0&t=933s
+ls
+tmux
+pkill tmux
+tmux
+tmux show -g
+tmux
+ls
+wk https://www.pixiv.net/tags/チェンソーマン%201000users入り/artworks?ratio=0.5&p=3#ppixiv?view=illust&illust_id=86327787&page=3
+wk https://www.pixiv.net/artworks/98540464#ppixiv
+wk https://www.pixiv.net/artworks/95481696#ppixiv
+gl https://www.pixiv.net/artworks/95237493#ppixiv
+wk https://www.pixiv.net/artworks/88086670#ppixiv
+/home/pampam/dotfiles/pamsdots/dot-config/hypr/scripts
+chmod +x hyprpaper.sh 
+pkill hyprpaper 
+swww img /home/Ext4Pam/Pictures/Arch_pics/95481696_p0.png --transition-type any --transition-duration 3 --transition-fps 60
+sww init
+swww init
+swww img /home/Ext4Pam/Pictures/Arch_pics/95481696_p0.png --transition-type simple --transition-duration 3 --transition-fps 60
+swww img /home/Ext4Pam/Pictures/Arch_pics/98540464_p0.jpg --transition-type simple --transition-duration 3 --transition-fps 60
+swww img /home/Ext4Pam/Pictures/Arch_pics/86327700.jpg --transition-type fade --transition-duration 3 --transition-fps 60
+swww img /home/Ext4Pam/Pictures/Arch_pics/95481696_p0.png --transition-type grow --transition-duration 3 --transition-fps 60
+swww img /home/Ext4Pam/Pictures/Arch_pics/99376465.jpg --transition-type outer --transition-duration 3 --transition-fps 60
+swww img /home/Ext4Pam/Pictures/Arch_pics/86327787.jpg --transition-type wave --transition-duration 3 --transition-fps 60
+git clone https://github.com/basecamp/omarchy.git
+swww-daemon
+yay -Rns swww
+fd --type f
+pkill hyprpaper 
+hyprpaper
+$env.IMG=/home/pampam/Downloads/wallpapers/1-zomoh-99376465.jpg
+$env.IMG = "/home/pampam/Downloads/wallpapers/1-zomoh-99376465.jpg"
+hyprctl hyprpaper preload "$IMG"
+hyprctl hyprpaper preload $env.IMG
+hyprctl hyprpaper wallpaper $env.IMG
+hyprctl hyprpaper wallpaper ,$env.IMG
+hyprctl hyprpaper wallpaper ",$env.IMG"
+hyprctl hyprpaper wallpaper ",($env.IMG)"
+hyprctl hyprpaper wallpaper $",($env.IMG)"
+wk https://www.pixiv.net/artworks/86149076#ppixiv
+wk https://www.pixiv.net/artworks/86012869#ppixiv
+wk https://www.pixiv.net/artworks/89828378#ppixiv
+wk https://www.pixiv.net/artworks/89759395#ppixiv
+wk https://www.pixiv.net/artworks/90302951#ppixiv
+wk https://www.pixiv.net/artworks/90615259#ppixiv
+wk https://www.pixiv.net/artworks/98526320#ppixiv
+wk https://www.pixiv.net/artworks/102549727#ppixiv
+wk https://www.pixiv.net/artworks/103553155#ppixiv
+gl https://www.pixiv.net/artworks/104028923#ppixiv
+wk https://www.pixiv.net/artworks/105072237#ppixiv
+wk https://www.pixiv.net/artworks/106790107#ppixiv
+wk https://www.pixiv.net/artworks/106790291#ppixiv
+wk https://www.pixiv.net/artworks/115408254#ppixiv
+wk https://www.pixiv.net/artworks/113872957#ppixiv
+wk https://www.pixiv.net/artworks/116516320#ppixiv
+wk https://www.pixiv.net/artworks/122537738#ppixiv
+wk https://www.pixiv.net/artworks/124045707#ppixiv
+wk https://www.pixiv.net/artworks/132322469#ppixiv
+hyprpaper
+hyprctl hyprpaper wallpaper /home/pampam/Downloads/wallpapers/stay-in-da-middle/*
+ls ~/Downloads/wallpapers/stay-in-da-middle | each {|it|<\n>    print $it.name<\n>}
+ls ~/Downloads/wallpapers/stay-in-da-middle | each {|it|<\n>    hyprctl hyprpaper wallpaper $"($it.name)"<\n>}
+ls ~/Downloads/wallpapers/stay-in-da-middle | each {|it|<\n>    print $"($it.name)"<\n>}
+ls ~/Downloads/wallpapers/stay-in-da-middle | each {|it|<\n>    hyprctl hyprpaper preload $"($it.name)"<\n>}
+nu /home/pampam/dotfiles/pamsdots/dot-config/hypr/scripts/preload-wallpaper.nu
+[apple banana cherry] | random<\n>
+let items = [apple banana cherry]<\n>let idx = (random int 0..($items | length))<\n>$items | get $idx
+nu randomly-load-wallpaper.nu 
+btop
+ps | select name mem <\n>| group-by name --to-table <\n>| each { |it| { name: $it.name, mem: ($it.items | get mem | math sum) } }<\n>| sort-by mem | last 20<\n>
+hyprpaper
+nu preload-wallpaper.nu
+nu randomly-load-wallpaper.nu 
+git rm --cached /home/pampam/dotfiles/pamsdots/dot-config/mpd
+git rm --cached -r /home/pampam/dotfiles/pamsdots/dot-config/mpd
+git add .
+git status
+git rm --cached -r /home/pampam/dotfiles/pamsdots/dot-config/mpd
+git rm --cached  /home/pampam/dotfiles/pamsdots/dot-config/mpd
+git rm --cached /home/pampam/dotfiles/pamsdots/dot-config/mpd/

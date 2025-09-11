@@ -1,0 +1,24 @@
+# List of plugins
+# set -g @plugin 'omerxx/tmux-sessionx'
+# set -g @plugin 'schasse/tmux-jump'
+
+# set -g @jump-key 's'
+
+# set -g @tokyo-night-tmux_show_netspeed 1
+# set -g @tokyo-night-tmux_netspeed_iface "wlan0" # Detected via default route
+# set -g @tokyo-night-tmux_netspeed_showip 1      # Display IPv4 address (default 0)
+# set -g @tokyo-night-tmux_netspeed_refresh 1     # Update interval in seconds (default 1)
+
+
+# set -g @plugin 'alexanderjeurissen/sombre.tmux'
+
+# set -g message-style "fg=#FFFFFF,bg=#2b2b2b"
+
+# set -g @sessionx-tmuxinator-mode 'on'
+# set -g @sessionx-bind-tmuxinator-list '/'
+
+# Or, if using TPM, just run TPM
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+
+# set -g status-right ''

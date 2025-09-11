@@ -7,8 +7,8 @@ vim.o.titlestring    = vim.fs.basename(vim.fn.getcwd())
 vim.o.mouse          = 'a'
 vim.o.ignorecase     = true
 vim.o.smartcase      = true
-vim.o.number         = true
-vim.o.relativenumber = true
+vim.o.number         = false
+vim.o.relativenumber = false
 vim.o.wrap           = false
 vim.o.tabstop        = 4
 vim.o.shiftwidth     = 4
@@ -22,6 +22,7 @@ vim.o.termguicolors  = true
 vim.o.undofile       = true
 vim.o.undodir        = vim.fn.stdpath("state") .. "/undo"
 vim.o.clipboard      = "unnamedplus"
+
 -- }}}
 
 -- 2) Keymaps (Core) {{{
@@ -71,6 +72,7 @@ end, { desc = "Restore last session" })
 -- 3) Packages {{{
 vim.pack.add({
 	{ src = "https://github.com/nvim-mini/mini.nvim" },
+	{ src = "https://github.com/norcalli/nvim-colorizer.lua" },
 	{ src = "https://github.com/folke/flash.nvim" },
 	{ src = "https://github.com/mbbill/undotree" },
 	{ src = "https://github.com/neovim/nvim-lspconfig" },
@@ -109,6 +111,7 @@ require("mini.pairs").setup()
 ---@diagnostic disable-next-line: assign-type-mismatch, need-check-nil
 require('mini.extra').setup()
 require('mini.deps').setup()
+require("colorizer").setup()
 -- --- Multicursor (safe require + idempotent setup) ---
 local ok_mc, mc = pcall(require, "multicursor-nvim") -- <- define in outer scope
 if ok_mc then
@@ -314,6 +317,9 @@ if vim.g.neovide then
 	map("c", "<C-S-v>", "<C-R>+", { desc = "Paste in command mode" })
 end
 vim.g.neovide_cursor_animation_length = 0.1
+
+vim.g.neovide_opacity = 0.9
+vim.g.neovide_normal_opacity = 0.85
 -- }}}
 
 -- 9) Autocmds {{{
