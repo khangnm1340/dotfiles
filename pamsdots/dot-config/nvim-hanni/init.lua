@@ -301,7 +301,9 @@ end, { desc = "Pick files from buffer dir" })
 -- }}}
 
 -- 7) UI & Colors {{{
-require("tokyonight").setup()
+require("tokyonight").setup({
+  transparent = not vim.g.neovide,
+})
 vim.cmd("colorscheme tokyonight")
 vim.cmd(":hi statusline guibg=NONE")
 -- }}}
@@ -342,13 +344,13 @@ vim.api.nvim_create_autocmd("VimLeavePre", {
 	end,
 })
 vim.api.nvim_create_autocmd("SessionLoadPost", {
-  callback = function()
-    for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do
-      if vim.api.nvim_buf_is_loaded(bufnr) then
-        pcall(vim.lsp.document_color.enable, false, bufnr)
-      end
-    end
-  end,
+	callback = function()
+		for _, bufnr in ipairs(vim.api.nvim_list_bufs()) do
+			if vim.api.nvim_buf_is_loaded(bufnr) then
+				pcall(vim.lsp.document_color.enable, false, bufnr)
+			end
+		end
+	end,
 })
 
 -- }}}

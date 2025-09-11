@@ -498,3 +498,12 @@ hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
 hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
 nu
 tmux
+WALLPAPER="/home/pampam/Downloads/wallpapers/88086670_p0.png"
+yay -S swww
+nu
+IMG=/home/pampam/Downloads/wallpapers/zomoh-99376465.jpg
+hyprctl hyprpaper preload "$IMG"
+hyprctl hyprpaper preload "$IMG"
+pkill hyprpaper
+hyprctl hyprpaper preload "$IMG"
+nu

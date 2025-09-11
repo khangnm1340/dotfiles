@@ -1,8 +1,15 @@
 let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)
-let prev = ($env.PREV_WP? | default "")
-mut choice = ($files | get (random int 0..($files | length)))
-if $choice == $prev {
-    $choice = ($files | get (random int 0..($files | length)))
+let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"
+
+# load previous choice from file if it exists
+let prev = ( cat $prev_file )
+
+mut choice = ""
+while $choice == "" or $choice == $prev {
+    let idx = (random int 0..(($files | length ) - 1))
+    $choice = ($files | get $idx)
 }
-let PREV_WP = $choice
+
+# save current choice for next run
+$choice | save -f $prev_file
 hyprctl hyprpaper wallpaper $",($choice)"

@@ -20,3 +20,4 @@
 /home/pampam/dotfiles/pamsdots/dot-config
 /home/pampam/builds
 /home/pampam/Downloads/wallpapers
+/home/pampam/.config/hypr

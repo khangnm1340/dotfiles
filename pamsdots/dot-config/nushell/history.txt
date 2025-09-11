@@ -19972,3 +19972,47 @@ git status
 git rm --cached -r /home/pampam/dotfiles/pamsdots/dot-config/mpd
 git rm --cached  /home/pampam/dotfiles/pamsdots/dot-config/mpd
 git rm --cached /home/pampam/dotfiles/pamsdots/dot-config/mpd/
+/home/pampam/.config/hypr/scripts
+nu randomly-load-wallpaper.nu 
+hyprpaper
+nu preload-wallpaper.nu 
+nu randomly-load-wallpaper.nu 
+$env.PREW_WP
+nu randomly-load-wallpaper.nu 
+$env.PREW_WP
+nu randomly-load-wallpaper.nu 
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"<\n>
+let prev = ( cat $prev_file )<\n>
+mut choice = ""<\n>while $choice == "" or $choice == $prev {<\n>    let idx = (random int 0..($files | length))<\n>    $choice = ($files | get $idx)<\n>}<\n>
+print $choice | save $prev_file<\n>
+$choice | save $prev_file
+$choice | save -f $prev_file
+hyprctl hyprpaper wallpaper $",($choice)"<\n>
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"<\n><\n># load previous choice from file if it exists<\n>let prev = ( cat $prev_file )<\n><\n>mut choice = ""<\n>while $choice == "" or $choice == $prev {<\n>    let idx = (random int 0..($files | length))<\n>    $choice = ($files | get $idx)<\n>}<\n><\n># save current choice for next run<\n>$choice | save -f $prev_file<\n>hyprctl hyprpaper wallpaper $",($choice)"<\n>
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"<\n><\n># load previous choice from file if it exists<\n>let prev = ( cat $prev_file )<\n><\n>mut choice = ""<\n>while $choice == "" or $choice == $prev {<\n>    let idx = (random int 0..($files | length))<\n>    $choice = ($files | get $idx)<\n>}<\n>
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"<\n><\n># load previous choice from file if it exists<\n>let prev = ( cat $prev_file )<\n><\n>mut choice = ""<\n>while $choice == "" or $choice == $prev {<\n>    let idx = (random int 0..($files | length))<\n>    $choice = ($files | get $idx)<\n>}<\n><\n># save current choice for next run<\n>$choice | save -f $prev_file<\n>hyprctl hyprpaper wallpaper $",($choice)"<\n>
+"hi\n" | str trim
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"<\n><\n># load previous choice from file if it exists<\n>let prev = ( cat $prev_file )<\n><\n>mut choice = ""<\n>while $choice == "" or $choice == $prev {<\n>    let idx = (random int 0..($files | length))<\n>    $choice = ($files | get $idx)<\n>}<\n><\n># save current choice for next run<\n>$choice | save -f $prev_file<\n>hyprctl hyprpaper wallpaper $",($choice)"<\n>
+ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>
+random int 0..($files | length)
+nu randomly-load-wallpaper.nu 
+nu preload-wallpaper.nu 
+reboot
+nu randomly-load-wallpaper.nu 
+ls ~/Downloads/wallpapers/stay-in-da-middle | each {|it|<\n>    hyprctl hyprpaper preload $"($it.name)"<\n>}<\n>
+chmod +x bash-preload-wp.sh 
+./bash-preload-wp.sh
+/home/pampam/.config/hypr/scripts/bash-preload-wp.sh
+/home/pampam/.config/hypr/scripts
+nu randomly-load-wallpaper.nu 
+/home/pampam/.config/hypr/modules
+nu randomly-load-wallpaper.nu 
+hyprctl monitors
+nu randomly-load-wallpaper.nu 
+let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)<\n>
+($files | length)-1
+($files | length | into-int )-1
+($files | length | into int )-1
+($files | length )-1
+($files | length ) - 1
