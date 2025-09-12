@@ -161,6 +161,8 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias vim = nvim
 alias w = wget2
+alias se = gh copilot explain
+alias ss = gh copilot suggest
 
 alias jl = jupyter lab
 

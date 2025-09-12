@@ -29,6 +29,7 @@ window#waybar {
   color: #000000;
   /* background: #fae3b0; */
   background: #ffffff;
+  border: 2px solid #444;
 }
 
 #workspaces {
@@ -42,6 +43,10 @@ window#waybar {
   background: #ffffff;
   /* default: background: #161320; */
   transition: none;
+
+/* choose one: */
+border: 2px solid #444;
+/* outline: 2px solid #444; outline-offset: 2px; */
 }
 
 #workspaces button {
@@ -51,6 +56,7 @@ window#waybar {
   /* default: color: #b5e8e0; */
   background: transparent;
   border-radius: 2px;
+
 }
 
 #workspaces button.active {
@@ -96,6 +102,8 @@ window#waybar {
   color: #1a1826;
   /* background: #fae3b0; */
   background: #FFE0CC;
+
+  border: 2px solid #444;
 }
 
 #battery {
@@ -108,6 +116,8 @@ window#waybar {
   transition: none;
   color: #161320;
   background: #D9FFDC;
+
+  border: 2px solid #444;
 }
 
 #battery.charging,
@@ -157,6 +167,7 @@ window#waybar {
   /* background: #fbf1c7; */
   background: #ffffff;
   /*default: background: #abe9b3; */
+  border: 2px solid #444;
 }
 
 #memory {
@@ -171,6 +182,7 @@ window#waybar {
   /* background: #fabd2f; */
   background: #FFFED9;
   /*default: background: #ddb6f2; */
+  border: 2px solid #444;
 }
 
 #cpu {
@@ -184,6 +196,7 @@ window#waybar {
   color: #161320;
   background: #D9FFFB;
   /*default: background: #96cdfb; */
+  border: 2px solid #444;
 }
 
 #temperature {
@@ -196,6 +209,7 @@ window#waybar {
   transition: none;
   color: #161320;
   background: #FFEAD9;
+  border: 2px solid #444;
 }
 
 #custom-launcher {
@@ -233,6 +247,7 @@ window#waybar {
   transition: none;
   color: #000000;
   background: #fff;
+  border: 2px solid #444;
 }
 #custom-arch:hover {
   color: #fff;
@@ -279,6 +294,7 @@ window#waybar {
   transition: none;
   color: #161320;
   background: #ffffff;
+  border: 2px solid #444;
 }
 #custom-poweroff:hover {
     color: #FC0000;

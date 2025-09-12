@@ -53,8 +53,8 @@ c.content.javascript.log_message.excludes = {
     ]
 }
 
-c.colors.webpage.darkmode.enabled = True
-config.set('colors.webpage.darkmode.enabled', False, '*://127.0.0.1/*')
+# c.colors.webpage.darkmode.enabled = True
+# config.set('colors.webpage.darkmode.enabled', False, '*://127.0.0.1/*')
 
 
 config.bind('ck','config-cycle colors.webpage.darkmode.enabled true false ;; reload')

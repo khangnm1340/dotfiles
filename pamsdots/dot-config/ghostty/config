@@ -1,0 +1,95 @@
+# The syntax is "key = value". The whitespace around the
+# equals doesn't matter.
+#background = 000000 
+#foreground= ffffff
+
+window-decoration = false
+gtk-titlebar = false
+# theme = GruvboxLight
+# theme = GitHub-Dark-High-Contrast
+theme = tokyonight-storm
+# theme = GitHub-Dark-Default
+# theme = omori
+# theme = tokyonight
+# background-opacity = 0.2
+# background-opacity = 0.8
+confirm-close-surface = false
+window-theme = ghostty
+gtk-tabs-location =
+
+# custom-shader = shaders/animated-gradient-shader.glsl
+# custom-shader = shaders/bettercrt.glsl
+# custom-shader = shaders/bloom.glsl
+# custom-shader = shaders/crt.glsl
+# custom-shader = shaders/cubes.glsl
+# custom-shader = shaders/dither.glsl
+# custom-shader = shaders/drunkard.glsl
+# custom-shader = shaders/fireworks-rockets.glsl
+# custom-shader = shaders/fireworks.glsl
+# custom-shader = shaders/gears-and-belts.glsl
+# custom-shader = shaders/glitchy.glsl
+# custom-shader = shaders/glow-rgbsplit-twitchy.glsl
+# custom-shader = shaders/gradient-background.glsl
+# custom-shader = shaders/inside-the-matrix.glsl
+# custom-shader = shaders/just-snow.glsl
+# custom-shader = shaders/matrix-hallway.glsl
+# custom-shader = shaders/negative.glsl
+# custom-shader = shaders/retro-terminal.glsl
+# custom-shader = shaders/smoke-and-ghost.glsl
+# custom-shader = shaders/sparks-from-fire.glsl
+# custom-shader = shaders/spotlight.glsl
+# custom-shader = shaders/starfield-colors.glsl
+# custom-shader = shaders/starfield.glsl
+# custom-shader = shaders/tft.glsl
+# custom-shader = shaders/underwater.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze.glsl
+# custom-shader = shaders/water.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze_no_trail.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_blaze_tapered.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_frozen.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_smear.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_smear_fade.glsl
+# custom-shader = ghostty-shader-playground/shaders/debug_cursor_animated.glsl
+# custom-shader = ghostty-shader-playground/shaders/debug_cursor_static.glsl
+# custom-shader = ghostty-shader-playground/shaders/manga_slash.glsl
+# custom-shader = ghostty-shader-playground/shaders/WIP.glsl
+
+keybind = ctrl+shift+n=unbind
+keybind = ctrl+shift+j=unbind
+keybind = ctrl+shift+k=unbind
+
+keybind = alt+;>k=new_split:right
+keybind = alt+;>j=new_split:down
+keybind = alt+;>z=toggle_split_zoom
+keybind = alt+l=goto_split:next
+keybind = alt+shift+l=goto_split:previous
+keybind = alt+;>q=close_surface
+keybind = alt+;>shift+q=close_tab
+keybind = ctrl+;>t=new_tab
+keybind = alt+;>a=write_screen_file:open
+
+keybind = ctrl+k=unbind
+keybind = alt+shift+[=move_tab:-1
+keybind = alt+shift+]=move_tab:1
+
+keybind = ctrl+tab=unbind
+keybind = ctrl+shift+o=unbind
+
+keybind = alt+t=new_tab
+keybind = alt+]=next_tab
+keybind = alt+[=previous_tab
+keybind = ctrl+shift+r=reload_config
+keybind = ctrl+shift+l=clear_screen
+keybind = shift+down=scroll_page_fractional:0.7
+keybind = shift+up=scroll_page_fractional:-0.7
+keybind = ctrl+]=scroll_page_lines:-1
+keybind = ctrl+[=scroll_page_lines:1
+
+font-size = 15
+font-family = JetBrainsMono Nerd Font
+
+keybind = alt+u=increase_font_size:1
+keybind = alt+shift+u=decrease_font_size:1
+keybind = alt+ctrl+u=reset_font_size
+
+command = /usr/bin/nu --login --interactive
