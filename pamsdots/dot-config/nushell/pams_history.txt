@@ -10,3 +10,4 @@
 ~/.config/nushell/config.nu
 ~/.config/tmux/tmux.conf
 ~/dotfiles/pamsdots/dot-config/hypr/hyprpaper.conf
+~/Documents/UTH/DataMining/tests/making_a_template.typ
