@@ -5,7 +5,6 @@ clipboard_history.json
 **/mpv-cut
 **/mpd
 pamsdots/dot-config/nushell/nupm
-history.txt
 nu_plugin_desktop_notifications
 ghostty-shader-playground
 nvim

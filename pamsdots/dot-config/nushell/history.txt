@@ -1,0 +1,108 @@
+pkill swaync
+job spawn {swaync}
+notify --help
+notify -s PWD -t $env.PWD
+notify -s PWD -t (pwd)
+pkill swaync ; job spawn {swaync}
+pkill swayncjob spawn {swaync}
+pkill swaync <\n>job spawn {swaync}
+pkill swaync
+job spawn {swaync}<\n>
+/usr/bin/nu -c 'notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE" --summary "CANCEL CHATGPT PLUS RN!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min'
+pkill swaync
+job spawn {swaync}<\n>
+/usr/bin/nu -c 'notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE" --summary "CANCEL CHATGPT PLUS RN!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min'
+ffmpeg -i Hanni_nerdy.webp -o Hanni_nerdy.jpg
+ffmpeg -h | nvim
+ffmpeg -i Hanni_nerdy.webp Hanni_nerdy.jpg
+print hi
+sam
+chsh -h
+chsh -s nu
+chsh -s usr/bin/nu
+which nu
+chsh -s /usr/bin/nu
+sam
+chsh -s /usr/bin/fish
+sam
+chsh -s /usr/bin/zsh
+sam
+chsh -s /usr/bin/bash
+sam
+sk main
+s
+Sl
+chsh -s /usr/bin/nu
+sam
+btop
+tldr journalctl 
+tldr journalctl -n 200
+journalctl -n 200 | nvim
+journalctl -n 2000 | nvim
+journalctl -n 20000 | nvim
+btop
+poweroff
+sam
+chsh --list-shells 
+chsh -s /bin/sh
+sam
+chsh --help 
+chsh -l
+chsh -s /bin/bash
+shpool
+shpool attach main
+shpool list
+journalctl --user -u shpool --since "10 min ago"
+journalctl --user -u shpool
+systemctl --user status shpool
+journalctl --user -u shpool.socket -f
+journalctl | rg "shpool"
+shpool daemon
+sam
+shpool daemon
+chsh -s /usr/bin/nu
+chsh --shell 
+chsh -h
+chsh -v
+chsh -s /usr/bin/nu pampam
+btop
+btop
+shpool daemon
+journalctl --user -u shpool -f
+shpool attach --ttl 60s test
+shpool daemon
+btop
+shpool --log
+shpool -h
+shpool -l shpool.txt
+shpool --log-file shpool.txt daemon
+btop
+s
+s list
+sk main
+sam
+sam
+chsh -s /usr/bin/bash
+sam
+sa
+chsh -s /usr/bin/nu
+chsh -s /usr/bin/bash
+sam
+chsh -s /usr/bin/nu
+$env.SHPOOL_SESSION_NAME and
+$env.SHPOOL_SESSION_NAME
+SHPOOL_SESSION_NAME and
+$env.SHPOOL_SESSION_NAME
+sam
+$env.SHPOOL_SESSION_NAME
+sam
+man
+sam
+source ($nu.data-dir | path join "vendor/autoload/starship.nu")
+print I love hanni
+print 'I love hanni'
+starship explain
+starship preset pure-preset -o ~/.config/starship.toml<\n>
+env.STARSHIP_CONFIG
+$env.STARSHIP_CONFIG
+mkdir ($nu.data-dir | path join "vendor/autoload")<\n>starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")<\n>

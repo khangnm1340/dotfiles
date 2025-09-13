@@ -1,0 +1,2 @@
+# prompt_prefix = ""
+prompt_prefix = "[$SHPOOL_SESSION_NAME]"

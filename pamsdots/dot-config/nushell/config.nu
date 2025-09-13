@@ -69,7 +69,7 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "pwd | wl-copy ; pwd | notify -t $in" }
+                  cmd: "pwd | wl-copy ; pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in" }
       }
       {
             name: yazi
@@ -82,6 +82,14 @@ $env.config = {
       }
 	  
     ]
+}
+# Show "shpool:<name> " when inside a shpool session
+let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
+  $"(ansi green)shpool:($env.SHPOOL_SESSION_NAME)(ansi reset) "
+} else { "" }
+
+$env.PROMPT_COMMAND = {||
+  $"($sess_prefix)($env.PWD) > "
 }
 use ~/.cache/starship/init.nu
 use std/dirs
@@ -170,6 +178,9 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias vim = nvim
 alias w = wget2
+alias sam = shpool attach main
+alias sa = shpool attach
+alias sk = shpool kill
 alias s = shpool
 
 alias jl = jupyter lab
@@ -180,3 +191,6 @@ alias jl = jupyter lab
 # source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
 source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"
 source ~/.zoxide.nu
+
+mkdir ($nu.data-dir | path join "vendor/autoload")
+starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")

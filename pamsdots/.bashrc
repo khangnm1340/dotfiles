@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+if [[ -n "$SHPOOL_SESSION_NAME" ]]; then
+  PS1="\[\e[32m\]shpool:$SHPOOL_SESSION_NAME\[\e[0m\] $PS1"
+fi
+
 # alias ls='ls --color=auto'
 # alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
