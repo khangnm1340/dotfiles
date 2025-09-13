@@ -1,27 +1,3 @@
-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
@@ -497,4 +473,28 @@ hyprctl hyprpaper preload "$IMG"
 hyprctl hyprpaper preload "$IMG"
 pkill hyprpaper
 hyprctl hyprpaper preload "$IMG"
+nu
+exit 19
+export MYVAR=first
+echo $MYVAR
+exit
+echo hi
+echo hi
+exit
+export MYVAR=first
+echo $MYVAR
+ SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
+            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
+        
+ SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
+nu
+ SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
+            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
+        
+ SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
+nu
+ SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
+            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
+        
+ SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
 nu

@@ -63,6 +63,15 @@ $env.config = {
             event: { send: executehostcommand, cmd: $"source \'($nu.env-path)\';source \'($nu.config-path)\'" }
       }
       {
+            name: copy_pwd
+            modifier: control
+            keycode: char_z
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "pwd | wl-copy ; pwd | notify -t $in" }
+      }
+      {
             name: yazi
             modifier: alt
             keycode: char_j
@@ -161,8 +170,7 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias vim = nvim
 alias w = wget2
-alias se = gh copilot explain
-alias ss = gh copilot suggest
+alias s = shpool
 
 alias jl = jupyter lab
 

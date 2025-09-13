@@ -76,6 +76,7 @@ keybind = ctrl+tab=unbind
 keybind = ctrl+shift+o=unbind
 
 keybind = alt+t=new_tab
+keybind = alt+;>t=new_tab
 keybind = alt+]=next_tab
 keybind = alt+[=previous_tab
 keybind = ctrl+shift+r=reload_config

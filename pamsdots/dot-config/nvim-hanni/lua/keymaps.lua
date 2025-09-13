@@ -2,6 +2,7 @@
 
 local map = vim.keymap.set
 
+
 -- Tabs and terminal
 map("n", "<M-]>", ":tabnext<CR>", { noremap = true, silent = true })
 map("n", "<M-[>", ":tabprevious<CR>", { noremap = true, silent = true })
@@ -13,6 +14,7 @@ map('n', '<leader>n',
     "<cmd>new | setlocal buftype=nofile bufhidden=wipe noswapfile | 0put =execute('silent messages')<CR>",
     { silent = true, desc = 'Open :messages in scratch buffer' }
 )
+map("n", "<leader>bd", ":bd<CR>", { desc = "Close buffer" })
 
 -- Copy parent directory of current file
 map("n", "<C-z>", function()
@@ -114,3 +116,7 @@ if vim.g.neovide then
     map("c", "<C-S-v>", "<C-R>+", { desc = "Paste in command mode" })
 end
 
+-- Copilot
+map("n", "<leader>c", function()
+    require("copilot.suggestion").toggle_auto_trigger()
+end, { silent = true, desc = "Copilot: Accept suggestion" })
