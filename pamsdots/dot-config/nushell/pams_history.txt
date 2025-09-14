@@ -1,13 +1,13 @@
 ~/Documents/pam/1-Rough-Note/Todo-list.md
 ~/.config/nushell/pams_history.txt
 ~/.config/nushell/cd_history.txt
-~/.config/nvim-hanni/init.lua
 ~/.config/qutebrowser/config.py
 ~/.config/hypr/modules/Keybinds.conf
 ~/.config/ghostty/config
-~/dotfiles/pamsdots/dot-config/nvim/lua/config/keymaps.lua
 ~/.config/nushell/env.nu
 ~/.config/nushell/config.nu
 ~/.config/tmux/tmux.conf
 ~/dotfiles/pamsdots/dot-config/hypr/hyprpaper.conf
 ~/Documents/UTH/DataMining/tests/making_a_template.typ
+~/.config/nvim-hanni/lua/core.lua
+~/.config/nvim-hanni/lua/keymaps.lua

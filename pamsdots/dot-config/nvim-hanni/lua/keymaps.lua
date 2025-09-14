@@ -7,7 +7,16 @@ local map = vim.keymap.set
 map("n", "<M-]>", ":tabnext<CR>", { noremap = true, silent = true })
 map("n", "<M-[>", ":tabprevious<CR>", { noremap = true, silent = true })
 map("n", "<C-t>", ":tabnew<CR>", { noremap = true, silent = true })
+map("n", "<C-w><C-e>", ":!shpool detach<CR>", { noremap = true, silent = true })
 map("t", "<S-Esc>", [[<C-\><C-n>]])
+
+
+-- map this function require("copilot.suggestion").accept(modifier)
+map("i", "<M-k>", function()
+    return require("copilot.suggestion").accept("word")
+end, { expr = true, silent = true, desc = "Copilot: Accept suggestion" })
+
+
 
 -- Messages scratch buffer
 map('n', '<leader>n',
@@ -114,6 +123,7 @@ if vim.g.neovide then
         { desc = "Decrease font size", silent = true })
     map({ "n", "v" }, "<M-C-u>", ":lua vim.g.neovide_scale_factor = 1<CR>", { desc = "Reset font size", silent = true })
     map("c", "<C-S-v>", "<C-R>+", { desc = "Paste in command mode" })
+    vim.keymap.del("n", "<C-w><C-e>")
 end
 
 -- Copilot

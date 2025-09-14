@@ -106,3 +106,50 @@ starship preset pure-preset -o ~/.config/starship.toml<\n>
 env.STARSHIP_CONFIG
 $env.STARSHIP_CONFIG
 mkdir ($nu.data-dir | path join "vendor/autoload")<\n>starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")<\n>
+ls
+sam
+sk main
+sam
+sk main
+sam
+sk main
+sam
+pkill shpool
+sam
+btop
+sam
+btop
+sam
+sk main
+source ($nu.data-dir | path join "vendor/autoload/starship.nu")
+sk main
+source ($nu.data-dir | path join "vendor/autoload/starship.nu")
+sam
+sam
+s -h
+s list
+cat
+nvim
+ls
+sam
+sk main
+sam
+sam
+nvim
+sam
+s list
+sa test
+s list
+nvim
+sam
+sa test
+sam
+sam
+pkill shpool
+sam
+s list
+sk main
+ls
+sam
+nvim
+sam

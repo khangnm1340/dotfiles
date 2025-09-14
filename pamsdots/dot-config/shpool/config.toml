@@ -1,2 +1,6 @@
-# prompt_prefix = ""
-prompt_prefix = "[$SHPOOL_SESSION_NAME]"
+prompt_prefix = ""
+
+[[keybinding]]
+binding = "Ctrl-e"
+action = "detach"
+# prompt_prefix = "[$SHPOOL_SESSION_NAME]"

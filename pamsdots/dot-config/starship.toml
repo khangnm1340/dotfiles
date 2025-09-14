@@ -1,5 +1,5 @@
 format = """
-$custom.hanni\
+$env_var\
 $username\
 $hostname\
 $directory\
@@ -11,18 +11,11 @@ $line_break\
 $python\
 $character"""
 
-[custom.hanni]
-command = "echo I love hanni"
-when = "true"
-shell = ["bash", "--norc", "--noprofile"]
+[env_var]
+variable = "SHPOOL_SESSION_NAME"
+format = "[$env_value]($style) "
+style = "bright-white"      # or "fg:#ffffff" for exact white
 
-# right_format = "${env_shpool}"
-#
-# [env_var.shpool]
-# variable = "SHPOOL_SESSION_NAME"
-# format = "[shpool:$env_value ]($style)"
-# style = "bold green"
-# default = ""      # hide if not in shpool
 
 [directory]
 style = "bold italic bright-cyan"
