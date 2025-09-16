@@ -1,8 +1,3 @@
-281xs1lmnaTIOnIA79Ey8ehfmgQmPVRPSiw5B0vpMlz3ydk2IgX/Sh2psvaK+R24H0OTIc0PuAfb
-usSB7h4Wb3Xn//UHU/3t2l4MLrt3joWOV3Y6uZWkUr/SXOXslyiW7PsCOUC2x/j5IlonRdO8MKp/
-ELGt97DeDbj+eYUG15hwk+mdjtHAbWiNk6EI0gpF5b1GaQx63qcTkH+V7KfTqUudK9aDfNSG4lst
-6I8xLwos//4CGW7ZqMzoyE6uSqXKlEZ6RxjWg1o65j9Xe7lLBx+ugbqO7jF5WZJvdgprwjD38JBq
-L/PsDFXmpJ7i1XwepzP/RMrDPS9sQymLJOxhz7yKzz6Y5sq58y+gv3Z9gtoGdJ6Jd96pHlf/timE
 Zg9Sl6qrek9d13YjcKzy8vJTYInFa1pJD4Aw69pURFLfoUoHwXQU3Xs5iLk1jtYPhONoMD85xEra
 kyLGi5hyHrmcYluV/J2ef9g4BGhy6dtVETAPZ1aYgQdB8ptUoloWuRejNrNSMFvw7bZWkwWW4A5f
 cBRyY3l593VpeQGP7dx/zkNcgMQDQAKKTsVVteuoXQDMbe2nk8K6EBdMEnDkFxrAbTzQwv8u8yAr
@@ -498,3 +493,10 @@ shpool kill main
 shpool kill main
 shpool kill main
 echo I love hani
+u
+nu
+echo hi | xclip -selection clipboard
+sk main
+nu
+magick *.webp *.jpg
+nu

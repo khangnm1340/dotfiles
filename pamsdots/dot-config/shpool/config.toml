@@ -4,3 +4,5 @@ prompt_prefix = ""
 binding = "Ctrl-e"
 action = "detach"
 # prompt_prefix = "[$SHPOOL_SESSION_NAME]"
+
+session_restore_mode = { lines = 300 }

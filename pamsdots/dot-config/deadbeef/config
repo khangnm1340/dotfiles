@@ -2,7 +2,7 @@ alsa_soundcard front:CARD=BTR5,DEV=0
 cli_add_playlist_name Default
 close_send_to_tray 0
 deadbeef_version devel
-filechooser.lastdir file:///home/Ext4Pam/Music/berry/can_j_noi_dau_e_oi
+filechooser.lastdir file:///home/Ext4Pam/Music
 filechooser.playlist.lastdir file:///home/pampam
 flac.ignore_bad_header_errors 1
 flac.ignore_unparsable_stream_errors 1
@@ -36,7 +36,7 @@ gtkui.font.tabstrip_text JetBrains Mono Ultra-Bold 14
 gtkui.hide_tray_icon 0
 gtkui.italic_current_track 1
 gtkui.italic_selected_tracks 1
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.079327 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" label=\"Button\" action=\"preferences\" use_color=0 use_textcolor=0"},{"type":"seekbar"}]},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.786458 pos=0 size2=0","children":[{"type":"tabs","settings":{"active":"0","num_tabs":"2","tab000":"Playlist with tabs","tab001":"Oscilloscope"},"children":[{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=738"},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"auto","fragmentDuration":"300"}}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.735683 pos=0 size2=0","children":[{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"1x","fragmentDuration":"500"}}]}]}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.079327 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" label=\"Button\" action=\"preferences\" use_color=0 use_textcolor=0"},{"type":"seekbar"}]},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.786458 pos=0 size2=0","children":[{"type":"tabs","settings":{"active":"0","num_tabs":"2","tab000":"Playlist with tabs","tab001":"Oscilloscope"},"children":[{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1449"},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"auto","fragmentDuration":"300"}}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.735683 pos=0 size2=0","children":[{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"1x","fragmentDuration":"500"}}]}]}]}
 gtkui.log.autoopen 0
 gtkui.override_bar_colors 1
 gtkui.override_listview_colors 1
@@ -45,7 +45,7 @@ gtkui.playlist.group_by_tf %album artist% - ['['$year(%date%)']' ]%album%
 gtkui.search.group_by_tf 
 gtkui.start_hidden 0
 gtkui.statusbar.visible 1
-gtkui.tabscroll 493
+gtkui.tabscroll 0
 gtkui.tabstrip_embolden_playing 1
 gtkui.tabstrip_italic_playing 1
 gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
@@ -97,9 +97,9 @@ logwindow.geometry.h 995
 logwindow.geometry.w 1273
 logwindow.geometry.x 26
 logwindow.geometry.y 23
-mainwin.geometry.h 540
+mainwin.geometry.h 1080
 mainwin.geometry.maximized 1
-mainwin.geometry.w 960
+mainwin.geometry.w 1920
 mainwin.geometry.x 0
 mainwin.geometry.y 0
 medialib.deadbeef.enabled 1
@@ -117,10 +117,10 @@ playlist.cursor.12 0
 playlist.cursor.13 0
 playlist.cursor.2 4
 playlist.cursor.3 67
-playlist.cursor.4 15
+playlist.cursor.4 284
 playlist.cursor.5 48
 playlist.cursor.6 174
-playlist.cursor.7 0
+playlist.cursor.7 3258
 playlist.cursor.8 0
 playlist.cursor.9 174
 playlist.scroll.0 0
@@ -131,10 +131,10 @@ playlist.scroll.12 0
 playlist.scroll.13 0
 playlist.scroll.2 206
 playlist.scroll.3 1626
-playlist.scroll.4 2665
+playlist.scroll.4 -284
 playlist.scroll.5 6932
 playlist.scroll.6 18891
-playlist.scroll.7 0
+playlist.scroll.7 191429
 playlist.scroll.8 0
 playlist.scroll.9 25064
 playlist.scroll.cursorfollowplayback 1
@@ -145,17 +145,17 @@ playlist.tab.00003 Ye
 playlist.tab.00004 VCC left hand
 playlist.tab.00005 Hikari no Naka e    FLAC
 playlist.tab.00006 Doraemon
-playlist.tab.00007 New Playlist
+playlist.tab.00007 I_AM_MUSIC
 prefwin.geometry.h 596
 prefwin.geometry.maximized 1
 prefwin.geometry.w 761
 prefwin.geometry.x 0
 prefwin.geometry.y 0
 replaygain.preamp_with_rg 0.0000000
-resume.paused 0
-resume.playlist -1
-resume.position -1.000000
-resume.track -1
+resume.paused 1
+resume.playlist 7
+resume.position 102.16822
+resume.track 3259
 searchwin.geometry.h 525
 searchwin.geometry.maximized 1
 searchwin.geometry.w 707

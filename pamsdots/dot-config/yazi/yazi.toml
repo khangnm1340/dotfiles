@@ -9,6 +9,8 @@ open_image = [
 # open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
 reveal = [{ run = 'thunar "$@"', desc = "Reveal", for = "linux" }]
 edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
+nomacs = [{ run = 'nomacs "$@"',desc = "nomacs"}]
+opencomic = [{ run = 'opencomic "$@"',desc = "opencomic"}]
 extract = [
       { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
 ]
@@ -18,11 +20,10 @@ extract = [
 rules = [
       # Multiple openers for a single rule
       { name = "*.html", use = ["edit", "open", "reveal"] },
-      { name = "*.cbz", use = ["open", "reveal"] },
-      { name = "*.cbz", use = ["open", "reveal"] },
+      { name = "*.cbz", use = ["opencomic", "reveal", "extract"] },
       { name = "*.pdf", use = ["open", "open_pdf", "reveal"] },
       # Folder
-      { name = "*/", use = ["dragndrop", "reveal"] },
+      { name = "*/", use = ["dragndrop", "reveal", "nomacs"] },
       # Text
       { mime = "text/*", use = ["edit", "reveal"] },
       # Image
@@ -37,7 +38,7 @@ rules = [
       # Empty file
       { mime = "inode/empty", use = ["edit", "reveal"] },
       # Fallback
-      { name = "*", use = ["open", "reveal", "dragndrop"] },
+      { name = "*", use = ["open", "reveal",  "dragndrop"] },
 ]
 
 

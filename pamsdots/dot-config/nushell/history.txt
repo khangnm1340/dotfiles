@@ -153,3 +153,194 @@ ls
 sam
 nvim
 sam
+s list
+sk main
+fd
+sd
+sam
+chsh -s /usr/bin/bash
+pwd | wl-copy ; pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in
+pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in
+xclip -h
+primpt hi | xclip -i
+prinpt hi | xclip -i
+print hi | xclip -i
+xclip
+xclip -h
+xclip -i "hi"
+print hi | xclip -selection clipboard
+sk main
+sam
+chsh -s /usr/bin/nu
+btop
+/home/pampam/Documents/UTH/DataMining/tests
+job spawn {typst w making_a_template.typ}
+sam
+ssh -p 49104 -L 8080:localhost:8080 -t root@120.238.149.138 'shpool attach -f main'
+zed 'ssh://root@120.238.149.138:49104/~/project'
+zed
+zeditor 'ssh://root@120.238.149.138:49104/~/project'
+ls
+yay -Qe | fzf
+jkl https://www.youtube.com/watch?v=eVz96K7WZYs
+rmpc
+mpd
+rmpc
+systemctl status mpd
+systemctl enable --now mpd
+rmpc
+lazygit
+rmpc
+yay -Qe | fzf
+pipx install nhentai<\n>
+nhentai --id 567252
+open Cookies
+open Cookies | columns
+open Cookies | select cookies
+open Cookies | get cookies
+open Cookies | get cookies | where host_key =~ "nhentai"
+open Cookies | get cookies | where host_key =~ "nhentai" | columns
+open Cookies | get cookies | where host_key =~ "nhentai" | get value
+nhentai -h
+nhentai --cookie wsLW2gcg1ckXG6ckaU1GCT4ZH3xL9boZ --useragent "<\n>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)<\n>      Chrome/137.0.0.0 Safari/537.36<\n>"
+nhentai --id 567252
+nhentai --cookie "1752479276.29.1848.490734|5438e073fbb56fb7666a0126dc9d5e81" --useragent "<\n>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)<\n>      Chrome/137.0.0.0 Safari/537.36<\n>"
+nhentai --id 567252
+nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;session-affinity=1757942907.434.1647.755144|5438e073fbb56fb7666a0126dc9d5e81;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "<\n>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)<\n>      Chrome/137.0.0.0 Safari/537.36<\n>"
+nhentai --id 567252
+nhentai --cookie csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;session-affinity=1757942907.434.1647.755144|5438e073fbb56fb7666a0126dc9d5e81;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --cookie "csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;session-affinity=1757942907.434.1647.755144|5438e073fbb56fb7666a0126dc9d5e81;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a" --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --id 567252
+nhentai --cookie "csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;session-affinity=1757942907.434.1647.755144|5438e073fbb56fb7666a0126dc9d5e81;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a"
+nhentai --id 567252
+nhentai --cookie csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX; session-affinity=1757942907.434.1647.755144|5438e073fbb56fb7666a0126dc9d5e81; cf_clearance="ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a"
+duf
+nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;sessionid:qratnt91sllrv7o0l4214t8k22bnosa0;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "<\n>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)<\n>      Chrome/137.0.0.0 Safari/537.36<\n>"
+nhentai --id 567252
+nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;sessionid:qratnt91sllrv7o0l4214t8k22bnosa0;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --id 567252
+git clone https://github.com/RicterZ/nhentai.git
+pipx install curl_cffi
+python -m venv .venv
+virtualenv --help
+virtualenv .venv
+overlay use /home/pampam/builds/nhentai/.venv/bin/activate.nu
+pip install curl_cffi
+pip install --no-cache-dir .
+nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;sessionid:qratnt91sllrv7o0l4214t8k22bnosa0;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --id 567252
+nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;sessionid=qratnt91sllrv7o0l4214t8k22bnosa0;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --id 567252
+./nhentai --cookie "<\n>csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX;sessionid=qratnt91sllrv7o0l4214t8k22bnosa0;cf_clearance=ViBrsm8ymXCNvmnsWIdhlLnanOm4f5MoXasFCOmn7r4-1757942907-1.2.1.1-swH2NWu3SsJsRP3WUYKCd8e_DsGZVuYZHRvRz4MclosleAKphvnyxQgEYb96XCptdEXkhMaK6YUM9vXstBcqufbNVnUTrT7vXosrdURv6Z0iFyAiXprLVwaHWTXWG094DXtkluQL7HTMUhH5nJBEkm0db5yu9cEiumYwcVFd30i8hM7i.k3J82lUgKZ5BlGbNyWF2YPlWGyLiMMGhpQ7SI50fIhc_pHTgAEtWkUwi8mw7sgyndOsnXEUWhJNDo_a<\n>" --useragent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+nhentai --id 567252
+./nhentai --id 567252
+nordvpn d
+./nhentai --id 567252
+pip install --no-cache-dir .
+./nhentai --id 567252
+nhentai --cookie 'csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX; sessionid=qratnt91sllrv7o0l4214t8k22bnosa0; cf_clearance=mDRguoPRwrJAOIWr_XLdYs3zZqeunerCj8UMPCFjC1Q-1757944872-1.2.1.1-2TMAoqxP4F0pclDFf1LyBmRpNjJurCr9gUqxlULlMfolkzzuum3bgXs9yEQPeeIPkkNHZ69tFq.IMN2PSELSx1SSBBF6AHZKcUILAKIwZfCzt7Nq0I2eTuuvlUTfO2EQsmE0DumrEEngPaMUEwapEVtfQTDf4uYPqsXtH2x8eIvf2XeQbl1DZ.WXPfZzIdf90iX5Q7tMfuMeKtx8WpDo5qHX48BD2vrP4G6S8umIpjQAMa39bd7aD8WuJR6nxSo5' --useragent 'Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0' --id 567252
+nhentai --cookie 'csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX; sessionid=qratnt91sllrv7o0l4214t8k22bnosa0; cf_clearance=mDRguoPRwrJAOIWr_XLdYs3zZqeunerCj8UMPCFjC1Q-1757944872-1.2.1.1-2TMAoqxP4F0pclDFf1LyBmRpNjJurCr9gUqxlULlMfolkzzuum3bgXs9yEQPeeIPkkNHZ69tFq.IMN2PSELSx1SSBBF6AHZKcUILAKIwZfCzt7Nq0I2eTuuvlUTfO2EQsmE0DumrEEngPaMUEwapEVtfQTDf4uYPqsXtH2x8eIvf2XeQbl1DZ.WXPfZzIdf90iX5Q7tMfuMeKtx8WpDo5qHX48BD2vrP4G6S8umIpjQAMa39bd7aD8WuJR6nxSo5' --useragent 'Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0'
+nhentai --id 567252
+pipx uninstall nhentai
+which nhentai
+nhentai --id 567252
+./nhentai --cookie 'csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX; sessionid=qratnt91sllrv7o0l4214t8k22bnosa0; cf_clearance=mDRguoPRwrJAOIWr_XLdYs3zZqeunerCj8UMPCFjC1Q-1757944872-1.2.1.1-2TMAoqxP4F0pclDFf1LyBmRpNjJurCr9gUqxlULlMfolkzzuum3bgXs9yEQPeeIPkkNHZ69tFq.IMN2PSELSx1SSBBF6AHZKcUILAKIwZfCzt7Nq0I2eTuuvlUTfO2EQsmE0DumrEEngPaMUEwapEVtfQTDf4uYPqsXtH2x8eIvf2XeQbl1DZ.WXPfZzIdf90iX5Q7tMfuMeKtx8WpDo5qHX48BD2vrP4G6S8umIpjQAMa39bd7aD8WuJR6nxSo5' --useragent 'Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0'
+./nhentai --id 567252
+overlay use /home/pampam/builds/nhentai/.venv/bin/activate.nu
+pip install --no-cache-dir .
+./nhentai --cookie 'csrftoken=QoDUemzmo6T3odllzphP6Re0PU4c9FqX; sessionid=qratnt91sllrv7o0l4214t8k22bnosa0; cf_clearance=mDRguoPRwrJAOIWr_XLdYs3zZqeunerCj8UMPCFjC1Q-1757944872-1.2.1.1-2TMAoqxP4F0pclDFf1LyBmRpNjJurCr9gUqxlULlMfolkzzuum3bgXs9yEQPeeIPkkNHZ69tFq.IMN2PSELSx1SSBBF6AHZKcUILAKIwZfCzt7Nq0I2eTuuvlUTfO2EQsmE0DumrEEngPaMUEwapEVtfQTDf4uYPqsXtH2x8eIvf2XeQbl1DZ.WXPfZzIdf90iX5Q7tMfuMeKtx8WpDo5qHX48BD2vrP4G6S8umIpjQAMa39bd7aD8WuJR6nxSo5' --useragent 'Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0'
+./nhentai --id 567252
+pip uninstall curl_cffi
+pip install --no-cache-dir .
+nhentai --id 567252
+fd
+fd --exclude blobs
+fd --exclude blobs/
+fd --exclude blobs/*
+nordvpn c
+./2025-08-31.nhentai_archivist.3.10.0.x86_64-unknown-linux-gnu
+chmod +x 2025-08-31.nhentai_archivist.3.10.0.x86_64-unknown-linux-gnu 
+./2025-08-31.nhentai_archivist.3.10.0.x86_64-unknown-linux-gnu
+./nhentai 567252
+job unfreeze
+nhentai
+open db.sqlite
+open db.sqlite | select Tag
+open db.sqlite | get Tag
+./nhentai
+jl
+jl
+fd --no-ignore .ipynb$
+cd Documents/UTH/DataMining/pams-product-sentiment/
+nhentai
+jl
+file --mime-type "567252 (Kessoku Rock! 10) [Kitaku Jikan (Kitaku)] Meguriai Tokyo ~Les Fuuzoku e Iku.~  Tokyo Encounter Visiting a Lesbian Brothel (Bocchi the Rock!) [English].cbz"
+mxcomix
+mcomix
+yay -S zathura-cb
+zathura "567252 (Kessoku Rock! 10) [Kitaku Jikan (Kitaku)] Meguriai Tokyo ~Les Fuuzoku e Iku.~  Tokyo Encounter Visiting a Lesbian Brothel (Bocchi the Rock!) [English].cbz" 
+zathura "[Karamomo Tart (Kindatsu)] Majime na dake Dakara Boku wa Katei Kyoushi o Yameta Why I Quit Working as a Tutor [English] [The Unseelie Court] [Digital].cbz"
+zathura 567252.cbz 
+zstd --decompress "[Karamomo Tart (Kindatsu)] Majime na dake Dakara Boku wa Katei Kyoushi o Yameta Why I Quit Working as a Tutor [English] [The Unseelie Court] [Digital].cbz" 
+zathura "567252 (Kessoku Rock! 10) [Kitaku Jikan (Kitaku)] Meguriai Tokyo ~Les Fuuzoku e Iku.~  Tokyo Encounter Visiting a Lesbian Brothel (Bocchi the Rock!) [English].cbz" 
+zathura "[Karamomo Tart (Kindatsu)] Majime na dake Dakara Boku wa Katei Kyoushi o Yameta Why I Quit Working as a Tutor [English] [The Unseelie Court] [Digital].cbz"
+zathura zathura.cbz 
+zathura test.cbz 
+tldr magick
+magick *.webp *.jpg
+ls *.webp | each { |i| print $i.name }
+ls *.webp | each { <\n>  let stem = ($it | path parse | get stem)<\n>  magick $it $"($stem).jpg"<\n>}
+ls *.webp | each { |it| <\n>  let stem = ($it | path parse | get stem)<\n>  magick $it $"($stem).jpg"<\n>}
+ls *.webp | each { |it| <\n>  let stem = ($it | to text | path parse | get stem)<\n>  magick $it $"($stem).jpg"<\n>}
+ls *.webp | each { |it| <\n>  let stem = ($it | path parse | get stem)<\n>  magick $it $"($stem).jpg"<\n>}
+ls *.webp | each { |it|<\n>  let stem = ($it.name | path parse | get stem)<\n>  magick $it.name $"($stem).jpg"<\n>}
+ls *.webp | each { |it|<\n>  let stem = ($it.name | path parse | get stem)<\n>  magick $it.name $"($stem).png"<\n>}
+yay -S opencomic
+yay -S opencomic-bin
+z
+/home/pampam/builds/nhentai/hentai
+opencomic '567252 (Kessoku Rock! 10) [Kitaku Jikan (Kitaku)] Meguriai Tokyo ~Les Fuuzoku e Iku.~  Tokyo Encounter Visiting a Lesbian Brothel (Bocchi the Rock!) [English].cbz'
+opencomic '567252[English].cbz'
+nhentai
+./nhentai
+n
+sam
+ssh -h
+ssh
+ssh_config
+ssh --help
+man ssh
+yay -Qe | fzf
+^ls
+lsa
+yay -Qe | fzf
+yay
+yay -Rns vivify gallery-dl
+yay -Qe | fzf
+wk https://x.com/khiawings/status/1966982595922850138
+wk https://x.com/juantokki/status/1967044104640229792
+wk https://x.com/raberu_ruru/status/1967638573718618569
+wk https://x.com/itsaninha__/status/1966979407610081412
+lf
+ls
+wk https://x.com/sovinng/status/1967359243042087359
+wk https://x.com/luffyyyluv/status/1967093615118918064
+wk https://x.com/savagehanni/status/1967408551380578710
+wk https://x.com/n0tlyna/status/1967536024843845681
+wk https://x.com/DTVANews/status/1967320867370934745
+hyprctl keyword "windowrulev2" "opacity 0.9 0.9, class:^(qutebrowser)$"
+hyprctl keyword "windowrulev2" "opacity 0.8 0.8, class:^(qutebrowser)$"
+poweroff
+sudo nvim /etc/hosts
+wk https://www.instagram.com/reel/DOj2bYRkj41/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMoO31CxhSt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOiPJ-qjwij/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOJMe9wiLNx/?utm_source=ig_web_copy_link
+wk https://x.com/phamface_/status/1967126769745694752
+wk https://x.com/newjified/status/1967738701775294564
+rmpc
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+rmpc
+btop
+sudo systemctl restart mpd
+rmpc

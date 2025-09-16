@@ -25,13 +25,6 @@ $env.config = {
     }
 
     keybindings: [
-      # {
-      #       name: delete_to_the_end
-      #       modifier: control
-      #       keycode: char_k
-      #       mode: [vi_normal vi_insert]
-      #       event: { edit: CutToEnd }
-      # }
       {
             name: quick_cd
             modifier: alt
@@ -62,15 +55,23 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: $"source \'($nu.env-path)\';source \'($nu.config-path)\'" }
       }
-      {
-            name: copy_pwd
-            modifier: control
-            keycode: char_z
-            mode: [emacs vi_normal vi_insert]
-            event: { 
-                  send: executehostcommand,
-                  cmd: "pwd | wl-copy ; pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in" }
-      }
+    # {
+    #   name: copy_pwd
+    #   modifier: control_shift
+    #   keycode: char_z
+    #   mode: [emacs vi_normal vi_insert]
+    #   event: {
+    #     send: executehostcommand,
+    #     cmd: "
+    #       if $env.WAYLAND_DISPLAY? != null {
+    #         pwd | wl-copy
+    #         pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in
+    #       } else {
+    #         pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'cant copy current directory' -t $in
+    #       }
+    #     "
+    #   }
+    # }
       {
             name: yazi
             modifier: alt
@@ -172,7 +173,7 @@ alias wk = gallery-dl -D .
 alias sudo = sudo-rs
 alias su = su-rs
 alias grep = rg
-alias sl = eza -l --icons --time-style=long-iso --group-directories-first
+alias lsa = eza -l --icons --time-style=long-iso --group-directories-first
 alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
@@ -181,7 +182,9 @@ alias w = wget2
 alias sam = shpool attach main
 alias sa = shpool attach
 alias sk = shpool kill
+alias sl = shpool list
 alias s = shpool
+alias n = /home/pampam/builds/nhentai/nhentai
 
 alias jl = jupyter lab
 
