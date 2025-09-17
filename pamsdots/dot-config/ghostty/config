@@ -55,6 +55,8 @@ gtk-tabs-location =
 # custom-shader = ghostty-shader-playground/shaders/WIP.glsl
 
 keybind = ctrl+shift+n=unbind
+keybind = ctrl+shift+e=unbind
+keybind = ctrl+shift+q=unbind
 keybind = ctrl+shift+j=unbind
 keybind = ctrl+shift+k=unbind
 

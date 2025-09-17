@@ -16,7 +16,6 @@
 # You can also pretty-print and page through the documentation for configuration
 # options using:
 #     config nu --doc | nu-highlight | less -R
-
 $env.config = {
 
     edit_mode: vi # emacs, vi
@@ -41,13 +40,18 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: "cd -" }
       }
-      {
-            name: fzf_d
-            modifier: shift
-            keycode: char_z
-            mode: [emacs vi_normal vi_insert]
-            event: { send: executehostcommand, cmd: "cd (fzf | path dirname)" }
-      }
+        # {
+        #     name: shpool_switch
+        #     modifier: control
+        #     keycode: char_h
+        #     mode: [emacs vi_normal vi_insert]
+        #     event: { 
+        #         send: executehostcommand,
+        #         cmd: "
+        #             shpool attach ( [1_hanni 2_dani 3_minji 4_haerin 5_hyein] | str join (char nl) | fzf)
+        #         "
+        #     }
+        # }
       {
             name: reload_config
             modifier: control
@@ -73,6 +77,24 @@ $env.config = {
     #   }
     # }
       {
+            name: fzf_file
+            modifier: control
+            keycode: char_f
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "commandline edit $'(commandline | str trim --right) \"(fd -d 1 | fzf)\"'" }
+      }
+      {
+            name: fzf_history
+            modifier: control
+            keycode: char_r
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "commandline edit ( history | select command | uniq | get command | to text | fzf -q (commandline))" }
+      }
+      {
             name: yazi
             modifier: alt
             keycode: char_j
@@ -85,13 +107,13 @@ $env.config = {
     ]
 }
 # Show "shpool:<name> " when inside a shpool session
-let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
-  $"(ansi green)shpool:($env.SHPOOL_SESSION_NAME)(ansi reset) "
-} else { "" }
-
-$env.PROMPT_COMMAND = {||
-  $"($sess_prefix)($env.PWD) > "
-}
+# let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
+#   $"(ansi green)shpool:($env.SHPOOL_SESSION_NAME)(ansi reset) "
+# } else { "" }
+#
+# $env.PROMPT_COMMAND = {||
+#   $"($sess_prefix)($env.PWD) > "
+# }
 use ~/.cache/starship/init.nu
 use std/dirs
 use std formats *
@@ -159,6 +181,7 @@ def "notify on done" [
 }
 
 
+
 const NU_PLUGIN_DIRS = [
   ($nu.current-exe | path dirname)
   ...$NU_PLUGIN_DIRS
@@ -179,11 +202,11 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias vim = nvim
 alias w = wget2
-alias sam = shpool attach main
-alias sa = shpool attach
-alias sk = shpool kill
-alias sl = shpool list
-alias s = shpool
+# alias sam = shpool attach main
+# alias sa = shpool attach
+# alias sk = shpool kill
+# alias sl = shpool list
+# alias s = shpool
 alias n = /home/pampam/builds/nhentai/nhentai
 
 alias jl = jupyter lab

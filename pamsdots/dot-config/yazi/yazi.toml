@@ -3,7 +3,8 @@ dragndrop = [{ run = 'ripdrag "$@"', desc = "drag and drop" }]
 open = [{ run = 'xdg-open "$@"', orphan = true, desc = "Open" }]
 open_image = [
       { run = 'swayimg "$@"', orphan = true, desc = "Open with swayimg" },
-      { run = 'gimp "$@"', orphan = true, desc = "Open with GIMP" },
+      # { run = 'gimp "$@"', orphan = true, desc = "Open with GIMP" },
+      { run = 'loupe "$@"', orphan = true, desc = "Open with Image Viewer" },
       # { run = 'shotwell "$@"', orphan = true, desc = "Open with shotwell" },
 ]
 # open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]

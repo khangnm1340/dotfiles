@@ -75,7 +75,7 @@ require('flash').setup({
     modes = {
         char = {
             jump_labels = true,
-            label = { exclude = 'o' },
+            label = { exclude = 'py' },
             multi_line = true,
             highlight = { backdrop = true },
         },

@@ -3,7 +3,7 @@
 **/backdrops
 clipboard_history.json
 **/mpv-cut
-**/mpd
+# **/mpd
 pamsdots/dot-config/nushell/nupm
 nu_plugin_desktop_notifications
 ghostty-shader-playground

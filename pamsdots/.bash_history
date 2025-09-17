@@ -1,16 +1,3 @@
-Zg9Sl6qrek9d13YjcKzy8vJTYInFa1pJD4Aw69pURFLfoUoHwXQU3Xs5iLk1jtYPhONoMD85xEra
-kyLGi5hyHrmcYluV/J2ef9g4BGhy6dtVETAPZ1aYgQdB8ptUoloWuRejNrNSMFvw7bZWkwWW4A5f
-cBRyY3l593VpeQGP7dx/zkNcgMQDQAKKTsVVteuoXQDMbe2nk8K6EBdMEnDkFxrAbTzQwv8u8yAr
-G/VIEDfz51mZSa5nIpsXBQMsz+CyX+dK07epELcUqDfqG8Y5ltegf/UoecyACRPxEPn9/S1Zp7CP
-lXDFviQgjToY4UNEE4Ve1KuCnAteURy3ZbmKvzN+uO5zdg1+TW1CzUxRXDBup0f8xiTI8GG0fJEi
-vkbD9XYK6BXiIRtUOXxrKVFThqMhyEJiO1ZuVNnInBT77Kt8044AODiSdnvMiobyAzxocCwuEi3r
-JaLpw2tvyhNhis2dMdZhkgk9UL+92oq9wTZJxpxGoTc7T+Gbo814PhPAx/kWrtYy8ReAm1848ymA
-TDjmY/eap5dZPlIyjeihVP3TRW/DoRoZkRgGu/kNI620Q1RMYJF6BPwXGEZTfSwNSekWtGJ+jYCv
-gBTDC5/7o63ADOPWOnpkBD4e4bNPAuAbyfrgANHc15MYLJKC3bVcNCrfPdnWEO0ZkWvb/1t24vMU
-n1xlHGmBJAn2SaLhsy73+oOL5LQHK64Iwc8rgI/zDn2MI069SfgRldAirK4UJqVxWOWdaowoHjMy
-LsvH5wwDeNknZ0Nhmxu2B8qz8DU6Nxolhqo6gYXm2ZTFXfuYMrIjZ/sV45y02ZbqxtPDdde746Ny
-okYeop7wyrxmVsNrUattcwnLlNAyXlX/SH8Ct6MqE5cc/Ufv5i5jn7mmaiGOA/4GjNL2gH85NBWu
-iGJ/JdpwxpwhEpVJdGisIqDxLgV2ZKJ1KzQkTcuzsTbpBLZQTn2Z1F2pWjhiFSAozw1rZKvS8P9q
 r6AVzuh98cYFfxl8p4FArlBOVV2cc1plodJMYTIzG2uSiM5vFiBtksUdE+UToQ7B5hx1xSJ0j2w2
 pxsl3NLqL+jx5CMsP+KiqZWTq9N3Qb2wCKgMWnDvDKSpHTF/Xmu/KB9Yk+jbwaERrGwGAwl2Mo1l
 qcPEQBmfoDIG/EmrGfNwZzfkhF9MTkD5p5AIHIVCgbEUVqSeDbQ96mdqGgZ9fRqz55yWPlTwK21g
@@ -499,4 +486,15 @@ echo hi | xclip -selection clipboard
 sk main
 nu
 magick *.webp *.jpg
+nu
+nu
+cd
+curl -X POST -H 'Content-Type: application/json'     -H 'Authorization: Bearer '$TOKEN''     -d '{"name":"fedora-s-1vcpu-2gb-70gb-intel-sgp1-01",
+        "size":"s-1vcpu-2gb-70gb-intel",
+        "region":"sgp1",
+        "image":"fedora-42-x64",
+        "monitoring":true,
+        "tags":["mosh"]}'     "https://api.digitalocean.com/v2/droplets"
+yay -S doctl
+doctl compute droplet create     --image fedora-42-x64     --size s-1vcpu-2gb-70gb-intel     --region sgp1     --enable-monitoring     --tag-names 'mosh'     fedora-s-1vcpu-2gb-70gb-intel-sgp1-01
 nu

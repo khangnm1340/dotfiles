@@ -4,6 +4,7 @@ import catppuccin
 
 catppuccin.setup(c, 'mocha', True)
 
+
 # import gruvbox_light_theme
 # gruvbox_light_theme.apply_gruvbox_light_theme(c)
 
@@ -11,6 +12,7 @@ c.bindings.key_mappings = {'<Alt-j>': '<Return>'}
 
 c.fonts.default_size = '15pt'
 c.editor.command = ['neovide', '--', '{file}', '-c', 'normal {line}G{column0}l']
+
 
 c.tabs.position = 'right'
 c.tabs.width = '20%'

@@ -342,5 +342,365 @@ rmpc
 cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
 rmpc
 btop
+nvim
+nvim -V3nvim.log<\n>
+btop
+nvim --startuptime startup.log<\n>
+nvim
+lazygit
+btop
+lazygit
+lazygit
+btop
 sudo systemctl restart mpd
 rmpc
+open sticker.sql
+rmpc
+mpd
+sudo pkill mpd
+mpd
+sudo systemctl stop mpd
+sudo systemctl restart mpd
+mpd
+sudo systemctl restart mpd
+mpd
+mpc update
+sudo systemctl restart mpd
+mpc update
+sudo systemctl restart mpd
+mpd
+mpd -h
+mpd --kill
+mpd
+sudo systemctl restart mpd
+rmpc
+mpd
+sudo systemctl kill mpd
+mpd
+mpd --kill
+mpd
+systemctl status mpd
+sudo systemctl disable --now mpd
+mpd
+mpd update
+mpc update
+sudo systemctl disable --now mpd.socket<\n>
+systemctl status mpd.socket<\n>
+mpd --verbose<\n>
+ss -ltnp | grep 6600<\n>
+killall mpd<\n>
+sudo ss -ltnp | grep 6600<\n>
+sudo kill 21148<\n>
+ss -ltnp | grep 6600<\n>
+mpd --verbose<\n>
+mpc update
+wk https://x.com/juantokki/status/1967776819756806281
+jkl https://www.youtube.com/watch?v=LmZD-TU96q4
+jkl https://www.youtube.com/watch?v=83DCAtLl2Yg
+wk https://youtu.be/w9jmZ5TE0Ew?si=PQmw_-0Rq4ZuXfRc
+jkl https://youtu.be/w9jmZ5TE0Ew?si=PQmw_-0Rq4ZuXfRc
+open Kiminonawaorchestra_meta.sqlite
+open Kiminonawaorchestra_meta.xml
+[1,2,3] | fzf
+echo 1 2 3 |fzf
+print 1\n 2\n 3\n |fzf
+print "1\n 2\n 3\n" |fzf
+fzf "1"
+print "hi" | fzf
+$sessions | str join (char nl) | fz
+$sessions | str join (char nl) | fzf
+$chosen
+sa $chosen
+sd
+sl
+sk *
+sa 1_hanni
+sa main
+sa 2_dani 3_minji 4_haerin
+sa 2_dani
+sl
+sk 4_haerin
+sk 3_minji
+sl
+ls
+spool -h
+s
+s daemon
+pkill shpool
+[1_hanni 2_dani 3_minji 4_haerin 5_hyein] | str join (char nl) | fzf
+pkill shpool
+ls
+sl
+spool daemon
+shpool daemon
+pkill shpool
+shpool daemon
+btop
+shpool list
+ps
+ls -l ~/.local/share/shpool/
+shpool daemon
+ps aux | grep shpoold
+ps | grep shpool
+fd --no-ignore shpool
+shpool --help | grep socket
+$env.XDG_RUNTIME_DIR
+sl
+lsa
+lsa
+pkill 89480
+shpool daemon
+shpool list
+job spawn {shpool daemon}
+btop
+sl
+( [1_hanni 2_dani 3_minji 4_haerin 5_hyein] | str join (char nl) | fzf)
+sa 1_hanni
+sa 1_hanni
+sk 1_hanni
+sk 2_dani
+sl
+ls
+nvim
+nvi
+nvim
+ls
+nvim
+s detach
+s 
+sl
+sk 2_dani
+sk 3_minji
+bash
+pkill shpool
+sl
+sk 1_hanni
+btop
+ls
+sl
+ls
+sl
+systemctl status shpool
+shpool
+shpool -l
+sl
+sa 1_hanni
+ls
+sl
+sam
+sl
+sam
+sl
+sam
+sl
+sam
+sam
+fd --no-ignore shpool
+sl
+sam
+s
+sl
+sam --log shpool_log_1.txt
+s
+sam -l shpool_log_1.txt
+shpool -l shpool_log_1.txt list
+sam
+shpool -l shpool_log_1.txt attach main
+shpool attach main -- nvim
+chsh -s /usr/bin/bash
+sa 1_hanni -l shpool_log_1.txt
+shpool -l shpool_log_1.txt attach 1_hanni
+btop
+shpool -l shpool_log_1.txt attach 1_hanni
+chsh -s /usr/bin/nu
+nvim
+fzf-history
+history
+history | get command
+history | get command | to text
+fzf-history
+commandline edit fzf
+commandline edit --insert fzf
+commandline edit (<\n>  history<\n>  | get command<\n>  | to text<\n>  | fzf<\n>)
+commandline 
+hi commandline
+commandline hi
+commandline get-cursor 
+commandline --help
+fzf -h
+history | get command | uniq | to text
+history | get command |  to text
+history | get command | uniq
+history | get command | to text | uniq
+pkill history | get command | to text | uniq | fzf
+history | get command | to text | uniq | fzf
+commandline edit (history | get command | reverse | uniq | to text | fzf --scheme history --layout=reverse --height=40% -q (commandline) | decode utf-8 | str trim)
+history | get command | to text 
+history | get command | to text
+history | get command | uniq | to text
+history | uniq
+history 
+history | uniq
+history | fzf
+history | to text
+history | uniq | get command | to text | fzf
+which uniq
+history | uniq | get command | to text | fzf
+history | get command | to text | fzf
+history | uniq | get command | to text | fzf
+history | select command | uniq
+history | select command | uniq | to text | fzf
+history | select command | uniq | get command | to text | fzf
+s
+[1_hanni 2_dani 3_minji 4_haerin 5_hyein] | fzf
+[1_hanni 2_dani 3_minji 4_haerin 5_hyein] | to text | fzf
+shpool_switch 
+job spawn {shpool daemon}
+nivm
+nvim
+def shpool_switch [] {<\n>    shpool attach ( [1_hanni 2_dani 3_minji 4_haerin 5_hyein] | to text | fzf)<\n>}<\n>
+sk 2l
+sk 2_dani
+sl
+sk 3_minji
+sk 1_hanni
+nvim
+doctl auth 
+tmux
+z
+doctl auth 
+doctl auth init
+doctl compute droplet create --image fedora-42-x64 --size s-1vcpu-2gb-70gb-intel --region sgp1 --enable-monitoring --tag-names 'mosh' fedora-s-1vcpu-2gb-70gb-intel-sgp1-01
+doctl compute ssh-key list
+doctl compute ssh-key import mykey --public-key-file ~/.ssh/id_rsa.pub<\n>
+ls
+lsa
+doctl compute ssh-key import laptop-ed25519 --public-key-file ~/.ssh/id_ed25519.pub<\n>
+doctl compute droplet create --image fedora-42-x64 --size s-1vcpu-2gb-70gb-intel --region sgp1 --enable-monitoring --tag-names 'mosh' fedora-s-1vcpu-2gb-70gb-intel-sgp1-01
+doctl compute ssh-key list
+doctl compute droplet create --image fedora-42-x64 --size s-1vcpu-2gb-70gb-intel --region sgp1 --enable-monitoring --ssh-keys 50770149 --tag-names 'mosh' fedora-s-1vcpu-2gb-70gb-intel-sgp1-01
+doctl compute droplet list<\n>
+ssh root@159.223.45.192
+rsync -avz root@159.223.45.192:/root/tests /home/Ext4Pam/Pictures/NewjeansPics/1967044104640229792_1.jpg
+rsync -avz root@159.223.45.192:/root/tests/ /home/Ext4Pam/Pictures/NewjeansPics/1967044104640229792_1.jpg
+rsync -avz root@159.223.45.192:/root/tests/1967044104640229792_1.jpg /home/Ext4Pam/Pictures/NewjeansPics/1967044104640229792_1.jpg
+rsync -avz /home/Ext4Pam/Pictures/NewjeansPics/1967044104640229792_1.jpg root@159.223.45.192:/root/tests/
+rsync -avz /home/Ext4Pam/Pictures/NewjeansPics/1965043763203780963_1.jpg fedora-pam:/root/tests/ 
+mosh root@159.223.45.192
+xdg-mime default org.pwmt.zathura.desktop application/epub+zip
+nordvpn status
+nordvpn c
+commandline edit (fzf)
+fd --help
+commandline edit (fd -d 1 | fzf)
+commandline
+commandline -h
+ls " [Bad Mushrooms (Chicke III, 4why)] 1 5 no Renai Kanjou A Fifth of Romance (Gotoubun no Hanayome) [English] [Fap It Scans] [Decensored] [Digital].zip"
+ls "(C83) [774 House (774)] Naked Princess Honoka - Awakening to Pig-Mating Orgasms [English] =LWB=.cbz"
+mv "[Bad Mushrooms (Chicke III, 4why)] 1 5 no Renai Kanjou A Fifth of Romance (Gotoubun no Hanayome) [English] [Fap It Scans] [Decensored] [Digital].zip" bad_mushrooms.cbz
+mv "bad_mushrooms.cbz" "[Bad Mushrooms (Chicke III, 4why)] 1 5 no Renai Kanjou A Fifth of Romance (Gotoubun no Hanayome) [English] [Fap It Scans] [Decensored] [Digital].zip"
+poweroff
+doctl 0h
+doctl -h
+nordvpn d
+nordvpn c
+wk https://x.com/CrossbowDevil/status/1967625660480065545
+wk https://x.com/chaejai_/status/1967716337100485043
+wk https://x.com/CanOpener_515/status/1967592166563434658
+wk https://x.com/U80x8Bltm00Rqeo/status/1967751073206313029
+wk https://x.com/seuljeanz/status/1967971759375970463
+wk https://x.com/GavucChi/status/1967582173126631540
+wk https://x.com/addictionfem/status/1967704160218038354
+wk https://x.com/centralnerv_/status/1967634520187814147
+wk https://x.com/haerin1st/status/1967896620542124411
+wk https://x.com/kookyphamz/status/1967639489112838317
+wk https://x.com/jeanspuffgirl/status/1967131204781805622
+wk https://www.instagram.com/reel/DOqLN68EUQm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+mosh root@159.223.45.192
+wk https://www.instagram.com/reel/DOoVGiECchY/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLcg5eTPmL3/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNGXzuWRYLw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNx5YHRWE10/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOnSTcjkngg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DN5yNSkiVR0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOp6KmFEU-U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/p/DN93VvZjkcR/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOn0L9vkuAK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DONNOtqDt8g/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/p/DOnF7ZXjoR4/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOQGp5cDuD0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://x.com/NJZBTS/status/1967626619604119726
+wk https://x.com/glowuphyein/status/1968006931487822074
+wk https://x.com/rubifys/status/1967577006021005703
+wk https://x.com/miko_hxh/status/1968019712190845314
+wk https://x.com/hyewint/status/1967991411728691309
+wk https://x.com/xx_betti/status/1967522478894579833
+wk https://x.com/retro_twt/status/1967921697719308305
+/home/pampam/Documents/UTH/DataMining/tests
+typst w making_a_template.typ
+job spawn {typst w making_a_template.typ}
+job id 
+job list
+job tag -h
+job tag 1 "typst"
+job list
+job list
+job kill typst
+job kill 1
+job list
+job spawn {typst w "bao_cao.typ"}
+fcitx5 -r<\n>
+job spawn {fcitx5}
+job kill 3
+btop
+job spawn {fcitx5}
+/home/pampam/Documents/UTH/DataMining/bao_cao_cuoi_ky
+sudo npm install -g @openai/codex
+job list
+job kill 4
+btop
+journalctl | rg "termfilechooser"
+loup
+loupe
+ghostty +list-fonts 
+ghostty +list-fonts | fzf
+yay -S ttf-ms-fonts
+typst w "bao_cao.typ"
+codex
+nordvpn c
+nhentai
+n
+nhentai
+n
+z
+/home/pampam/Documents/UTH/DataMining/bao_cao_cuoi_ky
+typst w "bao_cao.typ"
+job unfreeze
+tmux
+nordvpn d
+tmux -h
+tmux --help
+tmux new-session -A -s 1_hanni
+yay -S otf-tesla
+ghostty +list-fonts | fzf
+typst w "bao_cao.typ"
+yay -S ttf-architects-daughter ttf-nothingyoucoulddo ttf-indieflower ttf-pacifico otf-londrina
+makepkg -si
+sha256sum architects-daughter-1.003.zip 
+makepkg -si
+sha256sum architects-daughter-1.003.zip 
+makepkg -si
+sha256sum "ttf-nothingyoucoulddo.zip"
+makepkg -si
+ghostty +list-fonts | fzf
+ghostty +list-fonts | fzf | wl-copy
+typst w "bao_cao.typ"
+typst c "fonts.typ"
+yay -S ttf-mac-fontsA
+yay -S ttf-mac-fonts
+ghostty +list-fonts | fzf | wl-copy
+typst w "final_report.typ"
+codex
+git init
+git add .
+git commit -m "first commit"

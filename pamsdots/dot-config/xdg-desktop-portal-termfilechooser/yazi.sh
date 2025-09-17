@@ -31,7 +31,8 @@ fi
 command="$termcmd -e $cmd"
 for arg in "$@"; do
       # escape double quotes
-      escaped=$(printf "%s" "$arg" | sed 's/"/\\"/g')
+      # escaped=$(printf "%s" "$arg" | sed 's/"/\\"/g')
+      escaped=$(printf "%s" "$arg" | sed -e 's/\\/\\\\/g' -e 's/"/\\"/g' -e 's/(/\\(/g' -e 's/)/\\)/g')
       # escape spaces
       command="$command \"$escaped\""
 done
