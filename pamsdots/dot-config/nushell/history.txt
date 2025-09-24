@@ -1453,3 +1453,14 @@ lazygit
 git rm log
 git filter-repo --invert-paths --force --path log
 lazygit
+git status
+lazygit
+git fetch origin
+git push
+git remote add origin git@github.com:khangnm1340/dotfiles.git
+lazygit
+git push
+git push --set-upstream origin main
+lazygit
+git rm --cache log
+git log --oneline --all -- pamsdots/dot-config/mpd/log
