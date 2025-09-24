@@ -33,7 +33,7 @@
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
   caps a    s    d    f    g    left    down   up    right    @;-mod    '    ret
-  lsft z    x    c    v    b    del       m    bspc    .    /    rsft
+  lsft z    x    c    v    b    n       m    bspc    .    /    rsft
   lctl lalt           spc            rctl ralt
 )
 

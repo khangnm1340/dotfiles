@@ -20,7 +20,7 @@ $env.config = {
 
     edit_mode: vi # emacs, vi
     table: {
-        mode: basic # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
+        mode: compact # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
     }
 
     keybindings: [
@@ -40,18 +40,6 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: "cd -" }
       }
-        # {
-        #     name: shpool_switch
-        #     modifier: control
-        #     keycode: char_h
-        #     mode: [emacs vi_normal vi_insert]
-        #     event: { 
-        #         send: executehostcommand,
-        #         cmd: "
-        #             shpool attach ( [1_hanni 2_dani 3_minji 4_haerin 5_hyein] | str join (char nl) | fzf)
-        #         "
-        #     }
-        # }
       {
             name: reload_config
             modifier: control
@@ -59,23 +47,6 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: $"source \'($nu.env-path)\';source \'($nu.config-path)\'" }
       }
-    # {
-    #   name: copy_pwd
-    #   modifier: control_shift
-    #   keycode: char_z
-    #   mode: [emacs vi_normal vi_insert]
-    #   event: {
-    #     send: executehostcommand,
-    #     cmd: "
-    #       if $env.WAYLAND_DISPLAY? != null {
-    #         pwd | wl-copy
-    #         pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in
-    #       } else {
-    #         pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'cant copy current directory' -t $in
-    #       }
-    #     "
-    #   }
-    # }
       {
             name: fzf_file
             modifier: control
@@ -83,7 +54,7 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "commandline edit $'(commandline | str trim --right) \"(fd -d 1 | fzf)\"'" }
+                  cmd: "commandline edit $'(commandline | str trim --right) \"(fd -I | fzf)\"'" }
       }
       {
             name: fzf_history
@@ -92,7 +63,8 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "commandline edit ( history | select command | uniq | get command | to text | fzf -q (commandline))" }
+                  cmd: "commandline edit ( history | select command | uniq |  reverse | get command | str join $'(char nul)' | fzf --read0 --gap -q (commandline))" 
+            }
       }
       {
             name: yazi
@@ -106,14 +78,6 @@ $env.config = {
 	  
     ]
 }
-# Show "shpool:<name> " when inside a shpool session
-# let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
-#   $"(ansi green)shpool:($env.SHPOOL_SESSION_NAME)(ansi reset) "
-# } else { "" }
-#
-# $env.PROMPT_COMMAND = {||
-#   $"($sess_prefix)($env.PWD) > "
-# }
 use ~/.cache/starship/init.nu
 use std/dirs
 use std formats *
@@ -154,7 +118,7 @@ def str-wrap [
     | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n"
 }
 
-def "wrap" [column_name: string] {
+def wrap-col [column_name: string] {
     update $"($column_name)" { str-wrap } | table -ed 1
 }
 

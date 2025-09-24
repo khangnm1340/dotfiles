@@ -62,3 +62,30 @@ vim.api.nvim_create_autocmd("SessionLoadPost", {
     end,
 })
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function()
+    vim.fn.setreg('j', "—", 'c')
+  end,
+})
+
+function _G.markdown_foldexpr()
+  local line = vim.fn.getline(vim.v.lnum)
+  local heading_level = line:match("^(#+)%s")
+  if heading_level then
+    return ">" .. #heading_level
+  else
+    return "="
+  end
+end
+
+local function set_markdown_folding()
+  vim.opt_local.foldmethod = "expr"
+  vim.opt_local.foldexpr = "v:lua.markdown_foldexpr()"
+  vim.opt_local.foldlevel = 99
+end
+
+-- Use autocommand to apply only to markdown files
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = set_markdown_folding,
+})

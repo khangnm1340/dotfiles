@@ -704,3 +704,752 @@ codex
 git init
 git add .
 git commit -m "first commit"
+lazygit
+wk https://www.reddit.com/r/VietNamNation/comments/1njfz8q/nguyễn_đức_kiên_23_tuổi_bắn_nòng_nọc_vào_xì_líp%2f
+yt-dlp https://www.reddit.com/r/VietNamNation/comments/1njfz8q/nguyễn_đức_kiên_23_tuổi_bắn_nòng_nọc_vào_xì_líp%2f
+ls
+tmux
+nvim
+nordvpn d
+nordvpn c
+nvim /etc/hosts 
+sudo nvim /etc/hosts 
+yt-dlp https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+w https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+wk https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+fd --no-ignore praw
+fd --no-ignore praw .py$
+fd --no-ignore -e "praw" -e ".py$"
+fd --no-ignore -e ".py$"
+fd --no-ignore ".py$"
+gl https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+nordvpn d
+nordvpn c Thailand
+gl https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+yt-dlp https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+w https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+gl https://www.reddit.com/r/wordington/comments/1nj68ro/wordington_curse/
+wk https://www.reddit.com/r/playboicarti/comments/1njmg16/d4vd_song_he_made_for_the_15_year_old_victim_13/
+yt-dlp https://www.reddit.com/r/playboicarti/comments/1njmg16/d4vd_song_he_made_for_the_15_year_old_victim_13/
+gl https://www.reddit.com/r/wordington/comments/1niront/wordington_psycopath/
+gallery-dl oauth:reddit
+gl https://www.reddit.com/r/wordington/comments/1niront/wordington_psycopath/
+nordvpn d
+btop
+./nordvpn.sh
+btop
+./nordvpn.sh
+btop
+nordvpn status
+nordvpn status
+nordvpn s
+nordvpn status
+nordvpn status | rg "^Disconnect$"
+./nordvpn.sh
+nordvpn status 2>/dev/null | rg "^Disconnect$"
+./nordvpn.sh
+nordvpn status | rg "^Disconnect$"
+nordvpn d
+nordvpn status | rg "^Disconnect$"
+nordvpn
+nordvpn status
+rg -h
+print "hi" | rg "hi"
+print "hi" | grep hi
+print "hi" | rg -qi "hi"
+print "hi" | rg -qi "i"
+./nordvpn.sh
+if nordvpn status | rg -qi '^Status:\s*Connected'; then<\n>  echo "connected"<\n>else<\n>  echo "not connected"<\n>fi
+./nordvpn.sh
+nordvpn status
+btop
+nordvpn status
+codex
+git remote add origin git@github.com:khangnm1340/data-mining-nhom-4-reddit-sentiment.git<\n>git branch -M main<\n>git push -u origin main
+git add .
+git push 
+lazygit
+yay
+better-discord
+betterdiscord
+betterdiscord-installer
+btop
+pkill discord
+btop
+lazygit
+nordvpn status
+ping github.com
+rg --no-ignore "#grid"
+rg -n --hidden -g '*.typ' --no-ignore "#grid"
+wk https://x.com/Sue1420208/status/1967981985311375671
+wk https://x.com/ginjaeru/status/1968336852919963698
+wk https://x.com/cxlxmba/status/1968117119733977250
+wk https://x.com/CSMvizuals/status/1968185537392677016
+wk https://x.com/ChizuCheese8/status/1968313323419730096
+wk https://x.com/bborbnz/status/1968282272186139057
+wk https://x.com/johnnyhundreds/status/1968250071146963255
+wk https://x.com/gom__aji/status/1968230866339107308
+lazygit
+wk https://x.com/kieed23232/status/1968256128556638579
+wk https://x.com/bborbnz/status/1968542043019559117
+wk https://www.instagram.com/reel/DMyA0r2PBFe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+fd | wc -l
+tldr fd
+fd -HI | wc -l
+fd -HI | fzf
+sudo find / \<\n>  \( -fstype proc -o -fstype sysfs -o -fstype devtmpfs -o -fstype tmpfs \<\n>     -o -fstype cgroup -o -fstype cgroup2 -o -fstype autofs -o -fstype overlay \<\n>     -o -fstype fusectl -o -fstype rpc_pipefs \) -prune -o \<\n>  -print0 | tr -cd '\0' | wc -c<\n>
+find | fzf
+find . | fzf
+find
+which find
+help find
+help ls
+fd | find ".py"
+fd | find ".py" | head
+fd | find ".py$" | head
+fd | find -r ".py$" | head
+fd | find -r ".py$" | last
+fd | find -r ".py$"
+z
+help ls
+ls -a
+help ls
+ls -a **/*
+fd -HI
+let fd = timeit {fd -HI}<\n>let ls = timeit {ls -a **/*}<\n>print $"fd : ($fd)"<\n>print $"ls : ($ls)"
+let fd = timeit {fd -HI}<\n>let ls = timeit {ls -a **/*}
+timeit {fd -HI}
+let fd = timeit {fd -HI}<\n>let ls = timeit {ls -a **/*}<\n>print $"fd : ($fd)"<\n>print $"ls : ($ls)"
+timeit {fd -HI}
+timeit -h 
+typst w "final_report_vi.typ"
+wk https://x.com/crt_bot2/status/1968451305250177501
+yay -S ocrmypdf
+ocrmypdf "cambridge-ielts-14-academic-admissionwar.pdf" ielts14.pdf
+btop
+jlk https://youtu.be/UAdxlj4Cgjw?si=DQ-gIJC7oA9PKtF7
+jkl https://youtu.be/UAdxlj4Cgjw?si=DQ-gIJC7oA9PKtF7
+jkl https://youtu.be/GnN3i0z7Mz0?si=WFc-4hsNEvuzS2FT
+jkl https://www.youtube.com/watch?v=qYcU41ew_BM
+wk https://www.instagram.com/reel/DOps7W9kbFs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOMdPbZEiPU/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN5idiEE29u/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOZOElOk-F7/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNB2dj9Tb1D/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOl2KP8EteP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOaMIoAiQch/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLK60tqszzB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DObX7RyD-Nv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOKrKQYjwwv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNt2_9-QH6w/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOOUI_IExNh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DODCiBXkSK5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOs_uCfCSTC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOQtCvPiHjB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOo1XjCEqvK/?utm_source=ig_web_copy_link
+cp /home/pampam/Pictures/Screenshots/is-hyprland/2025-09-19-130858_hyprshot.png .
+wk https://www.instagram.com/reel/DMdPwXlJtlK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOEruYKD9-U/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DODzyAKkcr-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL_dIPoofzR/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOITkSliYyb/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLykwP3s9_e/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOGMWoFjeYM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOSCz-DknJt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOvaPF4DyNJ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNsrKpqZGk2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOijeqlj6xu/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOuesfakkbp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM3Ovz2tOFa/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLZgF_9y0oE/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN4jTAHkQzn/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMgSLX_OjTW/?utm_source=ig_web_copy_link
+yt-dlp https://www.instagram.com/reel/DMgSLX_OjTW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOva-2dDtkQ/?utm_source=ig_web_copy_link
+gl https://www.instagram.com/p/DC-2gvKNu2x/?utm_source=ig_web_copy_link
+wk https://x.com/kpopiumm/status/1968707825200247140
+wk https://x.com/omokage_AIsOK/status/1968615987957346699
+sudo nvim /etc/hosts 
+rmpc
+poweroff
+w https://courses.ut.edu.vn/mod/quiz/attempt.php?attempt=2620234&cmid=362131&page=28
+codex
+sudo npm install -g @openai/codex
+sudo nvim /etc/hosts 
+codex
+reboot
+chsh -s /usr/bin/nu
+chsh --list-shells 
+reboot
+nu "preload-wallpaper.nu"
+zen-browser -h
+qutebrowser
+qutebrowser -h
+pkill qutebrowser
+pkill zen-browser
+pkill qutebrowser
+pkill qutebrowser zen-browser
+pkill --help
+pkill "qutebrowser|zen-browser"
+pkill "qutebrowser&zen-browser"
+pkill -f
+pkill --help
+[firefox brave]
+[firefox brave] | each { |it| print $it}
+[firefox qutebrowser] | each { |it| pkill $it }
+pkill nordvpn
+pkill nordvpnd
+reboot
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+nu scripts/preload-wallpaper.nu 
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+sudo nvim /etc/hosts 
+wk https://www.instagram.com/reel/DOuwrU7Ecq8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOvVPIuk9aH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOfVndfARZs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+sudo nvim /etc/hosts 
+z
+query
+inc
+plugin list
+plugin list | columns
+plugin list | select name shell
+plugin list | select name commands
+plugin list
+plugin -h
+plugin add nu_plugin_query
+z
+plugin list
+plugin add nu_plugin_polars
+plugin list
+z
+plugin add nu_plugin_inc nu_plugin_gstat
+plugin add nu_plugin_inc 
+plugin add nu_plugin_gstat
+plugin add nu_plugin_stress_internals
+plugin list
+plugin add nu_plugin_formats
+plugin list
+plugin list | columns
+plugin list | where name =~ "stress" | select commands
+plugin list | where name =~ "stress" | get commands
+plugin list | where name =~ "stress" 
+plugin list | where name =~ "stress" | select name commands
+plugin list | where name =~ "stress" | select commands | get commands
+stress_internals 
+plugin rm stress_internals
+z
+plugin list
+$env.NUPM_HOME
+nupm -h
+nupm
+which notify
+ls
+overlay -h
+overlay list
+nordvpn c
+nordvpn c UnitedStates
+nordvpn c US
+nhentai
+n
+k
+n
+k
+j
+wk https://www.reddit.com/r/vozforums/comments/1nmn6zg/hoàng_hôn_lãng_man_của_tôy_và_orange_cat%2f
+yt-dlp https://www.reddit.com/r/vozforums/comments/1nmn6zg/hoàng_hôn_lãng_man_của_tôy_và_orange_cat%2f
+wk https://x.com/Demonhonho/status/1969793050571571299
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/shitvietnamsays/comments/1nn6g08/nói_chung_là_người_mỹ_là_những_người_khốn_khổ%2f
+gallery-dl oauth:reddit
+ls -l /bin/sh
+wk https://preview.redd.it/s%E1%BB%B1-giao-thoa-gi%E1%BB%AFa-v%C4%83n-minh-man-r%E1%BB%A3-d%C6%B0%E1%BB%9Bi-th%E1%BB%9Di-x%C3%A3-h%E1%BB%99i-ch%E1%BB%A7-v0-jd0wd8r99jqf1.png?width=720&auto=webp&s=52e7cfb1e015f7869cfc019a8de8a43a945de35c
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+gallery-dl -o refresh-token="187754900022490-D-k_Axn_WOykkN__0RFDxR0fCrGZQA" https://preview.redd.it/s%E1%BB%B1-giao-thoa-gi%E1%BB%AFa-v%C4%83n-minh-man-r%E1%BB%A3-d%C6%B0%E1%BB%9Bi-th%E1%BB%9Di-x%C3%A3-h%E1%BB%99i-ch%E1%BB%A7-v0-jd0wd8r99jqf1.png?width=720&auto=webp&s=52e7cfb1e015f7869cfc019a8de8a43a945de35c
+w https://preview.redd.it/s%E1%BB%B1-giao-thoa-gi%E1%BB%AFa-v%C4%83n-minh-man-r%E1%BB%A3-d%C6%B0%E1%BB%9Bi-th%E1%BB%9Di-x%C3%A3-h%E1%BB%99i-ch%E1%BB%A7-v0-jd0wd8r99jqf1.png?width=720&auto=webp&s=52e7cfb1e015f7869cfc019a8de8a43a945de35c
+w https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+gallery-dl oauth:reddit
+w https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+yay
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+gallery-dl oauth:reddit
+ls
+ghostty +list-themes 
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+which ghostty
+ghostty -V
+ghostty --version
+hyprctl clients
+ghostty -h
+man ghostty
+hyprctl clients
+ghostty --title=clipse
+man ghostty
+ghostty --class:hi
+ghostty --initialTitle=clipse
+ghostty --title=clipse
+hyprctl clients
+yay -S alacritty
+sudo rm -v /var/cache/pacman/pkg/alacritty-0.15.1-1-x86_64.pkg.tar.zst
+yay -S alacritty
+sudo pacman -Syyu
+yay -S alacritty
+alacritty --title "btop"
+alacritty -h
+alacritty -e nvim
+alacritty -e clispe -T clipse
+clipse
+alacritty -e clispe -T "clipse"
+alacritty -e clispe
+clpse
+which clipse
+alacritty -e /usr/bin/clipse
+alacritty -e /usr/bin/clipse -T clipse
+alacritty -e /usr/bin/clipse
+alacritty -e /usr/bin/clipse -T clipse
+alacritty --title "clipse" -e /usr/bin/clipse
+alacritty -T clipse -e /usr/bin/clipse
+alacritty -h
+alacritty -e "clipse"
+alacritty --title "clipse" -e "clipse"
+sudo nvim /etc/hosts 
+sudo systemctl restart NetworkManger
+sudo systemctl restart NetworkManager
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+gallery-dl oauth:reddit
+k
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/VietNamNation/comments/1nn6ny4/lĩnh_thằng_tô_lâm_xiên_chết_vợ_mang_bầu%2f
+wk https://preview.redd.it/s%E1%BB%B1-giao-thoa-gi%E1%BB%AFa-v%C4%83n-minh-man-r%E1%BB%A3-d%C6%B0%E1%BB%9Bi-th%E1%BB%9Di-x%C3%A3-h%E1%BB%99i-ch%E1%BB%A7-v0-jd0wd8r99jqf1.png?width=720&auto=webp&s=52e7cfb1e015f7869cfc019a8de8a43a945de35c
+w https://i.redd.it/c98c1styolqf1.gif
+chsh -s /usr/bin/bash
+sudo nvim /etc/hosts 
+mosh root@159.223.45.192
+/home/pampam/Documents/pam/1-Rough-Note
+codex
+pdfimages -list ielts14_oseeared.pdf
+pdfimages -f 21 -l 21 -j ielts14_oseeared.pdf page21
+ffmpeg -i "page21-000.ppm" page21.jpg
+cargo install --path .<\n>plugin add ~/.cargo/bin/nu_plugin_parquet<\n>plugin use ~/.cargo/bin/nu_plugin_parquet # required if you don't want to quit out and restart nushell
+git clone https://github.com/fdncred/nu_plugin_parquet.git
+cargo install --path .<\n>plugin add ~/.cargo/bin/nu_plugin_parquet<\n>plugin use ~/.cargo/bin/nu_plugin_parquet # required if you don't want to quit out and restart nushell
+cargo install --path .
+open all_comments_after.parquet
+plugin add ~/.cargo/bin/nu_plugin_parquet<\n>plugin use ~/.cargo/bin/nu_plugin_parquet
+plugin add ~/.cargo/bin/nu_plugin_parquet<\n>
+open all_comments_after.parquet 
+open all_comments_after.parquet | from parquet
+open -r all_comments_after.parquet | from parquet
+plugin use ~/.cargo/bin/nu_plugin_parquet<\n>
+open -r all_comments_after.parquet | from parquet
+open -r all_comments_after.parquet | from parquet | first
+polars open r_Chainsawfolk_comments.parquet | polars sort-by score | polars last 100 | polars save temp.parquet
+open temp.parquet
+open -r temp.parquet
+open -r temp.parquet | from parquet
+plugin use 'parquet'
+open -r temp.parquet | from parquet
+polars open r_Chainsawfolk_comments.parquet <\n>| polars sort-by score <\n>| polars schema
+polars open r_Chainsawfolk_comments.parquet <\n>| polars sort-by score <\n>| polars select name score author body<\n>| polars last 1000<\n>| polars save temp.parquet
+open -r temp.parquet | from parquet
+regex
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+gal
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+wk https://x.com/srtikamlik/status/1969328701868216674
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+gallery-dl oauth:reddit
+gallery-dl https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+yt-dlp https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+wk https://www.reddit.com/r/LobotomyKaisen/comments/1nm0al0/why_didnt_my_goat_just_do_this_is_he_stupid/
+gallery-dl --clear-cache reddit
+wk https://x.com/CSMvizuals/status/1969763105715429878
+wk https://x.com/sharp1e_/status/1969714790022136119
+wk https://x.com/bborbnz/status/1969667807345590300
+gallery-dl --clear-cache reddit
+gallery-dl oauth:reddit
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nnfovy/the_apocalypse_but_make_it_a_smooch_fest/
+wk https://x.com/Demonhonho/status/1969893574444536055
+wk https://x.com/Demonhonho/status/1969840992476926130
+wk https://x.com/Demonhonho/status/1968694620444852526
+wk https://x.com/Demonhonho/status/1968494374976729449
+wk https://x.com/Demonhonho/status/1967735662888865852
+wk 
+wk https://preview.redd.it/how-do-you-think-an-interaction-between-asa-and-nayuta-v0-572q63a8wfqf1.jpeg?width=640&auto=webp&s=c7b39a47b5882f95d29acbe2f2ea842143100c76
+w https://preview.redd.it/how-do-you-think-an-interaction-between-asa-and-nayuta-v0-572q63a8wfqf1.jpeg?width=640&auto=webp&s=c7b39a47b5882f95d29acbe2f2ea842143100c76
+wk https://x.com/sttrawberymango/status/1969777092826132566
+wk https://x.com/ghostlyalie/status/1969356456899330161
+wk https://x.com/OrevaLuffy_/status/1969813201190883475
+wk https://x.com/tina2nHR/status/1969351575165411343
+wk https://x.com/inviz0/status/1969914832917795149
+wk https://x.com/goodkids_1/status/1969516986276462831
+wk https://x.com/CakeDegg/status/1969744124363591755
+wk https://x.com/_jaznam/status/1969400972528271390
+jkl https://www.bilibili.com/video/BV1mZ3Ez1E8G/?utm_source=chatgpt.com
+jkl http://web.archive.org/web/20250720003725/https://www.youtube.com/watch?v=uoN8qESfc6o
+jkl https://web.archive.org/web/20250701115748/https://www.youtube.com/watch?v=uoN8qESfc6o
+mpv https://web.archive.org/web/20250701115748/https://www.youtube.com/watch?v=uoN8qESfc6o
+wk https://x.com/v2TokyoGhost/status/1969777349903184145
+wk https://x.com/shitposts_mp4/status/1969340763269185720
+wk https://x.com/juantokki/status/1969419652402200600
+wk https://x.com/NarutoDaily_/status/1969834309541351660
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+systemctl --user status wireplumber
+wpctl status
+wpctl set-default 46
+wk https://x.com/archivingsydney/status/1969842995898769585
+wk https://x.com/bellibly/status/1969510401135022383
+wk https://x.com/VishalSid_1/status/1969703974057185448
+wk https://x.com/isfjcutebear/status/1969807027791953968
+wk https://x.com/fawnsonfilm/status/1969499572499288210
+wk https://x.com/DaniellePopBase/status/1969588797554770389
+wk https://x.com/dkumimi/status/1969972315082338496
+wk https://x.com/hyewint/status/1969838894771483036
+wk https://x.com/puteme850/status/1969623355692367897
+wk https://x.com/NewJeansMuseum/status/1969833043125997603
+wk https://x.com/mkmcsm/status/1969968263020093714
+wk https://x.com/aespanim/status/1969768934758084939
+wk https://x.com/Roxdk7/status/1969477357984424324
+wk https://x.com/hyewint/status/1969465736297947168
+wk https://x.com/bborbnz/status/1969376890843775331
+wk https://x.com/bbang_04z/status/1969449384682406209
+wk https://x.com/_hannibunch/status/1969737108983296222
+wk https://x.com/Splias/status/1969772415166083232
+wk https://x.com/sweeneycraves/status/1969533600958673391
+wk https://x.com/picsnewjeans/status/1969418040816111682
+wk https://x.com/urmoon_aeri/status/1969770812359246318
+wk https://x.com/harukenharu/status/1969658755832037565
+wk https://x.com/fawnsonfilm/status/1969937068790046860
+nordvpn status
+nordvpn c US
+yay -S ncspot
+ncspot
+yay -S spotify-launcher
+m
+yay -S spotify-qt<\n>
+which spotify-qt
+spotify-qt -V
+spotify-qt --version
+ngrok http 8888
+yay -Qe | fzf
+yay -S ngrok-bin
+yay -S ngrok
+ngrok config add-authtoken 333ijAHSZNtbt7KlrTTxG7sJ9Jf_6eyPRGjFrU8N9ujEExnRp<\n>
+ngrok http 8888<\n>
+yay -Rns spotify-qt
+yay -S spot-client
+yay -S spotifyd
+spotifyd
+mkdir -p ~/.config/spotifyd
+mkdir ~/.config/spotifyd
+spotifyd authenticate
+btop
+systemctl --user enable --now spotifyd.service
+yay -S spotify-tui
+yay -Qe | fzf
+yay -Qs | fzf
+yay 
+yay -S spotify-tui-bin
+yay -S spotify-player
+spotify-player
+spotifyplayer
+spotify_player
+z
+spotify_player
+wk https://x.com/roxie_ug/status/1969399241937154418
+pactl list short sinks
+pkill spotifyd
+spotifyd
+aplay -L
+spotifyd
+pkill spotifyd
+spotifyd
+jkl https://www.youtube.com/watch?v=JrTwLUHOp_U
+wk https://www.youtube.com/watch?v=chpDckc-uzk
+jkl https://www.youtube.com/watch?v=chpDckc-uzk
+jkl https://www.youtube.com/watch?v=hrIdJO5KDuY
+jkl https://www.youtube.com/watch?v=0fldBu1d6kQ
+bash -c "reddit_archive https://www.reddit.com/r/interestingasfuck/comments/1nn8xft/removed_by_moderator/"
+bash -c "/home/pampam/builds/RedditArchiver-standalone/reddit-archive.sh https://www.reddit.com/r/interestingasfuck/comments/1nn8xft/removed_by_moderator/"
+spotify-player
+jkl https://youtu.be/asSCiNJtH00?si=i6Q7720IUwBwjwHE
+jkl https://www.youtube.com/watch?v=BtjNMH-moaw
+yay
+yay -Qe | fzf
+yay -Rns pgadmin4-desktop
+yay -Rns zalo-macos
+spotify_player
+spotify
+spotify-launcher
+z
+spotify-launcher
+spotify_player
+spotify-launcher
+spotify-launcher -v --skip-update --no-exec
+yay -S  spotify
+spotify
+spotify -h
+save -h
+40; 50; 60<\n>
+fd -d 1 | fzf
+fd -Id 1 | fzf
+fd -h
+fd -HId 1 | fzf
+fd -h
+fd -H -g 'activate.**' | fzf
+fd -H -g 'hi' | fzf
+fd -H -g 't' | fzf
+fd -h
+fd -H -g 'activate.**' | fzf
+fd -HI -g 'activate.**' | fzf
+fd -HI -g 'activate.nu' | fzf
+fd -HI -g 'activate.nu'
+"print Hello" | save output.nu<\n>source output.nu
+"print Hello" | save output.nu;<\n>source output.nu
+gl https://www.reddit.com/r/wordington/comments/1no6dr0/wordington_sword_sheath/
+poweroff
+gl https://www.reddit.com/r/wordington/comments/1no9zze/the_zoom_meeting_in_question/
+w https://streamable.com/m2ez1g
+w https://files.catbox.moe/ru5z09.mp4
+wk https://www.reddit.com/user/Ninja-Trix/comments/1nlealt/highres_album_mosaic_wstats//
+wk https://www.reddit.com/user/Ninja-Trix/comments/1nlealt/highres_album_mosaic_wstats/
+ps
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+codex
+helpenumerate
+help enumerate
+[a,b,c]
+[a,b,c] | enumerate
+help reduce
+merge -h
+jlk https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+jkl https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+yt-dlp https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+yay -S deno
+yt-dlp https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+pipx install "yt-dlp[default]"
+yay -Rns yt-dlp
+yt-dlp https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+wrap -h
+which wrap
+jkl https://youtu.be/eJENP0Rr8p0?si=FN17koy0JvlXXtVM
+which wrap
+wrap -h
+wrap
+wrap -h
+wrapcol -h
+wrap-col -h
+[a b c]
+[a b c] | merge [47 512 618]
+[a b c] | wrap name |  merge [47 512 618]
+[a b c] | wrap name |  merge ([47 512 618] | wrap id)
+wrap -h
+reduce -h
+merge -h
+wrap -h
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} }
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 30
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 40
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 100
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 70
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 80
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 90
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 91
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 95
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 93
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 92
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, ($fib.0 + $fib.1)]} } | take 91
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 91
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 92
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 100
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 1000
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 200
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 300
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 400
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 500
+generate {|fib=[0, 1]| {out: $fib.0, next: [$fib.1, (($fib.0 + $fib.1) | into float)]} } | take 600
+khot -h
+timeit {<\n>  mut randoms = []<\n>  for _ in 1..50_000 {<\n>    $randoms = ($randoms | append (random int))<\n>  }<\n>}
+timeit {<\n>  mut randoms = []<\n>  for _ in 1..10_000 {<\n>    $randoms = ($randoms | append (random int))<\n>  }<\n>}
+timeit {<\n>  mut randoms = []<\n>  for _ in 1..50_000 {<\n>    $randoms = ($randoms | append (random int))<\n>  }<\n>}
+timeit {<\n>  let randoms = (1..50_000 | par-each {random int})<\n>}
+timeit {<\n>  let randoms = (1..50_000 | each {random int})<\n>}
+timeit {<\n>  let randoms = (1..500_000 | each {random int})<\n>}
+timeit {<\n>  let randoms = (1..10_000_000 | each {random int})<\n>}
+1..10_000_000 | each {random int}
+1..10_000_000 | each {random int}
+1..10_000_000 | each {random int}
+ls
+ls | get 0
+ls<\n>| get 0<\n>| transpose key value<\n>
+ls<\n>| get 0<\n>| transpose key value<\n>| inspect
+inspect -h
+ls | inspect
+ls<\n>| get 0<\n>| transpose key value<\n>| inspect<\n>| each {|kv|<\n>    $'The value of the "($kv.key)" field is "($kv.value)"'<\n>  }
+ls<\n>| take 2<\n>| transpose key value<\n>| inspect<\n>| each {|kv|<\n>    $'The value of the "($kv.key)" field is "($kv.value)"'<\n>  }
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+generate {|fib=[0, 1]| {out: ($fib.0 | into float), next: [$fib.1, ($fib.0 + $fib.1)]} } | take 600
+generate {|(fib=[0, 1] |into float)| {out: $fib.0 , next: [$fib.1, ($fib.0 + $fib.1)]} } | take 600
+generate {|fib=[0.0, 1.0]| {out: $fib.0 , next: [$fib.1, ($fib.0 + $fib.1)]} } | take 600
+generate {|fib=[0.0, 1]| {out: $fib.0 , next: [$fib.1, ($fib.0 + $fib.1)]} } | take 600
+sudo npm install -g @openai/codex
+z
+nordvpn c US
+$env | table -e<\n>
+codex
+$env | table -e<\n>
+$env
+table -h
+$env | table -w 5
+$env | table -w 10
+$env | table -w 20
+$env | table -w 100
+fd
+fzf
+fd -h
+fd -h | rg sym
+fzf --preview
+fzf -h
+fzf -h | rg preview
+fzf --preview=bat
+fzf --preview=cat
+fzf --height=40% --layout=reverse --border ;<\n>--bind=ctrl-j:down,ctrl-k:up,ctrl-f:page-down,ctrl-b:page-up,home:top,end:bottom ;<\n>--bind=tab:toggle+down,shift-tab:toggle+up ;<\n>--bind=ctrl-a:select-all,ctrl-d:deselect-all ;<\n>--preview="bat --style=numbers --color=always {} | sed -n \"1,200p\"" ;<\n>--preview-window="right:60%"
+t
+fd yazi.toml | bat $in
+fd yazi.toml
+fd
+fd -HI yazi.toml 
+fd -HI
+fd yazi.toml
+fd "'yazi.toml"
+fd -g "'yazi.toml"
+fd yazi.toml
+fd yazi.toml | bat $in
+fd yazi.toml$ | bat $in
+fd yazi.toml$ | bat -P $in
+fzf --preview="bat -P"
+fzf --preview="bat -P $in"
+fzf --preview 'bat --paging=never --style=numbers --color=always {}'
+fzf --preview="bat -P {}"
+bat -h
+bat -h | rg color
+fzf --preview="bat -cP {}"
+fzf --preview="bat -P --color=always {}"
+fzf --preview="nu -c 'ls'"
+fzf --preview="nu -c 'ls $in'"
+fzf --preview="nu -c 'ls {}'"
+if "ls nushell" ;then
+let p = '/home/pampam/dotfiles/pamsdots/dot-config/nushell'<\n>if ( $p | path type ) == 'dir' {<\n>  echo "it's a directory"<\n>} else {<\n>  echo "not a directory (file/symlink/missing)"<\n>}
+let p = 'nushell'<\n>if ( $p | path type ) == 'dir' {<\n>  echo "it's a directory"<\n>} else {<\n>  echo "not a directory (file/symlink/missing)"<\n>}
+eza
+bat -h | rg color
+bat -h | rg P
+bat -h | rg page
+fzf --preview="nu -c '<\n>if ( {} | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( ls {} | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( {} | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+if ( nushell | path type ) == 'dir' {<\n>  echo "it's a directory"<\n>} else {<\n>  echo "not a directory (file/symlink/missing)"<\n>}
+if ( "nushell" | path type ) == 'dir' {<\n>  echo "it's a directory"<\n>} else {<\n>  echo "not a directory (file/symlink/missing)"<\n>}
+fzf --preview="nu -c '<\n>if ( '{}' | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( \'{}\' | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( '\{\}' | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( '{}' | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>let p = {}<\n>if ( $p | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>let p = '{}'<\n>if ( $p | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( $'{}' | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="nu -c '<\n>if ( (echo {}) | path type ) == 'dir' {<\n>  eza {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+eza
+eza -h
+eza --help
+eza --help | rg color
+fzf --preview="nu -c '<\n>if ( (echo {}) | path type ) == 'dir' {<\n>  ls {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+ls nushell/nu_plugin_parquet
+ls -h
+ls -s nushell/nu_plugin_parquet
+bat --list-themes 
+yay -S viu
+viu "they lied to us. highschool is not like persona [SKwkvsnUOAk].mp4"
+viu "696-GkAGXjrX0AAt8iY.jpg"
+viu "1965397822972571946_1.jpg"
+fzf --preview="nu -c '<\n>if ( (echo {}) | path type ) == 'dir' {<\n>  ls -s {}<\n>} else {<\n>  bat --color=always {}<\n>}<\n>'"
+fzf --preview="viu {}"
+fzf --preview="viu -w 40 -h 20 {}"
+fzf --preview="viu {}"
+viu "1965397822972571946_1.jpg"
+viu "GX67ajgW0AEac2s.jpg"
+viu "GZN7WiiaYAAzTPR.jpg"
+viu 1969838894771483036_1.jpg
+viu "461313533_995739132239867_1798631026243188717_n.jpg"
+yay -S imgcat
+imgcat "GYxWVFybQAEFcAl.jpg"
+y
+wezterm imgcat "GZN7WiiaYAAzTPR.jpg"
+wezterm imgcat "GYxWVFybQAEFcAl.jpg"
+vui
+viu "461313533_995739132239867_1798631026243188717_n.jpg"
+history
+history | select command | uniq
+history | select command | uniq | fzf
+history | select command | uniq | reverse | fzf
+history
+history | columns
+history | where command =~ "history"
+history
+history | where command =~ "fzf"
+history | get command
+history | get command | to text
+history | get command 
+get -h
+get -h | rg null
+history | get command | to json
+history | get command | to json -r
+history | get command | to json
+"hi\nhey" | fzf
+"hi\0hey" | fzf
+"hi\ohey" | fzf
+"hi\0hey" | fzf
+"hi\0 hey" | fzf
+"hi\u{0} hey" | fzf
+"hi\u{0} hey" | fzf --read0 
+"hi\u{0}hey\nno" | fzf --read0 
+"hi\u{0}hey\nno\hi" | fzf --read0 
+"hi\u{0}hey\nno\nhi" | fzf --read0 
+"hi\u{0}hey\nno\nnjz" | fzf --read0 
+"hi\u{0}hey\nno\nnjz" | fzf
+history | get command | fzf --read0 
+history | get command | to text |  fzf --read0 
+history | get command | get command | fzf --read0 
+history | get command | fzf --read0 
+history | select command | get command | fzf --read0 
+history | select command | get command
+history | select command | get command | schema
+history | select command | get command | str join "\u{0}" | fzf --read0 
+history | select command | reverse | get command | str join "\u{0}" | fzf --read0 
+history | select command | uniq |  reverse | get command | str join "\u{0}" | fzf --read0 
+history | select command | uniq |  reverse | get command | str join "\u{0}" | fzf --read0 --gap
+history | select command | uniq |  reverse | get command | str join $"(char null)" | fzf --read0 --gap
+history | select command | uniq |  reverse | get command | str join (char null) | fzf --read0 --gap
+history | select command <\n>| uniq |  reverse <\n>| get command | str join $"$(char null)" | fzf --read0 --gap
+history | select command <\n>| uniq |  reverse <\n>| get command | str join $"(char null)" | fzf --read0 --gap
+char -h
+char null
+char null -h
+char -l
+history | select command <\n>| uniq |  reverse <\n>| get command | str join $"(char nul)" | fzf --read0 --gap
+rmpc
+lazygit
+git rm log
+git filter-repo --invert-paths --force --path log
+lazygit

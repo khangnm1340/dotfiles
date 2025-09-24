@@ -5,9 +5,7 @@
 /home/Ext4Pam/Pictures/Arch_pics/Save_webP
 /home/pampam/Pictures/Screenshots/is-hyprland
 /home/Ext4Pam/Pictures/Pictures/yt_downloads/frequent
-/home/pampam/.local/share/nicotine/downloads
 /home/Ext4Pam/Music
-/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/blank_slate
 /home/Ext4Pam/Pictures/Arch_pics
 /home/pampam/Documents/UTH/DataMining/pams-product-sentiment
 /home/pampam/.config
@@ -16,7 +14,7 @@
 /home/pampam/.config/nvim-hanni
 /usr/share/applications
 /home/pampam/.local/share
-/home/pampam/Documents/UTH/DataMining/tests
+/home/pampam/Documents/UTH/MachineLearning/ielts
 /home/pampam/dotfiles/pamsdots/dot-config
 /home/pampam/builds
 /home/pampam/Downloads/wallpapers

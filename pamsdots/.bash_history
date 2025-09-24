@@ -1,24 +1,3 @@
-r6AVzuh98cYFfxl8p4FArlBOVV2cc1plodJMYTIzG2uSiM5vFiBtksUdE+UToQ7B5hx1xSJ0j2w2
-pxsl3NLqL+jx5CMsP+KiqZWTq9N3Qb2wCKgMWnDvDKSpHTF/Xmu/KB9Yk+jbwaERrGwGAwl2Mo1l
-qcPEQBmfoDIG/EmrGfNwZzfkhF9MTkD5p5AIHIVCgbEUVqSeDbQ96mdqGgZ9fRqz55yWPlTwK21g
-ODBJw7ef8/VBOeIxFWpI3CX6wkuGYxRYFwxW8c2O+xRCaKEwvYeBnxdxI9HSWYWkHYG+eU3lg59R
-wIo3H5YwKbKL1MtVBh6Y6jjyuUT+4QgaUr0e9oGIhX5Or6M6h0/Oib8b+4b1D+MZSwO/XjOwWqmD
-CygJPkYrGYoN1nqpWBkpgztwk6/luB4W/dgz320E6PlihiGGJpNy8k4r1jE0xvZCAZzwil1qcPrm
-fo5Kx5dpxUv8LGQXTMwVoySJXNB4t3McoOHercnVFYqj8kNRJAEB2/fj1WeoenrTVEW7EfNsM+IX
-xOlugTBfRfRWsIfR7EgiwDJynFGKOEq07rqKm+fX9yt+17NLXnRUX3M7nEfZTlRcKLXE6XtQ4Url
-zuajHURILvwRPWJ6tgOhmIz8zWoIGWdiWNgFj4MEg3pnziJJ4tEFiMLagYvf8VSMczCjcxgMt9hJ
-ll7Q0qPzqUdiIQk+YQ2S20QoJYfZG3HsrV9YlJ9kK2jwDS/TxqF8SnOPPbGiqxpZby+4E6zQMm1I
-/Rl1DICYyFEjfpZ3ZzWPXb01VfVj0mVzQA4VxAjxesNkki4t3NjI4bmKBazojROgoiGEu7r0vyqI
-oMj1ZfURuZ5TcNhIv+eSTvMdIHXOrr0zflzY8yopRAb/b+pN3E5KhMCuVjfcF4LIvvXL/JmKVakM
-kb60ryiQ9uK91F5egLVnnR38R9rW9new5C1yvEigHm9RQbEANNKio4BCrSI2NEtC8KJVnVEEDoWd
-6CkCYQsXVOZFp/PXNmwt2u9D65TCHq44OYH+6DEDjNwmMFUT+e3pWzEtcAXpCeRifOGSLR7qg19T
-U7NyUu4kGvfFlgD4gQB1wtNi67WupoM3qtzW64EZXUoKUdIYln8FEt5BIJvbIWI3DXlGnFq1pdlJ
-iO81oCUTlCNOkX3oJ+MD8HTx3q+Ep0rcTqlKsBz8hq/THVIMqIUwlIBA/OKugmSEjdIyOl8uq415
-myZcoT7Gax2SYmEVjTFv48vRhCXsNsiILod1iWVcb00c314Erza5sjjxwhH5D2WFhiPwOLF4LdL2
-VrTrQe6VTH/7tuUh3vBePHHNOlHvhksNZsk58jW4VfszwBQck9RWEazr4SmAfFFVMV4MZVNL2t8k
-zmwQsVbizQh1KfE9rTiKxGuUSeXS5jThjlcGODaTdwMnBgVh5QH4ciWrzkKepdRlLPPrc1lTAfzY
-UWJIFkEHZ25IlJhG36HAEa/NpKVT2z2PRwHL61QV03EiOoOAMx90uQ1dDxRtZenlhAJLTSbkhbai
-JZxwiOPN9ml1UC6SPNS0vJMQCCyqvAAVlCpCvGtDXzcA4X15x84t0lYP/714lsmt0x9ND64eeR5G
 O0OoVTiNVLMj+Yk0pTuCjidDL8fP8pGbXQSP1raKbn6PifNtAmM5su42+eanYcL+6cq7+IRG904D
 z5wXOPz6/OBLLrw2bm+pLa/puKESJbjYilTSx3SPlF9Qpd1aphrS8+I5bKeJQLpAaExmbZ2323IJ
 RI6e5+0AAqIAUtyRjf+1qsaTSJd8ccJcszHdiJ4Tr6e1++yy0zhNDiV4S4VCk5+5KqfJJoSp8VUn
@@ -497,4 +476,31 @@ curl -X POST -H 'Content-Type: application/json'     -H 'Authorization: Bearer '
         "tags":["mosh"]}'     "https://api.digitalocean.com/v2/droplets"
 yay -S doctl
 doctl compute droplet create     --image fedora-42-x64     --size s-1vcpu-2gb-70gb-intel     --region sgp1     --enable-monitoring     --tag-names 'mosh'     fedora-s-1vcpu-2gb-70gb-intel-sgp1-01
+nu
+if nordvpn status | rg -qi '^Status:\s*Connected'; then   echo "connected"; else   echo "not connected"; fi
+if nordvpn status | rg -qi '^Status:\s*Connected'; then   echo "connected"; else   echo "not connected"; fi
+nordvpn d
+if nordvpn status | rg -qi '^Status:\s*Connected'; then   echo "connected"; else   echo "not connected"; fi
+sudo fd -H -I -0 -t f /   --exclude /proc --exclude /sys --exclude /dev --exclude /run --exclude /tmp   | tr -cd '\0' | wc -c
+sudo find /   \( -fstype proc -o -fstype sysfs -o -fstype devtmpfs -o -fstype tmpfs      -o -fstype cgroup -o -fstype cgroup2 -o -fstype autofs -o -fstype overlay      -o -fstype fusectl -o -fstype rpc_pipefs \) -prune -o   -print0 | tr -cd '\0' | wc -c
+find | fzf
+nu
+./nordvpn.sh 
+./nordvpn.sh 
+./nordvpn.sh 
+nu
+./nordvpn.sh 
+nu
+reddit_archive https://www.reddit.com/r/shitvietnamsays/comments/1nn6g08/nói_chung_là_người_mỹ_là_những_người_khốn_khổ%2f
+nu
+gallery-dl oauth:reddit
+nu
+clipse
+bash -c "clipse"
+nu
+ls
+ls -la
+nu
+reddit_archive https://www.reddit.com/r/interestingasfuck/comments/1nn8xft/removed_by_moderator/
+nu
 nu

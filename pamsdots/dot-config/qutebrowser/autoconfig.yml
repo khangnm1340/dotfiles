@@ -12,8 +12,15 @@ settings:
     global: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
       Chrome/137.0.0.0 Safari/537.36
   content.javascript.clipboard:
+    https://developer.spotify.com: access-paste
     https://htmlcolorcodes.com: access-paste
     https://nhentai.net: access-paste
+    https://toffeeshare.com: access-paste
     https://typst.app: access-paste
+    https://www.nushell.sh: access-paste
+  content.notifications.enabled:
+    https://www.facebook.com: true
+  statusbar.show:
+    global: always
   tabs.show:
     global: always

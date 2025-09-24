@@ -62,8 +62,6 @@ c.content.javascript.log_message.excludes = {
 config.bind('ck','config-cycle colors.webpage.darkmode.enabled true false ;; reload')
 # config.set("colors.webpage.preferred_color_scheme", "light", "127.0.0.1")
 
-
-
 config.bind('<Ctrl-R>', ':config-source ;; message-info "Config reloaded!"')
 config.unbind('<Ctrl-V>', mode='normal') # Or other mode
 config.unbind('co')
@@ -89,7 +87,7 @@ config.bind('p', 'open -t -- {clipboard}')
 config.bind('<Ctrl-Shift-p>', 'cmd-set-text -s :open -p')
 
 config.bind('<Ctrl-L>', 'cmd-set-text :open -t -r {url:pretty}')
-config.bind('cj', 'config-cycle statusbar.show never always')
+config.bind('<Ctrl-N>', 'config-cycle statusbar.show never always')
 
 config.bind('yf', 'hint links yank')
 config.bind('p', 'open -t -- {clipboard}')

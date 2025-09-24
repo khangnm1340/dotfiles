@@ -5,6 +5,12 @@
     },
     "twitter": {
       "cookies": "/home/Ext4Pam/Pictures/Arch_pics/womp_womp/cookies-x-com.txt"
-    }
+    },
+    "reddit": {
+       "refresh-token":"187754900022490-FJL71nFqnGCgW1qPj16rbukgYkmkaQ",
+       "client-id": "a5kiFJ5zM6edw2AUES7tHw",
+       "user-agent": "Python:<pam-dl>:v1.0 (by /u/<Electronic_Leek_1117>)",
+       "refresh-token": "cache"
+        }
   }
 }

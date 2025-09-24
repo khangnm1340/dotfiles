@@ -71,6 +71,7 @@ map("n", "<leader>k", ":Pick files<CR>", { desc = "Pick files" })
 map("n", "<leader>h", ":Pick help<CR>", { desc = "Pick help" })
 map("n", "<M-l>", ":Pick buffers<CR>", { desc = "Pick buffers" })
 map("n", "<leader>g", ":Pick grep<CR>", { desc = "Pick grep" })
+map("n", "<leader>r", ":Pick registers<CR>", { desc = "Pick registers" })
 
 -- Frequent files from Nushell history
 map("n", "<M-k>", function()

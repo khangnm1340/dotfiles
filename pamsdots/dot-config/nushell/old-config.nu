@@ -141,3 +141,43 @@ let light_theme = {
     shape_vardecl: purple
     shape_raw_string: light_purple
 }
+
+    {
+      name: copy_pwd
+      modifier: control_shift
+      keycode: char_z
+      mode: [emacs vi_normal vi_insert]
+      event: {
+        send: executehostcommand,
+        cmd: "
+          if $env.WAYLAND_DISPLAY? != null {
+            pwd | wl-copy
+            pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'copied current directory' -t $in
+          } else {
+            pwd | notify -i /home/Ext4Pam/Pictures/NewjeansPics/GX2MHKzaYAEAhg_.jpg -s 'cant copy current directory' -t $in
+          }
+        "
+      }
+    }
+
+        {
+            name: shpool_switch
+            modifier: control
+            keycode: char_h
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                send: executehostcommand,
+                cmd: "
+                    shpool attach ( [1_hanni 2_dani 3_minji 4_haerin 5_hyein] | str join (char nl) | fzf)
+                "
+            }
+        }
+
+# Show "shpool:<name> " when inside a shpool session
+let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
+  $"(ansi green)shpool:($env.SHPOOL_SESSION_NAME)(ansi reset) "
+} else { "" }
+
+$env.PROMPT_COMMAND = {||
+  $"($sess_prefix)($env.PWD) > "
+}

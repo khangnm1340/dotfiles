@@ -31,7 +31,7 @@ path add /home/pampam/dotfiles/pamsdots/dot-config/nushell/nupm/plugins/bin
 path add /usr/bin/vendor_perl
 $env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu
-$env.FZF_DEFAULT_COMMAND = 'fd --type f'
+$env.FZF_DEFAULT_COMMAND = 'fd -L'
 $env.EDITOR = 'nvim'
 $env.JUPYTERLAB_DIR = ($env.HOME)/.local/share/jupyter/lab
 $env.LS_COLORS = (vivid generate tokyonight-night)
