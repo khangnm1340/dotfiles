@@ -97,11 +97,11 @@ config.bind('E', 'fake-key t')
 
 config.bind('gl', 'tab-clone')
 
-config.bind('<Super-1>', 'tab-focus 1')
-config.bind('<Super-2>', 'tab-focus 2')
-config.bind('<Super-3>', 'tab-focus 3')
-config.bind('<Super-4>', 'tab-focus 4')
-config.bind('<Super-5>', 'tab-focus 5')
+config.bind('<Ctrl-1>', 'tab-focus 1')
+config.bind('<Ctrl-2>', 'tab-focus 2')
+config.bind('<Ctrl-3>', 'tab-focus 3')
+config.bind('<Ctrl-4>', 'tab-focus 4')
+config.bind('<Ctrl-5>', 'tab-focus 5')
 
 config.bind('<Ctrl-V>', 'cmd-set-text -s :tab-move')
 config.bind('sl', 'cmd-set-text -s :spawn --userscript tab-manager.py /home/pampam/dotfiles/pamsdots/dot-config/qutebrowser/sessions/' )

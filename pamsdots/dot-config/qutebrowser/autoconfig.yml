@@ -13,13 +13,20 @@ settings:
       Chrome/137.0.0.0 Safari/537.36
   content.javascript.clipboard:
     https://developer.spotify.com: access-paste
+    https://ghostty.org: access-paste
     https://htmlcolorcodes.com: access-paste
     https://nhentai.net: access-paste
+    https://open.spotify.com: access-paste
     https://toffeeshare.com: access-paste
     https://typst.app: access-paste
     https://www.nushell.sh: access-paste
+    https://www.tiktok.com: access-paste
+    https://x.com: access-paste
   content.notifications.enabled:
+    https://web.tolstoycomments.com: false
     https://www.facebook.com: true
+  content.register_protocol_handler:
+    https://mail.google.com?extsrc=mailto&url=%25s: true
   statusbar.show:
     global: always
   tabs.show:

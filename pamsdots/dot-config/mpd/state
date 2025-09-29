@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 7
-time: 0
+current: 68
+time: 1.9160000000000001
 random: 0
 repeat: 0
 single: 1
@@ -39,41 +39,51 @@ playlist_begin
 24:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/06 - NewJeans - ASAP.flac
 25:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
 26:I_AM_MUSIC/Operation Doomsday/02 - Doomsday.flac
-27:I_AM_MUSIC/Kanye West - Donda (Deluxe)/05. Off The Grid.m4a
-28:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/01 - NewJeans - OMG.flac
-29:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
-30:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
-31:can_j_noi_dau_e_oi/haking.flac
-32:can_j_noi_dau_e_oi/[TBS] Kanako Ito - Fatima (Steins;Gate 0 OP Single) [FLAC]/01 ファティマ (Fátima).flac
-33:can_j_noi_dau_e_oi/36 - GATE OF STEINER.flac
-34:can_j_noi_dau_e_oi/006. 佐々木恵梨 - GATE OF STEINER.flac
-35:can_j_noi_dau_e_oi/02. KICK BACK.flac
-36:can_j_noi_dau_e_oi/005. 佐々木恵梨 - GATE OF STEINER - acoustic ver..flac
-37:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/13. Superficial Me.m4a
-38:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/12. MIRROR TUNE.m4a
-39:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/11. Blush.m4a
-40:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/10. Stay Foolish.m4a
-41:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/01. Hanaichi Monnme.m4a
-42:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/02. Time Left.m4a
-43:can_j_noi_dau_e_oi/52Hz - ĐỢI (Prod. RIO) - Single/01. ĐỢI (Prod. RIO).m4a
-44:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/02. Aoi Sangosho.m4a
-45:vids/newjeans_ditto_(ban_heesoo_videos)-20240902T120256Z-001/19981224.mp4
-46:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
-47:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
-48:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
-49:can_j_noi_dau_e_oi/AMEE - MỘNGMEE - EP/01. MỘNG YU.m4a
-50:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU (JERSEY MIX) - Single/01. PHI TIÊU (JERSEY MIX).m4a
-51:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU - Single/01. PHI TIÊU.m4a
-52:can_j_noi_dau_e_oi/AMEE - dreAMEE/04. đen đá không đường.m4a
-53:can_j_noi_dau_e_oi/Dangrangto, TeuYungBoy & Donal - NGỰA Ô - Single/01. NGỰA Ô.m4a
-54:can_j_noi_dau_e_oi/Fancy That (2025) [WEB]/03 - Tonight.flac
-55:I_AM_MUSIC/Anri - Timely!!/06. 悲しみがとまらない I CAN'T STOP THE LONELINESS.m4a
-56:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2006-05-24] Doraemon ☆ Mini Album 2 [COCX-33658]/02 おとなりのプリンセス.flac
-57:I_AM_MUSIC/Fujii Kaze - HELP EVER HURT NEVER/01. Nan-Nan.m4a
-58:can_j_noi_dau_e_oi/Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/05. I Really Want to Stay At Your House.m4a
-59:can_j_noi_dau_e_oi/0116 - Color Your Night.flac
-60:I_AM_MUSIC/Operation Doomsday/02 - Doomsday.flac
-61:can_j_noi_dau_e_oi/MIN - Có Em Chờ - Single/01. Có Em Chờ (feat. Mr. A).m4a
-62:can_j_noi_dau_e_oi/Pineradise & VCC Left Hand - HELLA SIMPS - Single/01. HELLA SIMPS.m4a
-63:I_AM_MUSIC/your name . 『君の名は。』 (2016-2017) [FLAC]/[2016.08.24] Your Name／RADWIMPS [24bit_48kHz]/13. 飛騨探訪.flac
+27:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/01 - NewJeans - OMG.flac
+28:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
+29:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
+30:can_j_noi_dau_e_oi/haking.flac
+31:can_j_noi_dau_e_oi/[TBS] Kanako Ito - Fatima (Steins;Gate 0 OP Single) [FLAC]/01 ファティマ (Fátima).flac
+32:can_j_noi_dau_e_oi/36 - GATE OF STEINER.flac
+33:can_j_noi_dau_e_oi/006. 佐々木恵梨 - GATE OF STEINER.flac
+34:can_j_noi_dau_e_oi/02. KICK BACK.flac
+35:can_j_noi_dau_e_oi/005. 佐々木恵梨 - GATE OF STEINER - acoustic ver..flac
+36:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/13. Superficial Me.m4a
+37:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/12. MIRROR TUNE.m4a
+38:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/11. Blush.m4a
+39:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/10. Stay Foolish.m4a
+40:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/01. Hanaichi Monnme.m4a
+41:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/02. Time Left.m4a
+42:can_j_noi_dau_e_oi/52Hz - ĐỢI (Prod. RIO) - Single/01. ĐỢI (Prod. RIO).m4a
+43:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/02. Aoi Sangosho.m4a
+44:vids/newjeans_ditto_(ban_heesoo_videos)-20240902T120256Z-001/19981224.mp4
+45:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
+46:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
+47:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
+48:can_j_noi_dau_e_oi/AMEE - MỘNGMEE - EP/01. MỘNG YU.m4a
+49:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU (JERSEY MIX) - Single/01. PHI TIÊU (JERSEY MIX).m4a
+50:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU - Single/01. PHI TIÊU.m4a
+51:can_j_noi_dau_e_oi/AMEE - dreAMEE/04. đen đá không đường.m4a
+52:can_j_noi_dau_e_oi/Dangrangto, TeuYungBoy & Donal - NGỰA Ô - Single/01. NGỰA Ô.m4a
+53:can_j_noi_dau_e_oi/Fancy That (2025) [WEB]/03 - Tonight.flac
+54:I_AM_MUSIC/Anri - Timely!!/06. 悲しみがとまらない I CAN'T STOP THE LONELINESS.m4a
+55:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2006-05-24] Doraemon ☆ Mini Album 2 [COCX-33658]/02 おとなりのプリンセス.flac
+56:I_AM_MUSIC/Fujii Kaze - HELP EVER HURT NEVER/01. Nan-Nan.m4a
+57:can_j_noi_dau_e_oi/Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/05. I Really Want to Stay At Your House.m4a
+58:can_j_noi_dau_e_oi/0116 - Color Your Night.flac
+59:I_AM_MUSIC/Operation Doomsday/02 - Doomsday.flac
+60:can_j_noi_dau_e_oi/MIN - Có Em Chờ - Single/01. Có Em Chờ (feat. Mr. A).m4a
+61:can_j_noi_dau_e_oi/Pineradise & VCC Left Hand - HELLA SIMPS - Single/01. HELLA SIMPS.m4a
+62:I_AM_MUSIC/your name . 『君の名は。』 (2016-2017) [FLAC]/[2016.08.24] Your Name／RADWIMPS [24bit_48kHz]/13. 飛騨探訪.flac
+63:can_j_noi_dau_e_oi/IRIS OUT/Kenshi Yonezu_IRIS OUT_1.ogg
+64:can_j_noi_dau_e_oi/JANE DOE/01_Kenshi Yonezu_JANE DOE.ogg
+65:can_j_noi_dau_e_oi/DON'T TAP THE GLASS/Tyler, The Creator_Sugar On My Tongue.ogg
+66:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/01. Chiều Hôm Ấy (Intro).m4a
+67:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/02. Cơn Đau.m4a
+68:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/03. Anh Thấy (Interlude).m4a
+69:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/04. Gặp May.m4a
+70:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/05. Thích Em Hơi Nhiều.m4a
+71:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/06. Trao.m4a
+72:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/07. Màu Đỏ (Interlude).m4a
+73:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/08. Mấy Khi.m4a
 playlist_end

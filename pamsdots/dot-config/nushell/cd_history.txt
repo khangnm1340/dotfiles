@@ -19,3 +19,6 @@
 /home/pampam/builds
 /home/pampam/Downloads/wallpapers
 /home/pampam/.config/hypr
+/home/pampam/Music/Zotify Music
+/home/pampam/Documents/external_drives/drive1
+/home/pampam/.local/share/Steam/steamapps

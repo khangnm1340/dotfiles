@@ -75,6 +75,13 @@ $env.config = {
                   send: executehostcommand,
                   cmd: "y" }
       }
+      {
+            name: delete_to_beginning_vi_insert
+            modifier: control
+            keycode: char_u
+            mode: [vi_normal vi_insert]
+            event: { edit: CutFromStart }
+      }
 	  
     ]
 }
@@ -144,6 +151,28 @@ def "notify on done" [
     return $result
 }
 
+def zotify-album [album_link: string] {
+
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"
+let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"
+
+let TOKEN = (curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token)
+
+let ALBUM_ID = ( $album_link | split row "?" | get 0 | split row "/" | last)
+mut all = []
+mut url = $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50" 
+while $url != null {
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)
+
+  let items = ($uris.items.uri)
+  # append items to all
+  $all = ($all ++ $items)
+  $url = $uris.next
+}
+
+zotify ...$all
+}
+
 
 
 const NU_PLUGIN_DIRS = [
@@ -166,6 +195,7 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias vim = nvim
 alias w = wget2
+alias ff = fastfetch
 # alias sam = shpool attach main
 # alias sa = shpool attach
 # alias sk = shpool kill
@@ -182,3 +212,6 @@ source ~/.zoxide.nu
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+print "hello"
+
+use '/home/pampam/.config/broot/launcher/nushell/br' *

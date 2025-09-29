@@ -45,3 +45,5 @@ for full_cmd in /usr/bin/uu-*; do
       fi
 done
 source ~/builds/RedditArchiver-standalone/reddit-archive.sh
+
+source /home/pampam/.config/broot/launcher/bash/br

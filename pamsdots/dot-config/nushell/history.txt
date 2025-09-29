@@ -1464,3 +1464,564 @@ git push --set-upstream origin main
 lazygit
 git rm --cache log
 git log --oneline --all -- pamsdots/dot-config/mpd/log
+git filter-repo --invert-paths --path pamsdots/dot-config/mpd/log
+git log --all -- pamsdots/dot-config/mpd/log   # should print nothing
+git push --force --all
+git remote add origin git@github.com:khangnm1340/dotfiles.git
+lazygit
+git push --force --all
+rg "marx" "u_ChickenWingExtreme_posts.jsonl"
+rg "marx" -g "gif" "u_ChickenWingExtreme_posts.jsonl"
+open "u_ChickenWingExtreme_posts.jsonl"
+open "u_ChickenWingExtreme_posts.jsonl" | schema
+open "u_ChickenWingExtreme_posts.jsonl" | columns
+open "u_ChickenWingExtreme_posts.jsonl" | columns | select title selftext
+open "u_ChickenWingExtreme_posts.jsonl" | columns | get title
+open "u_ChickenWingExtreme_posts.jsonl" | columns | fzf
+open "u_ChickenWingExtreme_posts.jsonl" | columns | get title
+open "u_ChickenWingExtreme_posts.jsonl" | get title
+open "u_ChickenWingExtreme_posts.jsonl" | get 13
+w https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fr6l1a05glxqf1.gif
+wk https://www.reddit.com/r/VietNam/comments/1np4stz/poor_handicap_vendor_robbed_of_phone_by/
+'abc123abc' | regex '\d+'
+ls 
+ls
+ls -h
+ls ...(glob **/*.{rs,toml})
+ls -s ...(glob **/*.{rs,toml})
+yay -Sy onthespot-git<\n>
+nordvpn c US
+yay -S zotify
+pipx install https://get.zotify.xyz
+pipx install "git+https://zotify.xyz/zotify/zotify.git"
+overlay use /home/pampam/builds/nhentai/.venv/bin/activate.nu
+virtualenv .venv
+overlay use /home/pampam/Documents/UTH/MachineLearning/zotify/.venv/bin/activate.nu
+deactivate
+overlay use /home/pampam/Documents/UTH/MachineLearning/zotify/.venv/bin/activate.nu
+python3 -m pip install --user "git+https://zotify.xyz/zotify/zotify.git"
+pip install --user "git+https://zotify.xyz/zotify/zotify.git"
+pip install "git+https://zotify.xyz/zotify/zotify.git"
+git clone https://zotify.xyz/zotify/zotify.git
+z
+deactivate
+z
+git clone https://zotify.xyz/zotify/zotify.git
+git clone https://github.com/zotify-dev/zotify.git
+pipx install .
+zotify https://open.spotify.com/track/59hVbgr8rfYkDbHfr8RcGI?si=0b70b688588e493f
+zotify -h
+zotify -h | rg auth
+zotify https://open.spotify.com/track/59hVbgr8rfYkDbHfr8RcGI?si=0b70b688588e493f
+pipx uninstall zotify
+pipx install git+https://github.com/Googolplexed0/zotify.git<\n><\n>
+zotify https://open.spotify.com/track/59hVbgr8rfYkDbHfr8RcGI?si=0b70b688588e493f
+zotify https://open.spotify.com/album/381FouVeKunSg1WZTnmryL?si=AnS_fHVuQti-s432pv9AMQ
+zotify
+zotify https://open.spotify.com/album/381FouVeKunSg1WZTnmryL?si=AnS_fHVuQti-s432pv9AMQ
+zotify https://open.spotify.com/album/7Kxd4i6FPfW0ZuP3Q96uij?si=hk3-KltLTqyLW50f_zQ3mw
+zotify https://open.spotify.com/album/5rMOCuiWWbEBcHaKM69Hmv?si=xLVpRan1SqC9jHkkEW1uhw
+zotify https://open.spotify.com/album/1KNUCVXgIxKUGiuEB8eG0i?si=Itz9ZEUgTT-Ej9F9vTFj8Q
+zotify https://open.spotify.com/album/1XBaWU9OEjTOo0IFdgiTYl?si=1YPYyrA8Tya1Fk9CeSyGjQ
+zotify https://open.spotify.com/album/4m0K0hcRBcLIdI9FuiGS7U?si=_4F3PlZ-Qbajcw0lZPBCYw
+zotify https://open.spotify.com/album/1vyxo3BO4guXsPYgWoV9gl?si=2atu2J8jTCS6slDpUO-HSg
+zotify https://open.spotify.com/album/65tIpVeX7kDv9ZCyZDV90e?si=m1nmwbEvQlaX7CPJImlRCw
+zotify https://open.spotify.com/album/3iPSVi54hsacKKl1xIR2eH?si=BbIAbVvySBKY5kCdhH3t4g
+zotify https://open.spotify.com/album/1aqg30bNvLSWgShZgX4oop?si=Z-6Kt5nHSpaveg9NNlwMYg
+zotify https://open.spotify.com/album/0W5woeQnfOZmVLSbggRRlR?si=f7rWwJjoSbCPj_sGIgUFCQ
+zotify https://open.spotify.com/track/0Do1AZJJ03M0g8MmzUXLYf?si=e44d029fce5e422f
+zotify https://open.spotify.com/track/2u9S9JJ6hTZS3Vf22HOZKg?si=5177c0c7146d47ae
+zotify https://open.spotify.com/album/1jzv3jwZbt8lYfEtMjiD1R?si=-6TD8ThYRWufNJ4IqZJ5Yw
+zotify spotify:track:6xV7Be6XEvkSnighmh2Tzj
+zotify https://open.spotify.com/track/4sLvxpKLvagQ4lZHUpymza?si=8b3acdf05ef44c02
+zotify https://open.spotify.com/playlist/1STsJswPyXrthfic0Vi1Di?si=3aadc80928e84f1e
+zotify https://open.spotify.com/playlist/1STsJswPyXrthfic0Vi1Di?si=8dbe47e20831473e
+zotify https://open.spotify.com/track/4sLvxpKLvagQ4lZHUpymza?si=ad9f0f1555594359
+http get https://open.spotify.com/album/0sNOF9WDwhWunNAHPD3Baj
+http get https://open.spotify.com/album/0sNOF9WDwhWunNAHPD3Baj | to json
+zotify https://open.spotify.com/track/1jzv3jwZbt8lYfEtMjiD1R?si=FG33xMSIRwqIVb4aJ7xwew
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n>
+let ALBUM_ID = "66dOCZnzAEgxWpG8DVjoUv"<\n>let TOKEN = "BQBTw0lBXep1yJX28xBBnXiPZLEEbGEzEf-PnIFICnvuSP-VrFbkEQqY8wVOt82gWVf1O2jM9hzgm3Ya5h-2ursFWIP8Ru3ndige6BVJOO13TEukmUnb_amj0zX5CL82_NSKX_m65Xw"<\n>
+curl -s -H "Authorization: Bearer $TOKEN" "https://api.spotify.com/v1/albums/$ALBUM_ID/tracks?limit=50"
+print $"$(HOME)"
+print $"$HOME"
+print $"$(env.HOME)"
+print $"($env.HOME)"
+print $TOKEN
+print "the token is $"$TOKEN""
+print $TOKEN
+print "the token is $TOKEN"
+print "the token is ($TOKEN)"
+print $"the token is ($TOKEN)"
+curl -s -H $"Authorization: Bearer ($TOKEN)'" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"
+curl -s -H $"Authorization: Bearer ($TOKEN)'" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| from json
+curl -s -H $"Authorization: Bearer ($TOKEN)'" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| from json | get items
+let dttg = (curl -s -H $"Authorization: Bearer ($TOKEN)'" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| from json)
+$dttg
+$dttg | get items | columns
+$dttg | get items | get uri
+zotify spotify:track:0pcNf3VL8rSzv9JXe82sfC
+$dttg | get items | get uri | inspect
+$dttg | get items | get uri | zotify $in
+$dttg | get items | get uri | zotify ...$in
+echo "https://open.spotify.com/album/66dOCZnzAEgxWpG8DVjoUv?si=qx2NFPoZRn6A926akYE2rw"<\n>  | str split "?"<\n>  | get 0<\n>  | str split "/"<\n>  | last
+echo "https://open.spotify.com/album/66dOCZnzAEgxWpG8DVjoUv?si=qx2NFPoZRn6A926akYE2rw"<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last
+let ALBUM_LINK = "https://open.spotify.com/album/66dOCZnzAEgxWpG8DVjoUv?si=qx2NFPoZRn6A926akYE2rw"<\n>let ALBUM_ID = (<\n>$ALBUM_LINK<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)<\n>
+let ALBUM_LINK = "https://open.spotify.com/album/66dOCZnzAEgxWpG8DVjoUv?si=qx2NFPoZRn6A926akYE2rw"<\n>let ALBUM_ID = (<\n>$ALBUM_LINK<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)
+$ALBUM_ID
+http get -H $"Authorization: Bearer ($TOKEN)'" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"
+http get -H $"Authorization: Bearer ($TOKEN)" $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"
+http -h
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"
+def zotify-album [album_link: string]{<\n>$album_link<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)<\n><\n>let TOKEN = "BQBTw0lBXep1yJX28xBBnXiPZLEEbGEzEf-PnIFICnvuSP-VrFbkEQqY8wVOt82gWVf1O2jM9hzgm3Ya5h-2ursFWIP8Ru3ndige6BVJOO13TEukmUnb_amj0zX5CL82_NSKX_m65Xw"<\n><\n>http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri<\n>| zotify ...$in<\n>}<\n>
+def zotify-album [album_link: string]{<\n>let ALBUM_ID = (<\n>$album_link<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)<\n><\n>let TOKEN = "BQBTw0lBXep1yJX28xBBnXiPZLEEbGEzEf-PnIFICnvuSP-VrFbkEQqY8wVOt82gWVf1O2jM9hzgm3Ya5h-2ursFWIP8Ru3ndige6BVJOO13TEukmUnb_amj0zX5CL82_NSKX_m65Xw"<\n><\n>http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri<\n>| zotify ...$in<\n><\n>}<\n>
+def zotify-album [album_link: string]{<\n>let ALBUM_ID = (<\n>$album_link<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)<\n><\n>let TOKEN = "BQBTw0lBXep1yJX28xBBnXiPZLEEbGEzEf-PnIFICnvuSP-VrFbkEQqY8wVOt82gWVf1O2jM9hzgm3Ya5h-2ursFWIP8Ru3ndige6BVJOO13TEukmUnb_amj0zX5CL82_NSKX_m65Xw"<\n><\n>http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri<\n>| zotify ...$in<\n>}<\n>
+$env.SPOTIFY_TOKEN
+def zotify-album [album_link: string]{<\n>let ALBUM_ID = (<\n>$album_link<\n>  | split row "?"<\n>  | get 0<\n>  | split row "/"<\n>  | last<\n>)<\n><\n>let uris = (http get -H {Authorization: $"Bearer ($env.SPOTIFY_TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri<\n>)<\n><\n>zotify ...$uris<\n>}<\n>
+# Put this in your config.nu or source it<\n>def zotify-album [album_link: string] {<\n>  # extract album id<\n>  let album_id = ($album_link | split row "?" | get 0 | split row "/" | last)<\n><\n>  # load token from env (recommended) or error<\n>  let token = $env.SPOTIFY_TOKEN<\n>  if ($token | is-empty) { error make { msg: "Please set $env.SPOTIFY_TOKEN" } }<\n><\n>  # request album tracks (single-page, 50 limit — albums are usually smaller)<\n>  let resp = (http get -H { Authorization: $"Bearer ($token)" } $"https://api.spotify.com/v1/albums/($album_id)/tracks?limit=50" | from json)<\n><\n>  # collect URIs into a list<\n>  let uris = ($resp.items | get uri)<\n><\n>  # call external zotify with splatted args<\n>  zotify ...$uris<\n>}<\n>
+def zotify-album [album_link: string] {<\n>  # extract album id<\n>  let album_id = ($album_link | split row "?" | get 0 | split row "/" | last)<\n><\n>  # load token from env (recommended) or error<\n>  let token = $env.SPOTIFY_TOKEN<\n>  if ($token | is-empty) { error make { msg: "Please set $env.SPOTIFY_TOKEN" } }<\n><\n>  # request album tracks (single-page, 50 limit — albums are usually smaller)<\n>  let resp = (http get -H { Authorization: $"Bearer ($token)" } $"https://api.spotify.com/v1/albums/($album_id)/tracks?limit=50" | from json)<\n><\n>  # collect URIs into a list<\n>  let uris = ($resp.items | get uri)<\n><\n>  # call external zotify with splatted args<\n>  zotify ...$uris<\n>}
+def zotify-album [album_link: string] {<\n>let ALBUM_ID = ($album_link | split row "?" | get 0 | split row "/" | last)<\n><\n>let uris = (http get -H {Authorization: $"Bearer ($env.SPOTIFY_TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri<\n>)<\n><\n>zotify ...$uris<\n>}
+zotify-album https://open.spotify.com/album/6m5qlaMzLtNsQDj3DQY5ji?si=9pqA-IshRbOFANMoikRewQ
+zotify-album https://open.spotify.com/album/2DDv7gTOpB3D3kDEHddP9z?si=UsBK7Xl2TXOMiZx3wKRzNw
+yay -Rns ghostty
+wk https://www.tiktok.com/en/
+wk https://www.tiktok.com/@cortis_bighit/video/7538765895976455432?is_from_webapp=1&sender_device=pc
+yt-dlp https://www.tiktok.com/@cortis_bighit/video/7538765895976455432?is_from_webapp=1&sender_device=pc
+w https://www.tiktok.com/@cortis_bighit/video/7538765895976455432?is_from_webapp=1&sender_device=pc
+jkl https://www.tiktok.com/@cortis_bighit/video/7538765895976455432?is_from_webapp=1&sender_device=pc
+yt-dlp -U
+yay -S ghostty-git
+jkl 'https://www.youtube.com/watch?v=3wUq3t9f6ug'
+yay -S ghostty
+zotify https://open.spotify.com/track/4nSV8NdhnBWLuz2G7X51WH?si=0bf96de357844f77
+zotify-album https://open.spotify.com/album/3Iq43NGfIN8tc8AVJ9Konz?si=PuSsK8ABT0yS9eFmw0Kq7Q
+zotify https://open.spotify.com/album/3Iq43NGfIN8tc8AVJ9Konz?si=PuSsK8ABT0yS9eFmw0Kq7Q
+zotify-album https://open.spotify.com/album/12QAC47UeSL5kHYu0g7wX3?si=E_r59rl0RY-FeG4eFfQB_g
+$env.SPOTIFY_TOKEN
+echo ($env.SPOTIFY_TOKEN | str length)
+curl -i -H $"Authorization: Bearer ($env.SPOTIFY_TOKEN)" "https://api.spotify.com/v1/albums/12QAC47UeSL5kHYu0g7wX3/tracks?limit=50"
+zotify-album https://open.spotify.com/album/12QAC47UeSL5kHYu0g7wX3?si=E_r59rl0RY-FeG4eFfQB_g
+jkl https://youtu.be/42wfEs7oIP8?si=M5X7o4hiyoNGRFP0
+z
+zotify https://open.spotify.com/track/6OWWZtNQORY1McaZmOrwhc?si=3f58d125c338478d
+zotify https://open.spotify.com/track/2UuKZDzjZ7cVMOvpmuAMYj?si=55cebc7c707d4af1
+zotify https://open.spotify.com/track/6aJn7Cst74cj4lNIiPRgav?si=fc72cc20faaf4e97
+zotify https://open.spotify.com/track/4ecdsGz3Hg6TKPwQ0ZOdJz?si=2f3ea9ebff924ae1
+zotify https://open.spotify.com/track/0t7kjpVLgOYITrSfFCoBEA?si=59f76ab956fd454e
+let ALBUM_ID = "spotify:album:20Bf2RVERC5Bc2eo3vyvJv"<\n>http get -H {Authorization: $"Bearer ($env.SPOTIFY_TOKEN)"} $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50"<\n>| get items<\n>| get uri
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n>
+curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token
+curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | get acess_token
+curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token
+http get -H {Authorization: $"Bearer ($env.SPOTIFY_TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50"<\n>| get items
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n><\n>let TOKEN = (curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token)<\n>
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50"
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=60"
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=51"
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50"
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?offset=50&limit=50"
+zotify-album https://open.spotify.com/album/12QAC47UeSL5kHYu0g7wX3?si=E_r59rl0RY-FeG4eFfQB_g
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n><\n>let TOKEN = (curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token)<\n>
+http get -H {Authorization: $"Bearer ($TOKEN)"} $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" | get items<\n>| get uri
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url | get items<\n>| get uri<\n> )<\n><\n>  let items = ($uris.items)<\n>  # append items to all<\n>  let all = ($all + $items)<\n>  let url = $uris.next<\n>}<\n><\n>print $all
+mut all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url | get items<\n>| get uri<\n> )<\n><\n>  let items = ($uris.items)<\n>  # append items to all<\n>  mut all = ($all + $items)<\n>  let url = $uris.next<\n>}<\n><\n>print $all
+let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url | get items<\n>| get uri<\n> )<\n>
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n><\n>let TOKEN = (curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token)<\n>
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url | get items<\n>| get uri<\n> )<\n>
+$uris.items
+$uris
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url | get items<\n> )<\n>
+$uris
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n>
+$uris.items.uri
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all + $items)<\n>  let url = $uris.next<\n>}<\n><\n>print $all<\n>
+cast -h
+let all = [] | $all | inspect
+let all = [] | $all | into string | $all | inspect
+let all = [] | $all | into string | inspect
+let all = [] | $all | into string 
+let niggers = (let all = [] | $all | into string )
+$niggers | inspect
+$niggers
+let all = [""] ; $all | into string
+let all = [""] ; $all | inspect
+let all = [""]<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all + $items)<\n>  let url = $uris.next<\n>}<\n>
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>}<\n><\n>print $all<\n>
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+let all = []<\n>mut url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+let all = []<\n>mut url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  mut url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>
+print $"processing ($url)"<\n>
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n>
+print $"processing ($url)"<\n>
+while $url != "" {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}
+while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n>
+let all = []<\n>let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != "" {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n>
+$uris
+$url
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n>
+$uris
+$url
+let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n>
+$uris
+$url
+$uris
+$url | inspect
+$url | describe
+$url == true
+$url == null
+while $url != null { print "still in loop" } ; print "out of loop"
+while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n>
+$all
+let url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  let url = $uris.next<\n>print $"processing ($url)"<\n>}<\n>
+let all = []<\n>mut url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  let all = ($all ++ $items)<\n>  $url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+mut all = []<\n>mut url = $"https://api.spotify.com/v1/albums/20Bf2RVERC5Bc2eo3vyvJv/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  $all = ($all ++ $items)<\n>  $url = $uris.next<\n>print $"processing ($url)"<\n>}<\n><\n>print $all<\n>
+zotify-album https://open.spotify.com/album/20Bf2RVERC5Bc2eo3vyvJv?si=v77ogB6gR6aYtUyZeGjiHw
+zotify https://open.spotify.com/track/3zhbXKFjUDw40pTYyCgt1Y?si=6e4de415c1484251
+zotify https://open.spotify.com/track/6aJn7Cst74cj4lNIiPRgav?si=963425e6fe404fd4
+zotify https://open.spotify.com/track/1j15Ar0qGDzIR0v3CQv3JL?si=6511fd5ef8b14680
+sudo nviml
+sudo nvim /etc/hosts 
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nq2unu/its_death_its_obviously_death/
+gl https://www.reddit.com/r/reviewnganhluat/comments/1np9rui/tphcm_giới_trẻ_ngại_sinh_con_do_rào_cản_kinh_tế%2f
+gl https://www.reddit.com/r/wordington/comments/1np4yyi/when_pathetic_people_get_thugged_they_are_shocked/
+w https://files.catbox.moe/5ip4hy.mp4
+wk https://www.reddit.com/r/ChainsawMan/comments/1npz0ol/reze_date/
+lsblk
+sudo mount /mnt/nvme1n1p8
+sudo mount /mnt/nvme1n1p8 ./drive1/
+lsblk
+sudo mount /mnt/nvme1n1p8 ./drive1/
+sudo mount /dev/nvme1n1p8 ./drive1/
+sudo rm /home/pampam/Documents/external_drives/drive1/Pictures/Saved Pictures/Colored/newjeans_ig
+sudo rm "/home/pampam/Documents/external_drives/drive1/Pictures/Saved Pictures/Colored/newjeans_ig"
+sudo rmdir "/home/pampam/Documents/external_drives/drive1/Pictures/Saved Pictures/Colored/newjeans_ig"
+findmnt -n -o SOURCE,FSTYPE,OPTIONS --target ~/Documents/external_drives/drive1
+sudo mount -o remount,rw ~/Documents/external_drives/drive1
+ls
+sudo rmdir newjeans_official_media
+sudo mount -o remount,rw ~/Documents/external_drives/drive1
+findmnt -n -o SOURCE,FSTYPE,OPTIONS --target ~/Documents/external_drives/drive1
+sudo umount ~/Documents/external_drives/drive1
+z
+sudo umount ~/Documents/external_drives/drive1
+lsblk
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+lsblk -f /dev/nvme1n1p8
+sudo e2fsck -n -f /dev/nvme1n1p8
+sudo ntfsfix -n /dev/nvme1n1p8
+yay -S ntfs-3g
+sudo ntfsfix -n /dev/nvme1n1p8
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+ls
+yay -S lutris
+lutris -h
+yay -S wine
+btop
+z
+lutris -h
+lutris -r setup.exe
+z
+yay -S wine-gecko wine-mono
+btop
+yay -S gnutls lib32-gnutls winetricks
+./wine /home/pampam/Games/STEINS-GATE_STEAM_HD/setup.exe
+btop
+jkl https://www.youtube.com/watch?v=xTax3vUsOp0&list=RDxTax3vUsOp0&start_radio=1
+jkl https://www.youtube.com/watch?v=xTax3vUsOp0&list=RDxTax3vUsOp0&index=1&pp=8AUB
+jkl https://youtu.be/ADZ5FJB3Qzw?si=WEx37bHqNrVsZsDm
+jlk https://youtu.be/rGN_fEhb1vE?si=EbAsOhS6TX8j7ckc
+jkl https://youtu.be/rGN_fEhb1vE?si=EbAsOhS6TX8j7ckc
+jkh https://youtu.be/_tWP_prAr7E?si=Y_GpkhN4Oa3uG51S
+jkl https://youtu.be/iBUV7dxGhno?si=B3_7tRbjTPPDEeur
+yt-dlp https://youtu.be/iBUV7dxGhno?si=B3_7tRbjTPPDEeur
+yt-dlp --embed-subs --sub-langs "en" https://youtu.be/iBUV7dxGhno?si=B3_7tRbjTPPDEeur
+jkl https://youtu.be/0Uhh62MUEic?si=MlabdviKsBmkjEGW
+jkl https://youtu.be/te_e-ZooMhA?si=7nCnWK5Gyz3ysv_B
+jkl https://youtu.be/SVAKZVqH7D8?si=sD1z3hohyD39v028
+lutris -d
+yay -S protobuf python-protobuf
+pacman -Qi libphonenumber
+yay
+pacman -Qi evolution-data-server
+yay -S protobuf python-protobuf
+lutris -d
+btop
+lustris -d | save lutris-debug.log
+lutris -d | save lutris-debug.log
+wk https://www.pixiv.net/en/artworks/100297117
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nnlqgy/japanese_people_are_wild_at_cinemas/
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+reboot
+lsblk
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+journalctl | rg "steins"
+yya
+yay
+yay -Qs | fzf
+rg "stein"
+yay -S protontricks
+protontricks 2348590 d3dcompiler_47
+protontricks -s steins
+protontricks 3345137053 d3dcompiler_47
+yay -S balatro
+nordvpn c US
+makepkg -si
+fzf
+pacman -Sql
+pacman -Sql | fzf
+pacman -Sql | fzf | sudo pacman -S $in
+yay
+yay -Sql | fzf
+tmux -C new -s foo
+tmux a
+tmux new-session -d -s work
+ls
+gl https://www.reddit.com/r/wordington/comments/1nqepd7/wordington_grinch/
+w https://www.reddit.com/r/wordington/comments/1nqepd7/wordington_grinch/
+w https://www.reddit.com/r/wordington/?f=flair_name%3A%22Wordington%20video%20(Streamable)%22
+w https://streamable.com/vwitdr
+tmux a
+tmux -C new
+tmux -l
+tmux
+pkill tmux
+tmux
+jkl https://youtu.be/0LrVqARAMvY?si=dOv3PSw_akA44-oM
+jkl https://youtu.be/eoJEn7MDht0?si=4NDSH1MEYKYqnEoQ
+jkl https://youtu.be/34Pl2DTuwoQ?si=YGh5vIeu5exnQ7Ki
+yt-dlp https://youtu.be/eoJEn7MDht0?si=4NDSH1MEYKYqnEoQ
+yt-dlp -U
+yt-dlp https://youtu.be/eoJEn7MDht0?si=4NDSH1MEYKYqnEoQ -extractor-args "youtube:player-client=default,-tv_simply"
+yt-dlp https://youtu.be/eoJEn7MDht0?si=4NDSH1MEYKYqnEoQ --extractor-args "youtube:player-client=default,-tv_simply"
+yt-dlp https://youtu.be/34Pl2DTuwoQ?si=Uulijb8_uAAT4nO7 --extractor-args "youtube:player-client=default,-tv_simply"
+wk https://www.reddit.com/r/VietNamNation/comments/1nr22j4/cảm_động_chú_công_an_gương_mẫu_chạy_theo_xe_chỉ%2f
+gl https://www.reddit.com/r/3HoaChichChoe/comments/1nqr2pr/t%E1%BB%A5i_bay_chu%E1%BA%A9n_b%E1%BB%8B_l%E1%BB%93ng_%C4%91%C3%A8n_trung_thu_ch%C6%B0a/
+wk https://streamable.com/gp6brl
+w https://streamable.com/gp6brl
+yt-dlp https://streamable.com/gp6brl
+wk https://www.reddit.com/r/wordington/comments/1no6dr0/wordington_sword_sheath/
+w https://www.reddit.com/r/wordington/comments/1niront/wordington_psycopath/
+wk https://www.reddit.com/r/wordington/comments/1niront/wordington_psycopath/
+wk https://www.reddit.com/r/wordington/comments/1n8je6j/wordington_sack/
+wk https://www.reddit.com/r/wordington/comments/1n7mb16/wordington_friendlist/
+yt-dlp https://streamable.com/hbwxrs
+yt-dlp https://streamable.com/jh63a7
+yt-dlp https://streamable.com/cgbe0g
+yt-dlp https://streamable.com/oqb75c
+yt-dlp https://files.catbox.moe/odrp71.mp4
+yt-dlp https://streamable.com/wkph7q
+yt-dlp https://www.reddit.com/r/wordington/comments/1n4lxor/wordington_football/
+wk https://www.reddit.com/r/wordington/comments/1n4lxor/wordington_football/
+wk https://www.reddit.com/r/wordington/comments/1n4itdt/wordington_steering_wheel/
+wk https://www.reddit.com/r/wordington/comments/1n3l8k4/wordington_fetish/
+wk https://www.reddit.com/r/wordington/comments/1njqgx1/wordington_spiderman/
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+ls
+ghostty reset
+ghostty -h
+ghostty
+ls
+btop
+ls
+eza
+btop
+fd
+fd
+ls
+btop
+fastfetch
+k
+fastfetch
+k
+fastfetch
+ff
+yay -S broot
+broot
+use '/home/pampam/.config/nushell/config.nu' *
+broot
+br
+yay -S libvips-tools<\n><\n>
+yay -S libvips
+vips fujimoto-on-the-reze-arc-v0-tdknlhbcx3qf1.png
+vips
+yay -Sql | fzf
+yay -S vipsdips
+yay -S vipsdisp
+vipsdisp "AsaXDenji.png"
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+ls
+fd
+fd | wl-copy
+z
+journalctl | rg "steins"
+journalctl | nvim
+z
+./steins_gate_0_fix.sh
+protontricks 1493710 d3dcompiler_47
+protontricks 3658110 d3dcompiler_47
+protontricks 2348590 d3dcompiler_47
+z
+protontricks 3658110 d3dcompiler_47
+sudo chmod +x app_id.sh
+./app_id.sh
+protontricks 3658110 d3dcompiler_47
+reboot
+wk https://www.instagram.com/reel/DOg9VzdiQFS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOyzdMDgDvZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO2jZtuEhCc/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOJ6V2UkdNH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNzkKHSWCIm/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO5w769D-FI/?utm_source=ig_web_copy_link
+wkhttps://www.instagram.com/reel/DPAVHZzAcVP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPAVHZzAcVP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOjRhuDjdJ_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMVY0rcvMDT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMrCGTxiVkx/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOnQOFhDryW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOBKvSjEf4z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOrhGBRkxWe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOQ8ONrEXnx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DNFN2ryy6Qc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DNS7Zt5x5s0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/p/DO-IQxajG6d/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DMFx5k7o3XR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+sudo nvim /etc/hosts 
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+systemctl --user show-environment
+pkill steam
+pwd | wl-copy
+steam
+which grep
+grep "steam"
+grep "steam" .
+grep -h
+PROTON_LOG=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 proton run /home/pampam/Documents/external_drives/drive1/Games/Steins_Gate_0/Game.exe
+PROTON_LOG=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 ./proton run /home/pampam/Documents/external_drives/drive1/Games/Steins_Gate_0/Game.exe
+pkill steam
+./proton -h
+protontricks 3658110 dotnet48
+protontricks 17695571963168161792 dotnet48
+$env.LD_PRELOAD
+$env.PWD
+journalctl | nvim
+mkdir -p ~/.local/share/Steam/backup_overlay
+mkdir ~/.local/share/Steam/backup_overlay
+pkill steam
+steam
+grep "LD_PRELOAD"
+z
+protontricks 4120071410 d3dcompiler_47
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nrm76m/running_while_austistic/
+bash
+ls
+z
+ls
+btop
+ls
+ls */*
+ls */* | each { |i| mv $i.name /home/Ext4Pam/Music/can_j_noi_dau_e_oi}
+sudo pacman -S<\n>  gtk4<\n>  gtk4-layer-shell<\n>  libadwaita<\n>  gettext
+sudo pacman -S gtk4 gtk4-layer-shell libadwaita gettext
+git clone https://github.com/ghostty-org/ghostty.git
+zig build -p ($env.HOME)/.local -Doptimize=ReleaseFast
+zig version<\n>
+yay -S zig0.14-bin
+zig0.14 build -p ($env.HOME)/.local -Doptimize=ReleaseFast
+which ghostty
+ghostty --version
+ghostty
+$env.TERMINA
+$env.TERMINAL
+ghostty
+$env.terminal
+ghostty
+which ghostty
+sudo -Rns ghostty
+yay -Rns ghostty
+ghostty
+ghostty +list-themes 
+mv /home/pampam/.local/bin/ghostty .
+sudo mv /home/pampam/.local/bin/ghostty .
+ghostty
+ghostty +list-themes 
+yay -S ghostty
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+which ghostty
+ghostty +list-themes 
+ghostty
+ls
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+1
+zotify https://open.spotify.com/track/6Yj8kVuVR3UPxx9r5eFEoV?si=78e063c226ac430b
+zotify https://open.spotify.com/track/3TPvrMAd1hbPRXuHCRX0Pl?si=3e663e402fa344de
+zotify https://open.spotify.com/track/2Tfv41qZ0U3ahZiKiDBa4a?si=00c375d07d9a49b2
+zotify https://open.spotify.com/track/0g1AmSKokPboFrxmG1dxKx?si=daa4a48580b7454a
+wk https://www.tiktok.com/@njz_archives/video/7524885836861558036?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@chanh.n77/video/7536228054671183112?is_from_webapp=1&sender_device=pc
+yt-dlp https://www.tiktok.com/@chanh.n77/video/7536228054671183112?is_from_webapp=1&sender_device=pc
+nordvpn c Japan
+sudo nvim /etc/hosts 
+rmpc
+jkh https://youtu.be/L2OJFqs8bUk?si=JtQjMHtjmM8dRy-i
+yt-dlp  --extractor-args "youtube:player-client=default,-tv_simply" https://www.youtube.com/watch?v=L2OJFqs8bUk
+yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --extractor-args "youtube:player-client=default,-tv_simply" https://www.youtube.com/watch?v=L2OJFqs8bUk
+reboot
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nsb8r4/i_have_something_to_admit/
+yay
+git pull
+nvim
+btop
+br
+yay -S feh
+feh
+feh dd78374878644ac79be52a17bc0eb162~tplv-jj85edgx6n-image-origin.jpeg
+zotify-album https://open.spotify.com/album/2M2Ae2SvZe3fmzUtlVOV5Z?si=2SVllIKPROumbMDYe2HO-g
+sudo nvim /etc/hosts 
+nordvpn c Japan
+wk https://x.com/HxHVizuals/status/1971965983419244961
+w https://x.com/i/status/1968242057270771734
+wk https://x.com/i/status/1968242057270771734
+wk https://x.com/GUMIGU__/status/1971904679169982696
+zotify-album https://open.spotify.com/album/4OrisjS1FiGCNucXdwtd3Y?si=7HKdpHDjQ3WctkQD9xiIiA
+k https://x.com/gisellespics/status/1971949783326904433
+wk https://x.com/gisellespics/status/1971949783326904433
+wk https://x.com/Sophartso/status/1972151627844145505
+wk https://x.com/Allamas_Llamas/status/1948854099312869701
+wk https://x.com/newjified/status/1972026484517990855
+zotify https://open.spotify.com/track/4c0rkFPszqQTyC753tsCMU?si=e9919c8afd2b44f9
+wk https://x.com/HardestFitPics/status/1972218664947798288/photo/1
+wk https://x.com/Kurrco/status/1971739237629518208
+wk https://x.com/bborbnz/status/1972268647264702908
+wk https://x.com/hyewint/status/1971987714506740074
+wk https://x.com/newjeansmoment/status/1971786877934981327
+wk https://x.com/NJZBTS/status/1972271428969148691
+wk https://x.com/ChiseHatoriBan/status/1971665224274268512
+wk https://x.com/RandomTheGuy_/status/1971868126309765476
+ghostty +list-fonts
+poweroff
+btop
+nvim
+/home/pampam/dotfiles/pamsdots/dot-config/qutebrowser
+ls
+ghostty +list-fonts
+ghostty +list-fonts | fzf
+zi
+fd
+nvim
+nordvpn c Japan
+nordvpn d
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+sudo ntfsfix -n /dev/nvme1n1p8
+lsblk
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
