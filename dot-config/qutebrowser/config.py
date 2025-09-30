@@ -33,11 +33,11 @@ c.session.default_name = "temp"
 c.auto_save.session = True
 # c.session.lazy_restore = True
 
-# c.url.start_pages = ['~/dotfiles/pamsdots/dot-config/qutebrowser/sessions/hanni.html']
+# c.url.start_pages = ['~/dotfiles/dot-config/qutebrowser/sessions/hanni.html']
 c.url.start_pages = ['qute://history/']
 
 
-c.content.user_stylesheets = ["~/dotfiles/pamsdots/dot-config/qutebrowser/styles/yt-tweaks.css"]
+c.content.user_stylesheets = ["~/dotfiles/dot-config/qutebrowser/styles/yt-tweaks.css"]
 c.hints.chars = 'qweruioasdfjklh'
 
 c.zoom.default = '125%'
@@ -104,7 +104,7 @@ config.bind('<Ctrl-4>', 'tab-focus 4')
 config.bind('<Ctrl-5>', 'tab-focus 5')
 
 config.bind('<Ctrl-V>', 'cmd-set-text -s :tab-move')
-config.bind('sl', 'cmd-set-text -s :spawn --userscript tab-manager.py /home/pampam/dotfiles/pamsdots/dot-config/qutebrowser/sessions/' )
+config.bind('sl', 'cmd-set-text -s :spawn --userscript tab-manager.py ~/dotfiles/dot-config/qutebrowser/sessions/' )
 config.bind('ss', 'session-save temp' )
 config.bind('sd', 'session-load temp' )
 # config.bind('SS', 'cmd-set-text -s :session-save' )

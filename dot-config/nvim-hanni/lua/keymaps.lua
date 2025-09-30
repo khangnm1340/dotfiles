@@ -75,7 +75,7 @@ map("n", "<leader>r", ":Pick registers<CR>", { desc = "Pick registers" })
 
 -- Frequent files from Nushell history
 map("n", "<M-k>", function()
-    local items = vim.fn.readfile(vim.fn.expand('/home/pampam/.config/nushell/pams_history.txt'))
+    local items = vim.fn.readfile(vim.fn.expand('~/.config/nushell/pams_history.txt'))
     require('mini.pick').start({
         source = { items = items },
         choose = function(p)

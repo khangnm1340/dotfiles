@@ -201,16 +201,16 @@ alias ff = fastfetch
 # alias sk = shpool kill
 # alias sl = shpool list
 # alias s = shpool
-alias n = /home/pampam/builds/nhentai/nhentai
+alias n = ~/builds/nhentai/nhentai
 
 alias jl = jupyter lab
 
 
-# source /home/pampam/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
+# source ~/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
 source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"
 source ~/.zoxide.nu
 
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
-use '/home/pampam/.config/broot/launcher/nushell/br' *
+use ~/.config/broot/launcher/nushell/br *

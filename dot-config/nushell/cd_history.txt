@@ -15,7 +15,7 @@
 /usr/share/applications
 /home/pampam/.local/share
 /home/pampam/Documents/UTH/MachineLearning/ielts
-/home/pampam/dotfiles/pamsdots/dot-config
+/home/pampam/dotfiles/dot-config
 /home/pampam/builds
 /home/pampam/Downloads/wallpapers
 /home/pampam/.config/hypr

@@ -22,12 +22,12 @@ $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') # add <nushell-config-dir>/plugins
 ]
 use std "path add"
-path add /home/pampam/go/bin
-path add /home/pampam/.cargo/bin/
-path add /home/pampam/.local/bin
-path add /home/pampam/.local/share/nvim/mason/bin
-path add /home/pampam/.dotnet/tools
-path add /home/pampam/dotfiles/pamsdots/dot-config/nushell/nupm/plugins/bin
+path add ~/go/bin
+path add ~/.cargo/bin/
+path add ~/.local/bin
+path add ~/.local/share/nvim/mason/bin
+path add ~/.dotnet/tools
+path add ~/dotfiles/dot-config/nushell/nupm/plugins/bin
 path add /usr/bin/vendor_perl
 $env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu

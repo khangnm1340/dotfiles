@@ -1,5 +1,5 @@
 let files = (ls ~/Downloads/wallpapers/stay-in-da-middle/ | get name)
-let prev_file = "/home/pampam/.config/hypr/scripts/prev_wall.txt"
+let prev_file = $"($env.HOME)/dotfiles/dot-config/hypr/scripts/prev_wall.txt"
 
 # load previous choice from file if it exists
 let prev = ( cat $prev_file )

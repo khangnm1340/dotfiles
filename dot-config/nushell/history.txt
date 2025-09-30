@@ -2132,3 +2132,11 @@ cd ~/dotfiles/pamsdots/<\n>stow --dotfiles -t ~ .<\n>
 lazygit
 cd ~/dotfiles<\n>stow --dotfiles -t ~ .<\n>
 lazygit
+yay -Qe | fzf
+$env.PATH
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+nu a "randomly-load-wallpaper.nu"
+nu "randomly-load-wallpaper.nu"
+cat: '~/.config/hypr/scripts/prev_wall.txt'
+cat '~/.config/hypr/scripts/prev_wall.txt'
+nu "randomly-load-wallpaper.nu"
