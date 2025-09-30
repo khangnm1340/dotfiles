@@ -1,0 +1,11 @@
+[Unit]
+Description=kanata
+
+[Service]
+Restart=always
+RestartSec=3
+ExecStart=/usr/bin/kanata --cfg /home/pampam/.config/kanata/2config.kdb
+Nice=-20
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,5 @@
+[Unit]
+Description=Hourly ChatGPT Plus reminder
+
+[Service]
+ExecStart=/usr/bin/nu -c 'notify -t "CANCEL THE CHATGPT PLUS SUBSCRIPTION BRO!!!! ITS 20 DOLLARS WHICH IS 500K VND, AND YOU ARE STILL UNEMPLOYED AND BROKE" --summary "CANCEL CHATGPT PLUS RN!!" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg --timeout 1min'

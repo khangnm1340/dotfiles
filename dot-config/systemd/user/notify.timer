@@ -1,0 +1,9 @@
+[Unit]
+Description=Run notification hourly from 7 to 21 on Nov 20
+
+[Timer]
+OnCalendar=2025-11-20 07..21:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
