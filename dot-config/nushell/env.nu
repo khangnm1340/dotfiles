@@ -27,7 +27,7 @@ path add ~/.cargo/bin/
 path add ~/.local/bin
 path add ~/.local/share/nvim/mason/bin
 path add ~/.dotnet/tools
-path add ~/dotfiles/dot-config/nushell/nupm/plugins/bin
+path add ~/dotfiles/nushell/nupm/plugins/bin
 path add /usr/bin/vendor_perl
 $env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu

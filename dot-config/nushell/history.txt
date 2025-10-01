@@ -2140,3 +2140,22 @@ nu "randomly-load-wallpaper.nu"
 cat: '~/.config/hypr/scripts/prev_wall.txt'
 cat '~/.config/hypr/scripts/prev_wall.txt'
 nu "randomly-load-wallpaper.nu"
+lazygit
+notify -t "Hoo~ooh~ooh~ooh~~" --summary "Disconnecting Nordvpn..." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+nupm -h
+nupm
+use nupm/nupm<\n>
+yay
+nvim /home/pampam/dotfiles/dot-config/nushell/nupm/nupm/publish.nu
+use nupm/nupm<\n>
+nupm install nupm --force --path<\n>
+git pull
+nupm install nu_plugin_desktop_notifications --force --path
+n
+nordvpn c Japan
+n
+kanata -c 2config.kdb
+systemctl restart kanata
+systemctl restart --user kanata.service
+systemctl --user daemon-reload
+systemctl restart --user kanata.service
