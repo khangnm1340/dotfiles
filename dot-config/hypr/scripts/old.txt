@@ -1,0 +1,3 @@
+# hyprctl dispatch sendshortcut ,Return,class:com.mitchellh.ghostty
+
+# alacritty -T fzf -e bash -ic "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf --reverse | xargs gtk-launch"

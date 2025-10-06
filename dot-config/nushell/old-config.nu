@@ -181,3 +181,13 @@ let sess_prefix = if 'SHPOOL_SESSION_NAME' in ($env | columns) {
 $env.PROMPT_COMMAND = {||
   $"($sess_prefix)($env.PWD) > "
 }
+
+      {
+            name: fzf_launcher
+            modifier: alt
+            keycode: char_i
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in" }
+      }

@@ -26,6 +26,15 @@ $env.config = {
     keybindings: [
       {
             name: quick_cd
+            modifier: alt_shift
+            keycode: char_i
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "pick-app" }
+      }
+      {
+            name: quick_cd
             modifier: alt
             keycode: char_k
             mode: [emacs vi_normal vi_insert]
@@ -33,7 +42,7 @@ $env.config = {
                   send: executehostcommand,
                   cmd: "cd (cat ~/.config/nushell/cd_history.txt | fzf)" }
       }
-			{
+	  {
             name: last_cd
             modifier: shift
             keycode: char_l
@@ -85,9 +94,33 @@ $env.config = {
 	  
     ]
 }
+
+def pick-app [] {
+cd /usr/share/applications
+  let choice = (
+    ^ls
+    | fzf --reverse
+  )
+  job spawn { gtk-launch $choice }
+}
+
 use ~/.cache/starship/init.nu
 use std/dirs
 use std formats *
+
+def sot [ word: string] {
+polars open ~/Documents/UTH/MachineLearning/synonyms/thesaurus.parquet 
+| polars select pos word synonyms desc
+| polars filter ((polars col word) == (polars lit $"($word)"))
+| polars collect
+}
+def so [word: string] {
+grep $"^($word)," ~/Documents/UTH/MachineLearning/synonyms/mthesaur.txt
+}
+
+def curl-up [ file: string ] {
+  curl -v --upload-file $"($file)" $"https://transfer.sh/($file)"
+}
 
 def str-wrap [
   --wrap-at: number = 40
@@ -182,8 +215,10 @@ const NU_PLUGIN_DIRS = [
 
 # alias zd = zellij action new-pane -d down
 # alias cl = clear
-alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4
-alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4
+# alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4
+alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --extractor-args "youtube:player-client=default,-tv_simply"
+# alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4
+alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --extractor-args "youtube:player-client=default,-tv_simply"
 alias gl = gallery-dl
 alias wk = gallery-dl -D .
 alias sudo = sudo-rs
@@ -196,18 +231,15 @@ alias wg2 = wget2 -m -p -E -k -np --no-robots
 alias vim = nvim
 alias w = wget2
 alias ff = fastfetch
-# alias sam = shpool attach main
-# alias sa = shpool attach
-# alias sk = shpool kill
-# alias sl = shpool list
-# alias s = shpool
 alias n = ~/builds/nhentai/nhentai
+
 
 alias jl = jupyter lab
 
 
 # source ~/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu
 source $"($nu.config-path | path dirname)/custom_scripts/uutils_alias.nu"
+source $"($nu.config-path | path dirname)/custom_scripts/polars_alias.nu"
 source ~/.zoxide.nu
 
 mkdir ($nu.data-dir | path join "vendor/autoload")

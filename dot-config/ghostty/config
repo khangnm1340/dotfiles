@@ -17,7 +17,7 @@ theme = TokyoNight Storm
 background-opacity = 0.85
 confirm-close-surface = false
 window-theme = ghostty
-# window-show-tab-bar=never
+window-show-tab-bar=auto
 unfocused-split-opacity = 0.8
 unfocused-split-fill = #000
 
@@ -26,16 +26,23 @@ keybind = ctrl+shift+e=unbind
 keybind = ctrl+shift+q=unbind
 keybind = ctrl+shift+j=unbind
 keybind = ctrl+shift+k=unbind
+keybind = ctrl+shift+enter=unbind
+
+
+# keybind = global:alt+i=toggle_quick_terminal
+
 
 keybind = alt+;>k=new_split:right
 keybind = alt+;>j=new_split:down
 keybind = alt+l=toggle_split_zoom
-# keybind = alt+h=goto_split:next
+keybind = performable:alt+h=goto_split:next
 
 keybind = alt+shift+j=goto_split:down
 keybind = alt+shift+k=goto_split:up
 keybind = alt+shift+l=goto_split:right
 keybind = alt+shift+h=goto_split:left
+
+# keybind = ctrl+enter=next-pane;paste;prev-pane
 
 keybind = alt+;>s=open_config
 keybind = alt+;>r=prompt_surface_title

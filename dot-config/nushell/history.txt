@@ -2159,3 +2159,858 @@ systemctl restart kanata
 systemctl restart --user kanata.service
 systemctl --user daemon-reload
 systemctl restart --user kanata.service
+lazygit
+nvim
+lsblk
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
+ntfsfix
+sudo umount ~/Documents/external_drives/drive1
+sudo umount /dev/nvme0n1p8
+sudo ntfsfix /dev/nvme0n1p8
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
+yay -Qe | fzf
+ls /etc/udev/rules.d
+sudo cp /etc/udev/rules.d/99-uinput.rules .
+/run/media/pampam/MYUSB
+iz
+z
+lsblk
+sudo dd if=gparted-live-1.7.0-8-amd64.iso of=/dev/sdA bs=4M status=progress conv=fsync<\n>
+sudo dd if=gparted-live-1.7.0-8-amd64.iso of=/dev/sda bs=4M status=progress conv=fsync
+nordvpn d
+ssh thuroot@10.10.7.61/8
+ssh thuroot@10.10.7.61
+ssh thuroot@14.241.250.60
+ssh-copy-id -i ~/.ssh/id_ed25519.pub thuroot@14.241.250.60<\n>
+ssh -vvv thuroot@14.241.250.60<\n>
+ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no -vvv thuroot@10.10.7.61
+ssh thuroot@14.241.250.60
+curl-up /home/pampam/.zoxide.nu
+ff
+yay -Qe | fzf
+yay -s mssql
+ls */* | each { |i| mv $i.name /home/Ext4Pam/Music/can_j_noi_dau_e_oi}
+rmpc
+zotify https://open.spotify.com/track/3lOMJTQTd6J34faYwASc33?si=0f137caaa1164ca8
+zotify https://open.spotify.com/track/0GnydTKmczMoKOEl1D4URI?si=3647c81855834d44
+yt-dlp https://soundcloud.com/pppana/tai-vi-saopluggnb?si=94c127eaf65d459ebed346a9baa0cd09&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+jkl https://youtu.be/NlTia6ToG2Q?si=i4DseC1aCy2DT9Pv
+yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --extractor-args "youtube:player-client=default,-tv_simply" https://youtu.be/NlTia6ToG2Q?si=i4DseC1aCy2DT9Pv
+zotify https://open.spotify.com/track/558wJVz1cUJcYdE4mEt2Hq?si=53baace5fbe943b6
+zotify https://open.spotify.com/track/3H6lXCIEQ9WBrfadE4qod9?si=6e8f3cd486cd420b
+zotify https://open.spotify.com/track/38x8LWQLrSjoKKB0T02FhB?si=ab5e2ad30ae94021
+zotify https://open.spotify.com/album/7II3p3ywdOAWBMqxfUvltE?si=Wte01dFCTwWIqgr2wei04w
+nordvpn c Japan
+nordvpn d
+wk https://x.com/Tettora_Draws/status/1973115632645448107/photo/1
+wk https://x.com/senaka_look/status/1972982182974288158/photo/1
+wk https://x.com/kirawontmiss/status/1972766287249215679
+wk https://x.com/HxHVizuals/status/1972832871502295439
+wk https://x.com/Chainsawpedia/status/1972667843209548241
+wk https://x.com/CSMvizuals/status/1973055262689820848
+wk https://x.com/khyleri/status/1973423637861638337
+wk https://x.com/khyleri/status/1972707775575892319
+wk https://x.com/khyleri/status/1971260468187758724/photo/2
+wk https://x.com/khyleri/status/1970887262125920539
+wk https://x.com/khyleri/status/1970181092058767732
+wk https://x.com/khyleri/status/1966542932166750451
+wk https://x.com/khyleri/status/1965823297079402634
+wk https://x.com/khyleri/status/1965082906155713008
+wk https://x.com/khyleri/status/1963633513569411097
+wk https://x.com/khyleri/status/1962909812594995218
+wk https://x.com/khyleri/status/1958938906457776559
+wk https://x.com/khyleri/status/1958201537731117515
+wk https://www.reddit.com/r/FitGirlRepack/comments/1nv3q3w/i_guess_i_became_a_fulltime_pirate_now/
+wk https://www.reddit.com/r/Chainsawfolk/comments/1nuvvj5/spoiler_for_new_chapter/
+wk https://www.reddit.com/r/ChainsawMan/comments/1nsi20w/saw_the_movie_in_imax/
+wk 
+wk https://www.reddit.com/r/4chan/comments/1nu07v9/anon_binge_watches_charlie_kirk/
+wk https://x.com/D_Kumii/status/1973428285519569127
+wk https://x.com/CSMvizuals/status/1973476724701798445
+wk https://x.com/a_kai202/status/1973472777643630990
+wk https://x.com/NJZBTS/status/1973086714039025793/photo/1
+w https://preview.redd.it/it-hasnt-even-been-a-day-v0-b8hbi1ezldsf1.jpeg?width=2048&auto=webp&s=ac2fd499b6704ea9192dfde1780d0c7dc458db4b
+wk https://preview.redd.it/b%C3%ACnh-y%C3%AAn-ng%E1%BA%AFm-c%E1%BA%B7p-d%C3%BA-to-%C4%91%C3%B9ng-l%E1%BA%AFc-l%E1%BA%AFc-v0-8fvadb8lbhsf1.jpeg?width=720&auto=webp&s=8390e8e90dc2f37d9901587a4d1fc20ac20e2d15
+wk https://x.com/HxHVizuals/status/1973050105868501341
+wk https://x.com/utsuuuuukushi/status/1973337986080317955
+wk https://x.com/cozmi00/status/1973151871646007388
+wk https://x.com/lucien_000298/status/1973403748790837468
+wk https://x.com/baejeanies/status/1973316958264369245
+wk https://x.com/urachi_sato/status/1972981750629540111
+wk https://x.com/ArtOfOpal/status/1973104631392641260
+wk https://x.com/sovinng/status/1973484826675294257
+wk https://x.com/sweeneydailyx/status/1973173307576033297
+wk https://x.com/kpopiumm/status/1973549160692588901
+wk https://x.com/kirawontmiss/status/1973099388617560340
+wk https://x.com/CSMvizuals/status/1972920104263324070
+wk https://x.com/D_Kumii/status/1973127741403783185
+wk https://x.com/AniRave/status/1973184560591675591
+wk https://x.com/bborbnz/status/1973416578885755325
+wk https://x.com/Yoru_queenofUSA/status/1973069495129309281
+wk https://x.com/NJZBTS/status/1973046692015427983
+wk https://x.com/bongftah/status/1973381992738656687
+wk https://x.com/NeitheYAGI/status/1973238640219398286
+wk https://x.com/scubaryan_/status/1973097535364297208
+wk https://x.com/T0te1z/status/1973408005409460516
+wk https://x.com/_dakuonpu/status/1972897450009719281
+wk https://x.com/cornB2222/status/1972973693816205558<\n>
+wk https://x.com/GifsAnime_/status/1973090372617211934
+wk https://x.com/Akazarenx_/status/1973184890318496009
+wkhttps://x.com/shirasuke_0822/status/1972960345816961157
+wk https://x.com/shirasuke_0822/status/1972960345816961157
+wk https://x.com/haerinface_/status/1973302324128010366
+wk https://x.com/Rkun_pixiv/status/1972949909797319159
+wk https://x.com/DailyLoud/status/1973382426245104085
+wk https://x.com/hayakuhashireyo/status/1972980193779388754
+wk https://x.com/bborbnz/status/1840733366255231405
+wk https://x.com/hanni_face/status/1972882235981500879
+wk https://x.com/TheRISEofROD/status/1973185396730388833
+wk https://x.com/ReT0ky0/status/1973036036730294431
+wk https://x.com/TRHLofficial/status/1973352771719143903
+wk https://x.com/animedol/status/1973196533194694782
+wk https://youtu.be/39sjhHJrPLA?si=H4KV1QijRFmr3JAS
+jkh https://youtu.be/39sjhHJrPLA?si=H4KV1QijRFmr3JAS
+open en_thesaurus.jsonl
+polars open en_thesaurus.jsonl | polars collect
+polars open en_thesaurus.jsonl | polars schema
+polars open en_thesaurus.jsonl
+polars open en_thesaurus.jsonl | polars collect
+polars open en_thesaurus.jsonl | polars save thesaurus.parquet
+polars open thesaurus.parquet | polars collect
+polars open thesaurus.parquet | polars schema
+polars open thesaurus.parquet | polars collect
+polars open thesaurus.parquet | polars select word synonyms desc
+polars open thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "hood"))<\n>| polars collect
+polars open thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) | (polars contains "hood"))<\n>| polars collect
+polars open thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "hood"))<\n>| polars collect
+polars open thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "synonym"))<\n>| polars collect
+polars open thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "synonyms"))<\n>| polars collect
+polars open ~/Documents/UTH/MachineLearning/synonyms/thesaurus.parquet <\n>| polars select word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "synonym"))<\n>| polars collect
+polars open ~/Documents/UTH/MachineLearning/synonyms/thesaurus.parquet <\n>| polars select pos word synonyms desc<\n>| polars filter ((polars col word) == (polars lit "synonym"))<\n>| polars collect
+so -h
+so
+so hello
+so extract
+so rip_out
+so goon
+so edge
+so niggers
+so nigger
+so nigga
+so slur
+so offensive
+so also
+so provid
+so provide
+wk https://www.reddit.com/r/Chainsawfolk/comments/1htq27q/most_normal_day_at_chainsaw_folk/
+open mthesaur.txt
+open mthesaur.txt | fzf
+grep "sad" mthesaur.txt 
+grep "^sad" mthesaur.txt 
+grep "^sad$" mthesaur.txt 
+grep "^sad$,*" mthesaur.txt 
+grep "^sad," mthesaur.txt 
+grep "^melancholic," mthesaur.txt 
+grep "^sadness," mthesaur.txt 
+so sad
+so depressed
+\
+asd;
+pacman -Ss uv
+yay -S uv
+po thesaurus.parquet
+po thesaurus.parquet | polars collect
+po thesaurus.parquet | polars schema
+po thesaurus.parquet | ps pos
+po thesaurus.parquet | ps pos | pl
+polars -h
+po thesaurus.parquet | pski
+po thesaurus.parquet | ps pos word synonyms desc | pc
+po thesaurus.parquet | ps pos word synonyms desc | pf ((pcol word) == (plit sadness)) | pc
+polars -h
+po thesaurus.parquet
+po thesaurus.parquet | pc
+ghostty +list-keybinds 
+ghostty +list-keybinds  | grep enter
+cat
+sudo nvim /etc/hosts 
+w https://uteduvn-my.sharepoint.com/:f:/g/personal/thaiphh0111_ut_edu_vn/EndpUD8BhZRInUKanNqtOpEBKR2e9KG0boS5y670DVtjcw?e=c3Ro1w
+keybindings list -k
+tmux
+tmux
+pkill ghostty
+ls
+fd
+jkh https://www.youtube.com/watch?v=UICIqRaVrYg
+jkh https://www.youtube.com/watch?v=aCOHG1xN53U
+wk https://x.com/ReT0ky0/status/1973576646394519892
+nvim /etc/hosts 
+sudo nvim /etc/hosts 
+eza
+jkh https://youtu.be/61WyjDITha4?si=osWUEjIqQ5vUahX4
+yay -Qe | fzf
+yay -Qe "gnome"
+yay -Qe "gnome*"
+yay -Qe gnome
+sudo pacman -Qtdq<\n>
+yay -Qe gnome
+yay -Qe
+yay -Qe | grep gnome
+yay -Qs | grep gnome
+yay -Yc
+yay
+yay -Yc
+sudo pacman -Qtdq<\n>
+yay -Qe | grep gnome
+systemctl --failed<\n>
+journalctl -b<\n>
+nordvpn d
+anyrun
+yay -Qe | grep anyrun
+yay -S anyrun-git
+anyrun
+systemctl status anyrun
+anyrun --help
+anyrun daemon
+yay -S anyrun-git
+anyrun
+yay -Rns anyrun-git
+# Clone the repository and move to the cloned location<\n>git clone https://github.com/anyrun-org/anyrun && cd anyrun<\n><\n># Build all packages, and install the Anyrun binary<\n>cargo build --release<\n>cargo install --path anyrun/<\n>
+# Clone the repository and move to the cloned location<\n>git clone https://github.com/anyrun-org/anyrun
+cd anyrun<\n>cargo build --release<\n>cargo install --path anyrun/
+anyrun
+./anyrun
+which anyrun
+./anyrun
+anyrun --version
+yay -S element-desktop
+element-desktop
+yay -Ss albert
+yay -S albert
+anyrun -h
+anyrun
+gtk-launch "spotify.desktop"
+fd
+fd -h
+fd --glob "!in*"
+man fd
+fd -E "in*"
+fd -E "in*" -E "com.zamaudio*"
+fd -E "in*" -E "com.zamaudio*" | fzf
+fd -E "in*" -E "com.zamaudio*" | fzf | gtk-launch $in
+z
+fd -h
+fd "hi" /home/pampam/Downloads
+fd -h
+gtk-launch /usr/share/applications/google-chrome.desktop
+gtk-launch google-chrome.desktop
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {}
+systemctl --user status xdg-desktop-portal-hyprland<\n>
+alacritty -T fzf -e "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in"
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in"
+alacritty --hold nu -c "fzf"
+alacritty --hold -e nu -c "fzf"
+alacritty -e nu -c "fzf"
+alacritty -e nu -c "fzf | gtk-launch $in"
+alacritty --hold -e nu -c "fzf | gtk-launch $in"
+fzf | gtk-launch $in
+yay -Rns gnome-keyerring
+yay -Qe | grep anyrun
+yay -Qe | grep gnome
+yay -Qe | grep gnome | fzf
+yay -Rns gnome-keyring
+chmod +x "fzf-launcher.sh"
+./fzf-launcher.sh
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in<\n>
+do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}
+./fzf-launcher.sh
+nu -c "./fzf-launcher.sh"
+do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}<\n>
+ghostty -e "do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}<\n>"
+ghostty -e nu -c "do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}<\n>"
+do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}<\n>
+ghostty -e "nu -c fzf"
+ghostty -e "nu -c fzfn*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}"
+ghostty -e nu -c do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}<\n>
+ghostty -e nu -c "do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}"
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in"
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch \$in"
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in"
+alacritty -T fzf -e nu -c "do {fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in}"
+bash
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | xargs gtk-launch"
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | xargs gtk-launch
+alacritty -T fzf -e nu -ic "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | xargs gtk-launch"
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | xargs gtk-launch
+alacritty -T fzf -e bash -ic "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | xargs gtk-launch"
+btop
+chmod +x /home/pampam/.config/hypr/scripts/fzf-launcher.sh
+fzf
+nu --commands "fzf | cat $in"
+nu -c "fzf | cat $in"
+gtk-launch "discord.desktop"
+fzf | gtk-launch $in
+btop
+discord
+do {discord}
+do { discord }
+start -h
+job spawn { discord }
+job spawn { telegram }
+job spawn { telegram-desktop }
+job spawn { Telegram-desktop }
+job spawn { Telegram }
+feh
+gtk-launch feh.desktop
+gtk-launch torbrowser
+ls
+pacman -Qm<\n>
+code --enable-proposed-api ms-toolsai.jupyter
+virtualenv .venv
+overlay use .venv/bin/activate.nu 
+pip install ipykernel ipython
+code --enable-proposed-api ms-toolsai.jupyter
+nordvpn c Japan
+nordvpn c US
+code --enable-proposed-api ms-toolsai.jupyter
+overlay use /home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/blank_slate/.venv/bin/activate.nu
+pip install polars
+btop
+journalctl
+alacritty -T fzf -e bash -ic "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf --reverse | xargs gtk-launch > test.txt"
+journalctl --user -f<\n>
+journalctl --user --since "10 minutes ago"<\n>
+btop
+df -h .<\n>
+alacritty -T fzf -e bash -ic 'ls /usr/share/applications | fzf --reverse | xargs -r -I{} gtk-launch "{}"; echo "Press Enter to close..."; read -r'<\n>
+btop
+pkill discord
+kill -h
+kill discord
+pkill Discord 
+btop
+gtk-launch discord
+btop
+alacritty -T fzf -e bash -ic 'ls /usr/share/applications | fzf --reverse | xargs -r -I{} gtk-launch "{}"; echo "Press Enter to close..."; read -r'
+btop
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf --reverse | job spawn {gtk-launch $in}"
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf --reverse | job spawn {xargs gtk-launch}"
+job spawn {gtk-launch discord}
+alacritty -T fzf -e nu -c "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| job spawn { gtk-launch $in }"
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| job spawn { gtk-launch $in }
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| job spawn { xargs gtk-launch }
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| job spawn { gtk-launch discord }
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| job spawn { gtk-launch $in }
+fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} <\n>| fzf --reverse <\n>| gtk-launch $in
+fd . /usr/bin
+fd . /usr/bin -x basename {}
+fd . /usr/bin
+fd . /usr/bin | $in
+fd . /usr/bin | fzf $in 
+fd . /usr/bin | fzf | $in
+fd . /usr/bin | fzf | start $in
+[qutebrowser yazi google-chrome-stable ghostty kitty alacritty neovide] | fzf
+"qutebrowser yazi google-chrome-stable ghostty kitty alacritty neovide" | fzf
+"qutebrowser\n yazi\n google-chrome-stable\n ghostty\n kitty\n alacritty\n neovide" | fzf
+"qutebrowser\n yazi\n google-chrome-stable\n ghostty\n kitty\n alacritty\n neovide" | fzf | xargs
+"qutebrowser\n yazi\n google-chrome-stable\n ghostty\n kitty\n alacritty\n neovide" | fzf | gtk-launch $in
+gtk-launch qutebrowser
+"qutebrowser\n yazi\n google-chrome-stable\n ghostty\n kitty\n alacritty\n neovide\n discord" | fzf | gtk-launch $in
+"qutebrowser\n yazi\n google-chrome-stable\n ghostty\n kitty\n alacritty\n neovide\n discord" | fzf | nu -c "$in"
+btop
+fzf | print $in
+fzf | ls $in
+fzf | ls
+fzf | xargs gtk-launch
+ghostty -e nu -c "fzf | xargs gtk-launch"
+alacritty --hold  -e nu -c "fzf | xargs gtk-launch"
+alacritty --hold -e bash -ic "fzf | xargs gtk-launch"
+alacritty -T fzf -e bash -ic '<\n>  ls /usr/share/applications | fzf --reverse |<\n>  xargs -r -I{} bash -lc "setsid gtk-launch \"{}\" >/dev/null 2>&1 </dev/null & disown";<\n>  echo "Launched (detached)"; read -r<\n>'<\n>
+gtk-launch(fzf)
+gtk-launch (fzf)
+job spawn {gtk-launch (fzf)}
+def pick-app [] {<\n>  let choice = (<\n>    ls /usr/share/applications<\n>    | where extension == "desktop"<\n>    | get name<\n>    | str join '\n'<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}<\n>
+pick-app
+def pick-app [] {<\n>  let choice = (<\n>    ls /usr/share/applications<\n>    | get name<\n>    | str join '\n'<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>  let choice = (<\n>    ls /usr/share/applications<\n>    | get name<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>  let choice = (<\n>    ls /usr/share/applications<\n>    | select name<\n>    | get name<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>  let choice = (<\n>    ls /usr/share/applications<\n>    | get name<\n>    | to text<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>cd /usr/share/applications<\n>  let choice = (<\n>    ls<\n>    | get name<\n>    | to text<\n>    | fzf<\n>    | str trim<\n>  )<\n><\n>  if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>  }<\n><\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>cd /usr/share/applications<\n>  let choice = (<\n>    ls<\n>    | get name<\n>    | to text<\n>    | fzf<\n>    | str trim<\n>  )<\n>  gtk-launch $choice<\n>}
+pick-app
+def pick-app [] {<\n>cd /usr/share/applications<\n>  let choice = (<\n>    ls<\n>    | get name<\n>    | to text<\n>    | fzf<\n>    | str trim<\n>  )<\n>  job spawn { gtk-launch $choice }<\n>}
+pick-app
+alacritty nu -c "pick-app"
+alacritty -e 'nu -c "pick-app"'
+alacritty -e nu -c "pick-app"
+alacritty --hold -e nu -c "pick-app"
+alacritty -e bash -ic 'nu -c "pick-app"'
+allacrity -e bash -ic 'fzf'
+alacrity -e bash -ic 'fzf'
+alacritty -e bash -ic 'fzf'
+alacritty -e bash -ic 'nu -c "fzf"'
+alacritty -e bash -ic 'nu -c "fzf | job spawn { gtk-launch {$in}"'
+alacritty -e bash -ic 'nu -c "fzf | gtk-launch {$in}"'
+alacritty -e bash -ic "fzf | xargs gtk-launch"
+picl
+pick-app
+job list
+return
+let choice = 'nigger'<\n> if $choice == '' {<\n>    echo "no selection"<\n>    return<\n>else echo "niggers"<\n>  }
+ls
+code --enable-proposed-api ms-toolsai.jupyter
+which ghostty
+sudo touch ghostty.desktop
+sudo nvim ghostty.desktop 
+sudo rm "ghostty.desktop"
+fd ghostty.desktop
+sudo ln -s /usr/local/share/applications/com.mitchellh.ghostty.desktop /usr/share/applications
+jkh https://www.youtube.com/watch?v=5YKBgBMynbI&list=RD5YKBgBMynbI&start_radio=1&pp=ygUMaGlrYXJ1IHV0YWRhoAcB
+jkh https://youtu.be/5YKBgBMynbI?si=_ymxdyEpFxGsxxeD
+pkill tmux
+tmux
+z
+tmux
+tmux a
+tmux a temp
+ls
+jkh https://youtu.be/5YKBgBMynbI?si=_ymxdyEpFxGsxxeD
+clear
+yay -Qe | fzf
+yay -Rns plex-desktop plex-media-server
+yay -Qs | fzf
+ls
+yay
+cd
+poweroff
+betterdiscord-installer
+jkh https://youtube.com/shorts/zryWvaRSddQ?si=EpKWhhDvZSpmAKbp
+cargo -h
+cargo uninstall --path .
+cargo uninstall
+cargo uninstall .
+cargo uninstall anyrun
+z
+ls
+clear
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+jkh https://youtube.com/shorts/TVDsgQh2H8w?si=D_b-yNEXQvMq79xi
+sudo nvim /etc/hosts 
+sudo systemctl restart NetworkManager
+nvim
+clear
+nvim
+nordvpn c Japan
+wk https://www.reddit.com/r/VietNamNation/comments/1nxkh63/th%E1%BA%B1ng_xe_m%C3%A1y_l%E1%BA%A1ng_l%C3%A1ch_d%E1%BA%BBo_qu%C3%A1_n%C3%AAn_g%E1%BA%B7p_h%E1%BB%93_t%E1%BA%B7c/
+wk https://x.com/hectoroz_/status/1974113824187036118
+wk https://x.com/n3fv7kqw/status/1974052289989284324
+wk https://x.com/pantiebearart/status/1973788871117975679
+wk https://x.com/mykokampfwagen/status/1695435688827916537
+wk https://x.com/mykokampfwagen/status/1700871456455012461/photo/1
+n 597604
+timeit { ghostty }
+timeit { ghostty ; pkill ghostty}
+yay -S hyprfine
+yay -S hyperfine
+nvim ghostty-benchmark.sh
+sudo chmod +x ghostty-benchmark.sh 
+./ghostty-benchmark.sh
+qute
+ff
+sudo dmidecode -t system<\n>
+lspci -k<\n>
+yay -S fwupd
+yay
+yay -S fwupd
+fwupdmgr get-devices
+fwupdmgr get-updates
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+fwupdmgr get-updates
+fwupdmgr updates
+fwupdmgr update
+sudo systemctl enable --now fstrim.timer
+lsblk
+sudo nvim /etc/pacman.d/mirrorlist 
+yay
+ls | grep yay
+df -hT<\n>
+yay -Qe | fzf
+yay -Rns brave-bin
+man yay
+man pacman
+sudo nvim /etc/hosts 
+jkl https://youtu.be/ohVNJ2gxsmo?si=kfk1OS7RTQ7dSzWc
+jkl https://youtu.be/3wefti_PQro?si=DeMAorKGbKGNnMn7
+jkl https://youtu.be/L5D2tzzmwH8?si=1ffN6EdorcbBcpOt
+jkl https://youtu.be/X5889jA-nZs?si=yUt1zx4mSGzDbBl5
+jkl https://youtu.be/jHRUWWbGtEc?si=tg89kTtVQ4LIbbc7
+sudo pacman -Syu --color always
+jkl https://youtube.com/shorts/8oQq0vnBr24?si=4Z_EqWTVZoYcXLMF
+jkl https://youtube.com/shorts/N9Q78HYqEOs?si=m3-1ocVchfpoRI1y
+yay -S pacutils
+pacreport --unowned-files
+sudo pacreport --unowned-files
+yay -Rns expressvpn
+~/dotfiles/dot-config/hypr/scripts/repl-workaround.sh
+yay -Qe | fzf
+nyancat
+yay -Rns go-chromecast-git
+dict-wn
+grep "dict" .
+fd dict
+dictd
+dict
+dict_lookup
+dict_lookup hello
+wikiman
+wikiman -H qutebrowser
+wikiman -h
+wikiman -S
+pacman -Qi arch-wiki-docs
+wikiman kitty
+z
+wikiman -H qutebrowser windows manager
+wikiman -H qutebrowser
+wikiman -H qutebrowser ghostty
+wikiman -H qutebrowser
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+nordvpn c Japan
+pacman -Si rclone | parse -r '(?P<name>.*\w) +: (?P<value>.+)'
+pacman -Si just | lines | parse '{field} : {value}' | str trim
+save help
+help save
+scope commands<\n>    | where name starts-with "to "<\n>    | insert extension { get name | str replace -r "^to " "" | $"*.($in)" }<\n>    | select extension name<\n>    | rename extension command
+jkl https://youtu.be/RQcm_y8cRrs?si=Z6S_iFKk0UXagpKc
+jkl https://youtu.be/0LrVqARAMvY?si=YT4cAqB_yua2K6aQ
+jkl https://youtu.be/xTax3vUsOp0?si=1Kxh7y4JUopBo1eg
+man pacman
+wk https://www.instagram.com/reel/DOfxhfcgD4C/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/p/DPTL9VqDlPv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPWRCoukQVM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPYvUlzj2DK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPaq0SMD07k/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPOnODmEZci/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPMgG1nDkFU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DO_eViMEQKZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOKNxQNiDur/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPYcxeLk-HZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN18cyK6jtm/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNcP3s3S-CS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKSMaiVRjJW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO735K4k06V/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOzuIqXE4_1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOLjg5rDRNv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM72CsJogNI/?utm_source=ig_web_copy_link
+sudo nvim /etc/hosts 
+notify -t "Hoo~ooh~ooh~ooh~~" --summary "Disconnecting Nordvpn..." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+termdown
+git clone https://github.com/kurokirasama/nushell_scripts.git
+yay -S termdown
+termdown -h
+termdown --help
+termdown 20m
+termdown --help
+termdown --no-fignlet
+termdown --no-figlet
+emoji
+nupm install nu_plugin_emoji --force --path
+use nupm/nupm<\n>nupm install nupm --force --path<\n>
+help nupm
+nupm install nu_plugin_emoji --force --path
+git clone https://github.com/fdncred/nu_plugin_emoji.git
+nupm install nu_plugin_emoji --force --path
+git clone https://github.com/fdncred/nu_plugin_emoji.git
+cargo install --path . --locked<\n>
+plugin add ~/.cargo/bin/nu_plugin_emoji
+plugin use emoji
+emoji
+emoji --help
+emoji --list
+emoji --list | columns
+emoji --list | where name =~ "otter"
+termdown --no-figlet
+termdown --help
+termdown -o count-down.txt 25m
+head 1 - "count-down.txt"
+head 1 "count-down.txt"
+head"count-down.txt"
+head "count-down.txt"
+head --lines 1 "count-down.txt"
+head -n1 "count-down.txt"
+termdown -o ~/.config/nushell/custom_scripts/count-down.txt 25m
+waybar
+sudo chmod +x timer.sh 
+waybar
+if ((ps | where name == 'termdown' | count) > 0) { pkill -x termdown } else { job spawn { termdown -o ~/.config/nushell/custom_scripts/count-down.txt 25m } }<\n>
+is-null --help
+help null
+help
+help commands
+help commands | grep null
+if ((ps | where name == 'termdown' | length) > 0) {<\n>  pkill -x termdown<\n>} else {<\n>  job spawn { termdown -o ~/.config/nushell/custom_scripts/count-down.txt 25m }<\n>}<\n>
+btop
+sudo chmod +x timer_backend.sh 
+sudo chmod +x timer_toggle.sh 
+./timer_backend.sh
+waybar
+polars save --help
+psave --help
+polars str-replace --help
+polars pivot --help
+ps | where name == 'termdown' | is-empty
+ps
+ps --help
+ps | where name == 'termdown' | is-empty
+ps
+ps | where name == 'termdown' | is-empty
+termdown 25m
+date now | into int
+date now
+(date now | into int) + ($seconds * 1000000000)
+date --help
+1 | into datetime 
+into datetime --help
+(date now) - 30min<\n>
+date --help
+30 | (date now) - ($"($in)min" | into duration)<\n>
+299sec 
+299sec  | into duration
+5min2sec
+5min
+5.5min
+(5min 2sec)
+299sec | into duration
+300sec | into duration
+"300sec" | into duration
+300sec - 1sec
+let mut n = 10<\n>while n >= 0 {<\n>    print "%d\r" $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+let n = 10<\n>while $n >= 0 {<\n>    print "%d\r" $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+mut n = 10<\n>while $n >= 0 {<\n>    print "%d\r" $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+mut n = 10<\n>while $n >= 0 {<\n>    print $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+into duration --help
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while $second >= 0 {<\n>    print $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while ($second | into int) >= 0 {<\n>    print $n<\n>    sleep 1s<\n>    $n = $n - 1<\n>}
+300sec | into int
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while $second >= 0 {<\n>    print $n<\n>    sleep 1s<\n>    $n = $n - 1sec<\n>}
+10sec - 1sec
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while $second >= 0 {<\n>    let temp = ($second | into duration)<\n>    print $temp<\n>    sleep 1s<\n>    $temp = $temp - 1sec<\n>}
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while $second >= 0 {<\n>    mut temp = ($second | into duration)<\n>    print $temp<\n>    sleep 1s<\n>    $temp = $temp - 1sec<\n>}
+let time = "5min 25sec"<\n>mut second = ($time | into duration -u sec)<\n>while $second >= 0sec {<\n>    mut temp = ($second | into duration)<\n>    print $temp<\n>    sleep 1s<\n>    $temp = $temp - 1sec<\n>}
+mut time = "5min 25sec"<\n>while $time >= 0sec {<\n>    print $time<\n>    sleep 1s<\n>    $time = $time - 1sec<\n>}
+mut time = ("5min 25sec" | into duration)<\n>while $time >= 0sec {<\n>    print $time<\n>    sleep 1s<\n>    $time = $time - 1sec<\n>}
+mut time = ("5min 25sec" | into duration)<\n>while $time >= 0sec {<\n>    print $time o> /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt<\n>    sleep 1s<\n>    $time = $time - 1sec<\n>}
+mut time = ("5min 25sec" | into duration)<\n>
+print 1 o> /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+print 1 | save /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+1 | save /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+1 | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+"hello" | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+job spawn --help
+job --hlep
+job --help
+job list
+mut time = ("5min 25sec" | into duration)<\n>while $time >= 0sec {<\n>    $"($time)" | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt<\n>    sleep 1s<\n>    $time = $time - 1sec<\n>}
+job spawn<\n>{<\n>    mut time = ("5min 25sec" | into duration)<\n>    while $time >= 0sec {<\n>        $"($time)" | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>}
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    while $time >= 0sec {<\n>        $"($time)" | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>}
+job kill 1
+job --hep
+job --help
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    while $time >= 0sec {<\n>        $"($time)" | save -f /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>}
+job list
+job list
+job list | is-empty
+job list | get pids
+job id 
+job spawn --help
+bash
+is-not-empty 
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    while $time >= 0sec and (ls temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm ($temp_file)<\n>}
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm ($temp_file)<\n>}
+rm /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm ($temp_file)<\n>}
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    touch $temp_file <\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm ($temp_file)<\n>}
+rm /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    touch $temp_file <\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>}
+rm /home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt
+path exists --hep
+path exists --help
+/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt | path exists
+"/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt" | path exists
+path exists --help
+let job_id = ( job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}<\n><\n>)
+job list
+$job_id
+nu -c 'job kill 8'
+job --help
+job list 8
+let job_pid = (job list | where is == $job_id | get pids)
+$job_pid
+let job_pid = (job list | where id == $job_id | get pids)
+$job_pid
+...$job_pid
+..$job_pid
+$job_pid.0
+$job_pid.0 | inspect
+$job_pid.0 | wl-copy
+$job_pid.0 | to text
+pkill $job_id.0
+pkill ($job_id.0 | to text )
+$job_id.0
+$job_pid.0
+pkill ($job_pid.0 | to text )
+$job_pid.0 | to text 
+$job_pid.0 | to text | str trim
+str trim --help
+job list | where id == $job_id | get pids
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    touch $temp_file <\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>}
+job list | where id == $job_id | get pids
+job list
+job kill 9
+let job_id = ( job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}<\n><\n>)
+job list | where id == $job_id | get pids
+job list | where id == $job_id | get pids | flatten
+job list | where id == $job_id | get pids | flatten | to text
+job list | where id == $job_id | get pids | flatten | to text | str trim
+job list | where id == $job_id | get pids | flatten | to text
+nu /home/pampam/.config/waybar/scripts/timer.nu
+$job_id
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}
+job list | where id == 1 | get pids | flatten | to text | save -f "/home/pampam/.config/waybar/scripts/job_pid.txt"
+job list
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec and (ls $temp_file | is-not-empty) {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}
+job list
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}
+$job_id
+job list
+job spawn {<\n>    mut time = ("5min 25sec" | into duration)<\n>    let temp_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/temp_time.txt"<\n>    if (($temp_file | path exists) == false ) { touch $temp_file }<\n>    while $time >= 0sec {<\n>        $"($time)" | save -f ($temp_file)<\n>        sleep 1s<\n>        $time = $time - 1sec<\n>    }<\n>    rm $temp_file<\n>}
+job list
+nu /home/pampam/.config/waybar/scripts/timer.nu
+sleep --help
+nu /home/pampam/.config/waybar/scripts/timer.nu
+sleep 10sec
+which sleep
+sleep 10sec
+sleep 10sec
+nu /home/pampam/.config/waybar/scripts/timer.nu
+job list | where id == $job_id | get pids | flatten | to text
+job list
+$job_id
+job list | where id == $job_id | get pids
+job list | where id == $job_id | get pids | flatten | to text
+into duration --help
+into datetime --help
+datetime --help
+date --help
+into --help
+"5min 25sec" | into duration | format duration "mm:ss"
+format duration --help
+"5min 25sec" | into duration
+"5min 25sec" | parse "{min}min {sec}sec"
+"5min 25sec" | parse "{min}min {sec}sec" | print min
+"5min 25sec" | parse "{min}min {sec}sec" | print $min
+"5min 25sec" | parse "{min}min {sec}sec" | get min
+"5min 25sec" | parse "{min}min {sec}sec" | get min.0
+"5min 25sec" | parse "{min}min {sec}sec" | min.0
+"5min 25sec" | parse "{min}min {sec}sec" | $in.min.0
+"5min 25sec" | parse "{min}min {sec}sec" | $"($in.min.0):($in.sec.0)"
+"5min 25sec" | parse "{min}min {sec}sec" | print $"($in.min.0):($in.sec.0)"
+"5min 25sec" | parse "{min}min {sec}sec" | print "%02d:%02d\n"
+"5min 25sec" | parse "{min}min {sec}sec" | printf "%02d:%02d\n"
+"5min 25sec" | parse "{min}min {sec}sec"
+str --help
+fill --help
+"5min 25sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min.0 | fill --alignment l --character '0' --width 2)<\n>      let s = ($in.sec.0 | fill --alignment l --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+"5min 25sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill --alignment l --character '0' --width 2)<\n>      let s = ($in.sec | fill --alignment l --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+"5min 25sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill --alignment r --character '0' --width 2)<\n>      let s = ($in.sec | fill --alignment l --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+"5min 5sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill --alignment r --character '0' --width 2)<\n>      let s = ($in.sec | fill --alignment l --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+"5min 5sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill --alignment r --character '0' --width 2)<\n>      let s = ($in.sec | fill --alignment r --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+"5min 5sec"<\n>  | parse "{min}min {sec}sec"<\n>let m = ($in.min | fill --alignment r --character '0' --width 2)<\n>let s = ($in.sec | fill --alignment r --character '0' --width 2)<\n>$"($m):($s)"
+"5min 5sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill --alignment r --character '0' --width 2)<\n>      let s = ($in.sec | fill --alignment r --character '0' --width 2)<\n>      $"($m):($s)"<\n>    }
+fill --help
+"5min 5sec"<\n>  | parse "{min}min {sec}sec"<\n>  | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into str | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        cleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        cleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        cleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | to text<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | $in.0<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | $in.0<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | inspect<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | $in<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | get $in<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | print $in<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" <\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" | to text<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }
+print --help
+"05:25" | into duration
+"05:25" | parse "{min}:{sec}" | $"($in.min.0)min ($in.sec.0)sec"
+"05:25" | parse "{min}:{sec}" | $"($in.min.0 | into int)min ($in.sec.0| into int)sec"
+"10:05" | parse "{min}:{sec}" | $"($in.min.0 | into int)min ($in.sec.0| into int)sec"
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        print -r ($time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    }<\n>     )<\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    } | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" })<\n>      $"($m):($s)"<\n>    } | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)"<\n>    } | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | parse "{min}min {sec}sec"<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" }<\n>)<\n>      $"($m):($s)"<\n>    } | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | if ($in | str contains "sec") {parse "{min}min {sec}sec"} else { parse "{min}min" }<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" }<\n>)<\n>      $"($m):($s)"<\n>    } | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+"hannipham" | str contains "pham"
+let raw_time = "5min 25sec"<\n>
+if ($raw_time | str contains "sec") | print "yes"
+if ($raw_time | str contains "sec") { print "yes"}
+if ($raw_time | str contains "sec") { print "yes"} else {print "no" }
+if ($raw_time | str contains "hanni") { print "yes"} else {print "no" }
+if ($raw_time | str contains "sec") {parse "{min}min {sec}sec"} else { parse "{min}min" }
+$raw_time | if ( $in | str contains "sec") { parse "{min}min {sec}sec"} else { parse "{min}min" }
+let raw_time = "5min"<\n>
+$raw_time | if ( $in | str contains "sec") { parse "{min}min {sec}sec"} else { parse "{min}min" }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>
+$time
+$time | inspect
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | if ($in | str contains "sec") {$in | parse "{min}min {sec}sec"} else { $in | parse "{min}min" }<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" } )<\n>      $"($m):($s)" }<\n>     | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | inspect | into string | inspect |  if ($in | str contains "sec") {$in | parse "{min}min {sec}sec"} else { $in | parse "{min}min" }<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" } )<\n>      $"($m):($s)" }<\n>     | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+$rawf-time
+$raw_time
+$raw_time | inspect
+$raw_time | into duration
+$raw_time | inspect
+mut time = ($raw_time |into duration)
+$time | inspect
+$time | into string | inspect
+$time | into string | if ( $in | str contains "sec") { parse "{min}min {sec}sec"} else {parse "{min}min"}
+$time | into string | if ( $in | str contains "sec") { parse "{min}min {sec}sec"} else {parse "{min}min"}<\n>| each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ( if $in.sec { ($in.sec | fill -a r -c '0' -w 2) } else { "00" } )<\n>      $"($m):($s)" }
+$time | into string | if ( $in | str contains "sec") { parse "{min}min {sec}sec"} else {parse "{min}min"}<\n>| each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" }
+let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>        $time | into string | if ($in | str contains "sec") {parse "{min}min {sec}sec"} else { parse "{min}min" }<\n>         | each {<\n>      let m = ($in.min | fill -a r -c '0' -w 2)<\n>      let s = ($in.sec | fill -a r -c '0' -w 2)<\n>      $"($m):($s)" }<\n>     | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+nu test.nu 
+let raw_time = "5min 2sec"<\n>  let parts = ($raw_time | split ' ')
+str --help
+split --help
+which split
+split --hep
+split --help
+let raw_time = "5min 2sec"<\n>  let parts = ($raw_time | str trim | split row ' ')<\n><\n>  # get minutes (strip "min")<\n>  let minutes = ($parts.0 | str replace 'min' '' | into int)
+$minutes
+def to_mmss [raw_time] {<\n>  # split into a list of words (e.g. ["5min"] or ["5min","25sec"])<\n>  let parts = ($raw_time | str trim | split row ' ')<\n><\n>  # get minutes (strip "min")<\n>  let minutes = ($parts.0 | str replace 'min' '' | into int)<\n><\n>  # get seconds if present, otherwise 0 (length check on list)<\n>  let seconds = if ($parts | length) > 1 { ($parts.1 | str replace 'sec' '' | into int) } else { 0 }<\n><\n>  # pad to width 2 with zeros (use fill --alignment right to put zeros on the left)<\n>  let m = ($minutes | into string | fill --alignment right --character '0' --width 2)<\n>  let s = ($seconds | into string | fill --alignment right --character '0' --width 2)<\n><\n>  $"($m):($s)"<\n>}
+to_mmss "10min 5sec"
+emoji --list | where name =~ "otter"
+def to_mmss [raw_time] {<\n>  let parts = ($raw_time | str trim | split row ' ')<\n>  let minutes = ($parts.0 | str replace 'min' '' | into int)<\n>  let seconds = if ($parts | length) > 1 { ($parts.1 | str replace 'sec' '' | into int) } else { 0 }<\n>  let m = ($minutes | into string | fill --alignment right --character '0' --width 2)<\n>  let s = ($seconds | into string | fill --alignment right --character '0' --width 2)<\n>  $"($m):($s)"<\n>}<\n><\n>let raw_time = "5min 25sec"<\n>mut time = ($raw_time | into duration)<\n>while $time >= 0sec {<\n>      $time | into string | to_mmss $in<\n>     | save -f "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+def to_mmss [raw_time] {<\n>  let parts = ($raw_time | str trim | split row ' ')<\n>  let minutes = ($parts.0 | str replace 'min' '' | into int)<\n>  let seconds = if ($parts | length) > 1 { ($parts.1 | str replace 'sec' '' | into int) } else { 0 }<\n>  let m = ($minutes | into string | fill --alignment right --character '0' --width 2)<\n>  let s = ($seconds | into string | fill --alignment right --character '0' --width 2)<\n>  $"($m):($s)"<\n>}<\n><\n>let raw_time = "1min 10sec"<\n>mut time = ($raw_time | into duration)<\n>let count_down_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>while $time >= 0sec {<\n>      $time | into string | to_mmss $in<\n>     | save -f $count_down_file<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>"🦦" | save -f $count_down_file<\n>
+def to_mmss [raw_time] {<\n>  let parts = ($raw_time | str trim | split row ' ')<\n><\n>  # detect tokens<\n>  let has_hr = ($parts | where { $in | str contains 'hr' } | length) > 0<\n>  let has_min = ($parts | where { $in | str contains 'min' } | length) > 0<\n>  let has_sec = ($parts | where { $in | str contains 'sec' } | length) > 0<\n><\n>  # parse numeric values (default 0)<\n>  let hours = if $has_hr { (($parts | where { $in | str contains 'hr' }).0 | str replace 'hr' '' | into int) } else { 0 }<\n>  let minutes = if $has_min { (($parts | where { $in | str contains 'min' }).0 | str replace 'min' '' | into int) } else { 0 }<\n>  let seconds = if $has_sec { (($parts | where { $in | str contains 'sec' }).0 | str replace 'sec' '' | into int) } else { 0 }<\n><\n>  # total minutes (include hours)<\n>  let total_minutes = ($hours * 60) + $minutes<\n><\n>  # pad to two digits (leading zero)<\n>  let mm = ($total_minutes | into string | fill --alignment right --character '0' --width 2)<\n>  let ss = ($seconds | into string | fill --alignment right --character '0' --width 2)<\n><\n>  $"($mm):($ss)"<\n>}<\n><\n>let raw_time = "1min 10sec"<\n>mut time = ($raw_time | into duration)<\n>let count_down_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>while $time >= 0sec {<\n>      $time | into string | to_mmss $in<\n>     | save -f $count_down_file<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>
+def to_mmss [raw_time] {<\n>  let parts = ($raw_time | str trim | split row ' ')<\n><\n>  # detect tokens<\n>  let has_hr = ($parts | where { $in | str contains 'hr' } | length) > 0<\n>  let has_min = ($parts | where { $in | str contains 'min' } | length) > 0<\n>  let has_sec = ($parts | where { $in | str contains 'sec' } | length) > 0<\n><\n>  # parse numeric values (default 0)<\n>  let hours = if $has_hr { (($parts | where { $in | str contains 'hr' }).0 | str replace 'hr' '' | into int) } else { 0 }<\n>  let minutes = if $has_min { (($parts | where { $in | str contains 'min' }).0 | str replace 'min' '' | into int) } else { 0 }<\n>  let seconds = if $has_sec { (($parts | where { $in | str contains 'sec' }).0 | str replace 'sec' '' | into int) } else { 0 }<\n><\n>  # total minutes (include hours)<\n>  let total_minutes = ($hours * 60) + $minutes<\n><\n>  # pad to two digits (leading zero)<\n>  let mm = ($total_minutes | into string | fill --alignment right --character '0' --width 2)<\n>  let ss = ($seconds | into string | fill --alignment right --character '0' --width 2)<\n><\n>  $"($mm):($ss)"<\n>}<\n><\n>let raw_time = "10sec"<\n>mut time = ($raw_time | into duration)<\n>let count_down_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>while $time >= 0sec {<\n>      $time | into string | to_mmss $in<\n>     | save -f $count_down_file<\n>     <\n>        sleep 1sec<\n>        $time = $time - 1sec<\n>    }<\n>"🦦" | save -f $count_down_file
+sudo chmod +x toggle-countdown.sh 
+./toggle-countdown.sh
+notify --help
+rmpc
+rmpc --help
+rmpc togglepause
+rmpc

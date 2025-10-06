@@ -24,3 +24,4 @@
 /home/pampam/.local/share/Steam/steamapps
 /home/pampam/Documents/UTH/MachineLearning/tan_math
 /usr/bin
+/home/pampam/Documents/UTH/MachineLearning/synonyms

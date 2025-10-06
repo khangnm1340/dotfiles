@@ -1,10 +1,16 @@
 {
   "custom/arch": {
-    "format": "󰣇 ",
-    "on-click": "ghostty",
+    "format": "󰣇",
+    "on-click": "nu -c 'job kill 8'",
     "tooltip": true,
     "tooltip-format": "btw"
   },
+"custom/countdown": {
+  "exec": "head -n1 /home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt || echo '🦦'",
+  "interval": 1,
+  "on-click": "/home/pampam/dotfiles/dot-config/waybar/scripts/toggle-countdown.sh",
+  "tooltip": false
+},
   "custom/poweroff": {
     "format": "⏻",
     "on-click": "poweroff",

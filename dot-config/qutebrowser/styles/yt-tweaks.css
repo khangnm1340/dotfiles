@@ -12,6 +12,15 @@
 /*   margin-left: 0 !important; */
 /* } */
 
-.ytp-gradient-bottom{
-   display:none !important
+/* .ytp-gradient-bottom{ */
+/*    display:none !important */
+/* } */
+
+ytd-app[fullscreen] #masthead-container,
+ytd-app[fullscreen] #masthead-ad,
+ytd-app[fullscreen] ytd-searchbar {
+    display: none !important;
+}
+ytd-app[fullscreen] #page-manager {
+    margin-top: 0px !important;
 }

@@ -1,0 +1,11 @@
+[Unit]
+Description=Waybar Countdown (nu)
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/nu -c "source '/home/pampam/dotfiles/dot-config/waybar/scripts/timer.nu'"
+WorkingDirectory=/home/pampam
+Restart=no
+
+[Install]
+WantedBy=default.target

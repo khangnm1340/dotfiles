@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 80
-time: 17.816
+current: 52
+time: 4.357
 random: 0
 repeat: 0
 single: 0
@@ -85,23 +85,52 @@ playlist_begin
 70:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/06. Trao.m4a
 71:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/07. Màu Đỏ (Interlude).m4a
 72:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/08. Mấy Khi.m4a
-73:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2007-07-04] Yume wo Kanaete Doraemon [COCC-15982]/MP3/01 夢をかなえてドラえもん.mp3
-74:I_AM_MUSIC/Fugees - The Score (Expanded Edition)/08. Killing Me Softly With His Song.m4a
-75:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
-76:I_AM_MUSIC/Kanye West - Graduation/01. Good Morning.m4a
+73:can_j_noi_dau_e_oi/Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/04. Từng Quen.m4a
+74:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2007-07-04] Yume wo Kanaete Doraemon [COCC-15982]/MP3/01 夢をかなえてドラえもん.mp3
+75:I_AM_MUSIC/Fugees - The Score (Expanded Edition)/08. Killing Me Softly With His Song.m4a
+76:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
 77:I_AM_MUSIC/Kanye West - Graduation/01. Good Morning.m4a
-78:I_AM_MUSIC/Kanye West - Graduation/02. Champion.m4a
-79:I_AM_MUSIC/Kanye West - Graduation/03. Stronger.m4a
-80:I_AM_MUSIC/Kanye West - Graduation/04. I Wonder.m4a
-81:I_AM_MUSIC/Kanye West - Graduation/05. Good Life (feat. T-Pain).m4a
-82:I_AM_MUSIC/Kanye West - Graduation/06. Can't Tell Me Nothing.m4a
-83:I_AM_MUSIC/Kanye West - Graduation/07. Barry Bonds (feat. Lil Wayne).m4a
-84:I_AM_MUSIC/Kanye West - Graduation/08. Drunk and Hot Girls (feat. Mos Def).m4a
-85:I_AM_MUSIC/Kanye West - Graduation/09. Flashing Lights (feat. Dwele).m4a
-86:I_AM_MUSIC/Kanye West - Graduation/10. Everything I Am (feat. DJ Premier).m4a
-87:I_AM_MUSIC/Kanye West - Graduation/11. The Glory.m4a
-88:I_AM_MUSIC/Kanye West - Graduation/12. Homecoming (feat. Chris Martin).m4a
-89:I_AM_MUSIC/Kanye West - Graduation/13. Big Brother.m4a
-90:I_AM_MUSIC/Kanye West - Graduation/14. Good Night (feat. Mos Def & Al Be Back).m4a
-91:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
+78:I_AM_MUSIC/Kanye West - Graduation/01. Good Morning.m4a
+79:I_AM_MUSIC/Kanye West - Graduation/02. Champion.m4a
+80:I_AM_MUSIC/Kanye West - Graduation/03. Stronger.m4a
+81:I_AM_MUSIC/Kanye West - Graduation/04. I Wonder.m4a
+82:I_AM_MUSIC/Kanye West - Graduation/05. Good Life (feat. T-Pain).m4a
+83:I_AM_MUSIC/Kanye West - Graduation/06. Can't Tell Me Nothing.m4a
+84:I_AM_MUSIC/Kanye West - Graduation/07. Barry Bonds (feat. Lil Wayne).m4a
+85:I_AM_MUSIC/Kanye West - Graduation/08. Drunk and Hot Girls (feat. Mos Def).m4a
+86:I_AM_MUSIC/Kanye West - Graduation/09. Flashing Lights (feat. Dwele).m4a
+87:I_AM_MUSIC/Kanye West - Graduation/10. Everything I Am (feat. DJ Premier).m4a
+88:I_AM_MUSIC/Kanye West - Graduation/11. The Glory.m4a
+89:I_AM_MUSIC/Kanye West - Graduation/12. Homecoming (feat. Chris Martin).m4a
+90:I_AM_MUSIC/Kanye West - Graduation/13. Big Brother.m4a
+91:I_AM_MUSIC/Kanye West - Graduation/14. Good Night (feat. Mos Def & Al Be Back).m4a
+92:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
+93:can_j_noi_dau_e_oi/My Boo (Hitman's Club Mix)/Ghost Town DJs_My Boo - Hitman's Club Mix.ogg
+94:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Bam Yang Gang.ogg
+95:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Midnight Cruise.ogg
+96:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Real Man.ogg
+97:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Burn it (feat. DEAN).ogg
+98:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Derre.ogg
+99:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Sugar Rush.ogg
+100:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Scott and Zelda.ogg
+101:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Pygma girl.ogg
+102:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Meat.ogg
+103:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Hongdae R&B.ogg
+104:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Apocalypse.ogg
+105:can_j_noi_dau_e_oi/AMEE - dreAMEE/01. dreAMEE (Intro).m4a
+106:can_j_noi_dau_e_oi/AMEE - dreAMEE/02. anh nhà ở đâu thế.m4a
+107:can_j_noi_dau_e_oi/AMEE - dreAMEE/03. yêu thì yêu không yêu thì yêu.m4a
+108:can_j_noi_dau_e_oi/AMEE - dreAMEE/04. đen đá không đường.m4a
+109:can_j_noi_dau_e_oi/AMEE - dreAMEE/05. mama boy.m4a
+110:can_j_noi_dau_e_oi/AMEE - dreAMEE/06. trời giấu trời mang đi.m4a
+111:can_j_noi_dau_e_oi/AMEE - dreAMEE/07. ex's hate me, Pt. 2 (feat. B Ray).m4a
+112:can_j_noi_dau_e_oi/AMEE - dreAMEE/08. sao anh chưa về nhà (feat. Ricky Star).m4a
+113:can_j_noi_dau_e_oi/AMEE - dreAMEE/09. xuân, hạ, thu, đông rồi lại xuân.m4a
+114:can_j_noi_dau_e_oi/AMEE - dreAMEE/10. g9 (Outro).m4a
+115:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
+116:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/03. Supernatural (Inst.).flac
+117:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/02 - NewJeans - Super Shy.flac
+118:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
+119:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/41. Cherry Blossom.m4a
+120:can_j_noi_dau_e_oi/Seiko Matsuda - Squall/05. Hadashino Kisetsu.m4a
 playlist_end

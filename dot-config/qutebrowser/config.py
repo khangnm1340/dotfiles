@@ -21,7 +21,11 @@ c.url.default_page = 'about:blank'
 
 c.url.searchengines = {
     'DEFAULT': 'https://www.google.com/search?q={}',
-    'yt': 'https://www.youtube.com/results?search_query={}',
+    're': 'https://www.reddit.com/search/?q={}',
+    'si': 'https://www.merriam-webster.com/dictionary/{}',
+    'so': 'https://www.merriam-webster.com/thesaurus/{}',
+    'yt': 'https://www.youtube.com/results?search_query={}'
+
 }
 
 c.content.autoplay = False
@@ -67,6 +71,9 @@ config.unbind('<Ctrl-V>', mode='normal') # Or other mode
 config.unbind('co')
 config.bind('a', 'hint')
 config.bind('t', 'cmd-set-text -s :open -t')
+config.bind('si', 'cmd-set-text :open https://www.merriam-webster.com/dictionary/')
+config.bind('so', 'cmd-set-text :open https://www.merriam-webster.com/thesaurus/')
+config.bind('yt', 'cmd-set-text :open https://www.youtube.com/results?search_query=')
 config.bind('<Ctrl-Shift-P>', 'open -t')
 config.bind('x', 'tab-close')
 config.bind('X', 'undo')

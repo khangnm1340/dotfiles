@@ -36,7 +36,7 @@ gtkui.font.tabstrip_text JetBrains Mono Ultra-Bold 14
 gtkui.hide_tray_icon 0
 gtkui.italic_current_track 1
 gtkui.italic_selected_tracks 1
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.079327 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" label=\"Button\" action=\"preferences\" use_color=0 use_textcolor=0"},{"type":"seekbar"}]},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.786458 pos=0 size2=0","children":[{"type":"tabs","settings":{"active":"0","num_tabs":"2","tab000":"Playlist with tabs","tab001":"Oscilloscope"},"children":[{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1449"},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"auto","fragmentDuration":"300"}}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.735683 pos=0 size2=0","children":[{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"1x","fragmentDuration":"500"}}]}]}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.079327 pos=0 size2=0","children":[{"type":"button","legacy_params":" color=\"#000000\" textcolor=\"#000000\" label=\"Button\" action=\"preferences\" use_color=0 use_textcolor=0"},{"type":"seekbar"}]},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.786458 pos=0 size2=0","children":[{"type":"tabs","settings":{"active":"0","num_tabs":"2","tab000":"Playlist with tabs","tab001":"Oscilloscope"},"children":[{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=722"},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"auto","fragmentDuration":"300"}}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.735683 pos=0 size2=0","children":[{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}},{"type":"scope","settings":{"renderMode":"multichannel","scaleMode":"1x","fragmentDuration":"500"}}]}]}]}
 gtkui.log.autoopen 0
 gtkui.override_bar_colors 1
 gtkui.override_listview_colors 1
@@ -45,7 +45,7 @@ gtkui.playlist.group_by_tf %album artist% - ['['$year(%date%)']' ]%album%
 gtkui.search.group_by_tf 
 gtkui.start_hidden 0
 gtkui.statusbar.visible 1
-gtkui.tabscroll 0
+gtkui.tabscroll 509
 gtkui.tabstrip_embolden_playing 1
 gtkui.tabstrip_italic_playing 1
 gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
@@ -154,7 +154,7 @@ prefwin.geometry.y 0
 replaygain.preamp_with_rg 0.0000000
 resume.paused 1
 resume.playlist 7
-resume.position 102.16822
+resume.position 102.16818
 resume.track 3259
 searchwin.geometry.h 525
 searchwin.geometry.maximized 1
