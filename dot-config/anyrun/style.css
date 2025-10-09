@@ -1,49 +1,83 @@
-* {
-  all: unset;
-  font: 23px "SF Pro";
-  font-weight: bold
-}
-
-#window,
-#match,
-#entry,
-#plugin,
-#main {
+window {
   background: transparent;
 }
 
-#match.activatable {
-  border-radius: 8px;
-  margin: 4px 0;
-  padding: 4px;
-  /* transition: 100ms ease-out; */
-}
-#match.activatable:first-child {
-  margin-top: 12px;
-}
-#match.activatable:last-child {
-  margin-bottom: 0;
-}
+/* box.main { */
+/*   padding: 5px; */
+/*   margin: 10px; */
+/*   border-radius: 10px; */
+/*   border: 2px solid @theme_selected_bg_color; */
+/*   background-color: @theme_bg_color; */
+/*   background: rgba(46, 55, 79, 0.7); */
+/* } */
 
-#match:hover {
-  background: rgba(255, 255, 255, 0.05);
-}
-#match:selected {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-#entry {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 4px 8px;
-}
-
-box#main {
-  background: rgba(0, 0, 0, 0.7);
-  box-shadow:
-    inset 0 0 0 1px rgba(255, 255, 255, 0.1),
-    0 30px 30px 15px rgba(0, 0, 0, 0.5);
+box.main {
+  background: rgba(46, 55, 79, 0.7);
   border-radius: 20px;
-  padding: 12px;
+  margin: 1px;
+  padding: 10px;
+  border: 3px solid rgba(32, 229, 232,1);
+}
+
+box.main text selection {
+  background-color: rgba(255,255,255,0.18);
+  color: white;
+}
+
+text {
+  min-height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.matches {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+box.plugin:first-child {
+  margin-top: 5px;
+}
+
+box.plugin.info {
+  min-width: 200px;
+}
+
+
+
+list.plugin {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+* {
+  all: unset;
+  font: 22px "SF Pro Rounded";
+}
+
+/* label.match.description { */
+/*   font: 23px "SF Pro"; */
+/* } */
+/**/
+/* label.plugin.info { */
+/*   font-size: 23px; */
+/* } */
+
+.match {
+  background: transparent;
+}
+
+.match:selected {
+  border-left: 4px solid rgba(32, 229, 232,1);
+  background: transparent;
+  animation: fade 0.1s linear;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

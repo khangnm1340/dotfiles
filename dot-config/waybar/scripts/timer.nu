@@ -1,4 +1,4 @@
-let raw_time = "10sec"
+let raw_time = "25min"
 def to_mmss [raw_time] {
   let parts = ($raw_time | str trim | split row ' ')
 
@@ -20,6 +20,7 @@ def to_mmss [raw_time] {
   let ss = ($seconds | into string | fill --alignment right --character '0' --width 2)
 
   $"($mm):($ss)"
+  # $"($mm)"
 }
 
 mut time = ($raw_time | into duration)

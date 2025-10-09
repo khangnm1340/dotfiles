@@ -11,3 +11,4 @@
 ~/Documents/UTH/DataMining/tests/making_a_template.typ
 ~/.config/nvim-hanni/lua/core.lua
 ~/.config/nvim-hanni/lua/keymaps.lua
+~/.config/waybar/scripts/timer.nu

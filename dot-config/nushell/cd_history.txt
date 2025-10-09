@@ -25,3 +25,4 @@
 /home/pampam/Documents/UTH/MachineLearning/tan_math
 /usr/bin
 /home/pampam/Documents/UTH/MachineLearning/synonyms
+/home/pampam/Documents/pam/1-Rough-Note/semi-finals

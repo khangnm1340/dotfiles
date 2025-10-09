@@ -29,7 +29,6 @@ window#waybar {
   color: #000000;
   /* background: #fae3b0; */
   background: #ffffff;
-  border: 2px solid #444;
 }
 
 #workspaces {
@@ -45,7 +44,6 @@ window#waybar {
   transition: none;
 
 /* choose one: */
-border: 2px solid #444;
 /* outline: 2px solid #444; outline-offset: 2px; */
 }
 
@@ -103,7 +101,6 @@ border: 2px solid #444;
   /* background: #fae3b0; */
   background: #FFE0CC;
 
-  border: 2px solid #444;
 }
 
 #battery {
@@ -117,7 +114,6 @@ border: 2px solid #444;
   color: #161320;
   background: #D9FFDC;
 
-  border: 2px solid #444;
 }
 
 #battery.charging,
@@ -167,7 +163,6 @@ border: 2px solid #444;
   /* background: #fbf1c7; */
   background: #ffffff;
   /*default: background: #abe9b3; */
-  border: 2px solid #444;
 }
 
 #memory {
@@ -182,7 +177,6 @@ border: 2px solid #444;
   /* background: #fabd2f; */
   background: #FFFED9;
   /*default: background: #ddb6f2; */
-  border: 2px solid #444;
 }
 
 #cpu {
@@ -196,7 +190,6 @@ border: 2px solid #444;
   color: #161320;
   background: #D9FFFB;
   /*default: background: #96cdfb; */
-  border: 2px solid #444;
 }
 
 #temperature {
@@ -209,11 +202,9 @@ border: 2px solid #444;
   transition: none;
   color: #161320;
   background: #FFEAD9;
-  border: 2px solid #444;
 }
 
 #custom-launcher {
-  font-size: 24px;
   margin-top: 6px;
   margin-left: 8px;
   padding-left: 10px;
@@ -248,7 +239,6 @@ border: 2px solid #444;
   transition: none;
   color: #000000;
   background: #fff;
-  border: 2px solid #444;
 }
 #custom-countdown:hover {
   color: #000;
@@ -265,7 +255,6 @@ border: 2px solid #444;
   transition: none;
   color: #000000;
   background: #fff;
-  border: 2px solid #444;
 }
 #custom-arch:hover {
   color: #fff;
@@ -312,8 +301,20 @@ border: 2px solid #444;
   transition: none;
   color: #161320;
   background: #ffffff;
-  border: 2px solid #444;
 }
 #custom-poweroff:hover {
     color: #FC0000;
+}
+
+#wireplumber,
+#memory,
+#cpu,
+#temperature,
+#battery,
+#clock,
+#custom-poweroff,
+#window,
+#workspaces,
+#custom-countdown {
+  border: 2px solid #000;
 }

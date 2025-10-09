@@ -3014,3 +3014,313 @@ rmpc
 rmpc --help
 rmpc togglepause
 rmpc
+lazygit
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+sudo nvim /etc/hosts 
+wk https://www.instagram.com/reel/DPd6BTXERQ_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPI1AwNkV8C/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOTM8MrEp7R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DMuxmwFNjOw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO-CsxZkVcF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPY7l0sARFz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+nordvpn c Japan
+gl https://www.reddit.com/r/okbuddyfumiko/comments/1nxx4z0/how_can_i_have_a_girlfriend_like_reze_in_real_life/
+wk https://www.reddit.com/r/RezeCult/comments/1nzhu8k/reze_meets_young_denji/
+ping grok.com
+ping google.com
+wk https://x.com/MangaContexts/status/1975205411876663640
+wk https://x.com/hyewint/status/1974872208939106659
+wk https://x.com/Saradaxanix/status/1975266956975517714
+wk https://x.com/Akazarenx_/status/1974981179809161705
+wk https://x.com/khyleri/status/1975243429547512094
+wk https://x.com/116_116_error/status/1975135960661942551
+wk https://x.com/CSMvizuals/status/1975185817824817620
+wk https://x.com/anime_twits/status/1975291704354684989
+wk https://x.com/hectoroz_/status/1975216979205366092
+wk https://x.com/mymohye/status/1975066021133455536
+wk https://x.com/csm_screencaps/status/1974789766228156651
+wk https://x.com/IAMMUSIC/status/1975290491379064879
+wk https://x.com/insaneposes/status/1975109017807839656
+wk https://x.com/schmod1056/status/1975203914158166163
+nordvpn c Japan
+wk https://x.com/ourboy83/status/1975265682293203078
+wk https://x.com/avogado6/status/1975185352878117150
+wk https://x.com/asianfissureman/status/1975138749622440145
+wk https://x.com/EddEnikki/status/1974899269275722153
+wk https://x.com/Saradaxanix/status/1974539876604490081/photo/1
+wk https://x.com/jizzinspector/status/1975190005678219634
+wk https://x.com/stargazypie_u/status/1974854843303895339
+wk https://x.com/ChainsawManDog/status/1975241292063121669
+wk https://www.reddit.com/r/CoffinofAndyandLeyley/comments/1o0953j/brotherly_love/
+rmpc
+yay
+wk https://www.reddit.com/r/MaidHentai/comments/1o0h7u1/fucking_toki_blue_archive/
+wk https://www.reddit.com/r/hentai/comments/1nzr0jy/in_the_dress_room_rucaraw_rucaraw/
+wk https://www.reddit.com/r/hentai/comments/1nxyu2j/frieren_mating_press_frieren_arrax00/
+wk https://www.reddit.com/r/hentai/comments/1nxfdyi/sloppy_blowjob_softshikioni_bocchi_the_rock/
+yay -Qe | fzf
+nordvpn d
+nmtui
+lsblk
+sudo umount /dev/sda1
+sudo dd /home/pampam/Documents/distro/Win11_25H2_English_x64.iso of=/dev/sda1 bs=4M status=progress oflag=sync
+sudo dd if=/home/pampam/Documents/distro/Win11_25H2_English_x64.iso of=/dev/sda1 bs=4M status=progress oflag=sync
+sudo mount /dev/sda1 /home/pampam/Documents/external_drives/drive2
+sudo umount /dev/sda1
+sudo dd if=/home/pampam/Documents/distro/Win11_25H2_English_x64.iso of=/dev/sda bs=4M status=progress oflag=sync
+reboot
+sha256sum Win11*.iso
+sudo nvim /etc/hosts 
+sudo systemctl restart NetworkManager
+wk https://www.pixiv.net/en/artworks/136005412
+n
+opencomic
+yay
+rm -rf ~/.cache/yay/clone/google-chrome<\n>rm -rf ~/.cache/yay/clone/timg<\n>rm -rf ~/.cache/yay/clone/carapace
+yay -Syu
+yay -Qe | fzf
+yay -Scc<\n>
+curl -I https://aur.archlinux.org
+yay -Qe | fzf
+sudo pacman -Syu
+git clone https://github.com/archlinux/aur.git
+git clone https://github.com/archlinux/aur/tree/opencomic-bin
+git clone git clone https://aur.archlinux.org/opencomic-bin.git<\n>cd opencomic-bin/<\n>makepkg -sirc
+git clone git clone https://aur.archlinux.org/opencomic-bin.git;<\n>cd opencomic-bin/;<\n>makepkg -sirc
+git clone https://aur.archlinux.org/opencomic-bin.git<\n>cd opencomic-bin/<\n>makepkg -sirc
+git clone https://aur.archlinux.org/opencomic-bin.git
+git clone https://github.com/archlinux/aur-opencomic-bin.git<\n>cd aur-opencomic-bin<\n>makepkg -si<\n>
+git clone https://github.com/archlinux/aur-opencomic-bin.git
+git clone --branch opencomic-bin --single-branch https://github.com/archlinux/aur.git<\n>cd aur<\n>makepkg -si
+rmpc
+jkl https://youtu.be/ux3QETpLcPs?si=qO9uFpSYqa1nStXk
+wk https://www.pixiv.net/tags/reze%20100users入り/artworks?mode=safe&s_mode=s_tag#ppixiv?view=illust&illust_id=133985984&page=1
+jkh https://youtu.be/27kuWS21j0c?si=AxGZILqPbwZb2joI
+jkl https://youtu.be/lSZcPffMGz4?si=OxJ5qoW3FdsjgH3f
+nvim
+lsblk
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+yay
+opencomic
+yay -S opencomic-bin
+yay -Qs | fzf
+opencomic
+opencomic --disable-gpu<\n>
+ldconfig -p | grep libGLESv2<\n>
+sudo mkdir -p /opt/opencomic-bin<\n># replace libGLESv2.so.2 below with the exact filename shown by ldconfig<\n>sudo ln -sf /usr/lib/libGLESv2.so.2 /opt/opencomic-bin/libGLESv2.so<\n>
+opencomic
+sudo rm libGLESv2.so 
+LD_LIBRARY_PATH=/usr/lib:$LD_LIBRARY_PATH opencomic<\n>
+ldconfig -p | egrep 'libGLESv2|libEGL|libGL' || true<\n>
+"ldconfig -p | egrep 'libGLESv2|libEGL|libGL' || true" | bash
+sudo ln -sf /usr/lib/libGLESv2.so.2 /opt/opencomic-bin/libGLESv2.so<\n>sudo ln -sf /usr/lib/libEGL.so.1    /opt/opencomic-bin/libEGL.so<\n>sudo ln -sf /usr/lib/libGL.so.1     /opt/opencomic-bin/libGL.so<\n>
+opencomic
+sudo -Rns opencomic
+sudo -Rns opencomic-bin
+yay -Rns opencomic-bin
+sudo rm opencomic-bin/
+rm --help
+sudo rm -f opencomic-bin/
+sudo rm -rf opencomic-bin/
+yay -S komikku
+ls
+ls | select name
+ls | each {mkdir $"($in.name)"}
+ls | each { mkdir $"($in.name)" }
+ls n_library/ | each { mkdir $"($in.name)" }
+ls | where type == File | each { mkdir -p $"($it.name)" }<\n>
+ls | where type == File | each { mkdir $"($it.name)" }
+ls | where type == File | each { mkdir $"($in.name)" }
+ls
+ls | select type
+ls | where type == file | each { mkdir $"($in.name)" }
+ls
+ls | where type == file | each {basename $it.name}
+ls | where type == file | each {basename $in.name}
+ls | each { $in | str replace -r '\.[^.]+$' '' }
+ls | each { $in.name | str replace -r '\.[^.]+$' '' }
+ls | each { $in.name | str replace -r '\.[^.]+$' '' } | each {mkdir $"$in" }
+ls | each { $in.name | str replace -r '\.[^.]+$' '' } | each {mkdir $"($in)" }
+ls | where type == file | each {mv $in.name ( $in.name | str replace -r '\.[^.]+$' '' )}
+yay -S yacreader
+yay -S yacreader-bin
+btop
+nordvpn c Japan
+n
+n 601974<\n>
+n
+anyrun
+yay -Ss anyrun
+yay -S anyrun
+anyrun
+yay -S anyrun-git
+yay -Rns anyrun
+yay -S anyrun-git
+anyrun
+which anyrun
+anyrun
+anyrun daemon
+yay -Scc<\n>
+anyrun
+yay -Rns anyrun-git
+yay -Rns anyrun-git anyrun-git-debug
+z
+anyrun
+yay -Qs | fzf
+git clone https://github.com/anyrun-org/anyrun.git
+yay -S anyrun-git
+anyrun
+cargo build --release<\n>cargo install --path anyrun/<\n>
+./anyrun
+anyrun -h
+anyrun --provider
+anyrun --provider anyrun-provider
+anyrun --provider anyrun-niggers
+z
+anyrun
+git clone https://github.com/anyrun-org/anyrun-provider.git<\n>cd anyrun-provider<\n>cargo build --release<\n>
+install -Dm755 target/release/anyrun-provider ~/.local/bin/anyrun-provider<\n>
+anrun
+anyrun
+GTK_THEME=Adwaita anyrun<\n>
+btop
+pkill anyrun
+GTK_THEME=Adwaita anyrun<\n>
+mkdir ~/.local/share/flatpak/exports/share
+sudo pacman -Syu mesa vulkan-intel lib32-vulkan-intel vulkan-tools<\n>
+GSK_RENDERER=gl anyrun<\n>
+z
+anyrun
+vulkaninfo
+anyrun-provider
+command -v anyrun
+z
+GTK_DEBUG=css anyrun
+anyrun
+anyrun
+anyrun daemon
+pkill anyrun
+GTK_DEBUG=css anyrun
+GSK_RENDERER=ngl anyrun
+anyrun
+z
+cp /etc/anyrun/config.ron .
+diff -h
+diff config.ron config.ron.bak 
+pkill anyrun
+anyrun
+cp /etc/anyrun/style.css .
+anyrun daemon
+sudo rm "com.mitchellh.ghostty.desktop"
+yay -Qs | fzf
+update-desktop-database ~/.local/share/applications
+reboot
+tmux
+yay -Ss lsp-plugins<\n>
+yay -Qe | fzf
+yay -Rns *-plugins
+yay -Qe | grep *-plugin
+yay -Qe | grep plugin
+pacman -Qq 
+pacman -Qq | grep plugin
+pacman -Qq | grep lsp-plugin
+pacman -Qq | grep lsp-plugin | yay -Rns $in
+pacman -Qq | grep lsp-plugin | str replace '\n' ' ' | yay -Rns $in
+pacman -Qq | grep lsp-plugin | str replace '\n' ' '
+pacman -Qq | grep lsp-plugin | str join ' '
+pacman -Qq | grep lsp-plugin | into string | str replace '\n' ' '<\n>
+yay -Rns lsp-plugins
+anyrun daemon
+sudo "protontricks.desktop"
+sudo nvim "protontricks.desktop"
+gtk-update-icon-cache 
+desktop-file-validate "protontricks.desktop"
+sudo nvim "protontricks.desktop"
+desktop-file-validate "protontricks.desktop"
+yay -Rns zam-plugins
+sudo update-desktop-database /usr/share/applications<\n>
+mv "protontricks.desktop" "protontricks.desktop.bak"
+sudo!!
+sudo mv "protontricks.desktop" "protontricks.desktop.bak"
+wk https://www.pixiv.net/en/artworks/136031296
+GTK_DEBUG=interactive anyrun
+pkill anyrun
+GTK_DEBUG=interactive anyrun
+GDK_BACKEND=x11 anyrun
+GTK_DEBUG=interactive GDK_BACKEND=x11 anyrun
+clear
+sudo mkdir /var/lib/flatpak/exports/share
+anyrun daemon
+sudo nvim "calibre-gui.desktop"
+clipse
+tmux a
+ghostty +list-fonts | fzf
+anyrun daemon
+rink
+rink -h
+z
+anyrun daemon
+anyrun -h
+ls | where name =~ "anyrun"
+anyrun daemon
+job spawn {anyrun daemon}
+pkill anyrun
+btop
+job spawn {anyrun daemon}
+pkill discord
+btop
+anyrun -h
+anyrun close
+btop
+anyrun
+pkill anyrun
+anyrun
+btop
+tmux tldr
+tdlr tmux
+tdlr
+yay -S teeldeer
+yay -Ss tldr
+yay -S tealdeer
+tldr tmux
+tmux -h
+tmux --help
+man tmux
+tmux -c "anyrun daemon"
+tmux d
+tmux
+man anyrun
+anyrun -h
+btop
+nmtui
+btop
+wikiman -H qutebrowser
+pacman -Qi arch-wiki-docs
+nmtui
+ping google.com
+nmtui
+sudo ln -s /usr/local/share/applications/com.mitchellh.ghostty.desktop /usr/share/applications
+gtk-launch ghostty
+gtk-launch com.mitchellh.ghostty
+update-desktop-database /usr/share/applications
+update-desktop-database /usr/local/share/applications
+update-desktop-database ~/.local/share/applications
+sudo ln -s /usr/local/share/applications/com.mitchellh.ghostty.desktop /home/pampam/.local/share/applications/com.mitchellh.ghostty.desktop
+update-desktop-database ~/.local/share/applications
+gtk-launch com.mitchellh.ghostty
+gtk-launch ghostty
+gtk-launch
+gtk-launch --help
+which ghostty
+yay -Ss ghostty
+which zig
+zig --version
+zig -V
+sudo rm com.mitchellh.ghostty.desktop
+zig build -p /usr/bin/ -Doptimize=ReleaseFast
+sudo zig build -p /usr/bin/ -Doptimize=ReleaseFast
+which ghostty
+sudo rm -rf share/ lib/ include/ bin/
+zig build -p ~/.local/ -Doptimize=ReleaseFast
+sudo zig build -p ~/.local/ -Doptimize=ReleaseFast

@@ -515,3 +515,11 @@ seconds=20
 start="$(($(date +%s) + $seconds))"
 while [ "$start" -ge `date +%s` ]; do     time="$(( $start - `date +%s` ))";     printf '%s\r' "$(date -u -d "@$time" +%H:%M:%S)"; done
 nu
+command
+command -v anyrun
+for f in $(grep -liE 'lsp-plugins|jack|audio|alsa|pulseaudio|pipewire' /usr/share/applications/*.desktop); do   base=$(basename "$f");   printf '%s\n' "[Desktop Entry]" "Hidden=true" > ~/.local/share/applications/"$base"; done
+nu
+GTK_DEBUG=interactive anyrun
+GTK_DEBUG=interactive anyrun
+GTK_DEBUG=interactive anyrun
+nu

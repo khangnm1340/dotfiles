@@ -1,5 +1,5 @@
 // <Anyrun config dir>/dictionary.ron
 Config(
-  prefix: ".",
+  prefix: ">",
   max_entries: 10,
 )

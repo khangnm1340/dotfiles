@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if ! pidof -x "anyrun"; then
+if ! pidof -x "anyrun-provider"; then
       anyrun
 else
-      pkill -x "anyrun"
+      anyrun close
 fi
