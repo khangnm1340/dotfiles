@@ -1,71 +1,3 @@
-ls
-ls -a
-source .venv/bin/activate
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-y
-y
-y
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-nu
-source ~/.bashrc
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-nu
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-reddit_archive https://www.reddit.com/r/DataHoarder/comments/zk6491/made_myself_python_tooling_to_download_threads/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1l7rgeo/bravo_b%E1%BA%A1n_g%C3%A1i_c%C3%B3_h%E1%BB%8Dc_th%E1%BB%A9c_d%E1%BA%A7n_tho%C3%A1t_c%E1%BA%A3nh_nh%E1%BB%93i_s%E1%BB%8D/
-reddit_archive https://www.reddit.com/r/KanojoOkarishimasu/comments/1l80ye6/disc_kanojo_okarishimasu_chapter_380/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1jwgu4s/hi%E1%BA%BFn_k%E1%BA%BF_l%C3%A0m_sao_%C4%91%E1%BB%83_tr%C3%A1nh_x%E1%BA%A3y_ra_tr%C6%B0%E1%BB%9Dng_h%E1%BB%A3p_nh%C6%B0/?share_id=bAvs6PvhaSocSX7ggNTvX&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1l70xks/v%C3%A0o_%C4%91%C3%A2y_m%C3%A0_xem_h%C3%A1n_th%E1%BA%ADt_ch%E1%BB%A9_kh%C3%B4ng_ph%E1%BA%A3i_l%C5%A9_h%C3%A1n_n%C3%B4/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1l70xks/v%C3%A0o_%C4%91%C3%A2y_m%C3%A0_xem_h%C3%A1n_th%E1%BA%ADt_ch%E1%BB%A9_kh%C3%B4ng_ph%E1%BA%A3i_l%C5%A9_h%C3%A1n_n%C3%B4/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1l653xi/%C4%91%E1%BA%A3ng_%C4%91%C3%A3_m%E1%BA%A5t_l%C3%B2ng_d%C3%A2n_r%E1%BB%93i/
-source .venv/bin/activate
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1l98r8i/youtube_h%E1%BB%8Dc_th%E1%BB%A9c_kh%C3%A1c_bi%E1%BB%87t_nh%C6%B0_th%E1%BA%BF_n%C3%A0o/
-sudo fd / -name libgpgme.so.11 2>/dev/null
-nu
-	git clone https://gitlab.com/gnuwget/wget2.git
-	cd wget2
-	./bootstrap
-	# on shell failure try 'bash ./bootstrap'
-sudo pacman -S lzip
-	./bootstrap
-	./configure
-	make
-y
-bash ./bootstrap
-nordvpn c
-bash ./bootstrap
-bash ./bootstrap
-y
-bash ./bootstrap
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lc0lzs/th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_israel_k%C3%AAu_g%E1%BB%8Di_nh%C3%A2n_d%C3%A2n_iran_%C4%91%E1%BB%A9ng_l%C3%AAn/
-nordvpn c
-reddit_archive https://www.reddit.com/r/Chainsawfolk/comments/1lbqhom/this_subreddit_is_trash_man/
-nu
-reddit_archive https://www.reddit.com/r/VietTalk/
-reddit_archive https://www.reddit.com/r/VietTalk/comments/1lf8gzg/c%C3%A1ch_m%E1%BA%A1ng_h%E1%BB%93i_gi%C3%A1o_iran_1979_ng%C3%B2i_n%E1%BB%95_cho_m%E1%BB%8Di/
-nu
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lkv5tc/d%C6%B0%C6%A1ng_%C4%91%E1%BB%A9c_th%E1%BB%8Bnh_x%C3%A9_c%E1%BB%9D_sao_r%E1%BB%93i/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lkt21r/n%C3%B3_m%C3%A0_qua_thi%E1%BB%87t_ch%E1%BA%AFc_bucky_kh%C3%B3c_1_d%C3%B2ng_s%C3%B4ng/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1ll3odo/s%C3%BAc_v%E1%BA%ADt_s%C3%BAng_nh%E1%BB%8F_g%C3%A2y_tai_n%E1%BA%A1n_ti%E1%BA%BFp_t%E1%BB%A5c_b%C6%B0ng_b%C3%ADt/
-nvim
-nvim
-nvim
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lo4obt/v%C4%83n_ch%C3%AA_nh%E1%BA%ADt_c%E1%BB%A7a_betokon_ph%E1%BA%A3i_g%E1%BB%8Di_%C4%91%E1%BB%89nh_cao/
-nvim
-nvim
-y
-rmpc theme > /home/pampam/.config/rmpc/cappuchin.ron
-rmpc theme > theme.ron 
-y
-exiftool
-y
-y
-nu
-rmpc
-nu
-kitten icat --align=left /home/Ext4Pam/Pictures/Arch_pics/GoBJTG6aUAALcfB.jpg | fastfetch --raw - --logo-width 20 --logo-height 20
 nu
 nu
 fastfetch
@@ -522,4 +454,51 @@ nu
 GTK_DEBUG=interactive anyrun
 GTK_DEBUG=interactive anyrun
 GTK_DEBUG=interactive anyrun
+nu
+export NEWT_COLORS='
+root=,black
+border=white,black
+title=white,black
+window=white,blue
+textbox=white,black
+button=black,white
+listbox=white,black
+actlistbox=black,white
+checkbox=white,black
+actcheckbox=black,white
+'
+winapps-setup
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+winapps-setup --user --uninstall.
+winapps-setup --user --uninstall
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+[200~winapps-setup~
+winapps-setup
+winapps-setup --user --uninstall
+winapps-setup
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+nu
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+nu
+podman unshare --rootless-netns xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+nu
+Your Windows Password
+nu
+winapps manual C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe
+winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
+winapps manual 'C:\Windows\System32\notepad.exe'
+winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
+winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
+docker exec -it WinApps powershell -Command "Start-Process 'C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe' -ErrorAction Stop"
+docker exec -it WinApps /bin/sh -c 'which powershell || which pwsh || echo "no-powershell"; ls -la /usr/bin /bin /usr/local/bin 2>/dev/null | head -n 40'
+nu
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+nu
+./autofocus.sh &
+btop
+pkill 38441
 nu

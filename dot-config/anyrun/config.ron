@@ -45,8 +45,9 @@ Config(
   plugins: [
     "libapplications.so",
     "libsymbols.so",
-    "libdictionary.so",
+    //"libdictionary.so",
     "librink.so",
+    //"libkidex.so",
     "libshell.so"
   ],
 

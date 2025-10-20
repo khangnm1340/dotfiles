@@ -34,4 +34,6 @@ while $time >= 0sec {
     }
 
 notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+# notify -t "Power off in 3 seconds" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+# poweroff
 "🦦" | save -f $count_down_file

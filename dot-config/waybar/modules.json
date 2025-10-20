@@ -66,16 +66,16 @@
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "on-click": "alacritty -T btop -e btop -p 4"
+    "on-click": "ghostty --title=btop -e btop -p 4"
   },
   "cpu": {
     "interval": 1,
     "format": " {usage}%",
-    "on-click": "alacritty -T btop -e btop -p 2"
+    "on-click": "ghostty --title=btop -e btop -p 2"
   },
   "memory": {
     "format": "  {}%",
-    "on-click": "alacritty -T btop -e btop -p 3"
+    "on-click": "ghostty --title=btop -e btop -p 3"
   },
   "temperature": {
     "interval": 1,
@@ -83,7 +83,7 @@
     "critical-threshold": 90,
     "format-critical": "{temperatureC}°C",
     "format": " {temperatureC}°C",
-    "on-click": "alacritty -T btop -e btop -p 2"
+    "on-click": "ghostty --title=btop -e btop -p 2"
   },
   "battery": {
     "states": {

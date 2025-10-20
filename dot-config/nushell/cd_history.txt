@@ -7,22 +7,15 @@
 /home/Ext4Pam/Pictures/Pictures/yt_downloads/frequent
 /home/Ext4Pam/Music
 /home/Ext4Pam/Pictures/Arch_pics
-/home/pampam/Documents/UTH/DataMining/pams-product-sentiment
 /home/pampam/.config
 /home/pampam/Documents/pam/1-Rough-Note
-/home/pampam/.config/nushell
-/home/pampam/.config/nvim-hanni
 /usr/share/applications
 /home/pampam/.local/share
-/home/pampam/Documents/UTH/MachineLearning/ielts
 /home/pampam/dotfiles/dot-config
 /home/pampam/builds
 /home/pampam/Downloads/wallpapers
 /home/pampam/.config/hypr
 /home/pampam/Music/Zotify Music
 /home/pampam/Documents/external_drives/drive1
-/home/pampam/.local/share/Steam/steamapps
-/home/pampam/Documents/UTH/MachineLearning/tan_math
 /usr/bin
-/home/pampam/Documents/UTH/MachineLearning/synonyms
-/home/pampam/Documents/pam/1-Rough-Note/semi-finals
+/home/pampam/Documents/UTH/MachineLearning

@@ -3,7 +3,7 @@
 #background = 000000 
 #foreground= ffffff
 
-custom-shader = ghostty-shader-playground/shaders/cursor_frozen.glsl
+# custom-shader = ghostty-shader-playground/shaders/cursor_frozen.glsl
 
 window-decoration = false
 gtk-titlebar = false
@@ -17,7 +17,7 @@ theme = TokyoNight Storm
 background-opacity = 0.85
 confirm-close-surface = false
 window-theme = ghostty
-window-show-tab-bar=never
+window-show-tab-bar=auto
 unfocused-split-opacity = 0.8
 unfocused-split-fill = #000
 
@@ -80,7 +80,7 @@ keybind = shift+up=scroll_page_fractional:-0.7
 keybind = ctrl+]=scroll_page_lines:-1
 keybind = ctrl+[=scroll_page_lines:1
 
-font-size = 15
+font-size = 14
 # font-family = JetBrainsMono Nerd Font
 font-family = JetBrainsMono Nerd Font
 

@@ -8,6 +8,8 @@ config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
     global: false
+  content.geolocation:
+    https://www.speedtest.net: true
   content.headers.user_agent:
     global: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
       Chrome/137.0.0.0 Safari/537.36
@@ -18,6 +20,7 @@ settings:
     https://htmlcolorcodes.com: access-paste
     https://nhentai.net: access-paste
     https://open.spotify.com: access-paste
+    https://spicetify.app: access-paste
     https://toffeeshare.com: access-paste
     https://typst.app: access-paste
     https://www.nushell.sh: access-paste
@@ -26,6 +29,7 @@ settings:
   content.notifications.enabled:
     https://web.tolstoycomments.com: false
     https://www.facebook.com: true
+    https://www.messenger.com: true
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   statusbar.show:

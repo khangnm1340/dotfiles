@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 20
-time: 6.705
+current: 92
+time: 25.286
 random: 0
 repeat: 0
 single: 0
@@ -104,8 +104,8 @@ playlist_begin
 89:I_AM_MUSIC/Kanye West - Graduation/12. Homecoming (feat. Chris Martin).m4a
 90:I_AM_MUSIC/Kanye West - Graduation/13. Big Brother.m4a
 91:I_AM_MUSIC/Kanye West - Graduation/14. Good Night (feat. Mos Def & Al Be Back).m4a
-92:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
-93:can_j_noi_dau_e_oi/My Boo (Hitman's Club Mix)/Ghost Town DJs_My Boo - Hitman's Club Mix.ogg
+92:can_j_noi_dau_e_oi/My Boo (Hitman's Club Mix)/Ghost Town DJs_My Boo - Hitman's Club Mix.ogg
+93:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
 94:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Bam Yang Gang.ogg
 95:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Midnight Cruise.ogg
 96:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Real Man.ogg
@@ -133,4 +133,18 @@ playlist_begin
 118:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
 119:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/41. Cherry Blossom.m4a
 120:can_j_noi_dau_e_oi/Seiko Matsuda - Squall/05. Hadashino Kisetsu.m4a
+121:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/01. Chocolate Cosmos Garden.m4a
+122:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/02. Góc Sân Trường.m4a
+123:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/03. congtrinhkientruc mp3.m4a
+124:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/04. emyeutieurua yahoo.m4a
+125:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/05. Giấc Mơ Thần Tiên.m4a
+126:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/06. Lông Mũi.m4a
+127:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/07. THÀNH PHỐ ĐÓNG BĂNG.m4a
+128:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/08. TINH CẦU PHA LÊ.m4a
+129:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/09. NOKIA.m4a
+130:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/10. Yeon 연.m4a
+131:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/11. HTV3.m4a
+132:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/12. Never Be Alone.m4a
+133:I_AM_MUSIC/Travis Scott - Rodeo/05. 90210 (feat. Kacy Hill).m4a
+134:can_j_noi_dau_e_oi/BADモード/02_Hikaru Utada_君に夢中.ogg
 playlist_end

@@ -3324,3 +3324,730 @@ which ghostty
 sudo rm -rf share/ lib/ include/ bin/
 zig build -p ~/.local/ -Doptimize=ReleaseFast
 sudo zig build -p ~/.local/ -Doptimize=ReleaseFast
+z
+$env.GHOSTTY_RESOURCES_DIR
+ls /usr/share/ghostty
+w https://preview.redd.it/twitching-eye-jasonkim-v0-zky2idkhxztf1.jpeg?width=969&auto=webp&s=971abbd770c99d27476d97c0d33608e708b3c5c3
+wk https://x.com/Eien_001_/status/1974782645444940115
+wk https://x.com/Mugo__o/status/1974183239561719848
+wk https://x.com/Mugo__o/status/1974273877732986888
+wk https://x.com/yorulost/status/1974067478188761444
+wk https://x.com/Dino_illus/status/1973998008074199075
+wk https://x.com/Dino_illus/status/1972432102072467764
+google-chrome-stable
+reboot
+anyrun daemon
+btop
+reboot
+pkill chrome
+poweroff
+stow --dotfiles -t ~ .
+yay -S kidex-git
+kidex-client
+kidex -h
+kidex --help
+which kidex
+pkill anyrun
+yay -Rns kidex-git
+git clone https://github.com/Kirottu/kidex.git
+cargo install --path .
+cargo install --path ./kidex<\n>
+kidex
+kidex-provider
+cargo install --path kidex-client<\n>
+kidex-provider
+kidex-client
+kidex-client get-index
+kidex
+anyrun daemon
+reboot
+yay -S helium-browser-bin
+poweroff
+ls | explore -ip
+open r_BudgetAudiophile_comments.jsonl | explor -ip
+open r_BudgetAudiophile_comments.jsonl | explore -ip
+open "comments.csv" | explore -ip
+open r_BudgetAudiophile_comments.jsonl | explore -ip
+sudo nvim /etc/hosts 
+jkl https://youtu.be/TZUh2inJ6UQ?si=6CEmtNdWb2qNHVVS
+yay
+zotify https://open.spotify.com/album/5bTD1CKUC4jEO0rg6Byp2J?si=mDlmEg_sSjOO89BhAySxPg
+zotify https://open.spotify.com/album/23TOHK5Hgc4pVz2tL16sXR?si=NsAoiSx9Q9qZPC8HRet7zQ
+zotify https://open.spotify.com/track/1tkjMTAMxc25c2d17Uhhgf?si=e24c22e59d224307
+zotify-album https://open.spotify.com/album/03guxdOi12XJbnvxvxbpwG?si=xVYNTqvGRrqE01I9dciwuA
+zotify https://open.spotify.com/track/1Zqs6A90va6FUxQ7KJAckG?si=f5c8d8696c6549de
+zotify https://open.spotify.com/track/5OZAEbUCMvJFdZiNM5RJwr?si=1039720cc0d940dc
+sudo pacman -Syu --needed -y curl dialog freerdp git iproute2 libnotify openbsd-netcat
+stow --dotfiles -t ~ .
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:192.168.122.2 /cert:tofu
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+which xfreerdp3
+xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+xfreerdp3 /u:"Khang" /p:"12345678" /v:192.168.122.2 /cert:tofu
+btop
+ping -c4 192.168.122.2<\n>
+docker ps --format 'table {{.Names}}\t{{.ID}}\t{{.Ports}}' | sed -n '1p;2,$p'<\n>
+docker ps | grep -i winapps || true<\n>
+"docker ps | grep -i winapps || true" | bash
+telnet 127.0.0.1 3389<\n>
+nc -vz 127.0.0.1 3389<\n>
+xfreerdp3 /u:"Khang" /v:127.0.0.1:3389 /cert:tofu<\n>
+podman unshare --rootless-netns xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+yay -S podman
+podman unshare --rootless-netns xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+lsmod | grep ip_tables
+lsmod | grep iptable_nat
+yay -Qs | fzf
+docker info<\n>
+git clone https://github.com/winapps-org/winapps.git
+docker compose --file ./compose.yaml up
+yay -Qs | fzf
+yay -Ss docker
+yay -Ss docker | grep compose
+yay -S docker-compose
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+docker compose --file ./compose.yaml up
+docker ps
+docker ps -a
+docker compose -f ./compose.yaml config<\n>
+docker compose -f ./compose.yaml down --volumes<\n>
+docker volume ls<\n>
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+docker compose --file ./compose.yaml up
+docker compose --file ./compose.yaml up -d
+btop
+docker compose logs -f
+docker compose -f ./compose.yaml down --volumes<\n>
+docker ps -a
+docker rmi -f ghcr.io/dockur/windows:latest<\n>
+docker compose --file ./compose.yaml up
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+cat /home/pampam/.local/share/winapps/FreeRDP_Test_20251010_2136_810208662.log
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+winapps
+winapps-setup --help
+winapps --help
+winapps-setup --user --setupAllOfficiallySupportedApps
+winapps-setup
+soffice --headless --convert-to pptx "Targeted_High_Tech_Presentation.odp"
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+winapps-setup -h
+winapps-setup --user --uninstall
+winapps-setup
+./setup.sh
+./powerpoint-o365
+winapps-setup --user --uninstall
+./setup.sh
+./powerpoint-o365
+./setup.sh
+./word-o365
+docker compose -f ./compose.yaml up -d
+./powershell
+reboot
+z
+docker compose -f /home/pampam/builds/winapps/compose.yaml up -d
+./powerpoint-o365
+./powershell
+./word-o365
+docker compose -f /home/pampam/builds/winapps/compose.yaml up -d<\n>
+docker ps<\n>
+docker stop WinApps
+docker ps
+docker ps -a
+docker compose -f /home/pampam/builds/winapps/compose.yaml up -d<\n>
+./word-o365
+rmpc
+./powerpoint-o365
+docker stop WinApps
+wk https://www.tiktok.com/@exploding_rat/video/7533453609598487830?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@_mk_10_/video/7559170204090043655?is_from_webapp=1&sender_device=pc
+wk wk https://www.tiktok.com/@njdaniz/video/7551790679488351505?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@njdaniz/video/7551790679488351505?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@billboard/video/7551651769701420319?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@chanh.n77/video/7545872852138970376?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@_cafemuoii/video/7534564975805762834?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7542782394256903446?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@thptahaihau18/video/7533566600113343751?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@ig9dancecrew/video/7546961496794746119?is_from_webapp=1&sender_device=pc
+zotify-album https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=I46Nwku1Sve3iPwIyWygtQ
+wk https://www.tiktok.com/@vtv7official/video/7552601278287793424?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7542137107028954390?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@imjack1997/video/7546933376343706887?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@singsingaduck/video/7531285540159638792?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@jkawaii2/video/7546418942697295121?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@joanrk21/video/7542459947410410760?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@6a2maidinhadu/video/7558789741261409543?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@chanh.n77/video/7535109745041034503?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@nwjnsw0rld/video/7556944488074120464?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@clbbaochitruyenthongnh/video/7546491636650429704?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@user5338176695465/video/7528732670638066962?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@jkawaii2/video/7544966566882839809?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@ai.yin.yue/video/7558781096796769544?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7540211401600601366?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@user5338176695465/video/7529845010016079122?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@nwjnsw0rld/video/7554706680047619344?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7532728081014983959?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@chanh.n77/video/7532082964155354386?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@laratopiaa/video/7542209490012081416?is_from_webapp=1&sender_device=pc
+zotify --help
+zotify-album https://open.spotify.com/album/1RHa1VdX6lsLbeedgsV1cb?si=Mm_OKMBSRFK5XgM45x0uig
+zotify-album https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=8zmoy6xKQj-kcE04wMM_Pg
+zotify -ie https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=8zmoy6xKQj-kcE04wMM_Pg
+zotify https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=8zmoy6xKQj-kcE04wMM_Pg
+zotify-album https://open.spotify.com/album/0KzrfbyL2GmX4fARXOY7pC?si=2BCde_YDSnabZgIT7UhDSg
+man zotify
+zotify --help
+zotify https://open.spotify.com/album/0KzrfbyL2GmX4fARXOY7pC?si=2BCde_YDSnabZgIT7UhDSg
+zotify-album spotify:album:1yY9R0IjLXGhf3aPb6Y63k
+zotify-album https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=hN13RyXmSgiN5Psu-Rd19g
+let CLIENT_ID = "f70a171502544b9ba9b701a0c7e1a04c"<\n>let CLIENT_SECRET = "ce619d57d54f425aacdb1bd376a76279"<\n><\n>let TOKEN = (curl -s -u $"($CLIENT_ID):($CLIENT_SECRET)" -d grant_type=client_credentials https://accounts.spotify.com/api/token | from json | get access_token)<\n><\n>let ALBUM_ID = ( "https://open.spotify.com/album/1yY9R0IjLXGhf3aPb6Y63k?si=hN13RyXmSgiN5Psu-Rd19g" | split row "?" | get 0 | split row "/" | last)<\n>mut all = []<\n>mut url = $"https://api.spotify.com/v1/albums/($ALBUM_ID)/tracks?limit=50" <\n>while $url != null {<\n>let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)<\n><\n>  let items = ($uris.items.uri)<\n>  # append items to all<\n>  $all = ($all ++ $items)<\n>  $url = $uris.next<\n>}
+$all
+$all | save micropop.txt
+diff micro-pop.txt micropop.txt 
+diff micro-pop.txt micropop.txt  | save diff.txt
+diff -u micro-pop.txt micropop.txt  | save diff.txt
+diff -u micro-pop.txt micropop.txt  | save -f diff.txt
+diff micro-pop.txt micropop.txt  | save -f diff.txt
+which diff
+man diff
+comm micro-pop.txt micropop.txt 
+open micro*
+open micro-pop.txt | lines | sort | file1.sorted
+open micro-pop.txt | lines | sort | save file1.sorted
+open micropop.txt | lines | sort | save file2.sorted
+comm file1.sorted file2.sorted 
+comm file1.sorted file2.sorted | save -f missing.txt
+zotify --help | wl-copy
+zotify -f "/home/pampam/Music/Zotify Music/Jack Stauber's Micropop/Micropop/missing.txt"
+comm file1.sorted file2.sorted | save -f missing.txt
+open micropop.txt | sort | to text
+open micropop.txt | sort | to text | save file1.sorted
+open micro-pop.txt | sort | to text | save file2.sorted
+comm file1.sorted file2.sorted | save -f missing.txt
+yay -Qs | fzf
+yay
+zotify -f "/home/pampam/Music/Zotify Music/Jack Stauber's Micropop/Micropop/missing.txt"
+yay -S opencomic-bin
+jkl https://youtube.com/shorts/XHq_RVGRucM?si=Rami3zDeICDU2i1v
+jkl https://youtube.com/shorts/zCePMVvl1ek?si=ZP9PzMucslPyI3ZC
+nu /home/pampam/.config/waybar/scripts/timer.nu
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+ff
+nmtui
+wk https://x.com/ryosuketarou/status/1977381232955490452
+wk https://x.com/iing_naoe/status/1977364296368533550
+wk https://x.com/montes4352/status/1977293069260341490
+wk https://x.com/KKRT0302/status/1977331891222294608
+wk https://x.com/sooon_TD/status/1977337522008314319
+wk https://x.com/YRY_0/status/1977311625934934149
+wk https://x.com/dudrinm1011/status/1977416140105392508
+wk https://x.com/zatsuta_iroiro/status/1976884678163673410
+wk https://x.com/hrak_mumi/status/1977330276452954318
+wk https://x.com/YRY_0/status/1977311625934934149
+wk https://x.com/Nos__fri/status/1977502723160657928
+wk https://x.com/pro_p24/status/1977331911933722687
+wk https://x.com/lunara_fawn/status/1977491003939414344
+wk https://x.com/doeun_o_o/status/1977358436691050559
+wk https://x.com/yydd2101/status/1977351410359345529
+wk https://x.com/pro_p24/status/1977331911933722687
+wk https://x.com/FRIERENcontent/status/1977283094462730465
+wk https://x.com/NarutoDaily_/status/1976985392114008196
+wk https://x.com/dodobo_/status/1976853012783284271
+wk https://x.com/DMY_12n/status/1976936308728631428
+wk https://x.com/D_Kumii/status/1977449182236680436
+wk https://x.com/Katrinabluuuuu/status/1977205664952074621
+wk https://x.com/hyegums/status/1977430478962778467
+wk https://www.reddit.com/r/VietNamNation/comments/1o59adp/khi_b%E1%BA%AFc_vi%E1%BB%87t_nam_v%E1%BA%ABn_mu%E1%BB%91n_th%E1%BB%B1c_d%C3%A2n_trong_l%C3%B2ng/
+wk https://www.reddit.com/r/VietNamNation/comments/1o4litg/ch%C3%B3_xanh_b%E1%BB%8F_m%E1%BA%B7c_ng%C6%B0%E1%BB%9Di_d%C3%A2n_g%E1%BA%B7p_tai_n%E1%BA%A1n_%C4%91mcs/
+wk https://x.com/winwin_a_e/status/1977372898265317795
+wk https://x.com/Yufishart/status/1977387100866507188
+wk https://x.com/xyanaid/status/1976345161639825533
+wk https://x.com/weweired9/status/1977569899619942540
+wk https://x.com/U80x8Bltm00Rqeo/status/1977499727546757564
+wk https://x.com/kouchanthree/status/1977647948839395662
+wk https://x.com/Drowsy_sheep/status/1977590513428770947
+wk https://x.com/pouchwonki/status/1977540032962654643/photo/1
+wk https://x.com/NJZBTS/status/1977086705347014975
+wk https://x.com/CHAINSAWMAN_PR/status/1977539791701893449
+wk https://x.com/hyewint/status/1977423274683544042
+wk https://x.com/ShitpostRock/status/1977353557461631417
+wk https://x.com/Floppy9045/status/1977454273383264520
+wk https://x.com/montes4352/status/1977690938748399784
+pdfimages -f 6 -l 6 -j "Chapter 2 - ARTIFICIAL NEURAL NETWORKS.pdf" page6
+wk https://x.com/Munchen672/status/1977646782642532800
+wk https://x.com/KamejiNishibi/status/1977586495876936007
+wk https://x.com/ZZUxRUSrdBVE/status/1977309228038763006
+wk https://x.com/polo_tokki/status/1977711494897775037
+wk https://x.com/hoseek_/status/1977327421092446371
+wk V
+wk https://x.com/NJZBTS/status/1977415558577750033
+wk https://x.com/newjeans_loop/status/1763877916054856172
+w khttps://x.com/AnimexTwts/status/1977544314453434775
+wk https://x.com/AnimexTwts/status/1977544314453434775
+wk https://x.com/trysail_luna/status/1977565451598385339
+wk https://x.com/yp1091/status/1977364409669320733
+jkl https://youtube.com/shorts/5sYwSAp_VlU?si=fXRDM8IJylZM5Idf
+jkl https://youtu.be/lFR-B3DBFRA?si=6bElAQv9YoEtJBwj
+zotify https://open.spotify.com/track/6Yj8kVuVR3UPxx9r5eFEoV?si=04605f4d52f84f61
+zotify https://open.spotify.com/track/2YZa0dsV3xXGZ61XFYiRt8?si=2210d17049bf4e1c
+zotify https://open.spotify.com/track/2YkjXEab4USTV9uuAgC90E?si=9a86d03148fb4660
+zotify https://open.spotify.com/track/1CkTEh21SLHbiAj2qy8wc1?si=e83e2906aaeb4732
+zotify spotify:track:3ZmwKxUG6984Aj0DMIsn8u
+yay
+btop
+zotify https://open.spotify.com/track/4TsTsXukyNBJ5EfYFOw8LG?si=8a93479e44dc4d7a
+zotify https://open.spotify.com/track/1zqbsVEYjCCloTKL3yiWhS?si=9dc1869fc1224830
+zotify https://open.spotify.com/track/7BA8k63R2UFRjhYaN0E42t?si=b81c4a9d78064b5d
+zotify-album https://open.spotify.com/track/716LAvbdJ4Vxkp92SV5QYS?si=59196d29c330418f
+zotify https://open.spotify.com/track/5HyHWMxu2qIgzOyVcqsWPf?si=ac6f812647e64f10
+zotify https://open.spotify.com/track/6B3t80HwvU1q4M6TaWJq4c?si=0fff3af521984bb2
+zotify https://open.spotify.com/track/0CGEYdZqBmfmEWUNlgGHqo?si=dcfa7923a84d4c50
+zotify spotify:track:3ghC5Z3ROxJAM9a4v4tvB4
+zotify-album https://open.spotify.com/album/3ayRne084KKbpJLSGrz8fT?si=0zhvLjfQSBSWKyVOm7v2Sw
+zotify https://open.spotify.com/track/0mo7ekgbvjBZr9XZXe17MA?si=6d187178c5b143c7
+zotify https://open.spotify.com/album/6JgmJqUrH4dlIHuwu2e6YF?si=narARbmaSaSbVBKEiJl8wg
+zotify https://open.spotify.com/track/6QGuDk8tY8Lan39gTWtXWK?si=1aaf438b581f4291
+zotify-album https://open.spotify.com/album/5aCgGOMefRFhsLgclMThoy?si=S_IdRxTfQWaZdyJPxvJpGQ
+jkl https://www.youtube.com/watch?v=EaA6NlH80wg&list=RDEaA6NlH80wg&start_radio=1&pp=ygUmeW9hc29iaSB5YXNhc2hpaSBzdWlzZWkgdGhlIGZpcnN0IHRha2WgBwE%3D
+jkl https://youtu.be/OMHJuzTfPn4?si=cUg-1C0aanQ2oNl9
+jkl https://youtube.com/shorts/W8dMLd7CNvo?si=xvz_iccf4J8zrPFP
+nordvpn c US
+btop
+ps | sort-by mem
+systemctl service
+systemctl status
+docker ps
+docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Image}}\t{{.ID}}"<\n>
+docker ps<\n>
+docker inspect -f '{{.Name}} {{.HostConfig.RestartPolicy.Name}}' $(docker ps -aq)<\n>
+"docker inspect -f '{{.Name}} {{.HostConfig.RestartPolicy.Name}}' $(docker ps -aq)" | bash
+docker stop WinApps
+docker update --restart=no WinApps
+btop
+ps
+ps | sort-by mem
+btop
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+sudo npm install -g @openai/codex
+git init
+python train.py --model cnn --batch-size 128 --lr 1e-3 --epochs 10<\n>
+yay -Qs | fzf
+uv init
+uv add numpy pandas<\n>
+fd activate.nu
+fd activate.nu .venv
+fd activate.nu
+fd -I activate.nu
+overlay use .venv/bin/activate.nu 
+uv cache dir
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu<\n>
+uv add numpy matplotlib scikit-learn tqdm pillow<\n>
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu<\n>
+uv lock<\n>
+yay -S python312
+which python3.12
+python3.12 -V
+uv python pin 3.12.11
+uv lock --dry-run<\n>
+uv lock
+uv sync
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu<\n>
+uv lock
+uv sync
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu<\n>
+uv lcok
+uv lock
+uv sync
+python train.py --model cnn --batch-size 128 --lr 1e-3 --epochs 10<\n>
+git init
+uv init
+codex
+uv lock
+uv python pin 3.12.11
+uv lock
+uv sync
+deactivate
+uv sync
+overlay use .venv/bin/activate.nu 
+job unfreeze
+nmtui
+codex
+overlay use .venv/bin/activate.nu 
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+uv add tensorboard matplotlib scikit-learn
+uv lock
+uv sync
+python main.py --model resnet18 --pretrained --epochs 10 --batch-size 64 --lr 1e-3 --log-dir runs/resnet18_test<\n>
+git clone https://github.com/nevimmu/hyprdvd<\n>cd hyprdvd<\n>pipx install .<\n>
+hyprdvd
+alacritty --title "DVD"
+job spawn {alacritty --title "DVD"}
+btop
+btop
+ouch compress practice1/ practice2/ 2_practice.zip
+codex
+code --enable-proposed-api ms-toolsai.jupyter
+uv add ipykernel
+deactivate
+overlay use .venv/bin/activate.nu 
+code --enable-proposed-api ms-toolsai.jupyter .
+uv add ipykernel
+docker compose -f /home/pampam/builds/winapps/compose.yaml up -d
+./setup.sh
+winapps-setup --help
+winapps-setup --user --uninstall
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+./setup.sh
+winapps --help
+winapps-setup --help
+which winapps
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+winapps manual C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe
+winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+docker compose -f ./compose.yaml down --volumes<\n>
+code --enable-proposed-api ms-toolsai.jupyter .
+n
+code --enable-proposed-api ms-toolsai.jupyter .
+git add .
+lazygit
+which hyprdvd
+hyprdvd
+alacritty --title "DVD"
+job spawn {alacritty --title "DVD"}
+btop
+s
+ls
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg<\n>
+tmux
+pipx --help
+pipx uninstall hyprdvd
+yay -S hyprdvd
+hyprdvd --help
+hyprdvd -s
+nu ~/.config/hypr/scripts/preload-wallpaper.nu 
+hyprdvd -s
+nordvpn --help
+nordvpn set meshnet on
+nordvpn fileshare
+nordvpn send
+nordvpn fileshare send
+nordvpn fileshare send --help
+nordvpn meshnet peer list
+nordvpn fileshare send kzsleh8353-alps.nord 1977711494897775037_1.jpg
+nordvpn fileshare send --help
+nordvpn fileshare send 100.96.114.73 1977711494897775037_1.jpg
+nordvpn fileshare accept --help
+nmtui
+btop
+libreoffice --headless --convert-to pdf "The Unofficial Secret Hitler Strategy Guide _ Secret Hitler Strategy Guide by TartanLlama.mhtml"
+libreoffice --headless --convert-to pdf "hitler.mhtml" --outdir /home/youruser/Downloads
+libreoffice --headless --convert-to pdf hitler.mhtml --outdir /home/youruser/Downloads
+libreoffice --headless --convert-to pdf /home/pampam/Downloads/hitler.mhtml --outdir /home/youruser/Downloads
+chromium --headless --disable-gpu --print-to-pdf="$HOME/Downloads/hitler.pdf" "file://$HOME/Downloads/hitler.mhtml"<\n>
+chromium --headless --disable-gpu --print-to-pdf="~/Downloads/hitler.pdf" "file://~/Downloads/hitler.mhtml"
+chromium --headless --disable-gpu --print-to-pdf="~/Downloads/hitler.pdf" "file:///home/pampam/Downloads/hitler.mhtml"
+chromium --headless --disable-gpu --print-to-pdf="/home/pampam/Downloads/hitler.pdf" "file:///home/pampam/Downloads/hitler.mhtml"
+xdg-mime query filetype "hitler.mhtml"
+xdg-mime default qutebrowser.desktop message/rfc822
+xdg-mime default nvim message/rfc822
+xdg-mime default neovim.desktop message/rfc822
+xdg-mime default qutebrowser.desktop message/rfc822
+xdg-mime default neovide.desktop message/rfc822
+xdg-mime default org.qutebrowser.qutebrowser.desktop message/rfc822
+yay -Qs | fzf
+git clone https://gitlab.com/Pummelfisch/future-cyan-hyprcursor.git
+cp /home/pampam/builds/future-cyan-hyprcursor/Future-Everforest-Green-Hyprcursor_Theme .
+cp -r /home/pampam/builds/future-cyan-hyprcursor/Future-Everforest-Green-Hyprcursor_Theme .
+hyprctl setcursor Future-Everforest-Green-Hyprcursor_Theme
+hyprctl setcursor --help
+hyprctl setcursor HYPRCURSOR_THEME,Future-Everforest-Green-Hyprcursor_Theme
+hyprctl setcursor HYPRCURSOR_THEME,Future-Everforest-Green-Hyprcursor_Theme HYPRCURSOR_SIZE,24<\n><\n>
+hyprctl setcursor HYPRCURSOR_SIZE,24<\n><\n><\n><\n>
+hyprctl setcursor HYPRCURSOR_SIZE = 24<\n><\n><\n><\n>
+hyprctl reload
+reboot
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 48<\n>
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 48
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 30
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 10
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 24
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 30
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 40
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 24
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 80
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 100
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 500
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 24
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 30
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 40
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 50
+reboot
+hyprctl reload
+reboot
+nmtui
+nordvpn
+nordvpn c
+reboot
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 48<\n>
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 24
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 30
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 40
+ls */* | each { |i| mv $i.name /home/Ext4Pam/Music/can_j_noi_dau_e_oi}
+zotify https://open.spotify.com/track/3yrQAZrdlrMVtI4DN9FTIc?si=1445f09a1464463b
+reboot
+git clone https://github.com/yeyushengfan258/Future-cursors.git
+./install.sh
+reboot
+hyprctl setcursor HYPRCURSOR_SIZE,50
+hyprctl setcursor HYPRCURSOR_THEME,Future-Everforest-Green-Hyprcursor_Theme HYPRCURSOR_SIZE,50
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 50
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 45
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 50
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 45
+yay -S psst-git
+psst
+psst-gui
+broot
+RUST_BACKTRACE=1 psst-gui<\n>
+yay -Qs | fzf
+aplay -l<\n>
+arecord -l<\n>
+psst-gui
+psst-gui --help
+psst-gui --help-all
+psst-gui
+yay -Rns psst-git
+yay -Ss riff
+yay -S riff-client
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+lsblk
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
+lsblk
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+lsblk
+sudo mount -o rw /dev/nvme0n1p8 ~/Documents/external_drives/drive1
+sudo mount -o rw /dev/nvme1n1p8 ~/Documents/external_drives/drive1
+reboot
+wk https://www.reddit.com/r/TroChuyenLinhTinh/comments/1o782ow/ae_ngh%C4%A9_sao_v%E1%BB%81_b%E1%BA%AFt_c%C3%B3c_%E1%BB%9F_x%E1%BB%A9_v%E1%BA%B9m_hi%E1%BB%87n_nay/?share_id=pjN96-Qkd19h24xeIAB6v
+reboot
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 45
+reboot
+gsettings set org.gnome.desktop.interface cursor-theme Future-Cyan-Hyprcursor_Theme
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 45
+reboot
+spotify-player
+yay -S spotify-player
+yay
+sudo pacman -Syu
+yay -S spotify-player
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 48
+touch /home/pampam/.gtkrc-2.0.mine
+yay -Qe | fzf
+yay -S xdg-desktop-portal-gtk
+$env.XCURSOR_THEME
+$env.XCURSOR_THEME=default
+$env.XCURSOR_THEME = "default"
+$env.XCURSOR_THEME = adwaita
+$env.XCURSOR_THEME = "Adwaita"
+yay -S xcursor-breeze
+$env.XCURSOR_THEME
+logout
+hyprctl dispatch exit<\n>
+$env.XCURSOR_SIZE
+$env.XCURSOR_THEME
+hyprctl reload<\n>
+hyprctl dispatch exit<\n>
+sudo rm ghostty-source/
+sudo rm -rf ghostty-source/
+compress --help
+open ghostty-source/ | tar xvf -
+zig build -p ~/.local/ -Doptimize=ReleaseFast
+yay -S rose-pine-cursor
+yay -S rose-pine-hyprcursor
+yay -S nwg-look
+sudo zig build -p ~/.local/ -Doptimize=ReleaseFast
+hyprctl setcursor HYPRCURSOR_SIZE,48
+nwg-look
+sudo zig build -p ~/.local/ -Doptimize=ReleaseFast
+which ghostty
+ghostty --title=clipse
+nwg-look
+gsettings set org.gnome.desktop.interface cursor-theme BreezeX-RosePine-Linux
+gsettings set org.gnome.desktop.interface cursor-size 28
+gsettings set org.gnome.desktop.interface cursor-size 42
+gsettings set org.gnome.desktop.interface cursor-size 48
+spotify-player
+yay -Qs | fzf
+spotify_player
+gsettings set org.gnome.desktop.interface cursor-size 28
+reboot
+nwg-look
+btop
+nordvpn set meshnet off
+sudo pacman -S rustup<\n>rustup default stable<\n>rustup update<\n>
+yay -S ghc cabal-install
+sudo pacman -S haskell-language-server<\n>
+ghc --version<\n>cabal --version<\n>
+touch hallo.hs
+runhaskell hallo.hs
+ghc hello.hs<\n>
+ghc hallo.hs
+ghc-pkg check
+yay
+notify --help
+notify -t "Power off in 3 seconds" --timeout 5sec -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg<\n>
+which notify
+which nupm
+use nupm/nupm<\n>
+nupm install nupm --force --path<\n>
+which nupm
+git pull
+nupm install nu_plugin_desktop_notifications --force --path<\n>
+nupm install nu_plugin_desktop_notifications --force --path
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg<\n>
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+nvim /etc/hosts 
+sudo nvim /etc/hosts 
+wk https://www.instagram.com/reel/DPhjKDqEjpN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DP8W6tNDwEN/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP5yFrfkduY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DP0oipLEYSx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPymCn1EUQO/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DJE2RdUtyIZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPoS9Ijk9mN/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL9XGJ8sgJd/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPkbfUpDduo/?utm_source=ig_web_copy_link
+zotify https://open.spotify.com/track/4UBt00S6TNsKwgfxMcfNal?si=535b1038af594fc0
+wk https://www.instagram.com/reel/DNLtCm1KtYU/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO_7vAEk4L9/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOXpFeXEfVq/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMS5LjmpzG3/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOJIV2ZE1Xv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNyQYFGXgTo/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLLUM0iSf-r/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO7Dke7gazk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNsibqa3nrk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOqJGaHDGCT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNg-WUVxmg3/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO1Afs0kQeh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPrXR_vinIp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOD9m1TkvxZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP4aIirki2V/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOL8pOMCB1f/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNpQ2mVu74q/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPxxS55D68Z/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP09HfbER92/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPwGbvOkr6A/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO7efiZko3r/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPtFuYTiTbw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOFu9tLEroz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPu659Uj0S1/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNlydybR-xG/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN6GdRHj0Xr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKzFMmszf2E/?utm_source=ig_web_copy_link
+nwg-look
+btop
+zotify https://open.spotify.com/track/1otG6j1WHNvl9WgXLWkHTo?si=da3c2b4fdd4f4632
+zotify-album https://open.spotify.com/album/1YO3Eb228rrhTC0gKgGxSW?si=WHATP7_UTT2mwwWGY0T0Bw
+btop
+reboot
+btop
+reboot
+btop
+wk https://www.instagram.com/reel/DPzAbJckjHC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DP8HTL9gCBy/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO6bk9_AeMN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DO4nllJDNlB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOzycFdDEVc/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOVe69MEbRH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOxZruPkvW9/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOgpTtNjpzS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO7W4w-kX2v/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOuURakDfIc/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPBjzuSjvFF/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO_FMdeCY1L/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOcd3zejduA/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPB1t8RAfsJ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPTkHvDDgW9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DO422LskYb4/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/p/DPWhosSDobq/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/p/C8rsw32PRYG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DMvro6rzBzx/?utm_source=ig_web_copy_link
+gsettings set org.gnome.desktop.interface cursor-theme Future-Cursor
+gsettings set org.gnome.desktop.interface cursor-size 42
+yay -S spotify-qt
+spotify-qt
+yay -Rns spotify-qt
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+yay -S spicetify-cli
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+spicetify backup apply
+yay -S spotify
+sudo curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+yay -Rns spotify-launcher
+yay -S spotify
+sudo chmod a+wr /opt/spotify<\n>sudo chmod a+wr /opt/spotify/Apps -R
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+zotify spotify:track:3clPsjTbx4UOPMeQn7FZkV
+zotify https://open.spotify.com/track/2Tfv41qZ0U3ahZiKiDBa4a?si=8c7d72114a6a438e
+zotify https://open.spotify.com/track/7GxUPZNxNPvDToM4FkXE6G?si=95bbe0819abf4653
+zotify https://open.spotify.com/track/0XgoXio6L2d5tFhIq0K0ty?si=fb9a335122a84380
+zotify https://open.spotify.com/track/0NmdSkhOzURxYdmWTl4sYF?si=2c090e8e5b0f4101
+zotify https://open.spotify.com/track/0SPZ7y0fJiozsuWLSAocOl?si=c52b21b5dadd44ce
+zotify spotify:track:4pZVubICwJqqNQzLudg3EK
+zotify https://open.spotify.com/track/6z1kLsntE7FuzKZHZWrXYN?si=643b7e19492f4628
+zotify https://open.spotify.com/track/6qXGfKR1JHtH18PbT15k6F?si=1d5cf209eff74cd4
+zotify https://open.spotify.com/track/5DgkYopHWcNKg8rjFPYXFh?si=93c1e0924b7f411a
+zotify https://open.spotify.com/track/7teSwvY24pM0s7UpCm8QkJ?si=0a2169af59e34afe
+zotify https://open.spotify.com/album/5BenIQ2E8TFdZoAtPjUP9a?si=YjAAzFiHQmaON7VWsRm-QA
+zotify https://open.spotify.com/album/6wCvVvG0xd0zePNxN0OnlV?si=sCCEnBrSTUy-jgW34J3ccQ
+/home/pampam/.config/hypr/scripts
+sudo chmod +x "autofocus.sh"
+./autofocus.sh
+ls
+pkill ghostty
+zotify https://open.spotify.com/album/4BG97uWNo2Dloxbg1Bwa5M?si=BB1FyWzzQCSBY0eEKz3rmg
+zotify https://open.spotify.com/track/1LNGuCg01CHg9ErApmz92R?si=73ee35dcd63b4fe7
+btop
+ghostty --title=btop -e btop -p 4
+ghostty --title=btop -e /usr/bin/btop -p 4
+ls
+btop
+w https://videos.watchpeopledie.tv/1760845545shLn9zGf2-_mog~hd.mp4
+n
+helium-browser
+pklil helium
+pkill helium
+ps | find helium
+ps 
+ps
+pkill chrome
+broot
+hyprctl setcursor HYPRCURSOR_THEME,Future-Everforest-Green-Hyprcursor_Theme HYPRCURSOR_SIZE,48
+hyprctl setcursor 'Future-Cyan-Hyprcursor_Theme' 48
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 48
+wk https://danbooru.donmai.us/posts/10130756?q=eren_crying_%28meme%29+
+w https://preview.redd.it/no-i-dont-want-that-denji-kun-finding-another-woman-i-want-v0-jzwyhncok3wf1.jpeg?width=480&auto=webp&s=80750602333b8c84d698077f94c2d6e0996f8f3e
+hyprctl layers<\n>
+hyprctl keyword cursor:zoom_factor 1.5<\n>
+hyprctl keyword cursor:zoom_factor 1
+hyprctl keyword monitor "eDP-1, 3840x2160@60, 0x0, 2"
+ls
+lsblk
+sudo dd if=archlinux-2025.10.01-x86_64.iso of=/dev/sda bs=4M status=progress conv=fsync
+yay
+sudo dd if=Win11_25H2_English_x64.iso of=/dev/sda bs=4M status=progress conv=fsync
+lsblk
+sudo dd if=omarchy-3.0.2.iso  of=/dev/sda bs=4M status=progress conv=fsync
+yay -Qe | fzf
