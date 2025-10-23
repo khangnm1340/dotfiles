@@ -4467,3 +4467,12 @@ btop
 tmux a
 rmpc
 lazyit
+lsblk
+ls
+lsblk
+rmpc
+btop
+slblk
+lsblk
+nvim
+ls
