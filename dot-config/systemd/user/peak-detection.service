@@ -1,0 +1,12 @@
+
+[Unit]
+Description=peak-detection
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash -c 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+WorkingDirectory=/home/pampam/Documents/pam/1-Rough-Note/test
+Restart=no
+
+[Install]
+WantedBy=default.target

@@ -232,6 +232,7 @@ alias vim = nvim
 alias w = wget2
 alias ff = fastfetch
 alias n = ~/builds/nhentai/nhentai
+alias peak = tmux new-session -s peak bash
 
 
 alias jl = jupyter lab

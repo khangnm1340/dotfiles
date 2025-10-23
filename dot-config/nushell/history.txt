@@ -4051,3 +4051,419 @@ sudo dd if=Win11_25H2_English_x64.iso of=/dev/sda bs=4M status=progress conv=fsy
 lsblk
 sudo dd if=omarchy-3.0.2.iso  of=/dev/sda bs=4M status=progress conv=fsync
 yay -Qe | fzf
+ls /etc/udev/rules.d/
+yay -Qe | fzf
+lsblk
+duf
+lsblk
+du
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+lsblk
+mkdir debug/
+cd debug/
+lsblk
+sudo mount -o rw /dev/nvme1n1p9 ~/Documents/debug/
+sudo mount -o rw /dev/nvme1n1p9 ~/Documents/debug/boot/
+sudo mount -o rw /dev/nvme1n1p1 ~/Documents/debug/boot-efi-windows//
+sudo mount -o rw /dev/nvme1n1p1 ~/Documents/debug/boot-efi-windows/
+reboot
+cat
+job kill 1
+job list
+hyprpm update
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+hyprpm enable hyprscrolling
+ls
+ls
+hyprctl reload
+hyprpm reload -n<\n>
+reboot
+hyprpm list
+hyprpm reload
+reboot
+hyprpm reload
+betterdiscord-installer
+reboot
+easyeffects --help
+easyeffects ---help-all
+easyeffects --help-all
+pactl list sources short
+yay -S pw-vu-meter-git<\n>
+^bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL") <(jack_meter -n -f 10 "Level Meter:output_FR")'<\n>
+^bash -c 'paste <(jack_meter -n -f 2 "Level Meter:output_FL") <(jack_meter -n -f 2 "Level Meter:output_FR")'
+jack_meter -n -f 10 "Level Meter:output_FL"
+jack_meter -n -f 10 "Level Meter:output_FR"
+/home/pampam/Documents/pam/1-Rough-Note/test
+#!/usr/bin/env nu<\n>let left  = (open --raw (do { ^jack_meter -n -f 5 "Level Meter:output_FL" }) | lines)<\n>let right = (open --raw (do { ^jack_meter -n -f 5 "Level Meter:output_FR" }) | lines)<\n><\n>zip $left $right | each {|it|<\n>    let l = ($it.0 | str trim)<\n>    let r = ($it.1 | str trim)<\n>    print $"🎧 ($l)dB / ($r)dB"<\n>}
+help zip
+let left  = jack_meter -n -f 5 "Level Meter:output_FL"<\n>let right = jack_meter -n -f 5 "Level Meter:output_FR"<\n><\n>$left | zip $right | each {|it|<\n>    let l = ($it.0 | str trim)<\n>    let r = ($it.1 | str trim)<\n>    print $"🎧 ($l)dB / ($r)dB"<\n>}
+let left  = jack_meter -n -f 5 "Level Meter:output_FL"<\n>let right = jack_meter -n -f 5 "Level Meter:output_FR"<\n><\n>$left | zip $right
+jack_meter -n -f 5 "Level Meter:output_FL"
+( jack_meter -n -f 5 "Level Meter:output_FL" ) | zip (jack_meter -n -f 5 "Level Meter:output_FR")
+mut left = jack_meter -n -f 5 "Level Meter:output_FL"<\n>mut right = jack_meter -n -f 5 "Level Meter:output_FR"<\n><\n>$left
+jack_meter -n -f 5 "Level Meter:output_FL"
+jack_meter -n -f 10 "Level Meter:output_FL" | save -f left.txt
+jack_meter -n -f 10 "Level Meter:output_FL" | save -f left.txt &
+loop {<\n>    let value = (^jack_meter -n -f 10 "Level Meter:output_FL" | lines | last)<\n>    $value | save --force left.txt<\n>    sleep 100ms<\n>}
+help loop
+help sae
+help save
+jack_meter -n -f 10 "Level Meter:output_FL" | each {|line|<\n>    $line | save -f latest.txt<\n>}
+bash -c<\n>'paste <\n><(jack_meter -n -f 10 "Level Meter:output_FL")       <\n><(jack_meter -n -f 10 "Level Meter:output_FR") '
+bash -c 'paste <\n><(jack_meter -n -f 10 "Level Meter:output_FL")       <\n><(jack_meter -n -f 10 "Level Meter:output_FR") '
+paste <\n><(jack_meter -n -f 10 "Level Meter:output_FL")       <\n><(jack_meter -n -f 10 "Level Meter:output_FR")
+bash -c '<\n>paste <\n>\<(jack_meter -n -f 10 "Level Meter:output_FL")<\n>\<(jack_meter -n -f 10 "Level Meter:output_FR")<\n>'
+<\n>paste <\n>\<(jack_meter -n -f 10 "Level Meter:output_FL")<\n>\<(jack_meter -n -f 10 "Level Meter:output_FR")<\n>
+bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")'
+bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")' | each {|line|<\n>    $line | save -f latest.txt<\n>}
+bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")' 
+bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")' | each {|line|<\n>    $line | save -f latest.txt<\n>}
+bash -c 'paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR")'
+bash -c 'paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR")' | each {|line|<\n>    $line}
+bash -c 'paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR")' | save -f latest.txt
+bash -c 'paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR")'
+sudo chmod +x /home/pampam/.config/waybar/scripts/jack-levels.sh
+waybar
+~/.config/waybar/modules/jack-levels.sh
+bash -c "~/.config/waybar/modules/jack-levels.sh"
+./jack-levels.sh
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
+bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")<\n>'
+easyeffects --help-all
+easyeffects -w
+easyeffects --help-all
+easyeffects -w
+btop
+reboot
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+reboot
+systemctl --user enable --now peak-detection.service
+systemctl --user restart --now peak-detection.service
+systemctl --user daemon-reload
+systemctl --user enable --now peak-detection.service
+bash -c 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+/usr/bin/bash -c 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+./jack-levels.sh
+tmux new-session -d -s mysession 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+tmux list
+tmux new-session -d -s hanni "btop"
+tmux list
+tmux a
+ls
+tmux
+tmux new-session -d -s mysession bash -c 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+tmux a
+pw-top<\n>
+pw-meter<\n>
+sudo pacman -S pw-meter<\n>pw-meter<\n>
+sudo pacman -S pw-meter<\n>
+sudo pacman -S pw-meter
+jack_meter
+jack_meter --help
+paste
+help paste
+paste --help
+tldr paste
+bash -c 'paste -d " " <(jack_meter -n -q -f 1 "Level Meter:output_FL") <(jack_meter -n -q -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+tmux
+bash
+tmux new-session -d -s test 'bash'
+peak
+tmux new-session -d -s peak bash
+tmux a
+peak
+zotify https://open.spotify.com/track/0fiYcTgkSZ1E3kZdDlSgkO?si=ccf55a2b6cdf42f3
+sleep 10sec
+sleep 10sec <\n>hyprctl layers
+sleep 4sec <\n>hyprctl layers
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+hyprctl layers<\n>
+for i in 1..5 {hyprctl layers}
+for i in 1..5 {hyprctl layers<\n>    sleep 1sec<\n>}
+layerrule = noanim, hyprpicker<\n>layerrule = noanim, selection<\n>
+btop
+codex
+sudo npm install -g @openai/codex@latest
+yay -Qe | fzf
+codex
+uv add transformers datasets evaluate torch tqdm scikit-learn
+uv sync
+uv init
+uv add transformers datasets evaluate torch tqdm scikit-learn<\n>
+uv pip install torch --index-url https://download.pytorch.org/whl/cpu<\n>
+uv add transformers datasets evaluate tqdm scikit-learn<\n>
+overlay use .venv/bin/activate.nu 
+python sentiment_demo.py --sentence "I love Hugging Face!"
+python sentiment_demo.py --sentence "I hate Hugging Face!"
+code .
+codex
+code .
+code --enable-proposed-api ms-toolsai.jupyter .
+uv add ipykernel ipython
+uv sync
+code --enable-proposed-api ms-toolsai.jupyter .
+python sentiment_demo.py --sentence "I hate Hugging Face!"
+uv sync
+uv pip install torch --index-url https://download.pytorch.org/whl/cpu<\n>
+python sentiment_demo.py --sentence "I hate Hugging Face!"
+code --enable-proposed-api ms-toolsai.jupyter .
+python -m datasets.cli download glue --name sst2
+uv add datasets
+datasets download glue --name sst2
+python -m datasets download glue --name sst2.
+python -m datasets download glue --name sst2
+code --enable-proposed-api ms-toolsai.jupyter .
+ping google.com
+code --enable-proposed-api ms-toolsai.jupyter .
+overlay use .venv/bin/activate.nu 
+uv add accelerate>=0.26.0
+uv add transformers[torch]
+peak
+wk https://www.tiktok.com/@illit_official/video/7562228563118771463?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exnwnl/video/7535716372156878088?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@aegyoalan/video/7548169046731001119?is_from_webapp=1&sender_device=pc
+lsblk
+sudo mount /dev/nvme0n1p9 /home/pampam/Documents/debug/limime-efi
+sudo blkid -s UUID -o value /dev/nvme0n1p9
+sudoedit 40_custom 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+zotify https://open.spotify.com/track/5slfEWOLwxArH2jcZ2AeOF?si=29e3d317a00b4f4b
+zotify https://open.spotify.com/track/6EG4v5ySQF4j6ztbORi5Nu?si=2f4bec27c7df4be2
+zotify https://open.spotify.com/track/48X7uKIGYPy5rddGy91YMK?si=b0bd1521a0bc4f20
+zotify https://open.spotify.com/track/0DO0NtFn6hB4Brt44Z8Tkz?si=f617e0a42a6840a8
+zotify https://open.spotify.com/track/5qM20CmiF1Le1UQww15opf?si=3d8c4a33eb3045f9
+wk https://open.spotify.com/track/3ktvY63SDbpTHQBxluK9Le?si=34486a3e40004363
+zotify https://open.spotify.com/track/3ktvY63SDbpTHQBxluK9Le?si=34486a3e40004363
+peak
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+nvim /boot/grub/grub.cfg 
+ls
+eza
+sudo chmod -x /etc/grub.d/10_linux<\n>
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudoedit  /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+sudoedit  /etc/default/grub 
+cd /etc/grub.d/
+ls
+sudo chmod -x 30_uefi-firmware <\n>
+sudoedit  /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+sudo cp /etc/grub.d/10_linux /etc/grub.d/10_linux.backup<\n>
+sudoedit  10_linux 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+sudoedit  10_linux 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudoedit  /etc/default/grub 
+sudoedit 10_linux 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudoedit 10_linux 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudoedit 10_linux 
+sudo rm 10_linux 
+cp 10_linux.backup 10_linux
+sudo cp 10_linux.backup 10_linux
+sudo grub-mkconfig -o /tmp/grub.cfg<\n>less /tmp/grub.cfg<\n>
+sudo less /tmp/grub.cfg 
+sudo touch 1_hanni
+ls /boot/efi/
+ls /boot/efi/EFI/
+lsblk
+sudoedit 1_hanni 
+sudo chmod +x 1_hanni 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudo chmod -x 10_linux.backup 
+nmtui
+mv 1_hanni 00_hanni
+sudo mv 1_hanni 00_hanni
+blkid
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudo mv 00_hanni 15_hani
+sudo mv 00_hanni 15_hanni
+sudoedit 15_hanni 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudoedit 15_hanni 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+hyprctl setcursor HYPRCURSOR_THEME,Future-Everforest-Green-Hyprcursor_Theme HYPRCURSOR_SIZE,100
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 100
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 200
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 10
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 300
+hyprctl setcursor 'Future-Everforest-Green-Hyprcursor_Theme' 48
+sudo chmod -x 10_linux
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+cd /etc/grub.d/
+sudoedit 15_hanni 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+gsettings set org.gnome.desktop.interface cursor-size 48
+docker compose -f ./compose.yaml up -d
+xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
+xfreerdp3 /u:"Khang" /v:127.0.0.1:3389 /cert:tofu<\n>
+xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+podman unshare --rootless-netns xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+docker ps
+xfreerdp3 /u:"Khang" /v:127.0.0.1:3389 /cert:tofu<\n>
+poweroff
+df /run/media/pampam/8A54901E54900ED7
+/run/media/pampam/277B4C5740516ECD
+btop
+yay -S rclone
+nmtui
+yay
+rclone config
+yay -S rclone
+rclone config
+rclone lsd ngomkhang132:
+rclone copy /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/
+btop
+peak
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/
+n
+xfreerdp3 /u:"Khang" /v:127.0.0.1:3389 /cert:tofu<\n>
+xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
+xfreerdp3 /u:"Khang" /p:"12345678" /v:192.168.122.2 /cert:tofu
+winapps-setup
+winapps-setup --user --uninstall
+winapps-setup
+./setup.sh
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 16 --checkers 16 --drive-chunk-size 64M --buffer-size 64M --progres
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 16 --checkers 16 --drive-chunk-size 64M --buffer-size 64M
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 24 --checkers 24 --drive-chunk-size 128M --buffer-size 128M
+tmux
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 24 --checkers 24 --drive-chunk-size 16M --buffer-size 16M
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 100 --checkers 100 --drive-chunk-size 16M --buffer-size 16M
+tmux a
+lsblk
+sudo mount /dev/nvme0n1p10/home/pampam/Documents/debug/omarchy/
+sudo mount /dev/nvme0n1p10 /home/pampam/Documents/debug/omarchy/
+rclone copy --progress --checksum /run/media/pampam/277B4C5740516ECD/Pictures ngomkhang132:back-up-to-reserve-space-for-omarchy/ --transfers 100 --checkers 100 --drive-chunk-size 16M --buffer-size 16M
+sudo rm "Pictures/"
+sudo rmdir "Pictures/"
+sudo rmdir -rf "Pictures/"
+sudo rmdir -f "Pictures/"
+help rmdir
+sudo rm -rf "Pictures/"
+lbslk
+lsblk
+du
+df
+lsblk
+reboot
+lsblk
+sudo dd if=gparted-live-1.7.0-8-amd64.iso  of=/dev/sda bs=4M status=progress conv=fsync
+reboot
+yay
+reboot
+peak
+lsblk
+sudo mount /dev/nvme0n1p8 /home/pampam/Documents/debug/omarchy/
+ntfsfix /dev/nvme0n1p8
+sudo mount /dev/nvme1n1p8 /home/pampam/Documents/debug/omarchy/
+yay -S google-drive-linux
+mount-drive/
+mount-drive
+mount-drive --help
+mount-drive /home/pampam/Documents/debug/google-drive
+unmount-drive
+umount-drive
+mount-drive /home/pampam/Documents/debug/google-drive
+umount-drive
+mount-drive /home/pampam/Documents/debug/my-drive/
+mount-drive
+btop
+mount-drive /home/pampam/Documents/debug/my-drive/
+mount-drive
+sudo pacman -Syu fuse3
+mount-drive /home/pampam/Documents/debug/my-drive/
+mount-drive
+btop
+umount-drive
+unmount-drive
+git clone https://github.com/PKD667/google-drive-linux.git
+sudo sh install.sh<\n>
+mount-drive /home/pampam/Documents/debug/google-drive
+yay -Rns google-drive-linux
+mount-drive
+rclone mount ngomkhang132: /home/pampam/Documents/debug/my-drive
+rclone --allow-non-empty mount ngomkhang132: /home/pampam/Documents/debug/my-drive
+rclone mount --allow-non-empty ngomkhang132: /home/pampam/Documents/debug/my-drive 
+sudo rclone mount --allow-non-empty ngomkhang132: /home/pampam/Documents/debug/my-drive 
+sudo rm my-drive/
+sudo rm -rf my-drive/
+sudo rmdir -f my-drive/
+sudo rmdir my-drive/
+sudo rm -rf my-drive/
+lsblk
+mount-drive
+rclone mount ngomkhang132: /home/pampam/Documents/debug/my-drive 
+rclone copy --progress --checksum /home/Ext4Pam/Music/ ngomkhang132:arch_backup/ --transfers 100 --checkers 100 --drive-chunk-size 32M --buffer-size 32M
+btop
+docker compose --file ~/builds/winapps/compose.yaml stop<\n>
+zotify https://open.spotify.com/track/1bwnXBfIQFIBgBtsBADycD?si=37f3fd0302ac4d6b
+zotify https://open.spotify.com/track/38kcwx5znepLWCIBID0Bwm?si=c7357e4807184276
+zotify https://open.spotify.com/track/2Zj2AqmjkgpBix8cZAu6iY?si=79f7f9984e9845d0
+zotify https://open.spotify.com/track/02tNuntKQsoou5T4O8meyh?si=9ccd331b037b4462
+zotify spotify:album:6ELurkxQnAif7u5Vv6Wly9
+nvim
+rclone copy --progress --checksum /home/Ext4Pam/Music/ ngomkhang132:arch_backup/ --transfers 100 --checkers 100 --drive-chunk-size 32M --buffer-size 32M
+sudo ls lost+found/
+sudo rm -rf lost+found/
+ls lost+found/
+sudo ls lost+found/
+sudo rm -rf lost+found/
+hyprpm enable hyprscrolling
+hyprctl clients
+docker compose --file ~/builds/winapps/compose.yaml stop<\n>
+gsettings set org.gnome.desktop.interface cursor-size 48
+gsettings set org.gnome.desktop.interface cursor-size 100
+reboot
+docker compose down<\n>
+btop
+lsbk
+lsblk
+sl
+btop
+nvim
+lsblk
+lsblk
+ls
+btop
+jkl https://www.youtube.com/watch?v=WE_US-HXyMI
+lsblk
+btop
+btop
+tmux a
+rmpc
+lazyit

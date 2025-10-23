@@ -1,117 +1,3 @@
-nu
-nu
-fastfetch
-nu
-ls
-la
-l
-nvim
-l
-nu
-nu
-nu
-y
-y
-f
-nu
-nu
-nu
-nu
-cat
-cat
-cat
-cat
-cat
-nu
-nu
-nvim
-nvim
-nvim
-nvim
-nu
-nu
-btop
-btop
-btop
-yazi
-yazi
-nvim
-rmpc
-kitty --debug-font-fallback
-nvim
-nvim
-nvim
-nvim
-google-chrome
-chrome
-google
-chrome-browser
-nu
-nvim
-source .bashrc
-zi
-zi
-set -o vi
-nu
-y
-tmux
-nu
-fastfetch
-history
-nu
-while true ; do echo "hello"
-while true ; do echo "hello" ; sleep 1 ; done
-while true ; do echo "hello" ; done
-while true ; do echo "hello" ; done > hello.txt
-y
-while true ; do echo "hello" ; done >> hello.txt
-y
-y
-n
-nu
-tmuxinator new new_project
-y
-j /tmp/DZh2lTU77PLTx7u2ZjtTqw/history.txt
-nvim /tmp/Yna3PscUsT7gYZtypiDmTQ/history.txt
-fish
-yazi
-rmpc
-nvim
-overlay use .venv/bin/activate.nu
-python manage.py runserver
-yazi
-ps aux | grep aw-watcher
-/opt/activitywatch/aw-watcher-window/aw-watcher-window &
-y
-y
-clear
-n
-nu
-y
-yazi
-y
-yazi
-stow --dotfiles -d dotfiles/ -t . home
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1lxye7q/truy%E1%BB%87n_c%C6%B0%E1%BB%9Di_v%E1%BB%81_qu%E1%BA%A3_bom_h%E1%BB%99t_nh%C3%A2n_c%E1%BB%A7a_t%C3%A0u_c%E1%BB%99ng_c%E1%BB%A7a/
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1m324me/người_nhật_gọi_hồ_chí_minh_là_ông_hồ_bò_đỏ_kêu%2f
-ls
-cd prawl_tests/
-nu
-pushd
-fzf
-nu
-nvim
-nvim WhatsYourEta.nu
-gemini
-nvim headphone_scraper.py
-cd nu_eta && ipython
-fzf     --bind="j:down"     --bind="k:up"     --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"
-    --bind="load:unbind(j)+unbind(k)+unbind(i)"     --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)" \
-fzf     --bind="j:down"     --bind="k:up"     --bind="i:enable-search+unbind(j)+unbind(k)+unbind(i)"
-    --bind="load:unbind(j)+unbind(k)+unbind(i)"     --bind="esc:disable-search+rebind(j)+rebind(k)+unbind(i)" \
-nu
-btop
-reddit_archive https://www.reddit.com/r/Chainsawfolk/comments/1m6prsz/over_a_year_ago_i_said_the_concepts_might_come/
 btop
 y
 nu
@@ -502,3 +388,113 @@ nu
 btop
 pkill 38441
 nu
+paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") > latest.txt
+paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste <(jack_meter -n -f 1 "Level Meter:output_FL")       <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste <(jack_meter -n -f 1 "Level Meter:output_FL")       <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
+paste 
+\<(jack_meter -n -f 10 "Level Meter:output_FL")
+\<(jack_meter -n -f 10 "Level Meter:output_FR")
+nu
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR") 
+nu
+paste 
+<(jack_meter -n -f 10 "Level Meter:output_FL")       
+<(jack_meter -n -f 10 "Level Meter:output_FR") 
+nu
+nu
+MONITOR=$(pactl list sources short | awk '/monitor/ {print $2; exit}')
+if [ -z "$MONITOR" ]; then   echo "No monitor source found. Try: pactl list sources short";   exit 1; fi
+ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk -F= '/lavfi.astats.Overall.Peak_level/ {printf("%.2f\n",$2)}'
+ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk -F= '/lavfi.astats.Overall.Peak_level/ {printf("%.2f\n",$2)}'
+ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk '/pts_time/ {t=$3} /lavfi.astats.Overall.Peak_level/ {print t, $2}'
+ecasound -i alsa,default -o null -ev
+yay -S ecasound
+secasound -i alsa,default -o null -ev
+ecasound -i alsa,default -o null -ev
+ecasound -i alsa:EasyEffectsSink -o null -ev
+jack_meter -n "EasyEffects" -p
+yay -S jack_meters
+yay -S jackmeters
+yay -S jackmeter
+jack_meter -n "EasyEffects" -p
+jack_meter -n -f 10 "EasyEffects:out_1"
+jack_lsp
+yay -S jack_lsp
+yay -S jack-example-tools
+jack_lsp
+jack_meter -n -f 10 "EasyEffects:out_1"
+jack_meter -n -f 10 "Easy Effects Sink:playback_FL" "Easy Effects Sink:playback_FR"
+jack_meter -n -f 10 "Limiter:output_FL" "Limiter:output_FR"
+jack_meter -n -f 10 "Limiter:output_FL" "Limiter:output_FR"
+jack_meter -n -f 10 "Level Meter:output_FL" "Level Meter:output_FR"
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
+L=$(jack_meter -n -f 2 "Level Meter:output_FL" | tail -n 1)
+R=$(jack_meter -n -f 2 "Level Meter:output_FR" | tail -n 1)
+echo "{\"text\": \"🎧 ${L}/${R} dB\"}"
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
+nu
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+notify-send "hi"
+reboot
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+nu
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+tmux
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+tmux new-session -d -s mysession 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+'
+tmux a
+tmux list
+nu
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+./jack-levels.sh 
+nu
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+nu
+[200~paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done~
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+./jack-levels.sh &
+pkill 9397
+nu
+paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+nu
+nu
+paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+peak
+  python - <<'PY'
+  from datasets import load_dataset
+  load_dataset("glue", "sst2")
+  PY
+
+
+
+
+
+  python - <<'PY'
+  from datasets import load_dataset
+  load_dataset("glue", "sst2")
+  PY
+
+nu
+peak
+peak
+# kernel & initrd candidates
+ls -l /vmlinuz-* /boot/vmlinuz-* /boot/initramfs-* /boot/initrd* 2>/dev/null
+# find the block device that's mounted as root, then its PARTUUID (recommended)
+ROOTDEV=$(findmnt -n -o SOURCE /)
+echo "root device: $ROOTDEV"
+blkid -s PARTUUID -o value "$ROOTDEV"
+# or get UUID:
+blkid -s UUID -o value "$ROOTDEV"
+blkid -s UUID -o value "$ROOTDEV"
+blkid
+ss -ltnp | grep -E ':3389\b' || sudo ss -ltnp | grep -E ':3389\b'
+docker logs -f WinApps
+reboot
+peak
+peak

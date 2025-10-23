@@ -11,6 +11,11 @@
   "on-click": "/home/pampam/dotfiles/dot-config/waybar/scripts/toggle-countdown.sh",
   "tooltip": false
 },
+"custom/peak": {
+  "exec": "head -n1 /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt",
+  "interval": 1,
+  "tooltip": false
+},
   "custom/poweroff": {
     "format": "⏻",
     "on-click": "poweroff",

@@ -26,6 +26,10 @@ settings:
     https://www.nushell.sh: access-paste
     https://www.tiktok.com: access-paste
     https://x.com: access-paste
+  content.media.audio_capture:
+    https://p2p.mirotalk.com: true
+  content.media.video_capture:
+    https://p2p.mirotalk.com: true
   content.notifications.enabled:
     https://web.tolstoycomments.com: false
     https://www.facebook.com: true

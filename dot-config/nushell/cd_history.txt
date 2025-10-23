@@ -19,3 +19,4 @@
 /home/pampam/Documents/external_drives/drive1
 /usr/bin
 /home/pampam/Documents/UTH/MachineLearning
+/home/pampam/.config/waybar

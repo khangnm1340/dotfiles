@@ -14,12 +14,16 @@ theme = TokyoNight Storm
 # theme = omori
 # theme = tokyonight
 # background-opacity = 0.2
-background-opacity = 0.85
+background-opacity = 0.7
+# background-opacity = 1
 confirm-close-surface = false
 window-theme = ghostty
 window-show-tab-bar=auto
 unfocused-split-opacity = 0.8
 unfocused-split-fill = #000
+
+# window-padding-x = 14
+# window-padding-y = 14
 
 split-divider-color = 2FF7E5
 

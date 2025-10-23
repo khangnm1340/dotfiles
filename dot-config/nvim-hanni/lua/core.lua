@@ -28,8 +28,8 @@ vim.o.breakindent    = true
 
 -- Neovide globals (no keymaps here)
 vim.g.neovide_cursor_animation_length = 0.1
-vim.g.neovide_opacity = 0.9
-vim.g.neovide_normal_opacity = 0.85
+vim.g.neovide_opacity = 0.8
+vim.g.neovide_normal_opacity = 0.8
 
 -- Autocmds
 vim.api.nvim_create_autocmd("TextYankPost", {
