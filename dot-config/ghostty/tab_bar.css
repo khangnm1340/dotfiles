@@ -1,0 +1,85 @@
+
+/* Ghostty tabbar — GTK theme (variables at top for quick tweaks) */
+:root {
+  --tabbar-bg: rgba(10,12,15,0.6);
+  --tab-bg: rgba(255,255,255,0.03);
+  --tab-active-bg: rgba(255,255,255,0.08);
+  --tab-fg: #e6eef6;
+  --tab-accent: #7cc7ff;
+  --tab-radius: 8px;
+  --tab-padding: 6px 12px;
+  --tab-gap: 6px;
+}
+
+/* Generic tabbar container */
+.tabbar, .notebook, .gnome-shell .tabbar, .headerbar .tabbar {
+  background-color: transparent;
+  padding: 6px;
+  spacing: var(--tab-gap);
+  -gtk-icon-transform: none;
+}
+
+/* Individual tab */
+.tabbar .tab, .notebook tab, .tab {
+  background-color: var(--tab-bg);
+  color: var(--tab-fg);
+  padding: var(--tab-padding);
+  border-radius: var(--tab-radius);
+  margin-right: var(--tab-gap);
+  box-shadow: none;
+  border: 1px solid rgba(255,255,255,0.02);
+  transition: background-color 120ms ease, transform 120ms ease;
+}
+
+/* Hover */
+.tabbar .tab:hover, .tab:hover {
+  background-color: rgba(255,255,255,0.05);
+  transform: translateY(-1px);
+}
+
+/* Active/selected tab */
+.tabbar .tab:active, .tab.selected, .tab:checked, .tab.active {
+  background-color: var(--tab-active-bg);
+  color: var(--tab-fg);
+  border: 1px solid rgba(124,199,255,0.18);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Add thin accent underline instead of heavy box-shadow */
+.tabbar .tab.active::after, .tab.active::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(90deg, var(--tab-accent), rgba(124,199,255,0.5));
+  border-radius: 2px;
+  margin-top: 6px;
+}
+
+/* Close button inside tab (if present) */
+.tab .close, .tab .close-button, .tab-close {
+  border-radius: 6px;
+  padding: 2px 4px;
+  margin-left: 8px;
+  opacity: 0.85;
+}
+.tab .close:hover, .tab .close-button:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Unread badge */
+.tab .badge, .tab-badge {
+  background: var(--tab-accent);
+  color: #00121a;
+  border-radius: 999px;
+  padding: 2px 6px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+/* Compact variant (useful for single-line tabbars) */
+.tabbar.compact .tab, .notebook.compact tab {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}

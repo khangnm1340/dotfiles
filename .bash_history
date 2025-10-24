@@ -1,54 +1,3 @@
-btop
-y
-nu
-echo $PREFIX/share/ghostty/themes
-echo $PREFIX
-tmux
-tmux
-hostname -I
-ls
-nu
-echo key alt s | dotool
-ydotoold --socket-path="$HOME/.ydotool_socket" --socket-own="$(id -u):$(id -g)"
-nu
-echo $(id -u):$(id -g)
-ydotool key 56:1 38:1 38:0 56:0
-echo key alt tab |dotool
-echo key tab |dotool
-nu
-printf '%s\n' 'key alt+tab '| dotool
-echo 'key alt+tab '| dotool
-printf '%s\n' 'key alt+tab space alt+tab' | dotool
-printf '%s\n' 'key alt+tab space alt+tab' | dotool
-nu
-z
-cd /
-fd
-clear
-z
-zoxide
-nu
-nu -c "polars open r_SmartThings_posts.jsonl
-| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]
-| polars select archived archived_is_null
-| polars collect"
-nu
-nu -c "polars open r_SmartThings_posts.jsonl
-| polars with-column [(polars col archived | polars is-null | polars as archived_is_null)]
-| polars select archived archived_is_null
-| polars collect"
-nu
-n
-nu
-watch -n 1 sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
-watch -n 1 sudo nvme smart-log /dev/nvme0n1 | grep 'temperature'
-sudo smartctl -a /dev/nvme0n1 | grep 'Temperature'
-nu
-nu
-reddit_archive /home/pampam/builds/RedditArchiver-standalone/reddit-archive.sh
-reddit_archive https://www.reddit.com/r/VietNamNation/comments/1mlkmoj/ch%E1%BA%BF_%C4%91%E1%BB%99_t%C6%B0_b%E1%BA%A3n_b%E1%BB%91c_l%E1%BB%99t_ng%C6%B0%E1%BB%9Di_lao_%C4%91%E1%BB%99ng/
-nu
-go env 
 go env | grep GOMAXPROCS
 go env | grep GOMAXPROCs
 go env | wl-copy
@@ -498,3 +447,54 @@ docker logs -f WinApps
 reboot
 peak
 peak
+peak
+peak
+sudo fd /home/$USER/.local /usr /usr/local /etc /opt /var -iname '*ghostty*' 2>/dev/null | sort | tee /tmp/ghostty-files.txt
+nu
+sudo find /root/.local /home/$USER/.local /usr /usr/local /etc /opt /var -iname '*ghostty*' 2>/dev/null | sort | tee /tmp/ghostty-files.txt
+nu
+btop
+mkdir -p ~/.config/gtk-4.0
+cat > ~/.config/gtk-4.0/gtk.css <<'EOF'
+/* ===== GTK4 quick test override — FORCE OPAQUE + NO SHADOWS =====
+   Purpose: temporary test only. Forces headerbars/tabs/popovers/menus
+   to be fully opaque and removes box-shadows/borders so we can see
+   if the halo comes from theme-transparency/shadows.
+   Reversible: delete or rename this file to revert.
+*/
+
+/* Target common top-level chrome widgets: headerbars, toolbars, notebooks (tabs), popovers, menus, tooltips */
+headerbar,
+.header-bar,
+toolbar,
+.notebook,
+.notebook tab,
+.notebook tab *,
+/* popover/menu related */
+popover,
+.menu,
+.popup,
+.tooltip,
+.popover,
+.menu * {
+  /* Force fully opaque background so compositor can't blur through */
+  background-color: rgba(250,250,250,1) !important;
+  /* Remove shadows/borders that could be sampled by the blur */
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+  /* Keep text readable */
+  color: inherit !important;
+}
+
+/* A dark-theme alternative if you use dark GTK themes */
+@media (prefers-color-scheme: dark) {
+  headerbar, toolbar, popover, .menu, .tooltip, .notebook {
+    background-color: rgba(18,18,18,1) !important;
+  }
+}
+EOF
+
+GTK_DEBUG=interactive nautilus
+nautilus
+nautilus

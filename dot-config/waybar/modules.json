@@ -79,7 +79,7 @@
     "on-click": "ghostty --title=btop -e btop -p 2"
   },
   "memory": {
-    "format": "  {}%",
+    "format": " {}%",
     "on-click": "ghostty --title=btop -e btop -p 3"
   },
   "temperature": {

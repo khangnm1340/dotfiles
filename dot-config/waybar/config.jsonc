@@ -8,8 +8,8 @@
       // Choose the order of the modules
       "modules-left": [
             "custom/countdown",
-            "hyprland/window",
-            "custom/peak"
+            "hyprland/window"
+            // "custom/peak"
       ],
       "modules-center": [
             "hyprland/workspaces"

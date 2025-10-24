@@ -4476,3 +4476,91 @@ slblk
 lsblk
 nvim
 ls
+btop
+reboot
+btop
+hyprctl keyword workspace "special:scratchpad, gapsin:6"<\n>
+hyprctl keyword workspace "special:scratchpad, gapsout:12"<\n>
+btop
+ls
+reboot
+yay -S ghostty
+sudo rm /usr/share/applications/com.mitchellh.ghostty.desktop<\n>
+which ghostty
+./ghostty
+yay -Rns ghostty
+nu ~/.config/hypr/scripts/preload-wallpaper.nu
+nu ~/.config/hypr/scripts/randomly-load-wallpaper.nu 
+suspend
+systemctl suspend
+reboot
+lazyit
+lazygit
+git clone https://github.com/catppuccin/qutebrowser.git ~/.config/qutebrowser/catppuccin
+fd -u ghostty
+reboot
+nu ~/.config/hypr/scripts/preload-wallpaper.nu
+nu ~/.config/hypr/scripts/randomly-load-wallpaper.nu 
+hyprctl hyprpaper wallpaper /home/Ext4Pam/Pictures/Arch_pics/ashley-smiling.webp
+hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/ashley-smiling.webp
+nvim ~/.config/hypr/scripts/preload-wallpaper.nu
+hyprctl hyprpaper preload ,/home/Ext4Pam/Pictures/Arch_pics/ashley-smiling.webp
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/ashley-smiling.webp
+hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/ashley-smiling.webp
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/Gvqe9mBbsAIJ-0m.jpg<\n>hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/Gvqe9mBbsAIJ-0m.jpg
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg<\n>hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/Gvqe9mBbsAIJ-0m.jpg
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg<\n>hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg
+ghostty +list-themes
+yay -S ghostty
+yay
+yay -S ghostty
+which ghostty
+sudo rm vt/
+sudo rm -rf vt/
+$env.GHOSTTY_RESOURCES_DIR
+ghostty +list-themes
+yay -S ghostty
+$env.GHOSTTY_RESOURCES_DIR
+which ghostty
+reboot
+z
+zi
+sudoedit  /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+nvim /boot/grub/grub.cfg 
+sudoedit  /etc/default/grub 
+zi
+sudo chmod -x 10_linux
+sudo chmod -x 30_uefi-firmware 
+sudo chmod -x 41_snapshots-btrfs 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+hyprctl dispatch exit<\n>
+btop
+nvim
+ghostty -V
+ghostty --version
+lsblk
+reboot
+gsettings get org.gnome.desktop.interface gtk-theme
+gsettings get org.gnome.desktop.interface color-scheme
+gsettings get org.gnome.desktop.interface enable-animations
+GTK_THEME=Adwaita:light GTK_DEBUG=interactive ghostty<\n>
+GTK_DEBUG=interactive ghostty<\n>
+sudo pacman -S gtk4-demo<\n>
+yay -Ss
+yay -Ss | fzf
+sudo pacman -S gtk4-demos
+sudo pacman -S gtk3-demo<\n>
+sudo pacman -S gtk3-demos
+sudo pacman -S gedit<\n>
+sudo pacman -S gnome-terminal<\n>
+gsettings get org.gnome.desktop.interface gtk-theme<\n>
+yay
+GSK_RENDERER=gl ghostty
+reboot
+lsblk
+btop
+lsblk
+nu ~/.config/hypr/scripts/preload-wallpaper.nu
