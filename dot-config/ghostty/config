@@ -9,8 +9,8 @@ font-size = 14
 font-family = JetBrainsMono Nerd Font
 shell-integration-features = ssh-env
 
-window-padding-x = 20
-window-padding-y = 20
+# window-padding-x = 20
+# window-padding-y = 20
 
 split-divider-color = 2FF7E5
 
