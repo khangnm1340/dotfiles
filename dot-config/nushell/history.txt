@@ -4564,3 +4564,110 @@ lsblk
 btop
 lsblk
 nu ~/.config/hypr/scripts/preload-wallpaper.nu
+waybar
+yay -S impala
+impapa
+impala
+pacman -Qs iwd<\n>
+sudo pacman -S iwd<\n>
+sudo systemctl enable --now iwd.service<\n>
+impala
+nmtui
+ping google.com
+nmtui
+ping google.com
+impala
+nmtui
+sudo systemctl disable --now NetworkManager.service<\n>
+systemctl status iwd<\n>
+impala
+ip addr show wlan0<\n>
+ping -c 3 8.8.8.8<\n>
+ash
+ls /etc/NetworkManager/conf.d/
+sudo rm /etc/NetworkManager/conf.d/wifi_backend.conf
+sudo systemctl disable --now NetworkManager.service<\n>
+impala
+systemctl status iwd<\n>
+spotify
+btop
+reboot
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+git clonehttps://github.com/nushell/nupm.git
+git clone https://github.com/nushell/nupm.git
+use nupm/nupm<\n>nupm install nupm --force --path<\n>
+git pull
+nupm install --path nu_plugin_desktop_notifications -f  <\n>
+yay -S lsp-plugins
+peak
+jack_meter -n -f 10 "Level Meter:output_FR"
+jack_meter -n -f 10 "EasyEffects:output_FR"<\n>
+jack_lsp<\n>
+jack_meter -n -f 10 "Easy Effects Sink:playback_FL"<\n>jack_meter -n -f 10 "Easy Effects Sink:playback_FR"
+jack_meter -n -f 10 "Easy Effects Sink:playback_FL"
+jack_meter -n -f 10 "system:playback_2"<\n>
+pactl list short sinks | grep easyeffects<\n>
+jack_lsp | grep Level<\n>
+jack_meter -n -f 10 "Output Level Meter:output_FR"<\n>
+peak
+tmux a
+jrnl "I just had a nightmare, where I lost 3 font teeth in my lower jaw and one in my upper, and my gums feels like jelly. I remember feeling the sensitivity from the stump, I remember feeling scared, I don't have the money to afford an implant, I remember calling my dentist. I remember my mom telling my something really cruel like ' at one point, you're gonna be a source of pain for me and I dont think I can love you then'. I wanted to cry, I remember thinking about how many implants I would need, And how I need to act fast, otherwise I'm gonna lose the rest of them .I'm so glad I woke up"
+jrnl --help
+tldr jrnl
+jrnl -n 10
+tldr --update
+wk https://www.tiktok.com/@illit_official/video/7564375692893359368?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7561031876685892886?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@cokifreshprince/video/7533004615650938142?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@jillipuff1/video/7557337822630284551?is_from_webapp=1&sender_device=pc
+jkl https://www.youtube.com/watch?v=WE_US-HXyMI
+pipx uninstall yt-dlp
+yay -S yt-dlp
+jkl https://www.youtube.com/watch?v=WE_US-HXyMI
+wk https://www.tiktok.com/@chanh.n77/video/7555057376504663303?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@qxz8u/video/7562908538037603604?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@qing_416/video/7555880943806844216?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@chanh.n77/video/7550278129315499282?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@appleuser76928648/video/7563883980030840084?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@lynnxyq_/video/7560702635381165330?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7537214637142543638?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@hyrooliy._/video/7563861611333586207?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@aegyoalan/video/7540416739721448735?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@exploding_rat/video/7562539630764002562?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@katseyeworld/video/7552595058025909534?is_from_webapp=1&sender_device=pc
+which sudoedit
+sudoedit /etc/hosts 
+reboot
+nvim
+hyprctl activewindow -j | jq -r .floating
+sudo chmod +x cycle.sh
+ls
+eza -lh --group-directories-first --icons=auto
+eza -alh --group-directories-first --icons=auto
+eza --tree --level=2 --long --icons --git
+fzf --preview 'bat --style=numbers --color=always {}'
+fzf
+eza -l --icons --time-style=long-iso --group-directories-first
+fzf --preview 'bat --style=numbers --color=always {}'
+fzf
+ls
+print (fzf --preview 'bat --style=numbers --color=always {}')
+/home/pampam/dotfiles/dot-config/ghostty
+/home/pampam/dotfiles/dot-config/waybar
+lsa
+ls
+lsa
+lta
+hyprctl dispatch setprop "address:$(hyprctl activewindow -j | jq -r '.address')" opaque toggle
+chsh -s /usr/bin/bash
+hyprctl clinets
+hyprctl clients
+print "🦦" | save -f $count_down_file<\n>
+let count_down_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"<\n>print "🦦" | save -f $count_down_file<\n>
+let count_down_file = "/home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt"
+print "🦦" | save -f $count_down_file
+print "🦦" o> $count_down_file<\n>
+^echo "🦦" o> $count_down_file<\n>
+^echo "🦦" o> /home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt
+git rm --cached clipse.log<\n>
+git rm --cached clipboard_history.json <\n>

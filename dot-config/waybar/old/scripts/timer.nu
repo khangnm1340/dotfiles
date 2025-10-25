@@ -1,5 +1,4 @@
-# let raw_time = "25min"
-let raw_time = "5sec"
+let raw_time = "25min"
 def to_mmss [raw_time] {
   let parts = ($raw_time | str trim | split row ' ')
 
@@ -37,4 +36,4 @@ while $time >= 0sec {
 notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
 # notify -t "Power off in 3 seconds" -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
 # poweroff
-^echo "🦦" o> $count_down_file
+"🦦" | save -f $count_down_file

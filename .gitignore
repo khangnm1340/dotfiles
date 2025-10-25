@@ -2,6 +2,7 @@
 **/tmux/plugins
 **/backdrops
 clipboard_history.json
+clipse.log
 **/mpv-cut
 # **/mpd
 dot-config/nushell/nupm

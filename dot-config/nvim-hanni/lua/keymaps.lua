@@ -30,6 +30,7 @@ map("n", "<C-z>", function()
     local parent_dir = vim.fn.expand("%:p:h")
     vim.fn.setreg("+", parent_dir)
     vim.notify("Copied: " .. parent_dir)
+    vim.cmd("cd " .. vim.fn.fnameescape(parent_dir))
 end, { desc = "Copy parent directory of current file" })
 
 -- Quality of life

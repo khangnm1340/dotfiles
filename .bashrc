@@ -10,7 +10,7 @@ if [[ -n "$SHPOOL_SESSION_NAME" ]]; then
 fi
 
 # alias ls='ls --color=auto'
-alias peak='paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
+alias peak='paste -d " " <(jack_meter -n -f 1 "Output Level Meter:output_FR") <(jack_meter -n -f 1 "Output Level Meter:output_FL") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done'
 # alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"

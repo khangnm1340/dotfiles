@@ -26,12 +26,12 @@ $env.config = {
     keybindings: [
       {
             name: quick_cd
-            modifier: alt_shift
-            keycode: char_i
+            modifier: shift
+            keycode: char_z
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "pick-app" }
+                  cmd: "nvim (fzf --preview 'bat --style=numbers --color=always {}')" }
       }
       {
             name: quick_cd
@@ -224,7 +224,9 @@ alias wk = gallery-dl -D .
 alias sudo = sudo-rs
 alias su = su-rs
 alias grep = rg
-alias lsa = eza -l --icons --time-style=long-iso --group-directories-first
+alias lsa = eza -alh --group-directories-first --icons=auto
+alias lta = eza -a --tree --level=2 --long --icons --git
+# alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E

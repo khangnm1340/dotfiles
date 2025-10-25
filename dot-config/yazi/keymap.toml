@@ -8,6 +8,8 @@ prepend_keymap = [
   # { on = ["g", "j"], run = "cd ~/Documents/pam", desc = "Cd to pam notes" },
   { on = ["g", "k"], run = "cd /home/Ext4Pam/Pictures/Arch_pics", desc = "Cd to Arch pics" },
   { on = ["g", "l"], run = "cd /home/Ext4Pam/Pictures/NewjeansPics", desc = "Cd to NewjeansPics" },
+  { on = ["g", "a"], run = "shell 'echo $PWD >> /home/pampam/.config/nushell/cd_history.txt' ", desc = "copy current dir to cd_history.txt" },
+  { on = ["g", "A"], run = "shell 'echo $@ >> /home/pampam/.config/nushell/pams_history.txt' ", desc = "copy file to cd_history.txt" },
   { on = "<C-e>",   run = "shell 'if [ -n \"$SHPOOL_SESSION_NAME\" ]; then shpool detach; fi'" , desc = "shpool detach" },
   { on = ["C"] , run = "plugin ouch", desc = "Compress with ouch" },
   { on = ["g", "j"], run = "cd ~/.config", desc = "Cd to config" },

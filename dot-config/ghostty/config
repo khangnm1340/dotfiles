@@ -1,5 +1,5 @@
 theme = TokyoNight Storm
-background-opacity = 0.9
+background-opacity = 0.85
 confirm-close-surface = false
 window-theme = ghostty
 unfocused-split-opacity = 0.8

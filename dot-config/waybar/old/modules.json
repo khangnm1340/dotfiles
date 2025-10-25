@@ -66,22 +66,21 @@
     "on-click": "pwvucontrol"
   },
   "network": {
-    "format-icons": ["󰤨"],
-    "format": "{icon}",
-    "format-wifi": "{icon}",
+    "format-wifi": "  {signalStrength}%",
     "format-ethernet": "",
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "on-click": "ghostty --title=impala -e impala"
+    "on-click": "ghostty --title=btop -e btop -p 4"
   },
   "cpu": {
     "interval": 1,
     "format": " {usage}%",
-    "on-click": "ghostty --title=btop -e btop -p 1"
+    "on-click": "ghostty --title=btop -e btop -p 2"
   },
   "memory": {
     "format": " {}%",
-    "on-click": "ghostty --title=btop -e btop -p 2"
+    "on-click": "ghostty --title=btop -e btop -p 3"
   },
   "temperature": {
     "interval": 1,
@@ -109,9 +108,9 @@
     ]
   },
   "clock": {
-    "format": "{:L%A %H:%M}",
-    "format-alt": "{:L%d %B W%V %Y}",
+    "format": "{:%H:%M |%e %B}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
   },
   "backlight": {
     "device": "intel_backlight",

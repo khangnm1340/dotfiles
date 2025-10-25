@@ -1,23 +1,3 @@
-go env | grep GOMAXPROCS
-go env | grep GOMAXPROCs
-go env | wl-copy
-nu
-docker ps
-nu
-sudo usermod -aG docker $USER
-newgrp docker
-ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
-nu
-infocmp -x xterm-ghostty | ssh YOUR-SERVER -- tic -x -
-infocmp -x xterm-ghostty | ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080 -- tic -x -
-nu
-ssh -p 52202 root@1.208.108.242 -L 8080:localhost:8080
-ls $HOME/.config
-nu
-yay -Qe | fzf
-yay
-which cd
-echo $SHELL
 nu
 bash
 fish
@@ -498,3 +478,23 @@ EOF
 GTK_DEBUG=interactive nautilus
 nautilus
 nautilus
+sudo mkdir -p /etc/iwd
+echo -e "[General]\nEnableNetworkConfiguration=true" | sudo tee /etc/iwd/main.conf
+sudo systemctl restart iwd
+nmtui
+nu
+sudo mkdir -p /etc/NetworkManager/conf.d
+echo -e "[device]\nwifi.backend=iwd" | sudo tee /etc/NetworkManager/conf.d/wifi_backend.conf
+sudo systemctl restart NetworkManager
+impala
+nmtui
+nmtui
+sudoedit /etc/NetworkManager/conf.d/wifi_backend.conf
+nu
+nmcli -t -f active,ssid,signal dev wifi | grep '^yes'
+btop
+nu
+peak
+peak
+peak
+peak
