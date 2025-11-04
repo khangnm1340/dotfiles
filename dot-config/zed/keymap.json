@@ -13,15 +13,48 @@
     }
   },
   {
-    "context": "Editor",
+    "context": "Terminal",
     "bindings": {
-      // "j k": ["workspace::SendKeystrokes", "escape"]
+      "alt-h": ["terminal::SendText", "\u001Bh"]
     }
   },
   {
     "context": "(VimControl && !menu)",
     "bindings": {
       "shift-l": "pane::AlternateFile"
+    }
+  },
+  {
+    "context": "!KeymapEditor && vim_mode == normal",
+    "bindings": {
+      "space a": "pane::TogglePinTab"
+    }
+  },
+  {
+    "context": "KeymapEditor || vim_mode == normal",
+    "bindings": {
+      "ctrl-1": ["pane::ActivateItem", 0],
+      "ctrl-2": ["pane::ActivateItem", 1],
+      "ctrl-3": ["pane::ActivateItem", 2],
+      "ctrl-4": ["pane::ActivateItem", 3],
+      "ctrl-5": ["pane::ActivateItem", 4],
+      "alt-[": "pane::ActivatePreviousItem",
+      "alt-]": "pane::ActivateNextItem",
+      "alt-{": "pane::SwapItemLeft",
+      "alt-}": "pane::SwapItemRight"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && jupyter && !ContextEditor",
+    "bindings": {
+      "space l": "repl::Run",
+      "space c o": "repl::ClearOutputs"
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "ctrl-k": null
     }
   }
 ]

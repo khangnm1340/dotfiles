@@ -1,7 +1,7 @@
 // <Anyrun config dir>/applications.ron
 Config(
     /// Limit amount of entries shown by the applications plugin (default: 5)
-    max_entries: 3, // or whatever you want your max to be
+    max_entries: 5, // or whatever you want your max to be
     /// Whether to evaluate desktop actions as well as desktop applications (default: false)
     desktop_actions: false,
     /// Whether to use a specific terminal or just the first terminal available (default: None)

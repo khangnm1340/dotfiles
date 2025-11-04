@@ -91,6 +91,13 @@ $env.config = {
             mode: [vi_normal vi_insert]
             event: { edit: CutFromStart }
       }
+    {
+      name: "multi_line_newline"
+      modifier: shift
+      keycode: char_j
+      mode: ["emacs", "vi_insert"]
+      event: { edit: InsertNewline }
+    }
 	  
     ]
 }

@@ -7,7 +7,7 @@
 config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
-    global: false
+    global: true
   content.geolocation:
     https://www.speedtest.net: true
   content.headers.user_agent:
@@ -17,12 +17,14 @@ settings:
     https://developer.spotify.com: access-paste
     https://emojidb.org: access-paste
     https://ghostty.org: access-paste
+    https://giphy.com: access-paste
     https://htmlcolorcodes.com: access-paste
     https://nhentai.net: access-paste
     https://open.spotify.com: access-paste
     https://spicetify.app: access-paste
     https://toffeeshare.com: access-paste
     https://typst.app: access-paste
+    https://www.bilibili.com: access-paste
     https://www.nushell.sh: access-paste
     https://www.tiktok.com: access-paste
     https://x.com: access-paste

@@ -18,7 +18,8 @@ prepend_keymap = [
   { on = ["f", "j"], run = "plugin first-non-directory", desc = "Jumps to the first file" },
   { on = "<C-f>", run = "open --interactive", desc = "Open selected files interactively" },
   { on = "<A-k>", run = "plugin hanni", desc = "fzf" },
-	{ on = [ "c", "j" ], run = "copy dirname",          desc = "Copy the directory path" },
+  { on = [ "c", "j" ], run = "copy dirname",          desc = "Copy the directory path" },
+  { on = ["W"], run = '''shell 'hyprctl hyprpaper preload "$@" && hyprctl hyprpaper wallpaper ,contain:"$@"' ''', desc = "Set current file as wallpaper" },
 
 
   # { on = ["e", "q"], run = "plugin projects quit", desc = "Save last project and exit the process" },

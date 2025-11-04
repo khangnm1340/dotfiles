@@ -1,92 +1,4 @@
 nu
-bash
-fish
-sudo sh -c 'echo "#hi" >> /etc/hosts'
-cat /etc/hosts
-nu
-echo #hi >> /etc/host
-cat /etc/host
-echo #hi >> /etc/hosts
-cat /etc/hosts
-sudo echo >> /etc/hosts
-sudo echo "hi" >> /etc/hosts
-sudo echo "#hi" >> /etc/hosts
-nu
-sudo dd if=/dev/sda bs=4M count=$((5819484160 / 4194304)) status=progress | sha256sum
-size=$(stat -c%s Win11_24H2_English_x64.iso)
-sudo cmp -n "$size" -s Win11_24H2_English_x64.iso /dev/sda && echo "Match ✅" || echo "Mismatch ❌"
-poweroff
-nvim
-nu
-printf 'NVIM_APPNAME=nvim-hanni\nEDITOR=nvim\n' > ~/.config/environment.d/10-user.conf
-nu
-nu
-exit
-tmux
-tmux
-ls
-fd
-cls
-clear
-clear
-nu
-cat
-nu
-ls -s .venv/
-ls -l .venv/
-ls -l .venv
-ls -l /home/pampam/Documents/UTH/DataMining/pams-product-sentiment/.venv
-IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
-hyprctl hyprpaper preload "$IMG"
-pkill hyrpaper
-hyprpaper & disown
-hyprpaper & disown
-pkill hyprpaper
-hyprpaper & disown
-IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
-hyprctl hyprpaper preload "$IMG"
-hyprctl hyprpaper wallpaper eDP-1 "$IMG"
-hyprctl hyprpaper wallpaper HDMI-A-1 "$IMG"
-IMG="/home/pampam/Downloads/wallpapers/GR8mmuJbcAAa1uC.jpeg"
-hyprctl hyprpaper preload "$IMG"
-hyprctl hyprpaper wallpaper "eDP-1,$IMG"
-hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
-hyprctl hyprpaper wallpaper "HDMI-A-1,$IMG"
-nu
-tmux
-WALLPAPER="/home/pampam/Downloads/wallpapers/88086670_p0.png"
-yay -S swww
-nu
-IMG=/home/pampam/Downloads/wallpapers/zomoh-99376465.jpg
-hyprctl hyprpaper preload "$IMG"
-hyprctl hyprpaper preload "$IMG"
-pkill hyprpaper
-hyprctl hyprpaper preload "$IMG"
-nu
-exit 19
-export MYVAR=first
-echo $MYVAR
-exit
-echo hi
-echo hi
-exit
-export MYVAR=first
-echo $MYVAR
- SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
-            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
-        
- SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
-nu
- SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
-            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
-        
- SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
-nu
- SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
-            if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
-        
- SHPOOL__INTERNAL__PRINT_SENTINEL=prompt /proc/31347/exe daemon
-nu
  SHPOOL__INTERNAL__PRINT_SENTINEL=startup /proc/31347/exe daemon
             if [[ -z "${PROMPT_COMMAND+x}" ]]; then                PS1="shpool:main ${PS1}";             else                SHPOOL__OLD_PROMPT_COMMAND=("${PROMPT_COMMAND[@]}");                SHPOOL__OLD_PS1="${PS1}";                function __shpool__prompt_command() {                   PS1="${SHPOOL__OLD_PS1}";                   for prompt_hook in "${SHPOOL__OLD_PROMPT_COMMAND[@]}";                   do                     eval "${prompt_hook}";                   done;                   PS1="shpool:main ${PS1}";                };                PROMPT_COMMAND=__shpool__prompt_command;             fi
         
@@ -498,3 +410,102 @@ peak
 peak
 peak
 peak
+#!/bin/bash
+if pgrep -x hypridle >/dev/null; then   pkill -x hypridle;   notify-send "Stop locking computer when idle"; else   uwsm-app -- hypridle >/dev/null 2>&1 &   notify-send "Now locking computer when idle"; fi
+#!/bin/bash
+if pgrep -x hypridle >/dev/null; then   pkill -x hypridle;   notify-send "Stop locking computer when idle"; else   uwsm-app -- hypridle >/dev/null 2>&1 &   notify-send "Now locking computer when idle"; fi
+nu
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
+btop
+print "🦦" > $count_down_file
+echo "🦦" > $count_down_file
+echo "🦦" > /home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt
+nu
+nu
+git clone https://github.com/catppuccin/fcitx5.git
+mkdir -p ~/.local/share/fcitx5/themes/
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
+bash
+hyprctl dispatch setprop "address:$(hyprctl activewindow -j | jq -r '.address')" opaque toggle
+hyprctl dispatch setprop "address:$(hyprctl activewindow -j | jq -r '.address')" opaque toggle
+hyprctl dispatch setprop "address:$(hyprctl activewindow -j | jq -r '.address')" opaque toggle
+hyprctl dispatch setprop "address:$(hyprctl activewindow -j | jq -r '.address')" opaque toggle
+nu
+peak
+sudo ln -s /usr/share/applications/in.lsp_plug*.desktop /usr/local/share/applications/
+sudo sed -i '/^NotShowIn=/ s/$Hyprland;/' /usr/local/share/applications/in.lsp_plug*.desktop
+nnu
+nu
+sudo sed -i '/^NotShowIn=/ s/$Hyprland;/' /usr/local/share/applications/lsp-plugins-*.desktop
+sudo ln -s /usr/share/applications/lsp-plugins-*.desktop /usr/local/share/applications/
+sudo sed -i '/^NotShowIn=/ s/$/;Hyprland;/' /usr/local/share/applications/lsp-plugins-*.desktop
+nu
+sudo sed -i '/^NotShowIn=/ {
+  /Hyprland;/! { s/;*$//; s/$/;Hyprland;/ }
+}' /usr/local/share/applications/in.lsp_plug.lsp_plugins_*.desktop
+nu
+sudo ln -s /usr/share/applications/lsp-plugins-*.desktop /usr/local/share/applications/
+sudo sed -i '/^NotShowIn=/ s/$/;Hyprland;/' /usr/local/share/applications/lsp-plugins-*.desktop
+sudo ln -s /usr/share/applications/in.lsp_plug.lsp_plugins_*.desktop /usr/local/share/applications/
+nvim
+sudo sed -i '/^NotShowIn=/ s/$/;Hyprland;/' /usr/local/share/applications/in.lsp_plug.lsp_plugins_*.desktop
+nu
+anyrun daemon
+peak
+peak
+ls
+nu
+nvim
+ls
+nu
+nu
+nu
+nu
+nu
+$XDG_CACHE_HOME/swayimg
+echo $XDG_CACHE_HOME
+nu
+nu
+$XDG_CACHE_HOME/swayimg
+$XDG_CACHE_HOME
+echo $XDG_CACHE_HOME
+echo $HOME
+nu
+wl-copy < /home/Ext4Pam/Pictures/NewjeansPics/G4gA2fJa8AM206e.png
+echo "hi" > wl-copy
+echo "hi" | wl-copy
+nu
+peak
+peak
+if hyprctl monitors | grep -q "DPMS: on"; then     hyprctl dispatch dpms off; else     hyprctl dispatch dpms on; fi
+if hyprctl monitors | grep -q "DPMS: on"; then     hyprctl dispatch dpms off; else     hyprctl dispatch dpms on; fi
+if hyprctl monitors | grep -q "DPMS: on"; then     hyprctl dispatch dpms off; else     hyprctl dispatch dpms on; fi
+hyprctl monitors
+hyprctl monitors | rg "dpmsStatus: 1"
+hyprctl monitors | rg "dpmsStatus: 1"
+mv first/ test_dir/
+mv first test_dir/
+mv first/ test_dir
+nu
+nu
+source /home/pampam/Documents/UTH/MachineLearning/practice2/.venv/bin/activate
+source /home/pampam/Documents/UTH/MachineLearning/practice2/.venv/bin/activate
+tmux a
+tmuxa
+tmux
+tmux list
+nu
+nu
+tmux a
+tmux a
+tmux a
+tmux a
+tmux
+tmux a
+uv pip list
+tmux a
+tmux a
+tmux a
+nordvpn status | rg "Connected" > /dev/null
+if nordvpn status | rg "Connected" > /dev/null; a
+if nordvpn status | rg "Connected" > /dev/null; then   echo "🔒"; else   echo "🔓"; fi

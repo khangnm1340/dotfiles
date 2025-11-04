@@ -4671,3 +4671,965 @@ print "🦦" o> $count_down_file<\n>
 ^echo "🦦" o> /home/pampam/dotfiles/dot-config/waybar/scripts/count_down_time.txt
 git rm --cached clipse.log<\n>
 git rm --cached clipboard_history.json <\n>
+jrnl -n 10
+./fcitx5/enable-rounded.sh<\n>
+jrnl
+jrnl -n 10
+yay -Qs | fzf
+/home/pampam/dotfiles/dot-config/hypr/scripts
+sudo chmod +x toggle-idle.sh 
+bash -c "~/dotfiles/dot-config/hypr/scripts/toggle-idle.sh"
+jrnl
+mpv --help
+man mpv
+lta
+lsa
+lta
+peak
+zotify https://open.spotify.com/track/3lLH0FlC2pYCeZEf05zKQn?si=39a8b8224d2f4976
+zotify https://open.spotify.com/track/1yeB8MUNeLo9Ek1UEpsyz6?si=b6a10bd04ea64d57
+codex
+sudo npm install -g @openai/codex@latest
+open index.html
+qutebrowser index.html 
+codex --help
+codex resume
+cp /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang/Downloads/niujeansu .
+cp -r /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang/Downloads/niujeansu .
+codex
+qutebrowser index.html 
+wk https://youtube.com/shorts/sBv97lvHuig?si=yXqbO0aDWcm76mzG
+jkl https://youtube.com/shorts/sBv97lvHuig?si=yXqbO0aDWcm76mzG
+br -sdp
+br
+emoji --list | where name =~ "otter"
+git clone https://github.com/fdncred/nu_plugin_emoji.git
+nupm install --path nu_plugin_emoji -f  <\n>
+use nupm/nupm<\n>
+nupm install --path nu_plugin_emoji -f  <\n>
+nupm install nu_plugin_emoji -f  <\n>
+cargo install nu_plugin_emoji -f  <\n>
+z
+emoji --list | where name =~ "otter"
+emoji --list | fzf
+emoji --list | where name =~ "eye"
+bahs
+sudo rm -rf in.lsp*
+sudo rm -rf lsp-plugins-*.desktop 
+bahs
+sudo sed -i '/^NotShowIn=/ s/$/Hyprland;/' /usr/local/share/applications/in.lsp_plug*.desktop<\n>
+sudo sed -i '/^Hidden=/d' /usr/local/share/applications/in.lsp_plug*.desktop<\n>
+sudo sed -i '/^\[Desktop Entry\]/a Hidden=true' /usr/local/share/applications/in.lsp_plug*.desktop<\n>
+sudoedit "in.lsp_plug.lsp_plugins_trigger_stereo.desktop"
+sudo rm -rf !mimeinfo.cache
+ls | where name != "mimeinfo.cache" | each {|f| sudo rm -rf $f.name }
+yay -S menulibre
+sudo menulibre
+yay -Rns menulibre
+sudo cp /usr/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop .
+sudoedit /home/pampam/.local/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+sudo chmod +w "in.lsp_plug.lsp_plugins_trigger_stereo.desktop"
+chmod +x "in.lsp_plug.lsp_plugins_trigger_stereo.desktop"
+sudo chmod u+x "in.lsp_plug.lsp_plugins_trigger_stereo.desktop"
+sudo chmod u-x "in.lsp_plug.lsp_plugins_trigger_stereo.desktop"
+sudo chown pampam:pampam ~/.local/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop<\n>
+rm -rf ~/.cache/anyrun<\n>
+btop
+pkill anyrun
+anyrun
+sudo mv in.lsp* /home/pampam/.local/share/applications/lsp-plugin/
+btop
+anyrun daemon
+peak
+code --enable-proposed-api ms-toolsai.jupyter .
+docker compose --file /home/pampam/builds/winapps/compose.yaml start
+docker compose -f ./compose.yaml up -d
+docker compose --file /home/pampam/builds/winapps/compose.yaml start
+./setup.sh
+winapps-setup --user --uninstall
+./setup.sh
+btop
+docker compose  "compose.yaml" down
+docker compose  ./compose.yaml down
+docker compose --file /home/pampam/builds/winapps/compose.yaml  stop
+reboot
+codex resume
+uv init
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+uv add "torch==2.4.0" "torchvision==0.19.0" --index https://download.pytorch.org/whl/cpu
+uv cache dir
+ls
+eza
+uv add "torchvision==0.23.0+cpu" --index https://download.pytorch.org/whl/cpu
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+z
+docker compose -f /home/pampam/builds/winapps/compose.yaml up -d<\n>
+btop
+duf
+df
+sudoedit /etc/hosts 
+wk https://www.instagram.com/reel/DQJDMkYDufM/?utm_source=ig_web_copy_link
+./setup.sh
+winapps-setup --user --uninstall
+./setup.sh
+btop
+wk https://x.com/ketamiue/status/1974444466045116616/photo/1
+wk https://x.com/kurii89800727/status/1982417007246217613
+wk https://x.com/Mulsu_ww/status/1981777923972686023/photo/1
+wk https://x.com/__nyauuu/status/1982437940828799217
+wk https://x.com/otataru_sub/status/1982445552651718743
+wk https://x.com/genohiza371/status/1982405963937440224
+wk https://x.com/Saradaxanix/status/1982470939703922697
+wk https://x.com/0mou_art/status/1982484016444977495
+wk https://x.com/EZ3xyh/status/1982099795578937768
+wk https://x.com/tanijrou/status/1982185462144942150
+wk https://x.com/rinneKO_art/status/1982537651640324150
+wk 
+wk https://x.com/Ekuboroccoli/status/1982484360935985554
+wk https://x.com/khyleri/status/1982478199646044365
+wk https://x.com/erupusai2/status/1982667056815497704
+wk https://x.com/Kugo_eya/status/1981411367853932611
+wk https://x.com/Kerno_kr/status/1982360949236580572w
+wk https://x.com/doeun_o_o/status/1982239167275770126
+wk https://x.com/Kerno_kr/status/1982360949236580572
+wk https://x.com/subbaru875/status/1982695148866940975
+wk https://x.com/csmtalko/status/1982350682079338835/photo/1
+wk https://x.com/FreakyChainsaw0/status/1982525140949995983
+wk ;
+wk https://x.com/machipachi1901/status/1982687786022187022
+w https://private-user-images.githubusercontent.com/1794388/324180311-bce834b0-f205-434e-a027-b373495f9729.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjE1NTc5NjIsIm5iZiI6MTc2MTU1NzY2MiwicGF0aCI6Ii8xNzk0Mzg4LzMyNDE4MDMxMS1iY2U4MzRiMC1mMjA1LTQzNGUtYTAyNy1iMzczNDk1Zjk3MjkubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTAyNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEwMjdUMDkzNDIyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDdiYWNiNmQ3MmExNmZiNmRmMjM5NjY3NjM0OTBjNTYxYzc2YTZhMDAzMTBiYWM0NzA2NGQ4ZDdjOTlhOGM2OCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.IZ6webE87TCHk-xaY5e4Ezl9PE13EhLUCJFNzeWt3oo
+wk 
+wk https://x.com/Radan_555/status/1982092009226830306
+wk https://x.com/WasabiEraser/status/1982597754083049571
+docker compose --file ~/builds/winapps/compose.yaml stop<\n>
+~/Downloads/wallpapers/stay-in-da-middle/
+sudoedit /etc/hosts 
+wk https://www.instagram.com/stories/direct/3752349773711183608_36105987496
+wk https://www.instagram.com/p/DQMZUVaCT6-/
+wk https://www.instagram.com/reel/DQKqi4KEmfC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQMe-rxkRXL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM0Njx5S2bs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQQxRESjIBP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPlSGAZgAtn/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+wk https://www.instagram.com/reel/DOy5EbSDUMU/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP-hppbjhis/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQE7njNkTmk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOaKoiqk739/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNak_oMJLar/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPxSs2hEbvF/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNQ41loMJSs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO0jW0Kkc69/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPTll8dDie8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJR081HKxDH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKPNhO9t_S1/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNRm4_7g94f/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLA8Gm8pmyz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNUQsy6xZp1/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKcdOTNuciv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQExwFejL4A/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOKOXdUj4nZ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOvHM7RCbkS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPxjOLBkz2-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNVUJSdzdN5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNsom_V4ooe/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOZbFYIkS46/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPW-FZRDxFr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN9ur2GDI1R/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPEYgcEArIa/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQGMiXfjhkB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPA3xVUjYwt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOSFBi4ETGd/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP7nKvtj0S8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQEcfD6AZbk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPKhLdpEk5v/?utm_source=ig_web_copy_link
+btop
+docker ps
+docker compose --file ~/builds/winapps/compose.yaml stop<\n>
+reboot
+docker ps
+docker stop WinApps<\n>
+docker ps
+docker inspect -f '{{ .HostConfig.RestartPolicy.Name }}' WinApps<\n>
+docker rm WinApps<\n>
+docker inspect -f '{{ .HostConfig.RestartPolicy.Name }}' WinApps<\n>
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+docker inspect -f '{{ .HostConfig.RestartPolicy.Name }}' WinApps<\n>
+reboot
+jkl https://youtu.be/GKDwtvOTsDE?si=z1UrdfOqRvWmwvU2
+jkl https://youtu.be/30pS6ux3IrE?si=9cFru6f1mxFdjeGX
+jkl https://youtu.be/SNX7rjkjm_E?si=PC4rqIuzsbRoHyZI
+jkl https://youtu.be/SNX7rjkjm_E?si=fmdw7ZHW2hI7xP-V
+jkl https://youtu.be/GKDwtvOTsDE?si=6jn1dUV54fLi0hON
+jkl https://youtube.com/shorts/quNL4mE-wT0?si=ntZ-t9zFPprsTyGZ
+jkl https://youtube.com/shorts/ZEr7bEnePcI?si=h6VqkTB5otXl5t0P
+rclone copy /home/Ext4Pam/Pictures/Pictures/yt_downloads/yt-channels ngomkhang132:arch_backup/yt-channels/
+hyprctl reload
+hyprctl keyword monitor "eDP-1, disable"<\n>
+rclone copy --progress --checksum /home/Ext4Pam/Pictures/Pictures/yt_downloads/yt-channels ngomkhang132:arch_backup/yt-channels/ --transfers 16 --checkers 16 --drive-chunk-size 64M --buffer-size 64M
+wk https://x.com/tentenchan2525/status/1982752367234924611
+wk https://x.com/ee8U19LO6OQEmZu/status/1982773445323874502
+wk https://x.com/Burnt_art_/status/1982881230682300731
+jkl https://youtu.be/SNX7rjkjm_E?si=ERJVoOwi2HZK4UNy
+jkl https://youtu.be/mq0xE4Rszhg?si=4xqLDct8UvfUNWWz
+jkl https://youtu.be/tWPTe1eBDBs?si=YQ4ofx-8XvHJgCE3
+ps
+ps | sort-by mem
+yay
+btop
+peak
+yay
+yay -Rns opencomic-bin opencomic-bin-debug losslesscut-bin losslesscut-bin
+yay -Rns opencomic-bin opencomic-bin-debug losslesscut-bin-debug
+yay
+yay -Rns google-drive-linux-debug kidex-git-debug psst-git-debug  spotify-qt-debug
+yt-dlp https://www.bilibili.com/video/BV1Uf4y1z7pQ/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+sudo usermod -a -G flutter $env.USER
+yay -Qs | fzf
+yt-dlp https://soundcloud.com/hoanglongnger/12313-1a?si=b711de9529ed486d8b3df2588971c9f3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+yt-dlp https://www.bilibili.tv/en/video/2042821311
+yt-dlp https://www.bilibili.tv/en/video/2045635240?bstar_from=bstar-web.ugc-video-detail.playlist.all
+jkl https://youtu.be/tWPTe1eBDBs?si=5hn7JNtmAllSrSTS
+yt-dlp https://www.bilibili.tv/en/video/2042848977?bstar_from=bstar-web.ugc-video-detail.playlist.all
+jkl https://youtu.be/JV4Ttq-531w?si=iz3I9PSOdNNLSmJd
+yt-dlp https://www.bilibili.tv/en/video/2041757166?bstar_from=bstar-web.ugc-video-detail.playlist.all
+jkl https://youtu.be/j5CVUq4KQy0?si=zRzqZiOK-ChjMXJr
+jkl https://youtu.be/KWyuHedBJJo?si=t822Vi9WJmeelrD7
+jkl https://youtu.be/TwaN0C9tqCA?si=2_uyISZT4VN1cB-j
+jkl https://youtu.be/2Htj6AChzTE?si=kPw3jekVREK1Awv-
+jkl https://youtu.be/EgZq3hArCGA?si=WbjEiFcS8i58CfCo
+jkl https://youtu.be/KotGa7jNr24?si=c_Z_tGpvh5RtTReq
+jkl https://youtu.be/cG6oqawLRtI?si=8o9r2qkc1LxQXz0M
+jkl https://www.bilibili.com/video/BV1f54y1Y7Zg/?spm_id_from=333.1387.upload.video_card.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1f54y1Y7Zg/?spm_id_from=333.1387.upload.video_card.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1f54y1Y7Zg?t=3320.0
+gl https://www.bilibili.com/video/BV1f54y1Y7Zg?t=3320.0
+code --enable-proposed-api ms-toolsai.jupyter .
+yt-dlp https://soundcloud.com/nguyetcam/seiko-matsuda-last-christmas?si=ca448faa2422462c916f78fc10e919a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+yt-dlp https://soundcloud.com/user-76318617/bugs-seiko-matsuda-sweet?si=7983b0c35247488e83f7443c175cdf30&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+yay
+jrnl
+jrnl -n 10
+pdfimages -f 9 -l 9 -j "Chapter 5 - CNNs_Part1.pdf" page9
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+docker ps
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+btop
+docker stop WinApps<\n>
+ffmpeg -i "【蓝光】松田聖子Seikoland ～武道館ライブ'83～1983武道馆演唱会 [BV1Uf4y1z7pQ].mp4" -vf cropdetect -f null -
+ffmpeg -encoders | grep vaapi<\n>
+ffmpeg -i "【蓝光】松田聖子Seikoland ～武道館ライブ'83～1983武道馆演唱会 [BV1Uf4y1z7pQ].mp4" -vf "crop=1424:1072:248:4" -c:a copy output.mp4
+yt-dlp https://www.bilibili.tv/en/video/2042751872?bstar_from=bstar-web.ugc-video-detail.playlist.all
+code --enable-proposed-api ms-toolsai.jupyter .
+codex resume
+reboot
+starship prompt --debug<\n>
+STARSHIP_LOG=trace starship prompt<\n>
+starship timings<\n>
+reboot
+jrnl
+yay
+tldr jrnl
+jrnl yesterday:
+jrnl yesterday: <\n>October 28, 2025 — Lost in Seiko Matsuda<\n><\n>I started the day wanting to learn more about Seiko Matsuda — just curiosity, nothing serious. I thought I’d skim through a few pages, maybe listen to some of her songs while doing my deep learning practice. But somehow, that plan completely fell apart.<\n><\n>I went from one site to another — ChatGPT, 2chan, 4chan, Reddit — looking for old footage, live performances, anything from the 1980s. Then I stumbled upon these Japanese fan sites like Seikofan and her official page. Both had crazy-detailed lists of her concerts, Blu-rays, and TV appearances. I got hooked. Before I knew it, I was chasing this idea of finding *the source* — the best possible version of her performances.<\n><\n>Eventually, I found a Blu-ray listed on Bilibili, the Chinese version. I could play the video, but only at 360p. It said I needed to sign in for higher quality, so I tried. That was a whole ordeal — Bilibili required a WeChat account, and WeChat itself wanted verification from another user. I even asked Hung and BM if they had accounts, but they didn’t. I ended up just trying to register directly. I messed up the country code at first — put +84 instead of the right one — but I finally got in.<\n><\n>Then I realized something ridiculous: I didn’t even need to sign in. Using `yt-dlp`, I could just download the video directly. After that, I found Bilibili’s English (Western) version. It didn’t have the same videos as the Chinese one, but the ones it did have looked *right* — proper format, correct resolution. The ones from the Chinese version, on the other hand, had black bars baked into the sides.<\n><\n>For a while, I even thought about buying the Blu-ray just to “own the source.” But ChatGPT pointed out that it wouldn’t make much difference — H.265 videos are nearly indistinguishable from Blu-rays, especially when the original source is only 480p. It made sense, but there’s still that part of me that wants the physical disc, maybe for the nostalgia of it.<\n><\n>By the time I looked at the clock, the day was gone. I hadn’t done a single deep learning exercise. Instead, I spent the entire day drifting between tabs, chasing Seiko Matsuda through decades of music and pixels.<\n>Somehow, though, I don’t regret it.
+jrnl yesterday: <\n>"October 28, 2025 — Lost in Seiko Matsuda<\n><\n>I started the day wanting to learn more about Seiko Matsuda — just curiosity, nothing serious. I thought I’d skim through a few pages, maybe listen to some of her songs while doing my deep learning practice. But somehow, that plan completely fell apart.<\n><\n>I went from one site to another — ChatGPT, 2chan, 4chan, Reddit — looking for old footage, live performances, anything from the 1980s. Then I stumbled upon these Japanese fan sites like Seikofan and her official page. Both had crazy-detailed lists of her concerts, Blu-rays, and TV appearances. I got hooked. Before I knew it, I was chasing this idea of finding *the source* — the best possible version of her performances.<\n><\n>Eventually, I found a Blu-ray listed on Bilibili, the Chinese version. I could play the video, but only at 360p. It said I needed to sign in for higher quality, so I tried. That was a whole ordeal — Bilibili required a WeChat account, and WeChat itself wanted verification from another user. I even asked Hung and BM if they had accounts, but they didn’t. I ended up just trying to register directly. I messed up the country code at first — put +84 instead of the right one — but I finally got in.<\n><\n>Then I realized something ridiculous: I didn’t even need to sign in. Using `yt-dlp`, I could just download the video directly. After that, I found Bilibili’s English (Western) version. It didn’t have the same videos as the Chinese one, but the ones it did have looked *right* — proper format, correct resolution. The ones from the Chinese version, on the other hand, had black bars baked into the sides.<\n><\n>For a while, I even thought about buying the Blu-ray just to “own the source.” But ChatGPT pointed out that it wouldn’t make much difference — H.265 videos are nearly indistinguishable from Blu-rays, especially when the original source is only 480p. It made sense, but there’s still that part of me that wants the physical disc, maybe for the nostalgia of it.<\n><\n>By the time I looked at the clock, the day was gone. I hadn’t done a single deep learning exercise. Instead, I spent the entire day drifting between tabs, chasing Seiko Matsuda through decades of music and pixels.<\n>Somehow, though, I don’t regret it."
+jrnl -n 10
+jrnl yesterday: "October 28, 2025 — Lost in Seiko Matsuda<\n><\n>I started the day wanting to learn more about Seiko Matsuda — just curiosity, nothing serious. I thought I’d skim through a few pages, maybe listen to some of her songs while doing my deep learning practice. But somehow, that plan completely fell apart.<\n><\n>I went from one site to another — ChatGPT, 2chan, 4chan, Reddit — looking for old footage, live performances, anything from the 1980s. Then I stumbled upon these Japanese fan sites like Seikofan and her official page. Both had crazy-detailed lists of her concerts, Blu-rays, and TV appearances. I got hooked. Before I knew it, I was chasing this idea of finding *the source* — the best possible version of her performances.<\n><\n>Eventually, I found a Blu-ray listed on Bilibili, the Chinese version. I could play the video, but only at 360p. It said I needed to sign in for higher quality, so I tried. That was a whole ordeal — Bilibili required a WeChat account, and WeChat itself wanted verification from another user. I even asked Hung and BM if they had accounts, but they didn’t. I ended up just trying to register directly. I messed up the country code at first — put +84 instead of the right one — but I finally got in.<\n><\n>Then I realized something ridiculous: I didn’t even need to sign in. Using `yt-dlp`, I could just download the video directly. After that, I found Bilibili’s English (Western) version. It didn’t have the same videos as the Chinese one, but the ones it did have looked *right* — proper format, correct resolution. The ones from the Chinese version, on the other hand, had black bars baked into the sides.<\n><\n>For a while, I even thought about buying the Blu-ray just to “own the source.” But ChatGPT pointed out that it wouldn’t make much difference — H.265 videos are nearly indistinguishable from Blu-rays, especially when the original source is only 480p. It made sense, but there’s still that part of me that wants the physical disc, maybe for the nostalgia of it.<\n><\n>By the time I looked at the clock, the day was gone. I hadn’t done a single deep learning exercise. Instead, I spent the entire day drifting between tabs, chasing Seiko Matsuda through decades of music and pixels.<\n>Somehow, though, I don’t regret it."
+jrnl -n 10
+wk https://x.com/kouhakuworks/status/1982777890598261015
+wk https://x.com/mahkey0/status/1983239959864598868
+wk https://x.com/xyanaid/status/1776211933894672721
+wk https://x.com/Amamizu_Shizuku/status/1983056866499612846
+wk https://pbs.twimg.com/media/G2AcxasacAA5udP?format=jpg&name=large
+wk https://x.com/Dongzak_/status/1982788313715999063
+wk https://x.com/darentseta/status/1983253305938587845
+wk https://x.com/iazirra/status/1983255463710933421
+wk https://x.com/mantisi41/status/1983193991043789234
+jrnl -n 10
+jrnl "sajsldkjaksldjasdl"
+jrnl -n 10
+nu ~/.config/hypr/scripts/preload-wallpaper.nu
+ping bbc.com
+ping reddit.com
+nmtui
+reboot
+nvim
+wk https://x.com/sleepypapaaya/status/1983200248584647108
+wk https://x.com/kanae_isshiki/status/1983307536846745796
+wk https://x.com/Aj5Adam/status/1983193493091840384
+wk https://x.com/glitchshay/status/1983361737568264359
+wk https://x.com/smiskimina/status/1982714788489871601
+wk https://x.com/catzrinie/status/1983096828636868781
+wk https://x.com/_kirtome/status/1983306622199042512
+wk https://x.com/chainsawman_jp/status/1982939646540853297
+wk https://x.com/QUASARCAKE/status/1983229969817055561
+wk https://x.com/anime_twits/status/1983063780209627273
+wk https://x.com/McChiz76/status/1982997516846338185
+wk https://x.com/hasn4na/status/1983120536109830583
+wk https://x.com/Kuukow002/status/1982755588284297455
+wk https://x.com/freysghost/status/1982998622095716436
+wk https://x.com/blupixl__/status/1982755273229111434
+wk https://x.com/hourlydenreze/status/1983207920226406745
+wk V
+wk https://x.com/de4dlov2r/status/1982941842997162183
+wk https://x.com/AnimexTwts/status/1983276334311678279
+curl https://ipinfo.io/113.173.172.49/json
+reboot
+jrnl
+jrnl -n 10
+jrnl "xiu ve nha nau com"
+jrnl -n 10
+jrnl
+jrnl -n 1
+man jnrl
+jrnl --help
+jrnl -on 26
+jrnl -on 25
+jrnl -on 24
+jrnl -on 22
+jrnl -n 10
+jrnl -on 25
+tldr jrnl
+jrnl -on 25 -month 10
+jrnl -on 10/25
+jrnl -on 10/24
+jrnl -on today
+input listen --types [key] --raw
+sudo mv /usr/share/applications/in.lsp* /home/pampam/.local/share/applications/lsp-plugin/
+input listen --types [key] --raw
+<\n><\n>
+ghostty +list-keybinds 
+ghostty +list-keybinds | grep enter
+sleep 1sec<\n>print "sleeping 1 sec"<\n>sleep 2sec<\n>print "sleeping 2sec"<\n>sleep 3sec<\n>print "sleeping 3sec"
+print "sleeping 1 second"<\n>sleep 1sec<\n>print "sleeping 2 second"<\n>sleep 2sec<\n>print "sleeping 3 second"<\n>sleep 3sec
+print "sleeping 1 second"; sleep 1sec; print "done"<\n>
+print "sleeping 1 second"; sleep 1sec; print "sleeping 2 second"; sleep 2sec; print "sleeping 3 second"; sleep 3sec
+sleep 1sec;
+sleep 1sec; print hi;
+jrnl
+jrnl -on today
+jrnl
+jrnl -on today
+jrnl --help
+jrnl --edit
+jrnl -on today
+nu ~/.config/hypr/scripts/preload-wallpaper.nu
+swayimg
+sudo chmod +x "set_wallpaper.sh"
+sudo pacman -S socat<\n>
+swayimg
+hyprctl reload<\n>
+tmux
+hyprpaper
+tmux a
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg<\n>hyprctl hyprpaper wallpaper ,contain:/home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg
+hyprctl hyprpaper preload contain:/home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg<\n>hyprctl hyprpaper wallpaper ,/home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg
+hyprctl hyprpaper preload /home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg<\n>hyprctl hyprpaper wallpaper contain:,/home/Ext4Pam/Pictures/Arch_pics/GmQgmdSWwAA-KYQ.jpg
+hyprctl hyprpaper preload 1983307536846745796_1.jpg<\n>hyprctl hyprpaper wallpaper contain:,1983307536846745796_1.jpg
+hyprpaper
+hyprctl hyprpaper preload 1983307536846745796_1.jpg<\n>hyprctl hyprpaper wallpaper ,contain:1983307536846745796_1.jpg
+hyprctl hyprpaper preload 1983307536846745796_1.jpg<\n>hyprctl hyprpaper wallpaper ,tile:1983307536846745796_1.jpg
+yay -S imv
+imv -r .
+nomacs -d .
+yay -S qview
+qview .
+yay -Qs | fzf
+yay -S dolphine
+yay -S dolphin
+yay
+yay -S dolphin
+mkdir swayimg/
+$env._XDG_CACHE_HOME_
+$env.XDG_CACHE_HOME
+$env.HOME
+$env
+$env | find cache
+$env | grep cache
+man swayimg
+swayimg .
+$env.XDG_CACHE_HOME
+z
+swayimg .
+$XDG_CACHE_HOME/swayimg | bash
+"$XDG_CACHE_HOME/swayimg" | bash
+swayimg .
+jrnl
+jrnl -on today
+swayimg .
+hyprpaper
+jrnl
+wk https://x.com/pkb__02/status/1983550048542801969
+wk https://x.com/picsnewjeans/status/1983712003509383379
+wk https://x.com/doeun_o_o/status/1983462988574236712
+wk https://x.com/doeun_o_o/status/1983462412746633356
+wk https://x.com/KPOPIUMTV/status/1983708989012766833
+wk https://x.com/senaka_look/status/1983498646927663513
+wk https://x.com/X0195195796238/status/1983677285749420393
+wk https://x.com/oisisou_114/status/1983501586044178932
+wk https://x.com/juantokki/status/1983715300907610480
+wk https://x.com/newjeansacervo/status/1983196152276365577
+wk https://x.com/njzskz/status/1983708659076227433
+wk https://x.com/rubyeriz/status/1983708229260710123
+wk https://x.com/NewJeans_twt/status/1830619824365723924
+wk https://x.com/dollphams/status/1983711573010178533
+gl https://www.instagram.com/p/DQYuFz9krMr/
+gl https://www.instagram.com/p/DQY5czNEYnT/
+wk https://www.instagram.com/reel/DQAR_RHjfs0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQDMK9jkU3u/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQCmONLEbEr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPnmElokuIM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQPv7CDgZ0z/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPQWFNdDs1l/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQW28ZIEpQW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO6XHrsid8V/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQW1emLjdsx/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMYmwRZRRzL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQYXC2EkjoP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPm2BgpAcTV/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQLcTZLDjFs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQMhfJIEnN-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPM40ETCDCT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQQW78yDk-_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNz9JCvUKdI/?utm_source=ig_web_copy_link
+wk https://x.com/ningvinyl/status/1983707134069240135
+wk https://x.com/Tsuruloonatic/status/1983710081599598596
+wk https://x.com/khyleri/status/1983580841315070102
+wk https://x.com/chainsawman_jp/status/1983407049313751540
+wk https://x.com/_jaznam/status/1983468757336109200
+wk https://x.com/pouchwonki/status/1983722865947242717
+wk https://x.com/AzelNeto/status/1983706267135979763
+wk https://x.com/bborbnz/status/1983337749341208846
+wk https://x.com/suzybwoo/status/1983710501969506640
+wk https://x.com/_hannibunch/status/1983757055904379112
+wk https://x.com/newjified/status/1983708853331226771
+wk https://x.com/psicochurroz/status/1983295125016260794
+wk https://x.com/chainsawman_jp/status/1983388517351796871
+wk https://x.com/newjified/status/1983273045000409417
+wk https://x.com/retrokki/status/1983552354847949269
+wk https://x.com/TITOUAN_DESSIN/status/1983603930857963939
+wk https://x.com/sakuraccess/status/1983506140777337336
+wk https://x.com/kanae_isshiki/status/1983650046735479064
+wk https://x.com/NJZBTS/status/1983580926446817471
+wk https://x.com/shitposts_mp4/status/1983473887552618891
+wk https://x.com/anime_twits/status/1983063780209627273
+wk https://x.com/89Takezo/status/1983601967000907919
+wk https://x.com/Lunredux/status/1983504090874175643
+wk https://x.com/tina2nHR/status/1983744214187045275
+wk https://x.com/hyekittyz/status/1983723852913111373
+wk https://x.com/TWICE_Charts/status/1983656746326618276
+wk https://x.com/newjeans_loop/status/1875936965071458689
+wk https://www.reddit.com/r/Chainsawfolk/comments/1oiudux/he_thinks_power_being_part_of_the_main_trio_would/
+wk https://www.reddit.com/r/Chainsawfolk/comments/1ohfeug/reze_scrambled_like_an_egg_and_folded_like_an/
+betterdiscord-installer
+swayimg .
+peak
+jkl https://youtu.be/ZqgFcm3lMms?si=5dZC0xvQyftMcLyb
+yt-dlp https://youtu.be/pPRtkNDoaJ8?si=GCVWv7ZLzdHvhcie
+yt-dlp https://youtu.be/uiSKbbxakVI?si=DNFADct09UewhFHn
+yt-dlp https://youtu.be/8QAxCrCXWSM?si=pu9f55b3uRzkMqiH
+yt-dlp https://youtu.be/Ri16N9EovS8?si=WeXXiKmMM5AajaVw
+jkl https://youtu.be/u37IIj-gL3o?si=8y6T_rMN5JSHVmVi
+yt-dlp https://youtu.be/OhLeX4yZr5U?si=etJ6KgFrS13hB6XC
+jkl https://youtu.be/mDWHN0YEJZ8?si=Re0tMSq948h8dVpf
+jkl https://youtu.be/EwpTMex5Mhc?si=1xto_FDIMrjzbmDZ
+jkl https://youtu.be/bgQD6iVoWYA?si=JHRSFDo-ogOSjsQU
+jkl https://youtu.be/iRoT5m2X5mc?si=V4sSdNyT4AE1PHK2
+jkl https://youtu.be/eS3NDaN6EKo?si=C_D9z-XHJJFygh8A
+jkl https://youtu.be/7uePXqPyROQ?si=wrefw3yq6FZXzcr2
+jkl https://youtu.be/sgZA7-Pn91o?si=r4rHxmr1SaS9svF2
+jkl https://youtu.be/PL6sS6OLFxg?si=BjtNGLwXgCqAJsql
+jkl https://youtu.be/Tnbwuy5g4XI?si=OCsbSRNZp5n3WkLl
+jlk https://youtube.com/shorts/u4pdbvekhgs?si=YRJXRTtnUUZkfmcE
+jkl https://youtube.com/shorts/u4pdbvekhgs?si=YRJXRTtnUUZkfmcE
+jkl https://youtu.be/nK1wWW6QLQo?si=JBBAbt9P2jIMMuyL
+jkl https://youtu.be/VPkL3N-oCac?si=hk4UzRV8KQ24GuUx
+jkl https://youtu.be/E8pZnlz6pYA?si=2NwtO2rQuhZ5eZuw
+sudoedit /etc/hosts 
+jkl https://youtu.be/2vp_sbGBZNA?si=hg5szCDiUU5Sg7gz
+jkl https://www.bilibili.com/video/BV1ey4y137n3/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1ey4y137n3/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+btop
+yt-dlp https://www.bilibili.com/video/BV1XB4y1x7T8/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+w https://www.bilibili.com/video/BV1XB4y1x7T8/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+gl https://www.bilibili.com/video/BV1XB4y1x7T8/?vd_source=c475a34f5bbd81b53d63dbdbfc675777
+nordvpn c HongKong
+nordvpn c Hongkong
+nordvpn c hongkong
+nordvpn list
+nordvpn 
+nordvpn countries | fzf
+nordvpn c Hong_Kong
+nordvpn d
+mpv https://www.bilibili.com/video/BV12uJazNE6m/?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-vhnjg.1761822520915.58
+mpv https://www.bilibili.com/video/BV1sn7czzEtk/?share_source=copy_web&vd_source=313398b519f124251ed48cffde23f8ab
+nordvpn c US
+nordvpn countries | fzf
+nordvpn c Thailand
+nordvpn d
+ping https://search.bilibili.com/all?vt=22836619&keyword=%E5%A4%9C%E3%81%AE%E3%83%92%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%20%E6%9D%BE%E7%94%B0%E8%81%96%E5%AD%90&from_source=webtop_search&spm_id_from=333.788&search_source=5
+curl https://search.bilibili.com/all?vt=22836619&keyword=%E5%A4%9C%E3%81%AE%E3%83%92%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA%20%E6%9D%BE%E7%94%B0%E8%81%96%E5%AD%90&from_source=webtop_search&spm_id_from=333.788&search_source=5
+curl https://www.bilibili.com/video/BV1ey4y137n3/?spm_id_from=333.337.search-card.all.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+w https://www.bilibili.com/video/BV1ey4y137n3/?spm_id_from=333.337.search-card.all.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+nordvpn status
+yay -S brave-bin
+yt-dlp 【【松田聖子】風は秋色 4K 夜のヒットスタジオ 1980.10.13 完整接唱&Talk AI修复版】 https://www.bilibili.com/video/BV1XB4y1x7T8/?share_source=copy_web&vd_source=313398b519f124251ed48cffde23f8ab
+yt-dlp  https://www.bilibili.com/video/BV1XB4y1x7T8/?share_source=copy_web&vd_source=313398b519f124251ed48cffde23f8ab
+yt-dlp https://www.bilibili.com/video/BV1o8shz8ETG?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-bk62g.1761824318732.119&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV13FyCBEEg6/?spm_id_from=333.337.search-card.all.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1xt411M75b/?spm_id_from=333.337.search-card.all.click&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1DK4y1x7pY?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-5nk2d.1761827019867.123&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1QUNAevEy1?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-btjvp.1761827458782.755&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1nA411g7Hb?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206146-5nk2d.1761827509008.396&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1JtwxeqEd4?spm_id_from=333.788.recommend_more_video.3&trackid=web_related_0.router-related-2206146-8k2m6.1761827528935.855&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1Nz4y177LY?spm_id_from=333.788.recommend_more_video.2&trackid=web_related_0.router-related-2206146-q9d4h.1761827794146.840&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1Uw411V7Ev?spm_id_from=333.788.recommend_more_video.1&trackid=web_related_0.router-related-2206146-rwzvg.1761827799621.25&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+yt-dlp https://www.bilibili.com/video/BV1sY4y1j7GT?spm_id_from=333.788.recommend_more_video.8&trackid=web_related_0.router-related-2206146-n6d7k.1761827823732.914&vd_source=c475a34f5bbd81b53d63dbdbfc675777
+notify-send "Image copied to clipboard" "%"
+swayimg .
+print "hi" o> wl-copy
+print "hi" |  wl-copy
+btop
+reboot
+btop
+cat /sys/class/power_supply/AC/online<\n>
+reboot
+btop
+wk https://x.com/cornB2222/status/1972973693816205558
+wk https://x.com/martinfoda/status/1972092691019374841
+wk https://x.com/haerinsources/status/1969451061594214555
+wk https://x.com/tina2nHR/status/1969351575165411343
+jrnl
+jrnl -on today
+jrnl --edit
+starship print-config | grep timeout
+$env.STARSHIP_CONFIG
+starship --help
+starship config
+starship explain
+jrnl
+reboot
+hyprpaper
+wk https://x.com/khyleri/status/1983926874087813498
+wk https://x.com/bborbnz/status/1983779924369686668
+wk https://x.com/niihai39/status/1983846503715324292
+wk https://x.com/101Neg/status/1983819339225821311
+wk https://x.com/doeun_o_o/status/1983785553402401148
+wk https://x.com/U80x8Bltm00Rqeo/status/1984058752488948159
+wk https://x.com/gloxuba/status/1983639543636259181
+wk https://x.com/Makimatweets/status/1983916014485336515
+wk https://x.com/songsgohard/status/1983925556681793924
+wk https://x.com/AnimeFolder_/status/1983603558911238273
+wk https://x.com/GraphiteDesert/status/1983830622474035625
+wk https://x.com/anime_twits/status/1983828786333294876
+wk https://x.com/montes4352/status/1983818906872787010
+wk https://x.com/YeosangGlobal/status/1983711932403310789
+wk https://x.com/NeitheYAGI/status/1984001409176698945
+wk https://x.com/hanni_face/status/1983811303354593535
+wk https://x.com/tentenchan2525/status/1984075751499690212
+jrnl -n 10
+jrnl --edit
+jrnl -on today
+jrnl -on yester
+jrnl -on yesterday
+jrnl --help
+jrnl "yesterday at 3:33pm : test"
+btop
+jrnl --edit
+jrnl
+jrnl -on yesterday
+jrnl --edit
+jrnl --on today
+jrnl -on today
+jrnl -on yesterday
+jrnl
+jrnl -on yesterday
+jrnl
+mimeapps.list
+ping archlinux.org
+ping https://aur.archlinux.org/
+ping aur.archlinux.org
+ping https://aur.archlinux.org/
+ping archlinux.org
+lsblk
+btopp
+btop
+lsblk
+sudo dd if=cachyos-desktop-linux-250828.iso  of=/dev/sda bs=4M status=progress conv=fsync
+sudo dd if=cachyos-desktop-linux-250828.iso of=/dev/sda bs=4M status=progress conv=fsync
+lsblk
+sudo dd if=cachyos-desktop-linux-250828.iso of=/dev/sda bs=4M status=progress conv=fsync
+lsblk
+sudo dd if=cachyos-desktop-linux-250828.iso of=/dev/sdX bs=4M status=progress conv=fsync
+reboot
+sudo dd if=cachyos-desktop-linux-250828.iso of=/dev/sdX bs=4M status=progress conv=fsync
+sudo dd if=archlinux-2025.10.01-x86_64.iso of=/dev/sdX bs=4M status=progress conv=fsync
+lbslk
+lsblk
+sudo dd if=archlinux-2025.10.01-x86_64.iso of=/dev/sdb bs=4M status=progress conv=fsync
+ping archlinux.org
+btop
+ping archlinux.org
+curl https://archlinux.org/mirrorlist/?country=VN&protocol=http&protocol=https&ip_version=4
+lsblk
+sudo dd if=cachyos-desktop-linux-250828.iso of=/dev/sda bs=4M status=progress conv=fsync
+ping archlinux.org
+hyprctl cliets
+hyprctl clients
+peak
+jrnl
+jkl https://www.youtube.com/watch?v=E3UGrwmKFeU
+jkl https://youtube.com/shorts/bHVpxg4vyjw?si=CqLJW_Ah5FHMPwY4
+wk https://twitter.com/breadluvpham/status/1983836578888970751
+wk https://x.com/yunkkkker/status/1984058950069973400
+wk https://x.com/rivensner/status/1984020504362319944
+wk https://x.com/Drowsy_sheep/status/1984091869530485164
+wk https://x.com/NJZBTS/status/1983646989935050976
+wk https://x.com/Rio_Rife/status/1983960338820427977k
+wk https://x.com/Rio_Rife/status/1983960338820427977
+wk https://x.com/xyanaid/status/1984286567788351731
+wk https://x.com/McChiz76/status/1983947505747554655
+wk https://x.com/AGZAMx/status/1984099877412839838
+wk https://x.com/bloodshot_hare/status/1984208519193899312
+wk https://x.com/dittosnjz/status/1983702916939837898
+wk https://x.com/_hannibunch/status/1984126204639899798
+wk https://x.com/suke_Lover2/status/1983871324738220175
+wk https://x.com/aiomita/status/1983836529664606347
+jkl https://youtube.com/shorts/AO_YR_eaAkk?si=6rlSMRLXfXfRWQYH
+wk https://x.com/theMainCharctar/status/1983722627463270893
+wk https://x.com/baejeanies/status/1983871577046253986
+wk https://x.com/imbaddiabolic/status/1984116168697807175
+wk https://x.com/geulimsich75253/status/1983893098943168617
+w https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fblackbeard-one-piece-cope-gif-4686041379597452831&psig=AOvVaw0frJSZAaYomtIvsUVx4Bwf&ust=1762023409586000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIj29oePz5ADFQAAAAAdAAAAABAK
+w https://media.tenor.com/QQgpzpmwBh8AAAAe/blackbeard-one-piece.png
+btop
+wk https://x.com/haerinfeed/status/1984063247839064352
+hyprctl dispatch dpms off
+hyprctl dispatch dpms ff
+hyprctl dispatch dpms on
+brightnessctl -r
+hyprctl dispatch dpms off
+brightnessctl -r
+hyprctl dispatch dpms oon
+LinkHints.activateModeToOpenInNewTab
+brightnessctl -r
+hyprctl dispatch dpms on
+chmod +x /home/pampam/.config/hypr/scripts/toggle_screen.sh
+wk https://www.tiktok.com/@aegyoalan/video/7546709490792451358?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@illit_official/video/7562097578477702418?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@bngovv_/video/7554505356156718344?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@illit_official/video/7543843047671401746?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@illit_official/video/7543492793650466066?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@illit_official/video/7514301024513969415?is_from_webapp=1&sender_device=pc
+wk https://www.tiktok.com/@illit_official/video/7566562880833719560?is_from_webapp=1&sender_device=pc
+nordvpn c Thailand
+mpv https://viet69.nu/2k1-thich-choi-bao-cam-duoi-cao-vao-dit-lay-day-danh-mong-luc-chich/
+peak
+wk https://www.tiktok.com/@illit_official/video/7566895922123148552?lang=en
+wk https://www.tiktok.com/@illit_official/video/7566562880833719560?lang=en
+wk https://www.tiktok.com/@illit_official/video/7564375692893359368?lang=en
+wk https://www.tiktok.com/@illit_official/video/7555398694321802514?lang=en
+wk https://www.instagram.com/reel/DQCWwSJEiTf/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQX3mdPDDlB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQHUeA3gnt-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQYwe62gSqT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP5ubHUDjpb/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP_sgwriGV-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNFXAaFNqVv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLFo_YyofFT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKj3paEMpSM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQWpx2yE6mk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQOLQRbEjC2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLCW8STIuF0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOjaEVDESq8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJhCGC1xcwE/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMSoCMmMiE_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPu21dNDf4u/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DL5uyRPStcO/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQJh0Flk_3t/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQY9zJgjR0G/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO3k7_3k-w0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP_XsMcEtHB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN7jbxtDRgS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNGWef6OkgM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQbFnsXietW/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQMMgUjARpL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQL37P4Er8T/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPvoH86kigD/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNoDe_csT7P/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQewAkZkzqG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DMLcxKtplw6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPzkS4OgC9z/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPbiW9pksSJ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKrpLdhT7CK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPkv-8Kj4wS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPRXZOTCXlg/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOWGuFkAn1s/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP9DYuAAZzV/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNq7u6t2F4j/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPON7GVjFm5/?utm_source=ig_web_copy_link
+wk https://x.com/722whp/status/1984498185780556025
+wk https://x.com/dieponydie/status/1984377894899236945
+wk https://x.com/doeun_o_o/status/1984521170386108636
+wk https://x.com/juantokki/status/1984527909638545776
+wk https://x.com/Saradaxanix/status/1984555998984749204/photo/1
+wk https://x.com/levinky_art/status/1984656714042654754/photo/1
+wk https://x.com/X0195195796238/status/1984539923056378348/photo/1
+wk https://x.com/notL86/status/1984566864379584632
+wk https://x.com/moro_production/status/1984288001690931591
+wk https://x.com/TheDerpyZz/status/1984204746870411327
+wk https://x.com/ObsessedLeek/status/1984388319992824138
+wk https://www.instagram.com/reel/DN_MnaekmPo/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPteLLvEZ9F/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOeRydugRr9/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKSvLWFsyWS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP9JoyskT9w/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNNliYIMr1_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLQtzvmyNF2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQGtw73kW1w/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNJ-CCWO8wQ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPoUNQ9kgXR/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DLhqTkKhVrz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP81jNbEZg6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPjWYkpgOWV/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQTLyHqDUKq/?utm_source=ig_web_copy_link
+wk 
+wk https://www.instagram.com/reel/DJpgAszv7nE/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DMNgc53TXbs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPUlqpSjhwL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPKJeRTDw9o/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNckPZeog-U/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOgCpR_E4mS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPdo0oVDzJm/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNCbJq3RvQp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN5umu7E42N/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQe0O1YgM76/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPrIuQ5EXzP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQb0iC2Eqha/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOENbrIDsIy/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQdv-SWjPix/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQCa56OAGNH/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQPPck8jOX2/?utm_source=ig_web_copy_link
+peak
+wk https://www.facebook.com/share/v/17aKZEtLH8/
+w https://www.facebook.com/share/v/17aKZEtLH8/
+wk https://x.com/axelstool/status/1950245117589410080
+jkl https://youtu.be/kItFRM3O_IU?si=eYBrKTFs4t0R8CUu
+wk https://x.com/juantokki/status/1984653335375593823
+jrnl
+jrnl -on today
+yay
+zi
+sudo mkdir backup/
+mv --help
+mv 41_custom backup/
+sudo mv 41_custom backup/
+sudo mv 30_uefi-firmware backup/
+sudo mv 10_linux backup/
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+reboot
+hyprctl dispatch dpms on
+hyprctl dispatch dpms off
+docker ps
+docker compose -f ./compose.yaml up -d
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+btop
+docker ps
+docker stop WinApps<\n>
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+sudoedit /etc/hosts 
+jrnl
+jrnl -on today
+jrnl --edit
+mkdir test_dir/
+mv first/ test_dir/
+mv first test_dir/
+mv first test_dir
+mv first/ test_dir
+help mv
+man ^mv
+man mv | bash
+bash -c "man move"
+bash -c "man mv"
+mv first/* test_dir/
+help cp
+cp test_dir/* first/
+jrnl --edit
+jrnl
+hyprctl dispatch dpms off
+hyprctl dispatch dpms on
+ls
+tmux --help
+tmux -h
+tmux -T
+tmux a
+tmux
+tmux
+tmux a
+tmux a
+cat
+tmux
+tmux a
+cat
+tmux d
+tmux detach
+cat
+jrnl
+jrnl -n 10
+ear
+clear
+uv init
+overlay use .venv/bin/activate.nu 
+uv sync
+overlay use .venv/bin/activate.nu 
+uv add ipykernel ipython
+deactivate
+uv pip freeze
+uv sync
+uv pip list
+uv --help
+uv add pandas
+uv add pandas-stub
+uv add pandas-stubs
+uv pip list
+uv pip install pandas-stubs
+uv install pandas-stubs
+uv add pandas-stubs
+uv cache clean --all<\n>
+uv cache clean --all
+uv --help
+uv clear
+uv clean
+uv sync
+z
+uv list
+uv add torch torchvision --index-url https://download.pytorch.org/whl/cpu
+uv add ipykernel ipython
+uv add torch --index pytorch=https://download.pytorch.org/whl/cpu
+uv add torch torchvision --index pytorch=https://download.pytorch.org/whl/cpu
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+uv add matplotlib
+uv pip freeze
+uv sync
+uv install torchvision --indexhttps://download.pytorch.org/whl/cpu
+uv install torchvision --index https://download.pytorch.org/whl/cpu
+uv add torchvision --index https://download.pytorch.org/whl/cpu
+uv lock<\n>uv add torchvision --index https://download.pytorch.org/whl/cpu<\n>uv sync --locked<\n>
+btop
+uv init
+uv venv
+uv python practice1.py
+uv python -c practice1.py
+overlay use .venv/bin/activate.nu 
+python practice1.py 
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+python practice1.py 
+uv add matplotlib
+python practice1.py 
+deactivate
+uv int
+uv init
+uv venv
+nvim practice2.py
+overlay use .venv/bin/activate.nu 
+python practice2.py 
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+python practice2.py 
+deactivate
+uv init<\n>uv venv
+overlay use .venv/bin/activate.nu 
+python practice3.py 
+uv add transformers datasets evaluate tqdm
+python practice3.py 
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+python practice3.py 
+ipython
+python practice3.py --exercise both
+uv sync
+python practice3.py --exercise both
+uv add datasets huggingface_hub fsspec<\n>
+uv sync<\n>
+python practice3.py --exercise both
+python practice3.py --exercise 2
+codex
+sudo npm install -g @openai/codex@latest
+codex
+overlay use .venv/bin/activate.nu 
+ipykernel
+rm -rf ~/.cache/huggingface/datasets
+python practice3.py --exercise 2
+uv sync
+uv pip freeze | fzf
+uv sync
+uv add datasets
+uv pip freeze | fzf
+uv add datasets
+uv add datasets pyarrow
+uv add -U datasets 
+python practice3.py --exercise 2
+pip freeze | fzf
+uv pip freeze | fzf
+uv add datasets 
+uv add datasets>4
+uv add --frozen datasets>4
+uv pip freeze | fzf
+uv add --force datasets>4
+uv add --force-reinstall datasets>4
+deactivate
+uv init
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+uv add transformers datasets evaluate tqdm
+overlay use .venv/bin/activate.nu 
+python practice3.py --exercise 2
+codex resume 019a4e61-df22-7e12-bf54-ce9efe3da511
+pip install --upgrade "datasets>=2.21"
+deactivate
+overlay use .venv/bin/activate.nu 
+pip install --upgrade "datasets>=2.21"
+uv pip install --upgrade "datasets>=2.21"
+uv pip install requests>=2.32.2
+uv pip install --upgrade datasets>=2.21 --index-strategy unsafe-best-match.
+uv pip install --upgrade datasets>=2.21 --index-strategy unsafe-best-match
+python practice3.py --exercise 2
+uv pip install "huggingface-hub<1.0"
+python practice3.py --exercise 2
+uv add sklearn
+uv add scikit-learn
+python practice3.py --exercise 2
+uv pip install "pyarrow<17"
+python practice3.py --exercise 2
+uv sync --index-strategy unsafe-best-match
+deactivate
+uv init
+uv sync
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+uv add torch torchvision torchaudio<\n>uv add transformers datasets evaluate<\n>uv add accelerate tqdm matplotlib<\n>
+overlay use .venv/bin/activate.nu 
+python practice3.py
+deactivate
+uv add scikit-learn<\n>
+uv run python practice3.py<\n>
+uv add "transformers>=4.40"<\n>
+uv run python practice3.py<\n>
+uv run python -c "import transformers; print(transformers.__version__)"<\n>
+uv run python -c "from transformers import TrainingArguments; print(TrainingArguments.__module__)"<\n>
+uv venv remove<\n>uv sync<\n>
+uv run python practice3.py<\n>
+uv sync
+uv run python practice3.py<\n>
+uv add
+uv sync
+uv run python practice3.py<\n>
+uv init
+uv sync
+z
+jrnl
+btop
+yay
+yay -S ttf-cascadia-mono-nerd
+sudo chmod +x vpn-status.sh 
+nordvpn status | rg "Connected"
+nordvpn status | rg "Connected" > /dev/null
+waybar
+yay -Qs | fzf
+yay -Ss | fzf
+yay -S woff2-font-awesome

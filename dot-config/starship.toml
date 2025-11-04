@@ -1,3 +1,5 @@
+
+
 format = """
 $env_var\
 $username\
@@ -11,11 +13,13 @@ $line_break\
 $python\
 $character"""
 
-[env_var]
-variable = "SHPOOL_SESSION_NAME"
-format = "[$env_value]($style) "
-style = "bright-white"      # or "fg:#ffffff" for exact white
+# [env_var]
+# variable = "SHPOOL_SESSION_NAME"
+# format = "[$env_value]($style) "
+# style = "bright-white"      # or "fg:#ffffff" for exact white
 
+scan_timeout = 200        # file-scanning timeout (ms) — default 30
+command_timeout = 2000    # command execution timeout (ms) — default 500
 
 [directory]
 style = "bold italic bright-cyan"
@@ -51,3 +55,5 @@ style = "yellow"
 [python]
 format = "[$virtualenv]($style) "
 style = "bright-blue"
+
+

@@ -1,5 +1,5 @@
 theme = TokyoNight Storm
-background-opacity = 0.85
+# background-opacity = 0.85
 confirm-close-surface = false
 window-theme = ghostty
 unfocused-split-opacity = 0.8
@@ -62,5 +62,8 @@ keybind = ctrl+[=scroll_page_lines:1
 keybind = alt+u=increase_font_size:1
 keybind = alt+shift+u=decrease_font_size:1
 keybind = alt+ctrl+u=reset_font_size
+
+#fixes nushell shift + enter
+# keybind = shift+enter=csi:13;2u
 
 command = /usr/bin/nu --login --interactive

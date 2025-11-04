@@ -51,9 +51,11 @@
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-      "activated": " ",
-      "deactivated": " "
-    }
+       "activated": "",
+       "deactivated": ""
+    },
+    "on-click": "~/.config/hypr/scripts/toggle-idle.sh",
+    "start-activated": "true"
   },
   "wireplumber": {
     "format": "{icon}{volume}%",
@@ -66,21 +68,22 @@
     "on-click": "pwvucontrol"
   },
   "network": {
-    "format-wifi": "  {signalStrength}%",
+    "format-icons": ["󰤨"],
+    "format": "{icon}",
+    "format-wifi": "{icon}",
     "format-ethernet": "",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
+    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "format-disconnected": "Disconnected ⚠",
-    "on-click": "ghostty --title=btop -e btop -p 4"
+    "on-click": "ghostty --title=impala -e impala"
   },
   "cpu": {
     "interval": 1,
     "format": " {usage}%",
-    "on-click": "ghostty --title=btop -e btop -p 2"
+    "on-click": "ghostty --title=btop -e btop -p 1"
   },
   "memory": {
     "format": " {}%",
-    "on-click": "ghostty --title=btop -e btop -p 3"
+    "on-click": "ghostty --title=btop -e btop -p 2"
   },
   "temperature": {
     "interval": 1,
@@ -108,9 +111,9 @@
     ]
   },
   "clock": {
-    "format": "{:%H:%M |%e %B}",
+    "format": "{:L%A %H:%M}",
+    "format-alt": "{:L%d %B W%V %Y}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
   },
   "backlight": {
     "device": "intel_backlight",
