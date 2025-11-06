@@ -15,7 +15,7 @@
 }
 
 .modules-left {
-  margin-left: 8px;
+  margin-left: 7px;
 }
 
 .modules-right {
@@ -37,23 +37,15 @@
     color: #FC0000;
 }
 
+#network,
 #custom-poweroff,
 #cpu,
+#custom-vpn,
+#wireplumber,
+#idle_inhibitor,
 #battery{
   min-width: 12px;
   margin: 0 7.5px;
-}
-
-#custom-vpn,
-#wireplumber{
-  margin-right: 12px;
-}
-#network {
-  margin-right: 8px;
-}
-
-tooltip {
-  padding: 2px;
 }
 
 #clock {

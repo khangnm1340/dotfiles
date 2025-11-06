@@ -7,7 +7,7 @@
 config_version: 2
 settings:
   colors.webpage.darkmode.enabled:
-    global: true
+    global: false
   content.geolocation:
     https://www.speedtest.net: true
   content.headers.user_agent:
@@ -16,6 +16,7 @@ settings:
   content.javascript.clipboard:
     https://developer.spotify.com: access-paste
     https://emojidb.org: access-paste
+    https://fdownloader.net: access-paste
     https://ghostty.org: access-paste
     https://giphy.com: access-paste
     https://htmlcolorcodes.com: access-paste

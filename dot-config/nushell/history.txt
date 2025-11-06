@@ -5633,3 +5633,64 @@ waybar
 yay -Qs | fzf
 yay -Ss | fzf
 yay -S woff2-font-awesome
+yay -Slqa | fzf
+yay -S anki-bin
+du
+df
+duf
+swayimg
+swayimg .
+swayimg mpv-shot0001.jpg
+file mpv-shot0001.jpg<\n>
+imv mpv-shot0001.jpg<\n>
+uv sync
+nordvpn status 
+nordvpn d
+nordvpn c
+ping google.com
+jrnl
+yt-dlp https://soundcloud.com/pppana/coemtrongvongtay?si=3552736173134779b3db3ecd63c02067&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+yt-dlp https://www.facebook.com/stories/1839171472806568/UzpfSVNDOjEyMDY5NTQ3MTc5NDM3Nzc=/?view_single=1
+jkl https://youtu.be/kItFRM3O_IU?si=dvuUS9zvB8C--YVX
+zotify https://open.spotify.com/track/218EsnPhF2Fk5jA9fDqKSj?si=fc2bf8a8af20424a
+zotify https://open.spotify.com/track/108oGaLW9EGNUEHcjhV8UJ?si=2fcbb3eca4554514
+zotify https://open.spotify.com/track/2TdW76lddp3KDhLwzboqzY?si=6e628c7be53043dc
+tmux
+hyprpaper
+tmux a
+zotify https://open.spotify.com/track/5N4tOlw1mWK6x63Pu5qtbq?si=34e49ac7dd09421b
+sudo chmod -r "kill me pls/"
+yay -S lovely-injector
+wk https://www.pixiv.net/en/artworks/136031296
+wk https://www.pixiv.net/en/artworks/135892653
+uv init
+z
+yay -S python-requests
+python ModpackManager.py 
+python 'ModpackManager.py'
+btop
+python 'ModpackManager.py'
+swaync-client --help
+rclone --help
+btop
+ls
+yay
+jkl https://youtu.be/kItFRM3O_IU?si=8C54eBK6Hrj3MPKJ
+ghostty --title=wrapper
+du
+duf
+swayimg .
+swayimg
+man nomacs
+git clone https://github.com/nomacs/nomacs.git
+sudo chmod +x copy-image.sh 
+nomacs Bocchi-chan/
+uv tool install --python 3.13 osxphotos
+osxphotos
+osxphotos tutorial
+osxphotos tutorial | wl-copy
+osxphotos export ./ --filename "IMG_3347.JPEG"
+osxphotos export /home/pampam/Downloads/takeout --filename "IMG_3347.JPEG"
+iclouldpd
+yay -Qs | fzf
+icloudpd

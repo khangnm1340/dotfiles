@@ -12,7 +12,7 @@ path="$4"
 out="$5"
 
 cmd="yazi"
-termcmd="${TERMCMD:-alacritty --title 'wrapper'}"
+termcmd="${TERMCMD:-ghostty --title=wrapper}"
 
 if [ "$save" = "1" ]; then
       # save a file

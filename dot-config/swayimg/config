@@ -43,7 +43,7 @@ antialiasing = mks13
 # Number of previously viewed images to store in cache
 history = 0
 # Number of preloaded images (read ahead)
-preload = 50
+preload = 10
 
 ################################################################################
 # Gallery mode configuration

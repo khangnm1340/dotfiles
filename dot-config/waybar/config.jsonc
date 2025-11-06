@@ -9,6 +9,7 @@
   "modules-right": [
     // "group/tray-expander",
     "custom/vpn",
+    "idle_inhibitor",
     "wireplumber",
     "network",
     "cpu",
@@ -106,4 +107,13 @@
     ],
     "on-click": "pwvucontrol"
   },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+       "activated": "",
+       "deactivated": ""
+    },
+    "on-click": "~/.config/hypr/scripts/toggle-idle.sh",
+    "start-activated": "true"
+  }
 }
