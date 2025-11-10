@@ -6547,3 +6547,6 @@ sudo pacman -S gnome-keyring python-keyring<\n>
 sudo pacman -S kwallet python-keyring<\n>
 jrnl --encrypt
 stow --dotfiles -t ~ .
+lazygit
+systemctl --user enable --now ssh-agent.service
+lazygit

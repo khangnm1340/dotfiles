@@ -19,6 +19,7 @@ prepend_keymap = [
   { on = "<C-f>", run = "open --interactive", desc = "Open selected files interactively" },
   { on = "<A-k>", run = "plugin hanni", desc = "fzf" },
   { on = [ "c", "j" ], run = "copy dirname",          desc = "Copy the directory path" },
+  { on = "=", run = "hardlink", desc = "hardlink" },
   { on = ["W"], run = '''shell 'hyprctl hyprpaper preload "$@" && hyprctl hyprpaper wallpaper ,contain:"$@"' ''', desc = "Set current file as wallpaper" },
 
 
