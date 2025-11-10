@@ -6550,3 +6550,52 @@ stow --dotfiles -t ~ .
 lazygit
 systemctl --user enable --now ssh-agent.service
 lazygit
+jrnl --edit
+systemctl status elephant
+systemctl status
+systemctl --user disable elephant
+codex
+btop
+yay -Rns thunar
+sudo rm com.mitchellh.ghostty.service 
+systemctl --user status dbus.service<\n>
+uwsm-app -- codex
+yay -Rns gnome-keyring
+lazygit
+jrnl
+lazygit
+yay -Rns gnome-keyring
+jrnl --edit
+jrnl --encrypt
+jrnl --edit
+jrnl
+yay -S pass qtpass
+yay -Qs | fzf
+gpg --full-generate-key<\n>
+gpg --list-secret-keys --keyid-format LONG<\n>
+pass init 93246869598E93170D86022CD1359EC9E0C00C30
+pass insert test/example
+pass show test/example<\n>
+pass show test/example | wl-copy
+jrnl --help
+man jrnl
+jrnl --encrypt 
+pass insert jrnl/default<\n>
+jrnl --edit
+yay -Qs | fzf
+yay -Rns kwallet
+yay -Rns kwallet kio python-proton-keyring-linux
+yay -Rns proton-vpn-gtk-app
+uv tool install keyring-pass
+uv tool install keyring
+jrnl --help | nvim
+jrnl --enl
+jrnl --encrypt 
+keyring --help
+uv tool install keyring-pass<\n>
+jrnl --encrypt 
+jrnl --edit
+systemctl --user enable --now gpg-agent.socket
+systemctl --user start gpg-agent.socket<\n>
+gpgconf --list-dirs agent-ssh-socket
+ssh-add ~/.ssh/id_ed25519<\n>

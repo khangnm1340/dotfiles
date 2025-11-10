@@ -1,30 +1,3 @@
-STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.local/share/Steam" STEAM_COMPAT_DATA_PATH="$HOME/.local/share/Steam/steamapps/compatdata/3658110" PROTON_LOG=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 DXVK_HUD=1 "$HOME/.local/share/Steam/steamapps/common/Proton - Experimental/proton" run "/home/pampam/Documents/external_drives/drive1/Games/Steins_Gate_0/Game.exe" &> ~/proton_manual_output.txt
-nu
-$LD_PRELOAD
-env | egrep -i 'LD_PRELOAD|LD_LIBRARY_PATH|PROTON|WINE|STEAM' || true
-env | egrep -i 'LD_PRELOAD|LD_LIBRARY_PATH|PROTON|WINE|STEAM' || true
-env | grep -E -i 'LD_PRELOAD|LD_LIBRARY_PATH|PROTON|WINE|STEAM' || true
-env -u LD_PRELOAD steam
-env -u LD_PRELOAD steam
-# show suspicious env vars
-env | egrep -i 'LD_PRELOAD|LD_LIBRARY_PATH|PROTON|WINE|STEAM' || true
-btop
-env -u LD_PRELOAD steam
-nu
-nu
-nu
-source ~/.bashrc
-path
-$PATH
-nu
-ghostty
-nu
-mkdir -p ~/.config/environment.d
-cat > ~/.config/environment.d/10-local-bin.conf <<'EOF'
-PATH=$HOME/.local/bin:$PATH
-EOF
-
-reboot
 #!/usr/bin/env bash
 set -euo pipefail
 # change excludes or search path as you like
@@ -500,3 +473,28 @@ nu
 nu
 ls -l $(which poweroff)
 fish
+python3 - <<'EOF'
+import keyring
+print(keyring.get_keyring())
+keyring.set_password("jrnl", "default", 1801")
+print(keyring.get_password("jrnl", "default"))
+EOF
+
+python3 - <<'EOF'
+import keyring
+print(keyring.get_keyring())
+keyring.set_password("jrnl", "default", "1801")
+print(keyring.get_password("jrnl", "default"))
+EOF
+
+uv pip install keyring-pass
+uv pip install --system keyring-pass
+yay -S python-keyring-pass
+python3 - <<'EOF'
+import keyring
+print(keyring.get_keyring())
+keyring.set_password("jrnl", "default", "1801")
+print(keyring.get_password("jrnl", "default"))
+EOF
+
+nu

@@ -63,6 +63,8 @@ c.content.javascript.log_message.excludes = {
 # config.set('colors.webpage.darkmode.enabled', False, '*://127.0.0.1/*')
 
 
+config.set('colors.webpage.darkmode.enabled', False, 'https://wiki.archlinux.org/*')
+config.set('colors.webpage.darkmode.enabled', False, 'https://github.com/*')
 config.bind('ck','config-cycle colors.webpage.darkmode.enabled true false ;; reload')
 # config.set("colors.webpage.preferred_color_scheme", "light", "127.0.0.1")
 

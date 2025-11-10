@@ -1,5 +1,8 @@
 export TERMINAL=ghostty
 export FILEMANAGER=nautilus
+export EDITOR=nvim
+export _ZO_ECHO=1
+export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
 
 export PIPEWIRE_RUNTIME_DIR=$XDG_RUNTIME_DIR
 
