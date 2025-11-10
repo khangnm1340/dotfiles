@@ -1,0 +1,38 @@
+
+# ~/.config/walker/config.toml
+
+theme = "omori"
+force_keyboard_focus = true
+
+[keybinds]
+next = ["shift j"]
+previous = ["shift k"]
+quick_activate = ["1", "2", "3", "4"]
+page_down = ["ctrl d"]
+page_up = ["ctrl u"]
+
+
+# [[providers.prefixes]]
+# prefix = "j"
+# provider = "desktopapplications"
+
+[[providers.prefixes]]
+prefix = ";"
+provider = "providerlist"
+
+[[providers.prefixes]]
+prefix = "/"
+provider = "symbols"
+
+
+[providers]
+default = [
+  "desktopapplications",
+  "clipboard",
+] # providers to be queried by default
+empty = ["clipboard"] # providers to be queried when query is empty
+
+[providers.actions]
+clipboard = [
+  { action = "remove", bind = "ctrl x", after = "AsyncClearReload" }
+]

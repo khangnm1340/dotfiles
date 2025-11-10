@@ -6,7 +6,11 @@
 . "$HOME/.cargo/env"
 
 export XMODIFIERS=@im=fcitx
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
 
 source $HOME/.config/broot/launcher/bash/br
+
+if uwsm check may-start; then
+    exec uwsm start hyprland-uwsm.desktop
+fi

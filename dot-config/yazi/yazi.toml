@@ -1,19 +1,19 @@
 [opener]
-dragndrop = [{ run = 'ripdrag "$@"', desc = "drag and drop" }]
-open = [{ run = 'xdg-open "$@"', orphan = true, desc = "Open" }]
+dragndrop = [{ run = 'uwsm-app -- ripdrag "$@"', desc = "drag and drop" }]
+open = [{ run = 'uwsm-app -- xdg-open "$@"', orphan = true, desc = "Open" }]
 open_image = [
-      { run = 'swayimg "$@"', orphan = true, desc = "Open with swayimg" },
+      { run = 'uwsm-app -- swayimg "$@"', orphan = true, desc = "Open with swayimg" },
       # { run = 'gimp "$@"', orphan = true, desc = "Open with GIMP" },
-      { run = 'loupe "$@"', orphan = true, desc = "Open with Image Viewer" },
+      { run = 'uwsm-app -- loupe "$@"', orphan = true, desc = "Open with Image Viewer" },
       # { run = 'shotwell "$@"', orphan = true, desc = "Open with shotwell" },
 ]
 # open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
-reveal = [{ run = 'thunar "$@"', desc = "Reveal", for = "linux" }]
-edit = [{ run = 'nvim "$@"', block = true, for = "unix" }]
-nomacs = [{ run = 'nomacs "$@"',desc = "nomacs"}]
+reveal = [{ run = 'uwsm-app thunar "$@"', desc = "Reveal", for = "linux" }]
+edit = [{ run = 'uwsm-app -- nvim "$@"', block = true, for = "unix" }]
+nomacs = [{ run = 'uwsm-app -- nomacs "$@"',desc = "nomacs"}]
 # opencomic = [{ run = 'opencomic "$@"',desc = "opencomic"}]
 extract = [
-      { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+      { run = 'uwsm-app -- ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
 ]
 
 
@@ -21,7 +21,7 @@ extract = [
 rules = [
       # Multiple openers for a single rule
       { name = "*.html", use = ["edit", "open", "reveal"] },
-      { name = "*.cbz", use = [ "reveal", "extract"] },
+      # { name = "*.cbz", use = [ "reveal", "extract"] },
       { name = "*.pdf", use = ["open", "open_pdf", "reveal"] },
       # Folder
       { name = "*/", use = ["dragndrop", "reveal", "nomacs"] },

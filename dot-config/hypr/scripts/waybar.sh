@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if ! pidof -x "waybar"; then
-      waybar
+if pgrep -x waybar >/dev/null; then
+  pkill -x waybar
 else
-      pkill -x "waybar"
+  uwsm-app -- waybar >/dev/null 2>&1 &
 fi

@@ -1,11 +1,12 @@
 theme = TokyoNight Storm
-background-opacity = 0.85
+# background-opacity = 0.85
 confirm-close-surface = false
+quit-after-last-window-closed = false
 window-theme = ghostty
 unfocused-split-opacity = 0.8
 unfocused-split-fill = #000
 
-font-size = 14
+font-size = 15
 font-family = JetBrainsMono Nerd Font
 shell-integration-features = ssh-env
 

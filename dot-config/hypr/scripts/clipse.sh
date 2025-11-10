@@ -1,7 +1,8 @@
 #!/bin/bash
 
-if ! pidof -x "clipse"; then
-      ghostty --title=clipse -e clipse
+if pgrep -x clipse >/dev/null; then
+  pkill -x clipse
 else
-      pkill -x "clipse"
+  # ghostty --title=clipse -e clipse
+  alacritty --title=clipse -e clipse
 fi

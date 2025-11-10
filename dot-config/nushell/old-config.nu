@@ -191,3 +191,60 @@ $env.PROMPT_COMMAND = {||
                   send: executehostcommand,
                   cmd: "fd -E 'in*' -E 'com.zamaudio*' . /usr/share/applications -x basename {} | fzf | gtk-launch $in" }
       }
+
+
+
+def sot [ word: string] {
+polars open ~/Documents/UTH/MachineLearning/synonyms/thesaurus.parquet 
+| polars select pos word synonyms desc
+| polars filter ((polars col word) == (polars lit $"($word)"))
+| polars collect
+}
+def so [word: string] {
+grep $"^($word)," ~/Documents/UTH/MachineLearning/synonyms/mthesaur.txt
+}
+
+def curl-up [ file: string ] {
+  curl -v --upload-file $"($file)" $"https://transfer.sh/($file)"
+}
+
+def str-wrap [
+  --wrap-at: number = 40
+] {
+  str replace -a "\r\n" "\n"
+    | str replace -a "\n" " SINGLENEWLINE "
+    | str trim
+    | split row -r "\\s+"
+    | reduce -f { joined: '' count: 0 } { |word, state|
+        if ($word == "\n") {
+          {
+            joined: ($state.joined + "\n")
+            count: 0
+          }
+        } else if ($state.count < $wrap_at) {
+          if ($state.joined | is-empty) {
+            {
+              joined: $word
+              count: ($word | str length)
+            }
+          } else {
+            {
+              joined: ($state.joined + ' ' + $word)
+              count: ($state.count + 1 + ($word | str length))
+            }
+          }
+        } else {
+          {
+            joined: ($state.joined + "\n" + $word)
+            count: 0
+          }
+        }
+      }
+    | get joined
+    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n"
+}
+
+def wrap-col [column_name: string] {
+    update $"($column_name)" { str-wrap } | table -ed 1
+}
+

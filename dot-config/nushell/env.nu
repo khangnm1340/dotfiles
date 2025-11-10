@@ -33,10 +33,11 @@ $env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu
 $env.FZF_DEFAULT_COMMAND = 'fd -IL'
 $env.EDITOR = 'nvim'
+$env.TERMINAL = "ghostty"
 $env.XDG_CACHE_HOME = ($env.HOME)/.cache
 $env.JUPYTERLAB_DIR = ($env.HOME)/.local/share/jupyter/lab
 $env.LS_COLORS = (vivid generate tokyonight-night)
-$env.NVIM_APPNAME = "nvim-hanni"
+# $env.NVIM_APPNAME = "nvim-hanni"
 $env.EMMYLUALS_CONFIG = ($env.HOME)/.config/nvim-hanni/.emmyrc.json
 
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional

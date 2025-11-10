@@ -25,7 +25,7 @@
 },
 "custom/poweroff": {
 "format": "",
-"on-click": "poweroff",
+"on-click": "pkill chrome && poweroff",
 "tooltip": true,
 "tooltip-format": "Click to power off system"
 },
@@ -56,13 +56,14 @@
   "cpu": {
     "interval": 5,
     "format": "󰍛",
-    "on-click": "ghostty --title=btop -e btop -p 1"
+    "on-click": "uwsm-app -- alacritty --title=btop -e btop -p 1"
   },
   "clock": {
     "format": "{:L%A %H:%M}",
     "format-alt": "{:L%d %B W%V %Y}",
     "tooltip": false,
-    "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
+    // "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
+    "on-click-right": "uwsm-app -- alacritty --title=calcure -e calcure"
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
@@ -75,7 +76,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "ghostty --title=impala -e impala"
+    "on-click": "uwsm-app -- alacritty --title=impala -e impala"
   },
   "battery": {
     "format": "{capacity}% {icon}",

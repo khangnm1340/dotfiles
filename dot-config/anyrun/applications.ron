@@ -4,12 +4,13 @@ Config(
     max_entries: 5, // or whatever you want your max to be
     /// Whether to evaluate desktop actions as well as desktop applications (default: false)
     desktop_actions: false,
+    //preprocess_exec_script: Some("/home/pampam/dotfiles/dot-config/anyrun/preprocess_application_command.sh"),
     /// Whether to use a specific terminal or just the first terminal available (default: None)
     terminal: Some(Terminal(
       // The main terminal command
-      command: "ghostty",
+      command: "xdg-terminal-exec",
       // What arguments should be passed to the terminal process to run the command correctly
       // {} is replaced with the command in the desktop entry
-      args: "-e {}",
+      args: "{}",
   )),
 )

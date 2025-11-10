@@ -114,61 +114,6 @@ cd /usr/share/applications
 use ~/.cache/starship/init.nu
 use std/dirs
 use std formats *
-
-def sot [ word: string] {
-polars open ~/Documents/UTH/MachineLearning/synonyms/thesaurus.parquet 
-| polars select pos word synonyms desc
-| polars filter ((polars col word) == (polars lit $"($word)"))
-| polars collect
-}
-def so [word: string] {
-grep $"^($word)," ~/Documents/UTH/MachineLearning/synonyms/mthesaur.txt
-}
-
-def curl-up [ file: string ] {
-  curl -v --upload-file $"($file)" $"https://transfer.sh/($file)"
-}
-
-def str-wrap [
-  --wrap-at: number = 40
-] {
-  str replace -a "\r\n" "\n"
-    | str replace -a "\n" " SINGLENEWLINE "
-    | str trim
-    | split row -r "\\s+"
-    | reduce -f { joined: '' count: 0 } { |word, state|
-        if ($word == "\n") {
-          {
-            joined: ($state.joined + "\n")
-            count: 0
-          }
-        } else if ($state.count < $wrap_at) {
-          if ($state.joined | is-empty) {
-            {
-              joined: $word
-              count: ($word | str length)
-            }
-          } else {
-            {
-              joined: ($state.joined + ' ' + $word)
-              count: ($state.count + 1 + ($word | str length))
-            }
-          }
-        } else {
-          {
-            joined: ($state.joined + "\n" + $word)
-            count: 0
-          }
-        }
-      }
-    | get joined
-    | str replace -ar "\\s*SINGLENEWLINE\\s*" "\n"
-}
-
-def wrap-col [column_name: string] {
-    update $"($column_name)" { str-wrap } | table -ed 1
-}
-
 def --env y [...args] {
 	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
 	yazi ...$args --cwd-file $tmp
@@ -237,7 +182,7 @@ alias lta = eza -a --tree --level=2 --long --icons --git
 alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
-alias vim = nvim
+alias nvim = uwsm-app -- nvim
 alias w = wget2
 alias ff = fastfetch
 alias n = ~/builds/nhentai/nhentai

@@ -1,0 +1,2 @@
+[runner]
+runprefix = "uwsm app --"

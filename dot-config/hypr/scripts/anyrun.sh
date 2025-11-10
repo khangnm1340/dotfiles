@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if ! pidof -x "anyrun-provider"; then
-      anyrun
-else
+if pgrep -x anyrun-provider >/dev/null; then
       anyrun close
+else
+      uwsm-app -- anyrun
 fi

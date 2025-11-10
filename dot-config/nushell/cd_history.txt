@@ -21,4 +21,5 @@
 /home/pampam/Documents/UTH/MachineLearning
 /home/pampam/.config/waybar
 /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang
-/home/pampam
+/home/pampam/.config/nushell
+/home/pampam/.config/yazi

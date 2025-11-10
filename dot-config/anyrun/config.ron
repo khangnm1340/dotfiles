@@ -44,6 +44,7 @@ Config(
   // in the results. As in it works as a priority for the plugins.
   plugins: [
     "libapplications.so",
+    //"/home/pampam/builds/anyrun/target/release/libapplications.so",
     "libsymbols.so",
     //"libdictionary.so",
     "librink.so",

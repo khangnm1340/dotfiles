@@ -5694,3 +5694,856 @@ osxphotos export /home/pampam/Downloads/takeout --filename "IMG_3347.JPEG"
 iclouldpd
 yay -Qs | fzf
 icloudpd
+git clone https://github.com/khangnm1340/dotfiles.git
+lazygit
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ <\n>
+jrnl
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ <\n>
+ls
+ls icloud/
+du
+rclone copy --progress --checksum /home/pampam/Pictures/icloud ngomkhang132:icloud/ --transfers 16 --checkers 16 --drive-chunk-size 64M --buffer-size 64M
+btop
+wk https://www.pixiv.net/en/artworks/137150268
+rclone copy --progress --checksum /home/pampam/Pictures/icloud ngomkhang132:icloud/ --transfers 16 --checkers 16 --drive-chunk-size 16M --buffer-size 16M
+wk https://www.reddit.com/r/Chainsawfolk/comments/1opnz9q/this_bitch_does_not_get_enough_slander/
+wk https://www.reddit.com/r/Chainsawfolk/comments/1oplr89/time_out_my_pacemaker_looking_ahh/
+wk https://www.reddit.com/r/Chainsawfolk/comments/1opvnd3/neat_detail_in_jpn_chapter_219_sorta_lost_in/
+wk https://www.reddit.com/r/Chainsawfolk/comments/1opo0qv/fan_manga_translated_denrezes_love_comedy_part_3/
+wk https://www.reddit.com/r/ChainsawMan/comments/1ooskdf/denrezes_love_comedy_part_2/
+wk https://www.reddit.com/r/RezeCult/comments/1onxg0e/fan_manga_translated_denrezes_love_comedy_part_1/
+fd
+fd --help
+fd -t f
+fd --help
+fd --help | rg dir
+fd --help | nvim
+fd -t f icloud
+fd -t f ./icloud
+fd -t f --full-path './icloud'
+help
+help cp
+cp ../2025-04-16-020843_hyprshot.png .
+help cp
+man fd
+man fd | wl-copy
+help cp
+man fd
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x cp -a {} /home/pampam/Pictures/google-photo-backup/
+btop
+man rsync
+jrnl -n 10
+jrnl
+jrnl -n 10
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x<\n>rsync -au {} /home/pampam/Pictures/google-photo-backup/
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x rsync -au {} /home/pampam/Pictures/google-photo-backup/
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x cp -au {} /home/pampam/Pictures/google-photo-backup/
+n
+hyprpaper
+pkill hyprpaper
+tmux
+tmux a
+yay -Qe | fzf
+$env.QT_QPA_PLATFORMTHEME
+yay -Qe | fzf
+yay -S qt6ct
+ldd /usr/bin/telegram-desktop | grep Qt<\n>
+ldd /usr/bin/Telegram-desktop | grep Qt<\n>
+ldd /usr/bin/Telegram| grep Qt
+sudo pacman -S kvantum<\n>
+sudo pacman -Rns kvantum<\n>
+rg "simple" /home/pampam/.config/qt6ct/qt6ct.conf
+rg "dark" /home/pampam/.config/qt6ct/qt6ct.conf
+sed -i "s|^color_scheme_path=.*|color_scheme_path=$dark|" "$conf" | bash
+sudo chmod +x "themeswitch.sh"
+hyprctl clients
+btop
+pkill kanata
+btop
+systemctl user restart --now kanata
+systemctl --user restart --now kanata
+btop
+systemctl --user stop --now kanata
+btop
+systemctl --user restart --now kanata
+systemctl --user start --now kanata
+jrnl
+yay -Qe | fzf
+sudoedit /etc/pacman.conf
+yay -Qe | fzf
+yay
+yay -Rns architects-daughter-font lovely-injector
+yay -Qe | fzf
+yay -Rns ttf-architects-daughter lovely-injector
+jrnl
+yay
+yay -Rns gnome gnome-shell
+yay -Qs | fzf
+yay -Rns gnome gnome-extra
+sudo pacman -Rns evince gnome-browser-connector gnome-shell-extensions nautilus-python<\n>
+sudo pacman -Rns evince sushi gnome-browser-connector gnome-shell-extensions nautilus-python<\n>
+sudo pacman -Rns gnome gnome-extra<\n>
+sudo pacman -Rns gdm gvfs tracker3 tracker3-miners gnome-control-center gnome-settings-daemon gnome-session gnome-keyring gnome-terminal gnome-backgrounds gnome-user-docs gnome-user-share gnome-menus gnome-desktop<\n>
+sudo pacman -Qtdq | sudo pacman -Rns -<\n>
+hyprpaper
+sudo pacman -S ly<\n>sudo systemctl enable --now ly.service<\n>
+neovide
+stow --dotfiles -t ~ .
+sudo pacman -S uwsm
+uwsm check may-start<\n>
+sudo nvim environment
+loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type<\n>
+git pull
+sudo chmod +x autostart-apps.sh 
+btop
+anyrun daemon
+pkill anyrun
+anyrun daemon
+yay -Rns anyrun
+yay -Rns anyrun-git anyrun-git-debug
+yay -Rns ly
+yay -S anyrun-git
+uwsm-app --help
+jrnl
+stow --dotfiles -t ~ .
+codex
+sudo npm install -g @openai/codex@latest
+nvim
+xdg-terminal-exec
+yay -Qe | fzf
+yay -S xdg-utils
+pacman -Ql xdg-utils | grep terminal-exec<\n>
+pacman -Ql xdg-utils
+yay -S xdg-terminal-exec
+xdg-terminal-exec
+xdg-terminal-exec --help
+jrnl
+nvim
+jrnl
+waybar
+btop
+hyprctl clients
+uwsm-app -- xdg-terminal-exec --app-id=com.omarchy.Impala
+$env.TERMINA
+$env.TERMINAL
+uwsm-app -- xdg-terminal-exec --app-id=com.omarchy.Impala
+xdg-terminal-exec --help
+stow --dotfiles -t ~ .
+xdg-terminal-exec
+lsblk
+sudo cryptsetup luksOpen /dev/nvme0n1p10 my_encrypted_drive
+sudo mount /dev/mapper/my_encrypted_drive drive1
+yay -Qe | fzf
+yay -Qs | fzf
+qutebrowser
+systemctl --user status | grep ghostty
+xdg-terminal-exec
+systemctl --user status | grep ghostty
+systemctl --user status | grep qute
+systemctl --user status | grep kitty
+kitty
+reboot
+systemctl --user status | grep hypr
+btop
+systemctl --user enable --now hyprpolkitagent.service
+gsettings set org.gnome.desktop.interface cursor-theme Future-Cursor
+gsettings set org.gnome.desktop.interface cursor-size 42
+gsettings set org.gnome.desktop.interface cursor-size 40
+gsettings set org.gnome.desktop.interface cursor-size 80
+gsettings set org.gnome.desktop.interface cursor-size 42
+m
+nvim
+reboot
+btop
+journalctl --user --since "10 minutes ago"<\n>
+systemctl disable spotifyd
+systemctl --user status | grep hypr
+systemctl --user status | grep spotify
+systemctl --user disable spotifyd
+rg "app --"
+journalctl --user -u uwsm@$(id -u)
+rg "app --"
+codex
+journalctl
+journalctl | grep invalid arguments
+journalctl | grep "invalid arguments"
+rg " app --"
+sudo rg " app --"
+sudo rg "app --"
+rg "app --"
+rg "app --" --exclude ./user-share
+rg "app --" --glob=user-share
+rg "app --"
+sudo ls ./user-share/
+sudo ls ./user-share/log
+sudo cat ./user-share/log
+grep "app"
+grep "app --"
+rg "app --"
+uwsm-app -- clipse -listen
+cd ~/dotfiles && uwsm-app -- neovide
+notify "hi"
+journalctl --user -b | grep uwsm<\n>
+jrnl
+uwsm validate<\n>
+reboot
+journalctl --user -b | grep uwsm<\n>
+systemctl --user enable dotoold
+uwsm-app -- dotoold 
+btop
+uwsm-app -- dotoold 
+journalctl --user -b | grep uwsm<\n>
+uwsm-app -- fcitx5 
+$env.TERMINAL
+$env.FILEMANAGER
+journalctl --user -b | grep uwsm<\n>
+reboot
+clipse -listen
+uwsm-app -- clipse -listen
+reboot
+systemctl --user status | grep Telegram
+systemctl --user status | grep kitty
+git clone https://github.com/anyrun-org/anyrun.git
+systemctl --user status | grep btop
+xdg-terminal-exec --help
+xdg-terminal-exec btop
+xdg-terminal-exec -- btop
+systemctl --user status | grep btop
+systemctl --user status | grep yazi
+pkill anyrun
+uwsm-app -- anyrun daemon
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep btop
+uwsm-app -- xdg-terminal-exec btop
+sudo chmod +x "preprocess_application_command.sh"
+systemctl --user status | grep telegram
+pkill anyrun
+btop
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep telegram
+systemctl --user status | grep Telegram
+uwsm-app -- Telegram
+git clone https://github.com/n3oney/nixus.git
+rg "anyrun"
+rg "preprocess_exec_script"
+pkill anyrun
+uwsm-app -- anyrun daemon
+job spawn {uwsm-app -- anyrun daemon}
+btop
+systemctl --user status | grep Telegram
+anyrun
+systemctl --user status | grep Telegram
+uwsm-app --help
+uwsm-app -- anyrun daemon
+pkill anyrun
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep Telegram
+notify-send "hello"
+pkill anyrun
+pidof -x "anyrun-provider"
+pgrep -x anyrun-provider
+anyrun
+telegram
+Telegram
+anyrun
+btop
+anyrun
+anyrun ; anyrun close
+job spawn {anyrun} ;sleep 3sec ; anyrun close
+btop
+anyrun --help
+anyrun close --help
+man anyrun
+anyrun quit
+anyrun daemon
+anyrun close
+sleep 3sec ; anyrun close
+pgrep -x anyrun
+sleep 2sec ; pgrep -x anyrun-provider
+uwsm-app -- anyrun
+job spawn {uwsm-app -- anyrun daemon}
+codex
+pkill anyrun
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep Telegram
+pkill anyrun
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep Telegram
+pkill anyrun
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep Telegram
+pkill anyrun
+job spawn {uwsm-app -- anyrun daemon}
+systemctl --user status | grep Telegram
+pkill anyrun
+systemctl --user status | grep Telegram
+anyrun
+anyrun daemon
+systemctl --user status | grep Telegram
+journalctl --user<\n>
+journalctl --user -b | grep uwsm<\n>
+systemctl --user status | grep Telegram
+uwsm-app -- Telegram
+systemctl --user status | grep Telegram
+uwsm-app -- Telegram
+systemctl --user status | grep Telegram
+pkill anyrun
+anyrun
+systemctl --user status | grep terminal
+systemctl --user status | grep Telegram
+gnome-terminal
+uwsm-app -- gnome-terminal
+systemctl --user status | grep terminal
+systemctl --user status | grep gnome-terminal
+systemctl --user status | grep Telegram
+jrnl
+reboot
+poweroff
+jrnl
+cargo build --release -p anyrun-plugin
+anyrun --help
+cargo build --release -p applications
+pkill anyrun
+systemctl --user status | grep Telegram
+systemctl --user status | grep terminal
+systemctl --user status | grep kitty
+kityt
+kitty
+cargo build --release -p applications
+lsblk
+cat
+codex
+btop
+systemctl --user status | grep kitty
+btop
+ps
+ps -la 
+ps -l
+ps -l | find preprocess
+ps -l | find preprocess | get command
+pkill anyrun
+systemctl --user status | grep kitty
+systemctl --user status | grep Telegram
+uwsm-app -- kitty
+systemctl --user status | grep Telegram
+pkill anyrun
+systemctl --user status | grep Telegram
+rustup doc --book
+yay
+systemctl --user status | grep kitty
+systemctl enable --user --nowapp-com.mitchellh.ghostty.service
+systemctl enable --user --now app-com.mitchellh.ghostty.service
+systemctl enable --user app-com.mitchellh.ghostty.service
+systemctl start --user app-com.mitchellh.ghostty.service
+lazygit
+reboot
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+which ghostty
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload
+ghostty --generate-systemd-unit --user<\n>
+ghostty --help | grep systemd
+sudo pacman -Syu
+which ghostty<\n>
+systemctl --user daemon-reload
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload
+systemctl start --user app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload<\n>systemctl --user restart app-com.mitchellh.ghostty.service<\n>
+systemctl --user status app-com.mitchellh.ghostty.service
+yay -Rns ghostty
+yay -S ghostty
+sudoedit /usr/local/share/systemd/user/app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload<\n>systemctl --user restart app-com.mitchellh.ghostty.service<\n>
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl daemon-reload
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl status app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user disable app-com.mitchellh.ghostty.service<\n>
+systemctl --user enable app-com.mitchellh.ghostty.service<\n>
+systemctl --user status app-com.mitchellh.ghostty.service<\n>
+systemctl --user disable app-com.mitchellh.ghostty.service<\n>
+systemctl --user status app-com.mitchellh.ghostty.service<\n>
+systemctl --user enable app-com.mitchellh.ghostty.service<\n>
+systemctl --user start --now app-com.mitchellh.ghostty.service
+systemctl --user status app-com.mitchellh.ghostty.service<\n>
+sudo rm -rf app-com.mitchellh.ghostty.service 
+systemctl --user start --now app-com.mitchellh.ghostty.service
+systemctl --user daemon-reload
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user enable --now app-com.mitchellh.ghostty.service<\n>
+journalctl --user -xeu app-com.mitchellh.ghostty.service
+reboot
+systemctl --user enable --now app-com.mitchellh.ghostty.service<\n>
+systemctl --user status app-com.mitchellh.ghostty.service
+ghostty
+timeit {ghostty}
+ghostty +new-window
+timeit {ghostty | /dev/null}
+timeit {ghostty o> /dev/null}
+timeit {ghostty &}
+timeit {job spawn {ghostty} }
+timeit {job spawn {ghostty +new-window} }
+timeit {job spawn {ghostty} }
+timeit {ghostty}
+help timeit
+ghostty | ignore
+command o+e>| ignore<\n>
+ghostty o+e>| ignore<\n>
+ghostty o+e> | ignore<\n>
+job spawn {ghostty o+e>| ignore}<\n>
+timeit {job spawn {ghostty o+e>| ignore}}
+timeit {job spawn {ghostty +new-window}}
+ghostty >/dev/null 2>&1 &
+timeit {job spawn {ghostty +new-window}}
+timeit {job spawn {ghostty o+e>| ignore}}
+job spawn {timeit {ghostty o+e>| ignre}}
+job spawn {timeit {ghostty o+e>| ignore}}
+timeit {ghostty o+e>| ignore}
+help timeit
+timeit { ^ghostty +new-window }
+timeit { ^ghostty +new-window }<\n>
+timeit { ^ghostty o+e>| ignore }<\n>
+hyprfine
+yay -S hyprfind
+yay -S hyprfine
+sudo pacman -S hyprfine
+sudo pacman -S hyperfine
+hyperfine
+tldr hyperfine
+hyperfine "ghostty +new-window" "ghostty"
+pkill ghostty
+hyperfine 'ghostty +new-window'<\n>
+pkill ghostty
+hyprfine "ghostty +new-window" "ghostty"
+hyperfine "ghostty +new-window" "ghostty"
+pkill ghostty
+hyperfine "ghostty +new-window" "ghostty" ; pkill ghostty
+let current_pid = (hyprctl activewindow -j | from json | get pid)<\n>pgrep ghostty | lines | where $it != $current_pid | each { kill $it }<\n>
+let current_pid = (hyprctl activewindow -j | from json | get pid)<\n>pgrep ghostty | lines | where $it != $current_pid | each { kill $in }
+let current_pid = (hyprctl activewindow -j | from json | get pid)<\n>
+$current_pid
+pgrep ghostty
+ps
+ps | where name == 'ghostty'
+hyperfine --warmup "ghostty +new-window" "ghostty" ; pkill ghostty
+hyperfine --warmup 10 "ghostty +new-window" "ghostty" ; pkill ghostty
+hyperfine --warmup 3 "ghostty +new-window" "ghostty" ; pkill ghostty
+find
+find .
+find /
+^find
+hyperfine --warmup 3 "fd" "^find"
+ls
+wk https://www.instagram.com/reel/DQCFLmzk4Rj/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQgn2PcETZm/?utm_source=ig_web_copy_link
+k https://www.instagram.com/reel/DQvQ_a7iejr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQvQ_a7iejr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOI5-OZgJHD/?utm_source=ig_web_copy_link
+countdown-cli
+yay -Qs | fzf
+yay -Qe | fzf
+yay -S termdown
+termdown 3m
+termdown --help
+wk https://youtube.com/shorts/W6G19dR98kw?si=onzS_02RlHWMe5Xu
+jlk https://youtube.com/shorts/W6G19dR98kw?si=onzS_02RlHWMe5Xu
+jkl https://youtube.com/shorts/W6G19dR98kw?si=onzS_02RlHWMe5Xu
+jkl https://youtube.com/shorts/LAHAFs7gur0?si=m7Sfxt2Z1eTsECNB
+jkl https://youtube.com/shorts/jl9msJRuAMg?si=hCQKPVALf8sNrSLQ
+jrnl
+jrnl --edit
+systemctl --user status | grep pipe
+systemctl --user restart pipewire
+wpctl
+wpctl status
+pkill anyrun
+job spawn {anyrun daemon}
+btop
+wpctl status
+wpctl set-default 73<\n>
+reboot
+rmpc
+reboot
+rustup doc --book
+wpctl status<\n>
+wpctl set-default 93
+wpctl set-default 92
+systemctl --user restart easyeffects<\n>
+wpctl set-default 73<\n>
+wpctl status | grep -A2 "Streams"<\n>
+systemctl --user restart pipewire pipewire-pulse wireplumber<\n>
+systemctl --user restart pipewire
+btop
+wpctl status
+systemctl --user restart pipewire pipewire-pulse wireplumber<\n>
+systemctl --user restart pipewire wireplumber<\n>
+wpctl status<\n>
+systemctl --user show-environment | grep RUNTIME<\n>
+uwsm-app -- easyeffects
+reboot
+systemctl --user show-environment | grep RUNTIME<\n>
+pactl list sinks
+pactl info
+systemctl --user status pipewire pipewire-pulse wireplumber<\n>
+easyeffects
+pactl list short sinks<\n>
+sudo pacman -S pipewire-pulse<\n>
+systemctl --user enable --now pipewire-pulse<\n>
+systemctl --user restart pipewire wireplumber pipewire-pulse<\n>
+pkill easyeffects
+pactl list short sinks<\n>
+pactl list short sink-inputs<\n>
+pactl list short sinks<\n>
+pactl list short sink-inputs<\n>
+reboot
+systemctl --user status | grep ghostty
+systemctl --user status ghostty
+systemctl --user status app-com.mitchellh.ghostty.service
+ghostty +new-window -e btop
+ghostty -e btop
+ghostty +new-window -e btop
+xdg-terminal-exec -- btop
+xdg-terminal-exec -- +new-window btop
+xdg-terminal-exec -- +new-window
+ghostty +new-window btop
+ghostty +new-window
+ghostty +new-window -- btop<\n>
+ghostty +new-window -- /bin/bash -lc 'btop'<\n>
+ghostty --gtk-single-instance=true --initial-window=false &<\n>
+ghostty --gtk-single-instance=true --initial-window=false
+ghostty -e btop
+ghostty -e btop +new-window
+ghostty +new-window -h<\n>
+zotify https://open.spotify.com/track/4Ru1XDAgDCf7oSjt7odi2b?si=3103e7e97e7841b9
+zathura "584623 [Mustard Teikoku (Europia)] Kaa-chan to Sex Shinai to Derarenai Heya ~Kuchiurusai Haha to Hankouki no Ore~  A Room I Can't Leave Without Having Incestuous Sex With My Mom My Nagging Mother and Rebellious Me [English] [PPanGames].cbz" 
+zathura "594793 [Jakky] Fern Netorare (Sousou no Frieren) + Extra page [English].cbz" 
+xdg-mime default org.pwmt.zathura.desktop application/x-cbz<\n>
+n
+yay -Qe | fzf
+yay -S calcure
+calcure
+sudoedit /boot/grub/grub.cfg 
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+jrnl
+poweroff
+reboot
+w https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fdamned-boss-makima-san-v0-4eklfuzt760g1.jpeg%3Fwidth%3D1080%26auto%3Dwebp%26s%3Dfcacead70e0e0218e607e020d33d93cd42244187
+wk https://x.com/PensonMan/status/1987045042268389774
+zotify spotify:track:02NGyZyhLkYH56SGA7liV3
+zotify https://open.spotify.com/track/02NGyZyhLkYH56SGA7liV3?si=6f1670a3b94f47bf
+jrnl
+pipx install git+https://github.com/DraftKinner/zotify.git<\n>
+which zotify
+python -m pip install git+https://github.com/DraftKinner/zotify.git@dev<\n>
+pipx install -f git+https://github.com/DraftKinner/zotify.git<\n>
+zotify https://open.spotify.com/track/02NGyZyhLkYH56SGA7liV3?si=6f1670a3b94f47bf
+zotify --help
+zotify-album https://open.spotify.com/album/3Xqnfi3zluKoXu2AulFJ2p?si=JWsghYzxSNWGSMolJpqydw
+zotify
+which zotify
+zotify https://open.spotify.com/track/02NGyZyhLkYH56SGA7liV3?si=7dcfbb2395264e08
+fd "guy like you"
+zotify --hlep
+zotify --help
+zotify --help | wl-copy
+yay
+yay -Rns teams-for-linux-bin
+zotify https://open.spotify.com/track/02NGyZyhLkYH56SGA7liV3?si=7dcfbb2395264e08
+zotify -V
+zotify -v
+zotify-album https://open.spotify.com/album/3Xqnfi3zluKoXu2AulFJ2p?si=JWsghYzxSNWGSMolJpqydw
+yay -Qe | fzf
+which zig
+zig version
+zig run main.zig 
+zig test index.zig
+jkl https://youtu.be/3eUjOV0ZlSQ?si=k9nhqQC8xxuqn6PP
+jrnl
+wk 
+wk https://www.tiktok.com/t/ZTMt27fsn/
+wk https://x.com/kkiba0506/status/1987047367015542834?s=20
+wk https://x.com/n_wj__nz/status/1987018738965881174
+wk https://x.com/oekaki_bibbi/status/1986328416178872818/photo/1
+wk https://x.com/oekaki_bibbi/status/1987415415052771490
+wk https://x.com/shuraillusts/status/1986983125608440052
+wk https://x.com/Saradaxanix/status/1987275666014732699
+wk https://x.com/pinapo_25/status/1987296195035996574
+k https://x.com/khyleri/status/1986835297032974407
+wk https://x.com/khyleri/status/1986835297032974407
+wk https://x.com/bestmangapost/status/1987394758570913873
+wk https://x.com/tokkifailure/status/1987099108394295779
+wk https://x.com/quanxi_08/status/1987225738441855033
+wk https://x.com/Noodledori1/status/1987221666620203387
+wk https://x.com/bborbnz/status/1987462113292612050
+wk https://x.com/OtakuSpirited/status/1986877451725615195
+wk https://x.com/masojo_2112/status/1987168378654761258
+wk https://x.com/101Neg/status/1986976650752631157
+wk https://x.com/J13K0/status/1987417028437942672
+wk https://x.com/ChaisnawAnime/status/1987008721831272647
+wk V
+wk https://x.com/rezelv3r/status/1986925130207879349
+wk https://x.com/pkb__02/status/1987118504982798369
+wk https://x.com/DlyGachiakuta/status/1987235979099361634
+wk https://x.com/Makimatweets/status/1987123900816433452
+wk https://x.com/couprse/status/1987185433906929755
+wk https://x.com/CSMvizuals/status/1986781123163132126
+wk https://x.com/gonbe0208/status/1986809120775970968
+ghostty +new-window --title=hi
+hyprctl clients
+ghostty --title=hi +new-window
+hyprctl clients
+ghostty --title=hi
+wk https://www.reddit.com/r/Chainsawfolk/comments/14jkfoz/too_pure_makima/
+yay -S walker-bin
+elephant service enable
+systemctl --user start elephant.service
+nc -U /run/user/1000/walker/walker.sock
+tmux
+elephant generatedoc
+elephant -h
+elephant l
+elephant activate
+yay -S elephant-desktopapplications<\n>
+systemctl --user restart elephant.service
+walker --gapplication-service
+tmux a
+sudoedit in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+nvim windows.desktop 
+nvim in.lsp_plug.lsp_plugins_trigger_stereo.desktop 
+sudo chown pampam:pampam ~/.local/share/applications/in.lsp_plug.lsp_plugins_trigger_stereo.desktop<\n>
+sudoedit in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+nvim in.lsp_plug.lsp_plugins_trigger_stereo.desktop 
+ls
+ls -a 
+ls -la
+sudo chown pampam:pampam *<\n>
+print "Hidden=true" o>> in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+help save | rg append
+print "Hidden=true" | save -a in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+help save 
+"Hidden=true" | save -a in.lsp_plug.lsp_plugins_trigger_stereo.desktop
+"Hidden=true" | save -a *
+"Hidden=true" | save -a ./*
+"Hidden=true" | save -a $"*"
+ls
+ls *.desktop | each { |f| "Hidden=true" | save --append $f.name }
+open in.lsp_plug.lsp_plugins_trigger_mono.desktop | lines | where $it != "Hidden=true" | str join (char nl) | save --force in.lsp_plug.lsp_plugins_trigger_mono.desktop
+yay -Qe | fzf
+yay -S lsp-plugins
+yay -Rns lsp-plugins
+yay -S lsp-plugins
+sudo mv in.lsp* /home/pampam/.local/share/applications/lsp-plugin/
+sudo mv /usr/share/applications/in.lsp* /home/pampam/.local/share/applications/lsp-plugin/
+ls * | each { |f| "Hidden=true" | save --append $f.name }
+sudo ls * | each { |f| "Hidden=true" | save --append $f.name }
+sudo chown pampam:pampam *<\n>
+ls * | each { |f| "Hidden=true" | save --append $f.name }
+systemctl --user status | grep telegram
+uwsm-app -- walker --gapplication-service
+systemctl --user status | grep telegram
+systemctl --user status | grep qute
+tmux a
+systemctl --user restart elephant<\n>
+walker --gapplication-service
+systemctl --user status | grep Telegram
+systemctl --user status | grep terminal
+systemctl --user status | grep alacritty
+yay -S elephant-clipboard
+elephant listproviders<\n>
+yay -Rns copyq
+uwsm-app -- walker --gapplication-service
+yay -Qe | fzf
+clipse
+yay -Qs | fzf
+elephant query "clipboard;;10;false"   # builtin clipboard provider<\n>
+elephant query "wl-clipboard;;10;false"   # builtin clipboard provider<\n>
+uwsm-app -- walker --gapplication-service
+tmux a
+elephant listproviders<\n>
+uwsm-app -- walker --gapplication-service
+jrnl
+tmux a
+walker --width 644 --maxheight 300 --minheight 300
+uwsm-app -- walker --gapplication-service
+systemctl --user restart elephant<\n>
+uwsm-app -- walker --gapplication-service
+elephant listproviders<\n>
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+elephant --help
+elephant community
+yay -S elephant-providerlist elephant-archlinuxpkgs elephant-symbols elephant-runner
+uwsm-app -- walker --gapplication-service
+elephant listproviders<\n>
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+systemctl --user status | grep telegram
+systemctl --user status | grep Telegram
+systemctl --user status | grep telegram
+systemctl --user status | grep Telegram
+systemctl --user status | grep neovide
+systemctl --user status | grep qutebrowser
+systemctl --user status | grep helium
+systemctl --user status | grep ghostty
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+uwsm-app -- walker --gapplication-service
+pkill walker
+tmux
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+systemctl status postgres
+systemctl status posgres
+systemctl status
+sudo journalctl --list-boots<\n>
+sudo journalctl -b<\n>
+sudo journalctl -b -1<\n>
+systemctl --help
+systemctl is-failed
+reboot
+systemctl status
+systemctl --failed<\n>
+systemctl disable --now postgresql
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+elephant generatedoc
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+elephant generatedoc | grep pause
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+./setup.sh
+yay -Qs | fzf
+yay -Rns kodi
+yay -Rns digikam
+walker
+ghostty
+ghostty +new-window
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+tmux
+stow --dotfiles -t ~ .
+kanata
+systemctl --user stop kanata
+systemctl --user start kanata
+uv sync
+rg "early stop"
+rg "early"
+uv init
+uv add torch torchvision --index-url https://download.pytorch.org/whl/cpu
+uv add torch --index-url https://download.pytorch.org/whl/cpu
+uv add "markupsafe==2.1.5"<\n>
+uv add torch --index-url https://download.pytorch.org/whl/cpu
+uv add torch
+uv add torch --index-url https://download.pytorch.org/whl/cpu
+uv add torch torchvision --index-url https://download.pytorch.org/whl/cpu
+python main.py
+overlay use .venv/bin/activate.nu 
+python main.py
+uv add ipython ipykernel
+jrnl
+uv venv
+uv sync
+uv venv
+uv sync
+ls
+clipse
+tmux a
+pkill walker
+nvim
+uv venv
+uv add torch torchvision --index https://download.pytorch.org/whl/cpu
+uv sync
+tmux a
+codex
+sudo npm install -g @openai/codex@latest
+codex
+sudo npm install -g @openai/codex@latest
+sudo npm install -g @openai/codex
+sudo npm install -g @openai/codex@latest
+sudo npm uninstall -g @openai/codex@latest
+sudo npm install -g @openai/codex@latest
+npm --list
+man npm
+npm list --depth=0<\n>
+npm list -g --depth=0<\n>
+npm uninstall @openai/codex
+npm list -g --depth=0<\n>
+npm uninstall openai/codex
+npm list -g --depth=0<\n>
+npm uninstall -g @openai/codex<\n>
+sudo npm uninstall -g @openai/codex<\n>
+ls -la /usr/lib/node_modules/@openai/codex<\n>
+ls  /usr/lib/node_modules/@openai/codex<\n>
+sudo rm -rf /usr/lib/node_modules/@openai/codex<\n>
+npm list -g --depth=0<\n>
+sudo npm cache clean --force<\n>
+yay -S openai-codex-bin
+which codex
+codex
+rg "derivative"
+echo $DBUS_SESSION_BUS_ADDRESS<\n>
+echo $env.DBUS_SESSION_BUS_ADDRESS<\n>
+typst watch derivatives.typ 
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+clipse
+reboot
+systemctl --user status ghostty
+systemctl --user status app-com.mitchellh.ghostty.service
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker
+yay -S cosmic-files
+yay -Rns cosmic-files
+yay -S nautilus
+reboot
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+hyprctl clients
+tmux a
+pkill walker
+tmux
+pkill helium
+ps | where name == 'helium'
+ps | where name == 'hellium'
+ps
+btop
+pkill chrome
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+j
+a
+pkill -2 chrome
+pkill walker
+tmux
+a poweroff.desktop
+a reboot.desktop
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+systemctl --user status | grep zathura
+uwsm-app -- xdg-open derivatives.pdf
+btop
+tmux
+which nvim
+codex
+nordvpn c US
+btop
+ping chatgpt.com
+nordvpn c
+wk https://www.reddit.com/r/Chainsawfolk/comments/1ot96wi/oh_my_god/
+wk https://www.reddit.com/r/hyprland/comments/1otdslw/my_first_rice/
+wk https://x.com/hanagamigendai/status/1987127993496727627?s=20
+wk https://www.reddit.com/r/hyprland/comments/1otdslw/my_first_rice/
+yay -S hyprsettings-git
+jrnl --help
+jrnl --encrypt
+yay -S python-keyring
+jrnl --encrypt
+sudo pacman -S gnome-keyring python-keyring<\n>
+sudo pacman -S kwallet python-keyring<\n>
+jrnl --encrypt
+stow --dotfiles -t ~ .

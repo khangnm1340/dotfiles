@@ -9,8 +9,8 @@
 ~/.config/tmux/tmux.conf
 ~/dotfiles/dot-config/hypr/hyprpaper.conf
 ~/Documents/UTH/DataMining/tests/making_a_template.typ
-~/.config/nvim-hanni/lua/core.lua
-~/.config/nvim-hanni/lua/keymaps.lua
+~/.config/nvim/lua/core.lua
+~/.config/nvim/lua/keymaps.lua
 ~/.config/waybar/scripts/timer.nu
 /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang/.local/share/omarchy/default/bash/aliases
 /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang/Documents/things-I-will-migrate.md

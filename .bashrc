@@ -24,7 +24,7 @@ export MANPAGER="nvim +Man!"
 
 export EDITOR='ghostty -e nvim'
 export VISUAL='ghostty -e nvim'
-export NVIM_APPNAME='nvim-hanni'
+# export NVIM_APPNAME='nvim-hanni'
 export XDG_CACHE_HOME="$HOME/.cache"
 
 function y() {

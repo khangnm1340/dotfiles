@@ -1,0 +1,7 @@
+export TERMINAL=ghostty
+export FILEMANAGER=nautilus
+
+export PIPEWIRE_RUNTIME_DIR=$XDG_RUNTIME_DIR
+
+export HYPRCURSOR_THEME=Future-Cyan-Hyprcursor_Theme
+export HYPRCURSOR_SIZE=42

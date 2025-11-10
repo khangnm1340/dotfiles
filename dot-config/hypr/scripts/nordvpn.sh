@@ -5,5 +5,5 @@ if nordvpn status | rg -qi '^Status:\s*Connected'; then
   nordvpn d
 else
 /usr/bin/nu -c 'notify -t "Hoo~ooh~ooh~ooh~~" --summary "Connecting Nordvpn..." -i /home/Ext4Pam/Pictures/Arch_pics/pudb1pbcqwkf1.jpeg'
-  nordvpn c Japan
+  uwsm-app -- nordvpn c Japan
 fi
