@@ -1,11 +1,3 @@
-#!/usr/bin/env bash
-set -euo pipefail
-# change excludes or search path as you like
-results=$(fd -E 'in*' -E 'com.zamaudio*' -t f /usr/share/applications -x basename -s .desktop {})
-#!/usr/bin/env bash
-set -euo pipefail
-# change excludes or search path as you like
-results=$(fd -E 'in*' -E 'com.zamaudio*' -t f /usr/share/applications -x basename -s .desktop {})
 env | sort > env_normal.txt
 alacritty -T fzf -e bash -ic 'env | sort > /tmp/env_fzf.txt; fd -E "in*" -E "com.zamaudio*" . /usr/share/applications -x basename {} | fzf --reverse | xargs gtk-launch'
 nu
@@ -497,4 +489,12 @@ keyring.set_password("jrnl", "default", "1801")
 print(keyring.get_password("jrnl", "default"))
 EOF
 
+nu
+echo $SSH_AUTH_SOCK
+ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_ed25519
+gpg --list-secret-keys
+echo "default-cache-ttl 3600" >> ~/.gnupg/gpg-agent.conf
+echo "max-cache-ttl 86400" >> ~/.gnupg/gpg-agent.conf
+gpgconf --reload gpg-agent
 nu

@@ -6599,3 +6599,6 @@ systemctl --user enable --now gpg-agent.socket
 systemctl --user start gpg-agent.socket<\n>
 gpgconf --list-dirs agent-ssh-socket
 ssh-add ~/.ssh/id_ed25519<\n>
+lazygit
+jrnl
+jrnl --edit
