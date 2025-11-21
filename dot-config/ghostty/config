@@ -1,5 +1,5 @@
 theme = TokyoNight Storm
-# background-opacity = 0.85
+background-opacity = 0.8
 confirm-close-surface = false
 quit-after-last-window-closed = false
 window-theme = ghostty
@@ -32,7 +32,7 @@ keybind = alt+shift+k=goto_split:up
 keybind = alt+shift+l=goto_split:right
 keybind = alt+shift+h=goto_split:left
 keybind = alt+;>s=open_config
-keybind = alt+;>r=toggle_tab_overview
+keybind = alt+;>r=prompt_surface_title
 keybind = alt+;>1=goto_tab:1
 keybind = alt+;>2=goto_tab:2
 keybind = alt+;>3=goto_tab:3

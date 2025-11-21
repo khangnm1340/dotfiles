@@ -1,5 +1,5 @@
 .summary {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 .body {
@@ -8,5 +8,20 @@
 .notification {
   margin: 6px;
   padding: 12px;
+  background: rgb(18, 26, 46);
+}
+
+.widget {
+  font-family: "SF Pro Text", "Noto Sans", sans-serif;
+}
+
+:root {
+  --text-color: rgb(82, 244, 255);          /* normal text */
+}
+
+.control-center {
+  background: rgba(74, 14, 87, 0.9);  /* or any color you like */
+  border: 2px solid rgb(79 67 214);  /* or var(--border) */
+  margin: 16px;  /* top/bottom 16px, left/right 8px */
 }
 

@@ -8,7 +8,7 @@ open_image = [
       # { run = 'shotwell "$@"', orphan = true, desc = "Open with shotwell" },
 ]
 # open_pdf = [{ run = 'zathura "$@"', orphan = true, desc = "Open with zathura" }]
-reveal = [{ run = 'uwsm-app thunar "$@"', desc = "Reveal", for = "linux" }]
+reveal = [{ run = 'uwsm-app nautilus "$@"', desc = "Reveal", for = "linux" }]
 edit = [{ run = 'uwsm-app -- nvim "$@"', block = true, for = "unix" }]
 nomacs = [{ run = 'uwsm-app -- nomacs "$@"',desc = "nomacs"}]
 # opencomic = [{ run = 'opencomic "$@"',desc = "opencomic"}]
@@ -42,6 +42,27 @@ rules = [
       { name = "*", use = ["open", "reveal",  "dragndrop"] },
 ]
 
+[plugin]
+prepend_previewers = [
+  # { mime = "image/*", run = "noop" },
+  # { mime = "video/*", run = "noop" },
+  # Replace magick, image, video with mediainfo
+  { mime = "{audio,video,image}/*", run = "mediainfo"},
+  { mime = "application/subrip", run = "mediainfo" },
+  # Adobe Illustrator, Adobe Photoshop is image/adobe.photoshop, already handled above
+  { mime = "application/postscript", run = "mediainfo" },
+]
+
+prepend_preloaders = [
+  # { mime = "image/*", run = "noop" },
+  # { mime = "video/*", run = "noop" },
+  # Replace magick, image, video with mediainfo
+  { mime = "{audio,video,image}/*", run = "mediainfo" },
+  { mime = "application/subrip", run = "mediainfo" },
+  # Adobe Illustrator, Adobe Photoshop is image/adobe.photoshop, already handled above
+  { mime = "application/postscript", run = "mediainfo" },
+]
+
 
 [mgr]
 show_hidden = true
@@ -61,3 +82,4 @@ image_quality = 90
 sixel_fraction = 15
 ueberzug_scale = 1
 ueberzug_offset = [0, 0, 0, 0]
+

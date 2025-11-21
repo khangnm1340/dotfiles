@@ -1,137 +1,3 @@
-env | sort > env_normal.txt
-alacritty -T fzf -e bash -ic 'env | sort > /tmp/env_fzf.txt; fd -E "in*" -E "com.zamaudio*" . /usr/share/applications -x basename {} | fzf --reverse | xargs gtk-launch'
-nu
-alacritty -T fzf -e bash -ic 'selection=$(fd -E "in*" -E "com.zamaudio*" -t f /usr/share/applications -x basename -s .desktop {} | fzf --height=40% --reverse --prompt="App> "); if [ -n "$selection" ]; then gtk-launch "$selection"; else echo "Cancelled"; fi; read -n1 -rsp "Press any key to close..."'
-alacritty -T fzf -e bash -ic 'selection=$(fd -E "in*" -E "com.zamaudio*" . /usr/share/applications -x basename {} | fzf --height=40% --reverse --prompt="App> "); if [ -n "$selection" ]; then gtk-launch "$selection"; else echo "Cancelled"; fi; read -n1 -rsp "Press any key to close..."'
-fzf | xargs echo
-fzf | xargs cat
-nu
-hyperfine --prepare 'pkill -x ghostty || true; sleep 0.15'   './ghostty-start-timer.sh "ghostty" 8'   --runs 10
-hyperfine --prepare 'pkill -x ghostty || true; sleep 0.15'   './ghostty-benchmark.sh "ghostty" 8'   --runs 10
-hyperfine --prepare 'pkill -x ghostty || true; sleep 0.15'   './ghostty-start-timer.sh "ghostty" 8'   --runs 10
-nu
-(export LC_ALL=C.UTF-8; comm -13 <(pacman -Qlq | sed 's,/$,,' | sort) <(find /etc /usr /opt -path /usr/lib/modules -prune -o -print | sort))
-awk '/%(NAME|PROVIDES)%/{flag=1;next}/^$/{flag=0}flag{ printf "%s\t%s\n", FILENAME, $0}' /var/lib/pacman/local/*/desc  | sed 's%/var/lib/pacman/local/\(.*\)/desc%\1%g' | sort -k2 | uniq -Df1 | column -etN Package,Provides
-awk '/%(NAME|PROVIDES)%/{flag=1;next}/^$/{flag=0}flag{ printf "%s\t%s\n", FILENAME, $0}' /var/lib/pacman/local/*/desc  | sed 's%/var/lib/pacman/local/\(.*\)/desc%\1%g' | sort -k2 | uniq -Df1 | column -etN Package,Provides
-nu
-./timer_toggle
-./timer_toggle.sh 
-./timer_toggle.sh 
-if [ -s \"$HOME/.config/nushell/custom_scripts/count-down.txt\" ]; then head -n1 \"$HOME/.config/nushell/custom_scripts/count-down.txt\"; else printf '🦦'; fi
-if [ -s \"$HOME/.config/nushell/custom_scripts/count-down.txt\" ]; then head -n1 \"$HOME/.config/nushell/custom_scripts/count-down.txt\"; else printf '🦦'; fi
-if [ -s /home/pampam/.config/nushell/custom_scripts/count-down.txt ]; then cat /home/pampam/.config/nushell/custom_scripts/count-down.txt; else printf '🦦'; fi
-if [ -s /home/pampam/.config/nushell/custom_scripts/count-down.txt ]; then cat /home/pampam/.config/nushell/custom_scripts/count-down.txt; else printf '🦦'; fi
-if [ -s \"$HOME/.config/nushell/custom_scripts/count-down.txt\" ]; then head -n1 \"$HOME/.config/nushell/custom_scripts/count-down.txt\"; else printf '🦦'; fi
-if [ -s \"$HOME/.config/nushell/custom_scripts/count-down.txt\" ]; then head -n1 \"$HOME/.config/nushell/custom_scripts/count-down.txt\"; else printf '🦦'; fi
-nu
-while true; do printf '%s\r' "$(date +%H:%M:%S:%N)"; done
-start=$(date +%s)
-while true; do     time="$(($(date +%s) - $start))";     printf '%s\r' "$(date -u -d "@$time" +%H:%M:%S)"; done
-seconds=20
-start="$(($(date +%s) + $seconds))"
-while [ "$start" -ge `date +%s` ]; do     time="$(( $start - `date +%s` ))";     printf '%s\r' "$(date -u -d "@$time" +%H:%M:%S)"; done
-nu
-command
-command -v anyrun
-for f in $(grep -liE 'lsp-plugins|jack|audio|alsa|pulseaudio|pipewire' /usr/share/applications/*.desktop); do   base=$(basename "$f");   printf '%s\n' "[Desktop Entry]" "Hidden=true" > ~/.local/share/applications/"$base"; done
-nu
-GTK_DEBUG=interactive anyrun
-GTK_DEBUG=interactive anyrun
-GTK_DEBUG=interactive anyrun
-nu
-export NEWT_COLORS='
-root=,black
-border=white,black
-title=white,black
-window=white,blue
-textbox=white,black
-button=black,white
-listbox=white,black
-actlistbox=black,white
-checkbox=white,black
-actcheckbox=black,white
-'
-winapps-setup
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-winapps-setup --user --uninstall.
-winapps-setup --user --uninstall
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-[200~winapps-setup~
-winapps-setup
-winapps-setup --user --uninstall
-winapps-setup
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-nu
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
-nu
-podman unshare --rootless-netns xfreerdp3 /u:"Khang" /p:"12345678" /v:127.0.0.1 /cert:tofu
-nu
-Your Windows Password
-nu
-winapps manual C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe
-winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
-winapps manual 'C:\Windows\System32\notepad.exe'
-winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
-winapps manual "C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe"
-docker exec -it WinApps powershell -Command "Start-Process 'C:\Users\MyWindowsUser\AppData\Local\Programs\Zalo\Zalo.exe' -ErrorAction Stop"
-docker exec -it WinApps /bin/sh -c 'which powershell || which pwsh || echo "no-powershell"; ls -la /usr/bin /bin /usr/local/bin 2>/dev/null | head -n 40'
-nu
-curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
-nu
-./autofocus.sh &
-btop
-pkill 38441
-nu
-paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") > latest.txt
-paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste <(jack_meter -n -f 1 "Level Meter:output_FL")       <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste <(jack_meter -n -f 1 "Level Meter:output_FL")       <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do     printf "%s\n" "$line" > latest.txt; done
-paste 
-\<(jack_meter -n -f 10 "Level Meter:output_FL")
-\<(jack_meter -n -f 10 "Level Meter:output_FR")
-nu
-paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR") 
-nu
-paste 
-<(jack_meter -n -f 10 "Level Meter:output_FL")       
-<(jack_meter -n -f 10 "Level Meter:output_FR") 
-nu
-nu
-MONITOR=$(pactl list sources short | awk '/monitor/ {print $2; exit}')
-if [ -z "$MONITOR" ]; then   echo "No monitor source found. Try: pactl list sources short";   exit 1; fi
-ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk -F= '/lavfi.astats.Overall.Peak_level/ {printf("%.2f\n",$2)}'
-ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk -F= '/lavfi.astats.Overall.Peak_level/ {printf("%.2f\n",$2)}'
-ffmpeg -hide_banner -f pulse -i "$MONITOR"   -af "asetnsamples=4410,astats=metadata=1:reset=1" -f null - 2>&1   | awk '/pts_time/ {t=$3} /lavfi.astats.Overall.Peak_level/ {print t, $2}'
-ecasound -i alsa,default -o null -ev
-yay -S ecasound
-secasound -i alsa,default -o null -ev
-ecasound -i alsa,default -o null -ev
-ecasound -i alsa:EasyEffectsSink -o null -ev
-jack_meter -n "EasyEffects" -p
-yay -S jack_meters
-yay -S jackmeters
-yay -S jackmeter
-jack_meter -n "EasyEffects" -p
-jack_meter -n -f 10 "EasyEffects:out_1"
-jack_lsp
-yay -S jack_lsp
-yay -S jack-example-tools
-jack_lsp
-jack_meter -n -f 10 "EasyEffects:out_1"
-jack_meter -n -f 10 "Easy Effects Sink:playback_FL" "Easy Effects Sink:playback_FR"
-jack_meter -n -f 10 "Limiter:output_FL" "Limiter:output_FR"
-jack_meter -n -f 10 "Limiter:output_FL" "Limiter:output_FR"
-jack_meter -n -f 10 "Level Meter:output_FL" "Level Meter:output_FR"
-paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
-L=$(jack_meter -n -f 2 "Level Meter:output_FL" | tail -n 1)
-R=$(jack_meter -n -f 2 "Level Meter:output_FR" | tail -n 1)
 echo "{\"text\": \"🎧 ${L}/${R} dB\"}"
 paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
 paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
@@ -497,4 +363,140 @@ gpg --list-secret-keys
 echo "default-cache-ttl 3600" >> ~/.gnupg/gpg-agent.conf
 echo "max-cache-ttl 86400" >> ~/.gnupg/gpg-agent.conf
 gpgconf --reload gpg-agent
+nu
+nu
+shuf -n5 /usr/share/dict/words | tr '\n' ' '
+which shuf
+nu
+tr -dc 'a-z' </dev/urandom | fold -w6 | head -n5 | tr '\n' '-' ; echo
+head -c 32 /dev/urandom | base64 | tr -d '/+' | cut -c1-32
+nu
+gpg "$HOME/Downloads/Telegram Desktop/rezeden.jpg.gpg"
+nu
+btop
+systemctl status kanata
+systemctl --user status kanata
+fish
+date -u +%V$(uname)|sha512sum|sed 's/\W//g'
+nu
+ps -e | grep -i discord
+yay -Rns discord-canary
+yay -S discord
+discord
+discord --disable-gpu
+DISCORD_ENABLE_WAYLAND=0 discord
+yay -Rns discord legcord
+yay -Rns discord legcord-bin
+nu
+ldd /usr/lib/discord/Discord | grep electron
+nu
+uwsm-app -- xdg-open ( f Machine | rg .pdf$ | fzf ) &
+uwsm-app -- xdg-open ( f Machine | rg .pdf$ | fzf )
+nu
+sed -i "s|^color_scheme_path=.*|color_scheme_path=$dark|" "$conf"
+conf="$HOME/.config/qt6ct/qt6ct.conf"
+dark="/usr/share/qt6ct/colors/darker.conf"
+sed -i "s|^color_scheme_path=.*|color_scheme_path=$dark|" "$conf"
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+echo $?
+gsettings get org.gnome.desktop.interface color-scheme
+pacman -Qi libadwaita
+yay -S xdg-desktop-portal-gnome
+nautilus --version
+echo $XDG_CURRENT_DESKTOP
+echo $XDG_SESSION_TYPE
+nu
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+echo $?
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+echo $?
+gsettings get org.gnome.desktop.interface color-scheme
+pacman -Qi libadwaita
+nu
+alsamixer
+tmux
+paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+nu
+ffmpeg -f pulse -i default   -af "astats=metadata=1:reset=1,ametadata=print:key=Peak_level:entry=frame"   -f null -
+sudo pacman -S qpwgraph
+pw-jack jack_meter
+qpwgraph
+nu
+easyeffects --gapplication-service &
+pkill easyeffects
+btop
+easyeffects --gapplication-service &
+btop
+paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line"; 
+nu
+piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx       -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json       <<< "Hello, this is a natural female voice."
+piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx       -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json       -f out.wav       <<< "Hello, this is a natural female voice."
+nu
+LC_ALL=C pacman -V|sed -r "s#[0-9]+#$(date -u +%m)#g"|base32|head -1 | wl-copy
+nu
+umask
+umask -S
+nu
+find "bocchi"
+which find
+find / -path "/.snapshots" -prune -name "bocchi"
+sudo find / -path "/.snapshots" -prune -name "bocchi"
+sudo find / -path "/.snapshots" -prune -name "hi"
+find
+sudo find / -path "/.snapshots" -prune
+find / -path "/.snapshots" -prune
+tldr find
+find -name '*.mkv'
+find -name '*.mkv' 2>/dev/null
+find -name '*bocchi*' 2>/dev/null
+find -iname '*bocchi*' 2>/dev/null
+time (find -iname '*bocchi*' 2>/dev/null)
+find . -path ./.snapshots -prune -o -print
+find . -path ./.snapshots -prune -o -print | wl -c
+find . -path ./.snapshots -prune -o -print | wc -l
+find . -path ./.snapshots -prune -o -print 2>/dev/null | wc -l
+find . -path ./.snapshots -prune -o -print -iname "*bocchi*" 2>/dev/null
+find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null
+time (find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null)
+time (find . -path ./.snapshots -prune -o -iname "*bocchi*" -print >/dev/null)
+time (find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null > /dev/null)
+which time
+time (find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null > /dev/null)
+time ( fd "bocchi" > /dev/null)
+time (plocate -i "bocchi" > /dev/null)
+perf
+nu
+find
+find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null
+time (find . -path ./.snapshots -prune -o -iname "*bocchi*" -print 2>/dev/null)
+time (fd bocchi)
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+time (plocate -i "bocchi")
+nu
+time (fd bocchi)
+time (plocate -i "bocchi")
+time (fd bocchi > /dev/null)
+time (plocate -i "bocchi" > /dev/null)
+jrnl
+find > wl -c
+find > sudo wl -c
+find | wc -l
+bash
+nu
+find / -path "/.snapshots" -prune -name "bocchi"
+nu
+sudoedit /etc/hosts
+MANPAGER="neovide --no-fork -- +'Man'" man rg
 nu

@@ -6602,3 +6602,1674 @@ ssh-add ~/.ssh/id_ed25519<\n>
 lazygit
 jrnl
 jrnl --edit
+yay -S mdless
+yay -S ruby-mdless
+jrnl --export md | mdless<\n>
+jrnl
+jrnl --edit
+btop
+/home/pampam/Documents/UTH/MachineLearning/tests/group-project-finals
+tmux
+rclone sync /home/pampam/Documents/UTH/MachineLearning/tests/group-project-finals ngomkhang132:BTL_DEEP_LEARNING/
+yay -S inotifyt-tools
+tmux a
+sudo chmod +x rclone-sync-btl.sh 
+nvim ~/.config/systemd/user/rclone-sync-btl.service
+"while inotifywait -r -e modify,create,delete /home/pampam/Documents/UTH/MachineLearning/tests/group-project-finals; do<\n>    rclone sync /home/pampam/Documents/UTH/MachineLearning/tests/group-project-finals ngomkhang132:BTL_DEEP_LEARNING/<\n>done" | bash
+systemctl --user daemon-reload<\n>systemctl --user enable --now rclone-sync-btl.service<\n>
+systemctl --user status rclone-sync-btl.service
+tmux a
+codex resume
+typst watch docs.typ 
+wpctl status<\n>
+wpctl set-default 58
+wpctl status<\n>
+tmux a
+systemctl --user daemon-reload<\n>systemctl --user restart rclone-sync-btl.service<\n>systemctl --user status rclone-sync-btl.service<\n>
+yay
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker
+tmux a
+tmux
+tmux a
+/home/pampam/Documents/UTH/MachineLearning/tests/group-project-finals/docs
+typst watch text_regression_plan.typ 
+tmux a
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ <\n>
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x cp -a {} /home/pampam/Pictures/google-photo-backup/
+jrnl
+btop
+pass insert test/example<\n>
+pass show test/example<\n>
+pass show test/example | wl-copy
+btop
+gpg -c secrets.md 
+gpg -c secrets.md.gpg 
+gpg secrets.md.gpg 
+jrnl
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+sudoedit  /etc/default/grub 
+sudoedit /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg<\n>
+gpg secrets.md.gpg 
+jrl --edit
+gpg -c secrets.md
+jrnl --edit
+gpg -c secrets.md
+jrnl --edit
+gpg -c secrets.md
+gpg secret.gpg
+openssl rand -base64 24
+head -c 32 /dev/urandom | base64 | tr -d '/+' | cut -c1-32<\n>
+shuf -n5 /usr/share/dict/words | tr '\n' ' '<\n>
+tr -dc 'a-z' </dev/urandom | fold -w6 | head -n5 | tr '\n' '-' ; echo<\n>
+gpg secret.gpg 
+btop
+gpg default.gpg 
+btop
+gpg --list-packets "default.gpg"
+gpg --list-secret-keys --keyid-format long<\n>
+ls
+gpg --list-secret-keys --keyid-format long<\n>
+gpg --list-packets ~/.password-store/ /home/pampam/.password-store/python-keyring/jrnl/default.gpg | grep keyid
+gpg --list-packets ~/.password-store/python-keyring/jrnl/default.gpg | grep keyid<\n>
+gpg --list-secret-keys --keyid-format long<\n>
+ls
+gpg --with-keygrip --fingerprint D403A02CAE738758<\n>
+gpg -c mat_khau_la_IHATENIGGERS
+gpg -c rezeden.jpg 
+jrnl
+gpg rezeden.jpg.gpg 
+gpg /home/pampam/Downloads/practice2/rezeden.jpg
+gpg /home/pampam/Downloads/practice2/rezeden.jpg.gpg 
+gpg "/home/pampam/Downloads/Telegram Desktop/rezeden.jpg.gpg"
+gpg "~/Downloads/Telegram Desktop/rezeden.jpg.gpg"
+gpg ~/Downloads/Telegram\ Desktop/rezeden.jpg.gpg<\n>
+/bin/bash -c 'gpg "$HOME/Downloads/Telegram Desktop/rezeden.jpg.gpg"'
+gpg -c /home/Ext4Pam/Pictures/NewjeansPics/3753371085443410340.mp4
+w https://images-ext-1.discordapp.net/external/Vs2HEK7EsQI0hPr7BYv9goPUd0dava2gOxPfXHjbKWI/https/media.tenor.com/B4UORxL68zAAAAPo/abizyana.mp4
+wk https://x.com/newjeansnews_/status/1988135773502058818/video/2
+wk https://x.com/newjified/status/1987597670051872771?s=20
+gpg -c 1987597670051872771_1.mp4
+jkl https://www.youtube.com/watch?v=RVQRI8nbBQ8
+gpg -c RVQRI8nbBQ8.webm
+rnpc
+rmpc
+wk https://www.instagram.com/reel/DQWfMTRjTQp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ4Sr3-EiVL/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOL6EtXEeXd/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOzmMoWElFY/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQzSsc8E6MG/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOlOuRojvP_/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPry9V6EdTS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ7UboqEmLA/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQSTSa3Esml/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQOzzkzESN7/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOHEJ9HjjPR/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN6JvEvAJTl/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN_J2BuWtRw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPdOrKJkS-D/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQSG8uOkp-0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQPMAH9CbLO/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPHMa8aCFKt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQpP_hUk-Na/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQhQCBeD7Q3/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPiX5mpkmT-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQrEdnyEzgy/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ6XGE6k0oP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQeU20ZDLSP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNpc_Q1T2A2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DONIAQ3DUy0/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DO8o5eaD_6d/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPnE__4kus6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DJylBgZxMs4/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQjm5_LjLfD/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQYccoMDS-C/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQnomsxD7Rf/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQcp-ltjX78/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPU1YWSk3Ji/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQbmfEhk3dn/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQxqfCLD7nD/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQr-sbsEpLB/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ103brD2aC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DM44OjgOuPp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKlAxZRtbQ-/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOzv287kzvC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQMCHSkk3r7/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNXqkdovN7Z/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQcI-14kYUh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPZByRxjyNg/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQKHUinEliM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQb2y3JCIql/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ3x2VlkrYf/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ1vVDkERmR/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNVGdjUJdiS/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ7rNacEVMh/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQr8BsfkpUA/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQDPKOijLvr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DN1az1g2ndN/?utm_source=ig_web_copy_link
+kar
+wk https://www.instagram.com/reel/DOLbvcGEpkP/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQbvffUD1lD/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQFahcFEldY/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNj5ujVzXPt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQV7IKOEUTJ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ4uwpbjdIz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP1U7l1DCJ2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOD5tdmEqqs/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQqezWGkotK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQTlLYNgvS9/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPOmPu7idcQ/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQotPb0jxLi/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP6H6a-kUQA/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQrV86CEne2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP2PUIqEZOQ/?utm_source=ig_web_copy_link
+jrnl --export md | mdless<\n>
+wk https://www.instagram.com/reel/DPI3Dv7DF6D/?utm_source=ig_web_copy_link
+wk 
+wk https://www.instagram.com/reel/DQuCWHFk9SY/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ7nmwcElKp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ8n-guEeI5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOW6ISIkxc1/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DP_T6dmCLKb/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOi4sMTjVMM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQJdyw8CV34/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQZAQTmAf8m/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQF1DOxkjBw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOd2wxBEgt1/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPwjNh_jTqT/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQe8DDbjJCM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQrtsp8kbyV/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ1it_eDwZC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQs90vZEqN6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ3s6KbDMMM/?utm_source=ig_web_copy_link
+wk https://x.com/NezukoSocial/status/1987971240263610791
+git pull
+yay
+gemini-cli
+gemini
+which gemini
+sudo npm uninstall -g @google/gemini
+npm list -g --depth=0<\n>
+sudo npm uninstall -g @google/gemini-cli
+yay -S gemini-cli
+tokei
+po yelp_academic_dataset_review.json
+ls yelp_academic_dataset_review.json
+polars open yelp_academic_dataset_review.json
+head yelp_academic_dataset_review.json
+polars open yelp_academic_dataset_review.json
+ls yelp_academic_dataset_review.json
+polars open yelp_academic_dataset_review.json
+^ls yelp_academic_dataset_review.json
+gemini
+z
+gemmini
+gemini
+gemini
+open yelp_academic_dataset_review.json
+polars open yelp_academic_dataset_tip.json
+open yelp_academic_dataset_tip.json
+po balanced_merged_13600.parquet
+which nu
+po balanced_merged_13600.parquet
+po balanced_merged_13600.parquet | polars collect
+polars open balanced_merged_13600.parquet | polars collect
+nvim
+codex
+polars open r_BocchiTheRock_comments.jsonl
+^ls r_BocchiTheRock_comments.jsonl
+polars_open r_BocchiTheRock_comments.jsonl
+polars open
+polars open --help
+open temp.parquet
+polars open temp.parquet
+polars scan temp.parquet<\n>
+plugin list<\n>
+yay
+yay -Rns lovely-injector
+which polars
+polars --version
+polars --help
+which  nu
+polars open temp.parquet
+parquet scan temp.parquet
+polars open temp.parquet
+nu -c "polars open temp.parquet"
+nu -c "print 'hi'"
+yay -Rns nushell
+yay -S nushell
+polars open temp.parquet
+polars open test.csv
+/home/pampam/Documents/UTH/DataMining/prawl_tests/subreddits/dir_test
+polars open test.csv
+uwsm-app -- polars open test.csv
+uwsm-app -- nu -c "polars open test.csv"
+polars open test.csv
+which nu
+yay -Rns nushell
+yay -S nushell-git
+polars open test.csv
+codex
+polars open yelp_academic_dataset_review.json
+polars open yelp_academic_dataset_review.json | polars collect
+codex
+jrnl
+wk https://x.com/multipstan/status/1988582768046129535
+wk https://x.com/dittosnjz/status/1988568565566333362
+wk https://x.com/god_disposes/status/1988246820842066361
+wk https://x.com/senaka_look/status/1988222844061597988
+wk https://x.com/HYEFiJEANS/status/1988537150619431105
+wk https://x.com/baeglamz/status/1988367713291694381
+wk https://x.com/FRIERENcontent/status/1988577523266159072
+wk https://x.com/AboutMusicYT/status/1988596390633603374
+wk https://x.com/MISSTHEB0MB/status/1988021624545726660
+wk https://x.com/Junoonyaar/status/1988161966012330269
+wk https://x.com/NealDeidad/status/1988324789195600216
+wk https://x.com/39_u2/status/1988353918179701109
+wk https://x.com/newjeans_loop/status/1856354572895449489
+wk https://x.com/bborbnz/status/1988572281573134649
+pkill easyeffects
+uwsm-app -- codex
+pkill discord
+yay
+btop
+discord
+btop
+yay -Qs | fzf
+pacman -Qs | fzf
+btop
+jrnl
+yay
+yay discord_arch_electron
+yay -S discord_arch_electron
+btop
+discord
+yay -S  abaddon
+yay -Rns abaddon
+yay -S dissent-git
+yay -S dissent-bin
+yay -Rns dissent
+yay -S abaddon
+yay -Rns abaddon
+yay -S noto-fonts-emoji<\n>
+pass insert arch-forum
+pass insert arch-forum/ngomkhang135
+pass --hep
+pass --help
+pass rm arch-forum
+discord
+yay -Qe | fzf
+yay -S legcord
+nordvpn status
+yay -S legcord-bin
+yay -Qe | fzf
+yay -Rns discord
+yay -Rns discord_arch_electron
+betterdiscord-installer
+yay -S vencord-installer-bin
+yay -Rns dissent
+yay -Rns dissent-bin
+pkill discord
+btop
+yt-dlp https://soundcloud.com/pppana/coemtrongvongtay?si=9b0218f23da44cfe9ea1a4121e12d78b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+wk https://www.instagram.com/reel/DQPrR9gEnST/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPBmbmCEvq7/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPwxG2rCNdw/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPyfb0agY5I/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQfQgAfDFdK/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOo5rw0iQPp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQmuzZugWdg/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOa3pQHEwP5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQtY6WTDy1n/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ6xRg1ErE6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPuwt7fEyuY/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DKaMBCmBXMM/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQzn0cjkgJn/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPgwJ5DCTYp/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQZDYCtkT-y/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPPc0u4E40l/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPnndYzEUGG/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPGrlgzk_BA/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPYBZKhDw8Q/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ5j98iCL2n/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQL9rU4kW3P/?utm_source=ig_web_copy_link
+jrnl
+yay -Qe | fzf
+yay -S ttf-joypixels
+jrnl
+yay
+jrnl
+jrl
+jrnl
+yay -Qe | fzf
+yay -S python-keyring
+yay -Qe | fzf
+yay -Qs | fzf
+yay
+yay -S plocate updatedb
+plocate
+plocate "top"
+sudo updatedb
+plocate "top"
+plocate "uth"
+plocate "archlinux"
+plocate "bocchi" | fzf
+plocate "bocchi"
+plocate bocchi
+plocate chainsaw
+man plocate
+sudoedit /etc/updatedb.conf 
+btop
+sudo updatedb
+sudoedit /etc/updatedb.conf 
+sudo updatedb
+plocate chainsaw
+plocate chainsaw | fzf
+timeit { plocate bocchi }
+timeit { plocate bocchi o+e>| ignore }
+man plocate
+locate
+plocate
+plocate ''
+plocate '' | wc -c
+locate -0 '' | tr -cd '\0' | wc -c<\n>
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+rg --files /home/pampam/.cache | wc -l<\n>
+rg --files /home/pampam/Downloads | wc -l
+rg --files /home/pampam/Documents | wc -l
+rg --files
+rg --files | wc -l
+updatedb
+rg --files | wc -l
+sudoedit /etc/updatedb.conf 
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+rg --files | wc -l
+sudo updatedb
+plocate '' | wc -c
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+man fd
+fd -HI
+fd -HI | wc -l
+fd -HI --ignore-file /.snapshots | wc -l 
+fd | wc -l 
+sudoedit /etc/updatedb.conf 
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo nvim /etc/updatedb.conf
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+fd | wc -l 
+sudo nvim /etc/updatedb.conf
+fd -HI | wl -lc
+fd -HI | wl -c 
+fd -HI | wc -l
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo nvim /etc/updatedb.conf
+sudo updatedb
+sudo nvim /etc/updatedb.conf
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+fd -HI | wc -l
+ls | where type == dir \<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+ls | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+jrnl
+ls | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+man ls
+help ls
+ls -a | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+ls -a | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>| math sum file_count
+ls | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>     | math sum file_count
+ls | where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>     | math sum
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>     | math sum
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>| insert sum {math sum}
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>| insert summ {math sum}
+codex
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>| math sum
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }<\n>| sort-by file_count
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+ls -a| where type == dir<\n>     | insert file_count {|row|<\n>         fd -HI --type f . $row.name<\n>         | lines<\n>         | length<\n>       }
+count-files
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+count-files
+sudo updatedb<\n>plocate -0 '' | tr -cd '\0' | wc -c
+plocate "hi"
+plocate "bocchi"
+fd "bocchi"
+timeit {plocate "bocchi" o+e>| ignore}
+timeit {plocate "chainsaw" o+e>| ignore}
+timeit {plocate "nigger" o+e>| ignore}
+plocate "nigger"
+plocate nigger
+plocate no
+plocate stupid
+plocate reze
+plocate reze.
+plocate reze
+plocate reze | fzf
+plocate better
+plocate betterdiscord
+fd | wc -l 
+fd bocchi
+timeit {fd bocchi o+e>|ignore}
+plocate niggers
+plocate .cbz
+plocate .cbz | zf
+plocate .cbz | fzf
+btop
+plocate .cbz | fzf
+yay -S babloo
+yay -S baloo
+baloosearch6 query
+baloosearch6 hi
+baloosearch "tutorial"
+balooctl6 enable<\n>
+balooctl6 start<\n>
+baloosearch6 hi
+baloosearch6 filelist-5642.txt.gz
+balooctl status<\n>
+balooctl6 status<\n>
+yay -Rns updatedb plocate
+yay -Rns plocate
+yay -S plocate
+plocate .cbz | fzf
+plocate --help
+ls
+yay
+tmux
+sudo updatedb
+plocate baloo
+plocate baloofile
+plocate baloofilerc
+baloosearch baloo
+baloosearch6 hi
+baloosearch6 baloo
+baloosearch6 baloofile
+$ baloosearch6 "width>=6000 width<7000"<\n>
+baloosearch6 "width>=6000 width<7000"
+fd -HI baloo
+fd baloo
+fd baloo | fzf
+man fd
+fd 'baloo' / --hidden --no-ignore -E '/.snapshots'
+$env.HOME
+baloosearch6 tutorial
+baloosearch6 baloo
+baloosearch6 dolphinrc
+baloosearch6 hypr
+baloosearch6 hypr | fzf
+balooctl check
+balooctl6 check
+balooctl clipboard.gob
+baloosearch6 clipboard.gob
+balooctl6 check
+baloosearch6 baloo
+man baloo
+man balooctl6
+balooctl6 --help
+balooctl6 monitor
+balooctl6 check
+balooctl6 baloo
+baloosearch6 baloo
+balooctl6 check
+baloosearch6 newjeans
+plocate baloofilerc
+sudo updatedb
+plocate baloofilerc
+balooctl6 purge
+yay -Rns baloo
+yay -Rns dolphin
+yay -Rns baloo
+balooctl6 purge
+z
+yay -Qs | fzf
+yay -Rns lutris
+reboot
+history
+history | fzf
+history | reverse
+history | reverse | fzf
+history | reverse | to text
+history | reverse | get command | to text
+history | reverse | get command | to text | fzf
+history | uniq |  reverse <\n>| get command | str join $"(char nul)" | fzf --read0 --gap<\n>
+sudo updatedb -U /home/pampam/.config
+plocate hi
+plocate rc
+plocate thunar
+plocate loo
+plocate baloofilerc
+timeit {plocate baloofilerc}
+count-files
+yay -Qs | fzf
+yay -S discord_arch_electron
+discord
+yay -Rnsdiscord_arch_electron
+yay -Rns discord_arch_electron
+yay -S discord-canary
+DISCORD_DEBUG=1 discord-canary
+electron
+yay -Qs | fzf
+yay -S discord_arch_electron
+plocate baloofilerc
+plocate --help
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+plocate "hi"
+plocate "snapshot"
+btop
+betterdiscord-installer
+yay -Rns discord-canary
+yay -Qs | fzf
+pkill discord
+btop
+pkill --hlep
+pkill --help
+tldr pkill
+tldr -9 discord
+pkill -9 discord
+btop
+pkill electron
+pkill -9 electron
+yay -S discord
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker
+tmux
+btop
+plocate "apothecary"
+plocate mpv-shot0002.jpg
+sudoedit /etc/updatedb.conf 
+sudo updatedb
+sudoedit /etc/updatedb.conf 
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+count-files
+fd -HI | wc -l
+k
+fd -HI | wc -l
+count-files -s
+k
+count-files -s
+k
+count-files -s
+count-files
+k
+count-files
+sudoedit /etc/updatedb.conf 
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+sudo updatedb
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+count-files
+k
+count-files
+sudoedit /etc/updatedb.conf 
+sudo updatedb ; plocate -0 '' | tr -cd '\0' | wc -c
+plocate chainsaw
+plocate baloofilerc
+plocate plocate
+plocate nvim
+plocate nvim | fzf
+fd | wc -l 
+plocate machine
+plocate Machine
+plocate Machine | fzf
+plocate ""
+plocate "" | fzf
+fd "bocchi"
+plocate bocchi
+timeit { plocate bocchi}
+timeit { plocate bocchi o+e>| ignore}
+timeit { fd bocchi o+e>| ignore}
+sudo updatedb ; plocate -0 '' | tr -cd '\0' | wc -c
+plocate bocchi
+sudo updatedb
+plocate bocchi
+plocate Bocchi
+plocate -i bocchi
+timeit {plocate -i bocchi o+e>|ignore}
+timeit {plocate bocchi o+e>|ignore}
+for i in 0..10 {<\n>timeit {plocate bocchi o+e>|ignore}<\n>}
+for i in 0..10 {<\n>    print "hi"<\n>}
+for i in 0..10 {<\n>timeit {plocate bocchi o+e>|ignore}<\n>}
+for i in 0..10 {<\n>print (timeit {plocate bocchi o+e>|ignore})<\n>}
+for i in 0..50 {<\n>print (timeit {plocate bocchi o+e>|ignore})<\n>}
+for i in 0..50 {<\n>print (timeit {plocate -i bocchi o+e>|ignore})<\n>}
+for i in 0..50 {<\n>print (timeit {plocate -i chainsaw o+e>|ignore})<\n>}
+for i in 0..50 {<\n>print (timeit {plocate chainsaw o+e>|ignore})<\n>}
+f hi
+f waybar
+f waybar | rg conf
+f waybar | rg dotfile
+f waybar | rg dotfile | rg .sh
+f waybar | rg dot-config | rg .sh
+f newjeans
+f newjeans | rg pictures -t mp4
+man rg
+tldr rg
+f newjeans | rg pictures -t .mp4
+f newjeans | rg pictures | rg .mp4$
+f newjeans | rg pictures | rg \.mp4$
+f newjeans | rg pictures | rg '\.mp4$'
+f newjeans | rg pictures
+f newjeans
+f newjeans | rg Pictures
+f newjeans | rg Pictures | rg .mp4$
+man rg
+stow --dotfiles -t ~ .
+f newjeans | rg pictures | rg .mp4$
+stow --dotfiles -t ~ .
+f newjeans | rg pictures | rg .mp4$
+f reze.png
+f reze.png | fzf | swayimg $in
+f reze.png | fzf | swayimg {}
+f reze.png | fzf | xargs swayimg
+man fzf
+f reze.png | fzf | xargs -r swayimg
+jrnl
+jrnl --edit
+jrnl -n 10
+f hitori
+f hitori | rg 24
+f hitori | rg 25
+f hitori | rg 26
+f hitori | rg 26\.
+f hitori | rg 26.
+f hitori | rg 26\.
+f hitori | rg 26\. | xargs -r mpv
+f hitori | rg 26\. | mpv
+f hitori | rg 26\. | mpv $in
+fd -HIE "snapshots"
+fd -HIE "/.snapshots"
+fd -HIE "/.snapshots" | wc -l
+fd -HI | wc -l
+f hitori
+fd bochci
+f bocchi
+f bocchi | rg .mkv
+f bocchi | rg .mkv | rg 11 | mpv $in
+f machine
+f Machine | fzf
+f Machine | rg .pdf$
+open 
+open discord/
+open discord
+open tool_state
+start tool_state
+f Machine | rg .pdf$ | fzf | xargs -r start
+f Machine | rg .pdf$ | fzf | xargs -r xdg-open
+f Machine | rg .pdf$ | fzf | xargs -r zathura
+man xargs
+f Machine | rg .pdf$ | xdg-open (fzf)
+xdg-open ( f Machine | rg .pdf$ | fzf )
+job spawn {uwsm-app -- xdg-open ( f Machine | rg .pdf$ | fzf )}
+job kill 1
+job list 
+uwsm-app -- xdg-open ( f Machine | rg .pdf$ | fzf )
+uwsm-app --help
+uwsm-app -t service -- xdg-open ( f Machine | rg .pdf$ | fzf )
+systemctl --user status | grep zathura
+uwsm-app -t service -- xdg-open ( f Machine | rg .pdf$ | fzf )
+yay -S atuin
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu<\n>
+atuin update
+sed -i "s|^color_scheme_path=.*|color_scheme_path=$dark|" "$conf"
+atuin update
+gsettings list-schemas | rg org.gnome.desktop.interface<\n>
+gsettings list-keys org.gnome.desktop.interface | rg color-scheme<\n>
+pacman -Qi dconf<\n>pacman -Ql dconf | head<\n>
+gsettings get org.gnome.desktop.interface gtk-theme<\n>
+gsettings get org.gnome.system.proxy mode<\n>GSETTINGS_BACKEND<\n>
+gsettings get org.gnome.system.proxy mode<\n>$env.GSETTINGS_BACKEND
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'<\n>
+gsettings get org.gnome.desktop.interface color-scheme<\n>
+yay -Qs | fzf
+pacman -Qi gsettings-desktop-schemas<\n>
+ls /usr/share/glib-2.0/schemas | rg org.gnome.desktop.interface<\n>
+dconf dump /org/gnome/desktop/interface/<\n>
+dconf reset -f /org/gnome/desktop/interface/<\n>
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'<\n>echo $?<\n>
+nvim ~/.config/gtk-4.0/settings.ini<\n>
+nvim ~/.config/gtk-3.0/settings.ini<\n>
+sudo pacman -S gnome-tweaks<\n>
+gnome-tweaks
+sudo pacman -S gsettings-desktop-schemas<\n>
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'<\n>
+GTK_THEME=Adwaita:dark nautilus<\n>
+cat /org/gnome/desktop/interface/color-scheme<\n>
+/org/gnome/desktop/interface/color-scheme<\n>
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk<\n>
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'<\n>
+yay -S lutris
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+atuin update
+atuin import auto
+atuin import nu
+polars open thesaurus.parquet | polars select word synonyms desc
+f Machine | rg .pdf$ | xdg-open (fzf)
+f bocchi | rg .mkv | rg 11 | mpv $in
+f machine
+f machine | fzf
+nvim /home/pampam/Documents/UTH/MachineLearning/for-real/maths/derivative.py
+sudo updatedb
+job spawn {sudo updatedb}
+atuin history clear<\n>
+atuin --help
+atuin history --help
+man atuin
+atuin history prune
+stow --dotfiles -t ~ .
+stow --dotfiles --adopt -t ~ .
+sudo rm ~/.local/share/atuin/history.db
+keybindings list --modifiers
+atuin history --help
+atuin search --help
+atuin search --delete
+sudo rm ~/.local/share/atuin/history.db
+# e2c33e97-f641-43f0-9484-96453a1bf3c8<\n>with-env { ATUIN_LOG: error, ATUIN_QUERY: (commandline), ATUIN_SHELL: nu } {<\n>let output = (run-external atuin search "--interactive" e>| str trim)<\n>if ($output | str starts-with "__atuin_accept__:") {<\n>commandline edit --accept ($output | str replace "__atuin_accept__:" "")<\n>} else {<\n>commandline edit $output<\n>}<\n>}
+atuin search --delete "with-env { ATUIN_LOG"<\n>
+y
+f machine
+fd
+fd | wc -l 
+plocate -0 '' | tr -cd '\0' | wc -c<\n>
+plocate bochci
+plocate bocchi
+timeit {plocate bocchi o+e>|ignore}
+plocate bocchi
+plocate bocchi | rg .png$
+icloudpd -u ngomkhang135@gmail.com -d ~/Pictures/icloud/ <\n>
+fd -t f --full-path '/home/pampam/Pictures/icloud' -x cp -a {} /home/pampam/Pictures/google-photo-backup/
+nvim
+rg regression
+rg explode
+rg explod
+nvim
+plocate practice1.rar
+plocate practice1
+plocate "practice 1"
+plocate "practice" | fzf
+plocate "practice" | rg telegram
+sudo updatedb
+plocate "practice" | rg telegram
+plocate rar
+plocate rar | rg .rar$
+plocate rar | rg \.rar$
+plocate rar | rg \.rar$ | prac
+plocate rar | rg \.rar$ | rg Tele
+plocate Practice
+plocate practice
+plocate --help
+plocate -i practice
+plocate -i practice | rg \.rar$
+plocate -i practice
+plocate -i practice | rg \.rar$
+plocate -i icloud
+plocate -i icloud | rg bin
+uv init
+f posgres
+f postgres
+f postgres | .pdf$
+f postgres | rg \.pdf$
+xdg-open (f postgres | rg \.pdf$ | fzf)
+uwsm-app -t service -- xdg-open (f postgres | rg \.pdf$ | fzf)
+btop
+jrnl
+f postgres | rg \.pdf$
+f postgres | rg \.pdf$ | cd (fzf $in)
+f postgres | rg \.pdf$ | cd ($in | fzf)
+/home/pampam/Documents/UTH/pdfs/
+nvim
+uv sync
+nvim
+uv sync
+uv init
+python main.py
+yay -Qe | fzf
+yay -Qs | fzf
+yay -Rns python-pandas
+uv venv
+uv python -c main.py
+uv python main.py
+uv run main.py
+uv pip freeze
+uv run main.py
+python main.py
+uv run main.py
+python main.py
+uv run main.py
+uv add pandas
+uv run main.py
+uv sync
+/run/media/pampam/8A54901E54900ED7
+nordvpn status
+nvim
+f postgres | rg \.pdf$ | cd ($in | fzf)
+f postgres | rg \.pdf$ 
+f postgres | rg \sql.pdf$ 
+f postgres | rg sql\.pdf$ 
+f htori
+f hitori
+f -i hitori
+f -i hitori | rg 48
+f -i hitori | rg 48 | mpv $in
+zotify spotify:track:3clPsjTbx4UOPMeQn7FZkV
+yay -Qs | fzf
+pipx install -f git+https://github.com/DraftKinner/zotify.git<\n>
+zotify spotify:track:3clPsjTbx4UOPMeQn7FZkV
+jkl https://youtu.be/JBmkd6KDhHU?si=D2iGPSSzKMoP5xBu
+jkl https://www.youtube.com/watch?v=nPc2XltQhNI
+yt-dlp https://www.youtube.com/watch?v=nPc2XltQhNI
+yt-dlp https://youtu.be/JBmkd6KDhHU?si=D2iGPSSzKMoP5xBu
+yay
+yt-dlp https://youtu.be/JBmkd6KDhHU?si=D2iGPSSzKMoP5xBu
+yt-dlp --remote-components ejs:github https://youtu.be/JBmkd6KDhHU?si=D2iGPSSzKMoP5xBu
+yt-dlp --remote-components ejs:github https://www.youtube.com/watch?v=nPc2XltQhNI
+po r_anime_posts.jsonl
+po r_anime_posts.jsonl | polars collect
+po r_anime_posts.jsonl | polars schema
+po r_anime_posts.jsonl | pselect title | polars collect
+po r_anime_posts.jsonl | pselect title | polars filter ((polars col title) | polars contains "Hitorigoto")
+po r_anime_posts.jsonl | pselect title | polars filter ((polars col title) | polars contains "Hitorigoto") | pc
+po r_anime_posts.jsonl | pselect id title | polars filter ((polars col title) | polars contains "Hitorigoto") | pc
+po r_anime_posts.jsonl | pselect name title | polars filter ((polars col title) | polars contains "Hitorigoto") | pc
+po r_anime_comments.jsonl | pski
+po r_anime_comments.jsonl | pski | fzf
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa"))
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pselect body | pcol
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pselect body | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "hold") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "hold") | pc | rg hold
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "alive") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "ALIVE") | pc | rg alive
+codex
+f -i machine | rg archive | nushell
+f -i machine | rg archive | rg nushell
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains (?i)alive) | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains ((?i)alive)) | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "ALIVE") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(i)alive") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(!i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg "ALIVE"
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | fzf
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | fzf
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?-i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?-i)ALIVE") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "shisui") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc 
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) | pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc 
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc | rg alive
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)shisui") | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "SHISUI") | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains r"(?i)shisui") | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "r(?i)shisui") | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "shisui" ) | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "[aA][lL][iI][vV][eE]" ) | pc | rg SHISUI
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "[aA][lL][iI][vV][eE]" ) | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive" ) | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pc | to text |  alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pc | to text |  alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pc | to text | save alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pc | to text | save alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pc | pinto-nu | save alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pc | pinto-nu | save alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pc | pinto-nu | save alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pinto-nu | save alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pinto-nu | save alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pinto-nu | save alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pinto-nu
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pinto-nu | to text
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pinto-nu | get id | to text | save alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pinto-nu | get id | to text | save alive_insen.txt
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "alive" ) | pselect id | pinto-nu | get id | to text | save -f alive_sen.txt<\n><\n>po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol body) | pcontains "(?i)alive" ) | pselect id | pinto-nu | get id | to text | save -f alive_insen.txt
+diff "alive_insen.txt" alive_sen.txt 
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ((pcol id) == (plit "n1c299p")) | pc
+po r_anime_comments.jsonl<\n>  | pf ((pcol link_id) == (plit "t3_1lrl0aa"))<\n>  | pselect id body<\n>  | pf ((pcol id) | pis-in [(plit "n1c299p") (plit "n1abcde")])<\n>  | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ( ((pcol id) == (plit "n1c299p")) or ((pcol id) == (plit "n1c299p")) ) | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ( ((pcol id) == (plit "n1c299p")) or ((pcol id) == (plit "n1c388k")) ) | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect id body | pf ( ((pcol id) == (plit "n1c299p")) or ((pcol id) == (plit "n1c388k")) ) | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | rg ALIVE
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pc | pinto-nu
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pinto-nu
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pinto-nu | rg alive
+help pc
+help polars collect
+jrnl
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)alive") | pinto-nu
+po r_anime_comments.jsonl | pf ((pcol link_id) == (plit "t3_1lrl0aa")) <\n>| pselect body | pf ((pcol body) | pcontains "(?i)live") | pinto-nu
+duf
+rclone copy --progress --checksum /home/Ext4Pam/Pictures/kimi_no_sei/Better.Call.Saul.2015.S01.02.03.NF.WEB-DL.1080p.h264.Dual.YG ngomkhang132:arch_backup/medias/ --transfers 16 --checkers 16 --drive-chunk-size 64M --buffer-size 64M
+rclone --help
+cat /var/lib/postgres/data/PG_VERSION
+sudo cat /var/lib/postgres/data/PG_VERSION
+yay
+yay -Qs | fzf
+sudo cat /var/lib/postgres/data/PG_VERSION
+tmux 
+sudo ls postgres/
+rclone copy --progress --checksum /home/Ext4Pam/Pictures/kimi_no_sei/Better.Call.Saul.2015.S01.02.03.NF.WEB-DL.1080p.h264.Dual.YG ngomkhang132:arch_backup/medias/ --transfers 32 --checkers 32 --drive-chunk-size 128M --buffer-size 128M
+sudo updatedb
+plocate aku | rg "Aku no Hana"
+plocate aku | fzf
+sudo mv /var/lib/postgres/data /home/pampam/Downloads/random_stuff/
+zotify https://open.spotify.com/track/1EA40FX9aBaKIXwIp83WzL?si=f8af74e39bf94a9d
+plocate aoi
+plocate aoi | rg music
+plocate -i "World is yours" | rg music
+zotify-album https://open.spotify.com/album/0nwLNp8Qef1KpnUdXJgEJn?si=4UTOYyiGTJG3Puo8gE685Q
+f delusionalism
+f dramatic
+zotify https://open.spotify.com/track/3huSUfmhUr4entz2S0G31O?si=260f06265d9b4750
+f postgres | rg sql\.pdf$ 
+zathura (f postgres | rg sql\.pdf$ )
+f slaughtered
+f Bad+SAd
+f cinema
+f cinema | rg bonito
+zotify https://open.spotify.com/track/6qAXcAJwzmdZjbUvC9cv2e?si=235bb595344e4c5b
+f "I'd rather sleep"
+zotify https://open.spotify.com/track/614cx8ZtQJX7jRIBnUhPA7?si=d3b45e48ee4d44cf
+f soda
+f soda candy
+zotify https://open.spotify.com/track/0z4tJZNC3jXbFIqvSaEYa7?si=48c3b8e8d44d4f83
+sudo updatedb
+f soda candy
+jrnl
+jrnl -n 10
+pacman -Qs gtk3<\n>pacman -Qs adwaita<\n>pacman -Qs gnome-themes-extra<\n>
+sudo pacman -S gtk3 adwaita-gtk3 adwaita-icon-theme gnome-themes-extra<\n>
+pkill easyeffects
+easyeffects --gapplication-service
+btop
+sudo pacman -S gnome-themes-extra<\n>
+GTK_THEME=Adwaita easyeffects<\n>
+jack_meter -n -f 10 "Output Level Meter:output_FR"<\n>
+paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
+^bash -c 'paste <(jack_meter -n -f 10 "Level Meter:output_FL") <(jack_meter -n -f 10 "Level Meter:output_FR")'<\n>
+bash -c 'paste <(jack_meter -n -f 4 "Level Meter:output_FL")       <(jack_meter -n -f 4 "Level Meter:output_FR")'
+bash -c 'paste <(jack_meter -n -f 4 "Output Level Meter:output_FL") <(jack_meter -n -f 4 "Output Level Meter:output_FR")'
+jrnl
+easyeffects --help
+pkill easyeffects
+yay -S zam-plugins
+easyeffects --service-mode
+alsamixer
+ponymix
+pw-top<\n>
+pw-meter<\n>
+sudo pacman -S pipewire-tools<\n>
+pw-cat --monitor<\n>
+pw-cat
+pw-cat -v
+pw-meter -n easyeffects_sink<\n>
+pw-jack jack_meter<\n>
+jack_meter
+jack_meter -n -f 10 "Easy Effects Sink:playback_FL"<\n>jack_meter -n -f 10 "Easy Effects Sink:playback_FR"
+sudo pacman -S meterbridge<\n>
+sudo pacman -S pipewire-tools<\n>
+pw-jack jackmeter<\n>
+pw-jack jack_meter<\n>
+paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
+jack_meter -n -f 10 "Output Level Meter:output_FR"<\n>
+pw-cli ls Node<\n>
+jack_meter -n -f 10 "Easy Effects Sink:output_FR"
+pw-jack jack_lsp<\n>
+jack_meter -n -f 10 "Easy Effects Source:capture_FR"
+jack_meter -n -f 10 "Easy Effects Sink:playback_FR"
+jack_meter -n -f 10 "Easy Effects Filter:output_FL"
+jack_meter -n -f 10 "Easy Effects Sink:monitor_FL"
+print $"(jack_meter -n -f 10 "Easy Effects Sink:monitor_FL") \t (jack_meter -n -f 10 "Easy Effects Sink:monitor_FR")"
+codex
+print $"(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') \t (jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
+print (jack_meter -n -f 10 'Easy Effects Sink:monitor_FL')
+watch { print $"(jack-once 'Easy Effects Sink:monitor_FL')\t(jack-once 'Easy Effects Sink:monitor_FR')" }
+watch $"(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') \t (jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
+^echo $"(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') \t (jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
+$"(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') \t (jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
+jack_meter -n -f 10 'Easy Effects Sink:monitor_FL'
+jrnl
+bash -c "paste <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
+peak
+jrnl
+pdfimages -f 28 -l 35 -j "Chapter 5 - CNNs_Part1.pdf" shipbuidling
+pdfimages -f 28 -l 35 -j "English for Logistics-PDF.pdf" shipbuidling
+jrnl
+sudoedit /etc/hosts
+openssl rand -base64 32<\n>
+pass insert social_media/facebook/0768725632
+pass show social_media/facebook/0768725632
+pass insert gmail/ngomkhang135@gmail.com
+pass show gmail/ngomkhang135@gmail.com
+openssl rand -base64 32<\n>
+pass insert gmail/ngomkhang132@gmail.com
+openssl rand -base64 32<\n>
+pass insert gmail/ngomkhang134@gmail.com
+fd . /home/pampam/.password-store
+fd -t f . /home/pampam/.password-store
+fd -t f . /home/pampam/.password-store | fzf
+pass show (fd -t f . /home/pampam/.password-store | fzf)
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>  | path relative-to '/home/pampam/.password-store/arch-forum'
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>  | path relative-to '/home/pampam/.password-store/'
+pass show (fd -t f . /home/pampam/.password-store | fzf | path relative-to '/home/pampam/.password-store/arch-forum')
+pass show (fd -t f . /home/pampam/.password-store | fzf | path relative-to '/home/pampam/.password-store/')
+pass show social_media/facebook/0768725632
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>  | path relative-to '/home/pampam/.password-store/' | path parse
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>  | path relative-to '/home/pampam/.password-store/' | path parse | get stem
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>| path relative-to '/home/pampam/.password-store/' | path parse | get stem
+'/home/pampam/.password-store/arch-forum/ngomkhang135.gpg'<\n>| path relative-to '/home/pampam/.password-store/' | str replace --regex '\.gpg$' ''
+pass --help
+pass ls
+pass grep face
+password
+fzf | print $in
+fzf | xargs print
+fzf | xargs echo
+gl https://www.instagram.com/p/DRFZT3ZAQvo/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+gl https://www.instagram.com/p/DQ1n5p4EQb-/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DQ71mrziL18/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DQZLrKxj9rw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+gl https://www.instagram.com/p/DQqX22gCSx2/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+pass insert gmail/khangnm1340@ut.edu.vn
+pass insert zalo/0768725632
+pass insert lienquan/khaipo8
+pass show lienquan/khaipo8
+pass --help
+pass generate
+pass generate banking/0768725632
+pass generate -nf banking/0768725632 20
+pass generate -f banking/0768725632 20
+jrnl
+yay -Rns qtpass
+openssl rand -base64 32<\n>
+openssl --help
+openssl rand -base64 32<\n>
+openssl rand -base64 32 | wl-copy
+nordvpn status
+nordvpn US
+nordvpn c US
+nordvpn c Japan
+yay -S espeak-ng
+espeak "Hello world"<\n>
+x "some text" | espeak<\n>
+"some text" | espeak<\n>
+espeak-ng -v en+f2 "Hello, this is a test."<\n>LinkedIn<\n>+3<\n>Medium<\n>+3<\n>Chromium Git Repositories<\n>+3<\n><\n>
+espeak-ng -v en+f2 "Hello, this is a test."<\n>
+gtts-cli
+yay -S python-gtts
+gtts-cli "Welcome to Baeldung" --output welcome.mp3
+gtts-cli --help
+gtts-cli "Welcome to Baeldung"
+pdftotext
+pdftotext "The Apothecary Diaries - Volume 01 [J-Novel Club][Premium_LNWNCentral].pdf"
+nordvpn status
+sudo pacman -S piper-tts<\n>
+nordvpn status
+yay -S piper-tts-bin
+pacman -Qi piper-tts-bin
+yay -Rns piper-tts-bin
+uv tool install piper-tts<\n>
+piper --model en_US-amy-medium.onnx --output out.wav <<< "Hello!"<\n>
+piper --help
+mkdir ~/voices/piper/en_US-amy/<\n>
+wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx<\n>wget https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx.json<\n>
+piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json <<< "Hello, this is a natural female voice."
+gtts-cli "Hello, this is a natural female voice."
+gtts-cli --help
+gtts-cli "Hello, this is a natural female voice." -o gtts-hello.mp3
+piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json <<< "<\n>What I wouldn’t give for some good street-stall meat skewers. Maomao<\n>looked up at the overcast sky and sighed. She lived in a world that was at once a<\n>place of unparalleled, sparkling beauty and a noxious, foul, suffocating cage.<\n>Three months already. Hope my old man’s eating properly.<\n>It seemed just the other day she had gone into the woods to gather herbs,<\n>and there had met three kidnappers; let us call them Villagers One, Two, and<\n>Three. They were after women for the royal palace, and in a word, they offered<\n>the world’s most forceful and unpleasant marriage proposal.<\n>Now, it wasn’t that she wouldn’t be paid, and with a couple years’ work, there<\n>was that glimmer of hope that she might even be able to come back to her<\n>hometown. There were worse ways to earn a living—if one went to the royal<\n>city of one’s own accord. But Maomao, who had been making her way just fine<\n>as an apothecary, thank you very much, saw it solely as so much trouble.<\n>What did the kidnappers do with the nubile young women they captured?<\n>Sometimes they sold the girls to the eunuchs, putting the proceeds toward a<\n>night of drinking for themselves. Sometimes the young ladies were offered in<\n>lieu of someone’s own daughter. To Maomao, it was a moot question, for now<\n>she found herself caught up in their schemes, regardless of the reason. Else, she<\n>would never in her life have wished to have anything to do with the hougong,<\n>the “rear palace”: the residence of the Imperial women.<\n>The place was so thick with the odors of makeup and perfume as to turn the<\n>stomach, and even more full of the thin, forced smiles of the court ladies in<\n>their beautiful dresses. In her time as an apothecary, Maomao had come to<\n>believe there was no toxin so terrifying as a woman’s smile. That one rule held<\n>true whether in the halls of the most ornate palace or the squalid chambers of<\n>the cheapest pleasure house.<\n>Maomao hefted the laundry basket at her feet and headed into a nearby<\n>building. Unlike the dazzling front façade, the dreary central courtyard housed<\n>"
+"<\n>What I wouldn’t give for some good street-stall meat skewers. Maomao<\n>looked up at the overcast sky and sighed. She lived in a world that was at once a<\n>place of unparalleled, sparkling beauty and a noxious, foul, suffocating cage.<\n>Three months already. Hope my old man’s eating properly.<\n>It seemed just the other day she had gone into the woods to gather herbs,<\n>and there had met three kidnappers; let us call them Villagers One, Two, and<\n>Three. They were after women for the royal palace, and in a word, they offered<\n>the world’s most forceful and unpleasant marriage proposal.<\n>Now, it wasn’t that she wouldn’t be paid, and with a couple years’ work, there<\n>was that glimmer of hope that she might even be able to come back to her<\n>hometown. There were worse ways to earn a living—if one went to the royal<\n>city of one’s own accord. But Maomao, who had been making her way just fine<\n>as an apothecary, thank you very much, saw it solely as so much trouble.<\n>What did the kidnappers do with the nubile young women they captured?<\n>Sometimes they sold the girls to the eunuchs, putting the proceeds toward a<\n>night of drinking for themselves. Sometimes the young ladies were offered in<\n>lieu of someone’s own daughter. To Maomao, it was a moot question, for now<\n>she found herself caught up in their schemes, regardless of the reason. Else, she<\n>would never in her life have wished to have anything to do with the hougong,<\n>the “rear palace”: the residence of the Imperial women.<\n>The place was so thick with the odors of makeup and perfume as to turn the<\n>stomach, and even more full of the thin, forced smiles of the court ladies in<\n>their beautiful dresses. In her time as an apothecary, Maomao had come to<\n>believe there was no toxin so terrifying as a woman’s smile. That one rule held<\n>true whether in the halls of the most ornate palace or the squalid chambers of<\n>the cheapest pleasure house.<\n>Maomao hefted the laundry basket at her feet and headed into a nearby<\n>building. Unlike the dazzling front façade, the dreary central courtyard housed<\n>"|<\n>piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json
+"<\n>What I wouldn’t give for some good street-stall meat skewers. Maomao<\n>looked up at the overcast sky and sighed. She lived in a world that was at once a<\n>place of unparalleled, sparkling beauty and a noxious, foul, suffocating cage.<\n>Three months already. Hope my old man’s eating properly.<\n>It seemed just the other day she had gone into the woods to gather herbs,<\n>and there had met three kidnappers; let us call them Villagers One, Two, and<\n>Three. They were after women for the royal palace, and in a word, they offered<\n>the world’s most forceful and unpleasant marriage proposal.<\n>Now, it wasn’t that she wouldn’t be paid, and with a couple years’ work, there<\n>was that glimmer of hope that she might even be able to come back to her<\n>hometown. There were worse ways to earn a living—if one went to the royal<\n>city of one’s own accord. But Maomao, who had been making her way just fine<\n>as an apothecary, thank you very much, saw it solely as so much trouble.<\n>What did the kidnappers do with the nubile young women they captured?<\n>Sometimes they sold the girls to the eunuchs, putting the proceeds toward a<\n>night of drinking for themselves. Sometimes the young ladies were offered in<\n>lieu of someone’s own daughter. To Maomao, it was a moot question, for now<\n>she found herself caught up in their schemes, regardless of the reason. Else, she<\n>would never in her life have wished to have anything to do with the hougong,<\n>the “rear palace”: the residence of the Imperial women.<\n>The place was so thick with the odors of makeup and perfume as to turn the<\n>stomach, and even more full of the thin, forced smiles of the court ladies in<\n>their beautiful dresses. In her time as an apothecary, Maomao had come to<\n>believe there was no toxin so terrifying as a woman’s smile. That one rule held<\n>true whether in the halls of the most ornate palace or the squalid chambers of<\n>the cheapest pleasure house.<\n>Maomao hefted the laundry basket at her feet and headed into a nearby<\n>building. Unlike the dazzling front façade, the dreary central courtyard housed<\n>"|<\n>piper -m ~/voices/piper/en_US-amy/en_US-amy-medium.onnx -c ~/voices/piper/en_US-amy/en_US-amy-medium.onnx.json -f test1.wav
+gtts-cli --help
+pass insert wifi/Thanh_Nhan
+gpg -c a4zz58.jpg
+gpg  a4zz58.jpg.gpg
+openssl rand -base64 32
+pass insert wifi/khang
+pass show wifi/khang
+fd -t f . /home/pampam/.password-store
+fd -t f . /home/pampam/.password-store | fzf
+pass show (fd -t f . /home/pampam/.password-store | fzf)
+jrnl
+jrnl -n 10
+f soda
+fd | wc -l 
+fd bocchi
+timeit {fd bocchi o+e>|ignore}
+f bocchi
+timeit {f bocchi o+e>|ignore}
+which f
+f bocchi
+sudo updatedb
+f bocchi | rg .mkv$
+rg "derivative"
+rg "gradient"
+rg "polars open all_posts_after.parquet"
+f ostep
+f Operating
+f Operating | rg .pdf$
+f Operating | rg .pdf$ | zathura $in
+f postgres | rg .pdf$
+f of_postgres | rg .pdf$ | zathura $in
+uv sync
+python main.py
+uv run main.py
+uv --hlep
+uv --help
+uv remove pandas
+uv run main.py
+uv add pandas
+uv sync
+nvim
+pass generate -f gmail/khangnm1340@ut.edu.vn
+pass generate -f arch-wiki/Ngomkhang135
+bash -c "LC_ALL=C pacman -V|sed -r "s#[0-9]+#$(date -u +%m)#g"|base32|head -1"
+bash -c "LC_ALL=C pacman -V|sed -r "s#[0-9]+#$(date -u +%m)#g"|base32|head -1" | wl-copy
+f cert.pem
+f cert.pem | rg /etc
+trust list
+pkill walker
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+tmux
+umask
+^umask
+bah
+lazygit
+z
+codex
+z
+uv init
+pdfimages -f 1 -l 25 -j "Chapter 3 - TRAINING DEEP NEURAL NETWORKS.pdf" chapter3
+codex
+uv init
+f yelp
+uv sync
+lazygit
+codex
+uv sync
+lazygit
+uv run python main.py --dataset-path archive/yelp_academic_dataset_review.json --max-samples 60000 --num-epochs 3 --model-names distilbert-base-uncased roberta-base
+uv sync
+uv run python main.py --dataset-path archive/yelp_academic_dataset_review.json --max-samples 60000 --num-epochs 3 --preprocess-workers 8 --model-names distilbert-base-uncased roberta-base
+uv sync
+job unfreeze
+codex
+rclone copy --progress /home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive "ngomkhang132:Colab Notebooks/" --transfers 32 --checkers 32 --drive-chunk-size 128M --buffer-size 128M
+rclone copy --progress /home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive "ngomkhang132:Colab Notebooks/archive/" --transfers 32 --checkers 32 --drive-chunk-size 128M --buffer-size 128M
+rclone copy --progress /home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive/yelp_academic_dataset_review.json "ngomkhang132:Colab Notebooks/archive/" --drive-chunk-size 128M --buffer-size 128M
+rclone copy --progress /home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive/yelp_academic_dataset_review.json "ngomkhang132:Colab Notebooks/archive/" --transfers 32 --checkers 32 --drive-chunk-size 128M --buffer-size 128M
+rclone copy --progress /home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive/yelp_academic_dataset_user.json "ngomkhang132:Colab Notebooks/archive/" --drive-chunk-size 512M --buffer-size 512M
+rclone ls ngomkhang132:old
+rclone ls "ngomkhang132:Colab Notebooks/archive/yelp_academic_dataset_checkin.json"
+rclone ls "ngomkhang132:Colab Notebooks/archive/yelp_academic_dataset_user.json"
+rclone ls "ngomkhang132:Colab Notebooks/archive/yelp_academic_dataset_user.json" | str length
+if (rclone ls "ngomkhang132:Colab Notebooks/archive/yelp_academic_dataset_user.json" | str length) > 0 {<\n>        print "File found!"}
+f poweroff.desktop
+jrnl
+while true {<\n>    if (rclone ls "ngomkhang132:Colab Notebooks/archive/yelp_academic_dataset_user.json" | str length) > 0 {<\n>        print "File found!"<\n>        gtk-launch poweroff<\n>        break<\n>    }<\n>}
+gtk-launch poweroff
+uwsm-app -- codex
+jupytext --help
+yay -Qs | fzf
+yay -S python-jupytext
+wc --help
+wc -l yelp_academic_dataset_user.json 
+jrnl
+wk https://www.instagram.com/reel/DK1VSp-Sluu/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRGtnnkjx3X/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRAqLWIk5le/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQesJ2FDrD8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DOd-mcNjksk/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DPRKyGJj87R/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ8sBYMgLjN/?utm_source=ig_web_copy_link
+zstd --help
+zstd --help | wl-copy
+unzip "yelp-roberta*.zip" -d ./yelp-roberta-regression
+7z x "yelp-roberta*.zip" -o./yelp-roberta-regression
+7z x "yelp-distilbert*.zip" -o./yelp-roberta-distilbert
+typst font
+typst fonts
+typst fonts | rg daughter
+typst fonts | fzf
+wl-copy "hi"
+wl-copy (typst fonts | fzf)
+yay -Qs | fzf
+makepkg -si<\n>
+yay -S architechs-daughter-font
+yay -S architects-daughter-font
+sha256sum architects-daughter-1.004.zip 
+makepkg -si<\n>
+sha256sum Architects_Daughter.zip 
+makepkg -si<\n>
+typst fonts | fzf
+wl-copy (typst fonts | fzf)
+typst watch yelp-regression-doc.typ 
+sudo updatedb
+python plot_loss_curves.py 
+uv init
+uv add datasets
+uv run python plot_loss_curves.py 
+uv add matplotlib
+uv run python plot_loss_curves.py 
+uv add scikit-learn
+uv run python plot_loss_curves.py 
+uv add transformers
+uv run python plot_loss_curves.py 
+uv add torch torchvision
+uv run python plot_loss_curves.py 
+uv add accelerate
+uv run python plot_loss_curves.py 
+wk https://www.instagram.com/reel/DPvbFhZD0l8/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRGj9qskdIa/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ_eA_GkR63/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNh9SckMmRx/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DNml6QyKKud/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQJW1xMk33a/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQgf4OhEwVx/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ_uL4Xj3dF/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRHXLyuj4wv/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQoAgGFidT5/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRMLkhgDwmW/?utm_source=ig_web_copy_link
+curl -fsSL https://raw.githubusercontent.com/unhappychoice/gitlogue/main/install.sh | bash
+gitlogue --help
+gitlogue
+zotify https://open.spotify.com/track/0z4tJZNC3jXbFIqvSaEYa7?si=2affed6824104acb
+which zotify
+uv tool install zotify<\n>
+pipx --help
+pipx list
+pipx upgrade zotify
+pipx install git+https://github.com/DraftKinner/zotify.git@dev<\n>
+pipx --force install git+https://github.com/DraftKinner/zotify.git@dev<\n>
+pipx install --force git+https://github.com/DraftKinner/zotify.git@dev<\n>
+zotify https://open.spotify.com/track/0z4tJZNC3jXbFIqvSaEYa7?si=2affed6824104acb
+p chainsaw | rg .ogg$
+f chainsaw | rg .ogg$
+f chainsaw | rg .ogg$ | rg clark
+po yelp_academic_dataset_user.json | pc
+tldr head
+head -10000 yelp_academic_dataset_user.json
+head -300000 yelp_academic_dataset_user.json | save processed-user.jsonl
+head -300000 "yelp_academic_dataset_review.json" | save processed-user.jsonl
+po processed-user.jsonl | pc
+po processed-user.jsonl | pschema
+po processed-user.jsonl | pski
+po processed-user.jsonl | pselect stars text | pc
+po processed-user.jsonl | pselect stars text | psort-by stars
+po processed-user.jsonl | pselect stars text | psort-by stars | pc
+po processed-user.jsonl | pselect stars text | pgroup-by stars
+po processed-user.jsonl | pselect stars text | pgroup-by stars | pc
+po processed-user.jsonl | pselect stars text | pgroup-by stars
+po processed-user.jsonl | pselect stars text | pgroup-by stars | pc
+help pvalue-counts 
+help polars value-counts
+po processed-user.jsonl | pselect stars text | polars value-counts 
+po processed-user.jsonl | pselect stars | polars value-counts | psort-by count
+wc -l yelp_academic_dataset_review.json 
+head -3000000 "yelp_academic_dataset_review.json" | save processed-review.jsonl
+head -3000000 "yelp_academic_dataset_review.json" | save -f processed-review.jsonl
+po processed-review | pselect stars | polars value-counts | psort-by count
+po processed-review.jsonl | pselect stars | polars value-counts | psort-by count
+po processed-review.jsonl | pselect stars | polars value-counts
+po processed-review.jsonl | pselect stars | polars value-counts | psort-by stars
+btop
+codex
+which codex
+po processed-review.jsonl | pselect stars | polars value-counts | psort-by stars | pinto-nu
+po processed-review.jsonl | pselect stars | polars value-counts | psort-by stars | pinto-nu | save ratings.csv
+po processed-review.jsonl | pselect stars | pvalue-counts | psort-by stars | pinto-nu | save ratings.csv
+help polars sample
+help polars sample | wl-copy
+<\n>po processed-review.jsonl | pselect stars text<\n>| pf (((pcol stars) == (plit 5)))<\n>| psample --n-rows 4000 --shuffle
+head -500000 "yelp_academic_dataset_review.json" | save -f processed-review.parquet
+<\n>po processed-review.parquet | pselect stars text<\n>| pf (((pcol stars) == (plit 5)))<\n>| psample --n-rows 4000 --shuffle
+head -500000 "yelp_academic_dataset_review.json" | save -f processed-review.jsonl
+sed -i '$d' "processed-review.jsonl"
+po processed-review.jsonl | psave processed-review.parquet
+po processed-review.parquet | pselect stars text<\n>| pf (((pcol stars) == (plit 5)))<\n>| psample --n-rows 4000 --shuffle
+for i in 0..50 {<\n>    print $i<\n>}
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>}<\n>| pconcat      # glue the 5 pieces together<\n>| pc           # collect back to a concrete df
+help polars append | wl-copy
+help polars append
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>}<\n>| pappend<\n>| pc           # collect back to a concrete df
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend<\n>}<\n>| pc           # collect back to a concrete df
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}<\n>| pc
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}<\n>| psave appended_4000.parquet
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}<\n>| pski
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}<\n>pflatten
+(1..5)<\n>| each {|i|<\n>| po processed-review.parquet | pselect stars text<\n>  | pf (((pcol stars) == (plit $i)))<\n>  | psample --n-rows 4000 --shuffle<\n>  | pappend $in<\n>}<\n>| pflatten
+(1..5)<\n>| each {|i|<\n>    po processed-review.parquet | pselect stars text<\n>    | pf (((pcol stars) == (plit $i)))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>}<\n>| reduce {|acc frame|<\n>    if $acc == null {<\n>        $frame<\n>    } else {<\n>        $acc | pconcat $frame<\n>    }<\n>}
+(1..5)<\n>| each {|i|<\n>    po processed-review.parquet | pselect stars text<\n>    | pf (((pcol stars) == (plit $i)))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>}<\n>| pinto-nu
+(1..5)<\n>| each {|i|<\n>    po processed-review.parquet | pselect stars text<\n>    | pf (((pcol stars) == (plit $i)))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>}<\n>| pski
+(1..5)<\n>| each {|i|<\n>    po processed-review.parquet | pselect stars text<\n>    | pf (((pcol stars) == (plit $i)))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>}<\n>| reduce {|acc frame|<\n>    if $acc == null {<\n>        $frame<\n>    } else {<\n>        $acc | pconcat $frame<\n>    }<\n>}
+let frames = (<\n>      (1..5)<\n>      | each {|i|<\n>          po processed-review.parquet | pselect stars text<\n>          | pf (((pcol stars) == (plit $i)))<\n>          | psample --n-rows 4000 --shuffle<\n>          | pc<\n>      }<\n>  )
+$frames
+help debu
+help debug
+let frames = (<\n>    (1..5)<\n>    | each {|i|<\n>        po processed-review.parquet | pselect stars text<\n>        | pf (((pcol stars) == (plit $i)))<\n>        | psample --n-rows 4000 --shuffle<\n>        | pc<\n>    }<\n>)<\n>
+let first = ($frames | first)<\n>
+$first | inspect
+$first | inspect 
+$first | metadata
+$first | ski
+$first | pski
+$first | describe
+$frames
+$frames | enumerate
+help enumerate
+let stratified = (<\n>    (1..5)<\n>    | each {|i|<\n>        po processed-review.parquet | pselect stars text<\n>        | pf (((pcol stars) == (plit $i)))<\n>        | psample --n-rows 4000 --shuffle<\n>        | pc<\n>    }<\n>    | enumerate<\n>    | reduce --fold null {|acc row|<\n>        if $row.index == 0 {<\n>            $row.item          # first dataframe becomes the accumulator<\n>        } else {<\n>            $acc | pconcat $row.item<\n>        }<\n>    }<\n>)
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>})<\n><\n>$frames | pconcat | pc<\n>
+help pconcat
+help polars concat
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>})<\n><\n>$frames | pconcat ...$in | pc
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pconcat ...$in<\n>    | pc<\n>})<\n>$frames
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>    | pconcat ...$in<\n>})<\n>$frames
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>})<\n>| pconcat ...$in
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>    | pc<\n>}<\n>| pconcat ...$in<\n>)<\n>$frames
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>}<\n>| pconcat ...$in<\n>)<\n>$frames
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>}<\n>| pconcat ...$in<\n>| pc<\n>)
+$frames
+jrnl
+$frames
+let frames = (1..5 | each {|i|<\n>    po processed-review.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 4000 --shuffle<\n>}<\n>| pconcat ...$in<\n>| pc<\n>)
+$frames | polars save equalized_4k.parquet
+po processed-review-500k.parquet | pselect stars | pvalue-counts | psort-by stars | pinto-nu | save -f ratings.csv
+ipython
+yay -S python-fastparquet
+po processed-review-500k.parquet | pselect stars | pvalue-counts | psort-by stars | pinto-nu | save -f ratings.csv
+ipython
+po equalized_4k.parquet | pselect stars | pvalue-counts | psort-by stars | pinto-nu | save -f ratings-equalized.csv
+ipython
+yay -S antigravity-bin
+codex
+f bocchi | rg .mkv$
+timeit (f bocchi | rg .mkv$ o+e>|ignore )
+timeit {f bocchi | rg .mkv$ o+e>|ignore}
+timeit {f bocchi  o+e>|ignore}
+timeit {f bocchi}
+find / "hi"
+^find --help
+^find "bocchi" /
+^find --help
+^find "bocchi" /
+^find / "bocchi"
+^find "bocchi"
+^find --help
+man find
+tldr find
+^find -name "bocchi"
+^find / -name "bocchi"
+^find / -path "/.snapshots" -prune -name "bocchi"
+sudo ^find / -path "/.snapshots" -prune -name "bocchi"
+sudo find / -path "/.snapshots" -prune -name "bocchi"
+man find
+hyperfine --warmup 3 "f bocchi | rg .mkv$"
+hyperfine --warmup 3 "plocate -i bocchi | rg .mkv$"
+^find / -path "/.snapshots" -prune -name "bocchi"
+(find / -path "/.snapshots" -prune -name "bocchi" 2>/dev/null) | bash
+bash -c (find / -path "/.snapshots" -prune -name "bocchi" 2>/dev/null)
+bash -c 'find / -path "/.snapshots" -prune -name "bocchi" 2>/dev/null'
+fd bocchi
+find "bocchi"
+^find "bocchi"
+fd bocchi
+time (fd bocchi) | bash
+man find
+f ielts
+f ielts | rg .pdf$
+zathura (f ielts | rg .pdf$ | fzf)
+time plocate movit-fosdem-talk
+plocate "bocchi"
+time (plocate "bocchi")
+time {plocate "bocchi"}
+timeit (plocate "bocchi")
+timeit {plocate "bocchi"}
+timeit {plocate "bocchi" o+e>|ignore }
+timeit {plocate "bocchi"}
+fd
+perf 
+bash
+gpg -c 3749628616742501850.mp4
+openssl rand -base64 32
+f post
+$env.EDITOR=neovide
+$env.EDITOR = 'neovide'
+sudoedit /etc/hosts
+zathura (f postgres | rg sql\.pdf$ )
+tmux
+sudoedit /etc/hosts
+$env.EDITOR
+sudoedit /etc/hosts
+uwsm-app -- nvim
+$env.SUDO_EDITOR
+$env.SUDO_EDITOR = nvim
+$env.SUDO_EDITOR = 'nvim'
+sudoedit /etc/hosts
+config nu
+config env
+sudoedit /etc/hosts
+tmux
+n
+n temp.md
+n temp.md
+n /etc/ssl/openssl.cnf
+f ostep
+f osper
+f operating
+f operating | rg .pdf$
+f pat
+f pat | pdf$
+f pat | rg .pdf$
+f pat | rg .df$
+f pat | rg \.pdf$
+f operating | rg .pdf$ | zathura $in
+f 96a
+man rg
+f 96a | rg .pdf$
+f 96a | rg .pdf$ | zathura $in
+zathura (f postgres | rg sql\.pdf$ )
+f
+fd
+fd -d 1 | fzf
+ls */* | each { |i| mv $i.name /home/Ext4Pam/Music/can_j_noi_dau_e_oi}
+f sunshine
+f sunshine | rg \.ogg$
+zotify https://open.spotify.com/track/036Ss2qFXpU7GBga7njflB?si=bf4987b8d1c846db
+rmpc
+jrnl
+f 96a | rg .pdf$ | zathura $in
+man zathura
+f 96a | rg .pdf$ | zathura $in
+f 96a | rg .pdf$
+man rg
+man rg | n
+man rg | neovide
+man rg | nvim
+man rg
+config env
+man rg
+config env
+man rg
+man ls
+config env
+zotify https://open.spotify.com/track/7xpUWbv1UfcRQJEOGabeaJ?si=034ffec3ee8d46ec
+f "do the dance"
+f "do the dance" | fzf | mpv $in
+jkl https://youtube.com/shorts/PsS6bv4bNlc?si=8CkW4TXOL3KWStas
+yay 
+systemctl --user status notify.service
+systemctl --user disable --now notify
+systemctl --user disable --now notify.timer
+yay
+jrnl
+nordvpn c
+nordvpn c US
+systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+n
+nhentai
+jrnl
+btop
+ps | sort-by mem
+btop
+rclone copy --progress "./[VCB-Studio] Colorful [Ma10p_1080p]" "ngomkhang132:arch_backup/medias/" --drive-chunk-size 512M --buffer-size 512M
+wk https://youtube.com/shorts/r4ELfLteMA8?si=OERZqXJ1EBDklHEk
+jkl https://youtube.com/shorts/r4ELfLteMA8?si=OERZqXJ1EBDklHEk
+cd ..
+jkl https://youtube.com/shorts/aRJz_yVDa3I?si=j_JsVy7i4f_Pf8dl
+nvim
+nvim "yazi.toml"
+n "yazi.toml"
+fd -uE ".vevn" | fzf
+fd -u
+fd -u | wc -l
+fd -uE ".venv" | wc -l
+fd -uE ".venv" -E ".cache" | wc -l
+count-files
+fd -uE ".venv" -E ".rustup" -E ".cache" | fzf
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+tmux
+fzf
+f 96a | rg .pdf$
+jrnl
+hyprctl clients
+tmux
+rclone copy --progress "./[Judas] Steins;Gate (Season 1 + OVA + Movie) [BD 1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs]" "ngomkhang132:arch_backup/medias/[Judas] Steins;Gate (Season 1 + OVA + Movie) [BD 1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs]" --drive-chunk-size 128M --buffer-size 128M
+man rclone
+rclone copy --progress --transfers 16 --drive-chunk-size 128M --buffer-size 128M "./[Judas] Steins;Gate (Season 1 + OVA + Movie) [BD 1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs]" "ngomkhang132:arch_backup/medias/[Judas] Steins;Gate (Season 1 + OVA + Movie) [BD 1080p][HEVC x265 10bit][Dual-Audio][Multi-Subs]"
+rclone copy --progress --transfers 100 --drive-chunk-size 128M --buffer-size 128M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt-downloads"
+ls
+D
+fd
+fd | save list.txt
+open list.txt | lines | each {|name|<\n>  if ($name | is-empty) {<\n>    return<\n>  } else {<\n>    print $name<\n>}<\n>}
+open list.txt | lines | each {|name|<\n>  if ($name | is-empty) {<\n>    return<\n>  } else {<\n>    mv $name ./frequent<\n>}<\n>}
+open list.txt | lines | each {|name|<\n>  if (ls $name | is-empty) {<\n>    return<\n>  } else {<\n>    print $name<\n>}<\n>}
+ls "hi"
+help ls
+ls
+help contains
+f nu
+f nushell
+f nushell | fzf
+/home/pampam/Documents/UTH/MachineLearning/for-real/real-BTL/archive/nushell-docs
+ls | get name
+ls | get name | to text
+ls | get name | to text | line
+ls | get name | to text | lines
+ls | get name 
+"hi\nhey" | "hey"
+"hi\nhey" | "no"
+"hi\nhey" | lines
+"hi\nhey" | lines | any { |i| "hi" == $in.$i}
+"hi\nhey" | lines | any { |i| "hi" == i}
+"hi\nhey" | lines | each { |i| any { || "hi" == $i} }
+"hi\nhey" | lines | each { |i| if $i == "hi" {print "ok"} }
+"hi\nhey" | lines | each { |i| if $i == "no" {print "ok"} else {print "not ok"}  }
+print list.txt
+open list.txt
+cat list.txt
+rg "기다렸지 All This Time! ｜ 소향(Sohyang)&안신애(An Shinae)&화사(HWASA) - 'Ditto' ｜ #나라는가수 [L9qqrWFXvDI].mp4" list.txt
+man rg
+tldr rg
+rg Sohyang list.txt
+rg "기다렸지 All This Time! ｜ 소향(Sohyang)&안신애(An Shinae)&화사(HWASA) - 'Ditto' ｜ #나라는가수 [L9qqrWFXvDI].mp4" list.txt
+grep "기다렸지 All This Time! ｜ 소향(Sohyang)&안신애(An Shinae)&화사(HWASA) - 'Ditto' ｜ #나라는가수 [L9qqrWFXvDI].mp4" list.txt
+let left  = (open list.txt  | lines)<\n>let right = (ls | get name)<\n><\n>let common = (<\n>  $left<\n>  | where {|line| $right | any {|candidate| $candidate == $line } }<\n>)
+$common
+let left  = (open list.txt  | lines)<\n>let right = (ls | get name)<\n><\n>let common = (<\n>  $left<\n>  | where {|line| $right | any {|candidate| $candidate == $line } }<\n>)
+$common
+jrnl
+let left  = (open list.txt  | lines)<\n>let right = (ls | get name)<\n><\n>let common = (<\n>  $left<\n>  | where {|line| $right | any {|candidate| $candidate == $line } }<\n>)<\n>$common
+jkl https://www.youtube.com/watch?v=V37TaRdVUQY&pp=ygUMZGl0dG8gc2lkZSBi
+jkl https://www.youtube.com/watch?v=8CydFxYzCRg&pp=ygUZbmV3amVhbnMgc3RhZ2UgY2FtIGhvbmdpaw%3D%3D
+yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4 --remote-components ejs:github https://www.youtube.com/watch?v=8CydFxYzCRg&pp=ygUZbmV3amVhbnMgc3RhZ2UgY2FtIGhvbmdpaw%3D%3D
+jkl https://www.youtube.com/watch?v=KREKSUPia3k&pp=ygUNa2dtYSBuZXdqZWFucw%3D%3D
+jkl https://www.youtube.com/watch?v=nDlNPbPnMUU&pp=ygUVbW1hIHByYWN0aWNlIG5ld2plYW5z
+tmux a
+let left  = (open list.txt  | lines)<\n>let right = (ls | get name)<\n><\n>let common = (<\n>  $left<\n>  | where {|line| $right | any {|candidate| $candidate == $line } }<\n>)<\n>$common
+let left  = (open list.txt  | lines)<\n>let right = (ls | get name)<\n><\n>let common = (<\n>  $left<\n>  | where {|line| $right | any {|candidate| $candidate == $line } }<\n>)<\n>$common | each { mv $in ./frequent}
+jkl https://www.youtube.com/watch?v=xIU__uoVqdA&pp=ygWVAVvrpqzslaHshZjsuqAgIDRLXSDribTsp4TsiqQsIOKAmElOVFJPICsgRVRBICYgU3VwZXIgU2h54oCZIOy2le2VmOqzteyXsCBb7KCcNDTtmowg7LKt66Oh7JiB7ZmU7IOBIOyLnOyDgeyLnV0g772cIEtCUyAyMzExMjQg67Cp7IahIFt4SVVfX3VvVnFkQV0ubXA0
+jkl https://www.youtube.com/watch?v=Dxca41EhMb8&pp=ygVWTmV3SmVhbnMgKOuJtOynhOyKpCkgMjAyMiBNTUEgRGFuY2UgUHJhY3RpY2UgKENvb2tpZStIeXBlIEJveStBdHRlbnRpb24pIFtEeGNhNDFFaE1iOF0%3D
+yazi --help
+yazi --clear-cache
+jkl NewJeans (뉴진스) 2024 SBS 가요대전 Summer Dance Practice [5OwvrCEf75E].mp4
+jkl https://www.youtube.com/watch?v=5OwvrCEf75E&pp=ygVOTmV3SmVhbnMgKOuJtOynhOyKpCkgMjAyNCBTQlMg6rCA7JqU64yA7KCEIFN1bW1lciBEYW5jZSBQcmFjdGljZSBbNU93dnJDRWY3NUVd
+ya pkg add yazi-rs/plugins:toggle-pane
+jkl https://www.youtube.com/watch?v=713bkFggOmA&pp=ygVz6rCA7JqU64yA7KCEIE5ld2plYW5zIERpdHRvLCBDb29raWUsIEh5cGVib3kgSGFubmkgRmFuY2FtIFsyNC4xMi4yNV0gI-2VmOuLiCAjSGFubmkgI-ODj-ODiyAjTmV3SmVhbnMgWzcxM2JrRmdnT21BXdIHCQkMCgGHKiGM7w%3D%3D
+jkl https://www.youtube.com/watch?v=pfg7V-S2dL4&pp=ygUbWUUgVFkkICBLT1JFQSBbcGZnN1YtUzJkTDRd
+f "light jeans"
+jkl https://www.youtube.com/watch?v=HIN03H2-u8M&pp=ygVSW0xpZ2h0IEplYW5zXSBCdW5uaWVzIENhbXAgMjAyNCBUb2t5byBEb21lIEJlaGluZCBFUC4xICDvvZwgTmV3SmVhbnMgW0hJTjAzSDItdThNXQ%3D%3D
+rm -rf ~/.cache/yazi/
+jkl https://www.youtube.com/watch?v=f_lVGYQbXlM&pp=ygVSW0xpZ2h0IEplYW5zXSBCdW5uaWVzIENhbXAgMjAyNCBUb2t5byBEb21lIEJlaGluZCBFUC4xICDvvZwgTmV3SmVhbnMgW0hJTjAzSDItdThNXdIHCQkMCgGHKiGM7w%3D%3D
+jkl https://www.youtube.com/watch?v=ZBYGtrf8Log
+pkill idscord
+pkill discord
+jkh https://www.youtube.com/watch?v=ZBYGtrf8Log
+btop
+jkl https://youtu.be/PsGe2R92x2U?si=iTIvvILKIH9RGsKY
+rclone copy --progress --transfers 100 --drive-chunk-size 128M --buffer-size 128M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+rclone copy --progress --transfers 200 --checkers 200 --drive-chunk-size 128M --buffer-size 128M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+rclone copy --progress --transfers 200 --checkers 200 --drive-chunk-size 16M --buffer-size 16M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+n
+ya --help
+ya pkg
+ya pkg list
+ya pack -a "Sonico98/exifaudio"<\n>
+ya pkg add boydaihungst/mediainfo
+mediainfo --version
+yay -S mediainfo
+man rclone 
+yay -Qs | fzf
+mediainfo --version
+mediainfo --help
+tldr mediainfo
+mediainfo 3768437876586383766.mp4
+rclone copy --progress --transfers 100 --checkers 100 --drive-chunk-size 16M --buffer-size 16M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+rclone copy --progress --transfers 100 --checkers 100 --drive-chunk-size 16M --buffer-size 16M --multi-thread-streams 8 --multi-thread-cutoff 50M "/home/Ext4Pam/Pictures/Pictures/yt_downloads/frequent/Kiminonawaorc…ncert 1080p Bluray.mkv" "ngomkhang132:arch_backup/yt_downloads/frequent/Kiminonawaorc…ncert 1080p Bluray.mkv"
+rclone copy --progress --transfers 100 --checkers 100 --drive-chunk-size 16M --buffer-size 16M --multi-thread-streams 8 --multi-thread-cutoff 50M "/home/Ext4Pam/Pictures/Pictures/yt_downloads/frequent/RADWIMPS - Your Name. Orchestra Concert 1080p Bluray.mkv" "ngomkhang132:arch_backup/yt_downloads/frequent"
+rclone copy --progress --transfers 100 --checkers 100 --drive-chunk-size 64M --buffer-size 64M --multi-thread-streams 8 --multi-thread-cutoff 50M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+rclone mount ngomkhang132:arch_backup/yt-downloads/ /home/pampam/Documents/debug/my-drive 
+help ps
+ps | find rclone
+ps | find hanni
+ps | find hanni | if ($in | is-empty){print "ok"}
+let hits = (ps | find hanni)<\n>if ($hits | is-empty) {<\n>  print "ok"<\n>} else {<\n>  print "not ok"<\n>  <\n>}
+rclone copy --progress --transfers 100 --checkers 100 --drive-chunk-size 128M --buffer-size 128M "/home/Ext4Pam/Pictures/Pictures/yt_downloads" "ngomkhang132:arch_backup/yt_downloads"
+ps | find qute
+let hits = (ps | find hanni)<\n>if ($hits | is-empty) {<\n>  pkill qutebrowser | poweroff<\n>}
+codex
+jkl https://youtube.com/shorts/rPBE4_2LARg?si=NR9zXroYHPlZBNFs
+f swaync | rg css$
+swaync-client -rs<\n>
+k
+swaync-client -rs<\n>
+ghostty +list-fonts | fzf
+swaync-client -rs<\n>
+laz

@@ -1,10 +1,7 @@
 # Quick
 
-switch between buffers
-redo practice 1,2,3 (only the mpv)
 
 - [ ] broot
-- [ ] quickshell
 - [ ] atuin
 - [ ] distrobox
 - [ ] duckdb
@@ -16,31 +13,21 @@ virtual env poetry))
 - [ ] ***22th of December Spotify***
 - [ ] ***digital ocean, google one, microsoft*** (2026)
 - [ ] horse racing anime
-- [ ] ***set an alarm at 5 AM for PE class*** (bring your sneaker with you)
 - [ ] download all of newjeans archive
-- [ ] make a anyrun plugin for autocompletion
 set up github personal access token
-- [ ] wishes Thai Happy birthday
 - [ ] mapped walker , auto detection of uwsm
+- [ ] fujimoto oneshots
 
-- [ ] fix the double opening in anyrun
+- [x] ***balance dataset and make a graph***
+70% train, 15% val, 15% test
 
-- [x] backup photos from iphone
-- [x] color yay, and automatically press enter
-- [x] migrate to uwsm
-hyprland, yazi, anyrun
+# gemini 3.0
+antigravity
+browser control mode
 
+wandb = 26cf9678cc3347c6e2ce5448c4dc126184a869db
 # back log
 - [ ] https://en.wikipedia.org/wiki/2channel
-
-paste -d " " <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r linee do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
-
-
-
-
-
-Spotify: 314jetvt7uzmlrz3jy2ckkkqzvgm
-
 
 # long term
 
@@ -93,6 +80,12 @@ on-shutdown hook)
 - [ ] feh
 - [ ] lazarus(anime)
 - [ ] Dororo
+~- [ ] use babloo instead~
+~- [ ] quickshell~
+~- [ ] make a anyrun plugin for autocompletion~
+~- [ ] wishes Thai Happy birthday~
+~- [ ] fix the double opening in anyrun~
+~redo practice 1,2,3 (only the mpv)~
 ~- [ ] tmux set up like shpool~
 ~- [ ] zalo~
 ~- [ ] fix a bug in ghostty where the cursor would become unfocused or ends up in a wrong position after toggling zoom~
@@ -100,6 +93,14 @@ on-shutdown hook)
 
 
 # completed
+- [x] pass
+- [x] ***set an alarm at 5 AM for PE class*** (bring your sneaker with you)
+- [x] nushell listing number of files
+- [x] switch between buffers
+- [x] backup photos from iphone
+- [x] color yay, and automatically press enter
+- [x] migrate to uwsm
+
 - [x] ***CANCEL Chatgpt plus in 20/11***
 - [x] shift enter for nushell
 - [x] ***24th of October Shoppee Paylater***

@@ -21,4 +21,4 @@ set recolor-keephue true
 set default-bg rgba(0,0,0,0)
 set default-fg rgba(255,255,255,1)
 # include catppuccin-latte
-# include catppuccin-macchiato
+include catppuccin-macchiato

@@ -67,12 +67,22 @@ $env.config = {
       }
       {
             name: fzf_history
-            modifier: control
+            modifier: Control_Shift
+            keycode: char_o
+            mode: [emacs vi_normal vi_insert]
+            event: { 
+                  send: executehostcommand,
+                  cmd: "password" 
+            }
+      }
+      {
+            name: fzf_history
+            modifier: Control_Alt
             keycode: char_r
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "commandline edit ( history | select command | uniq |  reverse | get command | str join $'(char nul)' | fzf --read0 --gap -q (commandline))" 
+                  cmd: "commandline edit ( history | uniq |  reverse | get command | str join $'(char nul)' | fzf --read0 --gap -q (commandline))" 
             }
       }
       {
@@ -110,6 +120,41 @@ cd /usr/share/applications
   )
   job spawn { gtk-launch $choice }
 }
+
+def password [] {
+  let sel = (fd -t f . /home/pampam/.password-store | fzf | str trim)
+
+  # If fzf was cancelled or nothing chosen -> do nothing
+  if ($sel | is-empty) {
+    return
+  }
+
+  pass show (
+    $sel
+    | path relative-to '/home/pampam/.password-store/'
+    | str replace --regex '\.gpg$' ''
+  ) | wl-copy
+}
+
+def count-files [--sum(-s)] {
+  let dirs = (
+      ls -a
+      | where type == dir
+      | insert file_count {|row|
+          fd -HI --type f . $row.name
+          | lines
+          | length
+      }
+      | sort-by file_count
+  )
+
+  if $sum {
+      $dirs | get file_count | math sum
+  } else {
+      $dirs
+  }
+}
+
 
 use ~/.cache/starship/init.nu
 use std/dirs
@@ -167,10 +212,10 @@ const NU_PLUGIN_DIRS = [
 
 # alias zd = zellij action new-pane -d down
 # alias cl = clear
-# alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4
-alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --extractor-args "youtube:player-client=default,-tv_simply"
-# alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4
-alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --extractor-args "youtube:player-client=default,-tv_simply"
+# alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4 --remote-components ejs:github
+alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --remote-components ejs:github
+# alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4 
+alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --remote-components ejs:github
 alias gl = gallery-dl
 alias wk = gallery-dl -D .
 alias sudo = sudo-rs
@@ -183,12 +228,16 @@ alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias nvim = uwsm-app -- nvim
+alias n = uwsm-app -t service  -- neovide
 alias w = wget2
 alias ff = fastfetch
-alias n = ~/builds/nhentai/nhentai
-alias peak = tmux new-session -s peak bash
+alias nhentai = ~/builds/nhentai/nhentai
+# alias peak = tmux new-session -s peak bash
+alias peak = bash -c "paste <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
 
 
+alias f = plocate -i
+alias codex = uwsm-app -- codex
 alias jl = jupyter lab
 
 
@@ -200,4 +249,5 @@ source ~/.zoxide.nu
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
+source ~/.local/share/atuin/init.nu
 use ~/.config/broot/launcher/nushell/br *

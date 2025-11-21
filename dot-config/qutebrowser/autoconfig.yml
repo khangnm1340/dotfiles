@@ -16,6 +16,7 @@ settings:
   content.javascript.clipboard:
     https://benz.gitbook.io: access-paste
     https://developer.spotify.com: access-paste
+    https://drive.google.com: access-paste
     https://emojidb.org: access-paste
     https://fdownloader.net: access-paste
     https://ghostty.org: access-paste

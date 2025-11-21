@@ -1,7 +1,7 @@
 /home/Ext4Pam/Pictures/Pictures/yt_downloads
 /home/Ext4Pam/Pictures/NewjeansPics
 /home/Ext4Pam/Pictures/mp3s-20240813T125945Z-001/aoi_sangousho
-/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)
+/home/Ext4Pam/Pictures/kimi_no_sei
 /home/Ext4Pam/Pictures/Arch_pics/Save_webP
 /home/pampam/Pictures/Screenshots/is-hyprland
 /home/Ext4Pam/Pictures/Pictures/yt_downloads/frequent

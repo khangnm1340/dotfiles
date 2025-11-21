@@ -1,10 +1,10 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 7
-time: 151.493
+current: 2
+time: 20.542
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
@@ -12,139 +12,34 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:can_j_noi_dau_e_oi/2016 - ReZero - Bonus CD2/01 - Hero's Takt - Origin.flac
-1:can_j_noi_dau_e_oi/52Hz, RIO & WEAN - ĐỢI (SPECIAL VERSION) - Single/01. ĐỢI (SPECIAL VERSION).m4a
-2:can_j_noi_dau_e_oi/ILLIT - bomb (ALAC) [16-Bit 44.1-kHz]/2. Billyeoon Goyangi (Do the Dance).m4a
-3:can_j_noi_dau_e_oi/LE SSERAFIM - CRAZY - EP/03. Pierrot.m4a
-4:can_j_noi_dau_e_oi/0116 - Color Your Night.flac
-5:can_j_noi_dau_e_oi/52Hz, RIO & WEAN - ĐỢI (SPECIAL VERSION) - Single/01. ĐỢI (SPECIAL VERSION).m4a
-6:can_j_noi_dau_e_oi/7UPPERCUTS - Yêu - Single/01. Yêu.m4a
-7:I_AM_MUSIC/ZUTOMAYO - Hisohiso Banashi/11. Seigi.m4a
-8:I_AM_MUSIC/ZUTOMAYO - Hisohiso Banashi/12. Yasashiku Last Smile.m4a
-9:I_AM_MUSIC/ZUTOMAYO - Hisohiso Banashi/13. Byoushinwo Kamu.m4a
-10:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/01. Hanaichi Monnme.m4a
-11:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/13. Superficial Me.m4a
-12:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/12. MIRROR TUNE.m4a
-13:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/04. Kira Killer (feat. Mori Calliope).m4a
-14:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/01 - NewJeans - Attention.flac
-15:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/02 - NewJeans - Hype Boy.flac
-16:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/03 - NewJeans - Cookie.flac
-17:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/04 - NewJeans - Hurt.flac
-18:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/01 - NewJeans - New Jeans.flac
-19:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/02 - NewJeans - Super Shy.flac
-20:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
-21:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/04 - NewJeans - Cool With You.flac
-22:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/05 - NewJeans - Get Up.flac
-23:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/06 - NewJeans - ASAP.flac
-24:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
-25:I_AM_MUSIC/Operation Doomsday/02 - Doomsday.flac
-26:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/01 - NewJeans - OMG.flac
-27:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
-28:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
-29:can_j_noi_dau_e_oi/haking.flac
-30:can_j_noi_dau_e_oi/[TBS] Kanako Ito - Fatima (Steins;Gate 0 OP Single) [FLAC]/01 ファティマ (Fátima).flac
-31:can_j_noi_dau_e_oi/36 - GATE OF STEINER.flac
-32:can_j_noi_dau_e_oi/006. 佐々木恵梨 - GATE OF STEINER.flac
-33:can_j_noi_dau_e_oi/02. KICK BACK.flac
-34:can_j_noi_dau_e_oi/005. 佐々木恵梨 - GATE OF STEINER - acoustic ver..flac
-35:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/13. Superficial Me.m4a
-36:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/12. MIRROR TUNE.m4a
-37:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/11. Blush.m4a
-38:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/10. Stay Foolish.m4a
-39:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/01. Hanaichi Monnme.m4a
-40:I_AM_MUSIC/ZUTOMAYO - Jinkougaku/02. Time Left.m4a
-41:can_j_noi_dau_e_oi/52Hz - ĐỢI (Prod. RIO) - Single/01. ĐỢI (Prod. RIO).m4a
-42:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/02. Aoi Sangosho.m4a
-43:vids/newjeans_ditto_(ban_heesoo_videos)-20240902T120256Z-001/19981224.mp4
-44:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/02 - 高橋洋子 - FLY ME TO THE MOON 2020.flac
-45:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/21 - 鷺巣詩郎 - FLY ME TO THE MOON (Instrumental).flac
-46:can_j_noi_dau_e_oi/[2020.10.07] NEON GENESIS EVANGELION SOUNDTRACK 25TH ANNIVERSARY BOX [CD][FLAC+CUE+LOG+BK][KICA-2576~80]/CD1/23 - 高橋洋子 - FLY ME TO THE MOON (YOKO TAKAHASHI Acid Bossa Version).flac
-47:can_j_noi_dau_e_oi/AMEE - MỘNGMEE - EP/01. MỘNG YU.m4a
-48:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU (JERSEY MIX) - Single/01. PHI TIÊU (JERSEY MIX).m4a
-49:can_j_noi_dau_e_oi/VCC Left Hand - PHI TIÊU - Single/01. PHI TIÊU.m4a
-50:can_j_noi_dau_e_oi/AMEE - dreAMEE/04. đen đá không đường.m4a
-51:can_j_noi_dau_e_oi/Dangrangto, TeuYungBoy & Donal - NGỰA Ô - Single/01. NGỰA Ô.m4a
-52:can_j_noi_dau_e_oi/Fancy That (2025) [WEB]/03 - Tonight.flac
-53:I_AM_MUSIC/Anri - Timely!!/06. 悲しみがとまらない I CAN'T STOP THE LONELINESS.m4a
-54:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2006-05-24] Doraemon ☆ Mini Album 2 [COCX-33658]/02 おとなりのプリンセス.flac
-55:I_AM_MUSIC/Fujii Kaze - HELP EVER HURT NEVER/01. Nan-Nan.m4a
-56:can_j_noi_dau_e_oi/Various Artists - Cyberpunk 2077_ Radio, Vol. 2 (Original Soundtrack)/05. I Really Want to Stay At Your House.m4a
-57:can_j_noi_dau_e_oi/0116 - Color Your Night.flac
-58:I_AM_MUSIC/Operation Doomsday/02 - Doomsday.flac
-59:can_j_noi_dau_e_oi/MIN - Có Em Chờ - Single/01. Có Em Chờ (feat. Mr. A).m4a
-60:can_j_noi_dau_e_oi/Pineradise & VCC Left Hand - HELLA SIMPS - Single/01. HELLA SIMPS.m4a
-61:I_AM_MUSIC/your name . 『君の名は。』 (2016-2017) [FLAC]/[2016.08.24] Your Name／RADWIMPS [24bit_48kHz]/13. 飛騨探訪.flac
-62:can_j_noi_dau_e_oi/IRIS OUT/Kenshi Yonezu_IRIS OUT_1.ogg
-63:can_j_noi_dau_e_oi/JANE DOE/01_Kenshi Yonezu_JANE DOE.ogg
-64:can_j_noi_dau_e_oi/DON'T TAP THE GLASS/Tyler, The Creator_Sugar On My Tongue.ogg
-65:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/01. Chiều Hôm Ấy (Intro).m4a
-66:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/02. Cơn Đau.m4a
-67:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/03. Anh Thấy (Interlude).m4a
-68:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/04. Gặp May.m4a
-69:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/05. Thích Em Hơi Nhiều.m4a
-70:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/06. Trao.m4a
-71:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/07. Màu Đỏ (Interlude).m4a
-72:can_j_noi_dau_e_oi/Wren Evans - Chiều Hôm Ấy Anh Thấy Màu Đỏ/08. Mấy Khi.m4a
-73:can_j_noi_dau_e_oi/Wren Evans & itsnk - LOI CHOI_ The Neo Pop Punk/04. Từng Quen.m4a
-74:I_AM_MUSIC/Doraemon/Doraemon (2005)/[2007-07-04] Yume wo Kanaete Doraemon [COCC-15982]/MP3/01 夢をかなえてドラえもん.mp3
-75:I_AM_MUSIC/Fugees - The Score (Expanded Edition)/08. Killing Me Softly With His Song.m4a
-76:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
-77:I_AM_MUSIC/Kanye West - Graduation/01. Good Morning.m4a
-78:I_AM_MUSIC/Kanye West - Graduation/01. Good Morning.m4a
-79:I_AM_MUSIC/Kanye West - Graduation/02. Champion.m4a
-80:I_AM_MUSIC/Kanye West - Graduation/03. Stronger.m4a
-81:I_AM_MUSIC/Kanye West - Graduation/04. I Wonder.m4a
-82:I_AM_MUSIC/Kanye West - Graduation/05. Good Life (feat. T-Pain).m4a
-83:I_AM_MUSIC/Kanye West - Graduation/06. Can't Tell Me Nothing.m4a
-84:I_AM_MUSIC/Kanye West - Graduation/07. Barry Bonds (feat. Lil Wayne).m4a
-85:I_AM_MUSIC/Kanye West - Graduation/08. Drunk and Hot Girls (feat. Mos Def).m4a
-86:I_AM_MUSIC/Kanye West - Graduation/09. Flashing Lights (feat. Dwele).m4a
-87:I_AM_MUSIC/Kanye West - Graduation/10. Everything I Am (feat. DJ Premier).m4a
-88:I_AM_MUSIC/Kanye West - Graduation/11. The Glory.m4a
-89:I_AM_MUSIC/Kanye West - Graduation/12. Homecoming (feat. Chris Martin).m4a
-90:I_AM_MUSIC/Kanye West - Graduation/13. Big Brother.m4a
-91:I_AM_MUSIC/Kanye West - Graduation/14. Good Night (feat. Mos Def & Al Be Back).m4a
-92:can_j_noi_dau_e_oi/My Boo (Hitman's Club Mix)/Ghost Town DJs_My Boo - Hitman's Club Mix.ogg
-93:I_AM_MUSIC/Kanye West - Graduation/15. Kanye West - Bittersweet Poetry feat. John Mayer.m4a
-94:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Bam Yang Gang.ogg
-95:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Midnight Cruise.ogg
-96:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Real Man.ogg
-97:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Burn it (feat. DEAN).ogg
-98:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Derre.ogg
-99:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Sugar Rush.ogg
-100:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Scott and Zelda.ogg
-101:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Pygma girl.ogg
-102:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Meat.ogg
-103:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Hongdae R&B.ogg
-104:can_j_noi_dau_e_oi/EVE_ ROMANCE/BIBI_Apocalypse.ogg
-105:can_j_noi_dau_e_oi/AMEE - dreAMEE/01. dreAMEE (Intro).m4a
-106:can_j_noi_dau_e_oi/AMEE - dreAMEE/02. anh nhà ở đâu thế.m4a
-107:can_j_noi_dau_e_oi/AMEE - dreAMEE/03. yêu thì yêu không yêu thì yêu.m4a
-108:can_j_noi_dau_e_oi/AMEE - dreAMEE/04. đen đá không đường.m4a
-109:can_j_noi_dau_e_oi/AMEE - dreAMEE/05. mama boy.m4a
-110:can_j_noi_dau_e_oi/AMEE - dreAMEE/06. trời giấu trời mang đi.m4a
-111:can_j_noi_dau_e_oi/AMEE - dreAMEE/07. ex's hate me, Pt. 2 (feat. B Ray).m4a
-112:can_j_noi_dau_e_oi/AMEE - dreAMEE/08. sao anh chưa về nhà (feat. Ricky Star).m4a
-113:can_j_noi_dau_e_oi/AMEE - dreAMEE/09. xuân, hạ, thu, đông rồi lại xuân.m4a
-114:can_j_noi_dau_e_oi/AMEE - dreAMEE/10. g9 (Outro).m4a
-115:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
-116:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/03. Supernatural (Inst.).flac
-117:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/02 - NewJeans - Super Shy.flac
-118:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
-119:I_AM_MUSIC/Seiko Matsuda - Bible-pink & blue- special edition/41. Cherry Blossom.m4a
-120:can_j_noi_dau_e_oi/Seiko Matsuda - Squall/05. Hadashino Kisetsu.m4a
-121:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/01. Chocolate Cosmos Garden.m4a
-122:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/02. Góc Sân Trường.m4a
-123:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/03. congtrinhkientruc mp3.m4a
-124:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/04. emyeutieurua yahoo.m4a
-125:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/05. Giấc Mơ Thần Tiên.m4a
-126:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/06. Lông Mũi.m4a
-127:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/07. THÀNH PHỐ ĐÓNG BĂNG.m4a
-128:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/08. TINH CẦU PHA LÊ.m4a
-129:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/09. NOKIA.m4a
-130:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/10. Yeon 연.m4a
-131:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/11. HTV3.m4a
-132:can_j_noi_dau_e_oi/VCC Left Hand - YEAR2000/12. Never Be Alone.m4a
-133:I_AM_MUSIC/Travis Scott - Rodeo/05. 90210 (feat. Kacy Hill).m4a
-134:can_j_noi_dau_e_oi/BADモード/02_Hikaru Utada_君に夢中.ogg
+0:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_from below with love.ogg
+1:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_our film.ogg
+2:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_silly walk.ogg
+3:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_first glance.ogg
+4:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_daydream.ogg
+5:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_past.ogg
+6:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_parallel lines.ogg
+7:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_the skin.ogg
+8:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_in the pool.ogg
+9:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_fable.ogg
+10:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_two storms.ogg
+11:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/レゼ（上田麗奈）_ジェーンは教会で眠った.ogg
+12:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_slow summer eve.ogg
+13:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_sweet danger.ogg
+14:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_she is coming.ogg
+15:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_her strike.ogg
+16:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_flashforward.ogg
+17:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_leave the lights.ogg
+18:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_sword battle.ogg
+19:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_stroke of genius.ogg
+20:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_ride the storm.ogg
+21:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_Typhoon Devil.ogg
+22:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_eye of the typhoon.ogg
+23:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_edge of chainsaw (typhoon ver.).ogg
+24:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_Bomb.ogg
+25:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_dance with chainsaw.ogg
+26:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_in the sea.ogg
+27:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_Reze.ogg
+28:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_the secret.ogg
+29:can_j_noi_dau_e_oi/CHAINSAW MAN THE MOVIE_ REZE ARC original soundtrack -summer's end-/kensuke ushio_the city mouse and the country mouse.ogg
 playlist_end

@@ -18,6 +18,7 @@
 # them for future reference.
 $env.config.buffer_editor = "nvim"
 $env.config.show_banner = false
+
 $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') # add <nushell-config-dir>/plugins
 ]
@@ -37,8 +38,11 @@ $env.JUPYTERLAB_DIR = ($env.HOME)/.local/share/jupyter/lab
 $env.LS_COLORS = (vivid generate tokyonight-night)
 # $env.NVIM_APPNAME = "nvim-hanni"
 $env.EMMYLUALS_CONFIG = ($env.HOME)/.config/nvim-hanni/.emmyrc.json
+$env.ATUIN_NU_HOOK = 'true'
+$env.RIPGREP_CONFIG_PATH = ($env.HOME)/.config/.ripgreprc
 
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+
 mkdir ~/.cache/carapace
 carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
 

@@ -5,8 +5,8 @@ theme = "omori"
 force_keyboard_focus = true
 
 [keybinds]
-next = ["shift j"]
-previous = ["shift k"]
+next = ["ctrl j"]
+previous = ["ctrl k"]
 quick_activate = ["1", "2", "3", "4"]
 page_down = ["ctrl d"]
 page_up = ["ctrl u"]
