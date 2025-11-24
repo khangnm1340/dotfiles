@@ -1,0 +1,20 @@
+{
+  "widgets": [
+    "volume",
+    "backlight"
+  ],
+  "widget-config": {
+    "volume": {
+      "label": "󰕾",
+      "show-per-app-icon": true,
+      "show-per-app": true
+    },
+    "backlight": {
+      "label": "󰃠",
+      "device": "intel_backlight",
+      "subsystem": "backlight",
+      "slider": true,
+      "min": 5
+    }
+  }
+}

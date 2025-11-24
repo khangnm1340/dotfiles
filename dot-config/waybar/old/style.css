@@ -167,21 +167,21 @@ window#waybar {
     color: #FC0000;
 }
 
-#wireplumber,
-#memory,
-#cpu,
-#temperature,
-#battery,
-#network,
-#clock,
-#custom-poweroff,
-#idle_inhibitor,
-#window,
-#workspaces,
-#custom-peak,
-#custom-countdown {
-  border: 2px solid #000;
-}
+/* #wireplumber, */
+/* #memory, */
+/* #cpu, */
+/* #temperature, */
+/* #battery, */
+/* #network, */
+/* #clock, */
+/* #custom-poweroff, */
+/* #idle_inhibitor, */
+/* #window, */
+/* #workspaces, */
+/* #custom-peak, */
+/* #custom-countdown { */
+/*   border: 2px solid #000; */
+/* } */
 
 #custom-peak,
 #wireplumber,

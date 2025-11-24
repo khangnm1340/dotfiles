@@ -1,15 +1,3 @@
-echo "{\"text\": \"🎧 ${L}/${R} dB\"}"
-paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
-paste <(jack_meter -n -f 10 "Level Meter:output_FL")       <(jack_meter -n -f 10 "Level Meter:output_FR")
-nu
-paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
-notify-send "hi"
-reboot
-paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
-nu
-paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
-tmux
-paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
 tmux new-session -d -s mysession 'paste <(jack_meter -n -f 1 "Level Meter:output_FL") <(jack_meter -n -f 1 "Level Meter:output_FR") | while IFS= read -r line; do printf "%s\n" "$line" > /home/pampam/Documents/pam/1-Rough-Note/test/latest.txt; done
 '
 tmux a
@@ -499,4 +487,17 @@ find / -path "/.snapshots" -prune -name "bocchi"
 nu
 sudoedit /etc/hosts
 MANPAGER="neovide --no-fork -- +'Man'" man rg
+nu
+exit 19
+export MYVAR=first
+echo $MYVAR
+exit
+echo hi
+echo hi
+exit
+export MYVAR=first
+echo $MYVAR
+nu
+sleep -h
+tldr sleep
 nu

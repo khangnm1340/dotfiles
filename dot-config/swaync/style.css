@@ -20,8 +20,17 @@
 }
 
 .control-center {
-  background: rgba(74, 14, 87, 0.9);  /* or any color you like */
+  background: rgba(74, 14, 87, 0.7);  /* or any color you like */
   border: 2px solid rgb(79 67 214);  /* or var(--border) */
-  margin: 16px;  /* top/bottom 16px, left/right 8px */
+  margin-top: 16px;  /* top/bottom 16px, left/right 8px */
+  margin-bottom: 400px;
+  margin-right: 16px;
 }
 
+/* Add or update this section to control the volume and backlight icon sizes */
+.widget-volume label:first-child,
+.widget-backlight label:first-child {
+  font-size: 1.5rem; /* Adjust this value to your preference (e.g., 2rem, 3rem) */
+  margin-right: 10px; /* Adjust this value to move the symbol left */
+  /* You can also add other styling here, like color, margin, etc., if needed */
+}

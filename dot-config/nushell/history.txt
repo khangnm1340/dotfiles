@@ -8273,3 +8273,341 @@ swaync-client -rs<\n>
 ghostty +list-fonts | fzf
 swaync-client -rs<\n>
 laz
+lazygit
+swaync-client -rs<\n>
+btop
+sleep 2sec ; hyprland client | rg "swaync"
+sleep 2sec ; hyprctl client | rg "swaync"
+sleep 2sec ; hyprctl clients | rg "swaync"
+sleep 2sec ; hyprctl activewindow 
+swaync-client -rs<\n>
+f "hoe cakes"
+f "hoe cakes" | mpv $in
+f "rascal"
+f "青春"
+mpv "Rascal Does Not Dream of Bunny Girl Senpai (2018) - S01E01 - My Senpai Is a Bunny Girl.mkv"
+peak
+rmpc
+nvmi
+n
+jrnl
+btop
+nordvpn c US
+mediainfo '[Drag] Aku no Hana - 01 (BD 1080p x265 10-bit FLAC) [A07FEF05].mkv'
+tmux
+ping chatgpt.com
+nmtui
+systemctl start NetworkManager
+nmtui
+ping chatgpt.com
+systemctl stop NetworkManager
+ping chatgpt.com
+codex
+jrnl
+man mpv
+history | find "xfreerdp3"
+xfreerdp3 /u:"Khang" /p:"12345678" /v:192.168.122.2 /cert:tofu
+config nu
+docker compose -f ~/builds/winapps/compose.yaml up -d<\n>
+./setup.sh
+sudo pacman -S freerdp
+./setup.sh
+btop
+pass insert courses/051205000064
+pass insert courses/086205011340
+btop
+docker stop WinApps<\n>
+btop
+rg "delay" | fzf
+rg "walker" | fzf
+yay -Qs | fzf
+yay -Rns helix
+jrnl
+jrnl --edit
+pkill walker
+RUST_LOG=debug walker<\n>
+yay -Qs | fzf
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+btop
+pkill walker<\n>systemctl --user restart elephant<\n>walker --gapplication-service
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+walker
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+yay -S helix
+walker
+yay
+btop
+walker
+walker --help
+walker
+./setup.sh
+walker
+jrnl
+hx
+helix
+helix Todo-list.md 
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+reboot
+tmux
+git clone https://github.com/neovide/neovide.git
+wk https://x.com/kangsterrin/status/1991656335730172126
+wk https://x.com/FRIERENcontent/status/1991763510511169725
+wk https://x.com/925i0/status/1991927556506108296
+wk https://x.com/kpopiumm/status/1991950839590912006
+wk https://x.com/haerinskumu/status/1991684534157599193
+wk https://x.com/candygirlsmp3/status/1991533839244751237
+wk https://x.com/nocontextmemes/status/1991816623360012536
+jrnl
+qbittorrent --help
+f "swaync/config.json"
+n /etc/xdg/swaync/config.json
+/etc/xdg/swaync
+wk https://www.reddit.com/r/VietNamNation/comments/1oxin6c/d%C3%A2m_%C3%B4_c%C3%B4ng_an_d%C3%A2m_%C3%B4/
+wk https://www.reddit.com/r/VietNamNation/comments/1p3kqej/ch%C3%BAng_c%C3%B3_c%C3%B2n_l%C3%A0_ng%C6%B0%E1%BB%9Di_n%E1%BB%AFa_kh%C3%B4ng/
+wk https://www.reddit.com/r/Kanye/comments/1p3bj5z/kanye_interaction_with_a_fan_in_japan/
+wk https://www.pixiv.net/en/artworks/136533498
+wk https://www.reddit.com/r/hentai/comments/1p32xgq/looks_like_she_had_amazing_sex_ushikani_kassen/
+wk https://www.reddit.com/r/BocchiTheRock/comments/1p37rdq/no_need_to_be_lonely_anymore/
+wk https://www.reddit.com/r/ChainsawMan/comments/1p36g6s/rezeby_me/
+wk https://www.reddit.com/r/RezeCult/comments/1p3clto/fan_manga_translated_asking_denjis_hand_in/
+wk https://www.reddit.com/r/RezeCult/comments/1p2jmnw/anon_is_having_a_copium_overdose/
+mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [1080p BDRip AV1 Opus Jpn Sub Eng]/Aku.No.Hana.S01E08.mkv" <\n>mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/[Drag] Aku no Hana (BD 1080p x265 10-bit FLAC)/[Drag] Aku no Hana - 08 (BD 1080p x265 10-bit FLAC) [7F8D8B6E].mkv"
+job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [1080p BDRip AV1 Opus Jpn Sub Eng]/Aku.No.Hana.S01E08.mkv" }<\n>job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/[Drag] Aku no Hana (BD 1080p x265 10-bit FLAC)/[Drag] Aku no Hana - 08 (BD 1080p x265 10-bit FLAC) [7F8D8B6E].mkv"}
+yay -Qs | fzf
+yay -S loupe
+jrnl
+yay -Qs | fzf
+yay -Rns elephant-*
+yay -Qs ele
+yay -Qs elephant
+yay -Qq elephant
+yay -Qq | grep elephant
+let elephant = (yay -Qq | grep elephant)
+$elephant | describe
+$elephant | lines | describe
+yay -Rns ...($elephant | lines | describe)
+yay -Rns ..($elephant | lines | describe)
+yay -Rns ..$($elephant | lines | describe)
+let no = ($elephant | lines | describe)
+$no
+yay -Rns ..($elephant | lines )
+yay -Rns ...($elephant | lines )
+yay -Qq | grep walker
+yay -Rns walker-bin
+yay -Qq | grep elephant
+yay -S walker-bin elephant-all-bin
+yay -Qq | grep walker
+ps | find telegram
+telegram
+Telegram
+yay -S elephant-all-bin walker-bin
+codex
+codex
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+yay -Qq | grep plex
+yay -Qq | grep jelly
+yay -Rns ..(yay- Qq | grep jelly | lines)
+yay -Rns ..(yay -Qq | grep jelly | lines)
+yay -Rns ...(yay -Qq | grep jelly | lines)
+f swaync | rg css$
+/etc/xdg/swaync/
+gemini
+codex
+gemini
+/etc/xdg/swaync/
+codex
+pkill swaync
+swaync-client -rs<\n>
+swaync
+brightnessctl -m 
+brightnessctl -m | cut -d, -f4 | tr -d %
+light -A 5
+light
+light --help
+light -A 5
+swaync
+yay -Qi light
+yay -Rns light
+man swaync
+swaync -h
+man swaync(5)
+swaync-client -R
+yay -Qs elephant
+man swaync(5)
+man swaync
+swaync-client -R
+notify-send "hello"
+notify --help
+notify -t "Go do something else to reset your mind" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+swaync-client -R
+notify-send "hello"
+swaync-client -R
+j
+k
+j | print "hi"
+j (print "hi")
+print "hi" | j
+sleep 2sec | job spawn {$in}
+{sleep 2sec} | job spawn {$in}
+{sleep 2sec} | job spawn $in
+j
+k
+(exec swaync) j
+sleep 2sec j
+(sleep 2sec) | j
+{sleep 2sec} | j
+job-spawn {exec swaync}
+exec -h
+tmux
+^exec swaync
+man swaync
+{swaync}|j
+tmux a
+cp /home/Ext4Pam/Pictures/Arch_pics/reze-eyetwitch-136031296_p0.jpg /home/pampam/Downloads/wallpapers
+{pkill hyprpaper ; hyprpaper} | j
+f "all pretend"
+zotify https://open.spotify.com/track/5wEU31OpiWy2Nu466f3qtz?si=0424d15c165342c3
+{sudo update } | j
+job list
+job kill 1
+{pkill hyprpaper ; hyprpaper} | j
+pkill hypapper
+pkill hypaper
+hyprpaper
+{pkill hyprpaper ; hyprpaper} | j
+job list
+job spawn { hyprpaper}
+sudo updatedb
+f "all pretend"
+zotify https://open.spotify.com/track/5wEU31OpiWy2Nu466f3qtz?si=0424d15c165342c3
+f "chainsaw" | rg ogg$
+f "chainsaw" | rg ogg$ | rg clark
+zotify https://open.spotify.com/track/6dc5MoIcNscoFLLx7ySkl2?si=be462c9facd2423c
+pipx install --force git+https://github.com/DraftKinner/zotify.git@dev<\n>
+zotify https://open.spotify.com/track/6dc5MoIcNscoFLLx7ySkl2?si=be462c9facd2423c
+sudo updatedb
+zotify https://open.spotify.com/track/5wEU31OpiWy2Nu466f3qtz?si=09737fd8d8104f89
+sudo updatedb
+f "astadia"
+zotify
+zotify spotify:track:3clPsjTbx4UOPMeQn7FZkV
+fd "all pretend"
+fd "all pretend"<\n>
+which zotify
+zotify -V
+zotify -v
+pipx uninstall zotify
+uv tool install git+https://github.com/DraftKinner/zotify.git@dev<\n><\n>
+zotify https://open.spotify.com/track/5wEU31OpiWy2Nu466f3qtz?si=09737fd8d8104f89
+zotify -h
+zotify --print-skips --print-errors https://open.spotify.com/artist/7xLuShlmvbrllKPtu2HHE4?si=b80d5b74d57447ad
+yay -Qs librespot
+yay -Qs | fzf
+pipx list
+yay -S librespot
+zotify --print-skips --print-errors https://open.spotify.com/artist/7xLuShlmvbrllKPtu2HHE4?si=b80d5b74d57447ad
+zotify https://open.spotify.com/track/1LNGuCg01CHg9ErApmz92R?si=5b1cb4b6fbce44f3
+zotify --print-errors https://open.spotify.com/track/1LNGuCg01CHg9ErApmz92R?si=5b1cb4b6fbce44f3
+fd "being low as dirt"
+f "being low as dirt"
+zotify --print-skips --print-errors https://open.spotify.com/track/1LNGuCg01CHg9ErApmz92R?si=5b1cb4b6fbce44f3
+zotify --print-skips --print-errors https://open.spotify.com/track/0Z2J91b2iTGLVTZC4fKgxf?si=1b93004fabdd477c
+zotify https://open.spotify.com/track/0Z2J91b2iTGLVTZC4fKgxf?si=1b93004fabdd477c
+uv tool uninstall zotify<\n><\n>
+uv tool install git+https://zotify.xyz/zotify/zotify.git
+uv tool install zotify
+uv tool install git+https://github.com/DraftKinner/zotify.git@dev<\n><\n>
+uv tool uninstall git+https://github.com/DraftKinner/zotify.git@dev<\n><\n>
+uv tool uninstall zotify<\n><\n>
+pipx install git+https://github.com/DraftKinner/zotify.git@dev<\n>
+zotify https://open.spotify.com/track/0Z2J91b2iTGLVTZC4fKgxf?si=1b93004fabdd477c
+zotify --print-skips --print-warnings --print-errors https://open.spotify.com/track/0Z2J91b2iTGLVTZC4fKgxf?si=1b93004fabdd477c
+zotify --print-skips --print-warnings --print-errors https://open.spotify.com/track/1PZmcIaXlKRNL6qRakdxuC?si=28c4d23f33d24267
+ls
+f "slaughter"
+f "slaughter" | rg ogg$ | mpv $in
+jkl https://youtu.be/Vo1kTa7qBXI?si=bZYOT4YsUG2CjEic
+hyprctl monitor eDP-1 3840x2160@60,0x0,2
+hyprctl keyword monitor "eDP-1,3840x2160@60,0x0,2"<\n>
+hyprctl keyword monitor "eDP-1,1920x1080@60, 0x0, 1"
+notify hi
+btop
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+hyprctl keyword monitor "eDP-1,3840x2160@60,0x0,2"
+hyprctl reload
+hyprctl monitor
+hyprctl monitors
+^sleep 0.5s
+^sleep 0.1s
+nordvpn c US
+btop
+wk https://www.instagram.com/reel/DP5W7F0EuGZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DHOESMPNthy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DH3XvY5yvDI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DI_Tr5CtLiV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DJrLcrPiKLS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/p/DJrM4Qki-AD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DLfF4BKSCj8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DOpnS8wknsd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPEYgcEArIa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DPS4H1MjdED/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DQjssJ7DXcI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DRUTrGkjfkS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DRWfl-ykrIA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DRVRxMsDlOi/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DRDunbeCZ-f/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/p/DRSA-oeCYDJ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DQw2NgsEsE-/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DO3UJ-Kkuwk/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DRBCGa9DkMS/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DQeSLsbkz3p/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/p/DRFBluGCdkI/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DRWXY65DSgf/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DRGV1WZEll6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+pass insert chotot/0906926218
+pass generate -f chotot/0906926218
+jrnl
+wk https://www.instagram.com/reel/DQ4gedUCPCy/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DQTFYpKDxha/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==
+wk https://www.instagram.com/reel/DONWjy1kzfH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+wk https://www.instagram.com/reel/DQsJdu7CaF9/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRNM__ngbDt/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRUOUCRDLyf/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRT2ArKFE3r/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRMovQmES1q/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRN3II8DP56/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRS5gqzEtZr/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRXNkcJkTO6/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRV1dNbk8Gz/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQZAnbyFMBC/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRPlDRbE8J2/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRQkvFtkUne/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRUgCusD02e/?utm_source=ig_web_copy_link
+wk 
+wk https://www.instagram.com/reel/DRWFdCDgNXd/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQ_vFHakUan/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DRV9jEnDdY4/?utm_source=ig_web_copy_link
+wk https://www.instagram.com/reel/DQKOST0DcK0/?utm_source=ig_web_copy_link
+sudoedit /etc/hosts
+sudo chattr +i /etc/hosts<\n>
+sudoedit /etc/hosts
+jrnl
+ls
+ls -a
+ls -l
+ls -l | schema
+ls -l | describe
+ls -l | columns
+ls | where name =~ "mp4$"
+ls | where name =~ "webm$"
+ls | where name =~ "mp4$"
+ls | where name =~ "webm$"
+git clone https://github.com/nvim-mini/mini.nvim.git
+gemini
+gemini "mini.nvim vs snacks.nvim, pros and cons of each?, the current directory contains both plugin's repo"
+mdless
+wl-paste | mdless
+mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [1080p BDRip AV1 Opus Jpn Sub Eng]/Aku.No.Hana.S01E08.mkv" <\n>mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/[Drag] Aku no Hana (BD 1080p x265 10-bit FLAC)/[Drag] Aku no Hana - 08 (BD 1080p x265 10-bit FLAC) [7F8D8B6E].mkv"
+job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [1080p BDRip AV1 Opus Jpn Sub Eng]/Aku.No.Hana.S01E08.mkv" }<\n>job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/[Drag] Aku no Hana (BD 1080p x265 10-bit FLAC)/[Drag] Aku no Hana - 08 (BD 1080p x265 10-bit FLAC) [7F8D8B6E].mkv"}
+nvim
+lazygit

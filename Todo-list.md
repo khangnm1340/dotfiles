@@ -17,6 +17,13 @@ virtual env poetry))
 set up github personal access token
 - [ ] mapped walker , auto detection of uwsm
 - [ ] fujimoto oneshots
+- [ ] go to cafe with Thien
+- [ ] setting up seeding in qbittorent
+- [ ] set up git in pass
+- [x] swaync volume and brightness bar
+- [ ] change color of neovide cursor
+- [ ] kanatana looks weird
+
 
 - [x] ***balance dataset and make a graph***
 70% train, 15% val, 15% test

@@ -112,15 +112,6 @@ $env.config = {
     ]
 }
 
-def pick-app [] {
-cd /usr/share/applications
-  let choice = (
-    ^ls
-    | fzf --reverse
-  )
-  job spawn { gtk-launch $choice }
-}
-
 def password [] {
   let sel = (fd -t f . /home/pampam/.password-store | fzf | str trim)
 
@@ -224,13 +215,14 @@ alias grep = rg
 alias lsa = eza -alh --group-directories-first --icons=auto
 alias lta = eza -a --tree --level=2 --long --icons --git
 # alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
-alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
+# alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias nvim = uwsm-app -- nvim
 alias n = uwsm-app -t service  -- neovide
 alias w = wget2
 alias ff = fastfetch
+alias j = job spawn $in
 alias nhentai = ~/builds/nhentai/nhentai
 # alias peak = tmux new-session -s peak bash
 alias peak = bash -c "paste <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"
@@ -239,6 +231,7 @@ alias peak = bash -c "paste <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL'
 alias f = plocate -i
 alias codex = uwsm-app -- codex
 alias jl = jupyter lab
+alias windows = docker compose -f ~/builds/winapps/compose.yaml up -d
 
 
 # source ~/dotfiles/pamsdots/dot-config/nushell/nu_scripts/themes/nu-themes/github-light-default.nu

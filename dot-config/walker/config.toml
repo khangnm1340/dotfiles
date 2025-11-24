@@ -36,3 +36,4 @@ empty = ["clipboard"] # providers to be queried when query is empty
 clipboard = [
   { action = "remove", bind = "ctrl x", after = "AsyncClearReload" }
 ]
+
