@@ -8611,3 +8611,57 @@ mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [10
 job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/Aku No Hana S01 (2013) [1080p BDRip AV1 Opus Jpn Sub Eng]/Aku.No.Hana.S01E08.mkv" }<\n>job spawn {mpv "/home/Ext4Pam/Pictures/君のせい(kimi_no_sei)/[Drag] Aku no Hana (BD 1080p x265 10-bit FLAC)/[Drag] Aku no Hana - 08 (BD 1080p x265 10-bit FLAC) [7F8D8B6E].mkv"}
 nvim
 lazygit
+rmpc
+f "lover girl"
+rmpc
+nvim
+jrnl
+sleep 2sec | hyprctl clients
+pass insert gmail/nguyenthikimvui678@gmail.com
+pass show (fd -t f . /home/pampam/.password-store | fzf)
+sudo updatedb
+f aku
+f "aku" cbz
+f "aku" | rg cbz
+f "flowers" | rg cbz
+f "flowers" 
+f aku no hana
+f machine pdf
+man f
+man plocate
+jrnl
+nordvpn status
+nordvpn 
+nordvpn s
+zathura "The Flowers of Evil v01 (2015) (Digital) (1r0n).cbz" 
+jrnl
+mcomix "The Flowers of Evil v01 (2015) (Digital) (1r0n).cbz" 
+mcomix "The Flowers of Evil v01 (2015) (Digital) (1r0n).cbz" | j
+j zathura `The Flowers of Evil v01 (2015) (Digital) (1r0n).cbz`
+j mcomix `The Flowers of Evil v01 (2015) (Digital) (1r0n).cbz`
+codex
+gemini
+sleep 2sec | job spawn {$in}
+j sleep 2sec
+jobb
+jobb "sleep 2sec"
+sleep 2sec | j
+yay
+thunderbird
+thunderbird --help
+uwsm-app -h
+uwsm-app -h | wl-copy
+jrnl
+jrnl -n 10
+jrnl --edit
+wk https://x.com/YONES81239278/status/1992901311189459039
+wk https://x.com/butterfly_jihye/status/1992708783391531353
+jrnl
+wk https://x.com/Roxy694200/status/1991056895894040918
+wk https://x.com/Roxy694200/status/1990923009566105794
+wk https://x.com/Roxy694200/status/1989960496590754297
+keybindings list
+keybindings listen 
+cd (wl-paste)
+keybindings list -k
+keybindings listen

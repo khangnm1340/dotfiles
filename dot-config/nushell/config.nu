@@ -50,6 +50,14 @@ $env.config = {
             event: { send: executehostcommand, cmd: "cd -" }
       }
       {
+            name: cd_into_clipboard
+            modifier: 'none'
+            keycode: "char_:"
+            mode: [emacs vi_normal vi_insert]
+            event: { send: executehostcommand, cmd: "cd (wl-paste)" }
+      }
+
+      {
             name: reload_config
             modifier: control
             keycode: char_x
@@ -222,7 +230,8 @@ alias nvim = uwsm-app -- nvim
 alias n = uwsm-app -t service  -- neovide
 alias w = wget2
 alias ff = fastfetch
-alias j = job spawn $in
+# alias j = job spawn {$in}
+alias j = uwsm-app -t service --
 alias nhentai = ~/builds/nhentai/nhentai
 # alias peak = tmux new-session -s peak bash
 alias peak = bash -c "paste <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FL') <(jack_meter -n -f 10 'Easy Effects Sink:monitor_FR')"

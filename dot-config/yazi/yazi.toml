@@ -11,7 +11,7 @@ open_image = [
 reveal = [{ run = 'uwsm-app nautilus "$@"', desc = "Reveal", for = "linux" }]
 edit = [{ run = 'uwsm-app -- nvim "$@"', block = true, for = "unix" }]
 nomacs = [{ run = 'uwsm-app -- nomacs "$@"',desc = "nomacs"}]
-# opencomic = [{ run = 'opencomic "$@"',desc = "opencomic"}]
+opencomic = [{ run = 'mcomix "$@"',desc = "mcomix"}]
 extract = [
       { run = 'uwsm-app -- ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
 ]
@@ -21,7 +21,7 @@ extract = [
 rules = [
       # Multiple openers for a single rule
       { name = "*.html", use = ["edit", "open", "reveal"] },
-      # { name = "*.cbz", use = [ "reveal", "extract"] },
+      { name = "*.cbz", use = [ "opencomic", "reveal", "extract"] },
       { name = "*.pdf", use = ["open", "open_pdf", "reveal"] },
       # Folder
       { name = "*/", use = ["dragndrop", "reveal", "nomacs"] },
