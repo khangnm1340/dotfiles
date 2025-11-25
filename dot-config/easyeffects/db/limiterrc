@@ -1,4 +1,3 @@
 [soe][Limiter#0]
-gainBoost=false
-release=10
-threshold=-1
+bypass=true
+threshold=-5

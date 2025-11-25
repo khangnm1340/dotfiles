@@ -31,7 +31,7 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "nvim (fzf --preview 'bat --style=numbers --color=always {}')" }
+                  cmd: "cd (fd --type d | fzf --preview 'eza {}')" }
       }
       {
             name: quick_cd
@@ -51,8 +51,8 @@ $env.config = {
       }
       {
             name: cd_into_clipboard
-            modifier: 'none'
-            keycode: "char_:"
+            modifier: control
+            keycode: char_v
             mode: [emacs vi_normal vi_insert]
             event: { send: executehostcommand, cmd: "cd (wl-paste)" }
       }
@@ -119,6 +119,17 @@ $env.config = {
 	  
     ]
 }
+
+def kil [ task: string ] {
+    let procs = (ps)
+    let selected_name = ($procs | where name =~ $task | get name | uniq | to text | fzf)
+    $procs | where name == $selected_name | get pid | first | kill $in
+
+}
+
+# def jo [] {
+#     uwsm-app -- nu -c "job spawn {$in}"
+# }
 
 def password [] {
   let sel = (fd -t f . /home/pampam/.password-store | fzf | str trim)
@@ -212,25 +223,25 @@ const NU_PLUGIN_DIRS = [
 # alias zd = zellij action new-pane -d down
 # alias cl = clear
 # alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --merge-output-format mp4 --remote-components ejs:github
-alias jkl = yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --remote-components ejs:github
+alias jkl = uwsm-app -- yt-dlp -f bestvideo+bestaudio --embed-subs --sub-langs "en" --remote-components ejs:github
 # alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --merge-output-format mp4 
-alias jkh = yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --remote-components ejs:github
+alias jkh = uwsm-app -- yt-dlp -f "bestvideo[height<=?1080]+bestaudio" --embed-subs --sub-langs "en" --remote-components ejs:github
 alias gl = gallery-dl
 alias wk = gallery-dl -D .
 alias sudo = sudo-rs
 alias su = su-rs
-alias grep = rg
-alias lsa = eza -alh --group-directories-first --icons=auto
-alias lta = eza -a --tree --level=2 --long --icons --git
+alias grep = uwsm-app -- rg
+alias lsa = uwsm-app -- eza -alh --group-directories-first --icons=auto
+alias lta = uwsm-app -- eza -a --tree --level=2 --long --icons --git
 # alias ff="fzf --preview 'bat --style=numbers --color=always {}'"
 # alias k = cd (cat ~/.config/nushell/cd_history.txt | fzf)
 alias wg2 = wget2 -m -p -E -k -np --no-robots
 # alias wpe = wget2 -p -E
 alias nvim = uwsm-app -- nvim
 alias n = uwsm-app -t service  -- neovide
-alias w = wget2
-alias ff = fastfetch
-# alias j = job spawn {$in}
+alias w = uwsm-app -- wget2
+alias ff = uwsm-app -- fastfetch
+alias jo = uwsm-app -- nu -c 'job spawn {$in}'
 alias j = uwsm-app -t service --
 alias nhentai = ~/builds/nhentai/nhentai
 # alias peak = tmux new-session -s peak bash

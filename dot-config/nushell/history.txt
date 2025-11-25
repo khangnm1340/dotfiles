@@ -8665,3 +8665,222 @@ keybindings listen
 cd (wl-paste)
 keybindings list -k
 keybindings listen
+keybindings list -k -d
+keybindings list -k
+jrnl
+zotify https://open.spotify.com/track/47296Hsuz6bp8afbaDs2Zg?si=5d26a12819be423a
+pipx install git+https://github.com/DraftKinner/zotify.git@dev<\n>
+pipx install --force git+https://github.com/DraftKinner/zotify.git@dev<\n>
+zotify https://open.spotify.com/track/47296Hsuz6bp8afbaDs2Zg?si=5d26a12819be423a
+po equalized_4k.parquet | pc
+jrnl
+jrnl --edit
+wk https://x.com/maxipad_06/status/1993124115948183608
+wk https://x.com/chuu_Ivrr/status/1992834264677679594
+wk https://x.com/cemreylmz_/status/1992928654817665264
+wk https://x.com/newjeans_new/status/1992524667534602566
+wk https://x.com/phamgucci/status/1992964613386682720
+wk https://x.com/0TV_Fan/status/1992763345397526850
+wk https://x.com/scubaryan_/status/1993038088101412921
+wk https://x.com/NJZBTS/status/1992637251378110681
+wk https://x.com/senaka_look/status/1987848786862096502
+wk https://x.com/habibkun9/status/1992744499731128816
+wk https://x.com/seuljeanz/status/1992793869935837634
+wk https://x.com/butterfly_jihye/status/1992549340288630838
+wk https://x.com/veretian_prince/status/1992724387963732019
+wk https://x.com/smiskimina/status/1992696482278072794
+wk https://x.com/Hyperblaxe/status/1992617049265463471
+wk https://x.com/IfritNova/status/1992475755230757363
+wk https://x.com/D_Kumii/status/1993075342462894396
+wk https://x.com/itaxhis/status/1992825370643476588
+wk https://x.com/ot12loops/status/1992894257938543016
+wk https://x.com/bagsbadback/status/1993018197940052027
+wk https://x.com/coolwithanni_/status/1992264504642818540
+wk https://x.com/mochitoseaguri/status/1992506791733985618
+wk https://x.com/Akazarenx_/status/1992754937751798254
+wk https://x.com/baseballplay23/status/1992565829817504145
+wk https://x.com/itsaninha__/status/1992926212126384418
+wk https://x.com/FRIERENcontent/status/1993063309218922567
+wk https://x.com/Moningmeng/status/1992604315606032611
+wk https://x.com/POCHITAPEELER/status/1992856958068785339
+wk https://x.com/Saradaxanix/status/1992749384635941156
+wk https://x.com/tzujuliee/status/1992837671874646048
+wk https://x.com/inoitoh/status/1993099595048796303
+wk https://x.com/TopGyaru/status/1992520911061426627
+wk https://x.com/cherryjellymm/status/1993156680524476777
+wk https://x.com/ShitpostGate/status/1992702193485684915
+wk https://x.com/Smou_ha/status/1992901306999013731
+wk https://x.com/WoiJoi/status/1992639668316524873/photo/1
+wk https://x.com/WoiJoi/status/1992770879013720217
+wk https://x.com/khyleri/status/1992269370006106411
+k https://x.com/hanakusomanco/status/1992743796933902559
+wk https://x.com/hanakusomanco/status/1992743796933902559
+wk https://x.com/SrBez_/status/1992731770366939206
+wk https://x.com/haeriinsz/status/1992615235359002976
+wk https://x.com/whotfisjovana/status/1992738645317677299
+wk https://x.com/enomusaeki/status/1992864728188895279
+wk https://x.com/bborbnz/status/1916811121975345220
+wk https://x.com/pokeghosst/status/1992902081582100534/photo/1
+wk https://x.com/haerinistic/status/1992615012377207045
+wk https://x.com/Soner67164573/status/1992526570549096941
+wk https://x.com/pengghuna/status/1992691093696327920
+wk https://x.com/Anwarxiii1/status/1993021631216681323
+wk https://x.com/caldatelier/status/1992596692794016182
+n
+nhentai
+jrnl
+jrnl --edit
+pass insert wandb/github.khangnm1340
+jrnl
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+systemctl status telegram
+systemctl status Telegram
+systemctl status telegram-desktop
+systemctl status Telegram
+systemctl status
+btop
+systemctl status
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+btop
+systemctl status
+pkill Telegram
+ps | find telegram
+ps | find Telegram
+btop
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+pkill walker
+btop
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+btop
+pkill walker
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+walker
+pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service
+pkill walker<\n>systemctl --user restart elephant<\n>walker --gapplication-service
+pkill walker<\n>systemctl --user restart elephant
+walker
+systemctl status
+btop
+pkill walker
+btop
+walker
+pkill walker<\n>systemctl --user restart elephant
+btop
+walker
+systemctl status
+walker
+systemctl status
+pkill Telegram
+systemctl status
+Telegram
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+systemctl --user restart elephant<\n>
+btop
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+uwsm-app -- walker --gapplication-service
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+yay
+systemctl status discord
+systemctl status | grep discord
+systemctl status | grep app-Hyprland-discord
+pkill discord
+systemctl status | grep app-Hyprland-discord
+btop
+which will
+which kill
+kill
+gemini
+kill --help
+kill -l
+^kill -l
+man kill
+kill discord
+kill help
+help kill
+gemini
+^ps
+^ps -a
+^ps -al
+^ps -A 
+ps | get name
+ps | get name | to text
+ps | get name | to text | fzf
+ps | where name == $"(ps | get name | to text | fzf)"<\n>
+ps | where name == (ps | get name | to text | fzf)
+print (ps | get name | to text | fzf)
+ps | where name == (ps | get name | to text | fzf) | print $in<\n>
+let procs = (ps); $procs | where name == ($procs | get name | fzf)
+ps | get name | to text | fzf
+ps | ps | get name | to text | fzf
+ps | where name == (ps | get name | to text)
+ps | where name == discord
+ps | where name == "discord"
+ps
+ps | find discord
+btop
+ps | where name == "Discord" | get pid
+ps | find discord | get pid
+ps | find discord
+ps | find "(?i)discord"
+ps | find "Discord"
+ps | find "Discord" | get pid | fzf
+kill -s 9 (ps | find "Discord" | get pid | fzf)
+kill -s 9 (ps | find "Discord" | get pid | to text | fzf)
+ps | where name == (ps | get name | to text | fzf | into int)
+kill -s 9 (ps | find "Discord" | get pid | to text | fzf | into int)
+jrnl
+systemctl status | grep app-Hyprland-discord
+kill -s 9 (ps | find "Discord" | get pid | to text | fzf | into int)
+systemctl status | grep app-Hyprland-discord
+ps | where name == (ps | get name | to text | fzf | into int)
+discord
+ps | where name == (ps | get name | to text | fzf | into int)
+jrnl -n 10
+ps | find "Di"
+ps | find "Dis"
+help find
+ps | find -r "dis"
+ps | find -r "Dis"
+ps | find -r "dis"
+ps | find -r "Dis"
+ps | find -r "dis"
+ps | find -r "(?i)dis"
+ps | find -r "(?i)dis" | get name
+let procs = (ps)<\n>$procs<\n>    | enumerate<\n>    | each { |it| $"($it.index) | ($it.item.name) | pid: ($it.item.pid)" }<\n>    | fzf<\n>    | parse "{index} | {rest}"<\n>    | get index<\n>    | into int<\n>    | get ($procs | get $in)
+ps | find -r "(?i)dis" | get name | to text
+ps | find -r "(?i)dis" | get name | uniq
+ps | find -r "dis" | get name | uniq | to text | fzf
+ps | find -r "dis" | get name | uniq | to text
+ps | find -r "Dis" | get name | uniq | to text
+kill ps | find -r "Dis" | get name | uniq | to text
+kill (ps | find -r "Dis" | get name | uniq | to text)
+ps | find -r "Dis" | get pid 
+ps | find -r "Dis" | get pid | first
+kil Dis
+kil Tel
+kil thun
+ps | find -r dis | to text | uniq | fzf | (ps | where name == $in | get pid | to text)
+ps | find -r dis | uniq | to text | fzf | (ps | where name == $in | get pid | to text)
+let procs = (ps)<\n>let selected_name = ($procs | where name =~ 'dis' | get name | uniq | fzf)<\n>$procs | where name == $selected_name | get pid
+let procs = (ps)<\n>let selected_name = ($procs | where name =~ 'dis' | get name | uniq | to text | fzf)<\n>$procs | where name == $selected_name | get pid
+kil thun
+k
+kil thun
+kil dis
+kil Dis
+git clone https://github.com/c4rlo/runapp.git
+systemctl status | grep app-Hyprland-discord
+which pkill
+kil ;dis
+kil Dis
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+systemctl status | grep app-Hyprland-discord
+systemctl status | grep app-Hyprland-Telegram
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+git clone https://github.com/abenz1267/elephant.git
+{pkill walker<\n>systemctl --user restart elephant<\n>uwsm-app -- walker --gapplication-service} | j
+kil te
+kil Te
+systemctl status | grep app-Hyprland-Telegram
+{sleep 2sec} | j
+{sleep 2sec} | jo
