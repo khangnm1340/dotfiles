@@ -38,6 +38,16 @@ use = "boydaihungst/mediainfo"
 rev = "1099409"
 hash = "77e78e16578e8f5a37475c04d8324619"
 
+[[plugin.deps]]
+use = "Shallow-Seek/fazif"
+rev = "6e10488"
+hash = "c549ff30fb1d1d97c734010fe82f6295"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "eaf6920"
+hash = "5b2eb0cc2050cec1e4de83cfa51a5b90"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
 rev = "8458d25"

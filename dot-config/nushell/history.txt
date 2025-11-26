@@ -8884,3 +8884,46 @@ kil Te
 systemctl status | grep app-Hyprland-Telegram
 {sleep 2sec} | j
 {sleep 2sec} | jo
+{sleep 2sec; sleep 2sec ; sleep 2sec ;sleep 2sec} | jo
+{sleep 2sec<\n>    sleep 2sec <\n>    sleep 2sec <\n>    sleep 2sec} | jo
+ya pkg -a Shallow-Seek/fazif
+ya pkg add Shallow-Seek/fazif
+ya pkg add yazi-rs/plugins:chmod
+ff
+notify hi
+sudo n /etc/hosts
+sudo neovide /etc/hots
+sudo neovide /etc/hosts
+sudoedit /etc/hosts
+sleep 15min ; notify -t "STOP FUCKING SCROLLING" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+sleep 15min ; notify -t "STOP FUCKING SCROLLING" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg | j
+j sleep 15min ; notify -t "STOP FUCKING SCROLLING" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg
+{sleep 15min ; notify -t "STOP FUCKING SCROLLING" --summary "Your time is up." -i /home/Ext4Pam/Pictures/NewjeansPics/112-GeNE7vxWgAAEEa6.jpg}| jo
+kil Te
+systemctl status | grep app-Hyprland-Telegram
+git clone https://github.com/Vladimir-csp/uwsm
+btop
+ps 
+ps | find anti
+ps | find anti | select mem
+ps | find anti | select mem | sum
+btop
+ps | find code-oss | select mem | sum
+ps | find code-oss | select mem
+ps | find anti | select mem | sum
+ps | find anti | select mem
+ps | find anti | select mem | math sum
+help sum
+which sum
+anti
+ps
+f osper
+nvim
+f operating | rg .pdf$ | zathura $in
+nvim '[Hakata Ramen] Parasite (2019) (Korean) [BD 1080p x265].srt'
+nvim DL_REPORT.pdf
+pdftotext "DL_REPORT.pdf"
+nvim DL_REPORT.pdf
+typst watch DL_REPORT.typ
+typst watch gemini_report.typ 
+lazygit

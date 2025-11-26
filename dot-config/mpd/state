@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 0
-time: 18.591
+current: 37
+time: 18.876
 random: 0
 repeat: 1
 single: 0
@@ -12,18 +12,42 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:I_AM_MUSIC/bôa - Twilight/01. Duvet.m4a
-1:I_AM_MUSIC/bôa - Twilight/02. Twilight.m4a
-2:I_AM_MUSIC/bôa - Twilight/03. Fool.m4a
-3:I_AM_MUSIC/bôa - Twilight/04. Rain.m4a
-4:I_AM_MUSIC/bôa - Twilight/05. Elephant.m4a
-5:I_AM_MUSIC/bôa - Twilight/06. Scoring.m4a
-6:I_AM_MUSIC/bôa - Twilight/07. Deeply.m4a
-7:I_AM_MUSIC/bôa - Twilight/08. One Day.m4a
-8:I_AM_MUSIC/bôa - Twilight/09. Welcome.m4a
-9:I_AM_MUSIC/bôa - Twilight/10. For Jasmine.m4a
-10:I_AM_MUSIC/bôa - Twilight/11. Anna Maria.m4a
-11:I_AM_MUSIC/bôa - Twilight/12. Duvet (Acoustic).m4a
-12:I_AM_MUSIC/bôa - Twilight/13. Little Miss.m4a
-13:I_AM_MUSIC/bôa - Twilight/14. Drinking.m4a
+0:can_j_noi_dau_e_oi/NewJeans - How Sweet [Genie]/NewJeans - How Sweet [Genie]/01. How Sweet.flac
+1:can_j_noi_dau_e_oi/NewJeans - How Sweet [Genie]/NewJeans - How Sweet [Genie]/02. Bubble Gum.flac
+2:can_j_noi_dau_e_oi/NewJeans - How Sweet [Genie]/NewJeans - How Sweet [Genie]/03. How Sweet (Inst.).flac
+3:can_j_noi_dau_e_oi/NewJeans - How Sweet [Genie]/NewJeans - How Sweet [Genie]/04. Bubble Gum (Inst.).flac
+4:can_j_noi_dau_e_oi/NewJeans - NJWMX/01. Ditto (250 Remix).m4a
+5:can_j_noi_dau_e_oi/NewJeans - NJWMX/02. OMG (FRNK Remix).m4a
+6:can_j_noi_dau_e_oi/NewJeans - NJWMX/03. Attention (250 Remix).m4a
+7:can_j_noi_dau_e_oi/NewJeans - NJWMX/04. Hype Boy (250 Remix).m4a
+8:can_j_noi_dau_e_oi/NewJeans - NJWMX/05. Cookie (FRNK Remix).m4a
+9:can_j_noi_dau_e_oi/NewJeans - NJWMX/06. Hurt (250 Remix).m4a
+10:can_j_noi_dau_e_oi/NewJeans - NJWMX/07. Ditto (250 Remix) [Alternate].m4a
+11:can_j_noi_dau_e_oi/NewJeans - NJWMX/08. OMG (FRNK Remix) [Alternate].m4a
+12:can_j_noi_dau_e_oi/NewJeans - NJWMX/09. Attention (250 Remix) [Alternate].m4a
+13:can_j_noi_dau_e_oi/NewJeans - NJWMX/10. Hype Boy (250 Remix) [Alternate].m4a
+14:can_j_noi_dau_e_oi/NewJeans - NJWMX/11. Cookie (FRNK Remix) [Alternate].m4a
+15:can_j_noi_dau_e_oi/NewJeans - NJWMX/12. Hurt (250 Remix) [Alternate].m4a
+16:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/01. Supernatural.flac
+17:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/02. Right Now.flac
+18:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/03. Supernatural (Inst.).flac
+19:can_j_noi_dau_e_oi/NewJeans - Supernatural [Genie]/NewJeans - Supernatural [Genie]/04. Right Now (Inst.).flac
+20:I_AM_MUSIC/NewJeans/Collabs/2023 - GODS/01 - League of Legends - GODS.flac
+21:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/01 - NewJeans - Attention.flac
+22:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/02 - NewJeans - Hype Boy.flac
+23:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/03 - NewJeans - Cookie.flac
+24:I_AM_MUSIC/NewJeans/Mini-albums/2022 - NewJeans 1st EP 'New Jeans'/04 - NewJeans - Hurt.flac
+25:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/01 - NewJeans - New Jeans.flac
+26:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/02 - NewJeans - Super Shy.flac
+27:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/03 - NewJeans - ETA.flac
+28:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/04 - NewJeans - Cool With You.flac
+29:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/05 - NewJeans - Get Up.flac
+30:I_AM_MUSIC/NewJeans/Mini-albums/2023 - NewJeans 2nd EP 'Get Up'/06 - NewJeans - ASAP.flac
+31:I_AM_MUSIC/NewJeans/Singles/2023 - A Time Called You (Music from The Netflix Series)/01 - NewJeans - Beautiful Restriction.flac
+32:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/01 - NewJeans - OMG.flac
+33:I_AM_MUSIC/NewJeans/Singles/2023 - NewJeans 'OMG'/02 - NewJeans - Ditto.flac
+34:I_AM_MUSIC/NewJeans/Singles/2023 - Zero/01 - NewJeans - Zero.flac
+35:I_AM_MUSIC/NewJeans/Singles/2023 - Zero (J.I.D Remix)/01 - NewJeans - Zero (J.I.D Remix).flac
+36:vids/newjeans_ditto_(ban_heesoo_videos)-20240902T120256Z-001/02 - NewJeans - Ditto.flac
+37:can_j_noi_dau_e_oi/Lil Uzi Vert - Just Wanna Rock - Single/01. Just Wanna Rock.m4a
 playlist_end

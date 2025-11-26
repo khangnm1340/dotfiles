@@ -3,9 +3,10 @@ inputDevice=alsa_input.pci-0000_00_1f.3.analog-stereo
 
 [StreamOutputs]
 mostUsedPresets=normal stuff,quiet stuff,LoudnessEqualizer
-outputDevice=alsa_output.pci-0000_00_1f.3.analog-stereo
+outputDevice=alsa_output.usb-FiiO_FiiO_BTR5-00.analog-stereo
 plugins=level_meter#0,maximizer#0,limiter#0
-usedPresets=normal stuff:66,LoudnessEqualizer:23,quiet stuff:32
+useDefaultOutputDevice=false
+usedPresets=normal stuff:67,LoudnessEqualizer:24,quiet stuff:32
 visiblePage=pluginsPage
 visiblePlugin=limiter#0
 
