@@ -137,6 +137,7 @@ do
     end
 end
 
+
 -- UI / Colors
 require('tokyonight').setup({
     transparent = not vim.g.neovide,

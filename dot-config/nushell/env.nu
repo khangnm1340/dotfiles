@@ -33,18 +33,22 @@ path add /usr/bin/vendor_perl
 $env._ZO_ECHO = 1
 zoxide init nushell | save -f ~/.zoxide.nu
 # $env.FZF_DEFAULT_COMMAND = 'fd -IL'
-$env.XDG_CACHE_HOME = ($env.HOME)/.cache
+# $env.XDG_CACHE_HOME = ($env.HOME)/.cache
 $env.JUPYTERLAB_DIR = ($env.HOME)/.local/share/jupyter/lab
 $env.LS_COLORS = (vivid generate tokyonight-night)
 # $env.NVIM_APPNAME = "nvim-hanni"
-$env.EMMYLUALS_CONFIG = ($env.HOME)/.config/nvim-hanni/.emmyrc.json
+# $env.EMMYLUALS_CONFIG = ($env.HOME)/.config/nvim-hanni/.emmyrc.json
 $env.ATUIN_NU_HOOK = 'true'
 $env.RIPGREP_CONFIG_PATH = ($env.HOME)/.config/.ripgreprc
+$env.config.completions.algorithm = "fuzzy"
+$env.CARAPACE_ENV = 1
+$env.CARAPACE_EXCLUDES = "yay"
+# $env.QT_SCALE_FACTOR = 1.5
+$env.PASSWORD_STORE_CLIP_TIME = "3"
 
-$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
-
-mkdir ~/.cache/carapace
-carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
-
-#~/.config/nushell/config.nu
-source ~/.cache/carapace/init.nu
+# $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+# mkdir $"($nu.cache-dir)"
+# carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"
+#
+# # ${UserConfigDir}/nushell/config.nu
+source $"($nu.cache-dir)/carapace.nu"

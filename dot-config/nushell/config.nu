@@ -16,13 +16,13 @@
 # You can also pretty-print and page through the documentation for configuration
 # options using:
 #     config nu --doc | nu-highlight | less -R
+
 $env.config = {
 
     edit_mode: vi # emacs, vi
     table: {
         mode: compact # basic, compact, compact_double, light, thin, with_love, rounded, reinforced, heavy, none, other
     }
-
     keybindings: [
       {
             name: quick_cd
@@ -71,7 +71,7 @@ $env.config = {
             mode: [emacs vi_normal vi_insert]
             event: { 
                   send: executehostcommand,
-                  cmd: "commandline edit $'(commandline | str trim --right) \"(fd -I | fzf)\"'" }
+                  cmd: "commandline edit $'(commandline | str trim --right) \"(eza | fzf)\"'" }
       }
       {
             name: fzf_history
@@ -139,11 +139,11 @@ def password [] {
     return
   }
 
-  pass show (
+  pass show -c (
     $sel
     | path relative-to '/home/pampam/.password-store/'
     | str replace --regex '\.gpg$' ''
-  ) | wl-copy
+  )
 }
 
 def count-files [--sum(-s)] {
@@ -212,8 +212,6 @@ let uris = (http get -H {Authorization: $"Bearer ($TOKEN)"} $url)
 
 zotify ...$all
 }
-
-
 
 const NU_PLUGIN_DIRS = [
   ($nu.current-exe | path dirname)

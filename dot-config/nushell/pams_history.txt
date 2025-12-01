@@ -16,3 +16,4 @@
 /run/media/pampam/16a410ba-c683-4f34-9c3d-e972413a2ccd/@home/khang/Documents/things-I-will-migrate.md
 /home/pampam/Documents/pam/1-Rough-Note/xcompose.md
 /home/pampam/.config/hypr/hyprland.conf
+/home/pampam/dotfiles/dot-config/nushell/youtube-backlog.txt

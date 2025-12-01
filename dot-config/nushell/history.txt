@@ -8927,3 +8927,354 @@ nvim DL_REPORT.pdf
 typst watch DL_REPORT.typ
 typst watch gemini_report.typ 
 lazygit
+yay -Qs | fzf
+yay
+rmpc
+jkl https://www.youtube.com/watch?v=c-shpcGOq3A
+jkl https://www.youtube.com/watch?v=bBHM5gmgG-g
+jkl https://youtube.com/shorts/1G1DWfHDrz8?si=_-YogoJxUTNtmejW
+wk https://youtube.com/shorts/nLxeZja7uUU?si=kd6_pygtprwUcsx2
+jkl https://youtube.com/shorts/nLxeZja7uUU?si=kd6_pygtprwUcsx2
+wk https://youtube.com/shorts/nQVE1HOrWMc?si=ap2JTqE7Sm0PLbAO
+jkl https://youtube.com/shorts/nQVE1HOrWMc?si=ap2JTqE7Sm0PLbAO
+gemini
+btop
+/home/pampam/builds
+git clone https://github.com/folke/tokyonight.nvim.git
+f toe
+f toe | rg mp$
+f toe | rg mp4
+/home/Ext4Pam/random_stuff/
+jkl https://youtu.be/azSsMG6h8k0?si=maIF7LOHTv3jQteB
+/run/media/pampam/8A54901E54900ED7
+rg "hi"
+rg "hi" | fzf
+rg "hi" | fzf -m
+rg "fzf" | fzf -m
+jrnl
+jrnl --edit --help
+jrnl --edit
+gemini
+git init
+git add .
+git commit -m "first commit"
+po equalized_4k.parquet | pc
+btop
+po equalized_4k.parquet | psample --shuffle
+po equalized_4k.parquet | polars sample --shuffle 
+help polars sample
+po equalized_4k.parquet | polars sample --seed 1 --n-rows 1
+po equalized_4k.parquet | polars sample --seed 1 --n-rows 10
+po equalized_4k.parquet | polars sample --seed 2 --n-rows 10
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | first
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | polars first
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | pfirst
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | pfirst | get text
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | pfirst | pget text
+ipython
+uv init
+uv add transformers torch safetensors
+uv add transformers torch safetensors accelerate
+uv add ipython ipykernel
+po equalized_4k.parquet | polars sample --seed 3 --n-rows 10 | psave seed-3.csv
+uv run ipython
+uv add pandas tqdm
+uv add protobuf
+uv add sentencepiece
+uv run ipython
+po reviews_with_predictions_roberta.csv | pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 50 | polars as 'truncated_text'<\n>)
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 50 | polars as 'truncated_text'<\n>)<\n>| pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 10 | polars as 'truncated_text'<\n>)<\n>| pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 10 | polars as 'truncated_text'<\n>)<\n>| pselect truncated_text
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 10 | polars as 'truncated_text'<\n>)<\n>| pselect truncated_text | pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 50 | polars as 'truncated_text'<\n>)<\n>| pselect truncated_text | pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pselect truncated_text | pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pdrop text | pc
+jrnl
+jkl https://youtube.com/shorts/NiqDmET3BDc?si=TJK4-HryOpxanjp7
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pdrop text | pc
+uv run ipython
+po reviews_with_predictions_distillbert.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pdrop text | pc
+po reviews_with_predictions_roberta.csv | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pdrop text | pc
+typst compile repro_font.typ
+uv add pyarrow
+let frames = (1..5 | each {|i|<\n>    po equalized_4k.parquet<\n>    | pselect stars text<\n>    | pf ((pcol stars) == (plit $i))<\n>    | psample --n-rows 200 --shuffle<\n>}<\n>| pconcat ...$in<\n>| pc<\n>)<\n><\n>$frames | psave outliers_4k.parquet
+uv run ipython
+po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pc
+po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | polars with-column (<\n>    polars col 'text' | polars str-slice 0 --length 100 | polars as 'truncated_text'<\n>)<\n>| pdrop text | pc
+po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pfirst | pc
+po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc
+po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc<\n><\n>po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)<\n><\n>$lowest | concat $highest
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)<\n><\n>$lowest | append $highest
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)<\n><\n>$lowest | pappend $highest
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)<\n><\n>$lowest | append $highest
+typst watch gemini_report.typ 
+git add .
+git add bao_cao_cuoi_ky_DEEP_LEARNING.typ 
+git commit -m "second commit"
+"Arch Linux" | encode base64
+let arch = ("I use Arch btw" | encode base64)<\n>$arch | decode base64
+let arch = ("I use Arch btw" | encode base64)<\n>$arch | decode utf-8
+let arch = ("I use Arch btw" | encode base64)<\n>$arch | decode base64 | decode utf-8
+jrnl
+f c++
+f c++ | rg pdf$
+/home/Ext4Pam/Pictures/cpp_projects/
+jrnl
+btop
+typst watch gemini_report.typ 
+typst watch DL_REPORT.typ
+typst watch bao_cao_cuoi_ky_DEEP_LEARNING.typ
+/home/pampam/Documents/UTH/MachineLearning/group-project-finals/typst-docs
+/home/pampam/Documents/UTH/MachineLearning/group-project-finals/typst-docs/python_script_to_make_graphs
+uv run python_script_to_make_graphs/btl_graphs.py 
+uv run ipython
+uv add matplotlib
+uv run python_script_to_make_graphs/btl_graphs.py 
+ghostty +list-themes
+let lowest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | pfirst | pc)<\n><\n>let highest = (po reviews_with_predictions_distillbert_full.parquet<\n>| psort-by diff | pselect stars predicted diff text | plast | pc)<\n><\n>$lowest | append $highest
+ghostty +list-themes | fzf
+ghostty +list-themes | wl-copy
+ghostty +list-themes
+jkl https://youtube.com/shorts/J7TUCCTMTYI?si=5XL99CYO6HmbcnTS
+gemini
+lazygit
+gemini
+lazygit
+typst watch practice1.typ 
+n "Training Loss.svg"
+lazygit
+gemini
+typst fonts | fzf
+gemini
+typst compile btl_vietnamese.typ
+typst watch btl_vietnamese.typ
+git init
+git add .
+git commit -m "first commit"
+typst watch practices_vietnamese.typ
+gemini
+lazygit
+typst compile btl_english.typ
+typst compile practices_english.typ
+typst compile btl_vietnamese.typ
+typst watch practices_english.typ
+jrnl
+nhentai
+hyprctl clients
+n /tmp/ED4PVwivbo5qPRC1SqP45w/screen.txt
+n +$ /tmp/ED4PVwivbo5qPRC1SqP45w/screen.txt
+n /tmp/ED4PVwivbo5qPRC1SqP45w/screen.txt
+/tmp/ED4PVwivbo5qPRC1SqP45w/
+tmux
+ls
+hyprctl dispatch sendshortcut alt,\,class:com.mitchellh.ghostty<\n>
+hyprctl dispatch sendshortcut alt,,class:com.mitchellh.ghostty<\n>
+hyprctl dispatch sendshortcut alt,l,class:com.mitchellh.ghostty<\n>
+hyprctl dispatch sendshortcut alt,\\,class:com.mitchellh.ghostty<\n>
+help http
+btop
+http https://thebestmotherfucking.website/
+sudo updatedb
+pacman -Qe
+carapace --list
+carapace --list --all
+carapace --list --all | fzf
+ls
+config env
+f carapace.nu
+touch /home/pampam/.cache/nushell/carapace.nu
+$nu.cache-dir
+ls --full-paths 
+cd
+carapace --list --all 
+carapace _carapace nushell 
+carapace _carapace nushell | bat
+carapace _carapace nushell | bat -l nushell
+carapace _carapace nushell | bat -l nu
+carapace _carapace nushell | bat -l python
+{|spans|<\n>    carapace $spans.0 nushell ...$spans | from json<\n>}
+carapace $spans.0 nushell ...$spans | from json
+carapace
+carapace git nushell git checkout ma
+carapace git nushell git checkout ma | from json
+$env.config.completions.external.enable<\n>
+ls
+yay ouput 
+yay elvish
+ls
+polars all-false 
+set-env carapace.nu
+config nu
+set-env CARAPACE_EXCLUDES "yay"
+kil nu
+kil chrome
+kil heliu
+kil chr
+tmux list-panes 
+config nu
+f carapac
+f carapace.nu
+f carapace
+fd
+ls
+fd -u
+fd
+fd -u
+yay
+yay -Rns hyprsetting-git
+yay -Qe | fzf
+yay -Rns hyprsettings-git
+btop
+ps
+ps | sort-by mem
+ps | sort-by mem | math sum
+math sum
+hlep math sum
+help math sum
+ps | select mem | math sum
+systemctl status | grep app-thunder
+systemctl status | grep thunder
+ps
+ps | sort-by mem
+ps
+qbittorent
+qbittorrent
+$env.QT_SCALE_FACTOR = 1.25
+qbittorrent
+$env.XDG_CACHE_HOME
+$env.QT_SCALE_FACTOR = 1.25
+qutebrowser
+telegram
+Telegram
+kil tele
+kil Tel
+Telegram
+btop
+config nu
+wl-copy --help
+pass show (fd -t f . /home/pampam/.password-store | fzf) | wl-copy -p
+pass show banking/0768725632.gpg | wl-copy -p
+pass show banking/0768725632 | wl-copy -p
+pass show banking/0768725632 | wl-copy
+pass --help
+man pass
+pass show -c banking/0768725632
+man pass
+jrnl
+wk https://x.com/hanakusomanco/status/1994973301438124415
+wk https://x.com/Teeniiola/status/1994639888210432318
+wk https://x.com/pearsonflyjrmcu/status/1995037590630928853
+wk https://x.com/flibbier/status/1994605776258961750
+wk https://x.com/de3dsoul/status/1994752941073592400
+wk https://x.com/CatsFish_ovo/status/1970914462405407077
+wk https://x.com/AniEMPIRE/status/1974594191914389941
+pass generate -f pixiv/ngomkhang135@gmail.com
+wk https://x.com/AniEMPIRE/status/1974594191914389941
+f hoi dong cuu
+f hoi
+f hoi_dong
+lsblk
+sudo mount /dev/nvme0n1p3 /home/pampam/Documents/debug/my-drive
+sudo mount /dev/nvme0n1p8 /home/pampam/Documents/debug/limime-efi
+/home/pampam/Documents/debug/limime-efi/Windows_11_Dell/Pictures/Screenshots/temp/
+jrnl
+cd
+yay -S xorg-xwayland<\n>
+curl -s https://raw.githubusercontent.com/iluvgirlswithglasses/linux-desktop-gremlin/refs/heads/main/install.sh | bash
+./run.sh
+./run.sh rice-shower
+./run.sh hikari
+jrnl
+./run.sh hikari
+./run.sh rice-shower
+./run.sh mambo
+f minecraft
+f minecraft | rg flac
+uv --help
+uv tool --help
+uv help tool
+uv tool list
+pipx list
+zotify spotify:track:7K7E7LKK51PezScgsvVg9Y
+zotify https://open.spotify.com/track/3sbcAG3y97g63yDSVMf38o?si=2bb5785049e24067
+which zotify
+pipx uninstall zotify
+zotify https://open.spotify.com/track/3sbcAG3y97g63yDSVMf38o?si=2bb5785049e24067
+uv tool install spotdown
+which spotdown
+f spotdown
+sudo updatedb
+f spotdown
+f spotdown | rg config.json
+spotdown
+spotdown --help
+uv run spotdown
+uv remove spotdown
+uv tool remove spotdown
+uv tool uninstall spotdown
+pipx install spotdown
+spotdown --help
+f config.json
+f config.json | rg ^config.json$
+f config.json | rg ^(config.json)$
+f config.json | rg ^config.json
+f config.json | merge deep 
+f config.json | rg config.json
+f config.json | rg spotdown
+pipx uninstall spotdown
+git clone https://github.com/Arrowar/spotdown.git<\n>
+uv sync
+uv add requirements.txt
+uv add -r requirements.txt
+uv init
+uv add -r requirements.txt
+uv add spotdown
+uv run run.py 
+uv add zotify
+zotify
+uv tool install zotify
+uv tool install git+https://zotify.xyz/zotify/zotify.git
+uv pip install git+https://zotify.xyz/zotify/zotify.git<\n>
+uv init
+uv venv
+uv pip install git+https://zotify.xyz/zotify/zotify.git<\n>
+overlay use .venv/bin/activate.nu 
+python -m pip install git+https://zotify.xyz/zotify/zotify.git<\n>
+pip install git+https://zotify.xyz/zotify/zotify.git<\n>
+which pip
+which python
+deactivate
+virtualenv .venv
+ovl
+overlay use .venv/bin/activate.nu 
+pip install git+https://zotify.xyz/zotify/zotify.git<\n>
+z
+pipx install https://get.zotify.xyz
+z
+deactivate
+z
+uv tool install git+https://github.com/kokarare1212/librespot-python<\n>
+uv run ipython
+uv tool uninstall git+https://github.com/kokarare1212/librespot-python<\n>
+uv tool uninstall librespot-python<\n>
+uv tool uninstall librespot
+uv list
+uv pip list
+uv tool list
+uv init
+uv sync
+uv add git+https://github.com/kokarare1212/librespot-python
+z
+uv add git+https://github.com/kokarare1212/librespot-python
+uv init
+uv add git+https://github.com/kokarare1212/librespot-python
+uv run
+uv run main.py
+uv add ipython ipykernel
+uv run ipython
+jkl https://youtu.be/JqGCf3Ays_4?si=fHSLS7CCcF-pSYGh

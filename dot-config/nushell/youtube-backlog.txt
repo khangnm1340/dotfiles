@@ -1,0 +1,62 @@
+https://fishshell.com/docs/current/fish_for_bash_users.html
+https://ziglang.org/learn/build-system/
+https://jrnl.sh/en/stable/tips-and-tricks/#visualize-formatted-markdown-in-the-cli
+https://www.reddit.com/r/web_design/comments/9skx1m/im_trying_to_compile_a_list_of_all_the_different/
+https://man.archlinux.org/man/config.5ssl
+https://fransskarman.com/phd_thesis_in_typst.html
+
+
+https://en.wikipedia.org/wiki/Kimagure_Orange_Road#:~:text=Kimagure%20Orange%20Road%20was%20written,42%20on%20September%2028%2C%201987.
+https://wiki.archlinux.org/title/PostgreSQL
+https://wiki.archlinux.org/title/GnuPG#gpg-agent
+https://en.wikipedia.org/wiki/Census
+https://en.wikipedia.org/wiki/Mainframe_computer
+https://wiki.cachyos.org/installation/installation_on_root/#before-you-begin
+https://wiki.archlinux.org/title/Pass
+https://en.wikipedia.org/wiki/Les_Fleurs_du_mal
+
+
+https://www.youtube.com/watch?v=mWAF-BKlj0M [When the villain breaks all the rules.. of being a villain]
+https://www.youtube.com/watch?v=rv3S1HVxwD4 [Your Programming Language Can't Understand You]
+https://www.youtube.com/watch?v=TK-8gfqmFNo [Time words don't mean what you think]
+https://www.youtube.com/watch?v=m_oeMV2E50A [Why You Should Watch Disturbing Horror Movies]
+https://www.youtube.com/watch?v=TGrFMFR6W0I [The All Transparent Gaming Setup]
+https://www.youtube.com/watch?v=-ANpduG6mmg [The Best Keyboard of 2025 (no contest)]
+https://www.youtube.com/watch?v=yB3uidwnAVE [A Measured Defense of Aku no Hana]
+https://www.youtube.com/watch?v=bzBU7iF2Rms [How to Prevent All Memory Leaks]
+
+https://github.com/jarun/buku?tab=readme-ov-file
+https://carapace-sh.github.io/carapace-bin/style.html
+https://github.com/alexpasmantier/television
+https://github.com/folke/snacks.nvim
+https://github.com/nvim-mini/mini.nvim
+https://github.com/basecamp/omarchy/releases
+https://github.com/nvim-mini/mini.pick
+https://github.com/Vladimir-csp/uwsm
+https://github.com/jetify-com/devbox
+https://github.com/hagezi/dns-blocklists
+https://github.com/jarun/buku?tab=readme-ov-file
+https://carapace-sh.github.io/carapace-bin/style.html
+https://github.com/alexpasmantier/television
+https://github.com/folke/snacks.nvim
+https://github.com/nvim-mini/mini.nvim
+https://github.com/basecamp/omarchy/releases
+https://github.com/nvim-mini/mini.pick
+https://github.com/Vladimir-csp/uwsm
+https://github.com/jetify-com/devbox
+https://github.com/hagezi/dns-blocklists
+
+
+
+# helium
+https://www.youtube.com/watch?v=jI9EkVb_rHQ [The MF DOOM Iceberg Explained]
+https://www.youtube.com/watch?v=0StsyLQR4fM [Trying out Niri for the first time]
+https://www.youtube.com/watch?v=gqwkG4W5Xm0 [i went to the dubai they try to hide]
+https://www.youtube.com/watch?v=4_bYUVGgQQo [The modern web sucks. My band's website doesn't.]
+https://www.youtube.com/watch?v=VRjgNgJms3Q [ChatGPT made me delusional]
+https://www.youtube.com/watch?v=58keGuLyLV8 [Linus Torvalds, Communism, & The WEF]
+https://www.youtube.com/watch?v=ZjdfsvpcODg [stop hiring awkwafina and bring back real voice actors 🐦]
+https://www.youtube.com/watch?v=c6I1cVbsiYk [Nguyen Huu Tri: reason school matters most for kids 🎓 #parenting]
+
+https://yazi-rs.github.io/docs/resources/?utm_source=chatgpt.com
+
